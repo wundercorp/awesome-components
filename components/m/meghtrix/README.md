@@ -1,6 +1,6 @@
 # Meghtrix Components
 
-106 components are available in this author group.
+125 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -112,3 +112,22 @@
 | [![Grid Background](grid-background/diagonal-grid-electric/screenshot.png)](grid-background/diagonal-grid-electric/README.md) | [Grid Background](grid-background/diagonal-grid-electric/README.md) | `diagonal-grid-electric` |
 | [![Grid Background](grid-background/diagonal-grid-green/screenshot.png)](grid-background/diagonal-grid-green/README.md) | [Grid Background](grid-background/diagonal-grid-green/README.md) | `diagonal-grid-green` |
 | [![Grid Background](grid-background/diagonal-grid-synthwave/screenshot.png)](grid-background/diagonal-grid-synthwave/README.md) | [Grid Background](grid-background/diagonal-grid-synthwave/README.md) | `diagonal-grid-synthwave` |
+| [![Grid Background](grid-background/gradient-left-diagonal-lines/screenshot.png)](grid-background/gradient-left-diagonal-lines/README.md) | [Grid Background](grid-background/gradient-left-diagonal-lines/README.md) | `gradient-left-diagonal-lines` |
+| [![Grid Background](grid-background/gradient-right-diagonal-lines/screenshot.png)](grid-background/gradient-right-diagonal-lines/README.md) | [Grid Background](grid-background/gradient-right-diagonal-lines/README.md) | `gradient-right-diagonal-lines` |
+| [![Grid Background](grid-background/hexagonal-lights/screenshot.png)](grid-background/hexagonal-lights/README.md) | [Grid Background](grid-background/hexagonal-lights/README.md) | `hexagonal-lights` |
+| [![Grid Background](grid-background/magneta-orb-grid/screenshot.png)](grid-background/magneta-orb-grid/README.md) | [Grid Background](grid-background/magneta-orb-grid/README.md) | `magneta-orb-grid` |
+| [![Grid Background](grid-background/matrix-green/screenshot.png)](grid-background/matrix-green/README.md) | [Grid Background](grid-background/matrix-green/README.md) | `matrix-green` |
+| [![Grid Background](grid-background/neon-vertical-lines/screenshot.png)](grid-background/neon-vertical-lines/README.md) | [Grid Background](grid-background/neon-vertical-lines/README.md) | `neon-vertical-lines` |
+| [![Grid Background](grid-background/pixel-grid-pattern/screenshot.png)](grid-background/pixel-grid-pattern/README.md) | [Grid Background](grid-background/pixel-grid-pattern/README.md) | `pixel-grid-pattern` |
+| [![Grid Background](grid-background/small-grid/screenshot.png)](grid-background/small-grid/README.md) | [Grid Background](grid-background/small-grid/README.md) | `small-grid` |
+| [![Grid Background](grid-background/vercel-grid-subtle/screenshot.png)](grid-background/vercel-grid-subtle/README.md) | [Grid Background](grid-background/vercel-grid-subtle/README.md) | `vercel-grid-subtle` |
+| [![Radial Glow Background](radial-glow-background/blue-radial-glow-bg/screenshot.png)](radial-glow-background/blue-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/blue-radial-glow-bg/README.md) | `blue-radial-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/brown-radial-glow-bg/screenshot.png)](radial-glow-background/brown-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/brown-radial-glow-bg/README.md) | `brown-radial-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/dark-green-glow-bg/screenshot.png)](radial-glow-background/dark-green-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/dark-green-glow-bg/README.md) | `dark-green-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/default/screenshot.png)](radial-glow-background/default/README.md) | [Radial Glow Background](radial-glow-background/default/README.md) | `default` |
+| [![Radial Glow Background](radial-glow-background/emerald-radial-glow-bg/screenshot.png)](radial-glow-background/emerald-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/emerald-radial-glow-bg/README.md) | `emerald-radial-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/glow-radial-glow-bg/screenshot.png)](radial-glow-background/glow-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/glow-radial-glow-bg/README.md) | `glow-radial-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/green-radial-glow-bg/screenshot.png)](radial-glow-background/green-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/green-radial-glow-bg/README.md) | `green-radial-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/magneto-radial-glow-bg/screenshot.png)](radial-glow-background/magneto-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/magneto-radial-glow-bg/README.md) | `magneto-radial-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/purple-radial-glow-bg/screenshot.png)](radial-glow-background/purple-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/purple-radial-glow-bg/README.md) | `purple-radial-glow-bg` |
+| [![Radial Glow Background](radial-glow-background/red-radial-glow-bg/screenshot.png)](radial-glow-background/red-radial-glow-bg/README.md) | [Radial Glow Background](radial-glow-background/red-radial-glow-bg/README.md) | `red-radial-glow-bg` |
