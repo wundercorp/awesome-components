@@ -1,0 +1,67 @@
+# Build Markdown in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Markdown screenshot](screenshot.png)
+
+## Component
+
+- Author group: `community`
+- Component: `markdown`
+- Variant: `streaming`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: BuilderStudio
+- Component slug: markdown
+- Demo slug: streaming
+- Title: markdown
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="min-h-screen w-full flex items-center justify-center p-6 bg-white dark:bg-neutral-950"><div class="w-full max-w-md space-y-2"><div class="flex items-center justify-between"><div class="text-xs text-neutral-500 dark:text-neutral-400">Streaming...</div><button type="button" class="text-xs px-2 py-1 rounded-md border border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-900 hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors text-neutral-700 dark:text-neutral-300">Replay</button></div><div class="an-markdown break-words"><h3 class="text-sm font-semibold mt-2 mb-1 text-neutral-900 dark:text-neutral-50" node="[object Object]">Working plan</h3>
+<ul class="list-disc list-outside space-y-0.5 text-sm mb-2 pl-4 text-neutral-700 dark:text-neutral-300" node="[object Object]">
+<li class="text-sm pl-0.5 text-neutral-700 dark:text-neutral-300" node="[object Object]">Parse input context</li>
+<li class="text-sm pl-0.5 text-neutral-700 dark:text-neutral-300" node="[object Object]">Extract constraints</li>
+<li class="text-sm pl-0.5 text-neutral-700 dark:text-neutral-300" node="[object Object]">Draft outline</li>
+</ul>
+<h4 class="text-sm font-medium mt-2 mb-1 text-neutral-900 dark:text-neutral-50" node="[object Object]">Draft</h4>
+<p class="text-sm leading-relaxed mb-2 text-neutral-700 dark:text-neutral-300" node="[object Object]">We will deliver a tight summary, then provide supporting details.</p>
+<pre class="my-3 p-3 rounded-[10px] border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-950 overflow-x-auto text-xs font-mono text-neutral-800 dark:text-neutral-200" node="[object Object]"><code class="language-ts" node="[object Object]">const steps = ["parse", "outline", "draft"];
+</code></pre>
+<div class="overflow-x-auto my-3 border border-neutral-200 dark:border-neutral-800 rounded-[10px]"><table class="w-full text-sm" node="[object Object]"><thead class="bg-neutral-100 dark:bg-neutral-900" node="[object Object]"><tr><th class="text-left font-medium px-3 py-2 text-neutral-900 dark:text-neutral-50" node="[object Object]">Step</th><th class="text-left font-medium px-3 py-2 text-neutral-900 dark:text-neutral-50" node="[object Object]">Status</th></tr></thead></table></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

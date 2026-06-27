@@ -1,0 +1,57 @@
+# Build Question Tool in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Question Tool screenshot](screenshot.png)
+
+## Component
+
+- Author group: `community`
+- Component: `question-tool`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: BuilderStudio
+- Component slug: question-tool
+- Demo slug: default
+- Title: question-tool
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="min-h-screen w-full flex items-center justify-center p-6 bg-white dark:bg-neutral-950"><div class="w-full max-w-[420px]"><div class="rounded-[10px] border border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900 overflow-hidden"><div class="h-7 border-b border-neutral-200 dark:border-neutral-800 px-3 flex items-center justify-between text-xs text-neutral-500 dark:text-neutral-400"><div class="inline-flex items-center gap-1.5"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20l1.3 -3.9a9 9 0 1 1 3.4 2.9z"></path><path d="M12 16v.01"></path><path d="M12 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483"></path></svg>Question</div><div class="inline-flex items-center gap-1"><button type="button" disabled="" class="size-5 inline-flex items-center justify-center rounded-[4px] hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-40" aria-label="Previous question"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 15l6 -6l6 6"></path></svg></button><span>1 of 2</span><button type="button" class="size-5 inline-flex items-center justify-center rounded-[4px] hover:bg-neutral-100 dark:hover:bg-neutral-800 disabled:opacity-40" aria-label="Next question"><svg class="w-3.5 h-3.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6l6 -6"></path></svg></button></div></div><div class="px-3 py-2 space-y-2 bg-white dark:bg-neutral-950"><div class="flex items-center justify-between gap-px"><div class="flex items-center gap-2 text-sm text-neutral-900 dark:text-neutral-100"><span class="h-5 min-w-5 px-1 rounded-[4px] inline-flex items-center justify-center text-sm font-medium text-neutral-500 dark:text-neutral-400">1</span><span>Which direction should I take?</span></div></div><div class="space-y-px"><button type="button" class="w-full text-left rounded-md px-2 py-1.5 flex items-center gap-2 -mx-2 hover:bg-neutral-100 dark:hover:bg-neutral-800"><span class="h-5 min-w-5 px-1 rounded-[4px] inline-flex items-center justify-center text-sm font-medium border bg-transparent text-neutral-500 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700">A</span><span class="text-sm text-neutral-900 dark:text-neutral-100">Small patch</span></button><button type="button" class="w-full text-left rounded-md px-2 py-1.5 flex items-center gap-2 -mx-2 hover:bg-neutral-100 dark:hover:bg-neutral-800"><span class="h-5 min-w-5 px-1 rounded-[4px] inline-flex items-center justify-center text-sm font-medium border bg-transparent text-neutral-500 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700">B</span><span class="text-sm text-neutral-900 dark:text-neutral-100">Full refactor</span></button><div class="pt-1 flex items-center gap-2"><span class="h-5 min-w-5 px-1 rounded-[4px] inline-flex items-center justify-center text-sm font-medium border bg-transparent text-neutral-500 dark:text-neutral-400 border-neutral-200 dark:border-neutral-700">C</span><input placeholder="Type your answer" class="w-full h-7 rounded-md border border-neutral-200 dark:border-neutral-700 bg-white dark:bg-neutral-950 px-2 text-sm text-neutral-900 dark:text-neutral-100 outline-none focus:border-neutral-400 dark:focus:border-neutral-500" value=""></div></div><div class="flex items-center gap-1.5 justify-end"><div class="flex items-center justify-end gap-1.5"><button type="button" class="h-6 px-2 rounded-[4px] text-sm text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 hover:bg-neutral-100 dark:hover:bg-neutral-800 active:scale-[0.98] transition-[background-color,color,transform] duration-150">Skip</button><button type="button" disabled="" class="h-6 px-2.5 rounded-[4px] text-sm font-medium bg-blue-500 text-white dark:bg-blue-400 dark:text-neutral-950 hover:bg-blue-600 dark:hover:bg-blue-300 active:scale-[0.98] transition-[background-color,transform] duration-150 disabled:opacity-60 disabled:hover:bg-blue-500 dark:disabled:hover:bg-blue-400 disabled:active:scale-100">Next</button></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

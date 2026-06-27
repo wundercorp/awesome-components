@@ -1,0 +1,57 @@
+# Build Morphing Input in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Morphing Input screenshot](screenshot.png)
+
+## Component
+
+- Author group: `0xurvish`
+- Component: `morphing-input`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: 0xUrvish
+- Component slug: morphing-input
+- Demo slug: default
+- Title: morphing-input
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center w-full min-h-screen bg-background p-8"><div class="bg-muted w-full max-w-sm py-1 flex justify-center items-center rounded-full px-1"><button class="bg-background p-2.5 px-2.5 rounded-full flex items-center justify-center gap-1.5 transition-colors overflow-hidden cursor-default shadow-sm" tabindex="0"><div class="flex items-center justify-center gap-1" style="filter: blur(0px); opacity: 1;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="currentColor" class="w-5 h-5 text-foreground"><path d="M15 2L15.5387 4.39157C15.9957 6.42015 17.5798 8.00431 19.6084 8.46127L22 9L19.6084 9.53873C17.5798 9.99569 15.9957 11.5798 15.5387 13.6084L15 16L14.4613 13.6084C14.0043 11.5798 12.4202 9.99569 10.3916 9.53873L8 9L10.3916 8.46127C12.4201 8.00431 14.0043 6.42015 14.4613 4.39158L15 2Z" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"></path><path d="M7 12L7.38481 13.7083C7.71121 15.1572 8.84275 16.2888 10.2917 16.6152L12 17L10.2917 17.3848C8.84275 17.7112 7.71121 18.8427 7.38481 20.2917L7 22L6.61519 20.2917C6.28879 18.8427 5.15725 17.7112 3.70827 17.3848L2 17L3.70827 16.6152C5.15725 16.2888 6.28879 15.1573 6.61519 13.7083L7 12Z" stroke="currentColor" stroke-linejoin="round" stroke-width="1.5"></path></svg></div><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="currentColor" class="w-3 h-3 text-muted-foreground"><path d="M10.3483 10H13.6517C15.6822 10 16.6974 10 16.9501 9.39139C17.2028 8.78277 16.4849 8.06648 15.0491 6.63391L13.3974 4.9859L13.3974 4.9859C12.7387 4.32863 12.4093 4 12 4C11.5907 4 11.2613 4.32864 10.6026 4.9859L8.95091 6.63391L8.95091 6.63391C7.51513 8.06649 6.79724 8.78277 7.0499 9.39139C7.30256 10 8.31781 10 10.3483 10Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M10.3483 14H13.6517C15.6822 14 16.6974 14 16.9501 14.6086C17.2028 15.2172 16.4849 15.9335 15.0491 17.3661L13.3974 19.0141C12.7387 19.6714 12.4093 20 12 20C11.5907 20 11.2613 19.6714 10.6026 19.0141L8.95091 17.3661C7.51513 15.9335 6.79724 15.2172 7.0499 14.6086C7.30256 14 8.31781 14 10.3483 14Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button><div class="flex-1 relative min-w-0"><div class="absolute left-0 top-0 w-full h-full flex items-center pointer-events-none pl-1.5 bg-transparent overflow-hidden"><div class="text-sm text-muted-foreground whitespace-nowrap"><span class="inline-flex overflow-hidden"><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">S</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">e</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">a</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">r</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">c</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">h</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">&nbsp;</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">a</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">n</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">y</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">t</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">h</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">i</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">n</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">g</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">.</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">.</span><span class="inline-block" style="will-change: transform; opacity: 1; filter: blur(0px); transform: none;">.</span></span></div></div><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 md:text-sm !border-0 outline-none border-none bg-transparent! m-0 !pl-1.5 text-sm focus-visible:ring-0 focus-visible:ring-offset-0 text-foreground" type="text" value=""></div><button class="bg-background py-2.5 px-3 rounded-full flex shadow-sm items-center justify-center self-stretch cursor-pointer active:scale-95 transition-transform ease-in-out duration-150"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" color="currentColor" class="h-4 w-4 text-foreground"><path d="M18.5 12L4.99997 12" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path><path d="M13 18C13 18 19 13.5811 19 12C19 10.4188 13 6 13 6" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"></path></svg></button></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

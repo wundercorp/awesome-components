@@ -1,0 +1,24 @@
+{
+  "name": "awesome-components",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A BuilderStudio component prompt directory.",
+  "type": "module",
+  "scripts": {
+    "import": "node scripts/import-generated-components.mjs --input generated-components --out .",
+    "validate": "node scripts/validate-directory.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wundercorp/awesome-components.git"
+  },
+  "keywords": [
+    "builderstudio",
+    "components",
+    "react",
+    "typescript",
+    "tailwind",
+    "agentic-ide"
+  ],
+  "license": "MIT"
+}

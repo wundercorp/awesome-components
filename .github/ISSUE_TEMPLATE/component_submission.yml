@@ -1,0 +1,31 @@
+name: Component submission
+description: Submit a new component prompt or improve an existing one
+title: "Component: "
+labels: [component]
+body:
+  - type: input
+    id: component-name
+    attributes:
+      label: Component name
+      placeholder: Pricing card
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Describe what this component does and where it is useful.
+    validations:
+      required: true
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: List packages, CSS, assets, or runtime requirements.
+  - type: textarea
+    id: rights
+    attributes:
+      label: Rights confirmation
+      description: Confirm that you have the right to contribute this component material.
+    validations:
+      required: true

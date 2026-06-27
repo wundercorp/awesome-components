@@ -1,0 +1,59 @@
+# Build Plan Tool in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Plan Tool screenshot](screenshot.png)
+
+## Component
+
+- Author group: `community`
+- Component: `plan-tool`
+- Variant: `pending-update`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: BuilderStudio
+- Component slug: plan-tool
+- Demo slug: pending-update
+- Title: plan-tool
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex items-center justify-center w-full min-h-screen bg-background p-8 overflow-hidden"><div class="w-full max-w-md"><div class="rounded-[10px] border border-neutral-200 dark:border-neutral-800 bg-neutral-100 dark:bg-neutral-900 overflow-hidden"><div class="h-7 pl-3 pr-2.5 flex items-center justify-between"><div class="min-w-0 flex items-center gap-1"><svg class="animate-spin w-3 h-3 text-neutral-500 dark:text-neutral-400 shrink-0" viewBox="0 0 16 16" fill="none" aria-hidden="true"><circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5" stroke-dasharray="28" stroke-dashoffset="7" stroke-linecap="round"></circle></svg><span class="text-xs text-neutral-500 dark:text-neutral-400 truncate">plan-plan-4.md</span></div><button type="button" aria-label="Expand plan" class="size-5 inline-flex items-center justify-center text-neutral-500 dark:text-neutral-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-chevrons-down w-3.5 h-3.5"><path d="M7 7l5 5l5 -5"></path><path d="M7 13l5 5l5 -5"></path></svg></button></div><div class="border-t border-neutral-200 dark:border-neutral-800 bg-white dark:bg-neutral-950 pt-2"><div class="space-y-1.5"><div class="text-sm text-neutral-900 dark:text-neutral-100 px-3">Expand tool docs</div><div class="relative"><div class="px-3 text-sm text-neutral-500 dark:text-neutral-400 whitespace-pre-wrap max-h-[94px] overflow-hidden">Drafting a fuller documentation plan with rationale, edge cases, and expected outcomes per section.
+
+This update extends examples with realistic payloads, richer summaries, and clearer before/after intent so readers can copy patterns directly.</div><div class="absolute inset-x-0 bottom-0 h-16 pb-2 pl-3.5 pr-2"><div class="absolute inset-x-0 bottom-0 h-full w-full bg-gradient-to-b from-transparent to-white dark:to-neutral-950"></div><div class="h-full flex items-end justify-between relative"><button type="button" class="-mx-2 h-5 px-1.5 rounded-[4px] text-xs text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100">Read detailed plan</button><button type="button" class="h-5 px-1.5 rounded-[4px] text-xs font-medium bg-blue-500 dark:bg-blue-400 text-white dark:text-neutral-950 hover:bg-blue-500/90 dark:hover:bg-blue-400/90 active:scale-[0.98] transition-[background-color,transform] duration-150">Approve</button></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
