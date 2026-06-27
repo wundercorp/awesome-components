@@ -1,0 +1,57 @@
+# Build Sign In in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Sign In screenshot](screenshot.png)
+
+## Component
+
+- Author group: `muditgoel1512`
+- Component: `sign-in`
+- Variant: `sign-in`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: muditgoel1512
+- Component slug: sign-in
+- Demo slug: sign-in
+- Title: sign-in
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="flex items-center justify-center min-h-screen bg-gray-100"><div class="min-h-screen w-full transition-colors duration-300 bg-[#e8f4ef]"><div class="flex min-h-screen items-center justify-center p-4 md:p-0"><div class="w-full max-w-6xl overflow-hidden rounded-2xl transition-all duration-500 bg-white shadow-xl shadow-gray-200 opacity-100 scale-100"><button class="absolute right-4 top-4 rounded-full p-2 transition-colors z-10 bg-gray-100 text-gray-600 hover:bg-gray-200" aria-label="Toggle theme"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg></button><div class="flex flex-col md:flex-row"><div class="hidden md:block w-full md:w-3/5 bg-gray-100 p-6 animate-fade-in"><div class="grid grid-cols-2 grid-rows-3 gap-4 h-full overflow-hidden"><div class="overflow-hidden rounded-xl"><img alt="Person working" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d" style="opacity: 0.9;"></div><div class="rounded-xl flex flex-col justify-center items-center p-6 text-white bg-orange-500" style="transform: translateY(0px); opacity: 1; transition: transform 0.6s ease-out 0.2s, opacity 0.6s ease-out;"><h2 class="text-5xl font-bold mb-2">41%</h2><p class="text-center text-sm">of recruiters say entry-level positions are the hardest to fill.</p></div><div class="overflow-hidden rounded-xl"><img alt="Person at computer" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" style="opacity: 0.9;"></div><div class="overflow-hidden rounded-xl"><img alt="Office space" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81" style="opacity: 0.9;"></div><div class="rounded-xl flex flex-col justify-center items-center p-6 text-white bg-green-500" style="transform: translateY(0px); opacity: 1; transition: transform 0.6s ease-out 0.4s, opacity 0.6s ease-out;"><h2 class="text-5xl font-bold mb-2">76%</h2><p class="text-center text-sm">of hiring managers admit attracting the right job candidates is their greatest challenge.</p></div><div class="overflow-hidden rounded-xl"><img alt="Desk setup" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1498050108023-c5249f4df085" style="opacity: 0.9;"></div></div></div><div class="w-full md:w-2/5 p-8 md:p-12 bg-white text-gray-900" style="transform: translateX(0px); opacity: 1; transition: transform 0.6s ease-out, opacity 0.6s ease-out;"><div class="flex justify-end mb-6"><p class="text-sm text-gray-600">Don't have an account?<a href="#" class="ml-1 font-medium text-blue-600 hover:text-blue-500">Sign up</a></p></div><div class="mb-8"><h1 class="text-2xl font-bold mb-1 text-gray-900">Sign in to <span class="text-blue-500">Jobsly</span></h1><p class="text-sm text-gray-600">Welcome to Jobsly, please enter your login details below to using the app.</p></div><form class="space-y-6"><div class="space-y-1"><label for="email" class="block text-sm font-medium text-gray-700">Email Address</label><div class="relative rounded-md shadow-sm transition-all duration-300"><input id="email" class="block w-full rounded-md border py-3 px-4 focus:outline-none focus:ring-2 sm:text-sm bg-white border-gray-300 text-gray-900 placeholder:text-gray-400 focus:ring-blue-500" placeholder="your.email@example.com" required="" type="email" value="" name="email"></div></div><div class="space-y-1"><label for="password" class="block text-sm font-medium text-gray-700">Password</label><div class="relative rounded-md shadow-sm transition-all duration-300"><input id="password" class="block w-full rounded-md border py-3 px-4 pr-10 focus:outline-none focus:ring-2 sm:text-sm bg-white border-gray-300 text-gray-900 placeholder:text-gray-400 focus:ring-blue-500" placeholder="••••••••" required="" type="password" value="" name="password"><button type="button" class="absolute inset-y-0 right-0 flex items-center pr-3 text-gray-500"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye hover:text-gray-700 transition-colors" aria-hidden="true"><path d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0"></path><circle cx="12" cy="12" r="3"></circle></svg></button></div></div><div class="flex justify-end"><a href="#" class="text-sm font-medium text-blue-500 hover:text-blue-600">Forgot the password?</a></div><button type="submit" class="flex w-full justify-center rounded-md py-3 px-4 text-sm font-semibold text-white shadow-sm transition-all duration-300 bg-blue-600 hover:bg-blue-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 "><span class="flex items-center justify-center">Login</span></button><div class="relative flex items-center py-2"><div class="flex-grow border-t border-gray-300"></div><span class="flex-shrink mx-4 text-sm text-gray-500">OR</span><div class="flex-grow border-t border-gray-300"></div></div><button type="button" class="flex w-full items-center justify-center gap-2 rounded-md py-3 px-4 text-sm font-medium transition-colors border border-gray-300 bg-white text-gray-700 hover:bg-gray-50"><svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"></path><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"></path><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"></path><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"></path><path d="M1 1h22v22H1z" fill="none"></path></svg>Sign in with Google</button></form></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

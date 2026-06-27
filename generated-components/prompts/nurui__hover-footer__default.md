@@ -1,0 +1,48 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/nurui/hover-footer/default
+- Registry URL: https://21st.dev/r/nurui/hover-footer
+- Author: nurui
+- Component slug: hover-footer
+- Demo slug: default
+- Title: hover-footer
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/nurui/hover-footer with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/nurui__hover-footer__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/nurui__hover-footer__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><footer class="bg-[#0F0F11]/10 relative h-fit rounded-3xl overflow-hidden m-8"><div class="max-w-7xl mx-auto p-14 z-40 relative"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 md:gap-8 lg:gap-16 pb-12"><div class="flex flex-col space-y-4"><div class="flex items-center space-x-2"><span class="text-[#3ca2fa] text-3xl font-extrabold">♥</span><span class="text-white text-3xl font-bold">Nur/ui</span></div><p class="text-sm leading-relaxed">Nur UI is a modern React and Next.js based UI component library.</p></div><div><h4 class="text-white text-lg font-semibold mb-6">About Us</h4><ul class="space-y-3"><li class="relative"><a href="#" class="hover:text-[#3ca2fa] transition-colors">Company History</a></li><li class="relative"><a href="#" class="hover:text-[#3ca2fa] transition-colors">Meet the Team</a></li><li class="relative"><a href="#" class="hover:text-[#3ca2fa] transition-colors">Employee Handbook</a></li><li class="relative"><a href="#" class="hover:text-[#3ca2fa] transition-colors">Careers</a></li></ul></div><div><h4 class="text-white text-lg font-semibold mb-6">Helpful Links</h4><ul class="space-y-3"><li class="relative"><a href="#" class="hover:text-[#3ca2fa] transition-colors">FAQs</a></li><li class="relative"><a href="#" class="hover:text-[#3ca2fa] transition-colors">Support</a></li><li class="relative"><a href="#" class="hover:text-[#3ca2fa] transition-colors">Live Chat</a><span class="absolute top-0 right-[-10px] w-2 h-2 rounded-full bg-[#3ca2fa] animate-pulse"></span></li></ul></div><div><h4 class="text-white text-lg font-semibold mb-6">Contact Us</h4><ul class="space-y-4"><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail text-[#3ca2fa]" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><a href="mailto:hello@nurui.com" class="hover:text-[#3ca2fa] transition-colors">hello@nurui.com</a></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone text-[#3ca2fa]" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg><a href="tel:+918637373116" class="hover:text-[#3ca2fa] transition-colors">+91 86373 73116</a></li><li class="flex items-center space-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin text-[#3ca2fa]" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span class="hover:text-[#3ca2fa] transition-colors">Sylhet, Bangladesh</span></li></ul></div></div><hr class="border-t border-gray-700 my-8"><div class="flex flex-col md:flex-row justify-between items-center text-sm space-y-4 md:space-y-0"><div class="flex space-x-6 text-gray-400"><a href="#" aria-label="Facebook" class="hover:text-[#3ca2fa] transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook" aria-hidden="true"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg></a><a href="#" aria-label="Instagram" class="hover:text-[#3ca2fa] transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a><a href="#" aria-label="Twitter" class="hover:text-[#3ca2fa] transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a><a href="#" aria-label="Dribbble" class="hover:text-[#3ca2fa] transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dribbble" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M19.13 5.09C15.22 9.14 10 10.44 2.25 10.94"></path><path d="M21.75 12.84c-6.62-1.41-12.14 1-16.38 6.32"></path><path d="M8.56 2.75c4.37 6 6 9.42 8 17.72"></path></svg></a><a href="#" aria-label="Globe" class="hover:text-[#3ca2fa] transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></a></div><p class="text-center md:text-left">© 2026 Nurui. All rights reserved.</p></div></div><div class="lg:flex hidden h-[30rem] -mt-52 -mb-36"><svg width="100%" height="100%" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg" class="select-none uppercase cursor-pointer z-50"><defs><linearGradient id="textGradient" gradientUnits="userSpaceOnUse" cx="50%" cy="50%" r="25%"></linearGradient><radialGradient id="revealMask" gradientUnits="userSpaceOnUse" r="20%" cx="NaN%" cy="NaN%"><stop offset="0%" stop-color="white"></stop><stop offset="100%" stop-color="black"></stop></radialGradient><mask id="textMask"><rect x="0" y="0" width="100%" height="100%" fill="url(#revealMask)"></rect></mask></defs><text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" stroke-width="0.3" class="fill-transparent stroke-neutral-200 font-[helvetica] text-7xl font-bold dark:stroke-neutral-800" style="opacity: 0;">Nurui</text><text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" stroke-width="0.3" class="fill-transparent stroke-[#3ca2fa] font-[helvetica] text-7xl font-bold 
+        dark:stroke-[#3ca2fa99]" stroke-dashoffset="0" stroke-dasharray="1000">Nurui</text><text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" stroke="url(#textGradient)" stroke-width="0.3" mask="url(#textMask)" class="fill-transparent font-[helvetica] text-7xl font-bold">Nurui</text></svg></div><div class="absolute inset-0 z-0" style="background: radial-gradient(125% 125% at 50% 10%, rgba(15, 15, 17, 0.4) 50%, rgba(60, 162, 250, 0.2) 100%);"></div></footer></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

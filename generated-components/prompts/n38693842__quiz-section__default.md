@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/n38693842/quiz-section/default
+- Registry URL: https://21st.dev/r/n38693842/quiz-section
+- Author: n38693842
+- Component slug: quiz-section
+- Demo slug: default
+- Title: quiz-section
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/n38693842/quiz-section with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/n38693842__quiz-section__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/n38693842__quiz-section__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen bg-gradient-to-br from-slate-50 via-white to-blue-50/5 dark:from-slate-900 dark:via-slate-800/90 dark:to-blue-900/10 flex items-center justify-center p-4"><div class="w-full max-w-3xl mx-auto shadow-xl dark:shadow-2xl border border-slate-200 dark:border-slate-700/50 bg-white dark:bg-slate-800/95 rounded-lg"><div class="p-6"><div class="flex justify-between items-center mb-6"><div class="text-sm text-slate-600 dark:text-slate-400 font-medium">Question 1 of 5</div><div class="text-sm text-slate-600 dark:text-slate-400 font-medium">Score: 0/0</div></div><div class="mb-8"><div class="flex justify-between items-center mb-4"><div class="flex flex-col items-center space-y-2"><div class="relative transition-all duration-500 animate-bounce"><svg class="w-8 h-8 transition-all duration-300 text-blue-600 animate-pulse" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg></div><div class="text-xs text-slate-600 dark:text-slate-400">1</div></div><div class="flex flex-col items-center space-y-2"><div class="relative transition-all duration-500 "><svg class="w-8 h-8 transition-all duration-300 text-slate-400/40 dark:text-slate-600/30" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg></div><div class="text-xs text-slate-600 dark:text-slate-400">2</div></div><div class="flex flex-col items-center space-y-2"><div class="relative transition-all duration-500 "><svg class="w-8 h-8 transition-all duration-300 text-slate-400/40 dark:text-slate-600/30" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg></div><div class="text-xs text-slate-600 dark:text-slate-400">3</div></div><div class="flex flex-col items-center space-y-2"><div class="relative transition-all duration-500 "><svg class="w-8 h-8 transition-all duration-300 text-slate-400/40 dark:text-slate-600/30" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg></div><div class="text-xs text-slate-600 dark:text-slate-400">4</div></div><div class="flex flex-col items-center space-y-2"><div class="relative transition-all duration-500 "><svg class="w-8 h-8 transition-all duration-300 text-slate-400/40 dark:text-slate-600/30" fill="currentColor" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg></div><div class="text-xs text-slate-600 dark:text-slate-400">5</div></div></div><div class="w-full bg-slate-200 dark:bg-slate-700/50 rounded-full h-3 overflow-hidden"><div class="bg-gradient-to-r from-blue-600 to-purple-600 dark:from-blue-500 dark:to-purple-500 h-3 rounded-full transition-all duration-700 ease-out shadow-sm" style="width: 0%;"></div></div></div><h2 class="text-2xl font-bold text-slate-900 dark:text-slate-100 text-balance leading-tight mb-6">Which planet is known as the 'Red Planet'?</h2></div><div class="p-6"><div class="space-y-3 mb-6"><button class="w-full p-4 text-left border-2 transition-all duration-300 hover:border-blue-400/50 dark:hover:border-blue-500/60 hover:shadow-md dark:hover:shadow-lg transform hover:scale-[1.02] active:scale-[0.98] rounded-lg cursor-pointer hover:bg-slate-100/50 dark:hover:bg-slate-700/30 border-slate-200 dark:border-slate-600/50"><div class="flex items-center justify-between w-full"><span class="text-base font-medium">Venus</span></div></button><button class="w-full p-4 text-left border-2 transition-all duration-300 hover:border-blue-400/50 dark:hover:border-blue-500/60 hover:shadow-md dark:hover:shadow-lg transform hover:scale-[1.02] active:scale-[0.98] rounded-lg cursor-pointer hover:bg-slate-100/50 dark:hover:bg-slate-700/30 border-slate-200 dark:border-slate-600/50"><div class="flex items-center justify-between w-full"><span class="text-base font-medium">Mars</span></div></button><button class="w-full p-4 text-left border-2 transition-all duration-300 hover:border-blue-400/50 dark:hover:border-blue-500/60 hover:shadow-md dark:hover:shadow-lg transform hover:scale-[1.02] active:scale-[0.98] rounded-lg cursor-pointer hover:bg-slate-100/50 dark:hover:bg-slate-700/30 border-slate-200 dark:border-slate-600/50"><div class="flex items-center justify-between w-full"><span class="text-base font-medium">Jupiter</span></div></button><button class="w-full p-4 text-left border-2 transition-all duration-300 hover:border-blue-400/50 dark:hover:border-blue-500/60 hover:shadow-md dark:hover:shadow-lg transform hover:scale-[1.02] active:scale-[0.98] rounded-lg cursor-pointer hover:bg-slate-100/50 dark:hover:bg-slate-700/30 border-slate-200 dark:border-slate-600/50"><div class="flex items-center justify-between w-full"><span class="text-base font-medium">Saturn</span></div></button></div><div class="flex justify-between items-center"><button disabled="" class="flex items-center space-x-2 bg-transparent hover:bg-slate-100/50 dark:hover:bg-slate-700/30 transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:hover:scale-100 disabled:opacity-50 px-4 py-2 rounded-lg border border-slate-200 dark:border-slate-600"><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg><span>Previous</span></button><div class="text-sm text-slate-600 dark:text-slate-400">Select an answer</div><button disabled="" class="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 text-white transition-all duration-300 transform hover:scale-105 active:scale-95 disabled:hover:scale-100 disabled:opacity-50 px-4 py-2 rounded-lg"><span>Next</span><svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

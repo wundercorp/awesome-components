@@ -1,6 +1,6 @@
 # Micka Design Components
 
-26 components are available in this author group.
+29 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -32,3 +32,6 @@
 | [![Switch](switch/checked/screenshot.png)](switch/checked/README.md) | [Switch](switch/checked/README.md) | `checked` |
 | [![Switch](switch/default/screenshot.png)](switch/default/README.md) | [Switch](switch/default/README.md) | `default` |
 | [![Switch](switch/disabled/screenshot.png)](switch/disabled/README.md) | [Switch](switch/disabled/README.md) | `disabled` |
+| [![Switch](switch/group/screenshot.png)](switch/group/README.md) | [Switch](switch/group/README.md) | `group` |
+| [![Table](table/default/screenshot.png)](table/default/README.md) | [Table](table/default/README.md) | `default` |
+| [![Table](table/users/screenshot.png)](table/users/README.md) | [Table](table/users/README.md) | `users` |

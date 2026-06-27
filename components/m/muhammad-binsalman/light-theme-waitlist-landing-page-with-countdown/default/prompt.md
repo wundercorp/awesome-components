@@ -1,0 +1,57 @@
+# Build Light Theme Waitlist Landing Page With Countdown in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Light Theme Waitlist Landing Page With Countdown screenshot](screenshot.png)
+
+## Component
+
+- Author group: `muhammad-binsalman`
+- Component: `light-theme-waitlist-landing-page-with-countdown`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: muhammad-binsalman
+- Component slug: light-theme-waitlist-landing-page-with-countdown
+- Demo slug: default
+- Title: light-theme-waitlist-landing-page-with-countdown
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="relative min-h-screen w-full overflow-hidden bg-slate-50"><div class="fixed inset-0 w-full h-screen" style="z-index: 0;"><canvas data-engine="three.js r180" width="992" height="944" style="display: block; width: 992px; height: 944px;"></canvas></div><div class="relative z-10 min-h-screen"><div class="absolute top-8 left-1/2 transform -translate-x-1/2 z-20"><div class="bg-white/80 backdrop-blur-md border border-slate-200/60 rounded-full px-6 py-3 shadow-lg"><div class="flex items-center gap-6"><span class="text-slate-800 font-medium">Mysh.ai</span><div class="flex items-center gap-4"><button class="text-sm px-3 py-1 rounded-full transition-colors text-slate-600 hover:text-slate-800">Features</button><button class="text-sm px-3 py-1 rounded-full transition-colors text-slate-600 hover:text-slate-800">Pricing</button><button class="text-sm px-3 py-1 rounded-full transition-colors bg-slate-800 text-white border border-slate-300">Beta</button><button class="text-sm px-3 py-1 rounded-full transition-colors text-slate-600 hover:text-slate-800">Launch</button><button class="text-sm px-3 py-1 rounded-full transition-colors text-slate-600 hover:text-slate-800">Updates</button><button class="text-sm px-3 py-1 rounded-full transition-colors text-slate-600 hover:text-slate-800">Community</button></div></div></div></div><div class="flex items-center justify-center min-h-screen px-4"><div class="relative"><div class="relative backdrop-blur-xl bg-white/30 border border-slate-200/60 rounded-3xl p-8 w-[420px] shadow-2xl"><div class="absolute inset-0 rounded-3xl bg-gradient-to-br from-slate-50/80 to-transparent pointer-events-none"></div><div class="relative z-10"><div class="mb-8 text-center"><h1 class="text-4xl font-light text-slate-800 mb-4 tracking-wide">Join the waitlist</h1><p class="text-slate-600 text-base leading-relaxed">Get early access to Mysh.ai - the intelligent<br>AI collaboration platform built for modern teams</p></div><form class="mb-6"><div class="flex gap-3"><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 flex-1 bg-white/60 border-slate-300 text-slate-800 placeholder:text-slate-500 focus:border-slate-400 focus:ring-slate-300 h-12 rounded-xl backdrop-blur-sm" placeholder="falana@BuilderStudio" required="" type="email" value=""><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50  text-primary-foreground h-10 px-4 py-2 h-12 px-6 bg-slate-500 hover:bg-slate-700 text-white font-medium cursor-pointer rounded-xl transition-all duration-300 shadow-lg hover:shadow-2xl shadow-blue-500/25" type="submit">Sign Up</button></div></form><div class="flex items-center justify-center gap-3 mb-6"><div class="flex -space-x-2"><div class="w-8 h-8 rounded-full bg-blue-700 border-2 border-white flex items-center justify-center text-white text-xs font-medium">M</div><div class="w-8 h-8 rounded-full bg-emerald-700 border-2 border-white flex items-center justify-center text-white text-xs font-medium">B</div><div class="w-8 h-8 rounded-full bg-purple-700 border-2 border-white flex items-center justify-center text-white text-xs font-medium">S</div></div><span class="text-slate-600 text-sm">~ 20+ Teams already joined</span></div><div class="flex items-center justify-center gap-6 text-center"><div><div class="text-2xl font-light text-slate-800">225</div><div class="text-xs text-slate-500 uppercase tracking-wide">days</div></div><div class="text-slate-400">|</div><div><div class="text-2xl font-light text-slate-800">23</div><div class="text-xs text-slate-500 uppercase tracking-wide">hours</div></div><div class="text-slate-400">|</div><div><div class="text-2xl font-light text-slate-800">17</div><div class="text-xs text-slate-500 uppercase tracking-wide">minutes</div></div><div class="text-slate-400">|</div><div><div class="text-2xl font-light text-slate-800">54</div><div class="text-xs text-slate-500 uppercase tracking-wide">seconds</div></div></div></div><div class="absolute inset-0 rounded-3xl bg-gradient-to-t from-transparent via-white/10 to-white/20 pointer-events-none"></div></div><div class="absolute inset-0 rounded-3xl bg-gradient-to-r from-blue-200/20 to-purple-200/20 blur-xl scale-110 -z-10"></div></div></div></div></main></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

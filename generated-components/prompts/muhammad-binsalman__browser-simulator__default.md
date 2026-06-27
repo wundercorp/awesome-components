@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/muhammad-binsalman/browser-simulator/default
+- Registry URL: https://21st.dev/r/muhammad-binsalman/browser-simulator
+- Author: muhammad-binsalman
+- Component slug: browser-simulator
+- Demo slug: default
+- Title: browser-simulator
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/muhammad-binsalman/browser-simulator with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/muhammad-binsalman__browser-simulator__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/muhammad-binsalman__browser-simulator__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-[300px] h-[250px] bg-neutral-100 rounded-lg flex flex-col overflow-hidden relative" style="box-shadow: rgba(31, 31, 31, 0.243) 5px 5px 10px;"><div class="bg-[#353535] h-[40px] flex justify-between items-end pl-5"><div class="flex"><div class="relative w-[100px] h-[34px] rounded-tl-[7px] rounded-tr-[7px] bg-[#515151] flex items-start justify-between gap-1 p-[4px_8px]"><div class="absolute top-0 right-0 h-[24px] w-[20px] translate-x-full overflow-hidden bg-[#515151]"><div class="w-full h-full bg-[#353535]" style="border-radius: 0px 0px 0px 7px;"></div></div><div class="absolute top-0 left-0 h-[24px] w-[20px] -translate-x-full overflow-hidden bg-[#515151]"><div class="w-full h-full bg-[#353535]" style="border-radius: 0px 0px 7px;"></div></div><span class="text-white text-[10px]">21st.dev</span><div class="text-white text-[9px] p-[1px_4px] rounded-full cursor-default hover:bg-[#5d5d5d]">✕</div></div></div><div class="flex"><button class="h-[30px] w-[30px] border-none bg-transparent transition ease-out duration-100 text-white mb-[10px] hover:bg-[#515151c8]">-</button><button class="h-[30px] w-[30px] border-none bg-transparent transition ease-out duration-100 text-white mb-[10px] hover:bg-[#515151c8]">□</button><button class="h-[30px] w-[30px] border-none bg-transparent transition ease-out duration-100 text-white mb-[10px] hover:bg-[#ff3434]">✕</button></div></div><div class="absolute top-[30px] w-full h-[40px] bg-[#515151] p-[7px] flex gap-[5px] rounded-tl-[7px] rounded-tr-[7px]"><button class="w-[27px] h-[25px] border-none bg-transparent text-white rounded-full transition ease-in-out duration-200 hover:bg-[#5d5d5d]">←</button><button disabled="" class="w-[27px] h-[25px] border-none bg-transparent text-white rounded-full transition ease-in-out duration-200 opacity-40 hover:bg-transparent">→</button><input placeholder="Search Google or type URL" class="bg-[#3b3b3b] text-sm border-2 border-transparent h-full rounded-full outline-none text-white px-[15px] flex-1 transition ease-in-out duration-200 hover:bg-[#5d5d5d] focus:border-[#add6ff] focus:bg-[#3b3b3b] focus:transition-none placeholder-white" type="text" value="21st.dev"><button class="w-[27px] h-[25px] border-none bg-transparent text-white rounded-full transition ease-in-out duration-200 hover:bg-[#5d5d5d]">⋮</button><button class="text-white absolute right-[45px] top-1/2 -translate-y-1/2 text-[15px] opacity-70 h-[18px] w-[19px] flex items-center justify-center pb-[3px]">✰</button></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

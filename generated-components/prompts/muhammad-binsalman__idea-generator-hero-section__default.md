@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/muhammad-binsalman/idea-generator-hero-section/default
+- Registry URL: https://21st.dev/r/muhammad-binsalman/idea-generator-hero-section
+- Author: muhammad-binsalman
+- Component slug: idea-generator-hero-section
+- Demo slug: default
+- Title: idea-generator-hero-section
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/muhammad-binsalman/idea-generator-hero-section with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/muhammad-binsalman__idea-generator-hero-section__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/muhammad-binsalman__idea-generator-hero-section__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden"><nav class="flex justify-between items-center p-6 text-white relative z-10"><div class="flex items-center space-x-6"><span class="text-lg">›</span><span class="text-lg">»</span><span class="hover:text-purple-300 cursor-pointer">Explore</span><span class="hover:text-purple-300 cursor-pointer">Resources</span></div><div class="flex items-center space-x-6"><span class="hover:text-purple-300 cursor-pointer">Contact</span><div class="w-8 h-8 rounded-full border border-white flex items-center justify-center"><span class="text-sm">C</span><span class="text-xs ml-1">0</span></div></div></nav><div class="flex flex-col items-center justify-center min-h-[80vh] px-6 relative z-10"><h1 class="text-6xl md:text-7xl lg:text-8xl font-light text-white text-center mb-16 leading-tight">What should<br>we build today?</h1><div class="relative"><div class="absolute inset-0 bg-gradient-to-r from-purple-500/30 via-pink-500/30 to-purple-500/30 rounded-full blur-xl scale-110"></div><div class="relative bg-gradient-to-r from-purple-800/40 to-purple-900/40 backdrop-blur-sm border border-purple-400/30 rounded-full p-1"><div class="flex items-center"><input placeholder="Enter your idea..." class="flex-1 bg-transparent text-white placeholder-purple-300/70 px-6 py-4 text-lg focus:outline-none w-96" type="text" value=""><button class="bg-purple-600/60 hover:bg-purple-600/80 transition-colors rounded-full p-4 mr-2 backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb w-6 h-6 text-white" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg></button></div></div></div></div><div class="absolute inset-0 overflow-hidden pointer-events-none"><div class="absolute bottom-0 left-1/2 transform -translate-x-1/2 translate-y-1/4"><svg width="800" height="600" viewBox="0 0 800 600" class="opacity-80"><defs><radialGradient id="purpleGradient" cx="50%" cy="30%" r="70%"><stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.8"></stop><stop offset="50%" stop-color="#a855f7" stop-opacity="0.6"></stop><stop offset="100%" stop-color="#3730a3" stop-opacity="0.4"></stop></radialGradient><filter id="glow"><feGaussianBlur stdDeviation="8" result="coloredBlur"></feGaussianBlur><feMerge><feMergeNode in="coloredBlur"></feMergeNode><feMergeNode in="SourceGraphic"></feMergeNode></feMerge></filter></defs><path d="M200 400 Q350 200 500 350 Q650 500 400 550 Q150 500 200 400" fill="url(#purpleGradient)" filter="url(#glow)" class="animate-pulse"></path></svg></div><div class="absolute top-1/2 right-0 transform translate-x-1/4 -translate-y-1/2"><svg width="400" height="400" viewBox="0 0 400 400" class="opacity-40"><defs><linearGradient id="lineGradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.6"></stop><stop offset="100%" stop-color="#3730a3" stop-opacity="0.2"></stop></linearGradient></defs><path d="M50 200 Q200 50 350 200 Q200 350 50 200" stroke="url(#lineGradient)" stroke-width="2" fill="none" class="animate-pulse" style="animation-delay: 1s;"></path><circle cx="200" cy="100" r="3" fill="#8b5cf6" class="animate-pulse" style="animation-delay: 2s;"></circle></svg></div><div class="absolute top-1/4 left-0 transform -translate-x-1/2"><div class="w-64 h-64 bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-full blur-3xl animate-pulse" style="animation-delay: 3s;"></div></div><div class="absolute bottom-1/4 right-1/4"><div class="w-32 h-32 bg-gradient-to-br from-blue-600/20 to-purple-600/20 rounded-full blur-2xl animate-pulse" style="animation-delay: 4s;"></div></div></div><div class="absolute inset-0 opacity-5" style="background-image: linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px); background-size: 50px 50px;"></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

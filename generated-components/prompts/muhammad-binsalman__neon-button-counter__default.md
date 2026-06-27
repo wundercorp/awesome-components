@@ -1,0 +1,189 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/muhammad-binsalman/neon-button-counter/default
+- Registry URL: https://21st.dev/r/muhammad-binsalman/neon-button-counter
+- Author: muhammad-binsalman
+- Component slug: neon-button-counter
+- Demo slug: default
+- Title: neon-button-counter
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/muhammad-binsalman/neon-button-counter with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/muhammad-binsalman__neon-button-counter__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/muhammad-binsalman__neon-button-counter__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full bg-stone-900 flex flex-col items-center justify-center space-y-8"><div class="flex gap-7 items-center justify-center"><button class="
+        relative px-9 py-4 text-lg font-bold uppercase tracking-wider
+        text-gray-900 bg-gradient-to-br from-lime-400 to-lime-300
+        border-0 rounded-2xl cursor-pointer overflow-hidden
+        transform transition-all duration-400 ease-out
+        shadow-lg shadow-lime-400/40 outline-none z-10
+        hover:translate-y-[-6px] hover:scale-105 hover:rotate-x-1
+        hover:bg-gradient-to-br hover:from-lime-300 hover:to-lime-200
+        hover:shadow-xl hover:shadow-lime-400/50
+        active:translate-y-0.5 active:scale-95 active:rotate-x-[-1]
+        active:bg-gradient-to-br active:from-lime-600 active:to-lime-500
+        active:shadow-md active:shadow-green-400/20
+        focus:outline-lime-300 focus:outline-offset-2 focus:outline-4
+        focus:shadow-lg focus:shadow-lime-400/40 focus:scale-102 focus:rotate-x-0.5
+        disabled:bg-gradient-to-br disabled:from-gray-600 disabled:to-gray-800
+        disabled:text-gray-400 disabled:cursor-not-allowed disabled:shadow-none
+        disabled:transform-none
+        font-sans animate-bounce-in
+      " style="transform-style: preserve-3d; perspective: 200px; box-shadow: rgba(187, 255, 0, 0.384) 0px 8px 24px, rgba(221, 255, 0, 0.294) 0px 4px 12px, rgba(255, 255, 255, 0.2) 0px 0px 10px inset; animation: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s 1 normal none running bounceIn;"><div class="
+        absolute top-0 left-[-100%] w-1/2 h-full
+        bg-gradient-to-r from-transparent via-white/40 to-transparent
+        transform skew-x-[-20deg] transition-all duration-600 ease-out z-10
+        group-hover:left-full hover:left-full
+      " style="transform: skewX(-20deg); transition: left 0.6s cubic-bezier(0.4, 0, 0.2, 1);"></div><div class="
+        absolute top-0 left-0 w-full h-full rounded-2xl
+        opacity-0 transform scale-150 transition-all duration-500 ease-out
+        hover:opacity-100 hover:scale-100
+      " style="background: radial-gradient(circle, rgba(229, 255, 0, 0.3) 10%, transparent 10.01%); animation: 1.8s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal none running pulse;"></div><span class="
+        relative z-20 inline-block transition-all duration-500 ease-out
+        hover:scale-110 hover:translate-y-[-2px] hover:text-black
+        active:scale-90 active:translate-y-0.5 active:text-gray-800
+        focus:scale-105
+      ">Increase</span><style>
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+            opacity: 1;
+          }
+          50% {
+            transform: scale(1.3);
+            opacity: 0.6;
+          }
+          100% {
+            transform: scale(1.5);
+            opacity: 0;
+          }
+        }
+
+        @keyframes bounceIn {
+          0% {
+            transform: perspective(200px) scale(0.7) rotateX(-20deg);
+            opacity: 0;
+          }
+          50% {
+            transform: perspective(200px) scale(1.1) rotateX(5deg);
+            opacity: 1;
+          }
+          100% {
+            transform: perspective(200px) scale(1) rotateX(0);
+            opacity: 1;
+          }
+        }
+
+        button:hover .shimmer {
+          left: 100%;
+        }
+
+        button:hover .glow {
+          opacity: 1;
+          transform: scale(1);
+        }
+      </style></button><p class="text-white text-2xl font-bold my-auto"> 0</p><button class="
+        relative px-9 py-4 text-lg font-bold uppercase tracking-wider
+        text-gray-900 bg-gradient-to-br from-lime-400 to-lime-300
+        border-0 rounded-2xl cursor-pointer overflow-hidden
+        transform transition-all duration-400 ease-out
+        shadow-lg shadow-lime-400/40 outline-none z-10
+        hover:translate-y-[-6px] hover:scale-105 hover:rotate-x-1
+        hover:bg-gradient-to-br hover:from-lime-300 hover:to-lime-200
+        hover:shadow-xl hover:shadow-lime-400/50
+        active:translate-y-0.5 active:scale-95 active:rotate-x-[-1]
+        active:bg-gradient-to-br active:from-lime-600 active:to-lime-500
+        active:shadow-md active:shadow-green-400/20
+        focus:outline-lime-300 focus:outline-offset-2 focus:outline-4
+        focus:shadow-lg focus:shadow-lime-400/40 focus:scale-102 focus:rotate-x-0.5
+        disabled:bg-gradient-to-br disabled:from-gray-600 disabled:to-gray-800
+        disabled:text-gray-400 disabled:cursor-not-allowed disabled:shadow-none
+        disabled:transform-none
+        font-sans animate-bounce-in
+      " style="transform-style: preserve-3d; perspective: 200px; box-shadow: rgba(187, 255, 0, 0.384) 0px 8px 24px, rgba(221, 255, 0, 0.294) 0px 4px 12px, rgba(255, 255, 255, 0.2) 0px 0px 10px inset; animation: 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55) 0s 1 normal none running bounceIn;"><div class="
+        absolute top-0 left-[-100%] w-1/2 h-full
+        bg-gradient-to-r from-transparent via-white/40 to-transparent
+        transform skew-x-[-20deg] transition-all duration-600 ease-out z-10
+        group-hover:left-full hover:left-full
+      " style="transform: skewX(-20deg); transition: left 0.6s cubic-bezier(0.4, 0, 0.2, 1);"></div><div class="
+        absolute top-0 left-0 w-full h-full rounded-2xl
+        opacity-0 transform scale-150 transition-all duration-500 ease-out
+        hover:opacity-100 hover:scale-100
+      " style="background: radial-gradient(circle, rgba(229, 255, 0, 0.3) 10%, transparent 10.01%); animation: 1.8s cubic-bezier(0.4, 0, 0.2, 1) 0s infinite normal none running pulse;"></div><span class="
+        relative z-20 inline-block transition-all duration-500 ease-out
+        hover:scale-110 hover:translate-y-[-2px] hover:text-black
+        active:scale-90 active:translate-y-0.5 active:text-gray-800
+        focus:scale-105
+      ">Decrease</span><style>
+        @keyframes pulse {
+          0% {
+            transform: scale(1);
+            opacity: 1;
+          }
+          50% {
+            transform: scale(1.3);
+            opacity: 0.6;
+          }
+          100% {
+            transform: scale(1.5);
+            opacity: 0;
+          }
+        }
+
+        @keyframes bounceIn {
+          0% {
+            transform: perspective(200px) scale(0.7) rotateX(-20deg);
+            opacity: 0;
+          }
+          50% {
+            transform: perspective(200px) scale(1.1) rotateX(5deg);
+            opacity: 1;
+          }
+          100% {
+            transform: perspective(200px) scale(1) rotateX(0);
+            opacity: 1;
+          }
+        }
+
+        button:hover .shimmer {
+          left: 100%;
+        }
+
+        button:hover .glow {
+          opacity: 1;
+          transform: scale(1);
+        }
+      </style></button></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,57 @@
+# Build Carousel in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Carousel screenshot](screenshot.png)
+
+## Component
+
+- Author group: `motion-primitives`
+- Component: `carousel`
+- Variant: `with-custom-sizes-and-spacing`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: motion-primitives
+- Component slug: carousel
+- Demo slug: with-custom-sizes-and-spacing
+- Title: carousel
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="relative w-full px-4"><div class="group/hover relative"><div class="overflow-hidden"><div class="flex items-center cursor-grab active:cursor-grabbing -ml-4" draggable="false" style="transform: none; user-select: none; touch-action: pan-y;"><div class="w-full min-w-0 shrink-0 grow-0 overflow-hidden basis-1/3 pl-4"><div class="flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800">1</div></div><div class="w-full min-w-0 shrink-0 grow-0 overflow-hidden basis-1/3 pl-4"><div class="flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800">2</div></div><div class="w-full min-w-0 shrink-0 grow-0 overflow-hidden basis-1/3 pl-4"><div class="flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800">3</div></div><div class="w-full min-w-0 shrink-0 grow-0 overflow-hidden basis-1/3 pl-4"><div class="flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800">4</div></div><div class="w-full min-w-0 shrink-0 grow-0 overflow-hidden basis-1/3 pl-4"><div class="flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800">5</div></div><div class="w-full min-w-0 shrink-0 grow-0 overflow-hidden basis-1/3 pl-4"><div class="flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800">6</div></div><div class="w-full min-w-0 shrink-0 grow-0 overflow-hidden basis-1/3 pl-4"><div class="flex aspect-square items-center justify-center border border-zinc-200 dark:border-zinc-800">7</div></div></div><div class="pointer-events-none flex -translate-y-1/2 px-2 absolute -bottom-20 left-auto top-auto w-full justify-end gap-2"><button type="button" aria-label="Previous slide" class="pointer-events-auto h-fit w-fit rounded-full p-2 transition-opacity duration-300 opacity-100 disabled:opacity-40 bg-zinc-800 *:stroke-zinc-50 dark:bg-zinc-200 dark:*:stroke-zinc-800" disabled=""><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left stroke-zinc-600 dark:stroke-zinc-50" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button><button type="button" class="pointer-events-auto h-fit w-fit rounded-full p-2 transition-opacity duration-300 opacity-100 disabled:opacity-40 bg-zinc-800 *:stroke-zinc-50 dark:bg-zinc-200 dark:*:stroke-zinc-800" aria-label="Next slide"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right stroke-zinc-600 dark:stroke-zinc-50" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
