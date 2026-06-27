@@ -1,6 +1,6 @@
 # Reapollo Components
 
-69 components are available in this author group.
+143 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -75,3 +75,77 @@
 | [![Footer](footer/footer-advanced/screenshot.png)](footer/footer-advanced/README.md) | [Footer](footer/footer-advanced/README.md) | `footer-advanced` |
 | [![Gallery Grid Block Shadcnui](gallery-grid-block-shadcnui/default/screenshot.png)](gallery-grid-block-shadcnui/default/README.md) | [Gallery Grid Block Shadcnui](gallery-grid-block-shadcnui/default/README.md) | `default` |
 | [![Glassmorphism Listen App Block Shadcnui](glassmorphism-listen-app-block-shadcnui/default/screenshot.png)](glassmorphism-listen-app-block-shadcnui/default/README.md) | [Glassmorphism Listen App Block Shadcnui](glassmorphism-listen-app-block-shadcnui/default/README.md) | `default` |
+| [![Glassmorphism Minimal Metrics Block Shadcnui](glassmorphism-minimal-metrics-block-shadcnui/default/screenshot.png)](glassmorphism-minimal-metrics-block-shadcnui/default/README.md) | [Glassmorphism Minimal Metrics Block Shadcnui](glassmorphism-minimal-metrics-block-shadcnui/default/README.md) | `default` |
+| [![Glassmorphism Portfolio Block Shadcnui](glassmorphism-portfolio-block-shadcnui/default/screenshot.png)](glassmorphism-portfolio-block-shadcnui/default/README.md) | [Glassmorphism Portfolio Block Shadcnui](glassmorphism-portfolio-block-shadcnui/default/README.md) | `default` |
+| [![Glowing Button](glowing-button/default/screenshot.png)](glowing-button/default/README.md) | [Glowing Button](glowing-button/default/README.md) | `default` |
+| [![Grid List](grid-list/default/screenshot.png)](grid-list/default/README.md) | [Grid List](grid-list/default/README.md) | `default` |
+| [![Grid List](grid-list/link-cards/screenshot.png)](grid-list/link-cards/README.md) | [Grid List](grid-list/link-cards/README.md) | `link-cards` |
+| [![Grid List](grid-list/simple-cards-with-dropdown/screenshot.png)](grid-list/simple-cards-with-dropdown/README.md) | [Grid List](grid-list/simple-cards-with-dropdown/README.md) | `simple-cards-with-dropdown` |
+| [![Hero Ascii One](hero-ascii-one/default/screenshot.png)](hero-ascii-one/default/README.md) | [Hero Ascii One](hero-ascii-one/default/README.md) | `default` |
+| [![Hero Ascii](hero-ascii/default/screenshot.png)](hero-ascii/default/README.md) | [Hero Ascii](hero-ascii/default/README.md) | `default` |
+| [![Hero Futuristic](hero-futuristic/default/screenshot.png)](hero-futuristic/default/README.md) | [Hero Futuristic](hero-futuristic/default/README.md) | `default` |
+| [![Hero Modern](hero-modern/default/screenshot.png)](hero-modern/default/README.md) | [Hero Modern](hero-modern/default/README.md) | `default` |
+| [![Hero Monochrome](hero-monochrome/default/screenshot.png)](hero-monochrome/default/README.md) | [Hero Monochrome](hero-monochrome/default/README.md) | `default` |
+| [![Hero Section 1](hero-section-1/default/screenshot.png)](hero-section-1/default/README.md) | [Hero Section 1](hero-section-1/default/README.md) | `default` |
+| [![Hero Section 3](hero-section-3/default/screenshot.png)](hero-section-3/default/README.md) | [Hero Section 3](hero-section-3/default/README.md) | `default` |
+| [![Hero Section 4](hero-section-4/default/screenshot.png)](hero-section-4/default/README.md) | [Hero Section 4](hero-section-4/default/README.md) | `default` |
+| [![Heroui Close Button](heroui-close-button/default/screenshot.png)](heroui-close-button/default/README.md) | [Heroui Close Button](heroui-close-button/default/README.md) | `default` |
+| [![Heroui Close Button](heroui-close-button/interactive/screenshot.png)](heroui-close-button/interactive/README.md) | [Heroui Close Button](heroui-close-button/interactive/README.md) | `interactive` |
+| [![Heroui Close Button](heroui-close-button/with-custom-icon/screenshot.png)](heroui-close-button/with-custom-icon/README.md) | [Heroui Close Button](heroui-close-button/with-custom-icon/README.md) | `with-custom-icon` |
+| [![Heroui Color Area](heroui-color-area/color-space-channels/screenshot.png)](heroui-color-area/color-space-channels/README.md) | [Heroui Color Area](heroui-color-area/color-space-channels/README.md) | `color-space-channels` |
+| [![Heroui Color Area](heroui-color-area/controlled/screenshot.png)](heroui-color-area/controlled/README.md) | [Heroui Color Area](heroui-color-area/controlled/README.md) | `controlled` |
+| [![Heroui Color Area](heroui-color-area/default/screenshot.png)](heroui-color-area/default/README.md) | [Heroui Color Area](heroui-color-area/default/README.md) | `default` |
+| [![Heroui Color Area](heroui-color-area/disabled/screenshot.png)](heroui-color-area/disabled/README.md) | [Heroui Color Area](heroui-color-area/disabled/README.md) | `disabled` |
+| [![Heroui Color Area](heroui-color-area/with-dots/screenshot.png)](heroui-color-area/with-dots/README.md) | [Heroui Color Area](heroui-color-area/with-dots/README.md) | `with-dots` |
+| [![Heroui Color Picker](heroui-color-picker/controlled/screenshot.png)](heroui-color-picker/controlled/README.md) | [Heroui Color Picker](heroui-color-picker/controlled/README.md) | `controlled` |
+| [![Heroui Color Picker](heroui-color-picker/default/screenshot.png)](heroui-color-picker/default/README.md) | [Heroui Color Picker](heroui-color-picker/default/README.md) | `default` |
+| [![Heroui Color Picker](heroui-color-picker/with-fields/screenshot.png)](heroui-color-picker/with-fields/README.md) | [Heroui Color Picker](heroui-color-picker/with-fields/README.md) | `with-fields` |
+| [![Heroui Color Picker](heroui-color-picker/with-sliders/screenshot.png)](heroui-color-picker/with-sliders/README.md) | [Heroui Color Picker](heroui-color-picker/with-sliders/README.md) | `with-sliders` |
+| [![Heroui Color Picker](heroui-color-picker/with-swatches/screenshot.png)](heroui-color-picker/with-swatches/README.md) | [Heroui Color Picker](heroui-color-picker/with-swatches/README.md) | `with-swatches` |
+| [![Heroui Color Slider](heroui-color-slider/alpha-channel/screenshot.png)](heroui-color-slider/alpha-channel/README.md) | [Heroui Color Slider](heroui-color-slider/alpha-channel/README.md) | `alpha-channel` |
+| [![Heroui Color Slider](heroui-color-slider/controlled/screenshot.png)](heroui-color-slider/controlled/README.md) | [Heroui Color Slider](heroui-color-slider/controlled/README.md) | `controlled` |
+| [![Heroui Color Slider](heroui-color-slider/default/screenshot.png)](heroui-color-slider/default/README.md) | [Heroui Color Slider](heroui-color-slider/default/README.md) | `default` |
+| [![Heroui Color Slider](heroui-color-slider/disabled/screenshot.png)](heroui-color-slider/disabled/README.md) | [Heroui Color Slider](heroui-color-slider/disabled/README.md) | `disabled` |
+| [![Heroui Color Slider](heroui-color-slider/hsl-channels/screenshot.png)](heroui-color-slider/hsl-channels/README.md) | [Heroui Color Slider](heroui-color-slider/hsl-channels/README.md) | `hsl-channels` |
+| [![Heroui Color Slider](heroui-color-slider/rgb-channels/screenshot.png)](heroui-color-slider/rgb-channels/README.md) | [Heroui Color Slider](heroui-color-slider/rgb-channels/README.md) | `rgb-channels` |
+| [![Heroui Color Slider](heroui-color-slider/vertical/screenshot.png)](heroui-color-slider/vertical/README.md) | [Heroui Color Slider](heroui-color-slider/vertical/README.md) | `vertical` |
+| [![Heroui Input](heroui-input/controlled/screenshot.png)](heroui-input/controlled/README.md) | [Heroui Input](heroui-input/controlled/README.md) | `controlled` |
+| [![Heroui Input](heroui-input/default/screenshot.png)](heroui-input/default/README.md) | [Heroui Input](heroui-input/default/README.md) | `default` |
+| [![Heroui Input](heroui-input/full-width/screenshot.png)](heroui-input/full-width/README.md) | [Heroui Input](heroui-input/full-width/README.md) | `full-width` |
+| [![Heroui Input](heroui-input/input-types/screenshot.png)](heroui-input/input-types/README.md) | [Heroui Input](heroui-input/input-types/README.md) | `input-types` |
+| [![Heroui Input](heroui-input/on-surface/screenshot.png)](heroui-input/on-surface/README.md) | [Heroui Input](heroui-input/on-surface/README.md) | `on-surface` |
+| [![Heroui Input](heroui-input/variants/screenshot.png)](heroui-input/variants/README.md) | [Heroui Input](heroui-input/variants/README.md) | `variants` |
+| [![Heroui Tabs](heroui-tabs/custom-render/screenshot.png)](heroui-tabs/custom-render/README.md) | [Heroui Tabs](heroui-tabs/custom-render/README.md) | `custom-render` |
+| [![Heroui Tabs](heroui-tabs/custom-styles/screenshot.png)](heroui-tabs/custom-styles/README.md) | [Heroui Tabs](heroui-tabs/custom-styles/README.md) | `custom-styles` |
+| [![Heroui Tabs](heroui-tabs/default/screenshot.png)](heroui-tabs/default/README.md) | [Heroui Tabs](heroui-tabs/default/README.md) | `default` |
+| [![Heroui Tabs](heroui-tabs/disabled/screenshot.png)](heroui-tabs/disabled/README.md) | [Heroui Tabs](heroui-tabs/disabled/README.md) | `disabled` |
+| [![Heroui Tabs](heroui-tabs/secondary/screenshot.png)](heroui-tabs/secondary/README.md) | [Heroui Tabs](heroui-tabs/secondary/README.md) | `secondary` |
+| [![Heroui Tabs](heroui-tabs/secondary-vertical/screenshot.png)](heroui-tabs/secondary-vertical/README.md) | [Heroui Tabs](heroui-tabs/secondary-vertical/README.md) | `secondary-vertical` |
+| [![Heroui Tabs](heroui-tabs/vertical/screenshot.png)](heroui-tabs/vertical/README.md) | [Heroui Tabs](heroui-tabs/vertical/README.md) | `vertical` |
+| [![Heroui Tabs](heroui-tabs/with-separator/screenshot.png)](heroui-tabs/with-separator/README.md) | [Heroui Tabs](heroui-tabs/with-separator/README.md) | `with-separator` |
+| [![Highlighted Text](highlighted-text/default/screenshot.png)](highlighted-text/default/README.md) | [Highlighted Text](highlighted-text/default/README.md) | `default` |
+| [![Interfaces Accordion](interfaces-accordion/collapsible/screenshot.png)](interfaces-accordion/collapsible/README.md) | [Interfaces Accordion](interfaces-accordion/collapsible/README.md) | `collapsible` |
+| [![Interfaces Accordion](interfaces-accordion/default/screenshot.png)](interfaces-accordion/default/README.md) | [Interfaces Accordion](interfaces-accordion/default/README.md) | `default` |
+| [![Interfaces Accordion](interfaces-accordion/disabled/screenshot.png)](interfaces-accordion/disabled/README.md) | [Interfaces Accordion](interfaces-accordion/disabled/README.md) | `disabled` |
+| [![Interfaces Accordion](interfaces-accordion/multiple/screenshot.png)](interfaces-accordion/multiple/README.md) | [Interfaces Accordion](interfaces-accordion/multiple/README.md) | `multiple` |
+| [![Interfaces Field](interfaces-field/complex-form/screenshot.png)](interfaces-field/complex-form/README.md) | [Interfaces Field](interfaces-field/complex-form/README.md) | `complex-form` |
+| [![Interfaces Field](interfaces-field/error-state/screenshot.png)](interfaces-field/error-state/README.md) | [Interfaces Field](interfaces-field/error-state/README.md) | `error-state` |
+| [![Interfaces Field](interfaces-field/simple-field/screenshot.png)](interfaces-field/simple-field/README.md) | [Interfaces Field](interfaces-field/simple-field/README.md) | `simple-field` |
+| [![Interfaces Switch](interfaces-switch/default/screenshot.png)](interfaces-switch/default/README.md) | [Interfaces Switch](interfaces-switch/default/README.md) | `default` |
+| [![Interfaces Switch](interfaces-switch/with-form/screenshot.png)](interfaces-switch/with-form/README.md) | [Interfaces Switch](interfaces-switch/with-form/README.md) | `with-form` |
+| [![Marquee Effect](marquee-effect/default/screenshot.png)](marquee-effect/default/README.md) | [Marquee Effect](marquee-effect/default/README.md) | `default` |
+| [![Marquee Effect](marquee-effect/marquee-effect-reverse/screenshot.png)](marquee-effect/marquee-effect-reverse/README.md) | [Marquee Effect](marquee-effect/marquee-effect-reverse/README.md) | `marquee-effect-reverse` |
+| [![Marquee Effect](marquee-effect/marquee-effect-vertical/screenshot.png)](marquee-effect/marquee-effect-vertical/README.md) | [Marquee Effect](marquee-effect/marquee-effect-vertical/README.md) | `marquee-effect-vertical` |
+| [![Minimal Hero Section](minimal-hero-section/default/screenshot.png)](minimal-hero-section/default/README.md) | [Minimal Hero Section](minimal-hero-section/default/README.md) | `default` |
+| [![Navigation Menu 5](navigation-menu-5/default/screenshot.png)](navigation-menu-5/default/README.md) | [Navigation Menu 5](navigation-menu-5/default/README.md) | `default` |
+| [![Overflow Actions](overflow-actions/default/screenshot.png)](overflow-actions/default/README.md) | [Overflow Actions](overflow-actions/default/README.md) | `default` |
+| [![Scroll Fade Effect](scroll-fade-effect/default/screenshot.png)](scroll-fade-effect/default/README.md) | [Scroll Fade Effect](scroll-fade-effect/default/README.md) | `default` |
+| [![Table Of Contents](table-of-contents/default/screenshot.png)](table-of-contents/default/README.md) | [Table Of Contents](table-of-contents/default/README.md) | `default` |
+| [![Tabs 1](tabs-1/default/screenshot.png)](tabs-1/default/README.md) | [Tabs 1](tabs-1/default/README.md) | `default` |
+| [![Team](team/default/screenshot.png)](team/default/README.md) | [Team](team/default/README.md) | `default` |
+| [![Team](team/team-with-popover/screenshot.png)](team/team-with-popover/README.md) | [Team](team/team-with-popover/README.md) | `team-with-popover` |
+| [![Testimonials](testimonials/default/screenshot.png)](testimonials/default/README.md) | [Testimonials](testimonials/default/README.md) | `default` |
+| [![Testimonials](testimonials/testimonials-avatar/screenshot.png)](testimonials/testimonials-avatar/README.md) | [Testimonials](testimonials/testimonials-avatar/README.md) | `testimonials-avatar` |
+| [![Testimonials](testimonials/testimonials-info/screenshot.png)](testimonials/testimonials-info/README.md) | [Testimonials](testimonials/testimonials-info/README.md) | `testimonials-info` |
+| [![Testimonials](testimonials/testimonials-quote/screenshot.png)](testimonials/testimonials-quote/README.md) | [Testimonials](testimonials/testimonials-quote/README.md) | `testimonials-quote` |
+| [![Testimonials](testimonials/testimonials-stars/screenshot.png)](testimonials/testimonials-stars/README.md) | [Testimonials](testimonials/testimonials-stars/README.md) | `testimonials-stars` |

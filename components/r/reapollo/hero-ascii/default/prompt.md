@@ -1,0 +1,79 @@
+# Build Hero Ascii in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Hero Ascii screenshot](screenshot.png)
+
+## Component
+
+- Author group: `reapollo`
+- Component: `hero-ascii`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: reapollo
+- Component slug: hero-ascii
+- Demo slug: default
+- Title: hero-ascii
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen h-screen"><main class="relative min-h-screen overflow-hidden bg-black"><div class="absolute inset-0 w-full h-full hidden lg:block"><div data-us-project="whwOGlfJ5Rz2rHaEUgHl" data-us-initialized="true" data-scene-id="id-xt87ylitjsll3cyihn97h" style="width: 100%; height: 100%; min-height: 100vh;"><a href="https://unicorn.studio?utm_source=public-url" target="_blank" style="position: absolute; display: flex; bottom: 30px; left: 0px; width: 190px; margin: 0px auto; right: 0rem; padding: 10px; border-radius: 6px; background-color: rgb(255, 255, 255); box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 9px 0px; z-index: 99999999; box-sizing: border-box;"><img src="https://assets.unicorn.studio/media/made_in_us_small_web.svg" alt="Made with unicorn.studio" style="width: 170px; height: auto;"></a></div></div><div class="absolute inset-0 w-full h-full lg:hidden stars-bg"></div><div class="absolute top-0 left-0 right-0 z-20 border-b border-white/20"><div class="container mx-auto px-4 lg:px-8 py-3 lg:py-4 flex items-center justify-between"><div class="flex items-center gap-2 lg:gap-4"><div class="font-mono text-white text-xl lg:text-2xl font-bold tracking-widest italic transform -skew-x-12">UIMIX</div><div class="h-3 lg:h-4 w-px bg-white/40"></div><span class="text-white/60 text-[8px] lg:text-[10px] font-mono">EST. 2025</span></div><div class="hidden lg:flex items-center gap-3 text-[10px] font-mono text-white/60"><span>LAT: 37.7749°</span><div class="w-1 h-1 bg-white/40 rounded-full"></div><span>LONG: 122.4194°</span></div></div></div><div class="absolute top-0 left-0 w-8 h-8 lg:w-12 lg:h-12 border-t-2 border-l-2 border-white/30 z-20"></div><div class="absolute top-0 right-0 w-8 h-8 lg:w-12 lg:h-12 border-t-2 border-r-2 border-white/30 z-20"></div><div class="absolute left-0 w-8 h-8 lg:w-12 lg:h-12 border-b-2 border-l-2 border-white/30 z-20" style="bottom: 5vh;"></div><div class="absolute right-0 w-8 h-8 lg:w-12 lg:h-12 border-b-2 border-r-2 border-white/30 z-20" style="bottom: 5vh;"></div><div class="relative z-10 flex min-h-screen items-center pt-16 lg:pt-0" style="margin-top: 5vh;"><div class="container mx-auto px-6 lg:px-16 lg:ml-[10%]"><div class="max-w-lg relative"><div class="flex items-center gap-2 mb-3 opacity-60"><div class="w-8 h-px bg-white"></div><span class="text-white text-[10px] font-mono tracking-wider">001</span><div class="flex-1 h-px bg-white"></div></div><div class="relative"><div class="hidden lg:block absolute -left-3 top-0 bottom-0 w-1 dither-pattern opacity-40"></div><h1 class="text-2xl lg:text-5xl font-bold text-white mb-3 lg:mb-4 leading-tight font-mono tracking-wider" style="letter-spacing: 0.1em;">PERFECT<span class="block text-white mt-1 lg:mt-2 opacity-90">PROPORTIONS</span></h1></div><div class="hidden lg:flex gap-1 mb-3 opacity-40"><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div><div class="w-0.5 h-0.5 bg-white rounded-full"></div></div><div class="relative"><p class="text-xs lg:text-base text-gray-300 mb-5 lg:mb-6 leading-relaxed font-mono opacity-80">Where geometry meets humanity — Da Vinci's vision of ideal form</p><div class="hidden lg:block absolute -right-4 top-1/2 w-3 h-3 border border-white opacity-30" style="transform: translateY(-50%);"><div class="absolute top-1/2 left-1/2 w-1 h-1 bg-white" style="transform: translate(-50%, -50%);"></div></div></div><div class="flex flex-col lg:flex-row gap-3 lg:gap-4"><button class="relative px-5 lg:px-6 py-2 lg:py-2.5 bg-transparent text-white font-mono text-xs lg:text-sm border border-white hover:bg-white hover:text-black transition-all duration-200 group"><span class="hidden lg:block absolute -top-1 -left-1 w-2 h-2 border-t border-l border-white opacity-0 group-hover:opacity-100 transition-opacity"></span><span class="hidden lg:block absolute -bottom-1 -right-1 w-2 h-2 border-b border-r border-white opacity-0 group-hover:opacity-100 transition-opacity"></span>GET STARTED</button><button class="relative px-5 lg:px-6 py-2 lg:py-2.5 bg-transparent border border-white text-white font-mono text-xs lg:text-sm hover:bg-white hover:text-black transition-all duration-200" style="border-width: 1px;">LEARN MORE</button></div><div class="hidden lg:flex items-center gap-2 mt-6 opacity-40"><span class="text-white text-[9px] font-mono">∞</span><div class="flex-1 h-px bg-white"></div><span class="text-white text-[9px] font-mono">VITRUVIAN</span></div></div></div></div><div class="absolute left-0 right-0 z-20 border-t border-white/20 bg-black/40 backdrop-blur-sm" style="bottom: 5vh;"><div class="container mx-auto px-4 lg:px-8 py-2 lg:py-3 flex items-center justify-between"><div class="flex items-center gap-3 lg:gap-6 text-[8px] lg:text-[9px] font-mono text-white/50"><span class="hidden lg:inline">SYSTEM.ACTIVE</span><span class="lg:hidden">SYS.ACT</span><div class="hidden lg:flex gap-1"><div class="w-1 h-3 bg-white/30" style="height: 9.55651px;"></div><div class="w-1 h-3 bg-white/30" style="height: 10.9349px;"></div><div class="w-1 h-3 bg-white/30" style="height: 10.2034px;"></div><div class="w-1 h-3 bg-white/30" style="height: 7.30525px;"></div><div class="w-1 h-3 bg-white/30" style="height: 7.75571px;"></div><div class="w-1 h-3 bg-white/30" style="height: 7.73445px;"></div><div class="w-1 h-3 bg-white/30" style="height: 4.32856px;"></div><div class="w-1 h-3 bg-white/30" style="height: 7.12769px;"></div></div><span>V1.0.0</span></div><div class="flex items-center gap-2 lg:gap-4 text-[8px] lg:text-[9px] font-mono text-white/50"><span class="hidden lg:inline">◐ RENDERING</span><div class="flex gap-1"><div class="w-1 h-1 bg-white/60 rounded-full animate-pulse"></div><div class="w-1 h-1 bg-white/40 rounded-full animate-pulse" style="animation-delay: 0.2s;"></div><div class="w-1 h-1 bg-white/20 rounded-full animate-pulse" style="animation-delay: 0.4s;"></div></div><span class="hidden lg:inline">FRAME: ∞</span></div></div></div><style>
+        .dither-pattern {
+          background-image: 
+            repeating-linear-gradient(0deg, transparent 0px, transparent 1px, white 1px, white 2px),
+            repeating-linear-gradient(90deg, transparent 0px, transparent 1px, white 1px, white 2px);
+          background-size: 3px 3px;
+        }
+        
+        .stars-bg {
+          background-image: 
+            radial-gradient(1px 1px at 20% 30%, white, transparent),
+            radial-gradient(1px 1px at 60% 70%, white, transparent),
+            radial-gradient(1px 1px at 50% 50%, white, transparent),
+            radial-gradient(1px 1px at 80% 10%, white, transparent),
+            radial-gradient(1px 1px at 90% 60%, white, transparent),
+            radial-gradient(1px 1px at 33% 80%, white, transparent),
+            radial-gradient(1px 1px at 15% 60%, white, transparent),
+            radial-gradient(1px 1px at 70% 40%, white, transparent);
+          background-size: 200% 200%, 180% 180%, 250% 250%, 220% 220%, 190% 190%, 240% 240%, 210% 210%, 230% 230%;
+          background-position: 0% 0%, 40% 40%, 60% 60%, 20% 20%, 80% 80%, 30% 30%, 70% 70%, 50% 50%;
+          opacity: 0.3;
+        }
+      </style></main></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

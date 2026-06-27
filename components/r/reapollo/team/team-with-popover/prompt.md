@@ -1,0 +1,57 @@
+# Build Team in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Team screenshot](screenshot.png)
+
+## Component
+
+- Author group: `reapollo`
+- Component: `team`
+- Variant: `team-with-popover`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: reapollo
+- Component slug: team
+- Demo slug: team-with-popover
+- Title: team
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="bg-muted/50"><div class="mx-auto w-full max-w-5xl px-6 py-16 md:py-24"><div class="mb-10 md:mb-12"><h2 class="text-foreground text-balance text-4xl font-semibold md:text-5xl">Meet Our Team</h2><p class="text-muted-foreground mt-4 max-w-3xl text-pretty text-lg leading-relaxed">Our talented professionals bring diverse expertise and passion to every project. Together, we collaborate to deliver exceptional results and innovative solutions for our clients.</p><a href="#" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground px-4 py-2 mt-6 h-9 rounded-full pr-2">We're hiring<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right ml-1 size-4 opacity-60" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></a></div><div role="list" aria-label="Team members" class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-6"><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Meschac Irung" src="https://avatars.githubusercontent.com/u/47919550?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Meschac Irung</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Bernard Ngandu" src="https://avatars.githubusercontent.com/u/31113941?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Bernard Ngandu</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Theo Balick" src="https://avatars.githubusercontent.com/u/68236786?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Theo Balick</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Glodie Lukose" src="https://avatars.githubusercontent.com/u/99137927?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Glodie Lukose</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Sarah Johnson" src="https://avatars.githubusercontent.com/u/12345678?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Sarah Johnson</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Michael Chen" src="https://avatars.githubusercontent.com/u/23456789?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Michael Chen</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Aisha Patel" src="https://avatars.githubusercontent.com/u/34567890?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Aisha Patel</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Carlos Rodriguez" src="https://avatars.githubusercontent.com/u/45678901?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Carlos Rodriguez</span></a><a data-state="closed" class="grid cursor-pointer grid-cols-[auto_1fr] items-center gap-3 rounded-(--radius) border bg-background p-3 shadow-sm ring-1 ring-foreground/5 transition-colors hover:bg-background/80 focus:outline-none data-[state=open]:ring-2 data-[state=open]:ring-foreground/20"><span class="relative flex shrink-0 overflow-hidden rounded-(--radius) size-10 border border-transparent shadow ring-1 ring-foreground/10"><img class="aspect-square h-full w-full" alt="Emma Wilson" src="https://avatars.githubusercontent.com/u/56789012?v=4"></span><span class="text-foreground block truncate text-[15px] font-semibold">Emma Wilson</span></a></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

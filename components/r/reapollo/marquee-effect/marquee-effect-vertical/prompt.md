@@ -1,0 +1,57 @@
+# Build Marquee Effect in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Marquee Effect screenshot](screenshot.png)
+
+## Component
+
+- Author group: `reapollo`
+- Component: `marquee-effect`
+- Variant: `marquee-effect-vertical`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: reapollo
+- Component slug: marquee-effect
+- Demo slug: marquee-effect-vertical
+- Title: marquee-effect
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="h-80"><div class="overflow-hidden"><div class="flex w-max" style="gap: 24px; flex-direction: column; transform: translateY(-410.8px);"><img alt="Product 1" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/01.jpeg"><img alt="Product 2" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/02.jpeg"><img alt="Product 3" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/03.jpeg"><img alt="Product 4" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/04.jpeg"><img alt="Product 5" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/05.jpeg"><img alt="Product 6" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/06.jpeg"><img alt="Product 7" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/07.jpeg"><img alt="Product 1" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/01.jpeg"><img alt="Product 2" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/02.jpeg"><img alt="Product 3" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/03.jpeg"><img alt="Product 4" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/04.jpeg"><img alt="Product 5" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/05.jpeg"><img alt="Product 6" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/06.jpeg"><img alt="Product 7" class="w-32 aspect-square rounded-md" src="https://bundui-images.netlify.app/products/07.jpeg"></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
