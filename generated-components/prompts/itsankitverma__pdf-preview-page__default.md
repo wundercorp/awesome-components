@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/itsankitverma/pdf-preview-page/default
+- Registry URL: https://21st.dev/r/itsankitverma/pdf-preview-page
+- Author: itsankitverma
+- Component slug: pdf-preview-page
+- Demo slug: default
+- Title: pdf-preview-page
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/itsankitverma/pdf-preview-page with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/itsankitverma__pdf-preview-page__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/itsankitverma__pdf-preview-page__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen bg-gray-50 w-full"><div class="max-w-7xl mx-auto px-4 py-12 mt-5"><div class="space-y-8"><div class="rounded-lg border text-card-foreground p-8 bg-gray-100 shadow-lg relative overflow-hidden group"><div class="absolute top-0 right-0 w-32 h-32 bg-yellow-400/20 rounded-full -mr-16 -mt-16 transition-transform group-hover:scale-110"></div><div class="absolute bottom-0 left-0 w-24 h-24 bg-yellow-400/20 rounded-full -ml-12 -mb-12 transition-transform group-hover:scale-110"></div><div class="relative flex flex-col items-center"><div class="flex flex-col items-center jc py-5 w-full max-w-xl space-y-8"><div class="w-full max-w-xl p-8 mb-6 bg-white rounded-xl shadow-sm hover:shadow-md transition-all cursor-pointer group/upload relative"><div class="absolute inset-0 border-2 border-dashed border-gray-200 rounded-xl group-hover/upload:border-yellow-400 transition-colors"></div><input accept=".pdf" class="hidden" type="file"><div class="flex flex-col items-center gap-4"><div class="relative"><div class="w-20 h-20 bg-yellow-400 rounded-2xl flex items-center justify-center rotate-12 transform group-hover/upload:rotate-0 transition-all duration-300 shadow-lg"><svg class="w-10 h-10 text-black" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-8l-4-4m0 0L8 8m4-4v12"></path></svg></div><div class="absolute -right-2 -bottom-2 w-8 h-8 bg-black rounded-full flex items-center justify-center group-hover/upload:scale-110 transition-transform shadow-lg"><svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path></svg></div></div><div class="text-center"><h3 class="text-xl font-semibold text-gray-900 mb-2">Drop your PDF here</h3><p class="text-gray-600">or click to browse from your computer</p></div></div></div><div class="flex gap-4"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md px-8 bg-black hover:bg-gray-900 text-white shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 transition-all duration-200 min-w-[160px] disabled:bg-gray-400">Select File</button></div></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/jatin-yadav05/expand-map/default
+- Registry URL: https://21st.dev/r/jatin-yadav05/expand-map
+- Author: jatin-yadav05
+- Component slug: expand-map
+- Demo slug: default
+- Title: expand-map
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/jatin-yadav05/expand-map with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/jatin-yadav05__expand-map__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/jatin-yadav05__expand-map__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="min-h-screen flex items-center justify-center w-full"><div class="fixed inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(52,211,153,0.03)_0%,_transparent_70%)]"></div><div class="relative z-10 flex flex-col items-center gap-8"><p class="text-neutral-600 text-xs font-medium tracking-[0.2em] uppercase">Current Location</p><div class="relative cursor-pointer select-none undefined" style="perspective: 1000px;"><div class="relative overflow-hidden rounded-2xl bg-background border border-border" style="transform-style: preserve-3d; transform: none; width: 240px; height: 140px;"><div class="absolute inset-0 bg-gradient-to-br from-muted/20 via-transparent to-muted/40"></div><div class="absolute inset-0 opacity-[0.03]" style="opacity: 0.03;"><svg width="100%" height="100%" class="absolute inset-0"><defs><pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M 20 0 L 0 0 0 20" fill="none" class="stroke-foreground" stroke-width="0.5"></path></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"></rect></svg></div><div class="relative z-10 h-full flex flex-col justify-between p-5"><div class="flex items-start justify-between"><div class="relative"><div class="relative" style="opacity: 1;"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-emerald-400" style="filter: drop-shadow(rgba(52, 211, 153, 0.3) 0px 0px 4px);"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"></polygon><line x1="9" x2="9" y1="3" y2="18"></line><line x1="15" x2="15" y1="6" y2="21"></line></svg></div></div><div class="flex items-center gap-1.5 px-2 py-1 rounded-full bg-foreground/5 backdrop-blur-sm" style="background-color: hsl(var(--foreground) / 0.05); transform: none;"><div class="w-1.5 h-1.5 rounded-full bg-emerald-400"></div><span class="text-[10px] font-medium text-muted-foreground tracking-wide uppercase">Live</span></div></div><div class="space-y-1"><h3 class="text-foreground font-medium text-sm tracking-tight" style="transform: none;">San Francisco, CA</h3><div class="h-px bg-gradient-to-r from-emerald-500/50 via-emerald-400/30 to-transparent" style="transform: scaleX(0.3); transform-origin: 0% 50% 0px;"></div></div></div></div><p class="absolute -bottom-6 left-1/2 text-[10px] text-muted-foreground whitespace-nowrap" style="opacity: 0; transform: translateX(-50%) translateY(4px);">Click to expand</p></div></div></main></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

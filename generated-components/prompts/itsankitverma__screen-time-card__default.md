@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/itsankitverma/screen-time-card/default
+- Registry URL: https://21st.dev/r/itsankitverma/screen-time-card
+- Author: itsankitverma
+- Component slug: screen-time-card
+- Demo slug: default
+- Title: screen-time-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/itsankitverma/screen-time-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/itsankitverma__screen-time-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/itsankitverma__screen-time-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-screen w-full items-center justify-center bg-background p-4"><div class="w-full max-w-md rounded-2xl border bg-gradient-to-br from-blue-50/50 via-purple-50/30 to-pink-50/50 dark:from-blue-950/20 dark:via-purple-950/10 dark:to-pink-950/20 text-card-foreground shadow-lg px-5 py-4 backdrop-blur-sm"><div class="flex gap-12"><div class="flex-1"><div class="mb-3 text-3xl font-semibold">23h 2m</div><div class="relative"><div class="absolute -right-11 top-0 flex h-32 flex-col justify-between text-xs text-muted-foreground"><span>2h</span><span>1h</span><span>0</span></div><div class="absolute inset-0 flex h-32 flex-col justify-between pointer-events-none"><div class="h-px border-t border-dashed border-border/50"></div><div class="h-px border-t border-dashed border-border/50"></div><div class="h-px border-t border-dashed border-border/50"></div></div><div class="mb-1.5 flex h-32 items-end gap-[3px] relative z-10"><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 22.2222%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 16.6667%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 11.1111%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 8.88889%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 13.3333%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 27.7778%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 38.8889%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 50%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 66.6667%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 83.3333%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 88.8889%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 94.4444%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 77.7778%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 72.2222%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 61.1111%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 55.5556%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 66.6667%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 83.3333%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 88.8889%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 100%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 94.4444%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 83.3333%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-gradient-to-t from-primary to-primary/80" style="height: 66.6667%; transform: none;"></div><div class="flex-1 rounded-t-sm origin-bottom bg-muted dark:bg-muted/50" style="height: 55.5556%; transform: none;"></div></div><div class="flex justify-between text-xs text-muted-foreground"><span>5 AM</span><span>11 AM</span><span>5 PM</span><span>0</span></div></div></div><div class="w-px bg-border self-stretch relative left-6"></div><div class="flex flex-col gap-3.5 justify-center"><div class="flex items-center gap-3" style="opacity: 1; transform: none;"><div class="flex h-6 w-6 items-center justify-center text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square h-5 w-5 text-blue-500" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg></div><span class="text-sm whitespace-nowrap">10h 1m</span></div><div class="flex items-center gap-3" style="opacity: 1; transform: none;"><div class="flex h-6 w-6 items-center justify-center text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe h-5 w-5 text-orange-500" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div><span class="text-sm whitespace-nowrap">4h 23m</span></div><div class="flex items-center gap-3" style="opacity: 1; transform: none;"><div class="flex h-6 w-6 items-center justify-center text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone h-5 w-5 text-purple-500" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg></div><span class="text-sm whitespace-nowrap">2h 38m</span></div><div class="flex items-center gap-3" style="opacity: 1; transform: none;"><div class="flex h-6 w-6 items-center justify-center text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-monitor h-5 w-5 text-gray-500" aria-hidden="true"><rect width="20" height="14" x="2" y="3" rx="2"></rect><line x1="8" x2="16" y1="21" y2="21"></line><line x1="12" x2="12" y1="17" y2="21"></line></svg></div><span class="text-sm whitespace-nowrap">1h 29m</span></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

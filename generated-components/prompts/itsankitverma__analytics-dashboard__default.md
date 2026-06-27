@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/itsankitverma/analytics-dashboard/default
+- Registry URL: https://21st.dev/r/itsankitverma/analytics-dashboard
+- Author: itsankitverma
+- Component slug: analytics-dashboard
+- Demo slug: default
+- Title: analytics-dashboard
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/itsankitverma/analytics-dashboard with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/itsankitverma__analytics-dashboard__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/itsankitverma__analytics-dashboard__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen transition-colors duration-500 flex items-center justify-center w-full p-8 bg-gradient-to-br from-gray-50 to-gray-100"><div class="w-full max-w-lg rounded-2xl p-8 transition-all duration-300 ease-out bg-white shadow-[0_1px_3px_rgba(0,0,0,0.05),0_10px_40px_rgba(0,0,0,0.08)] hover:shadow-[0_1px_3px_rgba(0,0,0,0.05),0_20px_60px_rgba(0,0,0,0.15)]" style="transform-style: preserve-3d;"><div class="flex items-start justify-between mb-8"><div><h1 class="text-2xl font-semibold mb-1 text-gray-900">Analytics Dashboard</h1><p class="text-sm text-gray-500">Performance metrics at a glance</p></div><div class="flex items-center gap-4"><button class="relative w-14 h-7 rounded-full transition-colors duration-300 bg-gray-300" aria-label="Toggle dark mode"><div class="absolute top-0.5 w-6 h-6 bg-white rounded-full shadow-md transition-transform duration-300 flex items-center justify-center translate-x-0.5"><svg class="w-3.5 h-3.5 text-yellow-500" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd"></path></svg></div></button><div class="relative"><svg width="60" height="60" class="animate-[float_3s_ease-in-out_infinite]"><defs><linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#3b82f6"></stop><stop offset="100%" stop-color="#8b5cf6"></stop></linearGradient></defs><circle cx="30" cy="30" r="20" fill="none" stroke="currentColor" stroke-width="4" class="text-gray-200"></circle><circle cx="30" cy="30" r="20" fill="none" stroke="url(#gradient)" stroke-width="4" stroke-linecap="round" stroke-dasharray="125.66370614359172" stroke-dashoffset="31.41592653589794" class="transition-all duration-500 -rotate-90 origin-center"></circle></svg><div class="absolute inset-0 flex items-center justify-center"><span class="text-sm font-semibold text-gray-700">75%</span></div></div></div></div><div class="mb-6"><div class="flex space-x-1 relative border-b border-gray-200"><button class="px-4 py-2 text-sm font-medium capitalize transition-colors relative z-10 text-blue-600">overview</button><button class="px-4 py-2 text-sm font-medium capitalize transition-colors relative z-10 text-gray-500 hover:text-gray-700">analytics</button><button class="px-4 py-2 text-sm font-medium capitalize transition-colors relative z-10 text-gray-500 hover:text-gray-700">reports</button><div class="absolute bottom-0 h-0.5 bg-gradient-to-r from-blue-500 to-purple-500 transition-all duration-300 ease-in-out" style="left: 0px; width: 96px;"></div></div></div><div class="space-y-4"><div class="rounded-lg p-4 border bg-gray-50 border-gray-100"><div class="flex justify-between items-center mb-2"><span class="text-sm text-gray-600">Monthly Revenue</span><span class="text-xs px-2 py-1 rounded-full text-green-600 bg-green-50">+12.5%</span></div><p class="text-2xl font-semibold text-gray-900">$24,780</p><div class="mt-3 h-1.5 rounded-full overflow-hidden bg-gray-200"><div class="h-full bg-gradient-to-r from-blue-400 to-purple-400 rounded-full transition-all duration-500" style="width: 78%;"></div></div></div><div class="grid grid-cols-3 gap-3"><div class="rounded-lg p-3 border bg-gray-50 border-gray-100"><p class="text-xs mb-1 text-gray-500">Users</p><p class="text-lg font-semibold text-gray-800">1,428</p></div><div class="rounded-lg p-3 border bg-gray-50 border-gray-100"><p class="text-xs mb-1 text-gray-500">Sessions</p><p class="text-lg font-semibold text-gray-800">3,942</p></div><div class="rounded-lg p-3 border bg-gray-50 border-gray-100"><p class="text-xs mb-1 text-gray-500">Conversion</p><p class="text-lg font-semibold text-gray-800">4.2%</p></div></div></div><div class="mt-8 flex gap-3"><button class="flex-1 py-2.5 px-4 bg-gradient-to-r from-blue-500 to-purple-500 text-white rounded-lg font-medium text-sm hover:from-blue-600 hover:to-purple-600 transition-all duration-200 shadow-sm hover:shadow-md">View Details</button><button class="flex-1 py-2.5 px-4 rounded-lg font-medium text-sm transition-all duration-200 border bg-white text-gray-700 hover:bg-gray-50 border-gray-200">Export</button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

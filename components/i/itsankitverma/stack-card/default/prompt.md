@@ -1,0 +1,57 @@
+# Build Stack Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Stack Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `itsankitverma`
+- Component: `stack-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: itsankitverma
+- Component slug: stack-card
+- Demo slug: default
+- Title: stack-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full" style="margin: 100px auto; max-width: 500px; padding-bottom: 100px; width: 100%;"><div class="card-container-0" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(255, 0, 85), rgb(255, 42, 0));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(50px) rotate(-10deg);">🍅</div></div><div class="card-container-1" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(255, 85, 0), rgb(255, 170, 0));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(50px) rotate(-10deg);">🍊</div></div><div class="card-container-2" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(255, 255, 0), rgb(128, 255, 0));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(300px);">🍋</div></div><div class="card-container-3" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(170, 255, 0), rgb(0, 255, 0));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(300px);">🍐</div></div><div class="card-container-4" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(85, 255, 0), rgb(0, 255, 85));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(300px);">🍏</div></div><div class="card-container-5" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(0, 149, 255), rgb(21, 0, 255));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(300px);">🫐</div></div><div class="card-container-6" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(85, 0, 255), rgb(213, 0, 255));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(300px);">🍆</div></div><div class="card-container-7" style="overflow: hidden; display: flex; justify-content: center; align-items: center; position: relative; padding-top: 20px; margin-bottom: -120px;"><div style="position: absolute; inset: 0px; clip-path: path(&quot;M 0 303.5 C 0 292.454 8.995 285.101 20 283.5 L 460 219.5 C 470.085 218.033 480 228.454 480 239.5 L 500 430 C 500 441.046 491.046 450 480 450 L 20 450 C 8.954 450 0 441.046 0 430 Z&quot;); background: linear-gradient(306deg, rgb(213, 0, 255), rgb(255, 0, 170));"></div><div class="card" style="font-size: 164px; width: 300px; height: 430px; display: flex; justify-content: center; align-items: center; border-radius: 20px; background: rgb(245, 245, 245); box-shadow: rgba(0, 0, 0, 0.075) 0px 0px 1px, rgba(0, 0, 0, 0.075) 0px 0px 2px, rgba(0, 0, 0, 0.075) 0px 0px 4px, rgba(0, 0, 0, 0.075) 0px 0px 8px, rgba(0, 0, 0, 0.075) 0px 0px 16px; transform-origin: 10% 60%; transform: translateY(300px);">🍇</div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
