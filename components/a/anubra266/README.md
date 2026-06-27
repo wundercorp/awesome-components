@@ -1,6 +1,6 @@
 # Anubra266 Components
 
-176 components are available in this author group.
+212 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -182,3 +182,39 @@
 | [![Pagination](pagination/pagination-with-input/screenshot.png)](pagination/pagination-with-input/README.md) | [Pagination](pagination/pagination-with-input/README.md) | `pagination-with-input` |
 | [![Pagination](pagination/pagination-with-page-size/screenshot.png)](pagination/pagination-with-page-size/README.md) | [Pagination](pagination/pagination-with-page-size/README.md) | `pagination-with-page-size` |
 | [![Password Input](password-input/confirm-password/screenshot.png)](password-input/confirm-password/README.md) | [Password Input](password-input/confirm-password/README.md) | `confirm-password` |
+| [![Password Input](password-input/default/screenshot.png)](password-input/default/README.md) | [Password Input](password-input/default/README.md) | `default` |
+| [![Password Input](password-input/password-api-key/screenshot.png)](password-input/password-api-key/README.md) | [Password Input](password-input/password-api-key/README.md) | `password-api-key` |
+| [![Password Input](password-input/password-with-field/screenshot.png)](password-input/password-with-field/README.md) | [Password Input](password-input/password-with-field/README.md) | `password-with-field` |
+| [![Password Input](password-input/password-with-requirements/screenshot.png)](password-input/password-with-requirements/README.md) | [Password Input](password-input/password-with-requirements/README.md) | `password-with-requirements` |
+| [![Password Input](password-input/password-with-strength/screenshot.png)](password-input/password-with-strength/README.md) | [Password Input](password-input/password-with-strength/README.md) | `password-with-strength` |
+| [![Pin Input](pin-input/default/screenshot.png)](pin-input/default/README.md) | [Pin Input](pin-input/default/README.md) | `default` |
+| [![Pin Input](pin-input/pin-input-custom-placeholder/screenshot.png)](pin-input/pin-input-custom-placeholder/README.md) | [Pin Input](pin-input/pin-input-custom-placeholder/README.md) | `pin-input-custom-placeholder` |
+| [![Pin Input](pin-input/pin-input-masked/screenshot.png)](pin-input/pin-input-masked/README.md) | [Pin Input](pin-input/pin-input-masked/README.md) | `pin-input-masked` |
+| [![Pin Input](pin-input/pin-two-factor/screenshot.png)](pin-input/pin-two-factor/README.md) | [Pin Input](pin-input/pin-two-factor/README.md) | `pin-two-factor` |
+| [![Pin Input](pin-input/pin-verification/screenshot.png)](pin-input/pin-verification/README.md) | [Pin Input](pin-input/pin-verification/README.md) | `pin-verification` |
+| [![Pin Input](pin-input/pin-with-field/screenshot.png)](pin-input/pin-with-field/README.md) | [Pin Input](pin-input/pin-with-field/README.md) | `pin-with-field` |
+| [![Popover 1](popover-1/default/screenshot.png)](popover-1/default/README.md) | [Popover 1](popover-1/default/README.md) | `default` |
+| [![Popover 1](popover-1/popover-feedback/screenshot.png)](popover-1/popover-feedback/README.md) | [Popover 1](popover-1/popover-feedback/README.md) | `popover-feedback` |
+| [![Popover 1](popover-1/popover-notifications/screenshot.png)](popover-1/popover-notifications/README.md) | [Popover 1](popover-1/popover-notifications/README.md) | `popover-notifications` |
+| [![Popover 1](popover-1/popover-share/screenshot.png)](popover-1/popover-share/README.md) | [Popover 1](popover-1/popover-share/README.md) | `popover-share` |
+| [![Popover 1](popover-1/settings-popover/screenshot.png)](popover-1/settings-popover/README.md) | [Popover 1](popover-1/settings-popover/README.md) | `settings-popover` |
+| [![Popover 1](popover-1/user-profile-popover/screenshot.png)](popover-1/user-profile-popover/README.md) | [Popover 1](popover-1/user-profile-popover/README.md) | `user-profile-popover` |
+| [![Progress 1](progress-1/circular-colors-progress/screenshot.png)](progress-1/circular-colors-progress/README.md) | [Progress 1](progress-1/circular-colors-progress/README.md) | `circular-colors-progress` |
+| [![Progress 1](progress-1/circular-indeterminate-progress/screenshot.png)](progress-1/circular-indeterminate-progress/README.md) | [Progress 1](progress-1/circular-indeterminate-progress/README.md) | `circular-indeterminate-progress` |
+| [![Progress 1](progress-1/circular-progress/screenshot.png)](progress-1/circular-progress/README.md) | [Progress 1](progress-1/circular-progress/README.md) | `circular-progress` |
+| [![Progress 1](progress-1/circular-sizes-progress/screenshot.png)](progress-1/circular-sizes-progress/README.md) | [Progress 1](progress-1/circular-sizes-progress/README.md) | `circular-sizes-progress` |
+| [![Progress 1](progress-1/default/screenshot.png)](progress-1/default/README.md) | [Progress 1](progress-1/default/README.md) | `default` |
+| [![Progress 1](progress-1/linear-colors-progress/screenshot.png)](progress-1/linear-colors-progress/README.md) | [Progress 1](progress-1/linear-colors-progress/README.md) | `linear-colors-progress` |
+| [![Progress 1](progress-1/linear-indeterminate-progress/screenshot.png)](progress-1/linear-indeterminate-progress/README.md) | [Progress 1](progress-1/linear-indeterminate-progress/README.md) | `linear-indeterminate-progress` |
+| [![Progress 1](progress-1/linear-sizes-progress/screenshot.png)](progress-1/linear-sizes-progress/README.md) | [Progress 1](progress-1/linear-sizes-progress/README.md) | `linear-sizes-progress` |
+| [![Progress 1](progress-1/linear-with-label-progress/screenshot.png)](progress-1/linear-with-label-progress/README.md) | [Progress 1](progress-1/linear-with-label-progress/README.md) | `linear-with-label-progress` |
+| [![Progress 1](progress-1/vertical-progress/screenshot.png)](progress-1/vertical-progress/README.md) | [Progress 1](progress-1/vertical-progress/README.md) | `vertical-progress` |
+| [![Qr Code](qr-code/default/screenshot.png)](qr-code/default/README.md) | [Qr Code](qr-code/default/README.md) | `default` |
+| [![Qr Code](qr-code/qr-code-contact/screenshot.png)](qr-code/qr-code-contact/README.md) | [Qr Code](qr-code/qr-code-contact/README.md) | `qr-code-contact` |
+| [![Qr Code](qr-code/qr-code-custom-colours/screenshot.png)](qr-code/qr-code-custom-colours/README.md) | [Qr Code](qr-code/qr-code-custom-colours/README.md) | `qr-code-custom-colours` |
+| [![Qr Code](qr-code/qr-code-with-download/screenshot.png)](qr-code/qr-code-with-download/README.md) | [Qr Code](qr-code/qr-code-with-download/README.md) | `qr-code-with-download` |
+| [![Qr Code](qr-code/qr-code-with-overlay/screenshot.png)](qr-code/qr-code-with-overlay/README.md) | [Qr Code](qr-code/qr-code-with-overlay/README.md) | `qr-code-with-overlay` |
+| [![Radio Group](radio-group/default/screenshot.png)](radio-group/default/README.md) | [Radio Group](radio-group/default/README.md) | `default` |
+| [![Radio Group](radio-group/radio-group-cards/screenshot.png)](radio-group/radio-group-cards/README.md) | [Radio Group](radio-group/radio-group-cards/README.md) | `radio-group-cards` |
+| [![Radio Group](radio-group/radio-group-colors/screenshot.png)](radio-group/radio-group-colors/README.md) | [Radio Group](radio-group/radio-group-colors/README.md) | `radio-group-colors` |
+| [![Radio Group](radio-group/radio-group-disabled/screenshot.png)](radio-group/radio-group-disabled/README.md) | [Radio Group](radio-group/radio-group-disabled/README.md) | `radio-group-disabled` |

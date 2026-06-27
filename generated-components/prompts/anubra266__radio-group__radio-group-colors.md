@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/anubra266/radio-group/radio-group-colors
+- Registry URL: https://21st.dev/r/anubra266/radio-group
+- Author: anubra266
+- Component slug: radio-group
+- Demo slug: radio-group-colors
+- Title: radio-group
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/anubra266/radio-group with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/anubra266__radio-group__radio-group-colors.html
+- Local screenshot file: generated-21st-prompts/screenshots/anubra266__radio-group__radio-group-colors.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div data-scope="radio-group" data-part="root" role="radiogroup" id="radio-group:«r0»" aria-labelledby="radio-group:«r0»:label" data-orientation="vertical" aria-orientation="vertical" dir="ltr" class="flex gap-3" style="position: relative;"><label data-scope="radio-group" data-part="item" dir="ltr" id="radio-group:«r0»:radio:red" for="radio-group:«r0»:radio:input:red" data-state="checked" data-orientation="vertical" class="cursor-pointer"><div data-scope="radio-group" data-part="item-control" dir="ltr" id="radio-group:«r0»:radio:control:red" aria-hidden="true" data-state="checked" data-orientation="vertical" class="group size-6 border-2 border-red-500 rounded-full data-[state=checked]:border-red-500 hover:border-red-500 data-focus:ring-2 data-focus:ring-red-500/50 transition-all duration-200 flex items-center justify-center bg-red-500"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" class="opacity-0 group-data-[state=checked]:opacity-100 transition-opacity text-white"><circle cx="6" cy="6" r="6"></circle></svg></div><input data-ownedby="radio-group:«r0»" id="radio-group:«r0»:radio:input:red" type="radio" value="red" checked="" name="«r0»" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></label><label data-scope="radio-group" data-part="item" dir="ltr" id="radio-group:«r0»:radio:blue" for="radio-group:«r0»:radio:input:blue" data-state="unchecked" data-orientation="vertical" class="cursor-pointer"><div data-scope="radio-group" data-part="item-control" dir="ltr" id="radio-group:«r0»:radio:control:blue" aria-hidden="true" data-state="unchecked" data-orientation="vertical" class="group size-6 border-2 border-blue-500 rounded-full data-[state=checked]:border-blue-500 hover:border-blue-500 data-focus:ring-2 data-focus:ring-blue-500/50 transition-all duration-200 flex items-center justify-center bg-blue-500"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" class="opacity-0 group-data-[state=checked]:opacity-100 transition-opacity text-white"><circle cx="6" cy="6" r="6"></circle></svg></div><input data-ownedby="radio-group:«r0»" id="radio-group:«r0»:radio:input:blue" type="radio" value="blue" name="«r0»" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></label><label data-scope="radio-group" data-part="item" dir="ltr" id="radio-group:«r0»:radio:green" for="radio-group:«r0»:radio:input:green" data-state="unchecked" data-orientation="vertical" class="cursor-pointer"><div data-scope="radio-group" data-part="item-control" dir="ltr" id="radio-group:«r0»:radio:control:green" aria-hidden="true" data-state="unchecked" data-orientation="vertical" class="group size-6 border-2 border-green-500 rounded-full data-[state=checked]:border-green-500 hover:border-green-500 data-focus:ring-2 data-focus:ring-green-500/50 transition-all duration-200 flex items-center justify-center bg-green-500"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" class="opacity-0 group-data-[state=checked]:opacity-100 transition-opacity text-white"><circle cx="6" cy="6" r="6"></circle></svg></div><input data-ownedby="radio-group:«r0»" id="radio-group:«r0»:radio:input:green" type="radio" value="green" name="«r0»" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></label><label data-scope="radio-group" data-part="item" dir="ltr" id="radio-group:«r0»:radio:yellow" for="radio-group:«r0»:radio:input:yellow" data-state="unchecked" data-orientation="vertical" class="cursor-pointer"><div data-scope="radio-group" data-part="item-control" dir="ltr" id="radio-group:«r0»:radio:control:yellow" aria-hidden="true" data-state="unchecked" data-orientation="vertical" class="group size-6 border-2 border-yellow-500 rounded-full data-[state=checked]:border-yellow-500 hover:border-yellow-500 data-focus:ring-2 data-focus:ring-yellow-500/50 transition-all duration-200 flex items-center justify-center bg-yellow-500"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" class="opacity-0 group-data-[state=checked]:opacity-100 transition-opacity text-white"><circle cx="6" cy="6" r="6"></circle></svg></div><input data-ownedby="radio-group:«r0»" id="radio-group:«r0»:radio:input:yellow" type="radio" value="yellow" name="«r0»" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></label><label data-scope="radio-group" data-part="item" dir="ltr" id="radio-group:«r0»:radio:purple" for="radio-group:«r0»:radio:input:purple" data-state="unchecked" data-orientation="vertical" class="cursor-pointer"><div data-scope="radio-group" data-part="item-control" dir="ltr" id="radio-group:«r0»:radio:control:purple" aria-hidden="true" data-state="unchecked" data-orientation="vertical" class="group size-6 border-2 border-purple-500 rounded-full data-[state=checked]:border-purple-500 hover:border-purple-500 data-focus:ring-2 data-focus:ring-purple-500/50 transition-all duration-200 flex items-center justify-center bg-purple-500"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" class="opacity-0 group-data-[state=checked]:opacity-100 transition-opacity text-white"><circle cx="6" cy="6" r="6"></circle></svg></div><input data-ownedby="radio-group:«r0»" id="radio-group:«r0»:radio:input:purple" type="radio" value="purple" name="«r0»" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></label><label data-scope="radio-group" data-part="item" dir="ltr" id="radio-group:«r0»:radio:pink" for="radio-group:«r0»:radio:input:pink" data-state="unchecked" data-orientation="vertical" class="cursor-pointer"><div data-scope="radio-group" data-part="item-control" dir="ltr" id="radio-group:«r0»:radio:control:pink" aria-hidden="true" data-state="unchecked" data-orientation="vertical" class="group size-6 border-2 border-pink-500 rounded-full data-[state=checked]:border-pink-500 hover:border-pink-500 data-focus:ring-2 data-focus:ring-pink-500/50 transition-all duration-200 flex items-center justify-center bg-pink-500"><svg width="12" height="12" viewBox="0 0 12 12" fill="currentcolor" xmlns="http://www.w3.org/2000/svg" class="opacity-0 group-data-[state=checked]:opacity-100 transition-opacity text-white"><circle cx="6" cy="6" r="6"></circle></svg></div><input data-ownedby="radio-group:«r0»" id="radio-group:«r0»:radio:input:pink" type="radio" value="pink" name="«r0»" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; width: 1px; white-space: nowrap; overflow-wrap: normal;"></label></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.
