@@ -1,0 +1,57 @@
+# Build Bento Grid in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Bento Grid screenshot](screenshot.png)
+
+## Component
+
+- Author group: `aliimam`
+- Component: `bento-grid`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: aliimam
+- Component slug: bento-grid
+- Demo slug: default
+- Title: bento-grid
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div><div class="mb-8 text-center"><h1 class="mb-4 text-4xl font-bold text-gray-900 dark:text-gray-100">Bento Grid</h1><p class="text-lg text-gray-600 dark:text-gray-400">A flexible bento grid layout for showcasing your work and services</p></div><div class="relative mb-6"><div class="grid grid-cols-1 md:grid-cols-6 lg:grid-cols-6 gap-0 rounded-3xl border dark:border-neutral-800"><div id="1" class="relative overflow-hidden p-4 sm:p-8 col-span-1 md:col-span-3 lg:col-span-2 border-b md:border-r dark:border-neutral-800"><h3 class="text-left text-xl tracking-tight text-black md:text-2xl md:leading-snug dark:text-white">Ali Imam</h3><p class="text-sm font-normal text-neutral-500 dark:text-neutral-300 mx-0 my-2 max-w-sm text-left md:text-sm">Good afternoon! I am Ali, an experienced Design Engineer. Learn more about me.</p><div class="h-full w-full"><div class="flex items-center gap-4"><div class="group flex h-full w-full"><div class="relative mt-4 w-full"><div class="group inline-block w-full text-center"><div class="border-border-primary w-full rounded-xl border p-2 transition-all duration-500 ease-out group-hover:border-[#fff200]" style="height: 208px;"><div class="grid h-full place-items-center rounded-lg border-2 border-[#fff200] bg-[#EDEEF0]" style="box-shadow: rgb(255, 242, 0) 10px 10px 1.5px 0px inset;"></div></div></div><img alt="ali" width="300" height="300" class="absolute top-1 left-1 h-[200px] w-40 -rotate-[6deg] rounded-lg object-cover shadow-sm transition-all duration-500 group-hover:scale-95 group-hover:rotate-[0deg]" src="https://raw.githubusercontent.com/dalim-in/dalim/refs/heads/main/apps/www/public/ali1.jpg"><img alt="ali" width="300" height="300" class="absolute top-1 right-24 h-[200px] w-40 rotate-[5deg] rounded-lg object-cover shadow-sm transition-all duration-500 group-hover:scale-95 group-hover:rotate-[0deg]" src="https://raw.githubusercontent.com/dalim-in/dalim/refs/heads/main/apps/www/public/ali3.jpg"><img alt="ali" width="300" height="300" class="absolute top-1 right-1 h-[200px] w-40 -rotate-[6deg] rounded-lg object-cover shadow-sm transition-all duration-500 group-hover:scale-95 group-hover:rotate-[0deg]" src="https://raw.githubusercontent.com/dalim-in/dalim/refs/heads/main/apps/www/public/ali.jpg"></div></div></div></div></div><div id="2" class="relative overflow-hidden p-4 sm:p-8 col-span-1 md:col-span-3 lg:col-span-2 border-b lg:border-r dark:border-neutral-800"><h3 class="text-left text-xl tracking-tight text-black md:text-2xl md:leading-snug dark:text-white">UI</h3><p class="text-sm font-normal text-neutral-500 dark:text-neutral-300 mx-0 my-2 max-w-sm text-left md:text-sm">Discover beautifully crafted typefaces for every creative project — from modern displays to.</p><div class="h-full w-full"><div class="bg-accent mt-6 rounded-xl h-50 w-full"></div></div></div><div id="3" class="relative overflow-hidden p-4 sm:p-8 col-span-1 md:col-span-6 md:border-b lg:border-r-0 lg:col-span-2 border-b dark:border-neutral-800"><h3 class="text-left text-xl tracking-tight text-black md:text-2xl md:leading-snug dark:text-white">Agency</h3><p class="text-sm font-normal text-neutral-500 dark:text-neutral-300 mx-0 my-2 max-w-sm text-left md:text-sm">Get agency-level designs without the agency price. A flat monthly rate for all your design needs.</p><div class="h-full w-full"><div class="bg-accent mt-6 rounded-xl h-50 w-full"></div></div></div><div id="4" class="relative overflow-hidden p-4 sm:p-8 col-span-1 md:col-span-6 lg:col-span-6 border-b lg:border-r-0 dark:border-neutral-800"><div class="h-full w-full"><div class="bg-accent rounded-xl h-50 w-full"></div></div></div><div id="5" class="relative overflow-hidden p-4 sm:p-8 col-span-1 md:col-span-3 lg:col-span-2 md:border-r dark:border-neutral-800"><h3 class="text-left text-xl tracking-tight text-black md:text-2xl md:leading-snug dark:text-white">Graphic</h3><p class="text-sm font-normal text-neutral-500 dark:text-neutral-300 mx-0 my-2 max-w-sm text-left md:text-sm">Discover the essence of creativity in our exquisite collection of top-tier abstract design assets. View all Graphics.</p><div class="h-full w-full"><div class="bg-accent mt-6 rounded-xl h-50 w-full"></div></div></div><div id="6" class="relative overflow-hidden p-4 sm:p-8 col-span-1 md:col-span-3 lg:col-span-2 lg:border-r dark:border-neutral-800"><h3 class="text-left text-xl tracking-tight text-black md:text-2xl md:leading-snug dark:text-white">Fonts</h3><p class="text-sm font-normal text-neutral-500 dark:text-neutral-300 mx-0 my-2 max-w-sm text-left md:text-sm">Discover beautifully crafted typefaces for every creative project — from modern displays to vintage-inspired lettering.</p><div class="h-full w-full"><div class="bg-accent mt-6 rounded-xl h-50 w-full"></div></div></div><div id="7" class="relative overflow-hidden p-4 sm:p-8 col-span-1 md:col-span-6 lg:border-r-0 lg:col-span-2 dark:border-neutral-800"><h3 class="text-left text-xl tracking-tight text-black md:text-2xl md:leading-snug dark:text-white">Visuals</h3><p class="text-sm font-normal text-neutral-500 dark:text-neutral-300 mx-0 my-2 max-w-sm text-left md:text-sm">Discover beautifully websites for design and project — from modern displays to vintage-inspired designs. View all Visuals.</p><div class="h-full w-full"><div class="bg-accent mt-6 rounded-xl h-50 w-full"></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
