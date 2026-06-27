@@ -1,6 +1,6 @@
 # Youcefbnm Components
 
-20 components are available in this author group.
+32 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -26,3 +26,15 @@
 | [![Product Card](product-card/default/screenshot.png)](product-card/default/README.md) | [Product Card](product-card/default/README.md) | `default` |
 | [![Reveal On Hover](reveal-on-hover/default/screenshot.png)](reveal-on-hover/default/README.md) | [Reveal On Hover](reveal-on-hover/default/README.md) | `default` |
 | [![Scroll Trigger Animations](scroll-trigger-animations/default/screenshot.png)](scroll-trigger-animations/default/README.md) | [Scroll Trigger Animations](scroll-trigger-animations/default/README.md) | `default` |
+| [![Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-inset-x-demo/screenshot.png)](scroll-trigger-animations/scroll-trigger-inset-x-demo/README.md) | [Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-inset-x-demo/README.md) | `scroll-trigger-inset-x-demo` |
+| [![Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-inset-y-demo/screenshot.png)](scroll-trigger-animations/scroll-trigger-inset-y-demo/README.md) | [Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-inset-y-demo/README.md) | `scroll-trigger-inset-y-demo` |
+| [![Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-radius-demo/screenshot.png)](scroll-trigger-animations/scroll-trigger-radius-demo/README.md) | [Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-radius-demo/README.md) | `scroll-trigger-radius-demo` |
+| [![Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-scale-demo/screenshot.png)](scroll-trigger-animations/scroll-trigger-scale-demo/README.md) | [Scroll Trigger Animations](scroll-trigger-animations/scroll-trigger-scale-demo/README.md) | `scroll-trigger-scale-demo` |
+| [![Scroll X Carousel](scroll-x-carousel/default/screenshot.png)](scroll-x-carousel/default/README.md) | [Scroll X Carousel](scroll-x-carousel/default/README.md) | `default` |
+| [![Scroll X Carousel](scroll-x-carousel/reversed/screenshot.png)](scroll-x-carousel/reversed/README.md) | [Scroll X Carousel](scroll-x-carousel/reversed/README.md) | `reversed` |
+| [![Stagger Text](stagger-text/stagger-text-animation/screenshot.png)](stagger-text/stagger-text-animation/README.md) | [Stagger Text](stagger-text/stagger-text-animation/README.md) | `stagger-text-animation` |
+| [![Story](story/default/screenshot.png)](story/default/README.md) | [Story](story/default/README.md) | `default` |
+| [![Team Section](team-section/default/screenshot.png)](team-section/default/README.md) | [Team Section](team-section/default/README.md) | `default` |
+| [![Text Stagger Hover](text-stagger-hover/default/screenshot.png)](text-stagger-hover/default/README.md) | [Text Stagger Hover](text-stagger-hover/default/README.md) | `default` |
+| [![Vertical Text](vertical-text/default/screenshot.png)](vertical-text/default/README.md) | [Vertical Text](vertical-text/default/README.md) | `default` |
+| [![Wavy Text Block](wavy-text-block/default/screenshot.png)](wavy-text-block/default/README.md) | [Wavy Text Block](wavy-text-block/default/README.md) | `default` |

@@ -1,0 +1,57 @@
+# Build Container Scroll Animation in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Container Scroll Animation screenshot](screenshot.png)
+
+## Component
+
+- Author group: `aceternity`
+- Component: `container-scroll-animation`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: aceternity
+- Component slug: container-scroll-animation
+- Demo slug: default
+- Title: container-scroll-animation
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="flex flex-col overflow-hidden pb-[500px] pt-[1000px]"><div class="h-[60rem] md:h-[80rem] flex items-center justify-center relative p-2 md:p-20"><div class="py-10 md:py-40 w-full relative" style="perspective: 1000px;"><div class="div max-w-5xl mx-auto text-center" style="transform: none;"><h1 class="text-4xl font-semibold text-black dark:text-white">Unleash the power of <br><span class="text-4xl md:text-[6rem] font-bold mt-1 leading-none">Scroll Animations</span></h1></div><div class="max-w-5xl -mt-12 mx-auto h-[30rem] md:h-[40rem] w-full border-4 border-[#6C6C6C] p-2 md:p-6 bg-[#222222] rounded-[30px] shadow-2xl" style="box-shadow: rgba(0, 0, 0, 0.3) 0px 0px, rgba(0, 0, 0, 0.29) 0px 9px 20px, rgba(0, 0, 0, 0.26) 0px 37px 37px, rgba(0, 0, 0, 0.15) 0px 84px 50px, rgba(0, 0, 0, 0.04) 0px 149px 60px, rgba(0, 0, 0, 0.01) 0px 233px 65px; transform: scale(1.05) rotateX(20deg);"><div class=" h-full w-full  overflow-hidden rounded-2xl bg-gray-100 dark:bg-zinc-900 md:rounded-2xl md:p-4 "><img alt="hero" width="1400" height="720" class="mx-auto rounded-2xl object-cover h-full object-left-top" draggable="false" src="https://ui.aceternity.com/_next/image?url=%2Flinear.webp&amp;w=3840&amp;q=75"></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

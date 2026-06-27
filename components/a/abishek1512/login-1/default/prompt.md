@@ -1,0 +1,57 @@
+# Build Login 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Login 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `abishek1512`
+- Component: `login-1`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: abishek1512
+- Component slug: login-1
+- Demo slug: default
+- Title: login-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex w-full h-screen justify-center items-center"><div class="h-screen w-[100%] bg-[var(--color-bg)] flex items-center justify-center p-4"><div class="card w-[80%] lg:w-[70%] md:w-[55%] flex justify-between h-[600px]"><div class="w-full lg:w-1/2 px-4 lg:px-16 left h-full relative overflow-hidden"><div class="absolute pointer-events-none w-[500px] h-[500px] bg-gradient-to-r from-purple-300/30 via-blue-300/30 to-pink-300/30 rounded-full blur-3xl transition-opacity duration-200 opacity-0" style="transform: translate(-250px, -250px); transition: transform 0.1s ease-out;"></div><div class="form-container sign-in-container h-full z-10"><form class="text-center py-10 md:py-20 grid gap-2 h-full"><div class="grid gap-4 md:gap-6 mb-2"><h1 class="text-3xl md:text-4xl font-extrabold">Sign in</h1><div class="social-container"><div class="flex items-center justify-center"><ul class="flex gap-3 md:gap-4"><li class="list-none"><a href="#" class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] bg-[var(--color-bg-2)] rounded-full flex justify-center items-center relative z-[1] border-3 border-[var(--color-text-primary)] overflow-hidden group"><div class="absolute inset-0 w-full h-full bg-[var(--color-bg)] scale-y-0 origin-bottom transition-transform duration-500 ease-in-out group-hover:scale-y-100"></div><span class="text-[1.5rem] text-[hsl(203,92%,8%)] transition-all duration-500 ease-in-out z-[2] group-hover:text-[var(--color-text-primary)] group-hover:rotate-y-360"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 0 1-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 0 1 7.8 2m-.2 2A3.6 3.6 0 0 0 4 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 0 0 3.6-3.6V7.6C20 5.61 18.39 4 16.4 4zm9.65 1.5a1.25 1.25 0 0 1 1.25 1.25A1.25 1.25 0 0 1 17.25 8A1.25 1.25 0 0 1 16 6.75a1.25 1.25 0 0 1 1.25-1.25M12 7a5 5 0 0 1 5 5a5 5 0 0 1-5 5a5 5 0 0 1-5-5a5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3a3 3 0 0 0 3 3a3 3 0 0 0 3-3a3 3 0 0 0-3-3"></path></svg></span></a></li><li class="list-none"><a href="#" class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] bg-[var(--color-bg-2)] rounded-full flex justify-center items-center relative z-[1] border-3 border-[var(--color-text-primary)] overflow-hidden group"><div class="absolute inset-0 w-full h-full bg-[var(--color-bg)] scale-y-0 origin-bottom transition-transform duration-500 ease-in-out group-hover:scale-y-100"></div><span class="text-[1.5rem] text-[hsl(203,92%,8%)] transition-all duration-500 ease-in-out z-[2] group-hover:text-[var(--color-text-primary)] group-hover:rotate-y-360"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M6.94 5a2 2 0 1 1-4-.002a2 2 0 0 1 4 .002M7 8.48H3V21h4zm6.32 0H9.34V21h3.94v-6.57c0-3.66 4.77-4 4.77 0V21H22v-7.93c0-6.17-7.06-5.94-8.72-2.91z"></path></svg></span></a></li><li class="list-none"><a href="#" class="w-[2.5rem] md:w-[3rem] h-[2.5rem] md:h-[3rem] bg-[var(--color-bg-2)] rounded-full flex justify-center items-center relative z-[1] border-3 border-[var(--color-text-primary)] overflow-hidden group"><div class="absolute inset-0 w-full h-full bg-[var(--color-bg)] scale-y-0 origin-bottom transition-transform duration-500 ease-in-out group-hover:scale-y-100"></div><span class="text-[1.5rem] text-[hsl(203,92%,8%)] transition-all duration-500 ease-in-out z-[2] group-hover:text-[var(--color-text-primary)] group-hover:rotate-y-360"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M9.198 21.5h4v-8.01h3.604l.396-3.98h-4V7.5a1 1 0 0 1 1-1h3v-4h-3a5 5 0 0 0-5 5v2.01h-2l-.396 3.98h2.396z"></path></svg></span></a></li></ul></div></div><span class="text-sm">or use your account</span></div><div class="grid gap-4 items-center"><div class="w-full min-w-[200px] relative"><div class="relative w-full"><input class="peer relative z-10 border-2 border-[var(--color-border)] h-13 w-full rounded-md bg-[var(--color-surface)] px-4 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-[var(--color-bg)] placeholder:font-medium" placeholder="Email" type="email"></div></div><div class="w-full min-w-[200px] relative"><div class="relative w-full"><input class="peer relative z-10 border-2 border-[var(--color-border)] h-13 w-full rounded-md bg-[var(--color-surface)] px-4 font-thin outline-none drop-shadow-sm transition-all duration-200 ease-in-out focus:bg-[var(--color-bg)] placeholder:font-medium" placeholder="Password" type="password"></div></div></div><a href="#" class="font-light text-sm md:text-md">Forgot your password?</a><div class="flex gap-4 justify-center items-center"><button class="group/button relative inline-flex justify-center items-center overflow-hidden rounded-md bg-[var(--color-border)] px-4 py-1.5 text-xs font-normal text-white transition-all duration-300 ease-in-out hover:scale-105 hover:shadow-lg hover:shadow-[var(--color-text-primary)] cursor-pointer"><span class="text-sm px-2 py-1">Sign In</span><div class="absolute inset-0 flex h-full w-full justify-center [transform:skew(-13deg)_translateX(-100%)] group-hover/button:duration-1000 group-hover/button:[transform:skew(-13deg)_translateX(100%)]"><div class="relative h-full w-8 bg-white/20"></div></div></button></div></form></div></div><div class="hidden lg:block w-1/2 right h-full overflow-hidden"><img alt="Carousel image" width="1000" height="1000" class="w-full h-full object-cover transition-transform duration-300 opacity-30" src="https://images.pexels.com/photos/7102037/pexels-photo-7102037.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

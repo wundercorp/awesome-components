@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/aayush-duhan/card-fan-carousel/default
+- Registry URL: https://21st.dev/r/aayush-duhan/card-fan-carousel
+- Author: aayush-duhan
+- Component slug: card-fan-carousel
+- Demo slug: default
+- Title: card-fan-carousel
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/aayush-duhan/card-fan-carousel with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/aayush-duhan__card-fan-carousel__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/aayush-duhan__card-fan-carousel__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen flex items-center"><section class="flex flex-col items-center w-full py-4 lg:py-8 px-4 md:px-8 relative z-20"><div class="flex items-center justify-center w-full max-w-[90rem]"><div class="fan-layout flex relative justify-center items-center w-full max-w-[80rem]"><div class="fan-card" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(-22.5rem, 7.3rem) rotate(-21deg) scale(0.7756, 0.7756); z-index: 1;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Mountain landscape" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(-16.5rem, 4rem) rotate(-14deg) scale(0.8498, 0.8498); z-index: 2;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="City night" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1511765224389-37f0e77cf0eb?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(-8.25rem, 1.3rem) rotate(-7deg) scale(0.9346, 0.9346); z-index: 3;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Foggy forest" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0rem, 0rem); z-index: 10;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Sunlit woods" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(8.25rem, 1.3rem) rotate(7deg) scale(0.9346, 0.9346); z-index: 3;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Tropical beach" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(16.5rem, 4rem) rotate(14deg) scale(0.8498, 0.8498); z-index: 2;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Starry mountain" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(22.5rem, 7.3rem) rotate(21deg) scale(0.7756, 0.7756); z-index: 1;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Golden sunset" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1476820865390-c52aeebb9891?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; z-index: 0; transform: scale(0.3, 0.3); opacity: 0;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Lake reflection" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; z-index: 0; transform: scale(0.3, 0.3); opacity: 0;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Green valley" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1472214103451-9374bd1c798e?w=400&amp;h=700&amp;fit=crop"></div></div><div class="fan-card" style="translate: none; rotate: none; scale: none; z-index: 0; transform: scale(0.3, 0.3); opacity: 0;"><div class="relative w-full h-full overflow-hidden"><img loading="lazy" alt="Sunbeam nature" class="absolute inset-0 w-full h-full object-cover z-10" src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=400&amp;h=700&amp;fit=crop"></div></div></div></div><div class="flex items-center justify-center gap-4 mt-4 md:mt-6 z-30"><button class="relative flex items-center justify-center rounded-full border-[1.5px] border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 backdrop-blur-[16px] text-black/40 dark:text-white/55 cursor-pointer shrink-0 z-30 outline-none shadow-[0_4px_20px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_20px_rgba(0,0,0,0.4)] hover:border-black/25 dark:hover:border-white/25 hover:text-black/70 dark:hover:text-white/80 active:opacity-70 transition-colors duration-300 before:content-[''] before:absolute before:inset-[3px] before:rounded-full before:border before:border-black/[0.04] dark:before:border-white/[0.04] before:pointer-events-none w-10 h-10 md:w-12 md:h-12" aria-label="Previous"><svg class="relative z-[2] w-4 h-4 md:w-5 md:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg></button><div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/70 dark:bg-white/80 scale-[1.3]"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span><span class="w-2 h-2 rounded-full transition-all duration-300 bg-black/15 dark:bg-white/15"></span></div><button class="relative flex items-center justify-center rounded-full border-[1.5px] border-black/10 dark:border-white/10 bg-black/5 dark:bg-white/5 backdrop-blur-[16px] text-black/40 dark:text-white/55 cursor-pointer shrink-0 z-30 outline-none shadow-[0_4px_20px_rgba(0,0,0,0.1)] dark:shadow-[0_4px_20px_rgba(0,0,0,0.4)] hover:border-black/25 dark:hover:border-white/25 hover:text-black/70 dark:hover:text-white/80 active:opacity-70 transition-colors duration-300 before:content-[''] before:absolute before:inset-[3px] before:rounded-full before:border before:border-black/[0.04] dark:before:border-white/[0.04] before:pointer-events-none w-10 h-10 md:w-12 md:h-12" aria-label="Next"><svg class="relative z-[2] w-4 h-4 md:w-5 md:h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg></button></div></section></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

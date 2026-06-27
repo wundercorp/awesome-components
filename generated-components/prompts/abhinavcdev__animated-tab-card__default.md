@@ -1,0 +1,63 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/abhinavcdev/animated-tab-card/default
+- Registry URL: https://21st.dev/r/abhinavcdev/animated-tab-card
+- Author: abhinavcdev
+- Component slug: animated-tab-card
+- Demo slug: default
+- Title: animated-tab-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/abhinavcdev/animated-tab-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/abhinavcdev__animated-tab-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/abhinavcdev__animated-tab-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-col h-full"><div class="flex-1 mb-4 relative mt-48"><div class="bg-card border rounded-lg h-[200px] w-1/2 mx-auto py-auto relative"><div class="absolute inset-0 overflow-hidden rounded-lg"><div class="absolute inset-0 w-full h-full will-change-transform bg-card" style="backface-visibility: hidden; opacity: 1; filter: blur(0px); position: absolute; transform: none;"><a href="https://kokonutui.com/" target="_blank"><div class="relative h-full"><div class="absolute inset-0 overflow-hidden"><svg class="absolute bottom-0 w-full h-32" viewBox="0 0 420 100" preserveAspectRatio="none" aria-hidden="true" role="presentation"><g class="fill-blue-500 stroke-blue-500" opacity="0.15" style="stroke-width: 1;"><path d="M0 50 
+           C 20 40, 40 30, 60 50
+           C 80 70, 100 60, 120 50
+           C 140 40, 160 30, 180 50
+           C 200 70, 220 60, 240 50
+           C 260 40, 280 30, 300 50
+           C 320 70, 340 60, 360 50
+           C 380 40, 400 30, 420 50
+           L 420 100 L 0 100 Z" style="transform: none; transform-origin: 50% 50%; transform-box: fill-box;"></path></g><g class="fill-blue-500 stroke-blue-500" opacity="0.1" style="stroke-width: 1; transform: translateY(10px);"><path d="M0 50 
+           C 20 40, 40 30, 60 50
+           C 80 70, 100 60, 120 50
+           C 140 40, 160 30, 180 50
+           C 200 70, 220 60, 240 50
+           C 260 40, 280 30, 300 50
+           C 320 70, 340 60, 360 50
+           C 380 40, 400 30, 420 50
+           L 420 100 L 0 100 Z" style="transform: none; transform-origin: 50% 50%; transform-box: fill-box;"></path></g></svg></div><div class="p-6 h-full relative flex flex-col"><div class="space-y-2"><h3 class="text-2xl font-semibold tracking-tight [text-shadow:_0_1px_1px_rgb(0_0_0_/_10%)]">Models</h3><p class="text-sm text-black/50 dark:text-white/50 leading-relaxed max-w-[90%]">Choose the model you want to use</p></div></div></div></a></div></div></div></div><div role="tablist" aria-label="Smooth tabs" class="flex items-center justify-between gap-1 py-1 mt-auto relative bg-background w-[400px] mx-auto border rounded-xl transition-all duration-200"><div class="absolute rounded-lg z-[1] bg-blue-500 hover:bg-blue-600" style="height: calc(100% - 8px); top: 4px; opacity: 1; transform: translateX(5px); width: 88.5px;"></div><div class="grid grid-cols-4 w-full gap-1 relative z-[2]"><button type="button" role="tab" aria-selected="true" aria-controls="panel-Models" id="tab-Models" tabindex="0" class="relative flex items-center justify-center gap-0.5 rounded-lg px-2 py-1.5 text-sm font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring truncate text-white"><span class="truncate">Models</span></button><button type="button" role="tab" aria-selected="false" aria-controls="panel-MCPs" id="tab-MCPs" tabindex="-1" class="relative flex items-center justify-center gap-0.5 rounded-lg px-2 py-1.5 text-sm font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring truncate text-muted-foreground hover:bg-muted/50 hover:text-foreground"><span class="truncate">MCPs</span></button><button type="button" role="tab" aria-selected="false" aria-controls="panel-Agents" id="tab-Agents" tabindex="-1" class="relative flex items-center justify-center gap-0.5 rounded-lg px-2 py-1.5 text-sm font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring truncate text-muted-foreground hover:bg-muted/50 hover:text-foreground"><span class="truncate">Agents</span></button><button type="button" role="tab" aria-selected="false" aria-controls="panel-Users" id="tab-Users" tabindex="-1" class="relative flex items-center justify-center gap-0.5 rounded-lg px-2 py-1.5 text-sm font-medium transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring truncate text-muted-foreground hover:bg-muted/50 hover:text-foreground"><span class="truncate">Users</span></button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

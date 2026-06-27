@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/YoucefBnm/scroll-trigger-animations/scroll-trigger-radius-demo
+- Registry URL: https://21st.dev/r/YoucefBnm/scroll-trigger-animations
+- Author: YoucefBnm
+- Component slug: scroll-trigger-animations
+- Demo slug: scroll-trigger-radius-demo
+- Title: scroll-trigger-animations
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/YoucefBnm/scroll-trigger-animations with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/YoucefBnm__scroll-trigger-animations__scroll-trigger-radius-demo.html
+- Local screenshot file: generated-21st-prompts/screenshots/YoucefBnm__scroll-trigger-animations__scroll-trigger-radius-demo.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative"><div class="relative h-dvh py-8 px-6 flex justify-center items-center" style="transform: none;"><div class="overflow-hidden size-96" style="clip-path: inset(0% round 1000px);"><img alt="tokyo" class="size-full object-cover" src="https://images.unsplash.com/photo-1608501078713-8e445a709b39?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div></div><div class="w-full h-96"></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,50 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/aarispathan15/book-slider/default
+- Registry URL: https://21st.dev/r/aarispathan15/book-slider
+- Author: aarispathan15
+- Component slug: book-slider
+- Demo slug: default
+- Title: book-slider
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/aarispathan15/book-slider with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/aarispathan15__book-slider__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/aarispathan15__book-slider__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="stf__parent" style="min-width: 370px; min-height: 500px; width: 100%; max-width: 740px; display: block;"><div class="stf__wrapper --portrait" style="padding-bottom: 135.135%;"><div class="stf__block"><div class="page stf__item --soft --simple --right" style="position: absolute; display: block; height: 500px; left: 0px; top: 0px; width: 370px; z-index: 1;"><div class="page-content cover"><img alt="Pokémon Logo" class="pokemon-logo" src="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg"></div></div><div class="page stf__item --soft" style="display: none;"><div class="page-content"><div class="pokemon-container"><img alt="Charizard" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/006.png"><div class="pokemon-info"><h2 class="pokemon-name">Charizard</h2><p class="pokemon-number">#006</p><div><span class="pokemon-type type-fire">Fire</span><span class="pokemon-type type-flying">Flying</span></div><p class="pokemon-description">Flies in search of strong opponents. Breathes extremely hot fire that melts anything, but never uses it on weaker foes.</p></div></div></div></div><div class="page stf__item --soft" style="display: none;"><div class="page-content"><div class="pokemon-container"><img alt="Pikachu" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/025.png"><div class="pokemon-info"><h2 class="pokemon-name">Pikachu</h2><p class="pokemon-number">#025</p><div><span class="pokemon-type type-electric">Electric</span></div><p class="pokemon-description">When Pikachu meet, they touch tails to exchange electricity as a greeting.</p></div></div></div></div><div class="page stf__item --soft" style="display: none;"><div class="page-content"><div class="pokemon-container"><img alt="Electabuzz" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/125.png"><div class="pokemon-info"><h2 class="pokemon-name">Electabuzz</h2><p class="pokemon-number">#125</p><div><span class="pokemon-type type-electric">Electric</span></div><p class="pokemon-description">Often kept at power plants to regulate electricity. Competes with others to attract lightning during storms.</p></div></div></div></div><div class="page stf__item --soft" style="display: none;"><div class="page-content"><div class="pokemon-container"><img alt="Sudowoodo" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/185.png"><div class="pokemon-info"><h2 class="pokemon-name">Sudowoodo</h2><p class="pokemon-number">#185</p><div><span class="pokemon-type type-rock">Rock</span></div><p class="pokemon-description">Despite looking like a tree, its body is more like rock. Hates water and hides when it rains.</p></div></div></div></div><div class="page stf__item --soft" style="display: none;"><div class="page-content"><div class="pokemon-container"><img alt="Lucario" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/448.png"><div class="pokemon-info"><h2 class="pokemon-name">Lucario</h2><p class="pokemon-number">#448</p><div><span class="pokemon-type type-fighting">Fighting</span><span class="pokemon-type type-steel">Steel</span></div><p class="pokemon-description">Can read thoughts and movements by sensing others' aura. No foe can hide from Lucario.</p></div></div></div></div><div class="page stf__item --soft" style="display: none;"><div class="page-content"><div class="pokemon-container"><img alt="Greninja" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/658.png"><div class="pokemon-info"><h2 class="pokemon-name">Greninja</h2><p class="pokemon-number">#658</p><div><span class="pokemon-type type-water">Water</span><span class="pokemon-type type-dark">Dark</span></div><p class="pokemon-description">Creates throwing stars from compressed water that can slice through metal when thrown at high speed.</p></div></div></div></div><div class="page stf__item --soft" style="display: none;"><div class="page-content"><div class="pokemon-container"><img alt="Darkrai" src="https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/491.png"><div class="pokemon-info"><h2 class="pokemon-name">Darkrai</h2><p class="pokemon-number">#491</p><div><span class="pokemon-type type-dark">Dark</span></div><p class="pokemon-description">A legendary Pokémon that appears on moonless nights, putting people to sleep and giving them nightmares.</p></div></div></div></div><div class="stf__outerShadow"></div>
+             <div class="stf__innerShadow"></div>
+             <div class="stf__hardShadow"></div>
+             <div class="stf__hardInnerShadow"></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.
