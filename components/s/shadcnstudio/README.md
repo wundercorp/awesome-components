@@ -1,6 +1,6 @@
 # Shadcnstudio Components
 
-139 components are available in this author group.
+182 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -145,3 +145,46 @@
 | [![Combobox](combobox/combobox-multiple/screenshot.png)](combobox/combobox-multiple/README.md) | [Combobox](combobox/combobox-multiple/README.md) | `combobox-multiple` |
 | [![Combobox](combobox/combobox-option-with-icon/screenshot.png)](combobox/combobox-option-with-icon/README.md) | [Combobox](combobox/combobox-option-with-icon/README.md) | `combobox-option-with-icon` |
 | [![Combobox](combobox/combobox-options-with-flag-and-search/screenshot.png)](combobox/combobox-options-with-flag-and-search/README.md) | [Combobox](combobox/combobox-options-with-flag-and-search/README.md) | `combobox-options-with-flag-and-search` |
+| [![Combobox](combobox/combobox-two/screenshot.png)](combobox/combobox-two/README.md) | [Combobox](combobox/combobox-two/README.md) | `combobox-two` |
+| [![Combobox](combobox/combobox-with-custom-check-icon/screenshot.png)](combobox/combobox-with-custom-check-icon/README.md) | [Combobox](combobox/combobox-with-custom-check-icon/README.md) | `combobox-with-custom-check-icon` |
+| [![Combobox](combobox/combobox-with-search-and-button/screenshot.png)](combobox/combobox-with-search-and-button/README.md) | [Combobox](combobox/combobox-with-search-and-button/README.md) | `combobox-with-search-and-button` |
+| [![Combobox](combobox/default/screenshot.png)](combobox/default/README.md) | [Combobox](combobox/default/README.md) | `default` |
+| [![Combobox](combobox/multiple-combobox-expandable/screenshot.png)](combobox/multiple-combobox-expandable/README.md) | [Combobox](combobox/multiple-combobox-expandable/README.md) | `multiple-combobox-expandable` |
+| [![Combobox](combobox/multiple-count-badge/screenshot.png)](combobox/multiple-count-badge/README.md) | [Combobox](combobox/multiple-count-badge/README.md) | `multiple-count-badge` |
+| [![Combobox](combobox/timezone-combobox/screenshot.png)](combobox/timezone-combobox/README.md) | [Combobox](combobox/timezone-combobox/README.md) | `timezone-combobox` |
+| [![Combobox](combobox/user-combobox/screenshot.png)](combobox/user-combobox/README.md) | [Combobox](combobox/user-combobox/README.md) | `user-combobox` |
+| [![Input Otps](input-otps/default/screenshot.png)](input-otps/default/README.md) | [Input Otps](input-otps/default/README.md) | `default` |
+| [![Input Otps](input-otps/input-otp-alphanumeric/screenshot.png)](input-otps/input-otp-alphanumeric/README.md) | [Input Otps](input-otps/input-otp-alphanumeric/README.md) | `input-otp-alphanumeric` |
+| [![Input Otps](input-otps/input-otp-minimal/screenshot.png)](input-otps/input-otp-minimal/README.md) | [Input Otps](input-otps/input-otp-minimal/README.md) | `input-otp-minimal` |
+| [![Input Otps](input-otps/input-otp-outlined/screenshot.png)](input-otps/input-otp-outlined/README.md) | [Input Otps](input-otps/input-otp-outlined/README.md) | `input-otp-outlined` |
+| [![Input Otps](input-otps/input-otp-resend/screenshot.png)](input-otps/input-otp-resend/README.md) | [Input Otps](input-otps/input-otp-resend/README.md) | `input-otp-resend` |
+| [![Input Otps](input-otps/input-otp-resend-timer/screenshot.png)](input-otps/input-otp-resend-timer/README.md) | [Input Otps](input-otps/input-otp-resend-timer/README.md) | `input-otp-resend-timer` |
+| [![Input Otps](input-otps/input-otp-separator/screenshot.png)](input-otps/input-otp-separator/README.md) | [Input Otps](input-otps/input-otp-separator/README.md) | `input-otp-separator` |
+| [![Radio Group 1](radio-group-1/default/screenshot.png)](radio-group-1/default/README.md) | [Radio Group 1](radio-group-1/default/README.md) | `default` |
+| [![Radio Group 1](radio-group-1/radio-group-colored/screenshot.png)](radio-group-1/radio-group-colored/README.md) | [Radio Group 1](radio-group-1/radio-group-colored/README.md) | `radio-group-colored` |
+| [![Radio Group 1](radio-group-1/radio-group-eleven/screenshot.png)](radio-group-1/radio-group-eleven/README.md) | [Radio Group 1](radio-group-1/radio-group-eleven/README.md) | `radio-group-eleven` |
+| [![Radio Group 1](radio-group-1/radio-group-five/screenshot.png)](radio-group-1/radio-group-five/README.md) | [Radio Group 1](radio-group-1/radio-group-five/README.md) | `radio-group-five` |
+| [![Radio Group 1](radio-group-1/radio-group-horizontal/screenshot.png)](radio-group-1/radio-group-horizontal/README.md) | [Radio Group 1](radio-group-1/radio-group-horizontal/README.md) | `radio-group-horizontal` |
+| [![Radio Group 1](radio-group-1/radio-group-nine/screenshot.png)](radio-group-1/radio-group-nine/README.md) | [Radio Group 1](radio-group-1/radio-group-nine/README.md) | `radio-group-nine` |
+| [![Radio Group 1](radio-group-1/radio-group-seven/screenshot.png)](radio-group-1/radio-group-seven/README.md) | [Radio Group 1](radio-group-1/radio-group-seven/README.md) | `radio-group-seven` |
+| [![Radio Group 1](radio-group-1/radio-group-shoe-size/screenshot.png)](radio-group-1/radio-group-shoe-size/README.md) | [Radio Group 1](radio-group-1/radio-group-shoe-size/README.md) | `radio-group-shoe-size` |
+| [![Radio Group 1](radio-group-1/radio-group-six/screenshot.png)](radio-group-1/radio-group-six/README.md) | [Radio Group 1](radio-group-1/radio-group-six/README.md) | `radio-group-six` |
+| [![Radio Group 1](radio-group-1/radio-group-sizes/screenshot.png)](radio-group-1/radio-group-sizes/README.md) | [Radio Group 1](radio-group-1/radio-group-sizes/README.md) | `radio-group-sizes` |
+| [![Radio Group 1](radio-group-1/radio-group-ten/screenshot.png)](radio-group-1/radio-group-ten/README.md) | [Radio Group 1](radio-group-1/radio-group-ten/README.md) | `radio-group-ten` |
+| [![Radio Group 1](radio-group-1/radio-group-thirtheen/screenshot.png)](radio-group-1/radio-group-thirtheen/README.md) | [Radio Group 1](radio-group-1/radio-group-thirtheen/README.md) | `radio-group-thirtheen` |
+| [![Radio Group 1](radio-group-1/radio-group-twelve/screenshot.png)](radio-group-1/radio-group-twelve/README.md) | [Radio Group 1](radio-group-1/radio-group-twelve/README.md) | `radio-group-twelve` |
+| [![Switch 1](switch-1/default/screenshot.png)](switch-1/default/README.md) | [Switch 1](switch-1/default/README.md) | `default` |
+| [![Switch 1](switch-1/switch-eight/screenshot.png)](switch-1/switch-eight/README.md) | [Switch 1](switch-1/switch-eight/README.md) | `switch-eight` |
+| [![Switch 1](switch-1/switch-eighteen/screenshot.png)](switch-1/switch-eighteen/README.md) | [Switch 1](switch-1/switch-eighteen/README.md) | `switch-eighteen` |
+| [![Switch 1](switch-1/switch-eleven/screenshot.png)](switch-1/switch-eleven/README.md) | [Switch 1](switch-1/switch-eleven/README.md) | `switch-eleven` |
+| [![Switch 1](switch-1/switch-fiftheen/screenshot.png)](switch-1/switch-fiftheen/README.md) | [Switch 1](switch-1/switch-fiftheen/README.md) | `switch-fiftheen` |
+| [![Switch 1](switch-1/switch-five/screenshot.png)](switch-1/switch-five/README.md) | [Switch 1](switch-1/switch-five/README.md) | `switch-five` |
+| [![Switch 1](switch-1/switch-four/screenshot.png)](switch-1/switch-four/README.md) | [Switch 1](switch-1/switch-four/README.md) | `switch-four` |
+| [![Switch 1](switch-1/switch-nine/screenshot.png)](switch-1/switch-nine/README.md) | [Switch 1](switch-1/switch-nine/README.md) | `switch-nine` |
+| [![Switch 1](switch-1/switch-one/screenshot.png)](switch-1/switch-one/README.md) | [Switch 1](switch-1/switch-one/README.md) | `switch-one` |
+| [![Switch 1](switch-1/switch-seven/screenshot.png)](switch-1/switch-seven/README.md) | [Switch 1](switch-1/switch-seven/README.md) | `switch-seven` |
+| [![Switch 1](switch-1/switch-seventeen/screenshot.png)](switch-1/switch-seventeen/README.md) | [Switch 1](switch-1/switch-seventeen/README.md) | `switch-seventeen` |
+| [![Switch 1](switch-1/switch-sixteen/screenshot.png)](switch-1/switch-sixteen/README.md) | [Switch 1](switch-1/switch-sixteen/README.md) | `switch-sixteen` |
+| [![Switch 1](switch-1/switch-ten/screenshot.png)](switch-1/switch-ten/README.md) | [Switch 1](switch-1/switch-ten/README.md) | `switch-ten` |
+| [![Switch 1](switch-1/switch-thirteen/screenshot.png)](switch-1/switch-thirteen/README.md) | [Switch 1](switch-1/switch-thirteen/README.md) | `switch-thirteen` |
+| [![Switch 1](switch-1/switch-twelve/screenshot.png)](switch-1/switch-twelve/README.md) | [Switch 1](switch-1/switch-twelve/README.md) | `switch-twelve` |
