@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/jatin-yadav05/showcase-card-1/default
+- Registry URL: https://21st.dev/r/jatin-yadav05/showcase-card-1
+- Author: jatin-yadav05
+- Component slug: showcase-card-1
+- Demo slug: default
+- Title: showcase-card-1
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/jatin-yadav05/showcase-card-1 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/jatin-yadav05__showcase-card-1__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/jatin-yadav05__showcase-card-1__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex w-full h-screen justify-center items-center"><div class="min-h-screen w-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-black"><div class="min-h-[55vh] w-[40vh] bg-black/80 backdrop-blur-sm rounded-4xl shadow-[0_35px_60px_-15px_rgba(0,0,0,0.5)] flex flex-col p-2 gap-2 overflow-hidden border border-gray-800" style="opacity: 1; transform: none;"><div class="flex justify-between p-2 items-center" style="opacity: 1;"><svg width="34px" height="34px" fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><g><path fill="none" d="M0 0h24v24H0z"></path><path d="M4 10.4V4a1 1 0 0 1 1-1h5V1h4v2h5a1 1 0 0 1 1 1v6.4l1.086.326a1 1 0 0 1 .682 1.2l-1.516 6.068A4.992 4.992 0 0 1 16 16 4.992 4.992 0 0 1 12 18a4.992 4.992 0 0 1-4-2 4.992 4.992 0 0 1-4.252 1.994l-1.516-6.068a1 1 0 0 1 .682-1.2L4 10.4zm2-.6L12 8l2.754.826 1.809.543L18 9.8V5H6v4.8zM4 20a5.978 5.978 0 0 0 4-1.528A5.978 5.978 0 0 0 12 20a5.978 5.978 0 0 0 4-1.528A5.978 5.978 0 0 0 20 20h2v2h-2a7.963 7.963 0 0 1-4-1.07A7.963 7.963 0 0 1 12 22a7.963 7.963 0 0 1-4-1.07A7.963 7.963 0 0 1 4 22H2v-2h2z"></path></g></svg><div class="w-10 h-10 bg-blue-400 rounded-full flex items-center justify-center cursor-pointer" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7"></path><path d="M7 7h10v10"></path></svg></div></div><div class="flex flex-col gap-4"><div class="title text-4xl text-center font-bold bg-gradient-to-r from-blue-300 to-purple-400 bg-clip-text text-transparent" style="opacity: 1; transform: none;">BALI<br>ISLAND</div><div class="image relative" style="opacity: 1; transform: none;"><div class="absolute inset-0 rounded-2xl opacity-15 z-0"><div style="transform: none;"><img alt="Bali Island Background" width="500" height="300" class="w-full h-full object-cover blur-sm scale-200 opacity-70" src="https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg"></div></div><div class="relative z-10 p-2"><img alt="Bali Island" width="500" height="300" class="rounded-2xl w-full h-full shadow-lg" src="https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg"></div></div><div class="desc text-xs text-center max-w-72 mx-auto text-neutral-400 font-light" style="opacity: 1;">Experience the breathtaking beauty of Bali Island, where pristine beaches meet lush tropical forests and ancient temples await your discovery.</div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

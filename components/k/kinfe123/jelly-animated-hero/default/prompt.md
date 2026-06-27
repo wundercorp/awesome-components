@@ -1,0 +1,57 @@
+# Build Jelly Animated Hero in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Jelly Animated Hero screenshot](screenshot.png)
+
+## Component
+
+- Author group: `kinfe123`
+- Component: `jelly-animated-hero`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: kinfe123
+- Component slug: jelly-animated-hero
+- Demo slug: default
+- Title: jelly-animated-hero
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="relative text-white    bg-[linear-gradient(to_bottom,#fff,#000_30%,#000_98%)] dark:bg-[linear-gradient(to_bottom,#000_10%,#000_30%,#000_98%)] "><div class="px-2 mx-auto sm:px-6 md:px-0"><div class="pt-32 p md:pt-40 "><div class="pb-12 text-center md:pb-16"><h1 class="mb-6 border-y border-none text-5xl max-w-3xl mx-auto font-normal tracking-tighter dark:text-white md:text-6xl  text-transparent mx-auto md:text-6xl bg-clip-text bg-gradient-to-b from-red-200 via-blue-200 to-white p-4" data-aos="zoom-y-out" data-aos-delay="150">Manage your sales and analytics in one place.<br class="max-lg:hidden">looking for</h1><div class="relative mx-auto max-w-3xl"><p class="mb-8 text-lg text-gray-400" data-aos="zoom-y-out" data-aos-delay="300">Simple is a modern website builder powered by AI that changes how companies create user interfaces together.</p><div class="absolute left-0 top-0 h-80 w-[90%] opacity-60 overflow-x-hidden bg-[rgb(54,157,253)] bg-opacity-40 blur-[337.4px]" style="transform: rotate(-30deg);"></div><div class="relative before:absolute before:inset-0 before:border-y before:border-none before:[border-image:linear-gradient(to_right,transparent,theme(colors.slate.300/.8),transparent)1]"><div class="mx-auto z-20 max-w-xs mt-[-20px] mb-[20px] sm:flex sm:justify-center items-center sm:max-w-none gap-5" data-aos="zoom-y-out" data-aos-delay="450"><a href="https://farmui.com/templates/ease" class="group inline-flex text-lg gap-x-2 mt-2 backdrop-blur-md text-white justify-center items-center py-3 px-5 ml-3 w-fit rounded-xl border duration-200 group bg-page-gradient border-white/30 text-md font-geistSans hover:border-zinc-600 hover:bg-transparent/10 hover:text-zinc-100">Buy this template<div class="flex overflow-hidden relative justify-center items-center ml-1 w-5 h-5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right absolute transition-all duration-500 group-hover:translate-x-4 group-hover:-translate-y-5" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right absolute transition-all duration-500 -translate-x-4 -translate-y-5 group-hover:translate-x-0 group-hover:translate-y-0" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></div></a></div></div></div></div><div class="relative "><div class="absolute top-0 right-0 left-0 mx-auto mt-12 max-w-6xl "><img class="w-full rounded-3xl  shadow-lg bg-transparent" alt="" src="https://framerusercontent.com/images/jvlcne0ABTxg7RFwM1Ra0R1p47E.png?scale-down-to=1024"></div></div><video autoplay="" loop="" playsinline="" src="https://ease-one.vercel.app/bg/something.mp4" class="overflow-hidden min-w-screen border-black mt-[-100px]"></video><div class="mx-auto max-w-full  h-50 bg-black" data-aos="zoom-y-out" data-aos-delay="600"></div></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

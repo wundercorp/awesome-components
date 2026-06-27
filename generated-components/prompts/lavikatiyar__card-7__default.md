@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/lavikatiyar/card-7/default
+- Registry URL: https://21st.dev/r/lavikatiyar/card-7
+- Author: lavikatiyar
+- Component slug: card-7
+- Demo slug: default
+- Title: card-7
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/lavikatiyar/card-7 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/lavikatiyar__card-7__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/lavikatiyar__card-7__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section aria-label="Notifications alt+T" tabindex="-1" aria-live="polite" aria-relevant="additions text" aria-atomic="false"></section><div class="flex min-h-screen w-full items-center justify-center bg-background p-4"><div class="group relative w-full max-w-sm overflow-hidden rounded-xl border border-border bg-card shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl hover:-translate-y-2" aria-label="Travel card for Manhattan Green Camp"><img alt="Misty mountains over a serene lake" class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-110" src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&amp;w=2070&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div><div class="relative flex h-full flex-col justify-between p-6 text-card-foreground"><div class="flex h-40 items-start"><div class="flex h-12 w-12 items-center justify-center rounded-full border-2 border-white/50 bg-black/20 backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mountain h-6 w-6 text-white/80" aria-hidden="true"><path d="m8 3 4 8 5-5 5 15H2L8 3z"></path></svg></div></div><div class="space-y-4 transition-transform duration-500 ease-in-out group-hover:-translate-y-16"><div><h3 class="text-3xl font-bold text-white">Manhattan Green Camp</h3><p class="text-sm text-white/80">Cloud City, Atmosphere 78910, Planet Earth</p></div><div><h4 class="font-semibold text-white/90">OVERVIEW</h4><p class="text-sm text-white/70 leading-relaxed">Discover nature where spacious campsites, scenic trails, and cozy campfires await. Perfect for families, friends, and solo adventurers.</p></div></div><div class="absolute -bottom-20 left-0 w-full p-6 opacity-0 transition-all duration-500 ease-in-out group-hover:bottom-0 group-hover:opacity-100"><div class="flex items-end justify-between"><div><span class="text-4xl font-bold text-white">$120</span><span class="text-white/80"> Per Night</span></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md px-8 bg-white text-black hover:bg-white/90">Book Now <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 h-4 w-4" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

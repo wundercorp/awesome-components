@@ -1,0 +1,57 @@
+# Build Chat Bubble in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Chat Bubble screenshot](screenshot.png)
+
+## Component
+
+- Author group: `kavikatiyar`
+- Component: `chat-bubble`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: kavikatiyar
+- Component slug: chat-bubble
+- Demo slug: default
+- Title: chat-bubble
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-[200px] items-start justify-center rounded-lg bg-background p-8"><button class="group relative flex h-14 cursor-pointer items-center justify-center rounded-full border bg-card p-2 pr-4 shadow-sm transition-all hover:border-primary/50" aria-label="Open voice chat with 8 participants" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="radix-«r0»" data-state="closed"><div class="relative flex h-10 w-10 items-center justify-center rounded-full bg-muted"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3Z"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><line x1="12" x2="12" y1="19" y2="22"></line></svg><div class="absolute -top-1 -left-1 flex h-6 w-6 items-center justify-center rounded-full bg-card p-0.5"><div class="flex h-full w-full items-end justify-center gap-0.5 rounded-full bg-primary p-1"><div class="w-1 rounded-full bg-primary-foreground" style="height: 54.0862%;"></div><div class="w-1 rounded-full bg-primary-foreground" style="height: 75.8444%;"></div><div class="w-1 rounded-full bg-primary-foreground" style="height: 79.4479%;"></div></div></div></div><div class="ml-2 flex -space-x-4"><div class="relative"><img alt="Oguz" width="40" height="40" class="h-10 w-10 rounded-full border-2 border-card object-cover" src="https://i.pravatar.cc/150?u=a042581f4e29026024d" style="z-index: 4;"></div><div class="relative"><img alt="Ashish" width="40" height="40" class="h-10 w-10 rounded-full border-2 border-card object-cover" src="https://i.pravatar.cc/150?u=a042581f4e29026704d" style="z-index: 3;"></div><div class="relative"><img alt="Mariana" width="40" height="40" class="h-10 w-10 rounded-full border-2 border-card object-cover" src="https://i.pravatar.cc/150?u=a04258114e29026702d" style="z-index: 2;"></div><div class="relative"><img alt="MDS" width="40" height="40" class="h-10 w-10 rounded-full border-2 border-card object-cover" src="https://i.pravatar.cc/150?u=a048581f4e29026701d" style="z-index: 1;"></div></div><span class="ml-3 text-sm font-medium text-muted-foreground">+4</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right ml-1 h-4 w-4 text-muted-foreground transition-transform group-hover:translate-x-1" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

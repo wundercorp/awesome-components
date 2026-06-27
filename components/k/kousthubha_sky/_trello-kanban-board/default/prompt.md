@@ -1,0 +1,57 @@
+# Build Trello Kanban Board in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Trello Kanban Board screenshot](screenshot.png)
+
+## Component
+
+- Author group: `kousthubha_sky`
+- Component: `_trello-kanban-board`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: kousthubha_sky_
+- Component slug: trello-kanban-board
+- Demo slug: default
+- Title: trello-kanban-board
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="bg-background p-8"><div class="mx-auto max-w-5xl"><div class="mb-10 text-center"><h1 class="mb-2 text-3xl font-bold text-foreground">Task Board</h1><p class="text-muted-foreground">Drag tasks between columns to update their status</p></div><div class="flex gap-4 overflow-x-auto pb-4"><div class="min-w-[280px] max-w-[280px] rounded-xl p-3 transition-all duration-200 bg-muted/50 border-2 border-transparent"><div class="mb-3 flex items-center justify-between px-1"><div class="flex items-center gap-2"><div class="h-3 w-3 rounded bg-indigo-500"></div><h2 class="text-sm font-semibold text-foreground">To Do</h2><span class="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">3</span></div><button class="rounded p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground" aria-label="Column options"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></div><div class="flex min-h-[100px] flex-col gap-2"><div draggable="true" class="cursor-grab rounded-lg border border-border bg-card p-3 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:cursor-grabbing"><h3 class="text-sm font-medium text-card-foreground">Create project documentation</h3></div><div draggable="true" class="cursor-grab rounded-lg border border-border bg-card p-3 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:cursor-grabbing"><h3 class="text-sm font-medium text-card-foreground">Design system components</h3></div><div draggable="true" class="cursor-grab rounded-lg border border-border bg-card p-3 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:cursor-grabbing"><h3 class="text-sm font-medium text-card-foreground">Set up testing framework</h3></div></div></div><div class="min-w-[280px] max-w-[280px] rounded-xl p-3 transition-all duration-200 bg-muted/50 border-2 border-transparent"><div class="mb-3 flex items-center justify-between px-1"><div class="flex items-center gap-2"><div class="h-3 w-3 rounded bg-amber-500"></div><h2 class="text-sm font-semibold text-foreground">In Progress</h2><span class="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">2</span></div><button class="rounded p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground" aria-label="Column options"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></div><div class="flex min-h-[100px] flex-col gap-2"><div draggable="true" class="cursor-grab rounded-lg border border-border bg-card p-3 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:cursor-grabbing"><h3 class="text-sm font-medium text-card-foreground">Build authentication flow</h3></div><div draggable="true" class="cursor-grab rounded-lg border border-border bg-card p-3 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:cursor-grabbing"><h3 class="text-sm font-medium text-card-foreground">API integration</h3></div></div></div><div class="min-w-[280px] max-w-[280px] rounded-xl p-3 transition-all duration-200 bg-muted/50 border-2 border-transparent"><div class="mb-3 flex items-center justify-between px-1"><div class="flex items-center gap-2"><div class="h-3 w-3 rounded bg-emerald-500"></div><h2 class="text-sm font-semibold text-foreground">Done</h2><span class="rounded-full bg-muted px-2 py-0.5 text-xs font-medium text-muted-foreground">2</span></div><button class="rounded p-1 text-muted-foreground transition-colors hover:bg-muted hover:text-foreground" aria-label="Column options"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></div><div class="flex min-h-[100px] flex-col gap-2"><div draggable="true" class="cursor-grab rounded-lg border border-border bg-card p-3 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:cursor-grabbing"><h3 class="text-sm font-medium text-card-foreground">Project setup</h3></div><div draggable="true" class="cursor-grab rounded-lg border border-border bg-card p-3 shadow-sm transition-all duration-150 hover:-translate-y-0.5 hover:shadow-md active:cursor-grabbing"><h3 class="text-sm font-medium text-card-foreground">Database design</h3></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

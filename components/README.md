@@ -14,8 +14,9 @@ Browse components by author bucket, then by author, then by component.
 | [g](g/README.md) | 4 | 7 |
 | [h](h/README.md) | 16 | 387 |
 | [i](i/README.md) | 8 | 118 |
-| [j](j/README.md) | 7 | 37 |
-| [k](k/README.md) | 4 | 31 |
+| [j](j/README.md) | 14 | 231 |
+| [k](k/README.md) | 13 | 157 |
+| [l](l/README.md) | 1 | 19 |
 | [m](m/README.md) | 2 | 8 |
 | [n](n/README.md) | 1 | 17 |
 | [o](o/README.md) | 1 | 27 |

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/jolbol1/datefield/default
+- Registry URL: https://21st.dev/r/jolbol1/datefield
+- Author: jolbol1
+- Component slug: datefield
+- Demo slug: default
+- Title: datefield
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/jolbol1/datefield with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/jolbol1__datefield__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/jolbol1__datefield__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="min-w-[150px] space-y-1" data-rac=""><span class="text-sm font-medium leading-none data-[disabled]:cursor-not-allowed data-[disabled]:opacity-70 group-data-[invalid]:text-destructive" id="react-aria3514412600-_r_1_">Birth date</span><div id="react-aria3514412600-_r_0_" aria-labelledby="react-aria3514412600-_r_1_" role="group" data-react-aria-pressable="true" class="relative flex h-10 w-full items-center overflow-hidden rounded-md border border-input bg-background px-3 py-2 ring-offset-background data-[focus-within]:outline-none data-[focus-within]:ring-2 data-[focus-within]:ring-ring data-[focus-within]:ring-offset-2 data-[disabled]:opacity-50 text-sm" data-rac="" style="unicode-bidi: isolate;"><span role="spinbutton" aria-valuenow="6" aria-valuetext="Empty" aria-valuemin="1" aria-valuemax="12" id="react-aria3514412600-_r_5_" aria-label="month, " aria-labelledby="react-aria3514412600-_r_5_ react-aria3514412600-_r_1_" data-placeholder="true" contenteditable="true" spellcheck="false" autocorrect="off" enterkeyhint="next" inputmode="numeric" tabindex="0" class="type-literal:px-0 inline rounded p-0.5 caret-transparent outline-0 data-[placeholder]:text-muted-foreground data-[disabled]:cursor-not-allowed data-[disabled]:opacity-50 data-[focused]:bg-accent data-[focused]:text-accent-foreground data-[invalid]:data-[focused]:bg-destructive data-[invalid]:data-[focused]:data-[placeholder]:text-destructive-foreground data-[invalid]:data-[focused]:text-destructive-foreground data-[invalid]:data-[placeholder]:text-destructive data-[invalid]:text-destructive" data-rac="" data-type="month" style="caret-color: transparent;">mm</span><span aria-hidden="true" class="type-literal:px-0 inline rounded p-0.5 caret-transparent outline-0 data-[placeholder]:text-muted-foreground data-[disabled]:cursor-not-allowed data-[disabled]:opacity-50 data-[focused]:bg-accent data-[focused]:text-accent-foreground data-[invalid]:data-[focused]:bg-destructive data-[invalid]:data-[focused]:data-[placeholder]:text-destructive-foreground data-[invalid]:data-[focused]:text-destructive-foreground data-[invalid]:data-[placeholder]:text-destructive data-[invalid]:text-destructive" data-rac="" data-type="literal">/</span><span role="spinbutton" aria-valuenow="27" aria-valuetext="Empty" aria-valuemin="1" aria-valuemax="30" id="react-aria3514412600-_r_9_" aria-label="day, " aria-labelledby="react-aria3514412600-_r_9_ react-aria3514412600-_r_1_" data-placeholder="true" contenteditable="true" spellcheck="false" autocorrect="off" enterkeyhint="next" inputmode="numeric" tabindex="0" class="type-literal:px-0 inline rounded p-0.5 caret-transparent outline-0 data-[placeholder]:text-muted-foreground data-[disabled]:cursor-not-allowed data-[disabled]:opacity-50 data-[focused]:bg-accent data-[focused]:text-accent-foreground data-[invalid]:data-[focused]:bg-destructive data-[invalid]:data-[focused]:data-[placeholder]:text-destructive-foreground data-[invalid]:data-[focused]:text-destructive-foreground data-[invalid]:data-[placeholder]:text-destructive data-[invalid]:text-destructive" data-rac="" data-type="day" style="caret-color: transparent;">dd</span><span aria-hidden="true" class="type-literal:px-0 inline rounded p-0.5 caret-transparent outline-0 data-[placeholder]:text-muted-foreground data-[disabled]:cursor-not-allowed data-[disabled]:opacity-50 data-[focused]:bg-accent data-[focused]:text-accent-foreground data-[invalid]:data-[focused]:bg-destructive data-[invalid]:data-[focused]:data-[placeholder]:text-destructive-foreground data-[invalid]:data-[focused]:text-destructive-foreground data-[invalid]:data-[placeholder]:text-destructive data-[invalid]:text-destructive" data-rac="" data-type="literal">/</span><span role="spinbutton" aria-valuenow="2026" aria-valuetext="Empty" aria-valuemin="1" aria-valuemax="9999" id="react-aria3514412600-_r_d_" aria-label="year, " aria-labelledby="react-aria3514412600-_r_d_ react-aria3514412600-_r_1_" data-placeholder="true" contenteditable="true" spellcheck="false" autocorrect="off" enterkeyhint="next" inputmode="numeric" tabindex="0" class="type-literal:px-0 inline rounded p-0.5 caret-transparent outline-0 data-[placeholder]:text-muted-foreground data-[disabled]:cursor-not-allowed data-[disabled]:opacity-50 data-[focused]:bg-accent data-[focused]:text-accent-foreground data-[invalid]:data-[focused]:bg-destructive data-[invalid]:data-[focused]:data-[placeholder]:text-destructive-foreground data-[invalid]:data-[focused]:text-destructive-foreground data-[invalid]:data-[placeholder]:text-destructive data-[invalid]:text-destructive" data-rac="" data-type="year" style="caret-color: transparent;">yyyy</span></div><input hidden="" class="react-aria-Input" data-rac="" type="text" value="" title=""></div><div aria-hidden="true" data-react-aria-prevent-focus="true" data-a11y-ignore="aria-hidden-focus" data-testid="hidden-dateinput-container" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); clip-path: inset(50%); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: fixed; width: 1px; white-space: nowrap; top: 0px; left: 0px;"><input tabindex="-1" form="" step="60" type="date" value=""></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,57 @@
+# Build Unique Testimonial in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Unique Testimonial screenshot](screenshot.png)
+
+## Component
+
+- Author group: `jatin-yadav05`
+- Component: `unique-testimonial`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: jatin-yadav05
+- Component slug: unique-testimonial
+- Demo slug: default
+- Title: unique-testimonial
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="min-h-screen flex items-center justify-center bg-background p-8"><div class="flex flex-col items-center gap-10 py-16"><div class="relative px-8"><span class="absolute -left-2 -top-6 text-7xl font-serif text-foreground/[0.06] select-none pointer-events-none">"</span><p class="text-2xl md:text-3xl font-light text-foreground text-center max-w-lg leading-relaxed transition-all duration-400 ease-out opacity-100 blur-0 scale-100">This changed everything for me.</p><span class="absolute -right-2 -bottom-8 text-7xl font-serif text-foreground/[0.06] select-none pointer-events-none">"</span></div><div class="flex flex-col items-center gap-6 mt-2"><p class="text-xs text-muted-foreground tracking-[0.2em] uppercase transition-all duration-500 ease-out opacity-100 translate-y-0">Designer at Figma</p><div class="flex items-center justify-center gap-2"><button class="relative flex items-center gap-0 rounded-full cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] bg-foreground shadow-lg pr-4 pl-2 py-2"><div class="relative flex-shrink-0"><img alt="Sarah Chen" class="w-8 h-8 rounded-full object-cover transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] ring-2 ring-background/30" src="https://images.unsplash.com/photo-1701615004837-40d8573b6652?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D$0"></div><div class="grid transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] grid-cols-[1fr] opacity-100 ml-2"><div class="overflow-hidden"><span class="text-sm font-medium whitespace-nowrap block transition-colors duration-300 text-background">Sarah Chen</span></div></div></button><button class="relative flex items-center gap-0 rounded-full cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] bg-transparent hover:bg-muted/80 p-0.5"><div class="relative flex-shrink-0"><img alt="Marcus Johnson" class="w-8 h-8 rounded-full object-cover transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] ring-0 hover:scale-105" src="https://plus.unsplash.com/premium_photo-1671656349218-5218444643d8?q=80&amp;w=1287&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D$0"></div><div class="grid transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] grid-cols-[0fr] opacity-0 ml-0"><div class="overflow-hidden"><span class="text-sm font-medium whitespace-nowrap block transition-colors duration-300 text-foreground">Marcus Johnson</span></div></div></button><button class="relative flex items-center gap-0 rounded-full cursor-pointer transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] bg-transparent hover:bg-muted/80 p-0.5"><div class="relative flex-shrink-0"><img alt="Elena Rodriguez" class="w-8 h-8 rounded-full object-cover transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] ring-0 hover:scale-105" src="https://images.unsplash.com/photo-1607746882042-944635dfe10e?q=80&amp;w=2670&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D$0"></div><div class="grid transition-all duration-500 ease-[cubic-bezier(0.4,0,0.2,1)] grid-cols-[0fr] opacity-0 ml-0"><div class="overflow-hidden"><span class="text-sm font-medium whitespace-nowrap block transition-colors duration-300 text-foreground">Elena Rodriguez</span></div></div></button></div></div></div></main></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

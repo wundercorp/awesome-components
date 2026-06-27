@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/lavikatiyar/feature-grid/default
+- Registry URL: https://21st.dev/r/lavikatiyar/feature-grid
+- Author: lavikatiyar
+- Component slug: feature-grid
+- Demo slug: default
+- Title: feature-grid
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/lavikatiyar/feature-grid with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/lavikatiyar__feature-grid__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/lavikatiyar__feature-grid__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-6xl mx-auto p-4 md:p-8"><div class="mb-10 text-center"><h1 class="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">One platform gives you the control to provide meals in multiple ways</h1><p class="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">Whether you want to give employees a monthly meal stipend or cover the cost of a single meal, our flexible suite of solutions has you covered.</p></div><div class="grid grid-cols-1 gap-6 lg:grid-cols-2"><a href="#" class="group flex flex-col sm:flex-row items-start gap-6 p-6 rounded-lg border bg-card text-card-foreground transition-all duration-300 hover:shadow-md hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"><div class="flex-shrink-0"><img alt="Meal programs icon" class="h-24 w-24 object-contain" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-OVVSrD4GRutENdVA3QzYLe5KXwBWVq.png&amp;w=320&amp;q=75"></div><div class="flex flex-1 flex-col justify-between h-full"><div><h3 class="text-lg font-semibold text-foreground mb-1">Meal programs</h3><p class="text-sm text-muted-foreground">Create weekly or monthly meal stipends for your employees, who can then order on Uber Eats. It's easy to set restrictions for time of day, location, and meal budget.</p></div><div class="flex justify-end mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-5 w-5 text-muted-foreground transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></div></a><a href="#" class="group flex flex-col sm:flex-row items-start gap-6 p-6 rounded-lg border bg-card text-card-foreground transition-all duration-300 hover:shadow-md hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"><div class="flex-shrink-0"><img alt="Meal planning icon" class="h-24 w-24 object-contain" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-N7V0aMs36OlOl3QUJEzHT6diM5hJ6Z.png&amp;w=320&amp;q=75"></div><div class="flex flex-1 flex-col justify-between h-full"><div><h3 class="text-lg font-semibold text-foreground mb-1">Meal planning</h3><p class="text-sm text-muted-foreground">Put in-office meals on autopilot for your whole team. Use the meal planning feature on UberEats.com to schedule recurring group orders and have your employees add their favorite options.</p></div><div class="flex justify-end mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-5 w-5 text-muted-foreground transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></div></a><a href="#" class="group flex flex-col sm:flex-row items-start gap-6 p-6 rounded-lg border bg-card text-card-foreground transition-all duration-300 hover:shadow-md hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"><div class="flex-shrink-0"><img alt="Gift cards icon" class="h-24 w-24 object-contain" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-ptreaSKDFQqhY7oF7Qw6s18YOwh68e.png&amp;w=320&amp;q=75"></div><div class="flex flex-1 flex-col justify-between h-full"><div><h3 class="text-lg font-semibold text-foreground mb-1">Gift cards</h3><p class="text-sm text-muted-foreground">Show your appreciation for clients and employees with Uber gift cards for rides and meals that will never expire.</p></div><div class="flex justify-end mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-5 w-5 text-muted-foreground transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></div></a><a href="#" class="group flex flex-col sm:flex-row items-start gap-6 p-6 rounded-lg border bg-card text-card-foreground transition-all duration-300 hover:shadow-md hover:-translate-y-1 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2"><div class="flex-shrink-0"><img alt="Vouchers icon" class="h-24 w-24 object-contain" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-l7sGnL4PG73upUHUi2mGVGegEvkNDs.png&amp;w=320&amp;q=75"></div><div class="flex flex-1 flex-col justify-between h-full"><div><h3 class="text-lg font-semibold text-foreground mb-1">Vouchers</h3><p class="text-sm text-muted-foreground">Cover the cost of a single meal by sending employees or clients a meal voucher to be redeemed on Uber Eats. You only pay for what is used.</p></div><div class="flex justify-end mt-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-5 w-5 text-muted-foreground transition-transform duration-300 group-hover:translate-x-1 group-hover:text-primary" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></div></a></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

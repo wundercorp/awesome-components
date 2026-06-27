@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/jatin-yadav05/gradient-card/default
+- Registry URL: https://21st.dev/r/jatin-yadav05/gradient-card
+- Author: jatin-yadav05
+- Component slug: gradient-card
+- Demo slug: default
+- Title: gradient-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/jatin-yadav05/gradient-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/jatin-yadav05__gradient-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/jatin-yadav05__gradient-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="w-full h-screen flex items-center justify-center bg-black"><div class="relative rounded-[32px] overflow-hidden" style="width: 360px; height: 450px; transform-style: preserve-3d; background-color: rgb(14, 19, 31); box-shadow: rgba(78, 99, 255, 0.25) 0px -10px 100px 10px, rgba(0, 0, 0, 0.5) 0px 0px 10px 0px; transform: none; perspective: 1000px;"><div class="absolute inset-0 z-35 pointer-events-none" style="background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 40%, rgba(255, 255, 255, 0) 80%, rgba(255, 255, 255, 0.05) 100%); backdrop-filter: blur(2px); opacity: 0.5; transform: translateZ(1px);"></div><div class="absolute inset-0 z-0" style="background: linear-gradient(rgb(0, 0, 0) 0%, rgb(0, 0, 0) 70%); transform: translateZ(-1px);"></div><div class="absolute inset-0 opacity-30 mix-blend-overlay z-10" style="background-image: url(&quot;data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='5' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E&quot;); transform: translateZ(-0.5px);"></div><div class="absolute inset-0 opacity-10 mix-blend-soft-light z-11 pointer-events-none" style="background-image: url(&quot;data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='smudge'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.01' numOctaves='3' seed='5' stitchTiles='stitch'/%3E%3CfeGaussianBlur stdDeviation='10'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23smudge)'/%3E%3C/svg%3E&quot;); backdrop-filter: blur(1px); transform: translateZ(-0.25px);"></div><div class="absolute bottom-0 left-0 right-0 h-2/3 z-20" style="background: radial-gradient(at right bottom, rgba(172, 92, 255, 0.7) -10%, rgba(79, 70, 229, 0) 70%), radial-gradient(at left bottom, rgba(56, 189, 248, 0.7) -10%, rgba(79, 70, 229, 0) 70%); filter: blur(40px); opacity: 0.8; transform: none;"></div><div class="absolute bottom-0 left-0 right-0 h-2/3 z-21" style="background: radial-gradient(circle at center bottom, rgba(161, 58, 229, 0.7) -20%, rgba(79, 70, 229, 0) 60%); filter: blur(45px); opacity: 0.75; transform: translateY(10%);"></div><div class="absolute bottom-0 left-0 right-0 h-[2px] z-25" style="background: linear-gradient(90deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.7) 50%, rgba(255, 255, 255, 0.05) 100%); box-shadow: rgba(172, 92, 255, 0.8) 0px 0px 15px 3px, rgba(138, 58, 185, 0.6) 0px 0px 25px 5px, rgba(56, 189, 248, 0.4) 0px 0px 35px 7px; opacity: 0.9; transform: translateZ(0.5px);"></div><div class="absolute bottom-0 left-0 h-1/4 w-[1px] z-25 rounded-full" style="background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.1) 60%, rgba(255, 255, 255, 0) 80%); box-shadow: rgba(172, 92, 255, 0.8) 0px 0px 15px 3px, rgba(138, 58, 185, 0.6) 0px 0px 25px 5px, rgba(56, 189, 248, 0.4) 0px 0px 35px 7px; opacity: 0.9; transform: translateZ(0.5px);"></div><div class="absolute bottom-0 left-0 h-1/4 z-25" style="background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.55) 15%, rgba(255, 255, 255, 0.4) 30%, rgba(255, 255, 255, 0.25) 45%, rgba(255, 255, 255, 0.1) 70%, rgba(255, 255, 255, 0) 85%); box-shadow: rgba(172, 92, 255, 0.8) 0px 0px 15px 3px, rgba(138, 58, 185, 0.6) 0px 0px 25px 5px, rgba(56, 189, 248, 0.4) 0px 0px 35px 7px; opacity: 0.9; transform: translateZ(0.5px);"></div><div class="absolute bottom-0 right-0 h-1/4 w-[1px] z-25 rounded-full" style="background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0.3) 40%, rgba(255, 255, 255, 0.1) 60%, rgba(255, 255, 255, 0) 80%); box-shadow: rgba(172, 92, 255, 0.8) 0px 0px 15px 3px, rgba(138, 58, 185, 0.6) 0px 0px 25px 5px, rgba(56, 189, 248, 0.4) 0px 0px 35px 7px; opacity: 0.9; transform: translateZ(0.5px);"></div><div class="absolute bottom-0 right-0 h-1/3 z-25" style="background: linear-gradient(to top, rgba(255, 255, 255, 0.7) 0%, rgba(255, 255, 255, 0.55) 15%, rgba(255, 255, 255, 0.4) 30%, rgba(255, 255, 255, 0.25) 45%, rgba(255, 255, 255, 0.1) 70%, rgba(255, 255, 255, 0) 85%); box-shadow: rgba(172, 92, 255, 0.8) 0px 0px 15px 3px, rgba(138, 58, 185, 0.6) 0px 0px 25px 5px, rgba(56, 189, 248, 0.4) 0px 0px 35px 7px; opacity: 0.9; transform: translateZ(0.5px);"></div><div class="relative flex flex-col h-full p-8 z-40" style="transform: translateZ(2px);"><div class="w-12 h-12 rounded-full flex items-center justify-center mb-6" style="background: linear-gradient(225deg, rgb(23, 28, 44) 0%, rgb(18, 22, 36) 100%); position: relative; overflow: hidden; filter: blur(0px); opacity: 1; box-shadow: rgba(0, 0, 0, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.15) 0px 3px 6px -1px, rgba(255, 255, 255, 0.12) 1px 1px 3px inset, rgba(0, 0, 0, 0.5) -2px -2px 4px inset; transform: translateZ(5px);"><div class="absolute top-0 left-0 w-2/3 h-2/3 opacity-40" style="background: radial-gradient(circle at left top, rgba(255, 255, 255, 0.5), transparent 80%); pointer-events: none; filter: blur(10px);"></div><div class="absolute bottom-0 left-0 w-full h-1/2 opacity-50" style="background: linear-gradient(to top, rgba(0, 0, 0, 0.4), transparent); pointer-events: none; backdrop-filter: blur(3px);"></div><div class="flex items-center justify-center w-full h-full relative z-10"><svg width="20" height="20" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 0L9.4 5.4L14.8 5.4L10.6 8.8L12 14.2L8 10.8L4 14.2L5.4 8.8L1.2 5.4L6.6 5.4L8 0Z" fill="white"></path></svg></div></div><div class="mb-auto" style="transform: translateZ(2px);"><h3 class="text-2xl font-medium text-white mb-3" style="letter-spacing: -0.01em; line-height: 1.2; filter: blur(0px); opacity: 1; text-shadow: none;">AI-Powered Inbox Sorting</h3><p class="text-sm mb-6 text-gray-300" style="line-height: 1.5; font-weight: 350; filter: blur(0px); opacity: 0.85; text-shadow: none;">OpenMail revolutionizes email management with AI-driven sorting, boosting productivity and accessibility</p><a href="#" class="inline-flex items-center text-white text-sm font-medium group" style="filter: blur(0px); opacity: 0.9;">Learn More<svg class="ml-1 w-4 h-4" width="8" height="8" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: none;"><path d="M1 8H15M15 8L8 1M15 8L8 15" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

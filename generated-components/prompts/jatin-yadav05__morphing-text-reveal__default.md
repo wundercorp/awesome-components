@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/jatin-yadav05/morphing-text-reveal/default
+- Registry URL: https://21st.dev/r/jatin-yadav05/morphing-text-reveal
+- Author: jatin-yadav05
+- Component slug: morphing-text-reveal
+- Demo slug: default
+- Title: morphing-text-reveal
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/jatin-yadav05/morphing-text-reveal with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/jatin-yadav05__morphing-text-reveal__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/jatin-yadav05__morphing-text-reveal__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen bg-background flex items-center justify-center p-8"><div class="max-w-4xl mx-auto text-center space-y-12"><div class="space-y-8"><div class="space-y-2"><p class="text-sm font-mono text-muted-foreground tracking-wider uppercase">MORPHING TEXT REVEAL</p><div class="text-3xl md:text-4xl font-light"><div class="relative inline-block cursor-pointer select-none text-foreground"><span class="font-mono text-foreground transition-all duration-300 hover:text-primary" style="font-variant-numeric: tabular-nums; letter-spacing: 0.05em;"><span class="inline-block morph-char" style="animation-delay: 0ms;">I</span><span class="inline-block morph-char" style="animation-delay: 35ms;">n</span><span class="inline-block morph-char" style="animation-delay: 70ms;">n</span><span class="inline-block morph-char" style="animation-delay: 105ms;">o</span><span class="inline-block morph-char" style="animation-delay: 140ms;">v</span><span class="inline-block morph-char" style="animation-delay: 175ms;">a</span><span class="inline-block morph-char" style="animation-delay: 210ms;">t</span><span class="inline-block morph-char" style="animation-delay: 245ms;">i</span><span class="inline-block morph-char" style="animation-delay: 280ms;">o</span><span class="inline-block morph-char" style="animation-delay: 315ms;">n</span><span class="inline-block morph-char" style="animation-delay: 350ms;">&nbsp;</span><span class="inline-block morph-char" style="animation-delay: 385ms;">B</span><span class="inline-block morph-char" style="animation-delay: 420ms;">e</span><span class="inline-block morph-char" style="animation-delay: 455ms;">y</span><span class="inline-block morph-char" style="animation-delay: 490ms;">o</span><span class="inline-block morph-char" style="animation-delay: 525ms;">t</span><span class="inline-block morph-char" style="animation-delay: 560ms;">&nbsp;</span><span class="inline-block morph-char" style="animation-delay: 595ms;">L</span><span class="inline-block morph-char" style="animation-delay: 630ms;">P</span><span class="inline-block morph-char" style="animation-delay: 665ms;">m</span><span class="inline-block morph-char" style="animation-delay: 700ms;">i</span><span class="inline-block morph-char" style="animation-delay: 735ms;">d</span><span class="inline-block morph-char" style="animation-delay: 770ms;">a</span><span class="inline-block morph-char" style="animation-delay: 805ms;">t</span><span class="inline-block morph-char" style="animation-delay: 840ms;">i</span><span class="inline-block morph-char" style="animation-delay: 875ms;">o</span><span class="inline-block morph-char" style="animation-delay: 910ms;">n</span></span><span class="inline-block w-0.5 h-[1em] bg-primary ml-1 transition-opacity duration-500 opacity-100" style="animation: 2s ease-in-out 0s infinite normal none running pulse;"></span></div></div></div></div><div class="grid grid-cols-1 md:grid-cols-2 gap-8 pt-16"><div class="space-y-4"><h3 class="text-sm font-mono text-muted-foreground tracking-wider uppercase">STATUS INDICATOR</h3><div class="text-2xl font-mono"><div class="relative inline-block cursor-pointer select-none text-primary"><span class="font-mono text-foreground transition-all duration-300 hover:text-primary" style="font-variant-numeric: tabular-nums; letter-spacing: 0.05em;"><span class="inline-block" style="animation-delay: 0ms;">R</span><span class="inline-block" style="animation-delay: 35ms;">E</span><span class="inline-block" style="animation-delay: 70ms;">A</span><span class="inline-block" style="animation-delay: 105ms;">D</span><span class="inline-block" style="animation-delay: 140ms;">Y</span></span><span class="inline-block w-0.5 h-[1em] bg-primary ml-1 transition-opacity duration-500 opacity-30" style="animation: 2s ease-in-out 0s infinite normal none running pulse;"></span></div></div></div><div class="space-y-4"><h3 class="text-sm font-mono text-muted-foreground tracking-wider uppercase">DYNAMIC COUNTER</h3><div class="text-2xl font-mono"><div class="relative inline-block cursor-pointer select-none text-foreground"><span class="font-mono text-foreground transition-all duration-300 hover:text-primary" style="font-variant-numeric: tabular-nums; letter-spacing: 0.05em;"><span class="inline-block morph-char" style="animation-delay: 0ms;">2</span><span class="inline-block morph-char" style="animation-delay: 35ms;">2</span><span class="inline-block morph-char" style="animation-delay: 70ms;">q</span></span><span class="inline-block w-0.5 h-[1em] bg-primary ml-1 transition-opacity duration-500 opacity-100" style="animation: 2s ease-in-out 0s infinite normal none running pulse;"></span></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

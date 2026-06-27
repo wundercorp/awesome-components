@@ -1,0 +1,57 @@
+# Build Animated Menu in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Animated Menu screenshot](screenshot.png)
+
+## Component
+
+- Author group: `kousthubha_sky`
+- Component: `_animated-menu`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: kousthubha_sky_
+- Component slug: animated-menu
+- Demo slug: default
+- Title: animated-menu
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><ul class="bs flex min-h-full w-full flex-1 flex-col items-center justify-center gap-1.5 rounded-2xl px-7 py-3 backdrop-blur-sm"><li class="relative flex cursor-pointer flex-col items-center overflow-visible"><div class="relative flex items-start"><span class="relative block overflow-hidden text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-5xl" style="line-height: 0.85;"><div><span class="inline-block" style="transform: none;">H</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">m</span><span class="inline-block" style="transform: none;">e</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">H</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">m</span><span class="inline-block" style="transform: translateY(100%);">e</span></div></span></div></li><li class="relative flex cursor-pointer flex-col items-center overflow-visible"><div class="relative flex items-start"><span class="relative block overflow-hidden text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-5xl" style="line-height: 0.85;"><div><span class="inline-block" style="transform: none;">C</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">m</span><span class="inline-block" style="transform: none;">p</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">n</span><span class="inline-block" style="transform: none;">e</span><span class="inline-block" style="transform: none;">n</span><span class="inline-block" style="transform: none;">t</span><span class="inline-block" style="transform: none;">s</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">C</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">m</span><span class="inline-block" style="transform: translateY(100%);">p</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">n</span><span class="inline-block" style="transform: translateY(100%);">e</span><span class="inline-block" style="transform: translateY(100%);">n</span><span class="inline-block" style="transform: translateY(100%);">t</span><span class="inline-block" style="transform: translateY(100%);">s</span></div></span></div></li><li class="relative flex cursor-pointer flex-col items-center overflow-visible"><div class="relative flex items-start"><span class="relative block overflow-hidden text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-5xl" style="line-height: 0.85;"><div><span class="inline-block" style="transform: none;">P</span><span class="inline-block" style="transform: none;">r</span><span class="inline-block" style="transform: none;">i</span><span class="inline-block" style="transform: none;">c</span><span class="inline-block" style="transform: none;">i</span><span class="inline-block" style="transform: none;">n</span><span class="inline-block" style="transform: none;">g</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">P</span><span class="inline-block" style="transform: translateY(100%);">r</span><span class="inline-block" style="transform: translateY(100%);">i</span><span class="inline-block" style="transform: translateY(100%);">c</span><span class="inline-block" style="transform: translateY(100%);">i</span><span class="inline-block" style="transform: translateY(100%);">n</span><span class="inline-block" style="transform: translateY(100%);">g</span></div></span></div></li><li class="relative flex cursor-pointer flex-col items-center overflow-visible"><div class="relative flex items-start"><span class="relative block overflow-hidden text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-5xl" style="line-height: 0.85;"><div><span class="inline-block" style="transform: none;">H</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">w</span><span class="inline-block" style="transform: none;"> </span><span class="inline-block" style="transform: none;">t</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;"> </span><span class="inline-block" style="transform: none;">u</span><span class="inline-block" style="transform: none;">s</span><span class="inline-block" style="transform: none;">e</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">H</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">w</span><span class="inline-block" style="transform: translateY(100%);"> </span><span class="inline-block" style="transform: translateY(100%);">t</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);"> </span><span class="inline-block" style="transform: translateY(100%);">u</span><span class="inline-block" style="transform: translateY(100%);">s</span><span class="inline-block" style="transform: translateY(100%);">e</span></div></span></div></li><li class="relative flex cursor-pointer flex-col items-center overflow-visible"><div class="relative flex items-start"><span class="relative block overflow-hidden text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-5xl" style="line-height: 0.85;"><div><span class="inline-block" style="transform: none;">A</span><span class="inline-block" style="transform: none;">c</span><span class="inline-block" style="transform: none;">c</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">u</span><span class="inline-block" style="transform: none;">n</span><span class="inline-block" style="transform: none;">t</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">A</span><span class="inline-block" style="transform: translateY(100%);">c</span><span class="inline-block" style="transform: translateY(100%);">c</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">u</span><span class="inline-block" style="transform: translateY(100%);">n</span><span class="inline-block" style="transform: translateY(100%);">t</span></div></span></div></li><li class="relative flex cursor-pointer flex-col items-center overflow-visible"><div class="relative flex items-start"><span class="relative block overflow-hidden text-4xl font-extrabold uppercase leading-[0.8] tracking-[-0.03em] transition-colors lg:text-5xl" style="line-height: 0.85;"><div><span class="inline-block" style="transform: none;">L</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">g</span><span class="inline-block" style="transform: none;">i</span><span class="inline-block" style="transform: none;">n</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">L</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">g</span><span class="inline-block" style="transform: translateY(100%);">i</span><span class="inline-block" style="transform: translateY(100%);">n</span></div></span></div></li></ul></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/kavikatiyar/testimonial-slider-1/default
+- Registry URL: https://21st.dev/r/kavikatiyar/testimonial-slider-1
+- Author: kavikatiyar
+- Component slug: testimonial-slider-1
+- Demo slug: default
+- Title: testimonial-slider-1
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/kavikatiyar/testimonial-slider-1 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/kavikatiyar__testimonial-slider-1__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/kavikatiyar__testimonial-slider-1__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full"><div class="relative w-full min-h-[650px] md:min-h-[600px] overflow-hidden bg-background text-foreground p-8 md:p-12"><div class="grid grid-cols-1 md:grid-cols-12 gap-8 h-full"><div class="md:col-span-3 flex flex-col justify-between order-2 md:order-1"><div class="flex flex-row md:flex-col justify-between md:justify-start space-x-4 md:space-x-0 md:space-y-4"><span class="text-sm text-muted-foreground font-mono">01 / 05</span><h2 class="text-sm font-medium tracking-widest uppercase [writing-mode:vertical-rl] md:rotate-180 hidden md:block">Reviews</h2></div><div class="flex space-x-2 mt-8 md:mt-0"><button class="overflow-hidden rounded-md w-16 h-20 md:w-20 md:h-24 opacity-70 hover:opacity-100 transition-opacity duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background" aria-label="View review from Jacob Jose"><img alt="Jacob Jose" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&amp;h=120&amp;fit=crop&amp;q=80"></button><button class="overflow-hidden rounded-md w-16 h-20 md:w-20 md:h-24 opacity-70 hover:opacity-100 transition-opacity duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background" aria-label="View review from Elara Sands"><img alt="Elara Sands" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&amp;h=120&amp;fit=crop&amp;q=80"></button><button class="overflow-hidden rounded-md w-16 h-20 md:w-20 md:h-24 opacity-70 hover:opacity-100 transition-opacity duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 focus:ring-offset-background" aria-label="View review from Marcus Cole"><img alt="Marcus Cole" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?w=100&amp;h=120&amp;fit=crop&amp;q=80"></button></div></div><div class="md:col-span-4 relative h-80 min-h-[400px] md:min-h-[500px] order-1 md:order-2"><img alt="Ashley Right" class="absolute inset-0 w-full h-full object-cover rounded-lg" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&amp;h=600&amp;fit=crop&amp;q=80" style="opacity: 1; transform: none;"></div><div class="md:col-span-5 flex flex-col justify-between md:pl-8 order-3 md:order-3"><div class="relative overflow-hidden pt-4 md:pt-24 min-h-[200px]"><div style="opacity: 1; transform: none;"><p class="text-sm font-medium text-muted-foreground">Pinterest</p><h3 class="text-xl font-semibold mt-1">Ashley Right</h3><blockquote class="mt-6 text-2xl md:text-3xl font-medium leading-snug">"Professionals in their craft! All products were super amazing with strong attention to details, comps and overall vibe."</blockquote></div></div><div class="flex items-center space-x-2 mt-8 md:mt-0"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:bg-accent hover:text-accent-foreground rounded-full w-12 h-12 border-muted-foreground/50" aria-label="Previous review"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left w-5 h-5" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg></button><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 rounded-full w-12 h-12 bg-primary text-primary-foreground hover:bg-primary/90" aria-label="Next review"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

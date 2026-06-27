@@ -1,0 +1,57 @@
+# Build Vertical Image Stack in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Vertical Image Stack screenshot](screenshot.png)
+
+## Component
+
+- Author group: `jatin-yadav05`
+- Component: `vertical-image-stack`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: jatin-yadav05
+- Component slug: vertical-image-stack
+- Demo slug: default
+- Title: vertical-image-stack
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="min-h-screen w-full select-none"><div class="relative flex h-screen w-full items-center justify-center overflow-hidden bg-background"><div class="pointer-events-none absolute inset-0"><div class="absolute left-1/2 top-1/2 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-foreground/[0.02] blur-3xl"></div></div><div class="relative flex h-[500px] w-[320px] items-center justify-center" style="perspective: 1200px;"><div class="absolute cursor-grab active:cursor-grabbing" draggable="false" style="transform-style: preserve-3d; z-index: 5; user-select: none; touch-action: pan-x; opacity: 1; transform: none;"><div class="relative h-[420px] w-[280px] overflow-hidden rounded-3xl bg-card ring-1 ring-border/20" style="box-shadow: 0 25px 50px -12px hsl(var(--foreground) / 0.15), 0 0 0 1px hsl(var(--foreground) / 0.05);"><div class="absolute inset-0 rounded-3xl bg-gradient-to-b from-foreground/10 via-transparent to-transparent"></div><img alt="Black sneaker with red sole" class="object-cover w-full h-full" draggable="false" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/luxury-black-sneaker-with-red-sole-on-grey-backgro-hj40sZT8MUUSeLz18VN7EjhcnV0kSD.jpg"><div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background/60 to-transparent"></div></div></div><div class="absolute cursor-grab active:cursor-grabbing" style="transform-style: preserve-3d; z-index: 4; opacity: 0.6; transform: translateY(160px) scale(0.82) rotateX(-8deg);"><div class="relative h-[420px] w-[280px] overflow-hidden rounded-3xl bg-card ring-1 ring-border/20" style="box-shadow: 0 10px 30px -10px hsl(var(--foreground) / 0.1);"><div class="absolute inset-0 rounded-3xl bg-gradient-to-b from-foreground/10 via-transparent to-transparent"></div><img alt="White minimalist sneaker" class="object-cover w-full h-full" draggable="false" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/white-minimalist-sneaker-on-light-background-xQxkXgGrSrAe6pvLPNC6yrh20Atqoa.jpg"><div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background/60 to-transparent"></div></div></div><div class="absolute cursor-grab active:cursor-grabbing" style="transform-style: preserve-3d; z-index: 3; opacity: 0.3; transform: translateY(280px) scale(0.7) rotateX(-15deg);"><div class="relative h-[420px] w-[280px] overflow-hidden rounded-3xl bg-card ring-1 ring-border/20" style="box-shadow: 0 10px 30px -10px hsl(var(--foreground) / 0.1);"><div class="absolute inset-0 rounded-3xl bg-gradient-to-b from-foreground/10 via-transparent to-transparent"></div><img alt="Navy blue running shoe" class="object-cover w-full h-full" draggable="false" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/navy-blue-running-shoe-on-gradient-background-E1spqSK9gDvh3gTNwASkttEg76nZgm.jpg"><div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background/60 to-transparent"></div></div></div><div class="absolute cursor-grab active:cursor-grabbing" style="transform-style: preserve-3d; z-index: 3; opacity: 0.3; transform: translateY(-280px) scale(0.7) rotateX(15deg);"><div class="relative h-[420px] w-[280px] overflow-hidden rounded-3xl bg-card ring-1 ring-border/20" style="box-shadow: 0 10px 30px -10px hsl(var(--foreground) / 0.1);"><div class="absolute inset-0 rounded-3xl bg-gradient-to-b from-foreground/10 via-transparent to-transparent"></div><img alt="Red athletic sneaker" class="object-cover w-full h-full" draggable="false" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/red-athletic-sneaker-on-dark-background-skamDX1NbCRW4jvHxijkfmCnHGr6NJ.jpg"><div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background/60 to-transparent"></div></div></div><div class="absolute cursor-grab active:cursor-grabbing" style="transform-style: preserve-3d; z-index: 4; opacity: 0.6; transform: translateY(-160px) scale(0.82) rotateX(8deg);"><div class="relative h-[420px] w-[280px] overflow-hidden rounded-3xl bg-card ring-1 ring-border/20" style="box-shadow: 0 10px 30px -10px hsl(var(--foreground) / 0.1);"><div class="absolute inset-0 rounded-3xl bg-gradient-to-b from-foreground/10 via-transparent to-transparent"></div><img alt="Green hiking boot" class="object-cover w-full h-full" draggable="false" src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/attachments/gen-images/public/green-forest-hiking-boot-on-natural-background-T41PNLzI60G2u6rFIRxeCbKT6RWKOH.jpg"><div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-background/60 to-transparent"></div></div></div></div><div class="absolute right-8 top-1/2 flex -translate-y-1/2 flex-col gap-2"><button class="h-2 w-2 rounded-full transition-all duration-300 h-6 bg-foreground" aria-label="Go to image 1"></button><button class="h-2 w-2 rounded-full transition-all duration-300 bg-foreground/30 hover:bg-foreground/50" aria-label="Go to image 2"></button><button class="h-2 w-2 rounded-full transition-all duration-300 bg-foreground/30 hover:bg-foreground/50" aria-label="Go to image 3"></button><button class="h-2 w-2 rounded-full transition-all duration-300 bg-foreground/30 hover:bg-foreground/50" aria-label="Go to image 4"></button><button class="h-2 w-2 rounded-full transition-all duration-300 bg-foreground/30 hover:bg-foreground/50" aria-label="Go to image 5"></button></div><div class="absolute bottom-12 left-1/2 -translate-x-1/2" style="opacity: 1; transform: none;"><div class="flex flex-col items-center gap-2 text-muted-foreground"><div style="transform: translateY(-0.812965px);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M5 12l7-7 7 7"></path></svg></div><span class="text-xs font-medium tracking-widest uppercase">Scroll or drag</span><div style="transform: translateY(0.812965px);"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"></path></svg></div></div></div><div class="absolute left-8 top-1/2 -translate-y-1/2"><div class="flex flex-col items-center"><span class="text-4xl font-light text-foreground tabular-nums">01</span><div class="my-2 h-px w-8 bg-foreground/20"></div><span class="text-sm text-muted-foreground tabular-nums">05</span></div></div></div></main></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

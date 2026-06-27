@@ -1,0 +1,57 @@
+# Build Stats Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Stats Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `kavikatiyar`
+- Component: `stats-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: kavikatiyar
+- Component slug: stats-card
+- Demo slug: default
+- Title: stats-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-screen w-full items-center justify-center bg-background p-4"><div class="rounded-lg border bg-card text-card-foreground shadow-sm w-full max-w-sm overflow-hidden"><div class="flex flex-col space-y-1.5 p-6 pb-4"><div class="flex items-center justify-between"><div class="flex items-center gap-3"><div class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-footprints h-6 w-6" aria-hidden="true"><path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z"></path><path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z"></path><path d="M16 17h4"></path><path d="M4 13h4"></path></svg></div><h3 class="tracking-tight text-lg font-medium">Running last week</h3></div><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10" aria-label="View details"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-5 w-5 text-muted-foreground" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div><div class="p-6 pt-0"><p class="text-4xl font-bold tracking-tight text-card-foreground">48,75 KM</p><div class="flex items-center gap-1 text-sm text-green-500"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-4 w-4" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg><span>2.1% <span class="text-muted-foreground">vs last week</span></span></div><div class="mt-6 h-32 w-full"><div class="flex h-full w-full items-end justify-between gap-2" style="opacity: 1;"><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="90" aria-label="Current value: 90" role="progressbar" style="height: 90%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="45" aria-label="Previous value: 45" role="progressbar" style="height: 45%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">01</span></div><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="60" aria-label="Current value: 60" role="progressbar" style="height: 60%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="75" aria-label="Previous value: 75" role="progressbar" style="height: 75%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">02</span></div><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="70" aria-label="Current value: 70" role="progressbar" style="height: 70%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="35" aria-label="Previous value: 35" role="progressbar" style="height: 35%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">03</span></div><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="50" aria-label="Current value: 50" role="progressbar" style="height: 50%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="65" aria-label="Previous value: 65" role="progressbar" style="height: 65%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">04</span></div><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="85" aria-label="Current value: 85" role="progressbar" style="height: 85%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="40" aria-label="Previous value: 40" role="progressbar" style="height: 40%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">05</span></div><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="75" aria-label="Current value: 75" role="progressbar" style="height: 75%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="68" aria-label="Previous value: 68" role="progressbar" style="height: 68%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">06</span></div><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="95" aria-label="Current value: 95" role="progressbar" style="height: 95%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="42" aria-label="Previous value: 42" role="progressbar" style="height: 42%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">07</span></div><div class="flex h-full flex-1 flex-col items-center justify-end gap-2"><div class="relative flex h-full w-full items-end justify-center gap-1.5"><div class="w-full rounded-sm bg-violet-500" aria-valuenow="60" aria-label="Current value: 60" role="progressbar" style="height: 60%; opacity: 1;"></div><div class="w-full rounded-sm bg-violet-200 dark:bg-violet-900" aria-valuenow="30" aria-label="Previous value: 30" role="progressbar" style="height: 30%; opacity: 1;"></div></div><span class="text-xs text-muted-foreground">08</span></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

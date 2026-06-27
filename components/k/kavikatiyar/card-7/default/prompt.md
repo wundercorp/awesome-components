@@ -1,0 +1,57 @@
+# Build Card 7 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Card 7 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `kavikatiyar`
+- Component: `card-7`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: kavikatiyar
+- Component slug: card-7
+- Demo slug: default
+- Title: card-7
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-[500px] w-full items-center justify-center bg-background p-4"><div class="relative w-full max-w-md h-56 rounded-2xl overflow-hidden p-6 text-white shadow-lg flex items-end isolate font-sans" style="opacity: 1; transform: none;"><div class="absolute inset-0 z-[-1]"><img alt="Route map" class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1672046217997-4e40a3d7987d?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzN8fHJ1bnxlbnwwfHwwfHx8MA%3D%3D?q=80&amp;w=2542&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 bg-blue-500/60 dark:bg-blue-800/70"></div></div><div class="w-full grid grid-cols-3 gap-4 items-end"><div class="col-span-2 flex flex-col justify-end h-full"><div class="space-y-2"><h2 class="text-xl font-bold leading-tight" style="opacity: 1; transform: none;">Rute dalam kota sekalian wisata</h2><p class="text-sm opacity-80" style="opacity: 1; transform: none;">By Pak Eko</p></div><button class="mt-4 flex items-center gap-2 w-fit px-4 py-2 rounded-full text-sm font-semibold transition-colors duration-300 bg-white/20 text-white backdrop-blur-sm hover:bg-white/30" style="opacity: 1; transform: none;"><div tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart w-5 h-5 transition-all fill-transparent" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg></div><span class="w-10 text-left" style="opacity: 1; transform: none;">1.5K</span></button></div><div class="col-span-1 flex items-center justify-center" style="opacity: 1; transform: none;"><h1 class="text-8xl font-bold tracking-tighter text-white/90 select-none">12K</h1></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,57 @@
+# Build Mini Chart in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Mini Chart screenshot](screenshot.png)
+
+## Component
+
+- Author group: `jatin-yadav05`
+- Component: `mini-chart`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: jatin-yadav05
+- Component slug: mini-chart
+- Demo slug: default
+- Title: mini-chart
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="min-h-screen flex items-center justify-center bg-background p-8 w-full"><div class="group relative w-72 p-6 rounded-2xl bg-foreground/[0.02] border border-foreground/[0.06] backdrop-blur-sm transition-all duration-500 hover:bg-foreground/[0.04] hover:border-foreground/[0.1] flex flex-col gap-4"><div class="flex items-center justify-between mb-6"><div class="flex items-center gap-2"><div class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></div><span class="text-xs font-medium text-muted-foreground tracking-wide uppercase">Activity</span></div><div class="relative h-7 flex items-center"><span class="text-lg font-semibold tabular-nums transition-all duration-300 ease-out opacity-50 text-muted-foreground"><span class="text-xs font-normal text-muted-foreground ml-0.5 transition-opacity duration-300 opacity-0">%</span></span></div></div><div class="flex items-end gap-2 h-24"><div class="relative flex-1 flex flex-col items-center justify-end h-full"><div class="w-full rounded-full cursor-pointer transition-all duration-300 ease-out origin-bottom bg-foreground/20 group-hover:bg-foreground/25" style="height: 65.6842px; transform: scaleX(1);"></div><span class="text-[10px] font-medium mt-2 transition-all duration-300 text-muted-foreground/60">M</span><div class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-xs font-medium transition-all duration-200 whitespace-nowrap opacity-0 translate-y-1 pointer-events-none">65%</div></div><div class="relative flex-1 flex flex-col items-center justify-end h-full"><div class="w-full rounded-full cursor-pointer transition-all duration-300 ease-out origin-bottom bg-foreground/20 group-hover:bg-foreground/25" style="height: 85.8947px; transform: scaleX(1);"></div><span class="text-[10px] font-medium mt-2 transition-all duration-300 text-muted-foreground/60">T</span><div class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-xs font-medium transition-all duration-200 whitespace-nowrap opacity-0 translate-y-1 pointer-events-none">85%</div></div><div class="relative flex-1 flex flex-col items-center justify-end h-full"><div class="w-full rounded-full cursor-pointer transition-all duration-300 ease-out origin-bottom bg-foreground/20 group-hover:bg-foreground/25" style="height: 45.4737px; transform: scaleX(1);"></div><span class="text-[10px] font-medium mt-2 transition-all duration-300 text-muted-foreground/60">W</span><div class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-xs font-medium transition-all duration-200 whitespace-nowrap opacity-0 translate-y-1 pointer-events-none">45%</div></div><div class="relative flex-1 flex flex-col items-center justify-end h-full"><div class="w-full rounded-full cursor-pointer transition-all duration-300 ease-out origin-bottom bg-foreground/20 group-hover:bg-foreground/25" style="height: 96px; transform: scaleX(1);"></div><span class="text-[10px] font-medium mt-2 transition-all duration-300 text-muted-foreground/60">T</span><div class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-xs font-medium transition-all duration-200 whitespace-nowrap opacity-0 translate-y-1 pointer-events-none">95%</div></div><div class="relative flex-1 flex flex-col items-center justify-end h-full"><div class="w-full rounded-full cursor-pointer transition-all duration-300 ease-out origin-bottom bg-foreground/20 group-hover:bg-foreground/25" style="height: 70.7368px; transform: scaleX(1);"></div><span class="text-[10px] font-medium mt-2 transition-all duration-300 text-muted-foreground/60">F</span><div class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-xs font-medium transition-all duration-200 whitespace-nowrap opacity-0 translate-y-1 pointer-events-none">70%</div></div><div class="relative flex-1 flex flex-col items-center justify-end h-full"><div class="w-full rounded-full cursor-pointer transition-all duration-300 ease-out origin-bottom bg-foreground/20 group-hover:bg-foreground/25" style="height: 55.5789px; transform: scaleX(1);"></div><span class="text-[10px] font-medium mt-2 transition-all duration-300 text-muted-foreground/60">S</span><div class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-xs font-medium transition-all duration-200 whitespace-nowrap opacity-0 translate-y-1 pointer-events-none">55%</div></div><div class="relative flex-1 flex flex-col items-center justify-end h-full"><div class="w-full rounded-full cursor-pointer transition-all duration-300 ease-out origin-bottom bg-foreground/20 group-hover:bg-foreground/25" style="height: 80.8421px; transform: scaleX(1);"></div><span class="text-[10px] font-medium mt-2 transition-all duration-300 text-muted-foreground/60">S</span><div class="absolute -top-8 left-1/2 -translate-x-1/2 px-2 py-1 rounded-md bg-foreground text-background text-xs font-medium transition-all duration-200 whitespace-nowrap opacity-0 translate-y-1 pointer-events-none">80%</div></div></div><div class="absolute inset-0 rounded-2xl bg-gradient-to-b from-foreground/[0.02] to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-none"></div></div></main></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,66 @@
+# Build Split Testimonial in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Split Testimonial screenshot](screenshot.png)
+
+## Component
+
+- Author group: `jatin-yadav05`
+- Component: `split-testimonial`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: jatin-yadav05
+- Component slug: split-testimonial
+- Demo slug: default
+- Title: split-testimonial
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="min-h-screen flex items-center justify-center bg-background p-8 w-full"><div class="w-full max-w-5xl mx-auto px-6"><div class="relative grid grid-cols-[1fr_auto] gap-12 items-center cursor-pointer group"><div class="space-y-8"><div class="inline-flex items-center gap-2 text-xs tracking-[0.2em] uppercase text-muted-foreground" style="opacity: 1; transform: none;"><span class="w-8 h-px bg-muted-foreground/50"></span>Figma</div><div class="relative overflow-hidden"><blockquote class="text-3xl md:text-4xl font-light leading-[1.3] tracking-tight text-foreground" style="opacity: 1; transform: none;">A rare talent who bridges the gap between aesthetics and functionality with remarkable precision.</blockquote></div><div class="flex items-center gap-4" style="opacity: 1;"><div class="w-10 h-px bg-foreground/20"></div><div><p class="text-sm font-medium text-foreground">Sarah Chen</p><p class="text-xs text-muted-foreground">Design Director</p></div></div></div><div class="relative w-48 h-64"><div class="absolute inset-0" style="opacity: 1; filter: blur(0px); transform: none;"><div class="w-full h-full rounded-2xl overflow-hidden border border-border/50"><img alt="Sarah Chen" class="w-full h-full object-cover" src="https://plus.unsplash.com/premium_photo-1689551671541-31a345ce6ae0?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8YXZhdGFyc3xlbnwwfHwwfHx8MA%3D%3D$0"></div></div><div class="absolute -bottom-12 left-1/2 -translate-x-1/2 flex items-center gap-2 text-xs text-muted-foreground" style="opacity: 0; transform: scale(0.8);"><span>Next</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right w-3 h-3" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></div></div><div class="absolute -bottom-16 left-0 flex items-center gap-3"><button class="relative p-1 group/dot"><span class="
+                  block w-2 h-2 rounded-full transition-all duration-300
+                  bg-foreground scale-100
+                "></span><span class="absolute inset-0 border border-foreground/30 rounded-full" style="opacity: 1;"></span></button><button class="relative p-1 group/dot"><span class="
+                  block w-2 h-2 rounded-full transition-all duration-300
+                  bg-muted-foreground/30 scale-75 hover:bg-muted-foreground/50 hover:scale-100
+                "></span></button><button class="relative p-1 group/dot"><span class="
+                  block w-2 h-2 rounded-full transition-all duration-300
+                  bg-muted-foreground/30 scale-75 hover:bg-muted-foreground/50 hover:scale-100
+                "></span></button></div></div></div></main></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
