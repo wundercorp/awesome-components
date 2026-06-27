@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/mapcn/mapcn-map-controls/default
+- Registry URL: https://21st.dev/r/mapcn/mapcn-map-controls
+- Author: mapcn
+- Component slug: mapcn-map-controls
+- Demo slug: default
+- Title: mapcn-map-controls
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/mapcn/mapcn-map-controls with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/mapcn__mapcn-map-controls__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/mapcn__mapcn-map-controls__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex min-h-screen w-full items-center justify-center overflow-hidden bg-background p-8"><div class="h-[420px] w-full max-w-4xl overflow-hidden rounded-lg border bg-background shadow-sm"><div class="relative h-full w-full maplibregl-map"><div class="maplibregl-canvas-container maplibregl-interactive maplibregl-touch-drag-pan maplibregl-touch-zoom-rotate"><canvas class="maplibregl-canvas" tabindex="0" aria-label="Map" role="region" width="894" height="418" style="width: 894px; height: 418px;"></canvas></div><div class="maplibregl-control-container"><div class="maplibregl-ctrl-top-left "></div><div class="maplibregl-ctrl-top-right "></div><div class="maplibregl-ctrl-bottom-left "></div><div class="maplibregl-ctrl-bottom-right "><details class="maplibregl-ctrl maplibregl-ctrl-attrib maplibregl-compact maplibregl-compact-show" open=""><summary class="maplibregl-ctrl-attrib-button" title="Toggle attribution" aria-label="Toggle attribution"></summary><div class="maplibregl-ctrl-attrib-inner">© <a href="https://carto.com/about-carto/" target="_blank" rel="noopener">CARTO</a>, © <a href="http://www.openstreetmap.org/about/" target="_blank">OpenStreetMap</a> contributors</div></details></div></div><div class="absolute z-10 flex flex-col gap-1.5 top-2 right-2"><div class="border-border bg-background [&amp;&gt;button:not(:last-child)]:border-border flex flex-col overflow-hidden rounded-md border shadow-sm [&amp;&gt;button:not(:last-child)]:border-b"><button aria-label="Zoom in" type="button" class="flex size-8 items-center justify-center transition-all first:rounded-t-md last:rounded-b-md hover:bg-accent dark:hover:bg-accent/40 focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-inset disabled:pointer-events-none disabled:opacity-50"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus size-4" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button><button aria-label="Zoom out" type="button" class="flex size-8 items-center justify-center transition-all first:rounded-t-md last:rounded-b-md hover:bg-accent dark:hover:bg-accent/40 focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-inset disabled:pointer-events-none disabled:opacity-50"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus size-4" aria-hidden="true"><path d="M5 12h14"></path></svg></button></div><div class="border-border bg-background [&amp;&gt;button:not(:last-child)]:border-border flex flex-col overflow-hidden rounded-md border shadow-sm [&amp;&gt;button:not(:last-child)]:border-b"><button aria-label="Reset bearing to north" type="button" class="flex size-8 items-center justify-center transition-all first:rounded-t-md last:rounded-b-md hover:bg-accent dark:hover:bg-accent/40 focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-inset disabled:pointer-events-none disabled:opacity-50"><svg viewBox="0 0 24 24" class="size-5 transition-transform duration-200" style="transform-style: preserve-3d; transform: rotateX(0deg) rotateZ(0deg);"><path d="M12 2L16 12H12V2Z" class="fill-red-500"></path><path d="M12 2L8 12H12V2Z" class="fill-red-300"></path><path d="M12 22L16 12H12V22Z" class="fill-muted-foreground/60"></path><path d="M12 22L8 12H12V22Z" class="fill-muted-foreground/30"></path></svg></button></div><div class="border-border bg-background [&amp;&gt;button:not(:last-child)]:border-border flex flex-col overflow-hidden rounded-md border shadow-sm [&amp;&gt;button:not(:last-child)]:border-b"><button aria-label="Find my location" type="button" class="flex size-8 items-center justify-center transition-all first:rounded-t-md last:rounded-b-md hover:bg-accent dark:hover:bg-accent/40 focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-inset disabled:pointer-events-none disabled:opacity-50"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-locate size-4" aria-hidden="true"><line x1="2" x2="5" y1="12" y2="12"></line><line x1="19" x2="22" y1="12" y2="12"></line><line x1="12" x2="12" y1="2" y2="5"></line><line x1="12" x2="12" y1="19" y2="22"></line><circle cx="12" cy="12" r="7"></circle></svg></button></div><div class="border-border bg-background [&amp;&gt;button:not(:last-child)]:border-border flex flex-col overflow-hidden rounded-md border shadow-sm [&amp;&gt;button:not(:last-child)]:border-b"><button aria-label="Toggle fullscreen" type="button" class="flex size-8 items-center justify-center transition-all first:rounded-t-md last:rounded-b-md hover:bg-accent dark:hover:bg-accent/40 focus-visible:ring-ring focus-visible:ring-2 focus-visible:outline-none focus-visible:ring-inset disabled:pointer-events-none disabled:opacity-50"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-maximize size-4" aria-hidden="true"><path d="M8 3H5a2 2 0 0 0-2 2v3"></path><path d="M21 8V5a2 2 0 0 0-2-2h-3"></path><path d="M3 16v3a2 2 0 0 0 2 2h3"></path><path d="M16 21h3a2 2 0 0 0 2-2v-3"></path></svg></button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

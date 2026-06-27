@@ -1,6 +1,6 @@
 # Lavikatiyar Components
 
-19 components are available in this author group.
+36 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -25,3 +25,20 @@
 | [![Cta Card](cta-card/default/screenshot.png)](cta-card/default/README.md) | [Cta Card](cta-card/default/README.md) | `default` |
 | [![Feature Card](feature-card/default/screenshot.png)](feature-card/default/README.md) | [Feature Card](feature-card/default/README.md) | `default` |
 | [![Feature Grid](feature-grid/default/screenshot.png)](feature-grid/default/README.md) | [Feature Grid](feature-grid/default/README.md) | `default` |
+| [![Form](form/default/screenshot.png)](form/default/README.md) | [Form](form/default/README.md) | `default` |
+| [![Freelancer Profile Card](freelancer-profile-card/default/screenshot.png)](freelancer-profile-card/default/README.md) | [Freelancer Profile Card](freelancer-profile-card/default/README.md) | `default` |
+| [![Growth Hero Section](growth-hero-section/default/screenshot.png)](growth-hero-section/default/README.md) | [Growth Hero Section](growth-hero-section/default/README.md) | `default` |
+| [![Hero Section](hero-section/default/screenshot.png)](hero-section/default/README.md) | [Hero Section](hero-section/default/README.md) | `default` |
+| [![Image Uploader](image-uploader/default/screenshot.png)](image-uploader/default/README.md) | [Image Uploader](image-uploader/default/README.md) | `default` |
+| [![Insurance Card](insurance-card/default/screenshot.png)](insurance-card/default/README.md) | [Insurance Card](insurance-card/default/README.md) | `default` |
+| [![Location Card](location-card/default/screenshot.png)](location-card/default/README.md) | [Location Card](location-card/default/README.md) | `default` |
+| [![Login](login/default/screenshot.png)](login/default/README.md) | [Login](login/default/README.md) | `default` |
+| [![Menu](menu/default/screenshot.png)](menu/default/README.md) | [Menu](menu/default/README.md) | `default` |
+| [![Offer Card](offer-card/default/screenshot.png)](offer-card/default/README.md) | [Offer Card](offer-card/default/README.md) | `default` |
+| [![Offers Carousel](offers-carousel/default/screenshot.png)](offers-carousel/default/README.md) | [Offers Carousel](offers-carousel/default/README.md) | `default` |
+| [![Pricing](pricing/default/screenshot.png)](pricing/default/README.md) | [Pricing](pricing/default/README.md) | `default` |
+| [![Progress Card](progress-card/default/screenshot.png)](progress-card/default/README.md) | [Progress Card](progress-card/default/README.md) | `default` |
+| [![Referral Card](referral-card/default/screenshot.png)](referral-card/default/README.md) | [Referral Card](referral-card/default/README.md) | `default` |
+| [![Reset Password Form](reset-password-form/default/screenshot.png)](reset-password-form/default/README.md) | [Reset Password Form](reset-password-form/default/README.md) | `default` |
+| [![Seat Selection](seat-selection/default/screenshot.png)](seat-selection/default/README.md) | [Seat Selection](seat-selection/default/README.md) | `default` |
+| [![Service Card](service-card/default/screenshot.png)](service-card/default/README.md) | [Service Card](service-card/default/README.md) | `default` |

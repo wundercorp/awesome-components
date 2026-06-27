@@ -1,0 +1,81 @@
+# Build Neo Minimal Footer in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Neo Minimal Footer screenshot](screenshot.png)
+
+## Component
+
+- Author group: `m.kumailalirajpoot`
+- Component: `neo-minimal-footer`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: m.kumailalirajpoot
+- Component slug: neo-minimal-footer
+- Demo slug: default
+- Title: neo-minimal-footer
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex w-full overflow-x-hidden flex-col"><div class="h-screen flex flex-col justify-center items-center bg-backgrund text-white"><p class="font-mono text-3xl text-center mb-8">Scroll Down</p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down w-10 h-10 animate-bounce text-cyan-500" aria-hidden="true"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg></div><footer class="max-w-7xl mx-auto bg-card/10 border-t rounded-t-lg border-card/10 flex flex-wrap pt-16 pb-8 relative overflow-hidden"><div class="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(circle_at_center,black,transparent_80%)]"></div><div class="max-w-6xl mx-auto px-6 relative z-10"><div class="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-8 mb-16"><div class="col-span-1 md:col-span-5 flex flex-col gap-6"><div class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hexagon text-cyan-500 fill-cyan-500/10 animate-pulse" aria-hidden="true"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path></svg><h2 class="text-2xl font-bold tracking-tighter text-foreground">SEEKER</h2></div><p class="text-sm text-muted-foreground  leading-relaxed max-w-sm">Next-generation interface primitives for the modern web. Built for speed, designed for awe.</p><div class="flex items-center gap-2 mt-2 group"><div class="relative flex-1 max-w-xs"><input placeholder="Enter your signal..." class="w-full bg-white/5 border border-border/40 rounded-lg px-4 py-2.5 text-sm text-foreground placeholder:text-gray-600 focus:outline-none focus:border-cyan-500/50 transition-colors" type="email"></div><button class="p-2.5 bg-cyan-500 rounded-lg text-foreground hover:bg-cyan-400 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div><div class="col-span-6 md:col-span-2 flex flex-col gap-4"><h4 class="text-xs font-mono font-semibold text-foreground/70 uppercase tracking-widest">Product</h4><ul class="flex flex-col gap-3"><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Components</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Templates</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Pricing</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Features</a></li></ul></div><div class="col-span-6 md:col-span-2 flex flex-col gap-4"><h4 class="text-xs font-mono font-semibold text-foreground/70 uppercase tracking-widest">Company</h4><ul class="flex flex-col gap-3"><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>About</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Careers</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Legal</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Blog</a></li></ul></div><div class="col-span-6 md:col-span-2 flex flex-col gap-4"><h4 class="text-xs font-mono font-semibold text-foreground/70 uppercase tracking-widest">Connect</h4><ul class="flex flex-col gap-3"><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Twitter</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>GitHub</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Discord</a></li><li><a href="#" class="text-sm font-mono text-gray-400 hover:text-cyan-400 transition-colors flex items-center gap-2 group w-fit"><span class="w-2 h-2 rounded-full bg-muted/90
+                                group-hover:bg-cyan-400 
+                                transition-all group-hover:w-4 duration-200"></span>Whatsapp</a></li></ul></div></div><div class="flex flex-col md:flex-row items-center justify-between gap-6 pt-8 border-t border-white/5"><p class="text-xs text-gray-600 font-mono">// PUBLISHED_BY_21ST.DEV</p><div class="flex items-center gap-6"><div class="flex gap-4 border-r border-white/10 pr-6 mr-2"><a href="#" class="text-gray-600 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a><a href="#" class="text-gray-600 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a><a href="#" class="text-gray-600 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a></div><div class="flex items-center gap-2 px-3 py-1 rounded-full bg-green-500/5 border border-green-500/10"><div class="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></div><span class="text-[10px] uppercase font-medium text-green-500/80 tracking-wider">All Systems Normal</span></div></div></div></div></footer></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

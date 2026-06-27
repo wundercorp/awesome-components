@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ln-dev7/spend-migrator/default
+- Registry URL: https://21st.dev/r/ln-dev7/spend-migrator
+- Author: ln-dev7
+- Component slug: spend-migrator
+- Demo slug: default
+- Title: spend-migrator
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ln-dev7/spend-migrator with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ln-dev7__spend-migrator__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ln-dev7__spend-migrator__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_SpendMigratorDemo">SpendMigratorDemo</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex w-full items-center justify-center p-4"><div class="relative w-full max-w-2xl undefined"><div class="relative w-full space-y-5 overflow-hidden rounded-3xl border bg-white p-6 shadow-lg" style="opacity: 1;"><div class="flex w-full items-center justify-between"><div class="flex flex-col items-start"><h1 class="text-lg font-medium text-gray-900">Select sites to change your card</h1><p class="text-gray-500">We found 8 sites based on your browser history</p></div><button class="shrink-0 text-gray-500 hover:text-gray-700">Select All</button></div><div class="grid grid-cols-2 gap-4 md:grid-cols-4"><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="Microsoft logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/240px-Microsoft_logo.svg.png"><span class="text-sm font-medium text-gray-900">Microsoft</span></div></div></div><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="Spotify logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Spotify_icon.svg/240px-Spotify_icon.svg.png"><span class="text-sm font-medium text-gray-900">Spotify</span></div></div></div><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="Meta logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Meta_Platforms_Inc._logo.svg/240px-Meta_Platforms_Inc._logo.svg.png"><span class="text-sm font-medium text-gray-900">Meta</span></div></div></div><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="Netflix logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/240px-Netflix_2015_logo.svg.png"><span class="text-sm font-medium text-gray-900">Netflix</span></div></div></div><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="X logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/X_logo_2023.svg/langfr-90px-X_logo_2023.svg.png"><span class="text-sm font-medium text-gray-900">X</span></div></div></div><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="LinkedIn logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/240px-LinkedIn_logo_initials.png"><span class="text-sm font-medium text-gray-900">LinkedIn</span></div></div></div><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="Dropbox logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Dropbox_Icon.svg/240px-Dropbox_Icon.svg.png"><span class="text-sm font-medium text-gray-900">Dropbox</span></div></div></div><div style="opacity: 1;"><div class="relative cursor-pointer rounded-xl border-2 bg-white p-4 transition-all duration-300 ease-in-out border-gray-200"><div class="flex flex-col items-center space-y-2"><img alt="Airbnb logo" class="h-12 w-12 object-contain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Airbnb_Logo_B%C3%A9lo.svg/240px-Airbnb_Logo_B%C3%A9lo.svg.png"><span class="text-sm font-medium text-gray-900">Airbnb</span></div></div></div></div><div class="flex w-full flex-col items-center justify-between gap-2 md:flex-row"><div class="flex flex-col items-start gap-1"><div class="flex items-center space-x-2"><span class="text-xl font-medium text-gray-900">Estimated yearly spend</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help h-5 w-5 text-gray-400" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="flex items-baseline space-x-2"><span class="text-md font-bold text-gray-900 md:text-2xl"><number-flow-react></number-flow-react></span><span class="text-md font-bold text-gray-400 md:text-2xl">/ $9701.79</span></div></div><div class="relative h-16 w-36 overflow-hidden rounded-lg bg-black/10"><div class="relative z-10 flex size-full flex-col items-center justify-center gap-1 py-1 px-3"><div class="flex w-full items-center justify-between"><span class="text-[10px] font-medium text-white">05/26</span><span class="text-[10px] font-medium text-white">111</span></div><span class="w-full text-left text-[10px] font-medium text-white">4242 4242 4242 4242</span></div><div class="absolute top-0 bottom-0 left-0 w-0 bg-black" style="width: 0%; transition: width 0.3s ease-out;"></div></div></div><button class="flex w-full items-center justify-center space-x-2 rounded-full py-3 font-medium text-white cursor-not-allowed bg-gray-200" disabled=""><span>Migrate my spend</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-5 w-5" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.
