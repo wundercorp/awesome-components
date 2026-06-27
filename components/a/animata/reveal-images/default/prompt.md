@@ -1,0 +1,57 @@
+# Build Reveal Images in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Reveal Images screenshot](screenshot.png)
+
+## Component
+
+- Author group: `animata`
+- Component: `reveal-images`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: animata
+- Component slug: reveal-images
+- Demo slug: default
+- Title: reveal-images
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="block"><div class="flex flex-col gap-1 rounded-sm bg-background px-8 py-4"><h3 class="text-sm font-black uppercase text-muted-foreground">Our services</h3><div class="group relative h-fit w-fit overflow-visible py-8"><h1 class="text-7xl font-black text-foreground transition-all duration-500 group-hover:opacity-40">Branding</h1><div class="absolute right-8 -top-1 z-40 h-20 w-16"><div class="relative duration-500 delay-100 shadow-none group-hover:shadow-xl scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 group-hover:w-full group-hover:h-full w-16 h-16 overflow-hidden transition-all rounded-md"><img alt="Image 2" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1567262439850-1d4dc1fefdd0?w=200&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3"></div></div><div class="absolute right-8 -top-1 z-40 h-20 w-16 translate-x-0 translate-y-0 rotate-0 transition-all delay-150 duration-500 group-hover:translate-x-6 group-hover:translate-y-6 group-hover:rotate-12"><div class="relative delay-100 shadow-none group-hover:shadow-xl scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 group-hover:w-full group-hover:h-full w-16 h-16 overflow-hidden transition-all rounded-md duration-200"><img alt="Image 1" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?w=200&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3"></div></div></div><div class="group relative h-fit w-fit overflow-visible py-8"><h1 class="text-7xl font-black text-foreground transition-all duration-500 group-hover:opacity-40">Web design</h1><div class="absolute right-8 -top-1 z-40 h-20 w-16"><div class="relative duration-500 delay-100 shadow-none group-hover:shadow-xl scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 group-hover:w-full group-hover:h-full w-16 h-16 overflow-hidden transition-all rounded-md"><img alt="Image 2" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1547658719-da2b51169166?w=200&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3"></div></div><div class="absolute right-8 -top-1 z-40 h-20 w-16 translate-x-0 translate-y-0 rotate-0 transition-all delay-150 duration-500 group-hover:translate-x-6 group-hover:translate-y-6 group-hover:rotate-12"><div class="relative delay-100 shadow-none group-hover:shadow-xl scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 group-hover:w-full group-hover:h-full w-16 h-16 overflow-hidden transition-all rounded-md duration-200"><img alt="Image 1" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1587440871875-191322ee64b0?w=200&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3"></div></div></div><div class="group relative h-fit w-fit overflow-visible py-8"><h1 class="text-7xl font-black text-foreground transition-all duration-500 group-hover:opacity-40">Illustration</h1><div class="absolute right-8 -top-1 z-40 h-20 w-16"><div class="relative duration-500 delay-100 shadow-none group-hover:shadow-xl scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 group-hover:w-full group-hover:h-full w-16 h-16 overflow-hidden transition-all rounded-md"><img alt="Image 2" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1579762715118-a6f1d4b934f1?w=200&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3"></div></div><div class="absolute right-8 -top-1 z-40 h-20 w-16 translate-x-0 translate-y-0 rotate-0 transition-all delay-150 duration-500 group-hover:translate-x-6 group-hover:translate-y-6 group-hover:rotate-12"><div class="relative delay-100 shadow-none group-hover:shadow-xl scale-0 group-hover:scale-100 opacity-0 group-hover:opacity-100 group-hover:w-full group-hover:h-full w-16 h-16 overflow-hidden transition-all rounded-md duration-200"><img alt="Image 1" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1575995872537-3793d29d972c?w=200&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3"></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

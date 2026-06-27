@@ -1,0 +1,57 @@
+# Build Highlighter in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Highlighter screenshot](screenshot.png)
+
+## Component
+
+- Author group: `aliimam`
+- Component: `highlighter`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: aliimam
+- Component slug: highlighter
+- Demo slug: default
+- Title: highlighter
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><section class="relative mx-auto mb-20 mt-6 max-w-5xl  "><div class="group h-full"><div class="group/item h-full md:col-span-6 lg:col-span-12" data-aos="fade-down"><div class="relative overflow-hidden p-px before:pointer-events-none before:absolute before:-left-48 before:-top-48 before:z-30 before:h-96 before:w-96 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-lime-500 before:opacity-0 before:blur-[100px] before:transition-opacity before:duration-500 after:absolute after:inset-0 after:z-10 after:rounded-3xl after:opacity-0 after:transition-opacity after:duration-500  before:hover:opacity-20 after:group-hover:opacity-100 dark:before:bg-white/50  rounded-3xl p-6"><div class="relative z-20 h-full overflow-hidden rounded-3xl border border-slate-200 bg-white dark:border-slate-800 dark:bg-black"><div class="absolute inset-0 -z-10 opacity-10 transition-opacity duration-1000 ease-in-out group-hover/item:opacity-100" aria-hidden="true"><canvas width="812" height="300" style="width: 812px; height: 300px;"></canvas></div><div class="flex justify-center"><div class="flex h-full flex-col justify-center gap-10 p-4 md:h-[300px] md:flex-row"><div class="relative mx-auto h-[270px] w-[300px] md:h-[270px] md:w-[300px]"><svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="heart" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="absolute left-1/2 top-1/2 h-6 w-6 -translate-x-1/2 -translate-y-1/2"><path stroke-width="0" fill="currentColor" d="M2.8,1.43h7.53c3.47,0,6.15.92,8.04,2.75,1.89,1.84,2.83,4.45,2.83,7.85s-.92,5.98-2.77,7.8c-1.85,1.83-4.49,2.74-7.92,2.74H2.8V1.43Z"></path></svg><div id="next-js" class="absolute bottom-12 left-14 rounded-3xl border border-slate-400 bg-slate-200 px-2 py-1.5 text-xs opacity-50 dark:border-slate-600 dark:bg-slate-800" style="opacity: 0.5;">UI-UX</div><div id="react-js" class="absolute left-2 top-20 rounded-3xl border border-slate-400 bg-slate-200 px-2 py-1.5 text-xs opacity-50 dark:border-slate-600 dark:bg-slate-800" style="opacity: 0.5;">Graphic Design</div><div id="typescript" class="absolute bottom-20 right-1 rounded-3xl border border-slate-400 bg-slate-200 px-2 py-1.5 text-xs opacity-50 dark:border-slate-600 dark:bg-slate-800" style="opacity: 0.5;">Web Application</div><div id="javascript" class="absolute right-12 top-10 rounded-3xl border border-slate-400 bg-slate-200 px-2 py-1.5 text-xs opacity-50 dark:border-slate-600 dark:bg-slate-800" style="opacity: 0.5;">Branding</div><div id="pointer" class="absolute" style="left: 199.931px; top: 60.0851px;"><svg width="16.8" height="18.2" viewBox="0 0 12 13" class="fill-red-500" stroke="white" stroke-width="1" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 5.50676L0 0L2.83818 13L6.30623 7.86537L12 5.50676V5.50676Z"></path></svg><span class="bg-ali relative -top-1 left-3 rounded-3xl px-2 py-1 text-xs text-white">Ali</span></div></div><div class="-mt-20 flex h-full flex-col justify-center p-2 md:-mt-4 md:ml-10 md:w-[400px]"><div class="flex flex-col items-center"><h3 class="mt-6   pb-1 font-bold "><span class="text-2xl md:text-4xl">Any questions about Design?</span></h3></div><p class="mb-4 text-slate-400">Feel free to reach out to me!</p><div class="flex flex-wrap gap-2"><a href="https://cal.com/aliimam/designali" target="_blank"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">Book a call</button></a><a href="mailto:contact@designali.in" target="_blank" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10"><span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="h-5 w-5"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></span></a><a href="https://wa.me/917678432186" target="_blank" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10"><span class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1" class="h-4 w-4"><path stroke-width="0" fill="#25d366" d="M19.09,4.87c-1.88-1.88-4.38-2.92-7.04-2.92C6.55,1.95,2.09,6.42,2.08,11.91c0,1.76.46,3.47,1.33,4.98l-1.41,5.16,5.28-1.38c1.45.79,3.09,1.21,4.76,1.21h0c5.49,0,9.96-4.47,9.96-9.96,0-2.66-1.03-5.16-2.91-7.04h0ZM12.04,20.19h0c-1.48,0-2.94-.4-4.21-1.15l-.3-.18-3.13.82.84-3.05-.2-.31c-.83-1.32-1.27-2.84-1.27-4.4,0-4.56,3.71-8.28,8.28-8.28,2.21,0,4.29.86,5.85,2.43,1.56,1.56,2.42,3.64,2.42,5.86,0,4.56-3.71,8.28-8.28,8.28h0ZM16.58,13.99c-.25-.12-1.47-.73-1.7-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.79.98-.15.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.37-.44.12-.15.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.35-.77-1.85-.2-.49-.41-.42-.56-.43-.15,0-.31,0-.48,0s-.44.06-.66.31c-.23.25-.87.85-.87,2.08s.89,2.41,1.02,2.57c.12.17,1.75,2.68,4.25,3.76.59.26,1.06.41,1.42.52.6.19,1.14.16,1.57.1.48-.07,1.47-.6,1.68-1.18.21-.58.21-1.08.15-1.18s-.23-.17-.48-.29h0Z"></path></svg></span></a></div></div></div></div></div></div></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

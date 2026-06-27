@@ -1,0 +1,57 @@
+# Build Text Color in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Text Color screenshot](screenshot.png)
+
+## Component
+
+- Author group: `aliimam`
+- Component: `text-color`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: aliimam
+- Component slug: text-color
+- Demo slug: default
+- Title: text-color
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><main class="overflow-hidden"><div><div class=" mb-10 mt-4 md:mt-6"><div class="px-2"><div class="relative p-8 w-full h-full border border-slate-200 dark:border-slate-800 [mask-image:radial-gradient(200rem_24rem_at_center,white,transparent)]"><h1 class="tracking-tighter flex select-none px-3 py-2 flex-col text-center text-7xl font-extrabold leading-none sm:text-8xl md:flex-col lg:flex-row"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus absolute -left-4 -top-4 h-8 w-8 text-indigo-500" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus absolute -bottom-4 -left-4 h-8 w-8 text-indigo-500" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus absolute -right-4 -top-4 h-8 w-8 text-indigo-500" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus absolute -bottom-4 -right-4 h-8 w-8 text-indigo-500" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span data-content="Develop." class="before:animate-gradient-background-1 relative before:absolute before:bottom-4 before:left-0 before:top-0 before:z-0  before:w-full before:px-2 before:content-[attr(data-content)]  sm:before:top-0"><span class="from-gradient-1-start to-gradient-1-end animate-gradient-foreground-1 bg-gradient-to-r bg-clip-text px-2 text-transparent sm:px-5">Develop.</span></span><span data-content="Preview." class="before:animate-gradient-background-2 relative before:absolute before:bottom-0 before:left-0 before:top-0 before:z-0 before:w-full before:px-2 before:content-[attr(data-content)] sm:before:top-0"><span class="from-gradient-2-start to-gradient-2-end animate-gradient-foreground-2 bg-gradient-to-r bg-clip-text px-2 text-transparent sm:px-5">Preview.</span></span><span data-content="Ship." class="before:animate-gradient-background-3 relative before:absolute before:bottom-1 before:left-0 before:top-0 before:z-0 before:w-full before:px-2 before:content-[attr(data-content)] sm:before:top-0"><span class="from-gradient-3-start to-gradient-3-end animate-gradient-foreground-3 bg-gradient-to-r bg-clip-text px-2 text-transparent sm:px-5">Ship.</span></span></h1></div></div></div></div></main></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

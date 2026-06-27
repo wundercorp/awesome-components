@@ -1,0 +1,57 @@
+# Build Header 01 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Header 01 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `aliimam`
+- Component: `header-01`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: aliimam
+- Component slug: header-01
+- Demo slug: default
+- Title: header-01
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-col min-h-screen w-full overflow-hidden"><header><nav data-state="false" class="fixed z-50 w-full px-3 md:px-4 transition-colors duration-300 border-b"><div class="mx-auto mt-2 transition-all duration-300"><div class="relative flex flex-wrap items-center justify-between gap-3 py-3"><div class="flex w-full justify-between lg:w-auto"><a href="#" aria-label="home" class="flex gap-2 items-center"><img alt="Your Image" height="50" width="50" class="h-10 z-10 w-full hidden dark:block object-contain" src="https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/brand/ai-logo-white.png"><img alt="Your Image" height="50" width="50" class="h-10 z-10 w-full dark:hidden block object-contain" src="https://raw.githubusercontent.com/aliimam-in/aliimam/refs/heads/main/apps/www/public/brand/ai-logo-black.png"></a><div class="flex gap-2"><button aria-label="Open Menu" class="relative z-20 pr-4 block cursor-pointer p-2.5 lg:hidden"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="in-data-[state=active]:rotate-180 scale-120 in-data-[state=active]:scale-0 in-data-[state=active]:opacity-0 m-auto duration-200"><path d="M5 9H19M5 15H19" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="in-data-[state=active]:rotate-0 in-data-[state=active]:scale-120 in-data-[state=active]:opacity-100 absolute inset-0 m-auto size-6 -rotate-180 scale-0 opacity-0 duration-200"><path d="M18 6 6 18M6 6 18 18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div></div><div class="absolute inset-0 m-auto hidden lg:block size-fit"><nav aria-label="Main" data-orientation="horizontal" dir="ltr" class="relative z-10 flex max-w-max flex-1 items-center justify-center"><div style="position: relative;"><ul data-orientation="horizontal" class="group flex flex-1 list-none items-center justify-center space-x-1" dir="ltr"><li><a href="#" class="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 bg-transparent text-xs" data-radix-collection-item="">About</a></li><li><a href="#" class="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 bg-transparent text-xs" data-radix-collection-item="">Templates</a></li><li><a href="#" class="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 bg-transparent text-xs" data-radix-collection-item="">Blocks</a></li><li><button id="radix-«r0»-trigger-radix-«r4»" data-state="closed" aria-expanded="false" aria-controls="radix-«r0»-content-radix-«r4»" class="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 group bg-transparent text-xs" data-radix-collection-item="">Resources <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="relative top-[1px] ml-1 h-3 w-3 transition duration-300 group-data-[state=open]:rotate-180" aria-hidden="true"><path d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg></button></li><li><a href="#" class="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 bg-transparent text-xs" data-radix-collection-item="">Icons</a></li><li><a href="#" class="group inline-flex h-9 w-max items-center justify-center rounded-md px-4 py-2 font-medium transition-colors hover:bg-accent hover:text-accent-foreground focus:bg-accent focus:text-accent-foreground focus:outline-none disabled:pointer-events-none disabled:opacity-50 data-[active]:bg-accent/50 data-[state=open]:bg-accent/50 bg-transparent text-xs" data-radix-collection-item="">Components</a></li></ul></div><div class="absolute left-0 top-full flex justify-center"></div></nav></div><div class="in-data-[state=active]:block border backdrop-blur-2xl lg:in-data-[state=active]:flex hidden w-full flex-wrap items-center justify-end space-y-8 rounded-sm p-3 shadow-3xl shadow-zinc-300/20 md:flex-nowrap lg:m-0 lg:flex lg:w-fit lg:gap-6 lg:space-y-0 lg:border-transparent lg:bg-transparent lg:p-0 lg:shadow-none dark:shadow-none dark:lg:bg-transparent"><div class="lg:hidden block p-3"><ul class="space-y-6 text-base"><li><a href="#" class="text-muted-foreground hover:text-primary text-sm block duration-150"><span>About</span></a></li><li><a href="#" class="text-muted-foreground hover:text-primary text-sm block duration-150"><span>Components</span></a></li><li><a href="#" class="text-muted-foreground hover:text-primary text-sm block duration-150"><span>Pricing</span></a></li><li><a href="#" class="text-muted-foreground hover:text-primary text-sm block duration-150"><span>Contact</span></a></li></ul></div><div class="flex w-full flex-col space-y-3 sm:flex-row sm:gap-2 sm:space-y-0"><div class="flex flex-col justify-center"><div><button type="button" aria-pressed="false" data-state="off" class="inline-flex items-center justify-center rounded-md text-sm font-medium ring-offset-background transition-colors hover:bg-muted hover:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 data-[state=on]:text-accent-foreground px-3 group bg-secondary dark:bg-secondary data-[state=on]:hover:bg-muted cursor-pointer size-9 data-[state=on]:bg-transparent" aria-label="Switch to dark mode"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="shrink-0 scale-0 opacity-0 transition-all group-data-[state=on]:scale-100 group-data-[state=on]:opacity-100" aria-hidden="true"><path d="M20.985 12.4859C20.8913 14.2221 20.2967 15.8939 19.2731 17.2993C18.2495 18.7047 16.8407 19.7836 15.217 20.4054C13.5934 21.0273 11.8243 21.1655 10.1238 20.8034C8.42322 20.4414 6.86396 19.5944 5.63446 18.3651C4.40497 17.1357 3.55789 15.5765 3.19562 13.876C2.83335 12.1755 2.9714 10.4065 3.59308 8.78273C4.21476 7.159 5.29346 5.7501 6.69878 4.72635C8.10409 3.70259 9.77587 3.10782 11.512 3.01391C11.917 2.99191 12.129 3.47391 11.914 3.81691C11.1949 4.96746 10.887 6.32778 11.0405 7.67586C11.194 9.02394 11.7999 10.2802 12.7593 11.2396C13.7187 12.199 14.975 12.8049 16.3231 12.9584C17.6711 13.1119 19.0314 12.804 20.182 12.0849C20.526 11.8699 21.007 12.0809 20.985 12.4859Z" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg><svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="absolute shrink-0 scale-100 opacity-100 transition-all group-data-[state=on]:scale-0 group-data-[state=on]:opacity-0" aria-hidden="true"><path d="M12 16C14.209 16 16 14.209 16 12 16 9.791 14.209 8 12 8 9.791 8 8 9.791 8 12 8 14.209 9.791 16 12 16ZM12 2V4M12 20V22M4.93 4.93 6.34 6.34M17.66 17.66 19.07 19.07M2 12H4M20 12H22M6.34 17.66 4.93 19.07M19.07 4.93 17.66 6.34" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"></path></svg></button></div></div><a target="_blank" href="https://cal.com/aliimam-in/30min" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2"><span>Book an Intro call</span></a></div></div></div></div></nav></header><main class="flex-1"><section class="h-screen flex items-center justify-center"><h1 class="text-4xl font-bold">Hero</h1></section><section class="h-screen flex items-center justify-center"><h1 class="text-4xl font-bold">Section</h1></section></main></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

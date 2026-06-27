@@ -1,6 +1,6 @@
 # Bucket a
 
-152 components from 18 author groups.
+354 components from 24 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -20,5 +20,11 @@
 | [al11o](al11o/README.md) | 1 |
 | [ali-hussein-dev](ali-hussein-dev/README.md) | 7 |
 | [alifarooqdev](alifarooqdev/README.md) | 8 |
-| [aliimam](aliimam/README.md) | 43 |
+| [aliimam](aliimam/README.md) | 146 |
+| [andrewlu0](andrewlu0/README.md) | 4 |
+| [animata](animata/README.md) | 6 |
+| [animate-ui](animate-ui/README.md) | 12 |
 | [ankit-2145](ankit-2145/README.md) | 1 |
+| [anshuman008](anshuman008/README.md) | 1 |
+| [antdesign](antdesign/README.md) | 49 |
+| [anubra266](anubra266/README.md) | 27 |

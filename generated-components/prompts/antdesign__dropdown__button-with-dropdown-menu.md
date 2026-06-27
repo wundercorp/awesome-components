@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/antdesign/dropdown/button-with-dropdown-menu
+- Registry URL: https://21st.dev/r/antdesign/dropdown
+- Author: antdesign
+- Component slug: dropdown
+- Demo slug: button-with-dropdown-menu
+- Title: dropdown
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/antdesign/dropdown with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/antdesign__dropdown__button-with-dropdown-menu.html
+- Local screenshot file: generated-21st-prompts/screenshots/antdesign__dropdown__button-with-dropdown-menu.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="ant-space css-xepvsj ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small" style="flex-wrap: wrap;"><div class="ant-space-item"><div class="ant-space-compact css-xepvsj ant-space-compact-block ant-dropdown-button"><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"><span>Dropdown</span></button><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"><span class="ant-btn-icon"><span role="img" aria-label="ellipsis" class="anticon anticon-ellipsis"><svg viewBox="64 64 896 896" focusable="false" data-icon="ellipsis" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"></path></svg></span></span></button></div></div><div class="ant-space-item"><div class="ant-space-compact css-xepvsj ant-space-compact-block ant-dropdown-button"><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"><span>Dropdown</span></button><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"><span class="ant-btn-icon"><span role="img" aria-label="user" class="anticon anticon-user"><svg viewBox="64 64 896 896" focusable="false" data-icon="user" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M858.5 763.6a374 374 0 00-80.6-119.5 375.63 375.63 0 00-119.5-80.6c-.4-.2-.8-.3-1.2-.5C719.5 518 760 444.7 760 362c0-137-111-248-248-248S264 225 264 362c0 82.7 40.5 156 102.8 201.1-.4.2-.8.3-1.2.5-44.8 18.9-85 46-119.5 80.6a375.63 375.63 0 00-80.6 119.5A371.7 371.7 0 00136 901.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8 2-77.2 33-149.5 87.8-204.3 56.7-56.7 132-87.9 212.2-87.9s155.5 31.2 212.2 87.9C779 752.7 810 825 812 902.2c.1 4.4 3.6 7.8 8 7.8h60a8 8 0 008-8.2c-1-47.8-10.9-94.3-29.5-138.2zM512 534c-45.9 0-89.1-17.9-121.6-50.4S340 407.9 340 362c0-45.9 17.9-89.1 50.4-121.6S466.1 190 512 190s89.1 17.9 121.6 50.4S684 316.1 684 362c0 45.9-17.9 89.1-50.4 121.6S557.9 534 512 534z"></path></svg></span></span></button></div></div><div class="ant-space-item"><div class="ant-space-compact css-xepvsj ant-space-compact-block ant-dropdown-button"><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item" disabled=""><span>Dropdown</span></button><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger" disabled=""><span class="ant-btn-icon"><span role="img" aria-label="ellipsis" class="anticon anticon-ellipsis"><svg viewBox="64 64 896 896" focusable="false" data-icon="ellipsis" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"></path></svg></span></span></button></div></div><div class="ant-space-item"><div class="ant-space-compact css-xepvsj ant-space-compact-block ant-dropdown-button"><button aria-describedby="«r3»" type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"><span>With Tooltip</span></button><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-btn-icon-only ant-btn-loading ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"><span class="ant-btn-icon ant-btn-loading-icon"><span role="img" aria-label="loading" class="anticon anticon-loading anticon-spin"><svg viewBox="0 0 1024 1024" focusable="false" data-icon="loading" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M988 548c-19.9 0-36-16.1-36-36 0-59.4-11.6-117-34.6-171.3a440.45 440.45 0 00-94.3-139.9 437.71 437.71 0 00-139.9-94.3C629 83.6 571.4 72 512 72c-19.9 0-36-16.1-36-36s16.1-36 36-36c69.1 0 136.2 13.5 199.3 40.3C772.3 66 827 103 874 150c47 47 83.9 101.8 109.7 162.7 26.7 63.1 40.2 130.2 40.2 199.3.1 19.9-16 36-35.9 36z"></path></svg></span></span></button></div></div><div class="ant-space-item"><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-color-default ant-btn-variant-outlined ant-dropdown-trigger"><div class="ant-space css-xepvsj ant-space-horizontal ant-space-align-center ant-space-gap-row-small ant-space-gap-col-small"><div class="ant-space-item">Button</div><div class="ant-space-item"><span role="img" aria-label="down" class="anticon anticon-down"><svg viewBox="64 64 896 896" focusable="false" data-icon="down" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M884 256h-75c-5.1 0-9.9 2.5-12.9 6.6L512 654.2 227.9 262.6c-3-4.1-7.8-6.6-12.9-6.6h-75c-6.5 0-10.3 7.4-6.5 12.7l352.6 486.1c12.8 17.6 39 17.6 51.7 0l352.6-486.1c3.9-5.3.1-12.7-6.4-12.7z"></path></svg></span></div></div></button></div><div class="ant-space-item"><div class="ant-space-compact css-xepvsj ant-space-compact-block ant-dropdown-button"><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-compact-item ant-btn-compact-first-item"><span>Danger</span></button><button type="button" class="ant-btn css-xepvsj ant-btn-default ant-btn-dangerous ant-btn-color-dangerous ant-btn-variant-outlined ant-btn-icon-only ant-btn-compact-item ant-btn-compact-last-item ant-dropdown-trigger"><span class="ant-btn-icon"><span role="img" aria-label="ellipsis" class="anticon anticon-ellipsis"><svg viewBox="64 64 896 896" focusable="false" data-icon="ellipsis" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M176 511a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0zm280 0a56 56 0 10112 0 56 56 0 10-112 0z"></path></svg></span></span></button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/antdesign/float-button/float-button-group
+- Registry URL: https://21st.dev/r/antdesign/float-button
+- Author: antdesign
+- Component slug: float-button
+- Demo slug: float-button-group
+- Title: float-button
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/antdesign/float-button with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/antdesign__float-button__float-button-group.html
+- Local screenshot file: generated-21st-prompts/screenshots/antdesign__float-button__float-button-group.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="ant-float-btn-group css-xepvsj ant-float-btn-group-circle ant-float-btn-group-circle-shadow" style="inset-inline-end: 24px;"><button class="css-xepvsj ant-float-btn ant-float-btn-default ant-float-btn-circle" type="button"><div class="ant-float-btn-body"><div class="ant-float-btn-content"><div class="ant-float-btn-icon"><span role="img" aria-label="question-circle" class="anticon anticon-question-circle"><svg viewBox="64 64 896 896" focusable="false" data-icon="question-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M623.6 316.7C593.6 290.4 554 276 512 276s-81.6 14.5-111.6 40.7C369.2 344 352 380.7 352 420v7.6c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V420c0-44.1 43.1-80 96-80s96 35.9 96 80c0 31.1-22 59.6-56.1 72.7-21.2 8.1-39.2 22.3-52.1 40.9-13.1 19-19.9 41.8-19.9 64.9V620c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8v-22.7a48.3 48.3 0 0130.9-44.8c59-22.7 97.1-74.7 97.1-132.5.1-39.3-17.1-76-48.3-103.3zM472 732a40 40 0 1080 0 40 40 0 10-80 0z"></path></svg></span></div></div></div></button><button class="css-xepvsj ant-float-btn ant-float-btn-default ant-float-btn-circle" type="button"><div class="ant-float-btn-body"><div class="ant-float-btn-content"><div class="ant-float-btn-icon"><span role="img" aria-label="file-text" class="anticon anticon-file-text"><svg viewBox="64 64 896 896" focusable="false" data-icon="file-text" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M854.6 288.6L639.4 73.4c-6-6-14.1-9.4-22.6-9.4H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V311.3c0-8.5-3.4-16.7-9.4-22.7zM790.2 326H602V137.8L790.2 326zm1.8 562H232V136h302v216a42 42 0 0042 42h216v494zM504 618H320c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zM312 490v48c0 4.4 3.6 8 8 8h384c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H320c-4.4 0-8 3.6-8 8z"></path></svg></span></div></div></div></button><button class="css-xepvsj ant-float-btn ant-float-btn-default ant-float-btn-circle" type="button"><div class="ant-float-btn-body"><div class="ant-float-btn-content"><div class="ant-float-btn-icon"><span role="img" aria-label="vertical-align-top" class="anticon anticon-vertical-align-top"><svg viewBox="64 64 896 896" focusable="false" data-icon="vertical-align-top" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M859.9 168H164.1c-4.5 0-8.1 3.6-8.1 8v60c0 4.4 3.6 8 8.1 8h695.8c4.5 0 8.1-3.6 8.1-8v-60c0-4.4-3.6-8-8.1-8zM518.3 355a8 8 0 00-12.6 0l-112 141.7a7.98 7.98 0 006.3 12.9h73.9V848c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V509.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 355z"></path></svg></span></div></div></div></button></div><div class="ant-float-btn-group css-xepvsj ant-float-btn-group-square ant-float-btn-group-square-shadow" style="inset-inline-end: 94px;"><button class="css-xepvsj ant-float-btn ant-float-btn-default ant-float-btn-square" type="button"><div class="ant-float-btn-body"><div class="ant-float-btn-content"><div class="ant-float-btn-icon"><span role="img" aria-label="question-circle" class="anticon anticon-question-circle"><svg viewBox="64 64 896 896" focusable="false" data-icon="question-circle" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M512 64C264.6 64 64 264.6 64 512s200.6 448 448 448 448-200.6 448-448S759.4 64 512 64zm0 820c-205.4 0-372-166.6-372-372s166.6-372 372-372 372 166.6 372 372-166.6 372-372 372z"></path><path d="M623.6 316.7C593.6 290.4 554 276 512 276s-81.6 14.5-111.6 40.7C369.2 344 352 380.7 352 420v7.6c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8V420c0-44.1 43.1-80 96-80s96 35.9 96 80c0 31.1-22 59.6-56.1 72.7-21.2 8.1-39.2 22.3-52.1 40.9-13.1 19-19.9 41.8-19.9 64.9V620c0 4.4 3.6 8 8 8h48c4.4 0 8-3.6 8-8v-22.7a48.3 48.3 0 0130.9-44.8c59-22.7 97.1-74.7 97.1-132.5.1-39.3-17.1-76-48.3-103.3zM472 732a40 40 0 1080 0 40 40 0 10-80 0z"></path></svg></span></div></div></div></button><button class="css-xepvsj ant-float-btn ant-float-btn-default ant-float-btn-square" type="button"><div class="ant-float-btn-body"><div class="ant-float-btn-content"><div class="ant-float-btn-icon"><span role="img" aria-label="file-text" class="anticon anticon-file-text"><svg viewBox="64 64 896 896" focusable="false" data-icon="file-text" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M854.6 288.6L639.4 73.4c-6-6-14.1-9.4-22.6-9.4H192c-17.7 0-32 14.3-32 32v832c0 17.7 14.3 32 32 32h640c17.7 0 32-14.3 32-32V311.3c0-8.5-3.4-16.7-9.4-22.7zM790.2 326H602V137.8L790.2 326zm1.8 562H232V136h302v216a42 42 0 0042 42h216v494zM504 618H320c-4.4 0-8 3.6-8 8v48c0 4.4 3.6 8 8 8h184c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8zM312 490v48c0 4.4 3.6 8 8 8h384c4.4 0 8-3.6 8-8v-48c0-4.4-3.6-8-8-8H320c-4.4 0-8 3.6-8 8z"></path></svg></span></div></div></div></button><button class="css-xepvsj ant-float-btn ant-float-btn-default ant-float-btn-square" type="button"><div class="ant-float-btn-body"><div class="ant-float-btn-content"><div class="ant-float-btn-icon"><span role="img" aria-label="sync" class="anticon anticon-sync"><svg viewBox="64 64 896 896" focusable="false" data-icon="sync" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M168 504.2c1-43.7 10-86.1 26.9-126 17.3-41 42.1-77.7 73.7-109.4S337 212.3 378 195c42.4-17.9 87.4-27 133.9-27s91.5 9.1 133.8 27A341.5 341.5 0 01755 268.8c9.9 9.9 19.2 20.4 27.8 31.4l-60.2 47a8 8 0 003 14.1l175.7 43c5 1.2 9.9-2.6 9.9-7.7l.8-180.9c0-6.7-7.7-10.5-12.9-6.3l-56.4 44.1C765.8 155.1 646.2 92 511.8 92 282.7 92 96.3 275.6 92 503.8a8 8 0 008 8.2h60c4.4 0 7.9-3.5 8-7.8zm756 7.8h-60c-4.4 0-7.9 3.5-8 7.8-1 43.7-10 86.1-26.9 126-17.3 41-42.1 77.8-73.7 109.4A342.45 342.45 0 01512.1 856a342.24 342.24 0 01-243.2-100.8c-9.9-9.9-19.2-20.4-27.8-31.4l60.2-47a8 8 0 00-3-14.1l-175.7-43c-5-1.2-9.9 2.6-9.9 7.7l-.7 181c0 6.7 7.7 10.5 12.9 6.3l56.4-44.1C258.2 868.9 377.8 932 512.2 932c229.2 0 415.5-183.7 419.8-411.8a8 8 0 00-8-8.2z"></path></svg></span></div></div></div></button><button class="css-xepvsj ant-float-btn ant-float-btn-default ant-float-btn-square" type="button"><div class="ant-float-btn-body"><div class="ant-float-btn-content"><div class="ant-float-btn-icon"><span role="img" aria-label="vertical-align-top" class="anticon anticon-vertical-align-top"><svg viewBox="64 64 896 896" focusable="false" data-icon="vertical-align-top" width="1em" height="1em" fill="currentColor" aria-hidden="true"><path d="M859.9 168H164.1c-4.5 0-8.1 3.6-8.1 8v60c0 4.4 3.6 8 8.1 8h695.8c4.5 0 8.1-3.6 8.1-8v-60c0-4.4-3.6-8-8.1-8zM518.3 355a8 8 0 00-12.6 0l-112 141.7a7.98 7.98 0 006.3 12.9h73.9V848c0 4.4 3.6 8 8 8h60c4.4 0 8-3.6 8-8V509.7H624c6.7 0 10.4-7.7 6.3-12.9L518.3 355z"></path></svg></span></div></div></div></button></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

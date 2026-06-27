@@ -1,0 +1,57 @@
+# Build Flower Menu in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Flower Menu screenshot](screenshot.png)
+
+## Component
+
+- Author group: `animata`
+- Component: `flower-menu`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: animata
+- Component slug: flower-menu
+- Demo slug: default
+- Title: flower-menu
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex w-full h-screen justify-center items-center"><nav class="relative min-h-64" style="width: 120px; height: 120px;"><input id="menu-toggler" class="absolute inset-0 z-10 m-auto cursor-pointer opacity-0" type="checkbox" style="width: 40px; height: 40px;"><label for="menu-toggler" class="absolute inset-0 z-20 m-auto flex cursor-pointer items-center justify-center rounded-full transition-all" style="background-color: rgba(255, 255, 255, 0.2); color: white; transition-duration: 500ms; width: 40px; height: 40px;"><span class="relative flex flex-col items-center justify-center" style="width: 24px; height: 24px;"><span class="absolute bg-current transition-all" style="transition-duration: 500ms; width: 19.2px; height: 2.4px; top: calc(50% - 7.2px);"></span><span class="absolute bg-current transition-all" style="transition-duration: 500ms; width: 19.2px; height: 2.4px; top: calc(50% - 1.2px);"></span><span class="absolute bg-current transition-all" style="transition-duration: 500ms; width: 19.2px; height: 2.4px; top: calc(50% + 4.8px);"></span></span></label><ul class="absolute inset-0 m-0 h-full w-full list-none p-0"><li class="absolute inset-0 m-auto transition-all opacity-0" style="width: 80px; height: 80px; transform: none; transition-duration: 500ms;"><a href="#home" target="_blank" rel="noopener noreferrer" class="flex h-full w-full items-center justify-center rounded-full opacity-60 transition-all duration-100 group hover:scale-125 hover:opacity-100 pointer-events-none" style="background-color: rgba(255, 255, 255, 0.2); color: white; transform: rotate(0deg); transition-duration: 500ms;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house transition-transform duration-200 group-hover:scale-125" aria-hidden="true" style="width: 24px; height: 24px;"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg></a></li><li class="absolute inset-0 m-auto transition-all opacity-0" style="width: 80px; height: 80px; transform: none; transition-duration: 500ms;"><a href="#settings" target="_blank" rel="noopener noreferrer" class="flex h-full w-full items-center justify-center rounded-full opacity-60 transition-all duration-100 group hover:scale-125 hover:opacity-100 pointer-events-none" style="background-color: rgba(255, 255, 255, 0.2); color: white; transform: rotate(-90deg); transition-duration: 500ms;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings transition-transform duration-200 group-hover:scale-125" aria-hidden="true" style="width: 24px; height: 24px;"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg></a></li><li class="absolute inset-0 m-auto transition-all opacity-0" style="width: 80px; height: 80px; transform: none; transition-duration: 500ms;"><a href="#mail" target="_blank" rel="noopener noreferrer" class="flex h-full w-full items-center justify-center rounded-full opacity-60 transition-all duration-100 group hover:scale-125 hover:opacity-100 pointer-events-none" style="background-color: rgba(255, 255, 255, 0.2); color: white; transform: rotate(-180deg); transition-duration: 500ms;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail transition-transform duration-200 group-hover:scale-125" aria-hidden="true" style="width: 24px; height: 24px;"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a></li><li class="absolute inset-0 m-auto transition-all opacity-0" style="width: 80px; height: 80px; transform: none; transition-duration: 500ms;"><a href="#profile" target="_blank" rel="noopener noreferrer" class="flex h-full w-full items-center justify-center rounded-full opacity-60 transition-all duration-100 group hover:scale-125 hover:opacity-100 pointer-events-none" style="background-color: rgba(255, 255, 255, 0.2); color: white; transform: rotate(-270deg); transition-duration: 500ms;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user transition-transform duration-200 group-hover:scale-125" aria-hidden="true" style="width: 24px; height: 24px;"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></a></li></ul></nav></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/aliimam/hero-designali/default
+- Registry URL: https://21st.dev/r/aliimam/hero-designali
+- Author: aliimam
+- Component slug: hero-designali
+- Demo slug: default
+- Title: hero-designali
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/aliimam/hero-designali with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/aliimam__hero-designali__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/aliimam__hero-designali__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><main class="overflow-hidden"><section id="home"><div class="absolute inset-0 max-md:hidden top-[400px] -z-10 h-[400px] w-full bg-transparent bg-[linear-gradient(to_right,#57534e_1px,transparent_1px),linear-gradient(to_bottom,#57534e_1px,transparent_1px)] bg-[size:3rem_3rem] opacity-20 [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)] dark:bg-[linear-gradient(to_right,#a8a29e_1px,transparent_1px),linear-gradient(to_bottom,#a8a29e_1px,transparent_1px)]"></div><div class="flex flex-col items-center justify-center px-6 text-center"><div class="mb-6 mt-10 sm:justify-center md:mb-4 md:mt-40"><div class="relative flex items-center rounded-full border bg-popover px-3 py-1 text-xs text-primary/60">Introducing Dicons.<a href="/products/dicons" rel="noreferrer" class="ml-1 flex items-center font-semibold"><div class="absolute inset-0 hover:font-semibold hover:text-ali flex" aria-hidden="true"></div>Explore <span aria-hidden="true"></span></a></div></div><div class="mx-auto max-w-5xl"><div class="border-text-red-500 relative mx-auto h-full bg-background border py-12 p-6 [mask-image:radial-gradient(800rem_96rem_at_center,white,transparent)]"><h1 class="flex flex-col text-center text-5xl font-semibold leading-none tracking-tight md:flex-col md:text-8xl lg:flex-row lg:text-8xl"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus text-text-red-500 absolute -left-5 -top-5 h-10 w-10" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus text-text-red-500 absolute -bottom-5 -left-5 h-10 w-10" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus text-text-red-500 absolute -right-5 -top-5 h-10 w-10" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus text-text-red-500 absolute -bottom-5 -right-5 h-10 w-10" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg><span>Your complete platform for the <span class="text-red-500">Design.</span></span></h1><div class="flex items-center mt-4 justify-center gap-1"><span class="relative flex h-3 w-3 items-center justify-center"><span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-500 opacity-75"></span><span class="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span></span><p class="text-xs text-green-500">Available Now</p></div></div><h1 class="mt-8 text-2xl md:text-2xl">Welcome to my creative playground! I'm <span class="text-red-500 font-bold">Ali </span></h1><p class="text-primary/60 py-4">I craft enchanting visuals for brands, and conjure design resources to empower others. I am an expert in design like <span class="text-blue-500 font-semibold"><span data-testid="react-typed"><span>Web Design</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span></span></span>.</p><div class="flex items-center justify-center gap-2"><a href="/graphic"><div class="relative grid place-items-center rounded-3xl text-black dark:text-white border cursor-pointer h-auto w-auto p-2 bg-white/5 backdrop-blur-md dark:bg-black/5" style="--border-radius: 8px;"><div class="before:bg-shine-size before:absolute before:inset-0 before:aspect-square before:size-full before:rounded-3xl before:p-[--border-width] before:will-change-[background-position] before:content-[&quot;&quot;] before:![-webkit-mask-composite:xor] before:[background-image:--background-radial-gradient] before:[background-size:300%_300%] before:![mask-composite:exclude] before:[mask:--mask-linear-gradient] motion-safe:before:animate-[shine-pulse_var(--shine-pulse-duration)_infinite_linear]" style="--border-width: 3px; --border-radius: 8px; --shine-pulse-duration: 14s; --mask-linear-gradient: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); --background-radial-gradient: radial-gradient(transparent,transparent, #FF007F,#39FF14,#00FFFF,transparent,transparent);"></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full rounded-xl">Start Posting</button></div></a><a href="https://cal.com/aliimam/designali" target="_blank"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 rounded-xl">Book a call</button></a></div></div></div><canvas class="pointer-events-none absolute inset-0 mx-auto" id="canvas" width="972" height="944"></canvas></section><img alt="" width="1512" height="550" class="absolute left-1/2 top-0 -z-10 -translate-x-1/2" role="presentation" src="https://raw.githubusercontent.com/designali-in/designali/refs/heads/main/apps/www/public/images/gradient-background-top.png"></main></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

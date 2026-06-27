@@ -1,0 +1,57 @@
+# Build Accordion 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Accordion 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `anubra266`
+- Component: `accordion-1`
+- Variant: `accordion-left-chveron`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: anubra266
+- Component slug: accordion-1
+- Demo slug: accordion-left-chveron
+- Title: accordion-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div data-scope="accordion" data-part="root" dir="ltr" id="accordion:«r0»" data-orientation="vertical" class="w-full max-w-md mx-auto bg-linear-to-br from-gray-100/80 to-gray-200/80 dark:from-gray-900/80 dark:to-gray-800/80 backdrop-blur-xs"><div data-scope="accordion" data-part="item" data-state="open" dir="ltr" id="collapsible:accordion:«r0»:item:react" data-orientation="vertical" class="group border-b border-gray-200/50 dark:border-gray-700/50 last:border-b-0"><button data-scope="accordion" data-part="item-trigger" type="button" dir="ltr" id="accordion:«r0»:trigger:react" aria-controls="accordion:«r0»:content:react" aria-expanded="true" data-orientation="vertical" aria-disabled="false" data-state="open" data-ownedby="accordion:«r0»" class="w-full px-4 py-3 flex items-center text-left hover:bg-linear-to-r hover:from-blue-500/5 hover:to-purple-500/5 transition-all duration-200"><div data-scope="accordion" data-part="item-indicator" dir="ltr" aria-hidden="true" data-state="open" data-orientation="vertical" class="mr-3 transition-transform duration-200 data-[state=open]:rotate-90"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right w-4 h-4 text-gray-600 dark:text-gray-400" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></div><span class="font-medium text-gray-900 dark:text-white">Building Interactive Websites</span></button><div data-scope="accordion" data-part="item-content" data-collapsible="" id="accordion:«r0»:content:react" dir="ltr" role="region" aria-labelledby="accordion:«r0»:trigger:react" data-orientation="vertical" class="px-4 pb-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed" style="--height: 0px; --width: 0px;"><div class="pt-3 pl-7">Discover the art of crafting beautiful, responsive websites that engage users with smooth animations, intuitive navigation, and modern design principles.</div></div></div><div data-scope="accordion" data-part="item" data-state="closed" dir="ltr" id="collapsible:accordion:«r0»:item:solid" data-orientation="vertical" class="group border-b border-gray-200/50 dark:border-gray-700/50 last:border-b-0"><button data-scope="accordion" data-part="item-trigger" type="button" dir="ltr" id="accordion:«r0»:trigger:solid" aria-controls="accordion:«r0»:content:solid" aria-expanded="false" data-orientation="vertical" aria-disabled="false" data-state="closed" data-ownedby="accordion:«r0»" class="w-full px-4 py-3 flex items-center text-left hover:bg-linear-to-r hover:from-blue-500/5 hover:to-purple-500/5 transition-all duration-200"><div data-scope="accordion" data-part="item-indicator" dir="ltr" aria-hidden="true" data-state="closed" data-orientation="vertical" class="mr-3 transition-transform duration-200 data-[state=open]:rotate-90"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right w-4 h-4 text-gray-600 dark:text-gray-400" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></div><span class="font-medium text-gray-900 dark:text-white">Creating Digital Art</span></button><div data-scope="accordion" data-part="item-content" data-collapsible="" data-state="closed" id="accordion:«r0»:content:solid" hidden="" dir="ltr" role="region" aria-labelledby="accordion:«r0»:trigger:solid" data-orientation="vertical" class="px-4 pb-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed" style="--height: 0px; --width: 0px;"><div class="pt-3 pl-7">Express your creativity through digital mediums, exploring color theory, composition, and modern tools to bring your artistic vision to life.</div></div></div><div data-scope="accordion" data-part="item" data-state="closed" dir="ltr" id="collapsible:accordion:«r0»:item:vue" data-orientation="vertical" class="group border-b border-gray-200/50 dark:border-gray-700/50 last:border-b-0"><button data-scope="accordion" data-part="item-trigger" type="button" dir="ltr" id="accordion:«r0»:trigger:vue" aria-controls="accordion:«r0»:content:vue" aria-expanded="false" data-orientation="vertical" aria-disabled="false" data-state="closed" data-ownedby="accordion:«r0»" class="w-full px-4 py-3 flex items-center text-left hover:bg-linear-to-r hover:from-blue-500/5 hover:to-purple-500/5 transition-all duration-200"><div data-scope="accordion" data-part="item-indicator" dir="ltr" aria-hidden="true" data-state="closed" data-orientation="vertical" class="mr-3 transition-transform duration-200 data-[state=open]:rotate-90"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right w-4 h-4 text-gray-600 dark:text-gray-400" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></div><span class="font-medium text-gray-900 dark:text-white">Learning Photography</span></button><div data-scope="accordion" data-part="item-content" data-collapsible="" data-state="closed" id="accordion:«r0»:content:vue" hidden="" dir="ltr" role="region" aria-labelledby="accordion:«r0»:trigger:vue" data-orientation="vertical" class="px-4 pb-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed" style="--height: 0px; --width: 0px;"><div class="pt-3 pl-7">Master the fundamentals of photography, from understanding light and composition to post-processing techniques that make your images truly stunning.</div></div></div><div data-scope="accordion" data-part="item" data-state="closed" dir="ltr" id="collapsible:accordion:«r0»:item:svelte" data-orientation="vertical" class="group border-b border-gray-200/50 dark:border-gray-700/50 last:border-b-0"><button data-scope="accordion" data-part="item-trigger" type="button" dir="ltr" id="accordion:«r0»:trigger:svelte" aria-controls="accordion:«r0»:content:svelte" aria-expanded="false" data-orientation="vertical" aria-disabled="false" data-state="closed" data-ownedby="accordion:«r0»" class="w-full px-4 py-3 flex items-center text-left hover:bg-linear-to-r hover:from-blue-500/5 hover:to-purple-500/5 transition-all duration-200"><div data-scope="accordion" data-part="item-indicator" dir="ltr" aria-hidden="true" data-state="closed" data-orientation="vertical" class="mr-3 transition-transform duration-200 data-[state=open]:rotate-90"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right w-4 h-4 text-gray-600 dark:text-gray-400" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></div><span class="font-medium text-gray-900 dark:text-white">Exploring Space</span></button><div data-scope="accordion" data-part="item-content" data-collapsible="" data-state="closed" id="accordion:«r0»:content:svelte" hidden="" dir="ltr" role="region" aria-labelledby="accordion:«r0»:trigger:svelte" data-orientation="vertical" class="px-4 pb-3 text-sm text-gray-700 dark:text-gray-300 leading-relaxed" style="--height: 0px; --width: 0px;"><div class="pt-3 pl-7">Journey beyond our planet to discover distant galaxies, mysterious black holes, and the endless wonders that await in the cosmic frontier.</div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

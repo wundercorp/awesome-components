@@ -1,0 +1,187 @@
+# Build Particle Hero in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Particle Hero screenshot](screenshot.png)
+
+## Component
+
+- Author group: `aliimam`
+- Component: `particle-hero`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: aliimam
+- Component slug: particle-hero
+- Demo slug: default
+- Title: particle-hero
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative h-[700px] w-full overflow-hidden " style="background: linear-gradient(0deg, rgba(216, 236, 248, 0.06), rgba(152, 192, 239, 0.06)) rgb(5, 6, 15); font-size: max(0.03 * min(600px, 80vh), 10px); -webkit-font-smoothing: antialiased; text-rendering: optimizelegibility; scroll-behavior: smooth;"><style>
+         
+        .gold-mode .header h2,
+        .gold-mode p,
+        .gold-mode > * > * :not(.contact-btn) {
+          filter: invert(1) brightness(4.7);
+        }
+        .gold-mode .header h2 a {
+          filter: hue-rotate(0deg);
+        }
+        .gold-mode canvas {
+          filter: drop-shadow(2em 4em 0px #d8bd10) drop-shadow(-8em -14em 0px #d8bd10);
+        }
+        .gold-mode .header .spotlight {
+          filter: invert(1) brightness(4.7) opacity(0.5);
+        }
+        .gold-mode .mountains > div {
+          box-shadow: 
+            -1em -0.2em 0.4em -1.1em #c2ccff,
+            inset 0em 0em 0em 2px #d8a910,
+            inset 0.2em 0.3em 0.2em -0.2em #c2ccff,
+            inset 10.2em 10.3em 2em -10em #d4e6ff2f;
+        }
+        .gold-mode .content-section,
+        .gold-mode .content-section ::before,
+        .gold-mode .content-section ::after {
+          filter: invert(1) brightness(4.4) opacity(1);
+        }
+        .gold-mode .header > div.mid-spot {
+          box-shadow: 0 0 1em 0 #d8bd10;
+        }
+        .gold-mode .header > div.mid-spot:hover {
+          box-shadow: -0.3em 0.1em 0.2em 0 #98c0ef;
+        }
+
+        @keyframes load {  
+          0% { opacity: 0;}    
+          100% { opacity: 1;}    
+        }
+        @keyframes up {      
+          100% { transform: translateY(0); }    
+        }
+        @keyframes load3 {  
+          0% { opacity: 0;}    
+          100% { opacity: 0.7;}    
+        }
+        @keyframes pulse { 
+          0% { --p: 0%; }
+          50% { --p: 300%;}
+          100% { --p: 300%;}
+        }
+        @keyframes colorize {
+          0%{filter: hue-rotate(0deg); }
+          100% {filter: hue-rotate(-380deg);}
+        }
+        @keyframes spotlight {
+          0% {
+            transform: rotateZ(0deg) scale(1);
+            filter: blur(15px) opacity(0.5);
+          }
+          20% {
+            transform: rotateZ(-1deg) scale(1.2);
+            filter: blur(16px) opacity(0.6);
+          }    
+          40% {
+            transform: rotateZ(2deg) scale(1.3);
+            filter: blur(14px) opacity(0.4);
+          }    
+          60% {
+            transform: rotateZ(-2deg) scale(1.2);
+            filter: blur(15px) opacity(0.6);
+          }    
+          80% {
+            transform: rotateZ(1deg) scale(1.1);
+            filter: blur(13px) opacity(0.4);
+          }    
+          100% {
+            transform: rotateZ(0deg) scale(1);
+            filter: blur(15px) opacity(0.5);
+          }    
+        }
+        @keyframes loadrot {
+          0% { transform: rotate(0deg) scale(0);}
+          100% { transform: scale(1);}
+        }
+        @keyframes accentload {
+          0% {
+            opacity: 0; transform: scale(0);
+          }
+          100% {
+            opacity: 1; transform: scale(1);
+          }
+        }
+        @keyframes accentload2 {
+          0% {
+            opacity: 0; transform: scale(0) rotate(360deg);
+          }
+          50% { transform: scale(0); }
+          100% {
+            opacity: 0.12; transform: scale(1) rotate(0deg);
+          }
+        }
+        @keyframes accentload3 {
+          0% {
+            opacity: 0; transform: scale(0) rotate(-360deg);
+          }
+          50% { transform: scale(0); }
+          100% {
+            opacity: 0.12; transform: scale(1) rotate(0deg);
+          }
+        }
+        @keyframes mountainload1 {
+          0% { bottom: -240%; }
+          100% { bottom: -140%; }
+        }
+        @keyframes mountainload2 {
+          0% { bottom: -240%; }
+          100% { bottom: -108%; }
+        }
+        @keyframes loop {
+          100% {
+            offset-distance: 100%;
+          }    
+        }
+
+        @property --p {
+          syntax: '<percentage>';
+          inherits: false;
+          initial-value: 0%;
+        }
+      </style><div class="header" style="display: flex; width: 100%; justify-content: center; color: rgb(186, 214, 247); padding: 2em; position: absolute; top: 0px; left: 0px; right: 0px; margin: 0px auto; opacity: 0; transform: translateY(-1em); animation: 2s ease-in 2s 1 normal forwards running load, 1.4s ease-out 2s 1 normal forwards running up;"><div class="mid-spot" style="position: absolute; left: 0px; right: 0px; margin: 0px auto; width: 1.8em; height: 1.8em; border-radius: 50%; background: black; box-shadow: rgb(152, 192, 239) 0px 0px 1em 0px; cursor: pointer; transition: box-shadow 1s ease-in-out;"></div><div class="spotlight" style="pointer-events: none; position: absolute; left: 0px; right: 0px; top: 0px; margin: 0px auto; transition: filter 1s ease-in-out; height: 42em; width: 100%; overflow: hidden;"><div style="border-radius: 0px 0px 50% 50%; position: absolute; left: 0px; right: 0px; margin: 0px auto; top: 3em; width: 30em; height: max(42em, 86vh); background-image: conic-gradient(at 50% -5%, transparent 45%, rgba(124, 145, 182, 0.3) 49%, rgba(124, 145, 182, 0.5) 50%, rgba(124, 145, 182, 0.3) 51%, transparent 55%); transform-origin: 50% 0px; filter: blur(15px) opacity(0.5); z-index: -1; transform: rotate(20deg); animation: 2s ease-in-out 0s 1 normal forwards running load, 2s ease-in-out 0s 1 normal forwards running loadrot, 17s ease-in-out 0s infinite normal none running spotlight;"></div><div style="border-radius: 0px 0px 50% 50%; position: absolute; left: 0px; right: 0px; margin: 0px auto; top: 3em; width: 30em; height: max(42em, 86vh); background-image: conic-gradient(at 50% -5%, transparent 45%, rgba(124, 145, 182, 0.3) 49%, rgba(124, 145, 182, 0.5) 50%, rgba(124, 145, 182, 0.3) 51%, transparent 55%); transform-origin: 50% 0px; filter: blur(15px) opacity(0.5); z-index: -1; transform: rotate(-20deg); animation: 2s ease-in-out 0s 1 normal forwards running load, 2s ease-in-out 0s 1 normal forwards running loadrot, 14s ease-in-out 0s infinite normal none running spotlight;"></div><div style="border-radius: 0px 0px 50% 50%; position: absolute; left: 0px; right: 0px; margin: 0px auto; top: 3em; width: 30em; height: max(42em, 86vh); background-image: conic-gradient(at 50% -5%, transparent 45%, rgba(124, 145, 182, 0.3) 49%, rgba(124, 145, 182, 0.5) 50%, rgba(124, 145, 182, 0.3) 51%, transparent 55%); transform-origin: 50% 0px; filter: blur(15px) opacity(0.5); z-index: -1; transform: rotate(0deg); animation: 2s ease-in-out 0s 1 normal forwards running load, 2s ease-in-out 0s 1 normal forwards running loadrot, 21s ease-in-out 0s infinite reverse none running spotlight;"></div></div></div><canvas id="particleCanvas" width="992" height="944" style="position: absolute; pointer-events: none; animation: 0.4s ease-in-out 0s 1 normal forwards running load; z-index: 1; width: 100%; height: 100%;"></canvas><div class="accent-lines " style="pointer-events: none; position: absolute; top: 0px; left: 0px; right: 0px; width: 100%; height: 42em; z-index: -2;"><div style="position: absolute; top: 0px; right: 0px; left: 0px; margin: auto; height: 100%; width: 100%;"><div style="position: absolute; top: 6em; right: 0px; left: 0px; margin: auto; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, rgba(186, 215, 247, 0.18), transparent); opacity: 0; transform: scale(0); animation: 2s ease-out 2.4s 1 normal forwards running accentload;"></div><div style="position: absolute; top: 11em; right: 0px; left: 0px; margin: auto; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, rgba(186, 215, 247, 0.18), transparent); opacity: 0; transform: scale(0); animation: 2s ease-out 2.4s 1 normal forwards running accentload;"></div><div style="position: absolute; top: 16em; right: 0px; left: 0px; margin: auto; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, rgba(186, 215, 247, 0.18), transparent); opacity: 0; transform: scale(0); animation: 2s ease-out 2.4s 1 normal forwards running accentload;"></div><div style="position: absolute; top: 24em; right: 0px; left: 0px; margin: auto; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, rgba(186, 215, 247, 0.18), transparent); opacity: 0; transform: scale(0); animation: 2s ease-out 2.4s 1 normal forwards running accentload;"></div><div style="position: absolute; top: 29em; right: 0px; left: 0px; margin: auto; width: 100%; height: 1px; background: linear-gradient(90deg, transparent, rgba(186, 215, 247, 0.18), transparent); opacity: 0; transform: scale(0); animation: 2s ease-out 2.4s 1 normal forwards running accentload;"></div></div><div style="position: absolute; top: 0px; right: 0px; left: 0px; margin: auto; height: 100%; width: 100%;"><div style="position: absolute; top: 0px; right: auto; left: 24em; margin: auto; width: 1px; height: 100%; background: rgba(186, 215, 247, 0.18); opacity: 0; transform: scale(0); animation: 2s ease-out 2s 1 normal forwards running accentload;"></div><div style="position: absolute; top: 0px; right: auto; left: 34em; margin: auto; width: 1px; height: 100%; background: rgba(186, 215, 247, 0.18); opacity: 0; transform: scale(0); animation: 2s ease-out 2s 1 normal forwards running accentload;"></div><div style="position: absolute; top: 0px; right: 24em; left: auto; margin: auto; width: 1px; height: 100%; background: rgba(186, 215, 247, 0.18); opacity: 0; transform: scale(0); animation: 2s ease-out 2s 1 normal forwards running accentload;"></div><div style="position: absolute; top: 0px; right: 34em; left: auto; margin: auto; width: 1px; height: 100%; background: rgba(186, 215, 247, 0.18); opacity: 0; transform: scale(0); animation: 2s ease-out 2s 1 normal forwards running accentload;"></div></div></div><div class="hero mx-auto max-w-3xl flex justify-center mt-60 h-[300px] border-gray-800 border"><div class="heroT" style="position: absolute; left: 0px; right: 0px; margin: auto; height: 20em; padding-top: 2em; transform: translateY(-1.6em); opacity: 0; animation: 2s ease-in-out 0.6s 1 normal forwards running load;"><h2 style="position: absolute; left: 0px; right: 0px; margin: auto; width: fit-content; font-size: 7em; font-weight: 600; color: rgb(157, 195, 247); background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-clip: text; background-color: ; -webkit-text-fill-color: transparent; text-shadow: rgba(174, 207, 242, 0.24) 0px 2px 16px; transition: --p 3s linear; animation: 10s linear 1.2s infinite normal none running pulse;">Gold Design</h2><h2 style="position: absolute; left: 0px; right: 0px; margin: auto; width: fit-content; font-size: 7em; font-weight: 600; background-image: ; background-position-x: ; background-position-y: ; background-size: ; background-repeat: ; background-attachment: ; background-origin: ; background-clip: text; background-color: ; -webkit-text-fill-color: transparent; filter: blur(16px) opacity(0.4);">Gold Design</h2></div></div><p class="heroP" style="font-size: 1.2em; position: absolute; left: 0px; right: 0px; top: 20em; margin: auto; height: fit-content; width: fit-content; text-align: center; opacity: 0; transform: translateY(1em); animation: 2s ease-out 2s 1 normal forwards running load, 1.4s ease-out 2s 1 normal forwards running up; color: rgb(216, 236, 248); background: linear-gradient(0deg, rgb(216, 236, 248) 0px, rgb(152, 192, 239) 100%) text; -webkit-text-fill-color: transparent;">The world's best platform for Designs, <br>powered by Dalim</p></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
