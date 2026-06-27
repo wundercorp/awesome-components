@@ -1,0 +1,57 @@
+# Build Accordion 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Accordion 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `shadcnstudio`
+- Component: `accordion-1`
+- Variant: `accordion-sixteen`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ShadcnStudio
+- Component slug: accordion-1
+- Demo slug: accordion-sixteen
+- Title: accordion-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full rounded-md border" data-orientation="vertical"><div data-state="open" data-orientation="vertical" class="border-b has-focus-visible:border-ring has-focus-visible:ring-ring/50 outline-none first:rounded-t-md last:rounded-b-md has-focus-visible:z-10 has-focus-visible:ring-[3px]"><h3 data-orientation="vertical" data-state="open" class="flex"><button type="button" aria-controls="radix-«r1»" aria-expanded="true" data-state="open" data-orientation="vertical" id="radix-«r0»" class="flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 px-5 outline-none focus-visible:ring-0" data-radix-collection-item="">Shipping &amp; Delivery<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="open" id="radix-«r1»" role="region" aria-labelledby="radix-«r0»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width); transition-duration: 0s; animation-name: none; --radix-collapsible-content-height: 215px; --radix-collapsible-content-width: 990px;"><div class="pt-0 pb-0"><div data-state="open" class="bg-muted border-t px-8"><button type="button" aria-controls="radix-«r2»" aria-expanded="true" data-state="open" class="focus-visible:ring-ring/50 flex w-full items-center gap-4 rounded-sm py-4 font-medium outline-none focus-visible:z-10 focus-visible:ring-[3px] [&amp;&gt;svg&gt;path:last-child]:origin-center [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]&gt;svg&gt;path:last-child]:rotate-90 [&amp;[data-state=open]&gt;svg&gt;path:last-child]:opacity-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus text-muted-foreground pointer-events-none size-4 shrink-0" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>How do I track my order?</button><div data-state="open" id="radix-«r2»" class="text-muted-foreground overflow-hidden pb-4" style="transition-duration: 0s; animation-name: none; --radix-collapsible-content-height: 56px; --radix-collapsible-content-width: 926px;">You can track your order by logging into your account and visiting the "Orders" section. You'll receive tracking information via email once your order ships. For real-time updates, you can also use the tracking number provided in your shipping confirmation email.</div></div><div data-state="closed" class="bg-muted border-t px-8"><button type="button" aria-controls="radix-«r3»" aria-expanded="false" data-state="closed" class="focus-visible:ring-ring/50 flex w-full items-center gap-4 rounded-sm py-4 font-medium outline-none focus-visible:z-10 focus-visible:ring-[3px] [&amp;&gt;svg&gt;path:last-child]:origin-center [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]&gt;svg&gt;path:last-child]:rotate-90 [&amp;[data-state=open]&gt;svg&gt;path:last-child]:opacity-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus text-muted-foreground pointer-events-none size-4 shrink-0" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>What are your shipping options?</button><div data-state="closed" id="radix-«r3»" hidden="" class="text-muted-foreground overflow-hidden pb-4" style=""></div></div><div data-state="closed" class="bg-muted border-t px-8"><button type="button" aria-controls="radix-«r4»" aria-expanded="false" data-state="closed" class="focus-visible:ring-ring/50 flex w-full items-center gap-4 rounded-sm py-4 font-medium outline-none focus-visible:z-10 focus-visible:ring-[3px] [&amp;&gt;svg&gt;path:last-child]:origin-center [&amp;[data-state=open]&gt;svg]:rotate-180 [&amp;[data-state=open]&gt;svg&gt;path:last-child]:rotate-90 [&amp;[data-state=open]&gt;svg&gt;path:last-child]:opacity-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus text-muted-foreground pointer-events-none size-4 shrink-0" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg>Do you ship internationally?</button><div data-state="closed" id="radix-«r4»" hidden="" class="text-muted-foreground overflow-hidden pb-4" style=""></div></div></div></div></div><div data-state="closed" data-orientation="vertical" class="border-b has-focus-visible:border-ring has-focus-visible:ring-ring/50 outline-none first:rounded-t-md last:rounded-b-md has-focus-visible:z-10 has-focus-visible:ring-[3px]"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-«r6»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-«r5»" class="flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 px-5 outline-none focus-visible:ring-0" data-radix-collection-item="">Returns &amp; Refunds<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-«r6»" hidden="" role="region" aria-labelledby="radix-«r5»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"></div></div><div data-state="closed" data-orientation="vertical" class="border-b has-focus-visible:border-ring has-focus-visible:ring-ring/50 outline-none first:rounded-t-md last:rounded-b-md has-focus-visible:z-10 has-focus-visible:ring-[3px]"><h3 data-orientation="vertical" data-state="closed" class="flex"><button type="button" aria-controls="radix-«r8»" aria-expanded="false" data-state="closed" data-orientation="vertical" id="radix-«r7»" class="flex flex-1 items-center justify-between py-4 font-medium transition-all hover:underline [&amp;[data-state=open]&gt;svg]:rotate-180 px-5 outline-none focus-visible:ring-0" data-radix-collection-item="">Help &amp; Support<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 shrink-0 transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></h3><div data-state="closed" id="radix-«r8»" hidden="" role="region" aria-labelledby="radix-«r7»" data-orientation="vertical" class="overflow-hidden text-sm transition-all data-[state=closed]:animate-accordion-up data-[state=open]:animate-accordion-down" style="--radix-accordion-content-height: var(--radix-collapsible-content-height); --radix-accordion-content-width: var(--radix-collapsible-content-width);"></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
