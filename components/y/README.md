@@ -1,7 +1,8 @@
 # Bucket y
 
-1 components from 1 author groups.
+25 components from 2 author groups.
 
 | Author | Components |
 | --- | ---: |
-| [youcefbnm](youcefbnm/README.md) | 1 |
+| [yadhakim](yadhakim/README.md) | 5 |
+| [youcefbnm](youcefbnm/README.md) | 20 |

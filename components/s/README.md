@@ -1,6 +1,6 @@
 # Bucket s
 
-272 components from 7 author groups.
+278 components from 7 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -10,4 +10,4 @@
 | [shadcnstudio](shadcnstudio/README.md) | 204 |
 | [shatlyk1011](shatlyk1011/README.md) | 14 |
 | [smit-prajapati](smit-prajapati/README.md) | 1 |
-| [subframeapp](subframeapp/README.md) | 25 |
+| [subframeapp](subframeapp/README.md) | 31 |

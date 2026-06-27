@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/YoucefBnm/animated-gallery/animated-scroll-gallery
+- Registry URL: https://21st.dev/r/YoucefBnm/animated-gallery
+- Author: YoucefBnm
+- Component slug: animated-gallery
+- Demo slug: animated-scroll-gallery
+- Title: animated-gallery
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/YoucefBnm/animated-gallery with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/YoucefBnm__animated-gallery__animated-scroll-gallery.html
+- Local screenshot file: generated-21st-prompts/screenshots/YoucefBnm__animated-gallery__animated-scroll-gallery.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="bg-background text-foreground"><div class="w-full"><div class="relative bg-white "><div class="relative z-[9999] -mb-12 place-self-center px-6 pt-12 text-center"><div class="" style="filter: blur(0px); opacity: 1;"><h1 class="font-serif text-4xl font-extralight  md:text-5xl">Your <span class=" font-serif font-extralight text-indigo-600">one source</span></h1></div><div class="" style="filter: blur(0px); opacity: 1;"><h1 class="font-serif text-4xl font-extralight md:text-5xl">for all your designs</h1></div><div class="my-4" style="filter: blur(0px); opacity: 1;"><p class="leading-normal tracking-tight text-muted-foreground">No waste of time and money, we provide you with<br> collection of designs to plan your next project.</p></div><div class="" style="filter: blur(0px); opacity: 1;"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 gap-1 bg-indigo-700">Book free call <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-video size-4" aria-hidden="true"><path d="m16 13 5.223 3.482a.5.5 0 0 0 .777-.416V7.87a.5.5 0 0 0-.752-.432L16 10.5"></path><rect x="2" y="6" width="14" height="12" rx="2"></rect></svg></button><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 underline-offset-4 hover:underline h-10 px-4 py-2 text-sencondary">About Us</button></div></div><div class="pointer-events-none absolute z-10 h-[70vh] w-full " style="background: linear-gradient(to right, gray, rebeccapurple, blue); filter: blur(84px); mix-blend-mode: screen;"></div><div class="min-h-[120vh] relative h-[350vh]" style="perspective: 1000px; perspective-origin: center top; transform-style: preserve-3d;"><div class="sticky left-0 top-0 min-h-[30rem] w-full overflow-hidden h-svh" style="perspective: 1000px; perspective-origin: center top; transform-style: preserve-3d; transform-origin: 50% 50%;"><div class="relative grid size-full grid-cols-3 gap-2 rounded-2xl" style="transform-style: preserve-3d; perspective: 1000px; transform: scale(1.2) rotateX(75deg);"><div class="relative flex w-full flex-col gap-2 -mt-2" style="transform: translateY(-10%);"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1529218402470-5dec8fea0761?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGFkfGVufDB8fDB8fHww"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRva3lvfGVufDB8MHwwfHx8Mg%3D%3D"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1604928141064-207cea6f571f?w=800&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dG9reW98ZW58MHwwfDB8fHwy"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1573455494060-c5595004fb6c?w=800&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dG9reW98ZW58MHwwfDB8fHwy"></div><div class="relative flex w-full flex-col gap-2 mt-[-50%]" style="transform: translateY(15%);"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1542052125323-e69ad37a47c2?w=800&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHRva3lvfGVufDB8MHwwfHx8Mg%3D%3D"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1564284369929-026ba231f89b?q=80&amp;w=2070&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1532236204992-f5e85c024202?w=800&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjF8fHRva3lvfGVufDB8MHwwfHx8Mg%3D%3D"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1493515322954-4fa727e97985?w=800&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fHRva3lvfGVufDB8MHwwfHx8Mg%3D%3D"></div><div class="relative flex w-full flex-col gap-2 -mt-2" style="transform: translateY(-10%);"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1528361237150-8a9a7df33035?q=80&amp;w=2340&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1493515322954-4fa727e97985?q=80&amp;w=1740&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1542051841857-5f90071e7989?w=800&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHRva3lvfGVufDB8MHwwfHx8Mg%3D%3D"><img class="aspect-video block h-auto max-h-full w-full  rounded-md  object-cover shadow" alt="gallery item" src="https://images.unsplash.com/photo-1608875004752-2fdb6a39ba4c?q=80&amp;w=2340&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

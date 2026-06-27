@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/TomIsLoading/reveal-links/default
+- Registry URL: https://21st.dev/r/TomIsLoading/reveal-links
+- Author: TomIsLoading
+- Component slug: reveal-links
+- Demo slug: default
+- Title: reveal-links
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/TomIsLoading/reveal-links with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/TomIsLoading__reveal-links__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/TomIsLoading__reveal-links__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex h-screen w-full justify-center items-center bg-white dark:bg-black relative overflow-auto"><section class="grid place-content-center bg-white dark:bg-black text-black dark:text-white px-8 py-24 w-full h-full"><a href="#" class="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl" style="line-height: 0.75;"><div><span class="inline-block" style="transform: none;">T</span><span class="inline-block" style="transform: none;">w</span><span class="inline-block" style="transform: none;">i</span><span class="inline-block" style="transform: none;">t</span><span class="inline-block" style="transform: none;">t</span><span class="inline-block" style="transform: none;">e</span><span class="inline-block" style="transform: none;">r</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">T</span><span class="inline-block" style="transform: translateY(100%);">w</span><span class="inline-block" style="transform: translateY(100%);">i</span><span class="inline-block" style="transform: translateY(100%);">t</span><span class="inline-block" style="transform: translateY(100%);">t</span><span class="inline-block" style="transform: translateY(100%);">e</span><span class="inline-block" style="transform: translateY(100%);">r</span></div></a><a href="#" class="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl" style="line-height: 0.75;"><div><span class="inline-block" style="transform: none;">L</span><span class="inline-block" style="transform: none;">i</span><span class="inline-block" style="transform: none;">n</span><span class="inline-block" style="transform: none;">k</span><span class="inline-block" style="transform: none;">e</span><span class="inline-block" style="transform: none;">d</span><span class="inline-block" style="transform: none;">i</span><span class="inline-block" style="transform: none;">n</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">L</span><span class="inline-block" style="transform: translateY(100%);">i</span><span class="inline-block" style="transform: translateY(100%);">n</span><span class="inline-block" style="transform: translateY(100%);">k</span><span class="inline-block" style="transform: translateY(100%);">e</span><span class="inline-block" style="transform: translateY(100%);">d</span><span class="inline-block" style="transform: translateY(100%);">i</span><span class="inline-block" style="transform: translateY(100%);">n</span></div></a><a href="#" class="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl" style="line-height: 0.75;"><div><span class="inline-block" style="transform: none;">F</span><span class="inline-block" style="transform: none;">a</span><span class="inline-block" style="transform: none;">c</span><span class="inline-block" style="transform: none;">e</span><span class="inline-block" style="transform: none;">b</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">o</span><span class="inline-block" style="transform: none;">k</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">F</span><span class="inline-block" style="transform: translateY(100%);">a</span><span class="inline-block" style="transform: translateY(100%);">c</span><span class="inline-block" style="transform: translateY(100%);">e</span><span class="inline-block" style="transform: translateY(100%);">b</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">o</span><span class="inline-block" style="transform: translateY(100%);">k</span></div></a><a href="#" class="relative block overflow-hidden whitespace-nowrap text-4xl font-black uppercase sm:text-7xl md:text-8xl lg:text-9xl" style="line-height: 0.75;"><div><span class="inline-block" style="transform: none;">I</span><span class="inline-block" style="transform: none;">n</span><span class="inline-block" style="transform: none;">s</span><span class="inline-block" style="transform: none;">t</span><span class="inline-block" style="transform: none;">a</span><span class="inline-block" style="transform: none;">g</span><span class="inline-block" style="transform: none;">r</span><span class="inline-block" style="transform: none;">a</span><span class="inline-block" style="transform: none;">m</span></div><div class="absolute inset-0"><span class="inline-block" style="transform: translateY(100%);">I</span><span class="inline-block" style="transform: translateY(100%);">n</span><span class="inline-block" style="transform: translateY(100%);">s</span><span class="inline-block" style="transform: translateY(100%);">t</span><span class="inline-block" style="transform: translateY(100%);">a</span><span class="inline-block" style="transform: translateY(100%);">g</span><span class="inline-block" style="transform: translateY(100%);">r</span><span class="inline-block" style="transform: translateY(100%);">a</span><span class="inline-block" style="transform: translateY(100%);">m</span></div></a></section><button class="absolute top-4 right-4 p-2 rounded-full bg-gray-200 dark:bg-gray-800 text-black dark:text-white transition-colors duration-200" aria-label="Toggle theme"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

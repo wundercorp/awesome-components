@@ -1,0 +1,186 @@
+# Build Siri Orb in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Siri Orb screenshot](screenshot.png)
+
+## Component
+
+- Author group: `umairxd`
+- Component: `siri-orb`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: UmairXD
+- Component slug: siri-orb
+- Demo slug: default
+- Title: siri-orb
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen min-w-screen bg-gradient-to-br from-white to-gray-100 dark:from-slate-900 dark:to-slate-700 flex items-center justify-center relative text-black dark:text-white"><div class="siri-orb drop-shadow-2xl" style="width: 192px; height: 192px; --bg: transparent; --c1: oklch(75% 0.15 350); --c2: oklch(80% 0.12 200); --c3: oklch(78% 0.14 280); --animation-duration: 20s; --blur-amount: 15.36px; --contrast-amount: 1.8;"><style>
+        @property --angle {
+          syntax: "<angle>";
+          inherits: false;
+          initial-value: 0deg;
+        }
+
+        .siri-orb {
+          display: grid;
+          grid-template-areas: "stack";
+          overflow: hidden;
+          border-radius: 50%;
+          position: relative;
+          background: radial-gradient(
+            circle,
+            rgba(0, 0, 0, 0.08) 0%,   /* darker core for light mode */
+            rgba(0, 0, 0, 0.03) 30%,
+            transparent 70%
+          );
+        }
+
+        /* override for dark mode */
+        .dark .siri-orb {
+          background: radial-gradient(
+            circle,
+            rgba(255, 255, 255, 0.08) 0%,
+            rgba(255, 255, 255, 0.02) 30%,
+            transparent 70%
+          );
+        }
+
+        .siri-orb::before {
+          content: "";
+          display: block;
+          grid-area: stack;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background:
+            conic-gradient(
+              from calc(var(--angle) * 1.2) at 30% 65%,
+              var(--c3) 0deg,
+              transparent 45deg 315deg,
+              var(--c3) 360deg
+            ),
+            conic-gradient(
+              from calc(var(--angle) * 0.8) at 70% 35%,
+              var(--c2) 0deg,
+              transparent 60deg 300deg,
+              var(--c2) 360deg
+            ),
+            conic-gradient(
+              from calc(var(--angle) * -1.5) at 65% 75%,
+              var(--c1) 0deg,
+              transparent 90deg 270deg,
+              var(--c1) 360deg
+            ),
+            conic-gradient(
+              from calc(var(--angle) * 2.1) at 25% 25%,
+              var(--c2) 0deg,
+              transparent 30deg 330deg,
+              var(--c2) 360deg
+            ),
+            conic-gradient(
+              from calc(var(--angle) * -0.7) at 80% 80%,
+              var(--c1) 0deg,
+              transparent 45deg 315deg,
+              var(--c1) 360deg
+            ),
+            radial-gradient(
+              ellipse 120% 80% at 40% 60%,
+              var(--c3) 0%,
+              transparent 50%
+            );
+          filter: blur(var(--blur-amount)) contrast(var(--contrast-amount)) saturate(1.2);
+          animation: rotate var(--animation-duration) linear infinite;
+          transform: translateZ(0);
+          will-change: transform;
+        }
+
+        .siri-orb::after {
+          content: "";
+          display: block;
+          grid-area: stack;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background: radial-gradient(
+            circle at 45% 55%,
+            rgba(255, 255, 255, 0.1) 0%,
+            rgba(255, 255, 255, 0.05) 30%,
+            transparent 60%
+          );
+          mix-blend-mode: overlay;
+        }
+
+        @keyframes rotate {
+          from {
+            --angle: 0deg;
+          }
+          to {
+            --angle: 360deg;
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .siri-orb::before {
+            animation: none;
+          }
+        }
+      </style></div><div class="absolute right-4 bottom-4"><button class="inline-flex items-center justify-center transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 dark:focus:ring-offset-slate-900 bg-pink-500 text-white hover:bg-pink-600 dark:bg-pink-600 dark:hover:bg-pink-500 text-sm h-10 w-10 rounded-full p-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings h-4 w-4" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg></button></div><style>
+        .slider::-webkit-slider-thumb {
+          appearance: none;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background: oklch(0.72 0.2 352.53);
+          cursor: pointer;
+          border: none;
+        }
+
+        .slider::-moz-range-thumb {
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background: oklch(0.72 0.2 352.53);
+          cursor: pointer;
+          border: none;
+        }
+      </style></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

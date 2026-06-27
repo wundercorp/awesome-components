@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/YoucefBnm/process-timeline/default
+- Registry URL: https://21st.dev/r/YoucefBnm/process-timeline
+- Author: YoucefBnm
+- Component slug: process-timeline
+- Demo slug: default
+- Title: process-timeline
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/YoucefBnm/process-timeline with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/YoucefBnm__process-timeline__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/YoucefBnm__process-timeline__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="bg-background text-foreground"><div class="w-full"><div class="relative min-h-[120vh] container px-6 py-12 h-[300vh]" style="background: radial-gradient(30% 80% at 0% 70%, rgb(67, 56, 202) 0%, rgb(55, 48, 163) 22.92%, rgb(49, 46, 129) 42.71%, rgb(15, 23, 42) 88.54%);"><div class="mb-8 space-y-4"><h2 class="bg-gradient-to-r from-indigo-200/60 via-indigo-50 to-indigo-200/60 bg-clip-text text-4xl font-semibold tracking-tight text-transparent md:text-5xl">Planning your project<br> development journey</h2><p class="max-w-[52ch] text-sm text-slate-300">we blend creative design with cutting‑edge frontend development to build stunning, high‑performance websites that elevate your brand and captivate your audience.</p></div><div class="sticky left-0 w-full overflow-hidden top-16 flex flex-nowrap"><div class="flex border text-slate-50 border-slate-700 backdrop-blur-lg bg-gradient-to-br from-[rgba(15,23,42,0.7)_40%] to-[#3730a3_120%] min-w-[70%] max-w-[70%]" style="transform: none;"><div class="p-6 border-r border-slate-700"><div class="rounded-full size-8 bg-indigo-700 text-sm flex justify-center items-center">01</div></div><div class="p-6 flex flex-col gap-10"><h3 class=" text-3xl font-semibold leading-tight">Research and Analysis</h3><p class=" opacity-80">With your vision in mind, we enter the Research and Analysis phase. Here, we examine your competitors, industry trends, and user preferences. This informed approach ensures your website stands out and provides an excellent user experience.</p></div></div><div class="flex border text-slate-50 border-slate-700 backdrop-blur-lg bg-gradient-to-br from-[rgba(15,23,42,0.7)_40%] to-[#3730a3_120%] min-w-[70%] max-w-[70%]" style="transform: translateX(992px);"><div class="p-6 border-r border-slate-700"><div class="rounded-full size-8 bg-indigo-700 text-sm flex justify-center items-center">02</div></div><div class="p-6 flex flex-col gap-10"><h3 class=" text-3xl font-semibold leading-tight">Wireframing and Prototyping</h3><p class=" opacity-80">We move on to Wireframing and Prototyping, where we create skeletal representations of your website's pages. These visual indigoprints allow us to test and refine the user experience before diving into design.</p></div></div><div class="flex border text-slate-50 border-slate-700 backdrop-blur-lg bg-gradient-to-br from-[rgba(15,23,42,0.7)_40%] to-[#3730a3_120%] min-w-[70%] max-w-[70%]" style="transform: translateX(992px);"><div class="p-6 border-r border-slate-700"><div class="rounded-full size-8 bg-indigo-700 text-sm flex justify-center items-center">03</div></div><div class="p-6 flex flex-col gap-10"><h3 class=" text-3xl font-semibold leading-tight">Design Creation</h3><p class=" opacity-80">Now, it's time for the Design Creation phase. Our talented designers bring your vision to life. We focus on aesthetics, ensuring your website not only looks stunning but also aligns perfectly with your brand identity.</p></div></div><div class="flex border text-slate-50 border-slate-700 backdrop-blur-lg bg-gradient-to-br from-[rgba(15,23,42,0.7)_40%] to-[#3730a3_120%] min-w-[70%] max-w-[70%]" style="transform: translateX(992px);"><div class="p-6 border-r border-slate-700"><div class="rounded-full size-8 bg-indigo-700 text-sm flex justify-center items-center">04</div></div><div class="p-6 flex flex-col gap-10"><h3 class=" text-3xl font-semibold leading-tight">Development and Testing</h3><p class=" opacity-80">In the Development and Testing phase, our skilled developers turn designs into a fully functional website. Rigorous testing ensures everything works seamlessly, providing an exceptional user experience.</p></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

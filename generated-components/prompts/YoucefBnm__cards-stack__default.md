@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/YoucefBnm/cards-stack/default
+- Registry URL: https://21st.dev/r/YoucefBnm/cards-stack
+- Author: YoucefBnm
+- Component slug: cards-stack
+- Demo slug: default
+- Title: cards-stack
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/YoucefBnm/cards-stack with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/YoucefBnm__cards-stack__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/YoucefBnm__cards-stack__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="bg-background text-foreground"><div class="absolute z-10 top-4 right-14 flex flex-col items-end gap-1"><button type="button" role="combobox" aria-controls="radix-«r0»" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="flex w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 gap-2 h-8"><span style="pointer-events: none;">Process</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 opacity-50" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><div class="w-full"><div class="container min-h-svh place-content-center bg-stone-50 px-6 text-stone-900 xl:px-12"><div class="grid md:grid-cols-2 md:gap-8 xl:gap-12"><div class="left-0 top-0 md:sticky md:h-svh md:py-12"><h5 class=" text-xs uppercase tracking-wide">our process</h5><h2 class="mb-6 mt-4 text-4xl font-bold tracking-tight">Planning your <span class="text-indigo-500">project development</span> journey</h2><p class="max-w-prose text-sm">Our journey begins with a deep dive into your vision. In the Discovery phase, we engage in meaningful conversations to grasp your brand identity, goals, and the essence you want to convey. This phase sets the stage for all that follows.</p></div><div class="relative w-full min-h-[400vh] space-y-8 py-12" style="perspective: 1000px;"><div class="sticky rounded-2xl border p-8 shadow-md backdrop-blur-md" style="top: 20px; backface-visibility: hidden; transform: translateZ(20px);"><div class="flex items-center justify-between gap-4"><h2 class="my-6 text-2xl font-bold tracking-tighter">Research and Analysis</h2><h3 class="text-2xl font-bold text-indigo-500">01</h3></div><p class="text-foreground">With your vision in mind, we enter the Research and Analysis phase. Here, we examine your competitors, industry trends, and user preferences. This informed approach ensures your website stands out and provides an excellent user experience.</p></div><div class="sticky rounded-2xl border p-8 shadow-md backdrop-blur-md" style="top: 30px; backface-visibility: hidden; transform: translateZ(30px);"><div class="flex items-center justify-between gap-4"><h2 class="my-6 text-2xl font-bold tracking-tighter">Wireframing and Prototyping</h2><h3 class="text-2xl font-bold text-indigo-500">02</h3></div><p class="text-foreground">We move on to Wireframing and Prototyping, where we create skeletal representations of your website's pages. These visual indigoprints allow us to test and refine the user experience before diving into design.</p></div><div class="sticky rounded-2xl border p-8 shadow-md backdrop-blur-md" style="top: 40px; backface-visibility: hidden; transform: translateZ(40px);"><div class="flex items-center justify-between gap-4"><h2 class="my-6 text-2xl font-bold tracking-tighter">Design Creation</h2><h3 class="text-2xl font-bold text-indigo-500">03</h3></div><p class="text-foreground">Now, it's time for the Design Creation phase. Our talented designers bring your vision to life. We focus on aesthetics, ensuring your website not only looks stunning but also aligns perfectly with your brand identity.</p></div><div class="sticky rounded-2xl border p-8 shadow-md backdrop-blur-md" style="top: 50px; backface-visibility: hidden; transform: translateZ(50px);"><div class="flex items-center justify-between gap-4"><h2 class="my-6 text-2xl font-bold tracking-tighter">Development and Testing</h2><h3 class="text-2xl font-bold text-indigo-500">04</h3></div><p class="text-foreground">In the Development and Testing phase, our skilled developers turn designs into a fully functional website. Rigorous testing ensures everything works seamlessly, providing an exceptional user experience.</p></div><div class="sticky rounded-2xl border p-8 shadow-md backdrop-blur-md" style="top: 60px; backface-visibility: hidden; transform: translateZ(60px);"><div class="flex items-center justify-between gap-4"><h2 class="my-6 text-2xl font-bold tracking-tighter">Launch and Support</h2><h3 class="text-2xl font-bold text-indigo-500">05</h3></div><p class="text-foreground">Our commitment continues beyond launch. We offer post-launch support to address questions, provide assistance, and ensure your website remains updated and optimized. The Website Design Process isn't just about creating a website; it's about crafting a digital experience that resonates, engages, and converts.</p></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

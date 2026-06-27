@@ -1,6 +1,6 @@
 # Subframeapp Components
 
-25 components are available in this author group.
+31 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -31,3 +31,9 @@
 | [![Checkbox Card](checkbox-card/default/screenshot.png)](checkbox-card/default/README.md) | [Checkbox Card](checkbox-card/default/README.md) | `default` |
 | [![Checkbox Group 1](checkbox-group-1/checkbox-group-horizontal/screenshot.png)](checkbox-group-1/checkbox-group-horizontal/README.md) | [Checkbox Group 1](checkbox-group-1/checkbox-group-horizontal/README.md) | `checkbox-group-horizontal` |
 | [![Checkbox Group 1](checkbox-group-1/default/screenshot.png)](checkbox-group-1/default/README.md) | [Checkbox Group 1](checkbox-group-1/default/README.md) | `default` |
+| [![Context Menu 1](context-menu-1/context-menu-with-shortcuts/screenshot.png)](context-menu-1/context-menu-with-shortcuts/README.md) | [Context Menu 1](context-menu-1/context-menu-with-shortcuts/README.md) | `context-menu-with-shortcuts` |
+| [![Context Menu 1](context-menu-1/default/screenshot.png)](context-menu-1/default/README.md) | [Context Menu 1](context-menu-1/default/README.md) | `default` |
+| [![Pagination](pagination/default/screenshot.png)](pagination/default/README.md) | [Pagination](pagination/default/README.md) | `default` |
+| [![Pagination](pagination/pagination-stacked/screenshot.png)](pagination/pagination-stacked/README.md) | [Pagination](pagination/pagination-stacked/README.md) | `pagination-stacked` |
+| [![Pagination](pagination/pagination-with-current-info/screenshot.png)](pagination/pagination-with-current-info/README.md) | [Pagination](pagination/pagination-with-current-info/README.md) | `pagination-with-current-info` |
+| [![Pagination](pagination/pagination-with-next-n-previous-link/screenshot.png)](pagination/pagination-with-next-n-previous-link/README.md) | [Pagination](pagination/pagination-with-next-n-previous-link/README.md) | `pagination-with-next-n-previous-link` |
