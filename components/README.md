@@ -16,6 +16,6 @@ Browse components by author bucket, then by author, then by component.
 | [n](n/README.md) | 1 | 17 |
 | [o](o/README.md) | 1 | 27 |
 | [r](r/README.md) | 3 | 18 |
-| [s](s/README.md) | 2 | 16 |
+| [s](s/README.md) | 4 | 38 |
 | [t](t/README.md) | 2 | 2 |
 | [y](y/README.md) | 1 | 1 |

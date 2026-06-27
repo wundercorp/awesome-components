@@ -1,0 +1,57 @@
+# Build Vhs Hero Section in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Vhs Hero Section screenshot](screenshot.png)
+
+## Component
+
+- Author group: `scottclayton3d`
+- Component: `vhs-hero-section`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: Scottclayton3d
+- Component slug: vhs-hero-section
+- Demo slug: default
+- Title: vhs-hero-section
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative min-h-screen w-full overflow-hidden bg-black"><div class="absolute inset-0 z-0" style="translate: none; rotate: none; scale: none; transform: translate(0px, 0px); opacity: 1;"><div style="position: relative; width: 100%; height: 100%; overflow: hidden; pointer-events: auto; background: linear-gradient(135deg, rgb(0, 0, 0) 0%, rgb(26, 0, 0) 50%, rgb(0, 0, 0) 100%);"><div style="width: 100%; height: 100%;"><canvas data-engine="three.js r177" width="992" height="944" style="display: block; width: 992px; height: 944px;"></canvas></div></div></div><div class="absolute inset-0 z-10 opacity-20" style="background-image: url(&quot;data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E&quot;);"></div><div class="relative z-20 flex min-h-screen items-center justify-center px-6" style="filter: none; translate: none; rotate: none; scale: none; transform: translate(0px, 0px);"><div class="text-center max-w-5xl mx-auto"><div style="translate: none; rotate: none; scale: none; filter: blur(0px); transform: translate(0px, 0px); opacity: 1;"><h1 class="leading-none tracking-tighter relative" style="font-size: clamp(4rem, 12vw, 12rem); font-family: &quot;Courier New&quot;, monospace; font-weight: 900; color: rgb(255, 255, 255); text-shadow: rgb(255, 0, 0) 1.8097px 0px, rgb(0, 255, 255) -1.8097px 0px;">VHS HERO SECTION</h1></div><div class="mt-4"><h1 class="tracking-widest opacity-80 relative" style="font-size: clamp(1.5rem, 4vw, 3rem); font-family: &quot;Courier New&quot;, monospace; font-weight: 400; color: rgb(255, 0, 0); text-shadow: rgb(255, 0, 0) 1.2389px 0px, rgb(0, 255, 255) -1.2389px 0px;">WITH {OISE</h1></div><p class="text-xl md:text-2xl lg:text-3xl text-red-400 mb-12 max-w-3xl mx-auto leading-relaxed font-mono tracking-wider uppercase" style="text-shadow: rgba(255, 0, 0, 0.5) 0px 0px 10px, rgb(0, 255, 255) 2px 0px, rgb(255, 0, 0) -2px 0px; translate: none; rotate: none; scale: none; filter: blur(0px); transform: translate(0px, 0px); opacity: 1;">&gt; REALITY.CORRUPTED &lt;<br>&gt; NOISE.AMPLIFIED &lt;</p><div style="translate: none; rotate: none; scale: none; filter: blur(0px); transform: translate(0px, 0px); opacity: 1;"><button class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-11 rounded-md group relative overflow-hidden bg-red-600/20 backdrop-blur-sm border-2 border-red-500 text-red-400 hover:bg-red-600/40 hover:text-white px-10 py-4 text-lg font-mono uppercase tracking-wider transition-all duration-300 transform hover:scale-105"><span class="relative z-10">&gt; ENTER_CHAOS &lt;</span><div class="absolute inset-0 bg-gradient-to-r from-transparent via-red-500/20 to-transparent transform -translate-x-full group-hover:translate-x-full transition-transform duration-500"></div></button></div></div></div><div class="absolute top-8 left-8 z-30"><div class="text-red-400 font-mono text-xs tracking-wider">&gt; SYSTEM.CORRUPTED</div></div><div class="absolute top-8 right-8 z-30"><div class="text-cyan-400 font-mono text-xs tracking-wider">ERROR_404 &lt;</div></div><div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-30"><div class="w-px h-16 bg-gradient-to-b from-red-500/60 to-transparent animate-pulse"></div></div><div class="absolute inset-0 z-15 pointer-events-none opacity-10" style="background: repeating-linear-gradient(0deg, transparent, transparent 2px, rgba(255, 255, 255, 0.1) 2px, rgba(255, 255, 255, 0.1) 4px);"></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
