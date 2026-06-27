@@ -1,0 +1,57 @@
+# Build Logo Cloud 4 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Logo Cloud 4 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `efferd`
+- Component: `logo-cloud-4`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: efferd
+- Component slug: logo-cloud-4
+- Demo slug: default
+- Title: logo-cloud-4
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full place-content-center px-4"><div aria-hidden="true" class="-top-1/2 -translate-x-1/2 pointer-events-none absolute left-1/2 h-[120vmin] w-[120vmin] rounded-b-full bg-[radial-gradient(ellipse_at_center,--theme(--color-foreground/.1),transparent_50%)] blur-[30px]"></div><div class="w-full"><h2 class="mb-5 text-center"><span class="block font-medium text-2xl text-muted-foreground">Already used by</span><span class="font-black text-2xl text-primary tracking-tight md:text-3xl">Best in the Game</span></h2><div class="relative mx-auto max-w-3xl bg-gradient-to-r from-secondary via-transparent to-secondary py-6 md:border-x"><div class="-translate-x-1/2 -top-px pointer-events-none absolute left-1/2 w-screen border-t"></div><div class="overflow-hidden"><div class="flex w-max" style="gap: 42px; flex-direction: row; transform: translateX(-848.151px);"><img alt="Nvidia Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/nvidia-wordmark-light.svg"><img alt="Supabase Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/supabase_wordmark_light.svg"><img alt="OpenAI Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/openai_wordmark_light.svg"><img alt="Turso Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/turso-wordmark-light.svg"><img alt="Vercel Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/vercel_wordmark.svg"><img alt="GitHub Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/github_wordmark_light.svg"><img alt="Claude AI Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/claude-ai-wordmark-icon_light.svg"><img alt="Clerk Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/clerk-wordmark-light.svg"><img alt="Nvidia Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/nvidia-wordmark-light.svg"><img alt="Supabase Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/supabase_wordmark_light.svg"><img alt="OpenAI Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/openai_wordmark_light.svg"><img alt="Turso Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/turso-wordmark-light.svg"><img alt="Vercel Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/vercel_wordmark.svg"><img alt="GitHub Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/github_wordmark_light.svg"><img alt="Claude AI Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/claude-ai-wordmark-icon_light.svg"><img alt="Clerk Logo" class="pointer-events-none h-4 select-none md:h-5 dark:brightness-0 dark:invert" height="auto" loading="lazy" width="auto" src="https://svgl.app/library/clerk-wordmark-light.svg"></div></div><div class="pointer-events-none absolute top-0 left-0 h-full w-[160px]"><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 11.1111%, rgb(255, 255, 255) 22.2222%, rgba(255, 255, 255, 0) 33.3333%); backdrop-filter: blur(0px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 11.1111%, rgb(255, 255, 255) 22.2222%, rgb(255, 255, 255) 33.3333%, rgba(255, 255, 255, 0) 44.4444%); backdrop-filter: blur(1px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 22.2222%, rgb(255, 255, 255) 33.3333%, rgb(255, 255, 255) 44.4444%, rgba(255, 255, 255, 0) 55.5556%); backdrop-filter: blur(2px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 33.3333%, rgb(255, 255, 255) 44.4444%, rgb(255, 255, 255) 55.5556%, rgba(255, 255, 255, 0) 66.6667%); backdrop-filter: blur(3px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 44.4444%, rgb(255, 255, 255) 55.5556%, rgb(255, 255, 255) 66.6667%, rgba(255, 255, 255, 0) 77.7778%); backdrop-filter: blur(4px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 55.5556%, rgb(255, 255, 255) 66.6667%, rgb(255, 255, 255) 77.7778%, rgba(255, 255, 255, 0) 88.8889%); backdrop-filter: blur(5px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 66.6667%, rgb(255, 255, 255) 77.7778%, rgb(255, 255, 255) 88.8889%, rgba(255, 255, 255, 0) 100%); backdrop-filter: blur(6px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(270deg, rgba(255, 255, 255, 0) 77.7778%, rgb(255, 255, 255) 88.8889%, rgb(255, 255, 255) 100%, rgba(255, 255, 255, 0) 111.111%); backdrop-filter: blur(7px);"></div></div><div class="pointer-events-none absolute top-0 right-0 h-full w-[160px]"><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 11.1111%, rgb(255, 255, 255) 22.2222%, rgba(255, 255, 255, 0) 33.3333%); backdrop-filter: blur(0px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 11.1111%, rgb(255, 255, 255) 22.2222%, rgb(255, 255, 255) 33.3333%, rgba(255, 255, 255, 0) 44.4444%); backdrop-filter: blur(1px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 22.2222%, rgb(255, 255, 255) 33.3333%, rgb(255, 255, 255) 44.4444%, rgba(255, 255, 255, 0) 55.5556%); backdrop-filter: blur(2px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 33.3333%, rgb(255, 255, 255) 44.4444%, rgb(255, 255, 255) 55.5556%, rgba(255, 255, 255, 0) 66.6667%); backdrop-filter: blur(3px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 44.4444%, rgb(255, 255, 255) 55.5556%, rgb(255, 255, 255) 66.6667%, rgba(255, 255, 255, 0) 77.7778%); backdrop-filter: blur(4px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 55.5556%, rgb(255, 255, 255) 66.6667%, rgb(255, 255, 255) 77.7778%, rgba(255, 255, 255, 0) 88.8889%); backdrop-filter: blur(5px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 66.6667%, rgb(255, 255, 255) 77.7778%, rgb(255, 255, 255) 88.8889%, rgba(255, 255, 255, 0) 100%); backdrop-filter: blur(6px);"></div><div class="pointer-events-none absolute inset-0 rounded-[inherit]" style="mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 77.7778%, rgb(255, 255, 255) 88.8889%, rgb(255, 255, 255) 100%, rgba(255, 255, 255, 0) 111.111%); backdrop-filter: blur(7px);"></div></div><div class="-translate-x-1/2 -bottom-px pointer-events-none absolute left-1/2 w-screen border-b"></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

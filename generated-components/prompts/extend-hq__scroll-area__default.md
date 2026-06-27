@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/extend-hq/scroll-area/default
+- Registry URL: https://21st.dev/r/extend-hq/scroll-area
+- Author: extend-hq
+- Component slug: scroll-area
+- Demo slug: default
+- Title: scroll-area
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/extend-hq/scroll-area with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/extend-hq__scroll-area__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/extend-hq__scroll-area__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-screen w-full items-center justify-center bg-background p-8"><div role="presentation" class="size-full min-h-0 h-72 w-[360px] rounded-xl border bg-card p-5 text-base shadow-sm" data-has-overflow-y="" data-overflow-y-end="" style="position: relative; --scroll-area-corner-height: 0px; --scroll-area-corner-width: 0px;"><div role="presentation" data-id="base-ui-«r0»-viewport" tabindex="0" class="transition-shadows h-full rounded-[inherit] outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-1 focus-visible:ring-offset-background data-has-overflow-x:overscroll-x-contain data-has-overflow-y:overscroll-y-contain base-ui-disable-scrollbar" data-slot="scroll-area-viewport" data-has-overflow-y="" data-overflow-y-end="" style="overflow: scroll; --scroll-area-overflow-x-start: 0px; --scroll-area-overflow-x-end: 0px; --scroll-area-overflow-y-start: 0px; --scroll-area-overflow-y-end: 733px;"><p class="border-b py-3 last:border-b-0">Row 1</p><p class="border-b py-3 last:border-b-0">Row 2</p><p class="border-b py-3 last:border-b-0">Row 3</p><p class="border-b py-3 last:border-b-0">Row 4</p><p class="border-b py-3 last:border-b-0">Row 5</p><p class="border-b py-3 last:border-b-0">Row 6</p><p class="border-b py-3 last:border-b-0">Row 7</p><p class="border-b py-3 last:border-b-0">Row 8</p><p class="border-b py-3 last:border-b-0">Row 9</p><p class="border-b py-3 last:border-b-0">Row 10</p><p class="border-b py-3 last:border-b-0">Row 11</p><p class="border-b py-3 last:border-b-0">Row 12</p><p class="border-b py-3 last:border-b-0">Row 13</p><p class="border-b py-3 last:border-b-0">Row 14</p><p class="border-b py-3 last:border-b-0">Row 15</p><p class="border-b py-3 last:border-b-0">Row 16</p><p class="border-b py-3 last:border-b-0">Row 17</p><p class="border-b py-3 last:border-b-0">Row 18</p><p class="border-b py-3 last:border-b-0">Row 19</p><p class="border-b py-3 last:border-b-0">Row 20</p></div><div data-orientation="vertical" data-has-overflow-y="" data-overflow-y-end="" data-id="base-ui-«r0»-scrollbar" data-slot="scroll-area-scrollbar" class="m-1 flex opacity-0 transition-opacity delay-300 data-hovering:opacity-100 data-hovering:delay-0 data-hovering:duration-100 data-scrolling:opacity-100 data-scrolling:delay-0 data-scrolling:duration-100 data-[orientation=horizontal]:h-1.5 data-[orientation=horizontal]:flex-col data-[orientation=vertical]:w-1.5" style="position: absolute; touch-action: none; user-select: none; top: 0px; bottom: var(--scroll-area-corner-height); inset-inline-end: 0px; --scroll-area-thumb-height: 61.814096016343214px;"><div data-orientation="vertical" data-slot="scroll-area-thumb" class="relative flex-1 rounded-full bg-foreground/20" style="height: var(--scroll-area-thumb-height); transform: translate3d(0px, 0px, 0px);"></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

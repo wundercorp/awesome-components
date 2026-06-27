@@ -1,0 +1,147 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/erikx/ai-input/default
+- Registry URL: https://21st.dev/r/erikx/ai-input
+- Author: erikx
+- Component slug: ai-input
+- Demo slug: default
+- Title: ai-input
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/erikx/ai-input with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/erikx__ai-input__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/erikx__ai-input__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center" style="width: 360px; height: 200px;"><div data-panel="true" class="bg-background relative bottom-8 z-3 flex flex-col items-center overflow-hidden border max-sm:bottom-5" style="width: auto; height: 44px; border-radius: 20px;"><footer class="mt-auto flex h-[44px] items-center justify-center whitespace-nowrap select-none"><div class="flex items-center justify-center gap-2 px-3 max-sm:h-10 max-sm:px-2"><div class="flex w-fit items-center gap-2"><div style="opacity: 1;"><div class="color-orb" style="width: 24px; height: 24px; --base: oklch(22.64% 0 0); --accent1: oklch(75% 0.15 350); --accent2: oklch(80% 0.12 200); --accent3: oklch(78% 0.14 280); --spin-duration: 20s; --blur: 1px; --contrast: 1.1; --dot: 0.096px; --shadow: 0.5px; --mask: 0%;"><style>
+        @property --angle {
+          syntax: "<angle>";
+          inherits: false;
+          initial-value: 0deg;
+        }
+
+        .color-orb {
+          display: grid;
+          grid-template-areas: "stack";
+          overflow: hidden;
+          border-radius: 50%;
+          position: relative;
+          transform: scale(1.1);
+        }
+
+        .color-orb::before,
+        .color-orb::after {
+          content: "";
+          display: block;
+          grid-area: stack;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          transform: translateZ(0);
+        }
+
+        .color-orb::before {
+          background:
+            conic-gradient(
+              from calc(var(--angle) * 2) at 25% 70%,
+              var(--accent3),
+              transparent 20% 80%,
+              var(--accent3)
+            ),
+            conic-gradient(
+              from calc(var(--angle) * 2) at 45% 75%,
+              var(--accent2),
+              transparent 30% 60%,
+              var(--accent2)
+            ),
+            conic-gradient(
+              from calc(var(--angle) * -3) at 80% 20%,
+              var(--accent1),
+              transparent 40% 60%,
+              var(--accent1)
+            ),
+            conic-gradient(
+              from calc(var(--angle) * 2) at 15% 5%,
+              var(--accent2),
+              transparent 10% 90%,
+              var(--accent2)
+            ),
+            conic-gradient(
+              from calc(var(--angle) * 1) at 20% 80%,
+              var(--accent1),
+              transparent 10% 90%,
+              var(--accent1)
+            ),
+            conic-gradient(
+              from calc(var(--angle) * -2) at 85% 10%,
+              var(--accent3),
+              transparent 20% 80%,
+              var(--accent3)
+            );
+          box-shadow: inset var(--base) 0 0 var(--shadow) calc(var(--shadow) * 0.2);
+          filter: blur(var(--blur)) contrast(var(--contrast));
+          animation: spin var(--spin-duration) linear infinite;
+        }
+
+        .color-orb::after {
+          background-image: radial-gradient(
+            circle at center,
+            var(--base) var(--dot),
+            transparent var(--dot)
+          );
+          background-size: calc(var(--dot) * 2) calc(var(--dot) * 2);
+          backdrop-filter: blur(calc(var(--blur) * 2)) contrast(calc(var(--contrast) * 2));
+          mix-blend-mode: overlay;
+        }
+
+        .color-orb[style*="--mask: 0%"]::after {
+          mask-image: none;
+        }
+
+        .color-orb:not([style*="--mask: 0%"])::after {
+          mask-image: radial-gradient(black var(--mask), transparent 75%);
+        }
+
+        @keyframes spin {
+          to {
+            --angle: 360deg;
+          }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+          .color-orb::before {
+            animation: none;
+          }
+        }
+      </style></div></div></div><button class="items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground py-2 flex h-fit flex-1 justify-end rounded-full px-2 !py-0.5" type="button"><span class="truncate">Ask AI</span></button></div></footer><form class="absolute bottom-0" style="width: 360px; height: 200px; pointer-events: none;"></form></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

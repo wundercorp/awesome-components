@@ -1,6 +1,6 @@
 # Bucket d
 
-163 components from 14 author groups.
+197 components from 20 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -17,4 +17,10 @@
 | [dennysdionigi](dennysdionigi/README.md) | 1 |
 | [devetaigabbai](devetaigabbai/README.md) | 2 |
 | [devongovett](devongovett/README.md) | 1 |
-| [dhiluxui](dhiluxui/README.md) | 76 |
+| [dhiluxui](dhiluxui/README.md) | 101 |
+| [dhmnpunit](dhmnpunit/README.md) | 2 |
+| [diceui](diceui/README.md) | 1 |
+| [digitalzone0707](digitalzone0707/README.md) | 1 |
+| [diriktv](diriktv/README.md) | 3 |
+| [dubinc](dubinc/README.md) | 1 |
+| [duthiljean](duthiljean/README.md) | 1 |

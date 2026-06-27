@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/educalvolpz/otp-input/default
+- Registry URL: https://21st.dev/r/educalvolpz/otp-input
+- Author: educalvolpz
+- Component slug: otp-input
+- Demo slug: default
+- Title: otp-input
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/educalvolpz/otp-input with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/educalvolpz__otp-input__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/educalvolpz__otp-input__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-[400px] flex-col items-center justify-center p-6"><div class="rounded-lg border bg-card text-card-foreground shadow-sm w-full max-w-md"><div class="flex flex-col space-y-1.5 p-6 text-center"><h3 class="tracking-tight text-2xl font-bold">Verify Your Code</h3><p class="text-sm text-muted-foreground">Enter the 6-digit code sent to your device</p></div><div class="p-6 pt-0 space-y-6"><div class="flex justify-center"><noscript></noscript><div data-input-otp-container="true" class="flex items-center gap-2 has-disabled:opacity-50" style="position: relative; cursor: text; user-select: none; pointer-events: none; --root-height: 36px;"><div data-slot="input-otp-group" class="flex items-center" style="opacity: 1; transform: none;"><div data-slot="input-otp-slot" data-active="false" class="data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]" tabindex="0" style="opacity: 1; transform: none;"></div><div data-slot="input-otp-slot" data-active="false" class="data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]" tabindex="0" style="opacity: 1; transform: none;"></div><div data-slot="input-otp-slot" data-active="false" class="data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]" tabindex="0" style="opacity: 1; transform: none;"></div></div><div data-slot="input-otp-separator" style="opacity: 1; transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minus text-muted-foreground h-4 w-4" aria-hidden="true"><path d="M5 12h14"></path></svg></div><div data-slot="input-otp-group" class="flex items-center" style="opacity: 1; transform: none;"><div data-slot="input-otp-slot" data-active="false" class="data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]" tabindex="0" style="opacity: 1; transform: none;"></div><div data-slot="input-otp-slot" data-active="false" class="data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]" tabindex="0" style="opacity: 1; transform: none;"></div><div data-slot="input-otp-slot" data-active="false" class="data-[active=true]:border-ring data-[active=true]:ring-ring/50 data-[active=true]:aria-invalid:ring-destructive/20 dark:data-[active=true]:aria-invalid:ring-destructive/40 aria-invalid:border-destructive data-[active=true]:aria-invalid:border-destructive dark:bg-input/30 border-input relative flex h-9 w-9 items-center justify-center border-y border-r text-sm shadow-xs transition-all outline-none first:rounded-l-md first:border-l last:rounded-r-md data-[active=true]:z-10 data-[active=true]:ring-[3px]" tabindex="0" style="opacity: 1; transform: none;"></div></div><div style="position: absolute; inset: 0px; pointer-events: none;"><input autocomplete="one-time-code" data-slot="input-otp" class="disabled:cursor-not-allowed" data-input-otp="true" data-input-otp-placeholder-shown="true" inputmode="numeric" maxlength="6" value="" data-input-otp-mss="0" data-input-otp-mse="0" style="position: absolute; inset: 0px; width: 100%; height: 100%; display: flex; text-align: left; opacity: 1; color: transparent; pointer-events: all; background: transparent; caret-color: transparent; border: 0px solid transparent; outline: transparent solid 0px; box-shadow: none; line-height: 1; letter-spacing: -0.5em; font-size: var(--root-height); font-family: monospace; font-variant-numeric: tabular-nums;"></div></div></div><div class="flex justify-center"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full">Reset Code</button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

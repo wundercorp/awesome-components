@@ -1,0 +1,57 @@
+# Build Faq Pro in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Faq Pro screenshot](screenshot.png)
+
+## Component
+
+- Author group: `edwinvakayil`
+- Component: `faq-pro`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: edwinvakayil
+- Component slug: faq-pro
+- Demo slug: default
+- Title: faq-pro
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="[--ic-background:#ffffff] [--ic-foreground:#111111] [--ic-primary:#111111] [--ic-secondary:#646b75] [--ic-surface-border:#e9edf2] [--ic-border:#e3e7ec] [--ic-card:#ffffff] [--ic-card-foreground:#111111] [--ic-muted:#f5f7fa] [--ic-muted-foreground:#6d7480] [--ic-accent:#f3f5f8] [--ic-accent-foreground:#111111] [--ic-input:#e3e7ec] [--ic-ring:rgba(17,17,17,0.16)] [--ic-destructive:#dc2626] [--ic-paper:#fcfcfd] [--ic-popover-foreground:#111111] [--ic-brand:#0ea5e9] [--ic-brand-soft:#bae6fd] [--ic-shadow-soft:0_18px_38px_-24px_rgba(15,23,42,0.35)] [--ic-chart-1:oklch(0.52_0.19_254)] [--ic-chart-2:oklch(0.74_0.11_232)] [--ic-chart-3:oklch(0.42_0.16_262)] [--ic-chart-4:oklch(0.84_0.07_228)] [--ic-chart-5:oklch(0.62_0.14_240)] [--color-background:var(--ic-background)] [--color-foreground:var(--ic-foreground)] [--color-primary:var(--ic-primary)] [--color-secondary:var(--ic-secondary)] [--color-border:var(--ic-border)] [--color-card:var(--ic-card)] [--color-card-foreground:var(--ic-card-foreground)] [--color-muted:var(--ic-muted)] [--color-muted-foreground:var(--ic-muted-foreground)] [--color-input:var(--ic-input)] [--color-ring:var(--ic-ring)] [--color-destructive:var(--ic-destructive)] [--color-paper:var(--ic-paper)] [--color-popover-foreground:var(--ic-popover-foreground)] [--color-brand:var(--ic-brand)] [--color-brand-soft:var(--ic-brand-soft)] [--color-chart-1:var(--ic-chart-1)] [--color-chart-2:var(--ic-chart-2)] [--color-chart-3:var(--ic-chart-3)] [--color-chart-4:var(--ic-chart-4)] [--color-chart-5:var(--ic-chart-5)] dark:[--ic-background:#111111] dark:[--ic-foreground:#f6f3ec] dark:[--ic-primary:#f6f3ec] dark:[--ic-secondary:#cbc6bb] dark:[--ic-surface-border:#2a2a25] dark:[--ic-border:#2b2a25] dark:[--ic-card:#111111] dark:[--ic-card-foreground:#f6f3ec] dark:[--ic-muted:#171716] dark:[--ic-muted-foreground:#9a958a] dark:[--ic-accent:#1a1a18] [--color-accent:var(--ic-accent)] [--color-accent-foreground:var(--ic-accent-foreground)] dark:[--ic-accent-foreground:#f6f3ec] dark:[--ic-input:#2b2a25] dark:[--ic-ring:rgba(246,243,236,0.18)] dark:[--ic-destructive:#f87171] dark:[--ic-paper:#171716] dark:[--ic-popover-foreground:#f6f3ec] dark:[--ic-brand:#38bdf8] dark:[--ic-brand-soft:#0c4a6e] dark:[--ic-shadow-soft:0_20px_44px_-28px_rgba(0,0,0,0.6)] dark:[--ic-chart-1:oklch(0.68_0.17_250)] dark:[--ic-chart-2:oklch(0.82_0.09_225)] dark:[--ic-chart-3:oklch(0.58_0.15_260)] dark:[--ic-chart-4:oklch(0.75_0.12_235)] dark:[--ic-chart-5:oklch(0.88_0.06_220)] mx-auto flex max-w-2xl flex-col gap-3 w-full"><div class="relative"><input aria-label="Search FAQs..." class="h-12 w-full appearance-none rounded-full border-[0.5px] border-border bg-card px-5 pr-11 text-[15px] text-foreground shadow-none outline-none focus:shadow-none focus:outline-none focus-visible:shadow-none focus-visible:outline-none focus-visible:ring-0 placeholder:text-muted-foreground [&amp;::-webkit-search-cancel-button]:appearance-none [&amp;::-webkit-search-decoration]:appearance-none" placeholder="Search FAQs..." type="search" value=""></div><div class="flex flex-col gap-2.5"><div style="opacity: 1; transform: none;"><div class="overflow-hidden rounded-2xl bg-muted/70 dark:bg-muted/50"><button aria-controls="«r0»-what-is-iconiq-panel" aria-expanded="true" class="flex w-full items-start justify-between gap-4 px-5 py-4 text-left outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset" id="«r0»-what-is-iconiq-trigger" type="button"><span class="font-medium text-[15px] text-foreground leading-6 tracking-[-0.02em]">What is Iconiq?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down mt-0.5 size-4 shrink-0 text-muted-foreground transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)] rotate-180" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div aria-labelledby="«r0»-what-is-iconiq-trigger" class="overflow-hidden" id="«r0»-what-is-iconiq-panel" role="region" style="height: auto;"><div aria-hidden="false" class="px-5 pb-5 text-[14px] text-muted-foreground leading-6" style="opacity: 1; transform: none;">Iconiq is an open-source library of motion-powered React components built around the shadcn reference metadata workflow. Browse polished UI primitives, install them as local files, and adapt them inside your own codebase.</div></div></div></div><div style="opacity: 1; transform: none;"><div class="overflow-hidden rounded-2xl bg-muted/70 dark:bg-muted/50"><button aria-controls="«r0»-install-iconiq-panel" aria-expanded="false" class="flex w-full items-start justify-between gap-4 px-5 py-4 text-left outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset" id="«r0»-install-iconiq-trigger" type="button"><span class="font-medium text-[15px] text-foreground leading-6 tracking-[-0.02em]">How do I install an Iconiq component?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down mt-0.5 size-4 shrink-0 text-muted-foreground transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div aria-labelledby="«r0»-install-iconiq-trigger" class="overflow-hidden" id="«r0»-install-iconiq-panel" role="region" style="height: 0px;"><div aria-hidden="true" class="px-5 pb-5 text-[14px] text-muted-foreground leading-6" inert="" style="opacity: 0; transform: translateY(-6px);">Install components with shadcn using commands like npx shadcn@latest add @iconiq/b-button, or use a direct reference metadata URL from iconiqui.com/r/b-button.json.</div></div></div></div><div style="opacity: 1; transform: none;"><div class="overflow-hidden rounded-2xl bg-muted/70 dark:bg-muted/50"><button aria-controls="«r0»-iconiq-free-panel" aria-expanded="false" class="flex w-full items-start justify-between gap-4 px-5 py-4 text-left outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-inset" id="«r0»-iconiq-free-trigger" type="button"><span class="font-medium text-[15px] text-foreground leading-6 tracking-[-0.02em]">Is Iconiq free to use?</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down mt-0.5 size-4 shrink-0 text-muted-foreground transition-transform duration-300 ease-[cubic-bezier(0.16,1,0.3,1)]" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button><div aria-labelledby="«r0»-iconiq-free-trigger" class="overflow-hidden" id="«r0»-iconiq-free-panel" role="region" style="height: 0px;"><div aria-hidden="true" class="px-5 pb-5 text-[14px] text-muted-foreground leading-6" inert="" style="opacity: 0; transform: translateY(-6px);">Yes. Iconiq is open source and free to use for personal and commercial projects.</div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

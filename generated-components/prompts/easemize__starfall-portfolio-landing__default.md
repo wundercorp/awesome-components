@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/easemize/starfall-portfolio-landing/default
+- Registry URL: https://21st.dev/r/easemize/starfall-portfolio-landing
+- Author: easemize
+- Component slug: starfall-portfolio-landing
+- Demo slug: default
+- Title: starfall-portfolio-landing
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/easemize/starfall-portfolio-landing with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/easemize__starfall-portfolio-landing__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/easemize__starfall-portfolio-landing__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_DemoOne">DemoOne</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="bg-background text-foreground geist-font"><div><canvas data-engine="three.js r177" width="992" height="944" style="display: block; width: 992px; height: 944px; position: fixed; top: 0px; left: 0px; z-index: 0;"></canvas></div><div class="relative"><nav class="w-full px-6 py-4"><div class="max-w-7xl mx-auto flex justify-between items-center"><div class="flex items-center space-x-2"><div class="w-8 h-8 rounded-lg bg-border backdrop-blur-md border border-border flex items-center justify-center"><span class="geist-font text-sm font-bold text-foreground">AT</span></div><span class="geist-font text-lg font-medium text-foreground">Alex Thompson</span></div><div class="hidden md:flex items-center space-x-8"><a href="#about" class="text-muted-foreground hover:text-foreground transition-colors inter-font text-sm">Bio</a><a href="#projects" class="text-muted-foreground hover:text-foreground transition-colors inter-font text-sm">Work</a><a href="#skills" class="text-muted-foreground hover:text-foreground transition-colors inter-font text-sm">Expertise</a></div><button class="glass-button px-4 py-2 rounded-lg text-foreground text-sm font-medium inter-font">Download CV</button></div></nav><div class="divider"></div><main id="about" class="w-full min-h-screen flex flex-col items-center justify-center px-6 py-20"><div class="max-w-6xl mx-auto text-center"><div class="mb-8 float-animation"><h1 class="md:text-6xl lg:text-7xl leading-[1.1] geist-font text-5xl font-light text-foreground tracking-tight mb-4">Full-Stack Engineer &amp;<span class="gradient-text block tracking-tight">UX Architect</span></h1><p class="md:text-xl max-w-3xl leading-relaxed inter-font text-lg font-light text-muted-foreground mx-auto">I build robust and scalable web applications with a strong focus on user-centric design and performance.</p></div><div class="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16"><button class="primary-button px-6 py-3 text-foreground rounded-lg font-medium text-sm min-w-[160px]">Explore My Work</button><button class="glass-button min-w-[160px] inter-font text-sm font-medium text-foreground rounded-lg px-6 py-3">Contact Me</button></div><div class="divider mb-16"></div><div id="projects" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-16"><div class="glass-card rounded-2xl p-6 text-left"><div class="project-image rounded-xl h-32 mb-4 flex items-center justify-center"></div><h3 class="text-lg font-medium text-card-foreground mb-2 geist-font">E-commerce Platform</h3><p class="text-muted-foreground text-sm inter-font mb-4">A scalable online store built with Next.js, TypeScript, and Stripe.</p><div class="flex flex-wrap gap-2"><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">Next.js</span><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">Stripe</span><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">Vercel</span></div></div><div class="glass-card rounded-2xl p-6 text-left"><div class="project-image rounded-xl h-32 mb-4 flex items-center justify-center"></div><h3 class="text-lg font-medium text-card-foreground mb-2 geist-font">SaaS Dashboard</h3><p class="text-muted-foreground text-sm inter-font mb-4">A real-time analytics dashboard for a B2B software-as-a-service product.</p><div class="flex flex-wrap gap-2"><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">React</span><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">Chart.js</span><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">Firebase</span></div></div><div class="glass-card rounded-2xl p-6 text-left"><div class="project-image rounded-xl h-32 mb-4 flex items-center justify-center"><div class="text-2xl text-white/50">🤖</div></div><h3 class="text-lg font-medium text-card-foreground mb-2 geist-font">AI Content Generator</h3><p class="text-muted-foreground text-sm inter-font mb-4">Leveraging OpenAI to generate marketing copy for businesses.</p><div class="flex flex-wrap gap-2"><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">SvelteKit</span><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">OpenAI</span><span class="skill-badge px-2 py-1 rounded text-xs text-muted-foreground">Tailwind CSS</span></div></div></div><div class="divider mb-16"></div><div id="skills" class="flex flex-col sm:flex-row justify-center items-center gap-8 text-center"><div><div class="text-3xl md:text-4xl font-light text-foreground mb-1 geist-font tracking-tight">7+</div><div class="text-muted-foreground text-sm inter-font font-normal">Years of Experience</div></div><div class="hidden sm:block w-px h-12 bg-gradient-to-b from-transparent via-input to-transparent"></div><div><div class="text-3xl md:text-4xl font-light text-foreground mb-1 geist-font tracking-tight">30+</div><div class="text-muted-foreground text-sm inter-font font-normal">Client Projects</div></div><div class="hidden sm:block w-px h-12 bg-gradient-to-b from-transparent via-input to-transparent"></div><div><div class="text-3xl md:text-4xl font-light text-foreground mb-1 geist-font tracking-tight">99%</div><div class="text-muted-foreground text-sm inter-font font-normal">Client Satisfaction</div></div></div></div></main></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

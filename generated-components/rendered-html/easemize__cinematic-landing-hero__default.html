@@ -1,0 +1,158 @@
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="overflow-x-hidden w-[100%] min-h-screen"><div class="pin-spacer" style="order: 0; place-self: auto; grid-area: auto; z-index: auto; float: none; flex-shrink: 1; display: flex; margin: 0px; inset: 0px; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 992px; height: 7944px; padding: 0px 0px 7000px;"><div class="relative w-screen h-screen overflow-hidden flex items-center justify-center bg-background text-foreground font-sans antialiased" style="perspective: 1500px; translate: none; rotate: none; scale: none; left: 0px; top: 0.001px; margin: 0px; max-width: 992px; width: 992px; max-height: 944px; height: 944px; padding: 0px; box-sizing: border-box; position: fixed; transform: translate(0px, 0px);"><style>
+  .gsap-reveal { visibility: hidden; }
+
+  /* Environment Overlays */
+  .film-grain {
+      position: absolute; inset: 0; width: 100%; height: 100%;
+      pointer-events: none; z-index: 50; opacity: 0.05; mix-blend-mode: overlay;
+      background: url('data:image/svg+xml;utf8,<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg"><filter id="noiseFilter"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3" stitchTiles="stitch"/></filter><rect width="100%" height="100%" filter="url(%23noiseFilter)"/></svg>');
+  }
+
+  .bg-grid-theme {
+      background-size: 60px 60px;
+      background-image: 
+          linear-gradient(to right, color-mix(in srgb, var(--color-foreground) 5%, transparent) 1px, transparent 1px),
+          linear-gradient(to bottom, color-mix(in srgb, var(--color-foreground) 5%, transparent) 1px, transparent 1px);
+      mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
+      -webkit-mask-image: radial-gradient(ellipse at center, black 0%, transparent 70%);
+  }
+
+  /* -------------------------------------------------------------------
+     PHYSICAL SKEUOMORPHIC MATERIALS (Restored 3D Depth)
+  ---------------------------------------------------------------------- */
+  
+  /* OUTSIDE THE CARD: Theme-aware text (Shadow in Light Mode, Glow in Dark Mode) */
+  .text-3d-matte {
+      color: var(--color-foreground);
+      text-shadow: 
+          0 10px 30px color-mix(in srgb, var(--color-foreground) 20%, transparent), 
+          0 2px 4px color-mix(in srgb, var(--color-foreground) 10%, transparent);
+  }
+
+  .text-silver-matte {
+      background: linear-gradient(180deg, var(--color-foreground) 0%, color-mix(in srgb, var(--color-foreground) 40%, transparent) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      transform: translateZ(0); /* Hardware acceleration to prevent WebKit clipping bug */
+      filter: 
+          drop-shadow(0px 10px 20px color-mix(in srgb, var(--color-foreground) 15%, transparent)) 
+          drop-shadow(0px 2px 4px color-mix(in srgb, var(--color-foreground) 10%, transparent));
+  }
+
+  /* INSIDE THE CARD: Hardcoded Silver/White for the dark background, deep rich shadows */
+  .text-card-silver-matte {
+      background: linear-gradient(180deg, #FFFFFF 0%, #A1A1AA 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      transform: translateZ(0);
+      filter: 
+          drop-shadow(0px 12px 24px rgba(0,0,0,0.8)) 
+          drop-shadow(0px 4px 8px rgba(0,0,0,0.6));
+  }
+
+  /* Deep Physical Card with Dynamic Mouse Lighting */
+  .premium-depth-card {
+      background: linear-gradient(145deg, #162C6D 0%, #0A101D 100%);
+      box-shadow: 
+          0 40px 100px -20px rgba(0, 0, 0, 0.9),
+          0 20px 40px -20px rgba(0, 0, 0, 0.8),
+          inset 0 1px 2px rgba(255, 255, 255, 0.2),
+          inset 0 -2px 4px rgba(0, 0, 0, 0.8);
+      border: 1px solid rgba(255, 255, 255, 0.04);
+      position: relative;
+  }
+
+  .card-sheen {
+      position: absolute; inset: 0; border-radius: inherit; pointer-events: none; z-index: 50;
+      background: radial-gradient(800px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255,255,255,0.06) 0%, transparent 40%);
+      mix-blend-mode: screen; transition: opacity 0.3s ease;
+  }
+
+  /* Realistic iPhone Mockup Hardware */
+  .iphone-bezel {
+      background-color: #111;
+      box-shadow: 
+          inset 0 0 0 2px #52525B, 
+          inset 0 0 0 7px #000, 
+          0 40px 80px -15px rgba(0,0,0,0.9),
+          0 15px 25px -5px rgba(0,0,0,0.7);
+      transform-style: preserve-3d;
+  }
+
+  .hardware-btn {
+      background: linear-gradient(90deg, #404040 0%, #171717 100%);
+      box-shadow: 
+          -2px 0 5px rgba(0,0,0,0.8),
+          inset -1px 0 1px rgba(255,255,255,0.15),
+          inset 1px 0 2px rgba(0,0,0,0.8);
+      border-left: 1px solid rgba(255,255,255,0.05);
+  }
+  
+  .screen-glare {
+      background: linear-gradient(110deg, rgba(255,255,255,0.08) 0%, rgba(255,255,255,0) 45%);
+  }
+
+  .widget-depth {
+      background: linear-gradient(180deg, rgba(255,255,255,0.04) 0%, rgba(255,255,255,0.01) 100%);
+      box-shadow: 
+          0 10px 20px rgba(0,0,0,0.3),
+          inset 0 1px 1px rgba(255,255,255,0.05),
+          inset 0 -1px 1px rgba(0,0,0,0.5);
+      border: 1px solid rgba(255,255,255,0.03);
+  }
+
+  .floating-ui-badge {
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.01) 100%);
+      backdrop-filter: blur(24px); 
+      -webkit-backdrop-filter: blur(24px);
+      box-shadow: 
+          0 0 0 1px rgba(255, 255, 255, 0.1),
+          0 25px 50px -12px rgba(0, 0, 0, 0.8),
+          inset 0 1px 1px rgba(255,255,255,0.2),
+          inset 0 -1px 1px rgba(0,0,0,0.5);
+  }
+
+  /* Physical Tactile Buttons */
+  .btn-modern-light, .btn-modern-dark {
+      transition: all 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  .btn-modern-light {
+      background: linear-gradient(180deg, #FFFFFF 0%, #F1F5F9 100%);
+      color: #0F172A;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 0 2px 4px rgba(0,0,0,0.1), 0 12px 24px -4px rgba(0,0,0,0.3), inset 0 1px 1px rgba(255,255,255,1), inset 0 -3px 6px rgba(0,0,0,0.06);
+  }
+  .btn-modern-light:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.05), 0 6px 12px -2px rgba(0,0,0,0.15), 0 20px 32px -6px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,1), inset 0 -3px 6px rgba(0,0,0,0.06);
+  }
+  .btn-modern-light:active {
+      transform: translateY(1px);
+      background: linear-gradient(180deg, #F1F5F9 0%, #E2E8F0 100%);
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.1), inset 0 3px 6px rgba(0,0,0,0.1), inset 0 0 0 1px rgba(0,0,0,0.02);
+  }
+  .btn-modern-dark {
+      background: linear-gradient(180deg, #27272A 0%, #18181B 100%);
+      color: #FFFFFF;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.1), 0 2px 4px rgba(0,0,0,0.6), 0 12px 24px -4px rgba(0,0,0,0.9), inset 0 1px 1px rgba(255,255,255,0.15), inset 0 -3px 6px rgba(0,0,0,0.8);
+  }
+  .btn-modern-dark:hover {
+      transform: translateY(-3px);
+      background: linear-gradient(180deg, #3F3F46 0%, #27272A 100%);
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.15), 0 6px 12px -2px rgba(0,0,0,0.7), 0 20px 32px -6px rgba(0,0,0,1), inset 0 1px 1px rgba(255,255,255,0.2), inset 0 -3px 6px rgba(0,0,0,0.8);
+  }
+  .btn-modern-dark:active {
+      transform: translateY(1px);
+      background: #18181B;
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.05), inset 0 3px 8px rgba(0,0,0,0.9), inset 0 0 0 1px rgba(0,0,0,0.5);
+  }
+
+  .progress-ring {
+      transform: rotate(-90deg);
+      transform-origin: center;
+      stroke-dasharray: 402;
+      stroke-dashoffset: 402;
+      stroke-linecap: round;
+  }
+</style><div class="film-grain" aria-hidden="true"></div><div class="bg-grid-theme absolute inset-0 z-0 pointer-events-none opacity-50" aria-hidden="true" style="translate: none; rotate: none; scale: none; opacity: 0.5; filter: blur(0px); transform: translate3d(0px, 0px, 0px);"></div><div class="hero-text-wrapper absolute z-10 flex flex-col items-center justify-center text-center w-screen px-4 will-change-transform transform-style-3d" style="translate: none; rotate: none; scale: none; opacity: 1; filter: blur(0px); transform: translate3d(0px, 0px, 0px); visibility: inherit;"><h1 class="text-track gsap-reveal text-3d-matte text-5xl md:text-7xl lg:text-[6rem] font-bold tracking-tight mb-2" style="translate: none; rotate: none; scale: none; filter: blur(0px); transform: translate(0px, 0px); opacity: 1; visibility: inherit;">Track the journey,</h1><h1 class="text-days gsap-reveal text-silver-matte text-5xl md:text-7xl lg:text-[6rem] font-extrabold tracking-tighter" style="clip-path: inset(0px 0% 0px 0px); opacity: 1; visibility: inherit;">not just the days.</h1></div><div class="cta-wrapper absolute z-10 flex flex-col items-center justify-center text-center w-screen px-4 gsap-reveal pointer-events-auto will-change-transform" style="translate: none; rotate: none; scale: none; filter: blur(30px); transform: scale(0.8, 0.8); opacity: 0; visibility: hidden;"><h2 class="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 tracking-tight text-silver-matte">Start your recovery.</h2><p class="text-muted-foreground text-lg md:text-xl mb-12 max-w-xl mx-auto font-light leading-relaxed">Join thousands of others in the 12-step program and take control of your timeline today.</p><div class="flex flex-col sm:flex-row gap-6"><a href="#" aria-label="Download on the App Store" class="btn-modern-light flex items-center justify-center gap-3 px-8 py-4 rounded-[1.25rem] group focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"><svg class="w-8 h-8 transition-transform group-hover:scale-105" fill="currentColor" viewBox="0 0 384 512" aria-hidden="true"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path></svg><div class="text-left"><div class="text-[10px] font-bold tracking-wider text-neutral-500 uppercase mb-[-2px]">Download on the</div><div class="text-xl font-bold leading-none tracking-tight">App Store</div></div></a><a href="#" aria-label="Get it on Google Play" class="btn-modern-dark flex items-center justify-center gap-3 px-8 py-4 rounded-[1.25rem] group focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-background"><svg class="w-7 h-7 transition-transform group-hover:scale-105" fill="currentColor" viewBox="0 0 512 512" aria-hidden="true"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"></path></svg><div class="text-left"><div class="text-[10px] font-bold tracking-wider text-neutral-400 uppercase mb-[-2px]">Get it on</div><div class="text-xl font-bold leading-none tracking-tight">Google Play</div></div></a></div></div><div class="absolute inset-0 z-20 flex items-center justify-center pointer-events-none" style="perspective: 1500px;"><div class="main-card premium-depth-card relative overflow-hidden gsap-reveal flex items-center justify-center pointer-events-auto w-[92vw] md:w-[85vw] h-[92vh] md:h-[85vh] rounded-[32px] md:rounded-[40px]" style="translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit; transform: translate3d(0px, 1144px, 0px); border-radius: 40px; height: 84.9991%; width: 84.9988%;"><div class="card-sheen" aria-hidden="true"></div><div class="relative w-full h-full max-w-7xl mx-auto px-4 lg:px-12 flex flex-col justify-evenly lg:grid lg:grid-cols-3 items-center lg:gap-8 z-10 py-6 lg:py-0"><div class="card-right-text gsap-reveal order-1 lg:order-3 flex justify-center lg:justify-end z-20 w-full" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(50px, 0px) scale(0.8, 0.8);"><h2 class="text-6xl md:text-[6rem] lg:text-[8rem] font-black uppercase tracking-tighter text-card-silver-matte lg:mt-0">Sobers</h2></div><div class="mockup-scroll-wrapper order-2 lg:order-2 relative w-full h-[380px] lg:h-[600px] flex items-center justify-center z-10" style="perspective: 1000px; opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate3d(0px, 300px, -500px) rotateY(-30deg) rotateX(50deg) scale(0.6, 0.6);"><div class="relative w-full h-full flex items-center justify-center transform scale-[0.65] md:scale-85 lg:scale-100"><div class="relative w-[280px] h-[580px] rounded-[3rem] iphone-bezel flex flex-col will-change-transform transform-style-3d"><div class="absolute top-[120px] -left-[3px] w-[3px] h-[25px] hardware-btn rounded-l-md z-0" aria-hidden="true"></div><div class="absolute top-[160px] -left-[3px] w-[3px] h-[45px] hardware-btn rounded-l-md z-0" aria-hidden="true"></div><div class="absolute top-[220px] -left-[3px] w-[3px] h-[45px] hardware-btn rounded-l-md z-0" aria-hidden="true"></div><div class="absolute top-[170px] -right-[3px] w-[3px] h-[70px] hardware-btn rounded-r-md z-0 scale-x-[-1]" aria-hidden="true"></div><div class="absolute inset-[7px] bg-[#050914] rounded-[2.5rem] overflow-hidden shadow-[inset_0_0_15px_rgba(0,0,0,1)] text-white z-10"><div class="absolute inset-0 screen-glare z-40 pointer-events-none" aria-hidden="true"></div><div class="absolute top-[5px] left-1/2 -translate-x-1/2 w-[100px] h-[28px] bg-black rounded-full z-50 flex items-center justify-end px-3 shadow-[inset_0_-1px_2px_rgba(255,255,255,0.1)]"><div class="w-1.5 h-1.5 rounded-full bg-green-500 shadow-[0_0_8px_rgba(34,197,94,0.8)] animate-pulse"></div></div><div class="relative w-full h-full pt-12 px-5 pb-8 flex flex-col"><div class="phone-widget flex justify-between items-center mb-8" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.95, 0.95);"><div class="flex flex-col"><span class="text-[10px] text-neutral-400 uppercase tracking-widest font-bold mb-1">Today</span><span class="text-xl font-bold tracking-tight text-white drop-shadow-md">Journey</span></div><div class="w-9 h-9 rounded-full bg-white/5 text-neutral-200 flex items-center justify-center font-bold text-sm border border-white/10 shadow-lg shadow-black/50">JS</div></div><div class="phone-widget relative w-44 h-44 mx-auto flex items-center justify-center mb-8 drop-shadow-[0_15px_25px_rgba(0,0,0,0.8)]" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.95, 0.95);"><svg class="absolute inset-0 w-full h-full" aria-hidden="true"><circle cx="88" cy="88" r="64" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="12"></circle><circle class="progress-ring" cx="88" cy="88" r="64" fill="none" stroke="#3B82F6" stroke-width="12" style="stroke-dashoffset: 402px;"></circle></svg><div class="text-center z-10 flex flex-col items-center"><span class="counter-val text-4xl font-extrabold tracking-tighter text-white">0</span><span class="text-[8px] text-blue-200/50 uppercase tracking-[0.1em] font-bold mt-0.5">Days Sober</span></div></div><div class="space-y-3"><div class="phone-widget widget-depth rounded-2xl p-3 flex items-center" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.95, 0.95);"><div class="w-10 h-10 rounded-xl bg-gradient-to-br from-blue-500/20 to-blue-600/5 flex items-center justify-center mr-3 border border-blue-400/20 shadow-inner"><svg class="w-4 h-4 text-blue-400 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg></div><div class="flex-1"><div class="h-2 w-20 bg-neutral-300 rounded-full mb-2 shadow-inner"></div><div class="h-1.5 w-12 bg-neutral-600 rounded-full shadow-inner"></div></div></div><div class="phone-widget widget-depth rounded-2xl p-3 flex items-center" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(0px, 40px) scale(0.95, 0.95);"><div class="w-10 h-10 rounded-xl bg-gradient-to-br from-emerald-500/20 to-emerald-600/5 flex items-center justify-center mr-3 border border-emerald-400/20 shadow-inner"><svg class="w-4 h-4 text-emerald-400 drop-shadow-md" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg></div><div class="flex-1"><div class="h-2 w-16 bg-neutral-300 rounded-full mb-2 shadow-inner"></div><div class="h-1.5 w-24 bg-neutral-600 rounded-full shadow-inner"></div></div></div></div><div class="absolute bottom-2 left-1/2 -translate-x-1/2 w-[120px] h-[4px] bg-white/20 rounded-full shadow-[0_1px_2px_rgba(0,0,0,0.5)]"></div></div></div></div><div class="floating-badge absolute flex top-6 lg:top-12 left-[-15px] lg:left-[-80px] floating-ui-badge rounded-xl lg:rounded-2xl p-3 lg:p-4 items-center gap-3 lg:gap-4 z-30" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(0px, 100px) rotate(-10deg) scale(0.7, 0.7);"><div class="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-b from-blue-500/20 to-blue-900/10 flex items-center justify-center border border-blue-400/30 shadow-inner"><span class="text-base lg:text-xl drop-shadow-lg" aria-hidden="true">🔥</span></div><div><p class="text-white text-xs lg:text-sm font-bold tracking-tight">1 Year Streak</p><p class="text-blue-200/50 text-[10px] lg:text-xs font-medium">Milestone unlocked</p></div></div><div class="floating-badge absolute flex bottom-12 lg:bottom-20 right-[-15px] lg:right-[-80px] floating-ui-badge rounded-xl lg:rounded-2xl p-3 lg:p-4 items-center gap-3 lg:gap-4 z-30" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(0px, 100px) rotate(-10deg) scale(0.7, 0.7);"><div class="w-8 h-8 lg:w-10 lg:h-10 rounded-full bg-gradient-to-b from-indigo-500/20 to-indigo-900/10 flex items-center justify-center border border-indigo-400/30 shadow-inner"><span class="text-base lg:text-lg drop-shadow-lg" aria-hidden="true">🤝</span></div><div><p class="text-white text-xs lg:text-sm font-bold tracking-tight">Sponsor Update</p><p class="text-blue-200/50 text-[10px] lg:text-xs font-medium">Shared successfully</p></div></div></div></div><div class="card-left-text gsap-reveal order-3 lg:order-1 flex flex-col justify-center text-center lg:text-left z-20 w-full lg:max-w-none px-4 lg:px-0" style="opacity: 0; visibility: hidden; translate: none; rotate: none; scale: none; transform: translate(-50px, 0px);"><h3 class="text-white text-2xl md:text-3xl lg:text-4xl font-bold mb-0 lg:mb-5 tracking-tight">Accountability, redefined.</h3><p class="hidden md:block text-blue-100/70 text-sm md:text-base lg:text-lg font-normal leading-relaxed mx-auto lg:mx-0 max-w-sm lg:max-w-none"><span class="text-white font-semibold">Sobers</span> empowers sponsors and sponsees in 12-step recovery programs with structured accountability, precise sobriety tracking, and beautiful visual timelines.</p></div></div></div></div></div></div></div></div></div></div>

@@ -1,0 +1,57 @@
+# Build Api Rate Limiting Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Api Rate Limiting Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `erikx`
+- Component: `api-rate-limiting-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: erikx
+- Component slug: api-rate-limiting-card
+- Demo slug: default
+- Title: api-rate-limiting-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative flex flex-col justify-between overflow-hidden h-[28rem] w-full max-w-[350px] space-y-4 rounded-md border border-neutral-800/50 bg-neutral-950"><div class="absolute inset-x-0 top-10 flex h-48 items-center justify-center"><div class="relative flex h-full w-full items-center justify-center"><div class="z-10 flex size-20 items-center justify-center rounded-full border border-neutral-700 bg-neutral-900 shadow-lg" style="border-color: rgba(52, 211, 153, 0.5);"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="size-8 text-neutral-400" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="3"></circle><path d="M4.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-.5"></path><path d="M4.5 14H4a2 2 0 0 0-2 2v4a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-4a2 2 0 0 0-2-2h-.5"></path><path d="M6 6h.01"></path><path d="M6 18h.01"></path><path d="m15.7 13.4-.9-.3"></path><path d="m9.2 10.9-.9-.3"></path><path d="m10.6 15.7.3-.9"></path><path d="m13.6 15.7-.4-1"></path><path d="m10.8 9.3-.4-1"></path><path d="m8.3 13.6 1-.4"></path><path d="m14.7 10.8 1-.4"></path><path d="m13.4 8.3-.3.9"></path></svg></div><div class="absolute left-1/2 top-1/2 size-2 rounded-full bg-emerald-500" style="transform: translateX(-50.1521px) translateY(3.55236px); opacity: 0;"></div><div class="absolute left-1/2 top-1/2 size-2 rounded-full bg-emerald-500" style="transform: translateX(-104.771px) translateY(34.7303px); opacity: 0;"></div><div class="absolute left-1/2 top-1/2 size-2 rounded-full bg-emerald-500" style="transform: translateX(-120px) translateY(19.9273px); opacity: 0;"></div><div class="absolute left-1/2 top-1/2 size-2 rounded-full bg-emerald-500" style="transform: translateX(-120px) translateY(-3.47903px); opacity: 0;"></div><div class="absolute left-1/2 top-1/2 size-2 rounded-full bg-emerald-500" style="transform: translateX(-120px) translateY(13.0827px); opacity: 0;"></div><div class="absolute flex items-center justify-center" style="opacity: 0; transform: scale(0.8);"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" class="size-32 text-red-500/50" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M20.618 5.984A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016zM12 9v2m0 4h.01"></path></svg></div></div></div><div class="absolute bottom-0 w-full px-4 pb-4"><div class="flex items-center gap-2"><div style="color: rgb(16, 185, 129);"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" aria-hidden="true" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg></div><p class="text-xs font-medium" style="color: rgb(16, 185, 129);">All Systems Normal</p></div><div class="mt-3 text-sm font-semibold text-white">API Rate Limiting</div><div class="mt-2 text-xs text-neutral-400">Protect your services from abuse by monitoring incoming traffic and automatically throttling requests that exceed defined limits.</div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

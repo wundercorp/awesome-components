@@ -1,0 +1,57 @@
+# Build Dynamic Hero in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Dynamic Hero screenshot](screenshot.png)
+
+## Component
+
+- Author group: `easemize`
+- Component: `dynamic-hero`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: easemize
+- Component slug: dynamic-hero
+- Demo slug: default
+- Title: dynamic-hero
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div><div class="bg-background text-foreground min-h-screen flex flex-col"><nav class="w-full max-w-screen-md mx-auto flex flex-wrap justify-center sm:justify-between items-center px-4 sm:px-8 py-4 text-sm"><button type="button" class="py-2 px-3 sm:px-4 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent/10 dark:hover:bg-accent/20 focus:outline-none focus:ring-2 focus:ring-ring transition-colors duration-150 ease-in-out whitespace-nowrap">Home</button><a href="#about-section" class="py-2 px-3 sm:px-4 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent/10 dark:hover:bg-accent/20 focus:outline-none focus:ring-2 focus:ring-ring transition-colors duration-150 ease-in-out whitespace-nowrap">About</a><button type="button" class="py-2 px-3 sm:px-4 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent/10 dark:hover:bg-accent/20 focus:outline-none focus:ring-2 focus:ring-ring transition-colors duration-150 ease-in-out whitespace-nowrap">Pricing</button><button type="button" class="py-2 px-3 sm:px-4 rounded-md text-muted-foreground hover:text-foreground hover:bg-accent/10 dark:hover:bg-accent/20 focus:outline-none focus:ring-2 focus:ring-ring transition-colors duration-150 ease-in-out whitespace-nowrap">Get Started</button></nav><main class="flex-grow flex flex-col items-center justify-center"><div class="mt-12 sm:mt-16 lg:mt-24 flex flex-col items-center"><h1 class="text-3xl sm:text-4xl lg:text-5xl font-medium text-center px-4">Dynamic Design, Direct Action</h1><p class="mt-3 block text-muted-foreground text-center text-base sm:text-lg px-4 max-w-xl">Experience a hero section that not only looks great but actively leads your audience. Get started with a click.</p></div><div class="mt-8 flex justify-center"><button class="py-2 px-4 rounded-xl border border-foreground/50 hover:border-foreground/80 text-foreground transition-colors focus:outline-none focus:ring-2 focus:ring-ring">Learn More</button></div><div class="mt-12 lg:mt-16 w-full max-w-screen-sm mx-auto overflow-hidden px-4 sm:px-2"><div class="bg-border rounded-[2rem] p-[0.25rem]"><div class="relative h-64 sm:h-72 md:h-80 lg:h-96 rounded-[1.75rem] bg-card flex items-center justify-center overflow-hidden"><img alt="Preview" class="absolute inset-0 w-full h-full object-cover transition-opacity duration-300 opacity-100" src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bGFuZHNjYXBlfGVufDB8fDB8fHww&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"><video src="https://www.w3schools.com/html/mov_bbb.mp4" playsinline="" class="w-full h-full object-cover transition-opacity duration-300 opacity-0 pointer-events-none"></video><button class="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 z-20 p-2 sm:p-3 bg-accent/30 hover:bg-accent/50 text-accent-foreground backdrop-blur-sm rounded-full transition-colors focus:outline-none focus:ring-2 focus:ring-ring" aria-label="Play video"><svg class="w-4 h-4 sm:w-5 sm:h-6" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M8 5V19L19 12L8 5Z"></path></svg></button></div></div></div></main><div class="h-12 sm:h-16 md:h-24"></div><canvas class="fixed inset-0 pointer-events-none z-10" width="992" height="944"></canvas></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,101 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/erikx/3d-interactive-navbar/default
+- Registry URL: https://21st.dev/r/erikx/3d-interactive-navbar
+- Author: erikx
+- Component slug: 3d-interactive-navbar
+- Demo slug: default
+- Title: 3d-interactive-navbar
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/erikx/3d-interactive-navbar with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/erikx__3d-interactive-navbar__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/erikx__3d-interactive-navbar__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div> <nav class="w-full bg-black text-white border border-neutral-800"><div class="grid grid-cols-[1fr_auto] md:grid-cols-[auto_auto_1fr_auto] items-center h-20"><div class="px-4 md:px-10 h-full flex items-center border-r border-neutral-800"><a href="/" class="flex items-center"><svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="8" y="8" width="16" height="16" rx="2" stroke="white" stroke-width="2"></rect><path d="M13 16L15 18L19 14" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg><span class="ml-3 font-bold text-lg tracking-wide">UI KIT</span></a></div><div class="px-4 h-full flex md:hidden items-center justify-end"><button class="flex items-center justify-center w-10 h-10 rounded-full bg-neutral-900" aria-label="Open menu"><svg width="18" height="12" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 1H17" stroke="white" stroke-width="1.5" stroke-linecap="round"></path><path d="M1 6H17" stroke="white" stroke-width="1.5" stroke-linecap="round"></path><path d="M1 11H17" stroke="white" stroke-width="1.5" stroke-linecap="round"></path></svg></button></div><div class="border-r border-neutral-800 h-full hidden md:block"><div class="relative h-full z-50 border-neutral-800"><style>
+        .components-button {
+          position: relative; /* Needed for pseudo-element positioning */
+          overflow: hidden; /* Hides the grid pseudo-element outside the button boundaries */
+          /* Existing styles */
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding-left: 2.5rem; /* px-10 */
+          padding-right: 2.5rem; /* px-10 */
+          min-width: 180px;
+          max-width: 180px;
+          /* Add transition for text color */
+          transition: color 0.3s ease;
+        }
+
+        .components-button::before {
+          content: '';
+          position: absolute;
+          inset: 0; /* Cover the entire button */
+          background-image: radial-gradient(circle, #444 1px, transparent 1px); /* Tiny grey dots */
+          background-size: 8px 8px; /* Spacing of the dots */
+          opacity: 0; /* Initially hidden */
+          transition: opacity 0.4s ease-in-out; /* Fade animation */
+          z-index: 0; /* Ensure it's behind the text and white overlay */
+          pointer-events: none; /* Allow clicks to pass through */
+        }
+
+        /* State when the dotted grid should be visible */
+        .components-button.dotted-grid-active::before {
+          opacity: 1;
+        }
+
+        /* Content wrapper to ensure text is above pseudo-element */
+        .components-button-content {
+           position: relative;
+           z-index: 2; /* Ensure content is above pseudo-element (z-index 0) and white overlay (z-index 1) */
+           width: 100%;
+           display: flex;
+           align-items: center;
+           justify-content: center;
+        }
+        
+        /* Text color change based on dropdown state */
+        .components-button-content span {
+             color: white; /* Default color */
+             transition: color 0.3s ease;
+        }
+
+        .components-button.dropdown-open .components-button-content span {
+             color: black; /* Color when dropdown is open */
+        }
+
+      </style><button class="components-button  "><div class="components-button-content"> <div class="text-xs font-medium tracking-wider"> <span>COMPONENTS</span></div></div></button></div></div><div class="hidden md:flex items-center h-full pl-10"><div class="grid grid-flow-col auto-cols-auto gap-x-10"><a href="/" class="relative py-2 text-xs font-medium tracking-wider text-white/70 transition-colors hover:text-white/100"><span class="inline-block relative" style="width: 4ch;"><span class="font-medium">HOME</span></span></a><a href="/docs" class="relative py-2 text-xs font-medium tracking-wider text-white/70 transition-colors hover:text-white/100"><span class="inline-block relative" style="width: 4ch;"><span class="font-medium">DOCS</span></span></a><a href="/examples" class="relative py-2 text-xs font-medium tracking-wider text-white/70 transition-colors hover:text-white/100"><span class="inline-block relative" style="width: 8ch;"><span class="font-medium">EXAMPLES</span></span></a><a href="/templates" class="relative py-2 text-xs font-medium tracking-wider text-white/70 transition-colors hover:text-white/100"><span class="inline-block relative" style="width: 9ch;"><span class="font-medium">TEMPLATES</span></span></a><a href="/blog" class="relative py-2 text-xs font-medium tracking-wider text-white/70 transition-colors hover:text-white/100"><span class="inline-block relative" style="width: 4ch;"><span class="font-medium">BLOG</span></span></a><a href="/github" class="relative py-2 text-xs font-medium tracking-wider text-white/70 transition-colors hover:text-white/100"><span class="inline-block relative" style="width: 6ch;"><span class="font-medium">GITHUB</span></span></a></div></div></div></nav><section class="bg-black text-white min-h-screen flex items-center"><div class="container mx-auto px-4 md:px-6 lg:px-8 py-20"><div class="grid grid-cols-1 lg:grid-cols-2 gap-x-12 gap-y-16 items-center"><div><h1 class="text-5xl md:text-7xl lg:text-8xl font-light tracking-tight leading-[0.9]" style="opacity: 1; transform: none;">Navbar<br>With Interactive<br>3D Element</h1></div><div><p class="text-lg md:text-xl font-light text-white/80 mb-8" style="opacity: 1; transform: none;">A sophisticated, interactive navbar with 3D effects powered by Three.js and React Three Fiber. Features smooth animations, hover effects, and responsive design. Includes custom card components with reflective materials and dynamic lighting.</p><div style="opacity: 1; transform: none;"><a href="/contact" class="inline-flex items-center px-6 py-3 border border-white/20 bg-white/5 hover:bg-white/10 backdrop-blur-sm transition-colors rounded-md"><span class="mr-2">Learn more</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 12H19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M12 5L19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></a></div></div></div></div></section></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

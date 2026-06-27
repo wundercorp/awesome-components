@@ -8,8 +8,9 @@ Browse components by author bucket, then by author, then by component.
 | [a](a/README.md) | 39 | 807 |
 | [b](b/README.md) | 20 | 202 |
 | [c](c/README.md) | 15 | 279 |
-| [d](d/README.md) | 14 | 163 |
-| [e](e/README.md) | 4 | 12 |
+| [d](d/README.md) | 20 | 197 |
+| [e](e/README.md) | 12 | 306 |
+| [f](f/README.md) | 4 | 107 |
 | [j](j/README.md) | 1 | 2 |
 | [k](k/README.md) | 4 | 31 |
 | [m](m/README.md) | 2 | 8 |

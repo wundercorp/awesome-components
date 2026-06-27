@@ -1,0 +1,84 @@
+# Build Stats 4 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Stats 4 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ephraimduncan`
+- Component: `stats-4`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ephraimduncan
+- Component slug: stats-4
+- Demo slug: default
+- Title: stats-4
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex justify-center items-center h-screen bg-gray-50 dark:bg-gray-900"><div class="flex items-center justify-center p-10 w-full"><dl class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 w-full"><div class="rounded-xl border bg-card text-card-foreground shadow p-0"><div class="p-4 pb-0"><div><dt class="text-sm font-medium text-foreground">Alpha Corp <span class="font-normal text-muted-foreground">(ACP)</span></dt><div class="flex items-baseline justify-between"><dd class="text-green-600 dark:text-green-500 text-lg font-semibold">$168.59</dd><dd class="flex items-center space-x-1 text-sm"><span class="font-medium text-foreground">+15.86</span><span class="text-green-600 dark:text-green-500">(+10.4%)</span></dd></div></div><div class="mt-2 h-16 overflow-hidden"><div data-slot="chart" data-chart="chart-«r0»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden w-full h-full"><style>
+ [data-chart=chart-«r0»] {
+  --color-Alpha Corp: hsl(142.1 76.2% 36.3%);
+}
+
+
+.dark [data-chart=chart-«r0»] {
+  --color-Alpha Corp: hsl(142.1 76.2% 36.3%);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 64px; max-width: 410px;"><svg class="recharts-surface" width="410" height="64" viewBox="0 0 410 64" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="54" width="400"></rect></clipPath></defs><defs><linearGradient id="gradient-alpha_corp" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stop-color="hsl(142.1 76.2% 36.3%)" stop-opacity="0.3"></stop><stop offset="95%" stop-color="hsl(142.1 76.2% 36.3%)" stop-opacity="0"></stop></linearGradient></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><defs><clipPath id="animationClipPath-recharts-area-3"><rect x="5" y="0" width="400" height="60"></rect></clipPath></defs><g class="recharts-layer" clip-path="url(#animationClipPath-recharts-area-3)"><g class="recharts-layer"><path fill="url(#gradient-alpha_corp)" fill-opacity="0.4" stroke-width="1.5" width="400" height="54" stroke="none" class="recharts-curve recharts-area-area" d="M5,16.139C14.524,15.215,24.048,14.291,33.571,13.571C43.095,12.85,52.619,12.392,62.143,11.816C71.667,11.241,81.19,10.118,90.714,10.118C100.238,10.118,109.762,13.32,119.286,14.489C128.81,15.658,138.333,17.132,147.857,17.132C157.381,17.132,166.905,15.251,176.429,15.251C185.952,15.251,195.476,16.704,205,17.513C214.524,18.323,224.048,19.185,233.571,20.108C243.095,21.032,252.619,23.054,262.143,23.054C271.667,23.054,281.19,21.308,290.714,20.438C300.238,19.569,309.762,17.837,319.286,17.837C328.81,17.837,338.333,18.596,347.857,18.596C357.381,18.596,366.905,14.877,376.429,13.181C385.952,11.486,395.476,9.954,405,8.423L405,59C395.476,59,385.952,59,376.429,59C366.905,59,357.381,59,347.857,59C338.333,59,328.81,59,319.286,59C309.762,59,300.238,59,290.714,59C281.19,59,271.667,59,262.143,59C252.619,59,243.095,59,233.571,59C224.048,59,214.524,59,205,59C195.476,59,185.952,59,176.429,59C166.905,59,157.381,59,147.857,59C138.333,59,128.81,59,119.286,59C109.762,59,100.238,59,90.714,59C81.19,59,71.667,59,62.143,59C52.619,59,43.095,59,33.571,59C24.048,59,14.524,59,5,59Z"></path><path stroke="hsl(142.1 76.2% 36.3%)" fill="none" fill-opacity="0.4" stroke-width="1.5" width="400" height="54" class="recharts-curve recharts-area-curve" d="M5,16.139C14.524,15.215,24.048,14.291,33.571,13.571C43.095,12.85,52.619,12.392,62.143,11.816C71.667,11.241,81.19,10.118,90.714,10.118C100.238,10.118,109.762,13.32,119.286,14.489C128.81,15.658,138.333,17.132,147.857,17.132C157.381,17.132,166.905,15.251,176.429,15.251C185.952,15.251,195.476,16.704,205,17.513C214.524,18.323,224.048,19.185,233.571,20.108C243.095,21.032,252.619,23.054,262.143,23.054C271.667,23.054,281.19,21.308,290.714,20.438C300.238,19.569,309.762,17.837,319.286,17.837C328.81,17.837,338.333,18.596,347.857,18.596C357.381,18.596,366.905,14.877,376.429,13.181C385.952,11.486,395.476,9.954,405,8.423"></path></g></g></g></g></svg></div></div></div></div></div></div><div class="rounded-xl border bg-card text-card-foreground shadow p-0"><div class="p-4 pb-0"><div><dt class="text-sm font-medium text-foreground">Beta Solutions <span class="font-normal text-muted-foreground">(BTS)</span></dt><div class="flex items-baseline justify-between"><dd class="text-green-600 dark:text-green-500 text-lg font-semibold">$78.54</dd><dd class="flex items-center space-x-1 text-sm"><span class="font-medium text-foreground">+4.65</span><span class="text-green-600 dark:text-green-500">(+6.3%)</span></dd></div></div><div class="mt-2 h-16 overflow-hidden"><div data-slot="chart" data-chart="chart-«r1»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden w-full h-full"><style>
+ [data-chart=chart-«r1»] {
+  --color-Beta Solutions: hsl(142.1 76.2% 36.3%);
+}
+
+
+.dark [data-chart=chart-«r1»] {
+  --color-Beta Solutions: hsl(142.1 76.2% 36.3%);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 64px; max-width: 410px;"><svg class="recharts-surface" width="410" height="64" viewBox="0 0 410 64" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts4-clip"><rect x="5" y="5" height="54" width="400"></rect></clipPath></defs><defs><linearGradient id="gradient-beta_solutions" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stop-color="hsl(142.1 76.2% 36.3%)" stop-opacity="0.3"></stop><stop offset="95%" stop-color="hsl(142.1 76.2% 36.3%)" stop-opacity="0"></stop></linearGradient></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><defs><clipPath id="animationClipPath-recharts-area-6"><rect x="5" y="0" width="400" height="60"></rect></clipPath></defs><g class="recharts-layer" clip-path="url(#animationClipPath-recharts-area-6)"><g class="recharts-layer"><path fill="url(#gradient-beta_solutions)" fill-opacity="0.4" stroke-width="1.5" width="400" height="54" stroke="none" class="recharts-curve recharts-area-area" d="M5,14.909C14.524,16.779,24.048,18.649,33.571,18.649C43.095,18.649,52.619,15.658,62.143,15.658C71.667,15.658,81.19,18.596,90.714,20.214C100.238,21.833,109.762,25.371,119.286,25.371C128.81,25.371,138.333,22.738,147.857,21.45C157.381,20.162,166.905,19.14,176.429,17.643C185.952,16.145,195.476,13.961,205,12.465C214.524,10.97,224.048,8.672,233.571,8.672C243.095,8.672,252.619,9.625,262.143,10.819C271.667,12.012,281.19,14.381,290.714,15.834C300.238,17.286,309.762,19.533,319.286,19.533C328.81,19.533,338.333,14.079,347.857,12.344C357.381,10.609,366.905,10.184,376.429,9.124C385.952,8.064,395.476,7.025,405,5.985L405,59C395.476,59,385.952,59,376.429,59C366.905,59,357.381,59,347.857,59C338.333,59,328.81,59,319.286,59C309.762,59,300.238,59,290.714,59C281.19,59,271.667,59,262.143,59C252.619,59,243.095,59,233.571,59C224.048,59,214.524,59,205,59C195.476,59,185.952,59,176.429,59C166.905,59,157.381,59,147.857,59C138.333,59,128.81,59,119.286,59C109.762,59,100.238,59,90.714,59C81.19,59,71.667,59,62.143,59C52.619,59,43.095,59,33.571,59C24.048,59,14.524,59,5,59Z"></path><path stroke="hsl(142.1 76.2% 36.3%)" fill="none" fill-opacity="0.4" stroke-width="1.5" width="400" height="54" class="recharts-curve recharts-area-curve" d="M5,14.909C14.524,16.779,24.048,18.649,33.571,18.649C43.095,18.649,52.619,15.658,62.143,15.658C71.667,15.658,81.19,18.596,90.714,20.214C100.238,21.833,109.762,25.371,119.286,25.371C128.81,25.371,138.333,22.738,147.857,21.45C157.381,20.162,166.905,19.14,176.429,17.643C185.952,16.145,195.476,13.961,205,12.465C214.524,10.97,224.048,8.672,233.571,8.672C243.095,8.672,252.619,9.625,262.143,10.819C271.667,12.012,281.19,14.381,290.714,15.834C300.238,17.286,309.762,19.533,319.286,19.533C328.81,19.533,338.333,14.079,347.857,12.344C357.381,10.609,366.905,10.184,376.429,9.124C385.952,8.064,395.476,7.025,405,5.985"></path></g></g></g></g></svg></div></div></div></div></div></div><div class="rounded-xl border bg-card text-card-foreground shadow p-0"><div class="p-4 pb-0"><div><dt class="text-sm font-medium text-foreground">Gamma Industries <span class="font-normal text-muted-foreground">(GMI)</span></dt><div class="flex items-baseline justify-between"><dd class="text-red-600 dark:text-red-500 text-lg font-semibold">$75.68</dd><dd class="flex items-center space-x-1 text-sm"><span class="font-medium text-foreground">-5.74</span><span class="text-red-600 dark:text-red-500">(-7.1%)</span></dd></div></div><div class="mt-2 h-16 overflow-hidden"><div data-slot="chart" data-chart="chart-«r2»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden w-full h-full"><style>
+ [data-chart=chart-«r2»] {
+  --color-Gamma Industries: hsl(0 72.2% 50.6%);
+}
+
+
+.dark [data-chart=chart-«r2»] {
+  --color-Gamma Industries: hsl(0 72.2% 50.6%);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 64px; max-width: 410px;"><svg class="recharts-surface" width="410" height="64" viewBox="0 0 410 64" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts7-clip"><rect x="5" y="5" height="54" width="400"></rect></clipPath></defs><defs><linearGradient id="gradient-gamma_industries" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stop-color="hsl(0 72.2% 50.6%)" stop-opacity="0.3"></stop><stop offset="95%" stop-color="hsl(0 72.2% 50.6%)" stop-opacity="0"></stop></linearGradient></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><defs><clipPath id="animationClipPath-recharts-area-9"><rect x="5" y="0" width="400" height="60"></rect></clipPath></defs><g class="recharts-layer" clip-path="url(#animationClipPath-recharts-area-9)"><g class="recharts-layer"><path fill="url(#gradient-gamma_industries)" fill-opacity="0.4" stroke-width="1.5" width="400" height="54" stroke="none" class="recharts-curve recharts-area-area" d="M5,14.045C14.524,14.702,24.048,15.359,33.571,15.994C43.095,16.63,52.619,17.245,62.143,17.857C71.667,18.469,81.19,19.666,90.714,19.666C100.238,19.666,109.762,16.716,119.286,14.958C128.81,13.199,138.333,9.115,147.857,9.115C157.381,9.115,166.905,11.075,176.429,11.075C185.952,11.075,195.476,9.312,205,8.553C214.524,7.794,224.048,6.523,233.571,6.523C243.095,6.523,252.619,10.708,262.143,10.708C271.667,10.708,281.19,8.91,290.714,8.91C300.238,8.91,309.762,12.279,319.286,13.483C328.81,14.688,338.333,16.135,347.857,16.135C357.381,16.135,366.905,15.033,376.429,15.033C385.952,15.033,395.476,16.583,405,18.133L405,59C395.476,59,385.952,59,376.429,59C366.905,59,357.381,59,347.857,59C338.333,59,328.81,59,319.286,59C309.762,59,300.238,59,290.714,59C281.19,59,271.667,59,262.143,59C252.619,59,243.095,59,233.571,59C224.048,59,214.524,59,205,59C195.476,59,185.952,59,176.429,59C166.905,59,157.381,59,147.857,59C138.333,59,128.81,59,119.286,59C109.762,59,100.238,59,90.714,59C81.19,59,71.667,59,62.143,59C52.619,59,43.095,59,33.571,59C24.048,59,14.524,59,5,59Z"></path><path stroke="hsl(0 72.2% 50.6%)" fill="none" fill-opacity="0.4" stroke-width="1.5" width="400" height="54" class="recharts-curve recharts-area-curve" d="M5,14.045C14.524,14.702,24.048,15.359,33.571,15.994C43.095,16.63,52.619,17.245,62.143,17.857C71.667,18.469,81.19,19.666,90.714,19.666C100.238,19.666,109.762,16.716,119.286,14.958C128.81,13.199,138.333,9.115,147.857,9.115C157.381,9.115,166.905,11.075,176.429,11.075C185.952,11.075,195.476,9.312,205,8.553C214.524,7.794,224.048,6.523,233.571,6.523C243.095,6.523,252.619,10.708,262.143,10.708C271.667,10.708,281.19,8.91,290.714,8.91C300.238,8.91,309.762,12.279,319.286,13.483C328.81,14.688,338.333,16.135,347.857,16.135C357.381,16.135,366.905,15.033,376.429,15.033C385.952,15.033,395.476,16.583,405,18.133"></path></g></g></g></g></svg></div></div></div></div></div></div></dl></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

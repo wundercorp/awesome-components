@@ -1,6 +1,6 @@
 # Dhiluxui Components
 
-76 components are available in this author group.
+101 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -82,3 +82,28 @@
 | [![Mountain Scene](mountain-scene/default/screenshot.png)](mountain-scene/default/README.md) | [Mountain Scene](mountain-scene/default/README.md) | `default` |
 | [![Mountain Vista Bg](mountain-vista-bg/default/screenshot.png)](mountain-vista-bg/default/README.md) | [Mountain Vista Bg](mountain-vista-bg/default/README.md) | `default` |
 | [![Music Player Card](music-player-card/default/screenshot.png)](music-player-card/default/README.md) | [Music Player Card](music-player-card/default/README.md) | `default` |
+| [![Neno Shader](neno-shader/default/screenshot.png)](neno-shader/default/README.md) | [Neno Shader](neno-shader/default/README.md) | `default` |
+| [![Neon Loader](neon-loader/default/screenshot.png)](neon-loader/default/README.md) | [Neon Loader](neon-loader/default/README.md) | `default` |
+| [![Neumorphism Player](neumorphism-player/default/screenshot.png)](neumorphism-player/default/README.md) | [Neumorphism Player](neumorphism-player/default/README.md) | `default` |
+| [![Neurons Hero](neurons-hero/default/screenshot.png)](neurons-hero/default/README.md) | [Neurons Hero](neurons-hero/default/README.md) | `default` |
+| [![Particle Text Canvas](particle-text-canvas/default/screenshot.png)](particle-text-canvas/default/README.md) | [Particle Text Canvas](particle-text-canvas/default/README.md) | `default` |
+| [![Pixel Rocket Voyager](pixel-rocket-voyager/default/screenshot.png)](pixel-rocket-voyager/default/README.md) | [Pixel Rocket Voyager](pixel-rocket-voyager/default/README.md) | `default` |
+| [![Poor Ghost](poor-ghost/default/screenshot.png)](poor-ghost/default/README.md) | [Poor Ghost](poor-ghost/default/README.md) | `default` |
+| [![Pricing For Teams](pricing-for-teams/default/screenshot.png)](pricing-for-teams/default/README.md) | [Pricing For Teams](pricing-for-teams/default/README.md) | `default` |
+| [![Pulse Fit Hero](pulse-fit-hero/default/screenshot.png)](pulse-fit-hero/default/README.md) | [Pulse Fit Hero](pulse-fit-hero/default/README.md) | `default` |
+| [![Quantum Grid Hero](quantum-grid-hero/default/screenshot.png)](quantum-grid-hero/default/README.md) | [Quantum Grid Hero](quantum-grid-hero/default/README.md) | `default` |
+| [![Retrying](retrying/default/screenshot.png)](retrying/default/README.md) | [Retrying](retrying/default/README.md) | `default` |
+| [![Rhythmic Ripples Background](rhythmic-ripples-background/default/screenshot.png)](rhythmic-ripples-background/default/README.md) | [Rhythmic Ripples Background](rhythmic-ripples-background/default/README.md) | `default` |
+| [![Rocket Loader](rocket-loader/default/screenshot.png)](rocket-loader/default/README.md) | [Rocket Loader](rocket-loader/default/README.md) | `default` |
+| [![Scale Without Limits](scale-without-limits/default/screenshot.png)](scale-without-limits/default/README.md) | [Scale Without Limits](scale-without-limits/default/README.md) | `default` |
+| [![Scrapbook Bento Grid](scrapbook-bento-grid/default/screenshot.png)](scrapbook-bento-grid/default/README.md) | [Scrapbook Bento Grid](scrapbook-bento-grid/default/README.md) | `default` |
+| [![Sdf Dreamscape](sdf-dreamscape/default/screenshot.png)](sdf-dreamscape/default/README.md) | [Sdf Dreamscape](sdf-dreamscape/default/README.md) | `default` |
+| [![Sketchbook Reveal Card](sketchbook-reveal-card/default/screenshot.png)](sketchbook-reveal-card/default/README.md) | [Sketchbook Reveal Card](sketchbook-reveal-card/default/README.md) | `default` |
+| [![Spiral Shader](spiral-shader/default/screenshot.png)](spiral-shader/default/README.md) | [Spiral Shader](spiral-shader/default/README.md) | `default` |
+| [![Spotlight Background](spotlight-background/default/screenshot.png)](spotlight-background/default/README.md) | [Spotlight Background](spotlight-background/default/README.md) | `default` |
+| [![Tech Solutions Hero Section](tech-solutions-hero-section/default/screenshot.png)](tech-solutions-hero-section/default/README.md) | [Tech Solutions Hero Section](tech-solutions-hero-section/default/README.md) | `default` |
+| [![Testimonial Card](testimonial-card/default/screenshot.png)](testimonial-card/default/README.md) | [Testimonial Card](testimonial-card/default/README.md) | `default` |
+| [![Text Effect](text-effect/default/screenshot.png)](text-effect/default/README.md) | [Text Effect](text-effect/default/README.md) | `default` |
+| [![Transparent Pricing For Startups](transparent-pricing-for-startups/default/screenshot.png)](transparent-pricing-for-startups/default/README.md) | [Transparent Pricing For Startups](transparent-pricing-for-startups/default/README.md) | `default` |
+| [![Warp Drive Shader](warp-drive-shader/default/screenshot.png)](warp-drive-shader/default/README.md) | [Warp Drive Shader](warp-drive-shader/default/README.md) | `default` |
+| [![Woven Light Hero](woven-light-hero/default/screenshot.png)](woven-light-hero/default/README.md) | [Woven Light Hero](woven-light-hero/default/README.md) | `default` |

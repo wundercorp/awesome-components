@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ephraimduncan/file-upload-1/default
+- Registry URL: https://21st.dev/r/ephraimduncan/file-upload-1
+- Author: ephraimduncan
+- Component slug: file-upload-1
+- Demo slug: default
+- Title: file-upload-1
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ephraimduncan/file-upload-1 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ephraimduncan__file-upload-1__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ephraimduncan__file-upload-1__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="sm:mx-auto sm:max-w-lg flex items-center justify-center p-10 w-full max-w-lg"><form><h3 class="text-lg font-semibold text-foreground">File Upload</h3><div class="mt-4 flex justify-center space-x-4 rounded-md border border-dashed border-input px-6 py-10"><div class="sm:flex sm:items-center sm:gap-x-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-upload mx-auto h-8 w-8 text-muted-foreground sm:mx-0 sm:h-6 sm:w-6" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" x2="12" y1="3" y2="15"></line></svg><div class="mt-4 flex text-sm leading-6 text-foreground sm:mt-0"><label class="text-sm leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 relative cursor-pointer rounded-sm pl-1 font-medium text-primary hover:underline hover:underline-offset-4" for="file-upload-4"><span> Drag and drop or choose file to upload </span><input id="file-upload-4" class="sr-only" type="file" name="file-upload-4"></label></div></div></div><p class="mt-2 flex items-center justify-between text-xs leading-5 text-muted-foreground">Recommended max. size: 10 MB, Accepted file types: XLSX, XLS, CSV.</p><div class="relative mt-8 rounded-lg bg-muted p-3"><div class="absolute right-1 top-1"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent h-9 rounded-sm p-2 text-muted-foreground hover:text-foreground" type="button" aria-label="Remove"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x size-4 shrink-0" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button></div><div class="flex items-center space-x-2.5"><span class="flex h-10 w-10 shrink-0 items-center justify-center rounded-sm bg-background shadow-sm ring-1 ring-inset ring-input"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-spreadsheet size-5 text-foreground" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M8 13h2"></path><path d="M14 13h2"></path><path d="M8 17h2"></path><path d="M14 17h2"></path></svg></span><div class="w-full"><p class="text-xs font-medium text-foreground">Revenue_Q1_2024.xlsx</p><p class="mt-0.5 flex justify-between text-xs text-muted-foreground"><span>3.1 MB</span><span>Completed</span></p></div></div></div><div class="mt-8 flex items-center justify-end space-x-3"><button class="inline-flex items-center justify-center ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-background h-10 whitespace-nowrap rounded-sm border border-input px-4 py-2 text-sm font-medium text-foreground shadow-sm hover:bg-accent hover:text-foreground" type="button">Cancel</button><button class="inline-flex items-center justify-center ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 whitespace-nowrap rounded-sm bg-primary px-4 py-2 text-sm font-medium text-primary-foreground shadow-sm hover:bg-primary/90" type="submit">Upload</button></div></form></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

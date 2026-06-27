@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/erikx/sticky-section-tabs/default
+- Registry URL: https://21st.dev/r/erikx/sticky-section-tabs
+- Author: erikx
+- Component slug: sticky-section-tabs
+- Demo slug: default
+- Title: sticky-section-tabs
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/erikx/sticky-section-tabs with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/erikx__sticky-section-tabs__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/erikx__sticky-section-tabs__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="min-h-screen bg-black"><nav class="fixed top-0 left-0 right-0 z-50 bg-black text-white border-b border-white/15 bg-black" style="height: 4rem;"><div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 h-full flex items-center justify-between"><div class="flex items-center"><span class="font-semibold text-lg">YourBrand</span></div><div class="flex items-center space-x-6 text-sm"><a href="#" class="hover:text-gray-300">Home</a><a href="#" class="hover:text-gray-300">Work</a><a href="#" class="hover:text-gray-300">About</a><a href="#" class="hover:text-gray-300">Contact</a></div></div></nav><main style="padding-top: 4rem;"><div class="bg-black text-white"><div class="mx-auto max-w-7xl px-4 py-24 sm:px-6 sm:py-32 lg:px-8"><h1 class="text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">Sticky Section Tabs</h1></div></div><div class="overflow-clip bg-black text-white"><div class="sticky left-0 top-0 z-20 w-full border-b border-white/15 bg-black" aria-hidden="true" style="height: 4rem;"></div><section class="relative overflow-clip bg-[#131313]"><div class="sticky z-10 -mt-px flex flex-col shadow-lg" style="top: calc(-1px + 4rem);"><div class="border-b border-t border-white/15 bg-black"><div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8"><div class="flex items-center justify-between"><h2 class="my-0 text-2xl font-medium leading-none md:text-3xl lg:text-4xl">Step 1: Concept</h2></div></div></div></div><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="flex flex-col items-center justify-center text-center py-16"><svg width="48" height="48" viewBox="0 0 60 60" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder Logo" class="text-gray-700"><path d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.5 35.5 20 40H40C40 51.0457 31.0457 60 20 60C8.95431 60 0 51.0457 0 40C0 28.9543 9.5 22 20 20H0Z" fill="currentColor"></path><path d="M40 60C51.7324 55.0977 60 43.5117 60 30C60 16.4883 51.7324 4.90234 40 0V60Z" fill="currentColor"></path></svg><h3 class="text-xl font-semibold mt-4 mb-2 text-gray-200">Content Area: Concept</h3><p class="text-gray-500 max-w-xl">This is where the detailed content for the 'Concept' section would normally appear. For this demo, we're using this placeholder.</p></div></div></section><section class="relative overflow-clip bg-[#131313]"><div class="sticky z-10 -mt-px flex flex-col shadow-lg" style="top: calc(-1px + 4rem);"><div class="border-b border-t border-white/15 bg-black"><div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8"><div class="flex items-center justify-between"><h2 class="my-0 text-2xl font-medium leading-none md:text-3xl lg:text-4xl">Step 2: Design</h2></div></div></div></div><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="flex flex-col items-center justify-center text-center py-16"><svg width="48" height="48" viewBox="0 0 60 60" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder Logo" class="text-gray-700"><path d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.5 35.5 20 40H40C40 51.0457 31.0457 60 20 60C8.95431 60 0 51.0457 0 40C0 28.9543 9.5 22 20 20H0Z" fill="currentColor"></path><path d="M40 60C51.7324 55.0977 60 43.5117 60 30C60 16.4883 51.7324 4.90234 40 0V60Z" fill="currentColor"></path></svg><h3 class="text-xl font-semibold mt-4 mb-2 text-gray-200">Content Area: Design</h3><p class="text-gray-500 max-w-xl">This is where the detailed content for the 'Design' section would normally appear. For this demo, we're using this placeholder.</p></div></div></section><section class="relative overflow-clip bg-[#131313]"><div class="sticky z-10 -mt-px flex flex-col shadow-lg" style="top: calc(-1px + 4rem);"><div class="border-b border-t border-white/15 bg-black"><div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8"><div class="flex items-center justify-between"><h2 class="my-0 text-2xl font-medium leading-none md:text-3xl lg:text-4xl">Step 3: Development</h2></div></div></div></div><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="flex flex-col items-center justify-center text-center py-16"><svg width="48" height="48" viewBox="0 0 60 60" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder Logo" class="text-gray-700"><path d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.5 35.5 20 40H40C40 51.0457 31.0457 60 20 60C8.95431 60 0 51.0457 0 40C0 28.9543 9.5 22 20 20H0Z" fill="currentColor"></path><path d="M40 60C51.7324 55.0977 60 43.5117 60 30C60 16.4883 51.7324 4.90234 40 0V60Z" fill="currentColor"></path></svg><h3 class="text-xl font-semibold mt-4 mb-2 text-gray-200">Content Area: Development</h3><p class="text-gray-500 max-w-xl">This is where the detailed content for the 'Development' section would normally appear. For this demo, we're using this placeholder.</p></div></div></section><section class="relative overflow-clip bg-[#131313]"><div class="sticky z-10 -mt-px flex flex-col shadow-lg" style="top: calc(-1px + 4rem);"><div class="border-b border-t border-white/15 bg-black"><div class="mx-auto max-w-7xl px-4 py-5 sm:px-6 lg:px-8"><div class="flex items-center justify-between"><h2 class="my-0 text-2xl font-medium leading-none md:text-3xl lg:text-4xl">Step 4: Launch</h2></div></div></div></div><div class="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8"><div class="flex flex-col items-center justify-center text-center py-16"><svg width="48" height="48" viewBox="0 0 60 60" fill="currentColor" xmlns="http://www.w3.org/2000/svg" aria-label="Placeholder Logo" class="text-gray-700"><path d="M0 20C0 8.95431 8.95431 0 20 0C31.0457 0 40 8.95431 40 20C40 31.0457 31.5 35.5 20 40H40C40 51.0457 31.0457 60 20 60C8.95431 60 0 51.0457 0 40C0 28.9543 9.5 22 20 20H0Z" fill="currentColor"></path><path d="M40 60C51.7324 55.0977 60 43.5117 60 30C60 16.4883 51.7324 4.90234 40 0V60Z" fill="currentColor"></path></svg><h3 class="text-xl font-semibold mt-4 mb-2 text-gray-200">Content Area: Launch</h3><p class="text-gray-500 max-w-xl">This is where the detailed content for the 'Launch' section would normally appear. For this demo, we're using this placeholder.</p></div></div></section></div><footer class="bg-black py-8 h-screen text-center text-gray-600 text-xl">Thank you for checking out this demo!</footer></main></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.
