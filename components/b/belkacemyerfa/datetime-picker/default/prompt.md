@@ -1,0 +1,57 @@
+# Build Datetime Picker in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Datetime Picker screenshot](screenshot.png)
+
+## Component
+
+- Author group: `belkacemyerfa`
+- Component: `datetime-picker`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: BelkacemYerfa
+- Component slug: datetime-picker
+- Demo slug: default
+- Title: datetime-picker
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="flex items-center w-fit p-1 border-2 border-input rounded-md gap-1 selection:bg-transparent selection:text-foreground"><input class="w-full border border-input bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 p-1 inline tabular-nums h-fit border-none outline-none select-none content-box caret-transparent rounded-sm text-center focus:bg-foreground/20 focus-visible:ring-0 focus-visible:outline-none min-w-8" placeholder="MM" readonly="" tabindex="0" enterkeyhint="next" spellcheck="false" autocapitalize="off" role="spinbutton" data-timescape-input="" inputmode="numeric" aria-label="months" aria-valuenow="6" aria-valuemin="1" aria-valuemax="12" style="width: 17.3438px;"><span aria-hidden="true" data-timescape-shadow="months" style="display: inline-block; position: absolute; left: -9999px; top: -9999px; visibility: hidden; pointer-events: none; white-space: pre; font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 14px; font-weight: 400; font-style: normal; font-variant: tabular-nums; letter-spacing: normal; text-transform: none; text-indent: 0px; text-orientation: mixed;">06</span><span class="text-xs text-gray-400">/</span><input class="w-full border border-input bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 p-1 inline tabular-nums h-fit border-none outline-none select-none content-box caret-transparent rounded-sm text-center focus:bg-foreground/20 focus-visible:ring-0 focus-visible:outline-none min-w-8" placeholder="DD" readonly="" tabindex="0" enterkeyhint="next" spellcheck="false" autocapitalize="off" role="spinbutton" data-timescape-input="" inputmode="numeric" aria-label="days" aria-valuenow="27" aria-valuemin="1" aria-valuemax="30" style="width: 17.3438px;"><span aria-hidden="true" data-timescape-shadow="days" style="display: inline-block; position: absolute; left: -9999px; top: -9999px; visibility: hidden; pointer-events: none; white-space: pre; font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 14px; font-weight: 400; font-style: normal; font-variant: tabular-nums; letter-spacing: normal; text-transform: none; text-indent: 0px; text-orientation: mixed;">27</span><span class="text-xs text-gray-400">/</span><input class="w-full border border-input bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 p-1 inline tabular-nums h-fit border-none outline-none select-none content-box caret-transparent rounded-sm text-center focus:bg-foreground/20 focus-visible:ring-0 focus-visible:outline-none min-w-12" placeholder="YYYY" readonly="" tabindex="0" enterkeyhint="next" spellcheck="false" autocapitalize="off" role="spinbutton" data-timescape-input="" inputmode="numeric" aria-label="years" aria-valuenow="2026" aria-valuemin="1" aria-valuemax="9999" style="width: 34.6719px;"><span aria-hidden="true" data-timescape-shadow="years" style="display: inline-block; position: absolute; left: -9999px; top: -9999px; visibility: hidden; pointer-events: none; white-space: pre; font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 14px; font-weight: 400; font-style: normal; font-variant: tabular-nums; letter-spacing: normal; text-transform: none; text-indent: 0px; text-orientation: mixed;">2026</span><span class="text-gray-400 opacity-30 text-xl">|</span><input class="w-full border border-input bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 p-1 inline tabular-nums h-fit border-none outline-none select-none content-box caret-transparent rounded-sm text-center focus:bg-foreground/20 focus-visible:ring-0 focus-visible:outline-none min-w-8" placeholder="HH" readonly="" tabindex="0" enterkeyhint="next" spellcheck="false" autocapitalize="off" role="spinbutton" data-timescape-input="" inputmode="numeric" aria-label="hours" aria-valuenow="12" aria-valuemin="0" aria-valuemax="23" style="width: 17.3438px;"><span aria-hidden="true" data-timescape-shadow="hours" style="display: inline-block; position: absolute; left: -9999px; top: -9999px; visibility: hidden; pointer-events: none; white-space: pre; font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 14px; font-weight: 400; font-style: normal; font-variant: tabular-nums; letter-spacing: normal; text-transform: none; text-indent: 0px; text-orientation: mixed;">12</span><span class="text-xs text-gray-400">:</span><input class="w-full border border-input bg-background text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 p-1 inline tabular-nums h-fit border-none outline-none select-none content-box caret-transparent rounded-sm text-center focus:bg-foreground/20 focus-visible:ring-0 focus-visible:outline-none min-w-8" placeholder="MM" readonly="" tabindex="0" enterkeyhint="next" spellcheck="false" autocapitalize="off" role="spinbutton" data-timescape-input="" inputmode="numeric" aria-label="minutes" aria-valuenow="12" aria-valuemin="0" aria-valuemax="59" style="width: 17.3438px;"><span aria-hidden="true" data-timescape-shadow="minutes" style="display: inline-block; position: absolute; left: -9999px; top: -9999px; visibility: hidden; pointer-events: none; white-space: pre; font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 14px; font-weight: 400; font-style: normal; font-variant: tabular-nums; letter-spacing: normal; text-transform: none; text-indent: 0px; text-orientation: mixed;">12</span><input class="w-full border border-input text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 p-1 inline tabular-nums h-fit border-none outline-none select-none content-box caret-transparent rounded-sm text-center focus:bg-foreground/20 focus-visible:ring-0 focus-visible:outline-none min-w-8 bg-foreground/15" placeholder="AM/PM" readonly="" tabindex="0" enterkeyhint="next" spellcheck="false" autocapitalize="off" role="spinbutton" data-timescape-input="" aria-label="am/pm" style="width: 20.8438px;"><span aria-hidden="true" data-timescape-shadow="am/pm" style="display: inline-block; position: absolute; left: -9999px; top: -9999px; visibility: hidden; pointer-events: none; white-space: pre; font-family: ui-sans-serif, system-ui, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 14px; font-weight: 400; font-style: normal; font-variant: tabular-nums; letter-spacing: normal; text-transform: none; text-indent: 0px; text-orientation: mixed;">PM</span></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

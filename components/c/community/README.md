@@ -1,6 +1,6 @@
 # Community Components
 
-41 components are available in this author group.
+63 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -20,10 +20,13 @@
 | [![Edit Tool](edit-tool/waiting/screenshot.png)](edit-tool/waiting/README.md) | [Edit Tool](edit-tool/waiting/README.md) | `waiting` |
 | [![Edit Tool](edit-tool/write-tool/screenshot.png)](edit-tool/write-tool/README.md) | [Edit Tool](edit-tool/write-tool/README.md) | `write-tool` |
 | [![Error Message](error-message/default/screenshot.png)](error-message/default/README.md) | [Error Message](error-message/default/README.md) | `default` |
+| [![Error Message](error-message/network/screenshot.png)](error-message/network/README.md) | [Error Message](error-message/network/README.md) | `network` |
 | [![Error Message](error-message/rate-limit/screenshot.png)](error-message/rate-limit/README.md) | [Error Message](error-message/rate-limit/README.md) | `rate-limit` |
 | [![File Attachment](file-attachment/default/screenshot.png)](file-attachment/default/README.md) | [File Attachment](file-attachment/default/README.md) | `default` |
 | [![File Attachment](file-attachment/image-only/screenshot.png)](file-attachment/image-only/README.md) | [File Attachment](file-attachment/image-only/README.md) | `image-only` |
 | [![File Attachment](file-attachment/removable/screenshot.png)](file-attachment/removable/README.md) | [File Attachment](file-attachment/removable/README.md) | `removable` |
+| [![Generic Tool](generic-tool/compatibility-flag/screenshot.png)](generic-tool/compatibility-flag/README.md) | [Generic Tool](generic-tool/compatibility-flag/README.md) | `compatibility-flag` |
+| [![Generic Tool](generic-tool/default/screenshot.png)](generic-tool/default/README.md) | [Generic Tool](generic-tool/default/README.md) | `default` |
 | [![Generic Tool](generic-tool/pending/screenshot.png)](generic-tool/pending/README.md) | [Generic Tool](generic-tool/pending/README.md) | `pending` |
 | [![Input Bar](input-bar/default/screenshot.png)](input-bar/default/README.md) | [Input Bar](input-bar/default/README.md) | `default` |
 | [![Input Bar](input-bar/toolbar-actions/screenshot.png)](input-bar/toolbar-actions/README.md) | [Input Bar](input-bar/toolbar-actions/README.md) | `toolbar-actions` |
@@ -32,6 +35,7 @@
 | [![Markdown](markdown/streaming/screenshot.png)](markdown/streaming/README.md) | [Markdown](markdown/streaming/README.md) | `streaming` |
 | [![Markdown](markdown/tables-links/screenshot.png)](markdown/tables-links/README.md) | [Markdown](markdown/tables-links/README.md) | `tables-links` |
 | [![Mcp Tool](mcp-tool/default/screenshot.png)](mcp-tool/default/README.md) | [Mcp Tool](mcp-tool/default/README.md) | `default` |
+| [![Mcp Tool](mcp-tool/interrupted/screenshot.png)](mcp-tool/interrupted/README.md) | [Mcp Tool](mcp-tool/interrupted/README.md) | `interrupted` |
 | [![Mcp Tool](mcp-tool/pending/screenshot.png)](mcp-tool/pending/README.md) | [Mcp Tool](mcp-tool/pending/README.md) | `pending` |
 | [![Mode Selector](mode-selector/default/screenshot.png)](mode-selector/default/README.md) | [Mode Selector](mode-selector/default/README.md) | `default` |
 | [![Mode Selector](mode-selector/inside-input-bar/screenshot.png)](mode-selector/inside-input-bar/README.md) | [Mode Selector](mode-selector/inside-input-bar/README.md) | `inside-input-bar` |
@@ -47,3 +51,21 @@
 | [![Search Tool](search-tool/default/screenshot.png)](search-tool/default/README.md) | [Search Tool](search-tool/default/README.md) | `default` |
 | [![Search Tool](search-tool/pending-search/screenshot.png)](search-tool/pending-search/README.md) | [Search Tool](search-tool/pending-search/README.md) | `pending-search` |
 | [![Send Button](send-button/default/screenshot.png)](send-button/default/README.md) | [Send Button](send-button/default/README.md) | `default` |
+| [![Send Button](send-button/streaming/screenshot.png)](send-button/streaming/README.md) | [Send Button](send-button/streaming/README.md) | `streaming` |
+| [![Send Button](send-button/typing/screenshot.png)](send-button/typing/README.md) | [Send Button](send-button/typing/README.md) | `typing` |
+| [![Spiral Loader](spiral-loader/default/screenshot.png)](spiral-loader/default/README.md) | [Spiral Loader](spiral-loader/default/README.md) | `default` |
+| [![Spiral Loader](spiral-loader/sizes/screenshot.png)](spiral-loader/sizes/README.md) | [Spiral Loader](spiral-loader/sizes/README.md) | `sizes` |
+| [![Subagent Tool](subagent-tool/default/screenshot.png)](subagent-tool/default/README.md) | [Subagent Tool](subagent-tool/default/README.md) | `default` |
+| [![Suggestions](suggestions/default/screenshot.png)](suggestions/default/README.md) | [Suggestions](suggestions/default/README.md) | `default` |
+| [![Suggestions](suggestions/icons-text/screenshot.png)](suggestions/icons-text/README.md) | [Suggestions](suggestions/icons-text/README.md) | `icons-text` |
+| [![Text Shimmer](text-shimmer/default/screenshot.png)](text-shimmer/default/README.md) | [Text Shimmer](text-shimmer/default/README.md) | `default` |
+| [![Text Shimmer](text-shimmer/delayed/screenshot.png)](text-shimmer/delayed/README.md) | [Text Shimmer](text-shimmer/delayed/README.md) | `delayed` |
+| [![Text Shimmer](text-shimmer/fast/screenshot.png)](text-shimmer/fast/README.md) | [Text Shimmer](text-shimmer/fast/README.md) | `fast` |
+| [![Thinking Tool](thinking-tool/collapsed/screenshot.png)](thinking-tool/collapsed/README.md) | [Thinking Tool](thinking-tool/collapsed/README.md) | `collapsed` |
+| [![Thinking Tool](thinking-tool/default/screenshot.png)](thinking-tool/default/README.md) | [Thinking Tool](thinking-tool/default/README.md) | `default` |
+| [![Todo Tool](todo-tool/default/screenshot.png)](todo-tool/default/README.md) | [Todo Tool](todo-tool/default/README.md) | `default` |
+| [![Todo Tool](todo-tool/multiple-updates/screenshot.png)](todo-tool/multiple-updates/README.md) | [Todo Tool](todo-tool/multiple-updates/README.md) | `multiple-updates` |
+| [![Todo Tool](todo-tool/pending-update/screenshot.png)](todo-tool/pending-update/README.md) | [Todo Tool](todo-tool/pending-update/README.md) | `pending-update` |
+| [![Todo Tool](todo-tool/single-update/screenshot.png)](todo-tool/single-update/README.md) | [Todo Tool](todo-tool/single-update/README.md) | `single-update` |
+| [![User Message](user-message/default/screenshot.png)](user-message/default/README.md) | [User Message](user-message/default/README.md) | `default` |
+| [![User Message](user-message/with-image/screenshot.png)](user-message/with-image/README.md) | [User Message](user-message/with-image/README.md) | `with-image` |

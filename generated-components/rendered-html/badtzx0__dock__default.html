@@ -1,0 +1,309 @@
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><nav role="navigation" aria-label="Main Dock"><ul class="flex items-center rounded-xl border border-gray-100 bg-gradient-to-t from-neutral-50 to-white p-1 dark:border-zinc-900 dark:from-zinc-950 dark:to-zinc-900"><style>
+          .icon:hover + .icon {
+            width: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:hover + .icon + .icon {
+            width: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon:hover) {
+            width: calc(var(--icon-size) * 1.33 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-left, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon + .icon:hover) {
+            width: calc(var(--icon-size) * 1.17 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-left, 0) * -1
+            );
+          }
+        </style><li class="icon group/li flex h-[var(--icon-size)] w-[var(--icon-size)] cursor-pointer items-center justify-center px-[calc(var(--icon-size)*0.075)] hover:-mt-[calc(var(--icon-size)/2)] hover:h-[calc(var(--icon-size)*1.5)] hover:w-[calc(var(--icon-size)*1.5)] [&amp;_img]:object-contain" style="transition: width, height, margin-top, 150ms cubic-bezier(0.25, 1, 0.5, 1); --icon-size: 55px;"><a href="#tailwindcss" class="group/a relative aspect-square w-full rounded-[10px] border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1.5 shadow-[rgba(0,_0,_0,_0.05)_0px_1px_0px_inset] after:absolute after:inset-0 after:rounded-[inherit] after:shadow-md after:shadow-zinc-800/10 dark:border-zinc-900 dark:from-zinc-900 dark:to-zinc-800 dark:shadow-[rgba(255,_255,_255,_0.3)_0px_1px_0px_inset]"><span class="absolute top-[-40px] left-1/2 -translate-x-1/2 rounded-md border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1 px-2 text-xs whitespace-nowrap text-black opacity-0 transition-opacity duration-200 group-hover/li:opacity-100 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 dark:text-white">TailwindCSS</span><img alt="TailwindCSS" class="h-full w-full rounded-[inherit]" src="https://cdn.badtz-ui.com/images/components/dock/tailwindcss-logo.webp"></a></li><style>
+          .icon:hover + .icon {
+            width: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:hover + .icon + .icon {
+            width: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon:hover) {
+            width: calc(var(--icon-size) * 1.33 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-left, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon + .icon:hover) {
+            width: calc(var(--icon-size) * 1.17 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-left, 0) * -1
+            );
+          }
+        </style><li class="icon group/li flex h-[var(--icon-size)] w-[var(--icon-size)] cursor-pointer items-center justify-center px-[calc(var(--icon-size)*0.075)] hover:-mt-[calc(var(--icon-size)/2)] hover:h-[calc(var(--icon-size)*1.5)] hover:w-[calc(var(--icon-size)*1.5)] [&amp;_img]:object-contain" style="transition: width, height, margin-top, 150ms cubic-bezier(0.25, 1, 0.5, 1); --icon-size: 55px;"><a href="#linear" class="group/a relative aspect-square w-full rounded-[10px] border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1.5 shadow-[rgba(0,_0,_0,_0.05)_0px_1px_0px_inset] after:absolute after:inset-0 after:rounded-[inherit] after:shadow-md after:shadow-zinc-800/10 dark:border-zinc-900 dark:from-zinc-900 dark:to-zinc-800 dark:shadow-[rgba(255,_255,_255,_0.3)_0px_1px_0px_inset]"><span class="absolute top-[-40px] left-1/2 -translate-x-1/2 rounded-md border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1 px-2 text-xs whitespace-nowrap text-black opacity-0 transition-opacity duration-200 group-hover/li:opacity-100 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 dark:text-white">Edge</span><img alt="Edge" class="h-full w-full rounded-[inherit]" src="https://cdn.badtz-ui.com/images/components/dock/edge-logo.webp"></a></li><style>
+          .icon:hover + .icon {
+            width: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:hover + .icon + .icon {
+            width: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon:hover) {
+            width: calc(var(--icon-size) * 1.33 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-left, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon + .icon:hover) {
+            width: calc(var(--icon-size) * 1.17 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-left, 0) * -1
+            );
+          }
+        </style><li class="icon group/li flex h-[var(--icon-size)] w-[var(--icon-size)] cursor-pointer items-center justify-center px-[calc(var(--icon-size)*0.075)] hover:-mt-[calc(var(--icon-size)/2)] hover:h-[calc(var(--icon-size)*1.5)] hover:w-[calc(var(--icon-size)*1.5)] [&amp;_img]:object-contain" style="transition: width, height, margin-top, 150ms cubic-bezier(0.25, 1, 0.5, 1); --icon-size: 55px;"><a href="#motion" class="group/a relative aspect-square w-full rounded-[10px] border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1.5 shadow-[rgba(0,_0,_0,_0.05)_0px_1px_0px_inset] after:absolute after:inset-0 after:rounded-[inherit] after:shadow-md after:shadow-zinc-800/10 dark:border-zinc-900 dark:from-zinc-900 dark:to-zinc-800 dark:shadow-[rgba(255,_255,_255,_0.3)_0px_1px_0px_inset]"><span class="absolute top-[-40px] left-1/2 -translate-x-1/2 rounded-md border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1 px-2 text-xs whitespace-nowrap text-black opacity-0 transition-opacity duration-200 group-hover/li:opacity-100 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 dark:text-white">Motion</span><img alt="Motion" class="h-full w-full rounded-[inherit]" src="https://cdn.badtz-ui.com/images/components/dock/motion-logo.webp"></a></li><style>
+          .icon:hover + .icon {
+            width: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:hover + .icon + .icon {
+            width: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon:hover) {
+            width: calc(var(--icon-size) * 1.33 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-left, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon + .icon:hover) {
+            width: calc(var(--icon-size) * 1.17 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-left, 0) * -1
+            );
+          }
+        </style><li class="icon group/li flex h-[var(--icon-size)] w-[var(--icon-size)] cursor-pointer items-center justify-center px-[calc(var(--icon-size)*0.075)] hover:-mt-[calc(var(--icon-size)/2)] hover:h-[calc(var(--icon-size)*1.5)] hover:w-[calc(var(--icon-size)*1.5)] [&amp;_img]:object-contain" style="transition: width, height, margin-top, 150ms cubic-bezier(0.25, 1, 0.5, 1); --icon-size: 55px;"><a href="#react" class="group/a relative aspect-square w-full rounded-[10px] border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1.5 shadow-[rgba(0,_0,_0,_0.05)_0px_1px_0px_inset] after:absolute after:inset-0 after:rounded-[inherit] after:shadow-md after:shadow-zinc-800/10 dark:border-zinc-900 dark:from-zinc-900 dark:to-zinc-800 dark:shadow-[rgba(255,_255,_255,_0.3)_0px_1px_0px_inset]"><span class="absolute top-[-40px] left-1/2 -translate-x-1/2 rounded-md border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1 px-2 text-xs whitespace-nowrap text-black opacity-0 transition-opacity duration-200 group-hover/li:opacity-100 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 dark:text-white">React</span><img alt="React" class="h-full w-full rounded-[inherit]" src="https://cdn.badtz-ui.com/images/components/dock/react-logo.webp"></a></li><style>
+          .icon:hover + .icon {
+            width: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:hover + .icon + .icon {
+            width: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon:hover) {
+            width: calc(var(--icon-size) * 1.33 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-left, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon + .icon:hover) {
+            width: calc(var(--icon-size) * 1.17 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-left, 0) * -1
+            );
+          }
+        </style><li class="icon group/li flex h-[var(--icon-size)] w-[var(--icon-size)] cursor-pointer items-center justify-center px-[calc(var(--icon-size)*0.075)] hover:-mt-[calc(var(--icon-size)/2)] hover:h-[calc(var(--icon-size)*1.5)] hover:w-[calc(var(--icon-size)*1.5)] [&amp;_img]:object-contain" style="transition: width, height, margin-top, 150ms cubic-bezier(0.25, 1, 0.5, 1); --icon-size: 55px;"><a href="#linear" class="group/a relative aspect-square w-full rounded-[10px] border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1.5 shadow-[rgba(0,_0,_0,_0.05)_0px_1px_0px_inset] after:absolute after:inset-0 after:rounded-[inherit] after:shadow-md after:shadow-zinc-800/10 dark:border-zinc-900 dark:from-zinc-900 dark:to-zinc-800 dark:shadow-[rgba(255,_255,_255,_0.3)_0px_1px_0px_inset]"><span class="absolute top-[-40px] left-1/2 -translate-x-1/2 rounded-md border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1 px-2 text-xs whitespace-nowrap text-black opacity-0 transition-opacity duration-200 group-hover/li:opacity-100 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 dark:text-white">Linear</span><img alt="Linear" class="h-full w-full rounded-[inherit]" src="https://cdn.badtz-ui.com/images/components/dock/linear-logo.webp"></a></li><style>
+          .icon:hover + .icon {
+            width: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:hover + .icon + .icon {
+            width: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon:hover) {
+            width: calc(var(--icon-size) * 1.33 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-left, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon + .icon:hover) {
+            width: calc(var(--icon-size) * 1.17 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-left, 0) * -1
+            );
+          }
+        </style><li class="icon group/li flex h-[var(--icon-size)] w-[var(--icon-size)] cursor-pointer items-center justify-center px-[calc(var(--icon-size)*0.075)] hover:-mt-[calc(var(--icon-size)/2)] hover:h-[calc(var(--icon-size)*1.5)] hover:w-[calc(var(--icon-size)*1.5)] [&amp;_img]:object-contain" style="transition: width, height, margin-top, 150ms cubic-bezier(0.25, 1, 0.5, 1); --icon-size: 55px;"><a href="#drizzle-orm" class="group/a relative aspect-square w-full rounded-[10px] border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1.5 shadow-[rgba(0,_0,_0,_0.05)_0px_1px_0px_inset] after:absolute after:inset-0 after:rounded-[inherit] after:shadow-md after:shadow-zinc-800/10 dark:border-zinc-900 dark:from-zinc-900 dark:to-zinc-800 dark:shadow-[rgba(255,_255,_255,_0.3)_0px_1px_0px_inset]"><span class="absolute top-[-40px] left-1/2 -translate-x-1/2 rounded-md border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1 px-2 text-xs whitespace-nowrap text-black opacity-0 transition-opacity duration-200 group-hover/li:opacity-100 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 dark:text-white">Drizzle ORM</span><img alt="Drizzle ORM" class="h-full w-full rounded-[inherit]" src="https://cdn.badtz-ui.com/images/components/dock/drizzle-orm-logo.webp"></a></li><style>
+          .icon:hover + .icon {
+            width: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:hover + .icon + .icon {
+            width: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-right, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-right, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon:hover) {
+            width: calc(var(--icon-size) * 1.33 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.33 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.33 + var(--dock-offset-left, 0) * -1
+            );
+          }
+
+          .icon:has(+ .icon + .icon:hover) {
+            width: calc(var(--icon-size) * 1.17 + var(--dock-offset-left, 0px));
+            height: calc(
+              var(--icon-size) * 1.17 + var(--dock-offset-left, 0px)
+            );
+            margin-top: calc(
+              var(--icon-size) * -0.17 + var(--dock-offset-left, 0) * -1
+            );
+          }
+        </style><li class="icon group/li flex h-[var(--icon-size)] w-[var(--icon-size)] cursor-pointer items-center justify-center px-[calc(var(--icon-size)*0.075)] hover:-mt-[calc(var(--icon-size)/2)] hover:h-[calc(var(--icon-size)*1.5)] hover:w-[calc(var(--icon-size)*1.5)] [&amp;_img]:object-contain" style="transition: width, height, margin-top, 150ms cubic-bezier(0.25, 1, 0.5, 1); --icon-size: 55px;"><a href="#linear" class="group/a relative aspect-square w-full rounded-[10px] border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1.5 shadow-[rgba(0,_0,_0,_0.05)_0px_1px_0px_inset] after:absolute after:inset-0 after:rounded-[inherit] after:shadow-md after:shadow-zinc-800/10 dark:border-zinc-900 dark:from-zinc-900 dark:to-zinc-800 dark:shadow-[rgba(255,_255,_255,_0.3)_0px_1px_0px_inset]"><span class="absolute top-[-40px] left-1/2 -translate-x-1/2 rounded-md border border-gray-100 bg-gradient-to-t from-neutral-100 to-white p-1 px-2 text-xs whitespace-nowrap text-black opacity-0 transition-opacity duration-200 group-hover/li:opacity-100 dark:border-zinc-800 dark:from-zinc-900 dark:to-zinc-800 dark:text-white">Deepseek</span><img alt="Deepseek" class="h-full w-full rounded-[inherit]" src="https://cdn.badtz-ui.com/images/components/dock/deepseek-logo.webp"></a></li></ul></nav></div></div></div>

@@ -1,0 +1,57 @@
+# Build User Message in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![User Message screenshot](screenshot.png)
+
+## Component
+
+- Author group: `community`
+- Component: `user-message`
+- Variant: `with-image`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: BuilderStudio
+- Component slug: user-message
+- Demo slug: with-image
+- Title: user-message
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex items-center justify-center w-full min-h-screen bg-background p-8 overflow-hidden"><div class="w-full max-w-md"><div class="flex flex-col items-end gap-1"><div class="max-w-[200px] p-1.5 bg-neutral-100 dark:bg-neutral-800 rounded-2xl"><img alt="attachment" class="block object-cover max-w-[184px] max-h-[120px] rounded-xl" src="data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22320%22%20height%3D%22200%22%20viewBox%3D%220%200%20320%20200%22%3E%0A%20%20%3Cdefs%3E%0A%20%20%20%20%3ClinearGradient%20id%3D%22bg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%220%22%20stop-color%3D%22%231e293b%22%2F%3E%0A%20%20%20%20%20%20%3Cstop%20offset%3D%221%22%20stop-color%3D%22%230f172a%22%2F%3E%0A%20%20%20%20%3C%2FlinearGradient%3E%0A%20%20%3C%2Fdefs%3E%0A%20%20%3Crect%20width%3D%22320%22%20height%3D%22200%22%20fill%3D%22url(%23bg)%22%2F%3E%0A%20%20%3Crect%20x%3D%220%22%20y%3D%220%22%20width%3D%22320%22%20height%3D%2228%22%20fill%3D%22%23020617%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%2214%22%20cy%3D%2214%22%20r%3D%225%22%20fill%3D%22%23ef4444%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%2232%22%20cy%3D%2214%22%20r%3D%225%22%20fill%3D%22%23f59e0b%22%2F%3E%0A%20%20%3Ccircle%20cx%3D%2250%22%20cy%3D%2214%22%20r%3D%225%22%20fill%3D%22%2322c55e%22%2F%3E%0A%20%20%3Crect%20x%3D%2220%22%20y%3D%2244%22%20width%3D%22180%22%20height%3D%2210%22%20rx%3D%222%22%20fill%3D%22%23cbd5e1%22%2F%3E%0A%20%20%3Crect%20x%3D%2220%22%20y%3D%2264%22%20width%3D%22120%22%20height%3D%2210%22%20rx%3D%222%22%20fill%3D%22%2394a3b8%22%2F%3E%0A%20%20%3Crect%20x%3D%2220%22%20y%3D%2292%22%20width%3D%22280%22%20height%3D%2260%22%20rx%3D%226%22%20fill%3D%22%231e3a8a%22%2F%3E%0A%20%20%3Crect%20x%3D%2232%22%20y%3D%22104%22%20width%3D%22100%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22%2393c5fd%22%2F%3E%0A%20%20%3Crect%20x%3D%2232%22%20y%3D%22120%22%20width%3D%22160%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22%23dbeafe%22%2F%3E%0A%20%20%3Crect%20x%3D%2232%22%20y%3D%22136%22%20width%3D%2280%22%20height%3D%228%22%20rx%3D%222%22%20fill%3D%22%23dbeafe%22%2F%3E%0A%20%20%3Crect%20x%3D%2220%22%20y%3D%22168%22%20width%3D%2260%22%20height%3D%2220%22%20rx%3D%224%22%20fill%3D%22%2322c55e%22%2F%3E%0A%3C%2Fsvg%3E"></div><div class="max-w-[calc(95%-40px)] ms-[70px]"><div class="px-3.5 py-1.5 text-sm transition-colors rounded-2xl bg-neutral-900 text-neutral-50 dark:bg-neutral-100 dark:text-neutral-900"><p class="leading-5 whitespace-pre-wrap break-words">Here is the screenshot.</p></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

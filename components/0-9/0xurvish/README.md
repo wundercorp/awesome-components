@@ -1,6 +1,6 @@
 # 0xurvish Components
 
-20 components are available in this author group.
+21 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -9,6 +9,7 @@
 | [![Animated Collection](animated-collection/default/screenshot.png)](animated-collection/default/README.md) | [Animated Collection](animated-collection/default/README.md) | `default` |
 | [![Bento Card](bento-card/default/screenshot.png)](bento-card/default/README.md) | [Bento Card](bento-card/default/README.md) | `default` |
 | [![Bottom Menu](bottom-menu/default/screenshot.png)](bottom-menu/default/README.md) | [Bottom Menu](bottom-menu/default/README.md) | `default` |
+| [![Bucket](bucket/default/screenshot.png)](bucket/default/README.md) | [Bucket](bucket/default/README.md) | `default` |
 | [![Day Picker](day-picker/default/screenshot.png)](day-picker/default/README.md) | [Day Picker](day-picker/default/README.md) | `default` |
 | [![Delete Button](delete-button/default/screenshot.png)](delete-button/default/README.md) | [Delete Button](delete-button/default/README.md) | `default` |
 | [![Discover Button](discover-button/default/screenshot.png)](discover-button/default/README.md) | [Discover Button](discover-button/default/README.md) | `default` |

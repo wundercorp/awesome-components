@@ -1,0 +1,57 @@
+# Build 8bit Main Menu in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![8bit Main Menu screenshot](screenshot.png)
+
+## Component
+
+- Author group: `orcdev`
+- Component: `8bit-main-menu`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: OrcDev
+- Component slug: 8bit-main-menu
+- Demo slug: default
+- Title: 8bit-main-menu
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex w-full min-h-screen items-center justify-center bg-background p-8 retro"><div class="relative bg-card text-card-foreground border-y-6 border-foreground dark:border-ring p-0! w-full max-w-[400px]"><div class="rounded-none border-0 w-full! h-full flex flex-col gap-6 py-6 bg-card text-card-foreground shadow-none retro w-full max-w-[400px]"><div class="px-6 retro flex flex-col items-center justify-center gap-2"><div class="font-semibold leading-none retro">Main Menu</div><div class="text-muted-foreground text-sm retro">Retro 8-bit Quest</div></div><div class="px-6 flex-1 retro"><div class="flex flex-col gap-4"><button data-slot="button" class="shrink-0 justify-center text-sm font-medium whitespace-nowrap transition-all outline-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 rounded-none active:translate-y-1 relative border-none bg-foreground text-background h-9 px-4 py-2 retro retro flex items-center gap-2"><span>START GAME</span><div class="absolute -top-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -top-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -left-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -right-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute top-1.5 left-0 w-3 h-1.5 bg-foreground/20"></div><div class="absolute bottom-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute bottom-1.5 right-0 w-3 h-1.5 bg-foreground/20"></div></button><button data-slot="button" class="shrink-0 justify-center text-sm font-medium whitespace-nowrap transition-all outline-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 rounded-none active:translate-y-1 relative border-none bg-foreground text-background h-9 px-4 py-2 retro retro flex items-center gap-2"><span>OPTIONS</span><div class="absolute -top-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -top-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -left-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -right-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute top-1.5 left-0 w-3 h-1.5 bg-foreground/20"></div><div class="absolute bottom-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute bottom-1.5 right-0 w-3 h-1.5 bg-foreground/20"></div></button><button data-slot="button" class="shrink-0 justify-center text-sm font-medium whitespace-nowrap transition-all outline-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 rounded-none active:translate-y-1 relative border-none bg-foreground text-background h-9 px-4 py-2 retro retro flex items-center gap-2"><span>HIGH SCORES</span><div class="absolute -top-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -top-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -left-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -right-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute top-1.5 left-0 w-3 h-1.5 bg-foreground/20"></div><div class="absolute bottom-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute bottom-1.5 right-0 w-3 h-1.5 bg-foreground/20"></div></button><button data-slot="button" class="shrink-0 justify-center text-sm font-medium whitespace-nowrap transition-all outline-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 rounded-none active:translate-y-1 relative border-none bg-foreground text-background h-9 px-4 py-2 retro retro flex items-center gap-2"><span>MULTIPLAYER</span><div class="absolute -top-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -top-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -left-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -right-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute top-1.5 left-0 w-3 h-1.5 bg-foreground/20"></div><div class="absolute bottom-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute bottom-1.5 right-0 w-3 h-1.5 bg-foreground/20"></div></button><button data-slot="button" class="shrink-0 justify-center text-sm font-medium whitespace-nowrap transition-all outline-none disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 rounded-none active:translate-y-1 relative border-none bg-foreground text-background h-9 px-4 py-2 retro retro flex items-center gap-2"><span>QUIT</span><div class="absolute -top-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -top-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 left-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute -bottom-1.5 w-1/2 right-1.5 h-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 left-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute bottom-0 right-0 size-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -left-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-1.5 -right-1.5 h-[calc(100%-12px)] w-1.5 bg-foreground dark:bg-ring"></div><div class="absolute top-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute top-1.5 left-0 w-3 h-1.5 bg-foreground/20"></div><div class="absolute bottom-0 left-0 w-full h-1.5 bg-foreground/20"></div><div class="absolute bottom-1.5 right-0 w-3 h-1.5 bg-foreground/20"></div></button></div></div></div><div class="absolute inset-0 border-x-6 -mx-1.5 border-inherit pointer-events-none" aria-hidden="true"></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

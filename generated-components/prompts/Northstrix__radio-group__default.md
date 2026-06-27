@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/Northstrix/radio-group/default
+- Registry URL: https://21st.dev/r/Northstrix/radio-group
+- Author: Northstrix
+- Component slug: radio-group
+- Demo slug: default
+- Title: radio-group
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/Northstrix/radio-group with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/Northstrix__radio-group__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/Northstrix__radio-group__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoLTR_DemoLTR">DemoLTR</option><option value="named_DemoRTL_DemoRTL">DemoRTL</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-[240px] p-8 flex flex-col items-center rounded-[12px] gap-4 max-w-[460px] mx-auto"><div style="display: flex; flex-direction: row; gap: 14px; width: 100%; justify-content: center; align-items: center; margin-top: 18px;"><button type="button" aria-label="Home" style="background: var(--radio-group-bg-active); color: var(--radio-group-fg-active); display: flex; align-items: center; justify-content: center; gap: 4px; padding: 0px 48px; height: 48px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 8px; font-size: 1.08rem; font-weight: 400; font-family: inherit; cursor: pointer; outline: none; user-select: none; margin: 0px; box-sizing: border-box; min-width: 0px; min-height: 0px; position: relative; overflow: hidden; transition: background 0.3s, color 0.3s;"><span style="display: flex; align-items: center; margin-right: 4px; z-index: 2;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house" aria-hidden="true"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg></span><span style="display: flex; align-items: center; z-index: 2;">Home</span></button><button type="button" aria-label="Settings" style="background: var(--radio-group-bg-default); color: var(--radio-group-fg-default); display: flex; align-items: center; justify-content: center; gap: 4px; padding: 0px 48px; height: 48px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 8px; font-size: 1.08rem; font-weight: 400; font-family: inherit; cursor: pointer; outline: none; user-select: none; margin: 0px; box-sizing: border-box; min-width: 0px; min-height: 0px; position: relative; overflow: hidden; transition: background 0.3s, color 0.3s;"><span style="display: flex; align-items: center; margin-right: 4px; z-index: 2;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg></span><span style="display: flex; align-items: center; z-index: 2;">Settings</span></button><button type="button" aria-label="About" style="background: var(--radio-group-bg-default); color: var(--radio-group-fg-default); display: flex; align-items: center; justify-content: center; gap: 4px; padding: 0px 48px; height: 48px; border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-radius: 8px; font-size: 1.08rem; font-weight: 400; font-family: inherit; cursor: pointer; outline: none; user-select: none; margin: 0px; box-sizing: border-box; min-width: 0px; min-height: 0px; position: relative; overflow: hidden; transition: background 0.3s, color 0.3s;"><span style="display: flex; align-items: center; margin-right: 4px; z-index: 2;"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg></span><span style="display: flex; align-items: center; z-index: 2;">About</span></button></div><div class="mt-3 text-[15px] text-[#888]">Selected: <b>home</b></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

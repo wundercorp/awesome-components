@@ -1,0 +1,57 @@
+# Build Bar Chart in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Bar Chart screenshot](screenshot.png)
+
+## Component
+
+- Author group: `bklit`
+- Component: `bar-chart`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: Bklit
+- Component slug: bar-chart
+- Demo slug: default
+- Title: bar-chart
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full"><div class="relative w-full" style="aspect-ratio: 2 / 1; touch-action: none;"><div style="width: 100%; height: 100%;"><svg aria-hidden="true" height="496" width="992"><rect fill="transparent" height="496" width="992" x="0" y="0"></rect><g transform="translate(40,40)" style="cursor: crosshair; touch-action: none;"><rect fill="transparent" height="416" width="912" x="0" y="0"></rect><g class="chart-grid"><defs><linearGradient id="grid-rows-fade-«r0»-gradient" x1="0%" x2="100%" y1="0%" y2="0%"><stop offset="0%" style="stop-color: white; stop-opacity: 0;"></stop><stop offset="10%" style="stop-color: white; stop-opacity: 1;"></stop><stop offset="90%" style="stop-color: white; stop-opacity: 1;"></stop><stop offset="100%" style="stop-color: white; stop-opacity: 0;"></stop></linearGradient><mask id="grid-rows-fade-«r0»"><rect fill="url(#grid-rows-fade-«r0»-gradient)" height="416" width="912" x="0" y="0"></rect></mask></defs><g mask="url(#grid-rows-fade-«r0»)"><g class="visx-group visx-rows" transform="translate(0, 0)"><line class="visx-line" x1="0" y1="416" x2="912" y2="416" fill="transparent" shape-rendering="crispEdges" stroke="var(--chart-grid)" stroke-width="1" stroke-dasharray="4,4" stroke-opacity="1"></line><line class="visx-line" x1="0" y1="329.3333333333333" x2="912" y2="329.3333333333333" fill="transparent" shape-rendering="crispEdges" stroke="var(--chart-grid)" stroke-width="1" stroke-dasharray="4,4" stroke-opacity="1"></line><line class="visx-line" x1="0" y1="242.66666666666663" x2="912" y2="242.66666666666663" fill="transparent" shape-rendering="crispEdges" stroke="var(--chart-grid)" stroke-width="1" stroke-dasharray="4,4" stroke-opacity="1"></line><line class="visx-line" x1="0" y1="156" x2="912" y2="156" fill="transparent" shape-rendering="crispEdges" stroke="var(--chart-grid)" stroke-width="1" stroke-dasharray="4,4" stroke-opacity="1"></line><line class="visx-line" x1="0" y1="69.33333333333331" x2="912" y2="69.33333333333331" fill="transparent" shape-rendering="crispEdges" stroke="var(--chart-grid)" stroke-width="1" stroke-dasharray="4,4" stroke-opacity="1"></line></g></g></g><path d="M29.419354838709694,416 L29.419354838709694,237.4193548387097 Q29.419354838709694,208 58.838709677419374,208 L58.838709677419374,208 Q88.25806451612905,208 88.25806451612905,237.4193548387097 L88.25806451612905,416Z" fill="var(--chart-line-primary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.999978); transform-box: fill-box;"></path><path d="M176.51612903225808,416 L176.51612903225808,176.752688172043 Q176.51612903225808,147.33333333333331 205.93548387096774,147.33333333333331 L205.93548387096774,147.33333333333331 Q235.35483870967744,147.33333333333331 235.35483870967744,176.752688172043 L235.35483870967744,416Z" fill="var(--chart-line-primary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.998135); transform-box: fill-box;"></path><path d="M323.61290322580646,416 L323.61290322580646,254.75268817204307 Q323.61290322580646,225.33333333333337 353.03225806451616,225.33333333333337 L353.03225806451616,225.33333333333337 Q382.45161290322585,225.33333333333337 382.45161290322585,254.75268817204307 L382.45161290322585,416Z" fill="var(--chart-line-primary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.992875); transform-box: fill-box;"></path><path d="M470.7096774193548,416 L470.7096774193548,124.752688172043 Q470.7096774193548,95.33333333333331 500.1290322580645,95.33333333333331 L500.12903225806446,95.33333333333331 Q529.5483870967741,95.33333333333331 529.5483870967741,124.752688172043 L529.5483870967741,416Z" fill="var(--chart-line-primary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.983167); transform-box: fill-box;"></path><path d="M617.8064516129032,416 L617.8064516129032,154.2193548387097 Q617.8064516129032,124.80000000000001 647.2258064516128,124.80000000000001 L647.2258064516129,124.80000000000001 Q676.6451612903226,124.80000000000001 676.6451612903226,154.2193548387097 L676.6451612903226,416Z" fill="var(--chart-line-primary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.96772); transform-box: fill-box;"></path><path d="M764.9032258064517,416 L764.9032258064517,77.95268817204303 Q764.9032258064517,48.533333333333346 794.3225806451613,48.533333333333346 L794.3225806451615,48.533333333333346 Q823.7419354838711,48.533333333333346 823.7419354838711,77.95268817204303 L823.7419354838711,416Z" fill="var(--chart-line-primary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.944273); transform-box: fill-box;"></path><path d="M88.25806451612905,416 L88.25806451612905,367.4193548387097 Q88.25806451612905,338 117.67741935483873,338 L117.67741935483873,338 Q147.0967741935484,338 147.0967741935484,367.4193548387097 L147.0967741935484,416Z" fill="var(--chart-line-secondary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.999978); transform-box: fill-box;"></path><path d="M235.35483870967744,416 L235.35483870967744,355.28602150537637 Q235.35483870967744,325.8666666666667 264.77419354838713,325.8666666666667 L264.77419354838713,325.8666666666667 Q294.1935483870968,325.8666666666667 294.1935483870968,355.28602150537637 L294.1935483870968,416Z" fill="var(--chart-line-secondary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.998135); transform-box: fill-box;"></path><path d="M382.45161290322585,416 L382.45161290322585,379.552688172043 Q382.45161290322585,350.1333333333333 411.87096774193554,350.1333333333333 L411.87096774193554,350.1333333333333 Q441.29032258064524,350.1333333333333 441.29032258064524,379.552688172043 L441.29032258064524,416Z" fill="var(--chart-line-secondary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.992875); transform-box: fill-box;"></path><path d="M529.5483870967741,416 L529.5483870967741,322.352688172043 Q529.5483870967741,292.9333333333333 558.9677419354838,292.9333333333333 L558.9677419354839,292.9333333333333 Q588.3870967741935,292.9333333333333 588.3870967741935,322.352688172043 L588.3870967741935,416Z" fill="var(--chart-line-secondary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.983167); transform-box: fill-box;"></path><path d="M676.6451612903226,416 L676.6451612903226,351.8193548387097 Q676.6451612903226,322.40000000000003 706.0645161290322,322.40000000000003 L706.0645161290323,322.40000000000003 Q735.483870967742,322.40000000000003 735.483870967742,351.8193548387097 L735.483870967742,416Z" fill="var(--chart-line-secondary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.96772); transform-box: fill-box;"></path><path d="M823.7419354838711,416 L823.7419354838711,292.88602150537633 Q823.7419354838711,263.46666666666664 853.1612903225807,263.46666666666664 L853.1612903225808,263.46666666666664 Q882.5806451612905,263.46666666666664 882.5806451612905,292.88602150537633 L882.5806451612905,416Z" fill="var(--chart-line-secondary)" opacity="1" style="transform-origin: 50% 50%; transform: scaleY(0.944273); transform-box: fill-box;"></path></g></svg></div><div class="pointer-events-none absolute inset-0"><div class="absolute" style="left: 128.258px; bottom: 12px; width: 0px; display: flex; justify-content: center;"><span class="whitespace-nowrap text-chart-label text-xs" style="opacity: 1;">Jan</span></div><div class="absolute" style="left: 275.355px; bottom: 12px; width: 0px; display: flex; justify-content: center;"><span class="whitespace-nowrap text-chart-label text-xs" style="opacity: 1;">Feb</span></div><div class="absolute" style="left: 422.452px; bottom: 12px; width: 0px; display: flex; justify-content: center;"><span class="whitespace-nowrap text-chart-label text-xs" style="opacity: 1;">Mar</span></div><div class="absolute" style="left: 569.548px; bottom: 12px; width: 0px; display: flex; justify-content: center;"><span class="whitespace-nowrap text-chart-label text-xs" style="opacity: 1;">Apr</span></div><div class="absolute" style="left: 716.645px; bottom: 12px; width: 0px; display: flex; justify-content: center;"><span class="whitespace-nowrap text-chart-label text-xs" style="opacity: 1;">May</span></div><div class="absolute" style="left: 863.742px; bottom: 12px; width: 0px; display: flex; justify-content: center;"><span class="whitespace-nowrap text-chart-label text-xs" style="opacity: 1;">Jun</span></div></div><svg aria-hidden="true" class="pointer-events-none absolute inset-0" height="100%" width="100%"><g transform="translate(40,40)"></g></svg></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
