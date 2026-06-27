@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/anubra266/password-input/confirm-password
+- Registry URL: https://21st.dev/r/anubra266/password-input
+- Author: anubra266
+- Component slug: password-input
+- Demo slug: confirm-password
+- Title: password-input
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/anubra266/password-input with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/anubra266__password-input__confirm-password.html
+- Local screenshot file: generated-21st-prompts/screenshots/anubra266__password-input__confirm-password.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center min-h-32"><div class="w-72 space-y-4"><div data-scope="field" data-part="root" id="field::«r0»" role="group"><div data-scope="password-input" data-part="root" dir="ltr"><label data-scope="password-input" data-part="label" for="«r0»" class="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 block">Password</label><div data-scope="password-input" data-part="control" class="relative h-9 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden focus-within:ring-2 focus-within:ring-blue-500/50 dark:focus-within:ring-blue-400/50 focus-within:border-blue-500 dark:focus-within:border-blue-400 transition-all"><input data-scope="password-input" data-part="input" id="«r0»" autocapitalize="off" autocomplete="new-password" spellcheck="false" data-state="hidden" class="w-full h-full bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-3 pr-10 border-none outline-hidden focus:outline-hidden focus-visible:outline-hidden" type="password" value=""><button data-scope="password-input" data-part="visibility-trigger" type="button" tabindex="-1" aria-controls="«r0»" aria-expanded="false" data-state="hidden" aria-label="Show password" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"><span data-scope="password-input" data-part="indicator" aria-hidden="true" data-state="hidden" fallback="[object Object]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-off w-4 h-4" aria-hidden="true"><path d="M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49"></path><path d="M14.084 14.158a3 3 0 0 1-4.242-4.242"></path><path d="M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143"></path><path d="m2 2 20 20"></path></svg></span></button></div></div></div><div data-scope="field" data-part="root" id="field::«r2»" role="group"><div data-scope="password-input" data-part="root" dir="ltr"><label data-scope="password-input" data-part="label" for="«r2»" class="text-sm font-medium text-gray-700 dark:text-gray-300 mb-2 flex items-center gap-2">Confirm Password</label><div data-scope="password-input" data-part="control" class="relative h-9 border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden focus-within:ring-2 focus-within:ring-blue-500/50 dark:focus-within:ring-blue-400/50 focus-within:border-blue-500 dark:focus-within:border-blue-400 transition-all data-invalid:border-red-500 dark:data-invalid:border-red-400 data-invalid:focus-within:ring-red-500/50 dark:data-invalid:focus-within:ring-red-400/50"><input data-scope="password-input" data-part="input" id="«r2»" autocapitalize="off" autocomplete="new-password" spellcheck="false" data-state="hidden" class="w-full h-full bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 px-3 pr-10 border-none outline-hidden focus:outline-hidden focus-visible:outline-hidden" type="password" value=""><button data-scope="password-input" data-part="visibility-trigger" type="button" tabindex="-1" aria-controls="«r2»" aria-expanded="false" data-state="hidden" aria-label="Show password" class="absolute right-3 top-1/2 -translate-y-1/2 text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-300 transition-colors"><span data-scope="password-input" data-part="indicator" aria-hidden="true" data-state="hidden" fallback="[object Object]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye-off w-4 h-4" aria-hidden="true"><path d="M10.733 5.076a10.744 10.744 0 0 1 11.205 6.575 1 1 0 0 1 0 .696 10.747 10.747 0 0 1-1.444 2.49"></path><path d="M14.084 14.158a3 3 0 0 1-4.242-4.242"></path><path d="M17.479 17.499a10.75 10.75 0 0 1-15.417-5.151 1 1 0 0 1 0-.696 10.75 10.75 0 0 1 4.446-5.143"></path><path d="m2 2 20 20"></path></svg></span></button></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

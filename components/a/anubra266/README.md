@@ -1,6 +1,6 @@
 # Anubra266 Components
 
-109 components are available in this author group.
+176 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -115,3 +115,70 @@
 | [![Editable Components](editable-components/editable-with-controls/screenshot.png)](editable-components/editable-with-controls/README.md) | [Editable Components](editable-components/editable-with-controls/README.md) | `editable-with-controls` |
 | [![Editable Components](editable-components/inline-edit/screenshot.png)](editable-components/inline-edit/README.md) | [Editable Components](editable-components/inline-edit/README.md) | `inline-edit` |
 | [![Editable Components](editable-components/profile-field-editable/screenshot.png)](editable-components/profile-field-editable/README.md) | [Editable Components](editable-components/profile-field-editable/README.md) | `profile-field-editable` |
+| [![Editable Components](editable-components/task-item-editable/screenshot.png)](editable-components/task-item-editable/README.md) | [Editable Components](editable-components/task-item-editable/README.md) | `task-item-editable` |
+| [![Editable Components](editable-components/title-editor/screenshot.png)](editable-components/title-editor/README.md) | [Editable Components](editable-components/title-editor/README.md) | `title-editor` |
+| [![Field Components](field-components/character-limit-input/screenshot.png)](field-components/character-limit-input/README.md) | [Field Components](field-components/character-limit-input/README.md) | `character-limit-input` |
+| [![Field Components](field-components/characters-left-input/screenshot.png)](field-components/characters-left-input/README.md) | [Field Components](field-components/characters-left-input/README.md) | `characters-left-input` |
+| [![Field Components](field-components/clear-button-input/screenshot.png)](field-components/clear-button-input/README.md) | [Field Components](field-components/clear-button-input/README.md) | `clear-button-input` |
+| [![Field Components](field-components/default/screenshot.png)](field-components/default/README.md) | [Field Components](field-components/default/README.md) | `default` |
+| [![Field Components](field-components/end-button-input/screenshot.png)](field-components/end-button-input/README.md) | [Field Components](field-components/end-button-input/README.md) | `end-button-input` |
+| [![Field Components](field-components/end-icon-input/screenshot.png)](field-components/end-icon-input/README.md) | [Field Components](field-components/end-icon-input/README.md) | `end-icon-input` |
+| [![Field Components](field-components/end-inline-add-on-input/screenshot.png)](field-components/end-inline-add-on-input/README.md) | [Field Components](field-components/end-inline-add-on-input/README.md) | `end-inline-add-on-input` |
+| [![Field Components](field-components/end-inline-button-input/screenshot.png)](field-components/end-inline-button-input/README.md) | [Field Components](field-components/end-inline-button-input/README.md) | `end-inline-button-input` |
+| [![Field Components](field-components/end-select-input/screenshot.png)](field-components/end-select-input/README.md) | [Field Components](field-components/end-select-input/README.md) | `end-select-input` |
+| [![Field Components](field-components/error-input/screenshot.png)](field-components/error-input/README.md) | [Field Components](field-components/error-input/README.md) | `error-input` |
+| [![Field Components](field-components/helper-text-input/screenshot.png)](field-components/helper-text-input/README.md) | [Field Components](field-components/helper-text-input/README.md) | `helper-text-input` |
+| [![Field Components](field-components/input-and-icon-button/screenshot.png)](field-components/input-and-icon-button/README.md) | [Field Components](field-components/input-and-icon-button/README.md) | `input-and-icon-button` |
+| [![Field Components](field-components/inset-label-input/screenshot.png)](field-components/inset-label-input/README.md) | [Field Components](field-components/inset-label-input/README.md) | `inset-label-input` |
+| [![Field Components](field-components/label-animation-input/screenshot.png)](field-components/label-animation-input/README.md) | [Field Components](field-components/label-animation-input/README.md) | `label-animation-input` |
+| [![Field Components](field-components/loader-input/screenshot.png)](field-components/loader-input/README.md) | [Field Components](field-components/loader-input/README.md) | `loader-input` |
+| [![Field Components](field-components/required-input/screenshot.png)](field-components/required-input/README.md) | [Field Components](field-components/required-input/README.md) | `required-input` |
+| [![Field Components](field-components/start-icon-input/screenshot.png)](field-components/start-icon-input/README.md) | [Field Components](field-components/start-icon-input/README.md) | `start-icon-input` |
+| [![Field Components](field-components/start-inline-add-on-input/screenshot.png)](field-components/start-inline-add-on-input/README.md) | [Field Components](field-components/start-inline-add-on-input/README.md) | `start-inline-add-on-input` |
+| [![Field Components](field-components/start-select-input/screenshot.png)](field-components/start-select-input/README.md) | [Field Components](field-components/start-select-input/README.md) | `start-select-input` |
+| [![File Upload 1](file-upload-1/avatar-upload/screenshot.png)](file-upload-1/avatar-upload/README.md) | [File Upload 1](file-upload-1/avatar-upload/README.md) | `avatar-upload` |
+| [![File Upload 1](file-upload-1/default/screenshot.png)](file-upload-1/default/README.md) | [File Upload 1](file-upload-1/default/README.md) | `default` |
+| [![File Upload 1](file-upload-1/directory-upload/screenshot.png)](file-upload-1/directory-upload/README.md) | [File Upload 1](file-upload-1/directory-upload/README.md) | `directory-upload` |
+| [![File Upload 1](file-upload-1/drag-n-drop-upload/screenshot.png)](file-upload-1/drag-n-drop-upload/README.md) | [File Upload 1](file-upload-1/drag-n-drop-upload/README.md) | `drag-n-drop-upload` |
+| [![File Upload 1](file-upload-1/files-list-upload/screenshot.png)](file-upload-1/files-list-upload/README.md) | [File Upload 1](file-upload-1/files-list-upload/README.md) | `files-list-upload` |
+| [![File Upload 1](file-upload-1/files-table-upload/screenshot.png)](file-upload-1/files-table-upload/README.md) | [File Upload 1](file-upload-1/files-table-upload/README.md) | `files-table-upload` |
+| [![File Upload 1](file-upload-1/multiple-images-upload/screenshot.png)](file-upload-1/multiple-images-upload/README.md) | [File Upload 1](file-upload-1/multiple-images-upload/README.md) | `multiple-images-upload` |
+| [![File Upload 1](file-upload-1/upload-with-paste/screenshot.png)](file-upload-1/upload-with-paste/README.md) | [File Upload 1](file-upload-1/upload-with-paste/README.md) | `upload-with-paste` |
+| [![Floating Panel](floating-panel/calendar-panel/screenshot.png)](floating-panel/calendar-panel/README.md) | [Floating Panel](floating-panel/calendar-panel/README.md) | `calendar-panel` |
+| [![Floating Panel](floating-panel/default/screenshot.png)](floating-panel/default/README.md) | [Floating Panel](floating-panel/default/README.md) | `default` |
+| [![Floating Panel](floating-panel/notes-panel/screenshot.png)](floating-panel/notes-panel/README.md) | [Floating Panel](floating-panel/notes-panel/README.md) | `notes-panel` |
+| [![Floating Panel](floating-panel/video-call-panel/screenshot.png)](floating-panel/video-call-panel/README.md) | [Floating Panel](floating-panel/video-call-panel/README.md) | `video-call-panel` |
+| [![Hover Card](hover-card/default/screenshot.png)](hover-card/default/README.md) | [Hover Card](hover-card/default/README.md) | `default` |
+| [![Hover Card](hover-card/link-preview-card/screenshot.png)](hover-card/link-preview-card/README.md) | [Hover Card](hover-card/link-preview-card/README.md) | `link-preview-card` |
+| [![Hover Card](hover-card/product-info-card/screenshot.png)](hover-card/product-info-card/README.md) | [Hover Card](hover-card/product-info-card/README.md) | `product-info-card` |
+| [![Hover Card](hover-card/user-profile-hover-card/screenshot.png)](hover-card/user-profile-hover-card/README.md) | [Hover Card](hover-card/user-profile-hover-card/README.md) | `user-profile-hover-card` |
+| [![Listbox](listbox/default/screenshot.png)](listbox/default/README.md) | [Listbox](listbox/default/README.md) | `default` |
+| [![Listbox](listbox/listbox-controlled/screenshot.png)](listbox/listbox-controlled/README.md) | [Listbox](listbox/listbox-controlled/README.md) | `listbox-controlled` |
+| [![Listbox](listbox/listbox-countries/screenshot.png)](listbox/listbox-countries/README.md) | [Listbox](listbox/listbox-countries/README.md) | `listbox-countries` |
+| [![Listbox](listbox/listbox-group/screenshot.png)](listbox/listbox-group/README.md) | [Listbox](listbox/listbox-group/README.md) | `listbox-group` |
+| [![Listbox](listbox/listbox-multiple/screenshot.png)](listbox/listbox-multiple/README.md) | [Listbox](listbox/listbox-multiple/README.md) | `listbox-multiple` |
+| [![Listbox](listbox/listbox-settings-menu/screenshot.png)](listbox/listbox-settings-menu/README.md) | [Listbox](listbox/listbox-settings-menu/README.md) | `listbox-settings-menu` |
+| [![Listbox](listbox/listbox-with-icons/screenshot.png)](listbox/listbox-with-icons/README.md) | [Listbox](listbox/listbox-with-icons/README.md) | `listbox-with-icons` |
+| [![Listbox](listbox/priority-listbox/screenshot.png)](listbox/priority-listbox/README.md) | [Listbox](listbox/priority-listbox/README.md) | `priority-listbox` |
+| [![Menu 1](menu-1/context-menu/screenshot.png)](menu-1/context-menu/README.md) | [Menu 1](menu-1/context-menu/README.md) | `context-menu` |
+| [![Menu 1](menu-1/default/screenshot.png)](menu-1/default/README.md) | [Menu 1](menu-1/default/README.md) | `default` |
+| [![Menu 1](menu-1/menu-with-groups/screenshot.png)](menu-1/menu-with-groups/README.md) | [Menu 1](menu-1/menu-with-groups/README.md) | `menu-with-groups` |
+| [![Menu 1](menu-1/menu-with-icons/screenshot.png)](menu-1/menu-with-icons/README.md) | [Menu 1](menu-1/menu-with-icons/README.md) | `menu-with-icons` |
+| [![Menu 1](menu-1/nested-menu/screenshot.png)](menu-1/nested-menu/README.md) | [Menu 1](menu-1/nested-menu/README.md) | `nested-menu` |
+| [![Menu 1](menu-1/user-menu/screenshot.png)](menu-1/user-menu/README.md) | [Menu 1](menu-1/user-menu/README.md) | `user-menu` |
+| [![Number Input](number-input/default/screenshot.png)](number-input/default/README.md) | [Number Input](number-input/default/README.md) | `default` |
+| [![Number Input](number-input/min-max-price/screenshot.png)](number-input/min-max-price/README.md) | [Number Input](number-input/min-max-price/README.md) | `min-max-price` |
+| [![Number Input](number-input/number-input-price/screenshot.png)](number-input/number-input-price/README.md) | [Number Input](number-input/number-input-price/README.md) | `number-input-price` |
+| [![Number Input](number-input/number-quantity-input/screenshot.png)](number-input/number-quantity-input/README.md) | [Number Input](number-input/number-quantity-input/README.md) | `number-quantity-input` |
+| [![Number Input](number-input/price-decimal/screenshot.png)](number-input/price-decimal/README.md) | [Number Input](number-input/price-decimal/README.md) | `price-decimal` |
+| [![Number Input](number-input/price-mouse-wheel/screenshot.png)](number-input/price-mouse-wheel/README.md) | [Number Input](number-input/price-mouse-wheel/README.md) | `price-mouse-wheel` |
+| [![Number Input](number-input/price-percentage/screenshot.png)](number-input/price-percentage/README.md) | [Number Input](number-input/price-percentage/README.md) | `price-percentage` |
+| [![Number Input](number-input/price-with-scrubber/screenshot.png)](number-input/price-with-scrubber/README.md) | [Number Input](number-input/price-with-scrubber/README.md) | `price-with-scrubber` |
+| [![Pagination](pagination/default/screenshot.png)](pagination/default/README.md) | [Pagination](pagination/default/README.md) | `default` |
+| [![Pagination](pagination/pagination-complete/screenshot.png)](pagination/pagination-complete/README.md) | [Pagination](pagination/pagination-complete/README.md) | `pagination-complete` |
+| [![Pagination](pagination/pagination-numbered/screenshot.png)](pagination/pagination-numbered/README.md) | [Pagination](pagination/pagination-numbered/README.md) | `pagination-numbered` |
+| [![Pagination](pagination/pagination-with-dropdown/screenshot.png)](pagination/pagination-with-dropdown/README.md) | [Pagination](pagination/pagination-with-dropdown/README.md) | `pagination-with-dropdown` |
+| [![Pagination](pagination/pagination-with-info/screenshot.png)](pagination/pagination-with-info/README.md) | [Pagination](pagination/pagination-with-info/README.md) | `pagination-with-info` |
+| [![Pagination](pagination/pagination-with-input/screenshot.png)](pagination/pagination-with-input/README.md) | [Pagination](pagination/pagination-with-input/README.md) | `pagination-with-input` |
+| [![Pagination](pagination/pagination-with-page-size/screenshot.png)](pagination/pagination-with-page-size/README.md) | [Pagination](pagination/pagination-with-page-size/README.md) | `pagination-with-page-size` |
+| [![Password Input](password-input/confirm-password/screenshot.png)](password-input/confirm-password/README.md) | [Password Input](password-input/confirm-password/README.md) | `confirm-password` |

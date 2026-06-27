@@ -1,6 +1,6 @@
 # Bucket a
 
-436 components from 24 author groups.
+503 components from 24 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -27,4 +27,4 @@
 | [ankit-2145](ankit-2145/README.md) | 1 |
 | [anshuman008](anshuman008/README.md) | 1 |
 | [antdesign](antdesign/README.md) | 49 |
-| [anubra266](anubra266/README.md) | 109 |
+| [anubra266](anubra266/README.md) | 176 |

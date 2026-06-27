@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "import": "node scripts/import-generated-components.mjs --input generated-components --out .",
-    "validate": "node scripts/validate-directory.mjs"
+    "validate": "node scripts/validate-directory.mjs",
+    "find": "node scripts/find-component.mjs"
   },
   "repository": {
     "type": "git",
