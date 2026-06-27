@@ -1,0 +1,317 @@
+# Build Executive Impact Carousel in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Executive Impact Carousel screenshot](screenshot.png)
+
+## Component
+
+- Author group: `haik-kashiyani`
+- Component: `executive-impact-carousel`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: haik-kashiyani
+- Component slug: executive-impact-carousel
+- Demo slug: default
+- Title: executive-impact-carousel
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><style>
+  .products-carousel {
+    background-color: #FFFFFF;
+    color: #1f1f1f;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+  }
+  
+  .dark .products-carousel {
+    background-color: #0a0a0a;
+    color: #f4f1ea;
+  }
+
+  .col-scroll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    min-height: 100vh;
+    width: 90vw;
+    box-sizing: border-box;
+    padding: 0;
+  }
+
+  @media (max-width: 768px) {
+    .col-scroll {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 0;
+      gap: 5vh;
+      align-items: center;
+    }
+  }
+
+  .col-scroll__box {
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 0 15vh;
+  }
+
+  .col-scroll__box--odd {
+    flex-direction: column-reverse;
+    height: 100vh;
+  }
+
+  @media (max-width: 768px) {
+    .col-scroll__box--odd {
+      flex-direction: column;
+      height: auto;
+      padding: 0;
+    }
+    .col-scroll__box {
+      width: 100%;
+      align-items: center;
+      padding: 2rem 0;
+    }
+  }
+
+  .col-scroll__list {
+    display: flex;
+    flex-direction: column;
+    will-change: transform;
+    gap: 10vw;
+  }
+
+  .col-scroll__box--odd .col-scroll__list {
+    flex-direction: column-reverse;
+  }
+
+  @media (max-width: 768px) {
+    .col-scroll__box--odd .col-scroll__list {
+      flex-direction: column;
+    }
+    .col-scroll__list {
+      gap: 5vh;
+    }
+  }
+
+  .product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    width: 20vw;
+    background: transparent;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  @media (max-width: 768px) {
+    .product-card {
+      width: 90vw;
+      margin: 0 0 10vh 0;
+    }
+    .product-card:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  .col-scroll__img-wrapper {
+    position: relative;
+    aspect-ratio: 0.8;
+    width: 100%;
+    margin-bottom: 0;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    background: #fff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .dark .col-scroll__img-wrapper {
+    border-color: rgba(255, 255, 255, 0.1);
+    background: #171717;
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.03);
+  }
+
+  .col-scroll__img-wrapper img {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    right: 1rem;
+    bottom: 1rem;
+    width: calc(100% - 2rem);
+    height: calc(100% - 2rem);
+    object-fit: cover;
+    transition: opacity 0.5s ease-in-out;
+  }
+
+  .product-img {
+    z-index: 1;
+    opacity: 1;
+  }
+
+  .model-img {
+    z-index: 2;
+    opacity: 0;
+  }
+
+  .product-card:hover .product-img,
+  .product-card:active .product-img {
+    opacity: 0;
+  }
+
+  .product-card:hover .model-img,
+  .product-card:active .model-img {
+    opacity: 1;
+  }
+
+  .product-card__info {
+    position: absolute;
+    bottom: 2rem;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+    padding: 0 1.5rem;
+    box-sizing: border-box;
+    transition: opacity 0.4s ease, transform 0.4s ease;
+  }
+  
+  .product-card:hover .product-card__info,
+  .product-card:active .product-card__info {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  .product-card__title {
+    margin: 0 0 0.5rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    color: #1f1f1f;
+    text-shadow: 0 2px 10px rgba(255, 255, 255, 0.8);
+  }
+  
+  .dark .product-card__title {
+    color: #f4f1ea;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.6);
+  }
+
+  .product-card__price-wrapper {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+    color: #1f1f1f;
+  }
+  
+  .dark .product-card__price-wrapper {
+    color: #f4f1ea;
+  }
+
+  .product-card__price--old {
+    text-decoration: line-through;
+    opacity: 0.5;
+    margin-right: 0.5rem;
+  }
+
+  .product-card__btn {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    z-index: 4;
+    opacity: 0;
+    background: rgba(244, 241, 234, 0.95);
+    border: 1px solid #1f1f1f;
+    padding: 1rem 2rem;
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    white-space: nowrap;
+    color: #1f1f1f;
+  }
+  
+  .dark .product-card__btn {
+    background: rgba(23, 23, 23, 0.95);
+    border-color: #f4f1ea;
+    color: #f4f1ea;
+  }
+
+  .product-card:hover .product-card__btn,
+  .product-card:active .product-card__btn {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+
+  .product-card__btn:hover {
+    background: #1f1f1f;
+    color: #fff;
+  }
+  
+  .dark .product-card__btn:hover {
+    background: #f4f1ea;
+    color: #1f1f1f;
+  }
+
+  @media (max-width: 768px) {
+    .product-card__title {
+      font-size: 1.1rem;
+    }
+    .product-card__price-wrapper {
+      font-size: 1rem;
+    }
+    .product-card__btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.7rem;
+    }
+  }
+</style><main class="products-carousel"><div class="col-scroll"><div class="col-scroll__box col-scroll__box--odd"><div class="pin-spacer" style="order: 0; place-self: auto; grid-area: auto; z-index: auto; float: none; flex-shrink: 1; display: flex; margin: 0px; inset: auto; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 198px; height: 1637px; padding: 0px;"><div class="col-scroll__list" style="translate: none; rotate: none; scale: none; transform: translate(0%, 0.0001%); left: 99.3906px; top: -834.249px; margin: 0px; max-width: 199px; width: 199px; max-height: 1637px; height: 1637px; padding: 0px; box-sizing: border-box; position: fixed;"><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Celestria Cape Sleeve Midi Dress in Black" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&amp;q=80"><img class="model-img" alt="Model wearing Celestria Cape Sleeve Midi Dress in Black" src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Celestria Cape Sleeve Midi Dress in Black</h3><div class="product-card__price-wrapper"><span class="product-card__price--old">$80.00</span><span class="product-card__price">$35.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Lumina Silk Blouse in Ivory" src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&amp;q=80"><img class="model-img" alt="Model wearing Lumina Silk Blouse in Ivory" src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Lumina Silk Blouse in Ivory</h3><div class="product-card__price-wrapper"><span class="product-card__price">$45.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Seraphina Leather Tote" src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&amp;q=80"><img class="model-img" alt="Model wearing Seraphina Leather Tote" src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Seraphina Leather Tote</h3><div class="product-card__price-wrapper"><span class="product-card__price">$120.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&amp;q=80"><img class="model-img" alt="Model wearing Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Celestria Cape Sleeve Midi Dress</h3><div class="product-card__price-wrapper"><span class="product-card__price">$35.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Lumina Silk Blouse" src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&amp;q=80"><img class="model-img" alt="Model wearing Lumina Silk Blouse" src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Lumina Silk Blouse</h3><div class="product-card__price-wrapper"><span class="product-card__price">$45.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure></div></div></div><div class="col-scroll__box"><div class="col-scroll__list"><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Seraphina Leather Tote" src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&amp;q=80"><img class="model-img" alt="Model wearing Seraphina Leather Tote" src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Seraphina Leather Tote</h3><div class="product-card__price-wrapper"><span class="product-card__price">$120.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&amp;q=80"><img class="model-img" alt="Model wearing Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Celestria Cape Sleeve Midi Dress</h3><div class="product-card__price-wrapper"><span class="product-card__price">$35.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Lumina Silk Blouse" src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&amp;q=80"><img class="model-img" alt="Model wearing Lumina Silk Blouse" src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Lumina Silk Blouse</h3><div class="product-card__price-wrapper"><span class="product-card__price">$45.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Seraphina Leather Tote" src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&amp;q=80"><img class="model-img" alt="Model wearing Seraphina Leather Tote" src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Seraphina Leather Tote</h3><div class="product-card__price-wrapper"><span class="product-card__price">$120.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&amp;q=80"><img class="model-img" alt="Model wearing Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Celestria Cape Sleeve Midi Dress</h3><div class="product-card__price-wrapper"><span class="product-card__price">$35.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure></div></div><div class="col-scroll__box col-scroll__box--odd"><div class="pin-spacer" style="order: 0; place-self: auto; grid-area: auto; z-index: auto; float: none; flex-shrink: 1; display: flex; margin: 0px; inset: auto; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 198px; height: 1637px; padding: 0px;"><div class="col-scroll__list" style="translate: none; rotate: none; scale: none; transform: translate(0%, 0.0001%); left: 694.578px; top: -834.249px; margin: 0px; max-width: 199px; width: 199px; max-height: 1637px; height: 1637px; padding: 0px; box-sizing: border-box; position: fixed;"><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Lumina Silk Blouse" src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&amp;q=80"><img class="model-img" alt="Model wearing Lumina Silk Blouse" src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Lumina Silk Blouse</h3><div class="product-card__price-wrapper"><span class="product-card__price">$45.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Seraphina Leather Tote" src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&amp;q=80"><img class="model-img" alt="Model wearing Seraphina Leather Tote" src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Seraphina Leather Tote</h3><div class="product-card__price-wrapper"><span class="product-card__price">$120.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=800&amp;q=80"><img class="model-img" alt="Model wearing Celestria Cape Sleeve Midi Dress" src="https://images.unsplash.com/photo-1509631179647-0177331693ae?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Celestria Cape Sleeve Midi Dress</h3><div class="product-card__price-wrapper"><span class="product-card__price">$35.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Lumina Silk Blouse" src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?w=800&amp;q=80"><img class="model-img" alt="Model wearing Lumina Silk Blouse" src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Lumina Silk Blouse</h3><div class="product-card__price-wrapper"><span class="product-card__price">$45.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure><figure class="product-card"><div class="col-scroll__img-wrapper"><img class="product-img" alt="Seraphina Leather Tote" src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=800&amp;q=80"><img class="model-img" alt="Model wearing Seraphina Leather Tote" src="https://images.unsplash.com/photo-1566150905458-1bf1fc113f0d?w=800&amp;q=80"><div class="product-card__info"><h3 class="product-card__title">Seraphina Leather Tote</h3><div class="product-card__price-wrapper"><span class="product-card__price">$120.00</span></div></div><button class="product-card__btn">View Details +</button></div></figure></div></div></div></div></main></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

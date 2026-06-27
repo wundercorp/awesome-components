@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/float_ui/login-with-listed-provider/login-with-google-provider
+- Registry URL: https://21st.dev/r/float_ui/login-with-listed-provider
+- Author: float_ui
+- Component slug: login-with-listed-provider
+- Demo slug: login-with-google-provider
+- Title: login-with-listed-provider
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/float_ui/login-with-listed-provider with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/float_ui__login-with-listed-provider__login-with-google-provider.html
+- Local screenshot file: generated-21st-prompts/screenshots/float_ui__login-with-listed-provider__login-with-google-provider.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="w-full h-screen flex flex-col items-center justify-center px-4"><div class="max-w-sm w-full text-gray-600 space-y-6"><div class="text-center pb-6"><img width="150" alt="Logo" class="mx-auto" src="https://floatui.com/logo.svg"><div class="mt-5"><h3 class="text-gray-800 text-2xl font-bold sm:text-3xl">Log in to your account</h3></div></div><form class="space-y-5"><div><label class="font-medium">Email</label><input required="" class="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg" type="email"></div><div><label class="font-medium">Password</label><input required="" class="w-full mt-2 px-3 py-2 text-gray-500 bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg" type="password"></div><div class="flex items-center justify-between text-sm"><div class="flex items-center gap-x-2"><input id="remember-me-checkbox" class="hidden peer" type="checkbox"><label for="remember-me-checkbox" class="relative flex w-5 h-5 bg-white peer-checked:bg-indigo-600 rounded-md border ring-offset-2 ring-indigo-600 duration-150 peer-active:ring cursor-pointer after:absolute after:inset-x-0 after:top-[3px] after:m-auto after:w-1.5 after:h-2.5 after:border-r-2 after:border-b-2 after:border-white after:rotate-45"></label><span>Remember me</span></div><a href="#" class="text-indigo-600 hover:text-indigo-500">Forgot password?</a></div><button type="submit" class="w-full px-4 py-2 text-white font-medium bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-600 rounded-lg duration-150">Sign in</button></form><div class="relative"><span class="block w-full h-px bg-gray-300"></span><p class="inline-block w-fit text-sm bg-white px-2 absolute -top-2 inset-x-0 mx-auto">Or continue with</p></div><button class="w-full flex items-center justify-center gap-x-3 py-2.5 border rounded-lg text-sm font-medium hover:bg-gray-50 duration-150 active:bg-gray-100"><svg class="w-5 h-5" viewBox="0 0 533.5 544.3" xmlns="http://www.w3.org/2000/svg"><path d="M533.5 278.4c0-17.4-1.6-34.1-4.6-50.2H272v95h146.9c-6.3 33.9-25 62.5-53.2 81.8v68.1h85.8c50.2-46.3 82-114.6 82-194.7z" fill="#4285F4"></path><path d="M272 544.3c71.6 0 131.7-23.7 175.7-64.2l-85.8-68.1c-23.8 16-54.1 25.4-89.9 25.4-69.1 0-127.6-46.6-148.4-109.3h-89.6v68.9C77.7 480.5 168.5 544.3 272 544.3z" fill="#34A853"></path><path d="M123.6 328.1c-10.8-32.1-10.8-66.9 0-99l-89.6-68.9c-39.1 77.6-39.1 168.3 0 245.9l89.6-68z" fill="#FBBC05"></path><path d="M272 107.7c37.4-.6 73.5 13.2 101.1 38.7l75.4-75.4C403.4 24.5 341.4 0 272 0 168.5 0 77.7 63.8 34 159.2l89.6 68.9C144.4 154.3 202.9 107.7 272 107.7z" fill="#EA4335"></path></svg>Continue with Google</button><p class="text-center text-sm">Don't have an account? <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">Sign up</a></p></div></main></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

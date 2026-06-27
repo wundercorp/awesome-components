@@ -1,6 +1,6 @@
 # Felipemenezes098 Components
 
-104 components are available in this author group.
+119 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -110,3 +110,18 @@
 | [![The Item One](the-item-one/file-list/screenshot.png)](the-item-one/file-list/README.md) | [The Item One](the-item-one/file-list/README.md) | `file-list` |
 | [![The Item One](the-item-one/in-dropdown-menu-items/screenshot.png)](the-item-one/in-dropdown-menu-items/README.md) | [The Item One](the-item-one/in-dropdown-menu-items/README.md) | `in-dropdown-menu-items` |
 | [![The Item One](the-item-one/integrations-item/screenshot.png)](the-item-one/integrations-item/README.md) | [The Item One](the-item-one/integrations-item/README.md) | `integrations-item` |
+| [![The Item One](the-item-one/item-as-link/screenshot.png)](the-item-one/item-as-link/README.md) | [The Item One](the-item-one/item-as-link/README.md) | `item-as-link` |
+| [![The Item One](the-item-one/item-header-and-footer/screenshot.png)](the-item-one/item-header-and-footer/README.md) | [The Item One](the-item-one/item-header-and-footer/README.md) | `item-header-and-footer` |
+| [![The Item One](the-item-one/item-variants/screenshot.png)](the-item-one/item-variants/README.md) | [The Item One](the-item-one/item-variants/README.md) | `item-variants` |
+| [![The Item One](the-item-one/item-with-actions/screenshot.png)](the-item-one/item-with-actions/README.md) | [The Item One](the-item-one/item-with-actions/README.md) | `item-with-actions` |
+| [![The Item One](the-item-one/item-with-avatar/screenshot.png)](the-item-one/item-with-avatar/README.md) | [The Item One](the-item-one/item-with-avatar/README.md) | `item-with-avatar` |
+| [![The Item One](the-item-one/item-with-icon/screenshot.png)](the-item-one/item-with-icon/README.md) | [The Item One](the-item-one/item-with-icon/README.md) | `item-with-icon` |
+| [![The Item One](the-item-one/items-group/screenshot.png)](the-item-one/items-group/README.md) | [The Item One](the-item-one/items-group/README.md) | `items-group` |
+| [![The Item One](the-item-one/items-popover/screenshot.png)](the-item-one/items-popover/README.md) | [The Item One](the-item-one/items-popover/README.md) | `items-popover` |
+| [![The Item One](the-item-one/items-stat-rows/screenshot.png)](the-item-one/items-stat-rows/README.md) | [The Item One](the-item-one/items-stat-rows/README.md) | `items-stat-rows` |
+| [![The Item One](the-item-one/notifications-items/screenshot.png)](the-item-one/notifications-items/README.md) | [The Item One](the-item-one/notifications-items/README.md) | `notifications-items` |
+| [![The Item One](the-item-one/pricing-tiers-items/screenshot.png)](the-item-one/pricing-tiers-items/README.md) | [The Item One](the-item-one/pricing-tiers-items/README.md) | `pricing-tiers-items` |
+| [![The Item One](the-item-one/settings-row-item/screenshot.png)](the-item-one/settings-row-item/README.md) | [The Item One](the-item-one/settings-row-item/README.md) | `settings-row-item` |
+| [![The Item One](the-item-one/sizes/screenshot.png)](the-item-one/sizes/README.md) | [The Item One](the-item-one/sizes/README.md) | `sizes` |
+| [![The Item One](the-item-one/user-list/screenshot.png)](the-item-one/user-list/README.md) | [The Item One](the-item-one/user-list/README.md) | `user-list` |
+| [![The Item One](the-item-one/with-thumbnail/screenshot.png)](the-item-one/with-thumbnail/README.md) | [The Item One](the-item-one/with-thumbnail/README.md) | `with-thumbnail` |

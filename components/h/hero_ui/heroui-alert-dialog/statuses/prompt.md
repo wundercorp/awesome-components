@@ -1,0 +1,57 @@
+# Build Heroui Alert Dialog in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Heroui Alert Dialog screenshot](screenshot.png)
+
+## Component
+
+- Author group: `hero_ui`
+- Component: `heroui-alert-dialog`
+- Variant: `statuses`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: hero_ui
+- Component slug: heroui-alert-dialog
+- Demo slug: statuses
+- Title: heroui-alert-dialog
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-wrap justify-center gap-4"><button data-slot="button" class="button button--md button--primary bg-accent-soft text-accent-soft-foreground" data-rac="" type="button" tabindex="0" aria-expanded="false" id="react-aria1950203043-«r1»" data-react-aria-pressable="true">Sign Out</button><button data-slot="button" class="button button--md button--primary bg-success-soft text-success-soft-foreground" data-rac="" type="button" tabindex="0" aria-expanded="false" id="react-aria1950203043-«r5»" data-react-aria-pressable="true">Complete Task</button><button data-slot="button" class="button button--md button--primary bg-warning-soft text-warning-soft-foreground" data-rac="" type="button" tabindex="0" aria-expanded="false" id="react-aria1950203043-«r9»" data-react-aria-pressable="true">Discard Changes</button><button data-slot="button" class="button button--md button--primary bg-danger-soft text-danger-soft-foreground" data-rac="" type="button" tabindex="0" aria-expanded="false" id="react-aria1950203043-«rd»" data-react-aria-pressable="true">Delete Account</button></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

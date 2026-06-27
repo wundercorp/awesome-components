@@ -1,0 +1,83 @@
+# Build Heroui Color Swatch Picker in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Heroui Color Swatch Picker screenshot](screenshot.png)
+
+## Component
+
+- Author group: `hero_ui`
+- Component: `heroui-color-swatch-picker`
+- Variant: `custom-indicator`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: hero_ui
+- Component slug: heroui-color-swatch-picker
+- Demo slug: custom-indicator
+- Title: heroui-color-swatch-picker
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex min-h-screen w-full items-center justify-center overflow-hidden bg-background p-8"><style>
+      .color-swatch-picker{display:flex;flex-wrap:wrap;align-items:center;gap:.5rem}
+      .color-swatch-picker--stack{flex-direction:column}
+      .color-swatch-picker__item{position:relative;display:flex;width:2rem;height:2rem;align-items:center;justify-content:center;border-radius:1rem;border:2px solid transparent;outline:2px solid transparent;outline-offset:2px;cursor:pointer;background:transparent;padding:0;-webkit-tap-highlight-color:transparent;transition:border-color 100ms cubic-bezier(.4,0,.2,1),box-shadow 100ms cubic-bezier(.4,0,.2,1);transform:translateZ(0)}
+      .color-swatch-picker__item:focus-visible,.color-swatch-picker__item[data-focus-visible="true"]{box-shadow:0 0 0 2px hsl(var(--background,0 0% 100%)),0 0 0 4px hsl(var(--ring,221 83% 53%))}
+      .color-swatch-picker__item[data-disabled="true"]{cursor:not-allowed;opacity:.5}
+      .color-swatch-picker__item[data-selected="true"]{border-color:var(--color-swatch-current);box-shadow:0 1px 2px rgba(0,0,0,.08)}
+      .color-swatch-picker__item[data-selected="true"] .color-swatch-picker__swatch{transform:scale(.77)}
+      .color-swatch-picker__swatch{display:block;width:100%;height:100%;border-radius:inherit;transition:transform 100ms cubic-bezier(.4,0,.2,1);transform:translateZ(0)}
+      @media (hover:hover){.color-swatch-picker__item:not([data-selected="true"]):not([data-disabled="true"]) .color-swatch-picker__swatch:hover{transform:scale(1.1)}}
+      .color-swatch-picker__indicator{pointer-events:none;position:absolute;inset:0;z-index:10;display:flex;align-items:center;justify-content:center}
+      .color-swatch-picker__indicator>*{width:33.333333%;height:33.333333%;color:white;transform:scale(0) translateZ(0);transition:transform 150ms cubic-bezier(.4,0,.2,1)}
+      .color-swatch-picker__indicator[data-light-color="true"]>*{color:black}
+      .color-swatch-picker__item[data-selected="true"] .color-swatch-picker__indicator>*{transform:scale(1) translateZ(0)}
+      .color-swatch-picker--xs .color-swatch-picker__item{width:1rem;height:1rem;border-width:1px;border-radius:.5rem}
+      .color-swatch-picker--sm .color-swatch-picker__item{width:1.5rem;height:1.5rem;border-radius:.75rem}
+      .color-swatch-picker--lg .color-swatch-picker__item{width:2.25rem;height:2.25rem;border-width:3px;border-radius:1.5rem}
+      .color-swatch-picker--xl .color-swatch-picker__item{width:2.5rem;height:2.5rem;border-width:3px;border-radius:1.5rem}
+      .color-swatch-picker--square .color-swatch-picker__item{border-radius:.75rem}
+      .color-swatch-picker--square .color-swatch-picker__swatch{border-radius:.5rem}
+      .color-swatch-picker--square.color-swatch-picker--xs .color-swatch-picker__item,.color-swatch-picker--square.color-swatch-picker--xs .color-swatch-picker__swatch{border-radius:.375rem}
+      .color-swatch-picker--square.color-swatch-picker--sm .color-swatch-picker__item{border-radius:.5rem}
+      .color-swatch-picker--square.color-swatch-picker--sm .color-swatch-picker__swatch{border-radius:.375rem}
+      .color-swatch-picker--square.color-swatch-picker--lg .color-swatch-picker__item,.color-swatch-picker--square.color-swatch-picker--xl .color-swatch-picker__item{border-radius:.75rem}
+      .color-swatch-picker--square.color-swatch-picker--lg .color-swatch-picker__swatch,.color-swatch-picker--square.color-swatch-picker--xl .color-swatch-picker__swatch{border-radius:.5rem}
+      @media (prefers-reduced-motion:reduce){.color-swatch-picker__item,.color-swatch-picker__swatch,.color-swatch-picker__indicator>*{transition:none}}
+    </style><div role="radiogroup" data-slot="color-swatch-picker" class="color-swatch-picker color-swatch-picker--grid color-swatch-picker--md color-swatch-picker--circle"><button type="button" role="radio" aria-checked="false" data-slot="color-swatch-picker-item" class="color-swatch-picker__item" style="--color-swatch-current: #F43F5E;"><span data-slot="color-swatch-picker-swatch" class="color-swatch-picker__swatch" style="background-color: rgb(244, 63, 94);"></span><span aria-hidden="true" class="color-swatch-picker__indicator" data-slot="color-swatch-picker-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4.76 1.5c-1.278 0-2.365.459-3.127 1.296C.878 3.624.5 4.758.5 6.013c0 2.18 1.11 3.917 2.52 5.268 1.404 1.345 3.17 2.368 4.632 3.133a.75.75 0 0 0 .693.002c1.463-.757 3.228-1.788 4.633-3.14 1.41-1.355 2.522-3.098 2.522-5.263 0-1.26-.38-2.393-1.136-3.221-.763-.835-1.85-1.293-3.124-1.293-1.076 0-1.966.399-2.643 1.151A4.5 4.5 0 0 0 8 3.504a4.5 4.5 0 0 0-.597-.854C6.726 1.898 5.836 1.5 4.76 1.5" clip-rule="evenodd"></path></svg></span></button><button type="button" role="radio" aria-checked="false" data-slot="color-swatch-picker-item" class="color-swatch-picker__item" style="--color-swatch-current: #D946EF;"><span data-slot="color-swatch-picker-swatch" class="color-swatch-picker__swatch" style="background-color: rgb(217, 70, 239);"></span><span aria-hidden="true" class="color-swatch-picker__indicator" data-slot="color-swatch-picker-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4.76 1.5c-1.278 0-2.365.459-3.127 1.296C.878 3.624.5 4.758.5 6.013c0 2.18 1.11 3.917 2.52 5.268 1.404 1.345 3.17 2.368 4.632 3.133a.75.75 0 0 0 .693.002c1.463-.757 3.228-1.788 4.633-3.14 1.41-1.355 2.522-3.098 2.522-5.263 0-1.26-.38-2.393-1.136-3.221-.763-.835-1.85-1.293-3.124-1.293-1.076 0-1.966.399-2.643 1.151A4.5 4.5 0 0 0 8 3.504a4.5 4.5 0 0 0-.597-.854C6.726 1.898 5.836 1.5 4.76 1.5" clip-rule="evenodd"></path></svg></span></button><button type="button" role="radio" aria-checked="false" data-slot="color-swatch-picker-item" class="color-swatch-picker__item" style="--color-swatch-current: #8B5CF6;"><span data-slot="color-swatch-picker-swatch" class="color-swatch-picker__swatch" style="background-color: rgb(139, 92, 246);"></span><span aria-hidden="true" class="color-swatch-picker__indicator" data-slot="color-swatch-picker-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4.76 1.5c-1.278 0-2.365.459-3.127 1.296C.878 3.624.5 4.758.5 6.013c0 2.18 1.11 3.917 2.52 5.268 1.404 1.345 3.17 2.368 4.632 3.133a.75.75 0 0 0 .693.002c1.463-.757 3.228-1.788 4.633-3.14 1.41-1.355 2.522-3.098 2.522-5.263 0-1.26-.38-2.393-1.136-3.221-.763-.835-1.85-1.293-3.124-1.293-1.076 0-1.966.399-2.643 1.151A4.5 4.5 0 0 0 8 3.504a4.5 4.5 0 0 0-.597-.854C6.726 1.898 5.836 1.5 4.76 1.5" clip-rule="evenodd"></path></svg></span></button><button type="button" role="radio" aria-checked="false" data-slot="color-swatch-picker-item" class="color-swatch-picker__item" style="--color-swatch-current: #3B82F6;"><span data-slot="color-swatch-picker-swatch" class="color-swatch-picker__swatch" style="background-color: rgb(59, 130, 246);"></span><span aria-hidden="true" class="color-swatch-picker__indicator" data-slot="color-swatch-picker-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4.76 1.5c-1.278 0-2.365.459-3.127 1.296C.878 3.624.5 4.758.5 6.013c0 2.18 1.11 3.917 2.52 5.268 1.404 1.345 3.17 2.368 4.632 3.133a.75.75 0 0 0 .693.002c1.463-.757 3.228-1.788 4.633-3.14 1.41-1.355 2.522-3.098 2.522-5.263 0-1.26-.38-2.393-1.136-3.221-.763-.835-1.85-1.293-3.124-1.293-1.076 0-1.966.399-2.643 1.151A4.5 4.5 0 0 0 8 3.504a4.5 4.5 0 0 0-.597-.854C6.726 1.898 5.836 1.5 4.76 1.5" clip-rule="evenodd"></path></svg></span></button><button type="button" role="radio" aria-checked="false" data-slot="color-swatch-picker-item" class="color-swatch-picker__item" style="--color-swatch-current: #06B6D4;"><span data-slot="color-swatch-picker-swatch" class="color-swatch-picker__swatch" style="background-color: rgb(6, 182, 212);"></span><span aria-hidden="true" class="color-swatch-picker__indicator" data-light-color="true" data-slot="color-swatch-picker-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4.76 1.5c-1.278 0-2.365.459-3.127 1.296C.878 3.624.5 4.758.5 6.013c0 2.18 1.11 3.917 2.52 5.268 1.404 1.345 3.17 2.368 4.632 3.133a.75.75 0 0 0 .693.002c1.463-.757 3.228-1.788 4.633-3.14 1.41-1.355 2.522-3.098 2.522-5.263 0-1.26-.38-2.393-1.136-3.221-.763-.835-1.85-1.293-3.124-1.293-1.076 0-1.966.399-2.643 1.151A4.5 4.5 0 0 0 8 3.504a4.5 4.5 0 0 0-.597-.854C6.726 1.898 5.836 1.5 4.76 1.5" clip-rule="evenodd"></path></svg></span></button><button type="button" role="radio" aria-checked="false" data-slot="color-swatch-picker-item" class="color-swatch-picker__item" style="--color-swatch-current: #10B981;"><span data-slot="color-swatch-picker-swatch" class="color-swatch-picker__swatch" style="background-color: rgb(16, 185, 129);"></span><span aria-hidden="true" class="color-swatch-picker__indicator" data-light-color="true" data-slot="color-swatch-picker-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4.76 1.5c-1.278 0-2.365.459-3.127 1.296C.878 3.624.5 4.758.5 6.013c0 2.18 1.11 3.917 2.52 5.268 1.404 1.345 3.17 2.368 4.632 3.133a.75.75 0 0 0 .693.002c1.463-.757 3.228-1.788 4.633-3.14 1.41-1.355 2.522-3.098 2.522-5.263 0-1.26-.38-2.393-1.136-3.221-.763-.835-1.85-1.293-3.124-1.293-1.076 0-1.966.399-2.643 1.151A4.5 4.5 0 0 0 8 3.504a4.5 4.5 0 0 0-.597-.854C6.726 1.898 5.836 1.5 4.76 1.5" clip-rule="evenodd"></path></svg></span></button><button type="button" role="radio" aria-checked="false" data-slot="color-swatch-picker-item" class="color-swatch-picker__item" style="--color-swatch-current: #84CC16;"><span data-slot="color-swatch-picker-swatch" class="color-swatch-picker__swatch" style="background-color: rgb(132, 204, 22);"></span><span aria-hidden="true" class="color-swatch-picker__indicator" data-light-color="true" data-slot="color-swatch-picker-indicator"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 16 16"><path fill="currentColor" fill-rule="evenodd" d="M4.76 1.5c-1.278 0-2.365.459-3.127 1.296C.878 3.624.5 4.758.5 6.013c0 2.18 1.11 3.917 2.52 5.268 1.404 1.345 3.17 2.368 4.632 3.133a.75.75 0 0 0 .693.002c1.463-.757 3.228-1.788 4.633-3.14 1.41-1.355 2.522-3.098 2.522-5.263 0-1.26-.38-2.393-1.136-3.221-.763-.835-1.85-1.293-3.124-1.293-1.076 0-1.966.399-2.643 1.151A4.5 4.5 0 0 0 8 3.504a4.5 4.5 0 0 0-.597-.854C6.726 1.898 5.836 1.5 4.76 1.5" clip-rule="evenodd"></path></svg></span></button></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

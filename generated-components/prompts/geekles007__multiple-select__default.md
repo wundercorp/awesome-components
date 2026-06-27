@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/geekles007/multiple-select/default
+- Registry URL: https://21st.dev/r/geekles007/multiple-select
+- Author: geekles007
+- Component slug: multiple-select
+- Demo slug: default
+- Title: multiple-select
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/geekles007/multiple-select with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/geekles007__multiple-select__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/geekles007__multiple-select__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="absolute z-10 top-4 right-14 flex flex-col items-end gap-1"><button type="button" role="combobox" aria-controls="radix-«r0»" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="flex w-full items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 gap-2 h-8"><span style="pointer-events: none;">Multiple Select Demo</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 opacity-50" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><div class="flex w-full justify-center relative"><div class="flex h-screen w-screen items-center justify-center"><div class="flex w-[450px] flex-col gap-2"><strong>TAGS</strong><div class="selected no-scrollbar flex h-12 w-full items-center overflow-x-scroll scroll-smooth rounded-md border border-solid border-gray-200 bg-gray-50 p-2"><div class="flex items-center gap-2"><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm bg-white shadow" style="opacity: 1;"><div class="flex items-center gap-2"><span class="text-nowrap">CSS</span><button class=""><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button></div></div></div></div><div class="flex w-full flex-wrap gap-2 rounded-md border border-solid border-gray-200 p-2"><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Web Development</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">JavaScript</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">TypeScript</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">React</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Next.js</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Node.js</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">GraphQL</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">API Development</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">HTML</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Design Systems</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Tailwind CSS</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Animations</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">GSAP</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Zustand</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Redux</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Testing</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Accessibility</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">SEO</span></div><div class="cursor-pointer rounded-md bg-gray-200 px-2 py-1 text-sm undefined" style="opacity: 1;"><span class="text-nowrap">Performance</span></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

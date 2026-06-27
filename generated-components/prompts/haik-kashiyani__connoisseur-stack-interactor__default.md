@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/haik-kashiyani/connoisseur-stack-interactor/default
+- Registry URL: https://21st.dev/r/haik-kashiyani/connoisseur-stack-interactor
+- Author: haik-kashiyani
+- Component slug: connoisseur-stack-interactor
+- Demo slug: default
+- Title: connoisseur-stack-interactor
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/haik-kashiyani/connoisseur-stack-interactor with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/haik-kashiyani__connoisseur-stack-interactor__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/haik-kashiyani__connoisseur-stack-interactor__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-col md:flex-row items-center justify-between min-h-screen w-full p-8 md:p-24 overflow-hidden transition-colors duration-500 bg-white dark:bg-[#050505]"><div class="z-20 w-full md:w-1/2"><nav><ul class="flex flex-col gap-14"><li class="group cursor-pointer"><div class="flex items-start gap-6"><span class="text-3xl font-bold transition-all duration-500 mt-2 text-orange-500 scale-110">01</span><h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter leading-[0.85] transition-all duration-700 text-zinc-950 dark:text-white opacity-100 translate-x-4">Gourmet<br>Burgers</h2></div></li><li class="group cursor-pointer"><div class="flex items-start gap-6"><span class="text-3xl font-bold transition-all duration-500 mt-2 text-zinc-400 dark:text-zinc-600">02</span><h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter leading-[0.85] transition-all duration-700 opacity-40 translate-x-0 text-zinc-500 dark:text-transparent dark:[text-stroke:1.5px_#52525b] dark:[-webkit-text-stroke:1.5px_#52525b]">Fresh<br>Desserts</h2></div></li><li class="group cursor-pointer"><div class="flex items-start gap-6"><span class="text-3xl font-bold transition-all duration-500 mt-2 text-zinc-400 dark:text-zinc-600">03</span><h2 class="text-5xl md:text-6xl font-black uppercase tracking-tighter leading-[0.85] transition-all duration-700 opacity-40 translate-x-0 text-zinc-500 dark:text-transparent dark:[text-stroke:1.5px_#52525b] dark:[-webkit-text-stroke:1.5px_#52525b]">Artisan<br>Waffles</h2></div></li></ul></nav></div><div class="relative w-full md:w-1/2 flex justify-center items-center mt-16 md:mt-0"><div class="absolute w-[120%] h-[120%] bg-orange-500/10 dark:bg-orange-600/5 blur-[120px] rounded-full transition-opacity duration-1000"></div><svg viewBox="0 0 500 500" class="w-[100%] max-w-[500px] h-auto z-10 drop-shadow-xl dark:drop-shadow-[0_0_60px_rgba(0,0,0,0.8)]"><defs><clipPath id="clip-original"><path class="path" d="M480.6,235H19.4c-6,0-10.8-4.9-10.8-10.8v-9.5c0-6,4.9-10.8,10.8-10.8h461.1c6,0,10.8,4.9,10.8,10.8v9.5C491.4,230.2,486.6,235,480.6,235z" data-svg-origin="249.9507532119751 219.4499969482422" transform="matrix(1.0291,0,0,1.0291,-7.27357,-6.38599)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path><path class="path" d="M483.1,362.4H16.9c-4.6,0-8.3-3.7-8.3-8.3v-1.8c0-4.6,3.7-8.3,8.3-8.3h466.1c4.6,0,8.3,3.7,8.3,8.3v1.8C491.4,358.7,487.7,362.4,483.1,362.4z" data-svg-origin="249.95098209381104 353.20001220703125" transform="matrix(1.0341,0,0,1.0341,-8.52333,-12.04412)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path><path class="path" d="M460.3,336.3H39.7c-17.2,0-31.1-13.9-31.1-31.1v-31.5c0-17.2,13.9-31.1,31.1-31.1h420.7c17.2,0,31.1,13.9,31.1,31.1v31.5C491.4,322.4,477.5,336.3,460.3,336.3z" data-svg-origin="250.05001258850098 289.4499816894531" transform="matrix(1.0387,0,0,1.0387,-9.67694,-11.20171)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path><path class="path" d="M459.2,196.2H40.8v-35c0-47.5,38.5-86,86-86h246.5c47.5,0,86,38.5,86,86V196.2z" data-svg-origin="250.04999923706055 135.6999969482422" transform="matrix(1.0341,0,0,1.0341,-8.5267,-4.62737)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path><path class="path" d="M441.9,424.9H58.1c-9.6,0-17.3-7.8-17.3-17.3v-37.4h418.5v37.4C459.2,417.1,451.5,424.9,441.9,424.9z" data-svg-origin="250.04999923706055 397.5500030517578" transform="matrix(1.0291,0,0,1.0291,-7.27645,-11.56871)" style="translate: none; rotate: none; scale: none; transform-origin: 0px 0px;"></path></clipPath><clipPath id="clip-hexagons"><rect class="path" x="20" y="20" width="200" height="280" rx="12"></rect><rect class="path" x="20" y="320" width="200" height="160" rx="12"></rect><rect class="path" x="240" y="20" width="240" height="140" rx="12"></rect><rect class="path" x="240" y="180" width="110" height="160" rx="12"></rect><rect class="path" x="370" y="180" width="110" height="160" rx="12"></rect><rect class="path" x="240" y="360" width="240" height="120" rx="12"></rect></clipPath><clipPath id="clip-pixels"><rect class="path" x="20" y="20" width="140" height="140" rx="4"></rect><rect class="path" x="180" y="20" width="140" height="140" rx="4"></rect><rect class="path" x="340" y="20" width="140" height="140" rx="4"></rect><rect class="path" x="20" y="180" width="140" height="140" rx="4"></rect><rect class="path" x="180" y="180" width="140" height="140" rx="4"></rect><rect class="path" x="340" y="180" width="140" height="140" rx="4"></rect><rect class="path" x="20" y="340" width="140" height="140" rx="4"></rect><rect class="path" x="180" y="340" width="140" height="140" rx="4"></rect><rect class="path" x="340" y="340" width="140" height="140" rx="4"></rect></clipPath></defs><g clip-path="url(#clip-original)"><image href="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&amp;auto=format&amp;fit=crop&amp;w=1000&amp;q=80" width="500" height="500" preserveAspectRatio="xMidYMid slice"></image></g></svg></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.
