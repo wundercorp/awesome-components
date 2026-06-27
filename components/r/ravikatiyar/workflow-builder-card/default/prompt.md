@@ -1,0 +1,57 @@
+# Build Workflow Builder Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Workflow Builder Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `workflow-builder-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: workflow-builder-card
+- Demo slug: default
+- Title: workflow-builder-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-screen w-full items-center justify-center bg-background p-4"><div class="w-full max-w-sm cursor-pointer"><div class="border bg-card text-card-foreground overflow-hidden rounded-xl shadow-md transition-shadow duration-300 hover:shadow-xl"><div class="relative h-36 w-full"><img alt="Personal Email Assistant" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1752154344437-44bd7480e8ee?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDY1fENEd3V3WEpBYkV3fHxlbnwwfHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;q=60&amp;w=900?q=80&amp;w=2940&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent"></div></div><div class="p-4"><div class="flex items-start justify-between"><div class="flex flex-col"><div class="flex items-center gap-2 text-xs text-muted-foreground"><span>5 days ago</span><span>•</span><div class="flex items-center gap-1.5"><span class="h-2 w-2 rounded-full bg-green-500" aria-label="Active"></span><span>Active</span></div></div><h3 class="mt-1 text-lg font-semibold text-card-foreground">Personal Email Assistant</h3></div><button aria-label="More options" class="text-muted-foreground transition-colors hover:text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis" aria-hidden="true"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></div></div><div class="flex items-center justify-between border-t border-border p-4"><div class="flex -space-x-2"><span class="relative flex shrink-0 overflow-hidden rounded-full h-7 w-7 border-2 border-card" aria-label="U1"><img class="aspect-square h-full w-full" src="https://i.pravatar.cc/150?img=1"></span><span class="relative flex shrink-0 overflow-hidden rounded-full h-7 w-7 border-2 border-card" aria-label="U2"><img class="aspect-square h-full w-full" src="https://i.pravatar.cc/150?img=2"></span><span class="relative flex shrink-0 overflow-hidden rounded-full h-7 w-7 border-2 border-card" aria-label="U3"><img class="aspect-square h-full w-full" src="https://i.pravatar.cc/150?img=3"></span><span class="relative flex shrink-0 overflow-hidden rounded-full h-7 w-7 border-2 border-card" aria-label="+3"><img class="aspect-square h-full w-full" src="https://i.pravatar.cc/150?img=4"></span></div><div class="flex items-center -space-x-2"><div class="flex h-7 w-7 items-center justify-center rounded-full border-2 border-card text-white bg-blue-500"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap" aria-hidden="true"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg></div><div class="flex h-7 w-7 items-center justify-center rounded-full border-2 border-card text-white bg-gray-700"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div><div class="flex h-7 w-7 items-center justify-center rounded-full border-2 border-card text-white bg-red-500"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

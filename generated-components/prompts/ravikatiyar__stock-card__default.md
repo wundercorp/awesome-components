@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/stock-card/default
+- Registry URL: https://21st.dev/r/ravikatiyar/stock-card
+- Author: ravikatiyar
+- Component slug: stock-card
+- Demo slug: default
+- Title: stock-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/stock-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__stock-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__stock-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full bg-background p-8 flex items-center justify-center"><div class="flex flex-col gap-4"><div class="flex items-center justify-between w-full max-w-md p-4 bg-card text-card-foreground rounded-xl border shadow-sm transition-shadow hover:shadow-md"><div class="flex items-center gap-4"><img alt="Alphabet Inc. logo" class="h-10 w-10 rounded-full" src="https://logo.clearbit.com/google.com"><div><p class="font-bold text-lg text-foreground">GOOG</p><p class="text-sm text-muted-foreground">Alphabet Inc.</p></div></div><div class="flex items-center gap-4 md:gap-6"><div class="text-right"><p class="font-semibold text-lg text-foreground">156,06</p><div class="flex items-center justify-end gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-4 w-4 text-green-500" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg><span class="text-sm text-green-500">4.89%</span></div></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 rounded-md px-3" aria-label="Buy GOOG stock">Buy</button></div></div><div class="flex items-center justify-between w-full max-w-md p-4 bg-card text-card-foreground rounded-xl border shadow-sm transition-shadow hover:shadow-md"><div class="flex items-center gap-4"><img alt="NVIDIA Corporation logo" class="h-10 w-10 rounded-full" src="https://logo.clearbit.com/nvidia.com"><div><p class="font-bold text-lg text-foreground">NVDA</p><p class="text-sm text-muted-foreground">NVIDIA Corporation</p></div></div><div class="flex items-center gap-4 md:gap-6"><div class="text-right"><p class="font-semibold text-lg text-foreground">19.270,30</p><div class="flex items-center justify-end gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right h-4 w-4 text-red-500" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg><span class="text-sm text-red-500">1.35%</span></div></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 rounded-md px-3" aria-label="Buy NVDA stock">Buy</button></div></div><div class="flex items-center justify-between w-full max-w-md p-4 bg-card text-card-foreground rounded-xl border shadow-sm transition-shadow hover:shadow-md"><div class="flex items-center gap-4"><img alt="Apple Inc. logo" class="h-10 w-10 rounded-full" src="https://logo.clearbit.com/apple.com"><div><p class="font-bold text-lg text-foreground">AAPL</p><p class="text-sm text-muted-foreground">Apple Inc.</p></div></div><div class="flex items-center gap-4 md:gap-6"><div class="text-right"><p class="font-semibold text-lg text-foreground">217,90</p><div class="flex items-center justify-end gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-4 w-4 text-green-500" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg><span class="text-sm text-green-500">2.66%</span></div></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 rounded-md px-3" aria-label="Buy AAPL stock">Buy</button></div></div><div class="flex items-center justify-between w-full max-w-md p-4 bg-card text-card-foreground rounded-xl border shadow-sm transition-shadow hover:shadow-md"><div class="flex items-center gap-4"><img alt="Starbucks Corporation logo" class="h-10 w-10 rounded-full" src="https://logo.clearbit.com/starbucks.com"><div><p class="font-bold text-lg text-foreground">SBUX</p><p class="text-sm text-muted-foreground">Starbucks Corporation</p></div></div><div class="flex items-center gap-4 md:gap-6"><div class="text-right"><p class="font-semibold text-lg text-foreground">97,73</p><div class="flex items-center justify-end gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-4 w-4 text-green-500" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg><span class="text-sm text-green-500">1.13%</span></div></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 rounded-md px-3" aria-label="Buy SBUX stock">Buy</button></div></div><div class="flex items-center justify-between w-full max-w-md p-4 bg-card text-card-foreground rounded-xl border shadow-sm transition-shadow hover:shadow-md"><div class="flex items-center gap-4"><img alt="Nike, Inc. logo" class="h-10 w-10 rounded-full" src="https://logo.clearbit.com/nike.com"><div><p class="font-bold text-lg text-foreground">NKE</p><p class="text-sm text-muted-foreground">Nike, Inc.</p></div></div><div class="flex items-center gap-4 md:gap-6"><div class="text-right"><p class="font-semibold text-lg text-foreground">63,29</p><div class="flex items-center justify-end gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down-right h-4 w-4 text-red-500" aria-hidden="true"><path d="m7 7 10 10"></path><path d="M17 7v10H7"></path></svg><span class="text-sm text-red-500">3.81%</span></div></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-9 rounded-md px-3" aria-label="Buy NKE stock">Buy</button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

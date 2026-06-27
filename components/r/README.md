@@ -1,6 +1,6 @@
 # Bucket r
 
-156 components from 9 author groups.
+364 components from 11 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -10,6 +10,8 @@
 | [rahil1202](rahil1202/README.md) | 11 |
 | [ranjansharma-ind](ranjansharma-ind/README.md) | 1 |
 | [rapid-ui](rapid-ui/README.md) | 2 |
-| [ravikatiyar](ravikatiyar/README.md) | 103 |
+| [ravikatiyar](ravikatiyar/README.md) | 239 |
+| [rayimanoj8](rayimanoj8/README.md) | 3 |
+| [reapollo](reapollo/README.md) | 69 |
 | [remocn](remocn/README.md) | 7 |
 | [ruvyui](ruvyui/README.md) | 9 |

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/team-section/default
+- Registry URL: https://21st.dev/r/ravikatiyar/team-section
+- Author: ravikatiyar
+- Component slug: team-section
+- Demo slug: default
+- Title: team-section
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/team-section with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__team-section__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__team-section__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full bg-background"><section class="w-full py-20 lg:py-28 overflow-hidden"><div class="container mx-auto flex flex-col items-center text-center px-4"><h2 class="text-3xl md:text-5xl font-bold tracking-tight text-foreground mb-3">Our commitment to integrity and innovation</h2><p class="max-w-3xl text-muted-foreground md:text-xl">At TopOpti, we believe in forging strong partnerships build on integrity and honesty. Our mission is to drive innovation and ensure our clients success through dedicated service and creative solutions.</p><div class="relative mt-20 flex items-center justify-center" style="min-height: 250px;"><div class="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 rounded-xl overflow-hidden shadow-lg border-2 border-background" style="z-index: 4; opacity: 1; transform: translateX(-270px) translateY(-90px) rotate(-36deg);"><img alt="Johnathan Doe" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&amp;w=200&amp;auto=format&amp;fit=crop"></div><div class="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 rounded-xl overflow-hidden shadow-lg border-2 border-background" style="z-index: 5; opacity: 1; transform: translateX(-180px) translateY(-60px) rotate(-24deg);"><img alt="Jane Smith" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&amp;w=200&amp;auto=format&amp;fit=crop"></div><div class="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 rounded-xl overflow-hidden shadow-lg border-2 border-background" style="z-index: 6; opacity: 1; transform: translateX(-90px) translateY(-30px) rotate(-12deg);"><img alt="Peter Jones" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&amp;w=200&amp;auto=format&amp;fit=crop"></div><div class="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 rounded-xl overflow-hidden shadow-lg border-2 border-background" style="z-index: 7; opacity: 1; transform: none;"><img alt="Sarah Williams" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&amp;w=200&amp;auto=format&amp;fit=crop"></div><div class="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 rounded-xl overflow-hidden shadow-lg border-2 border-background" style="z-index: 6; opacity: 1; transform: translateX(90px) translateY(-30px) rotate(12deg);"><img alt="Michael Brown" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?q=80&amp;w=200&amp;auto=format&amp;fit=crop"></div><div class="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 rounded-xl overflow-hidden shadow-lg border-2 border-background" style="z-index: 5; opacity: 1; transform: translateX(180px) translateY(-60px) rotate(24deg);"><img alt="Emily Davis" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&amp;w=200&amp;auto=format&amp;fit=crop"></div><div class="absolute w-28 h-28 md:w-36 md:h-36 lg:w-44 lg:h-44 rounded-xl overflow-hidden shadow-lg border-2 border-background" style="z-index: 4; opacity: 1; transform: translateX(270px) translateY(-90px) rotate(36deg);"><img alt="David Garcia" class="w-full h-full object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&amp;w=200&amp;auto=format&amp;fit=crop"></div></div></div></section></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

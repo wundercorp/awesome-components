@@ -1,0 +1,57 @@
+# Build Product Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Product Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `product-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: product-card
+- Demo slug: default
+- Title: product-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-screen w-full items-center justify-center bg-background p-8"><div class="relative h-[350px] w-[350px] rounded-2xl bg-card shadow-lg transition-shadow duration-300 hover:shadow-2xl" style="transform-style: preserve-3d; transform: rotateX(10deg) rotateY(-10deg);"><div class="absolute inset-4 rounded-xl bg-card-foreground/5 shadow-inner" style="transform: translateZ(20px);"><div class="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:32px_32px] [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div><div class="pointer-events-none absolute -inset-px rounded-xl opacity-0" style="background: radial-gradient(80px at [object Object]% [object Object]%, hsl(var(--primary)), transparent 40%); opacity: 0;"></div><div class="relative z-10 flex h-full flex-col justify-between p-6"><div class="flex items-center space-x-2 text-card-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circuit-board h-5 w-5" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M11 9h4a2 2 0 0 0 2-2V3"></path><circle cx="9" cy="9" r="2"></circle><path d="M7 21v-4a2 2 0 0 1 2-2h4"></path><circle cx="15" cy="15" r="2"></circle></svg><span class="text-sm font-medium">Electronic</span></div><div class="text-card-foreground"><h2 class="text-4xl font-bold tracking-tight">Connectors</h2><p class="mt-2 max-w-[60%] text-xs text-muted-foreground">Fast charging and reliable connection for all your devices. Compact, durable, and ready for everyday use.</p></div></div><img alt="White USB-C cable" class="absolute -right-12 -bottom-12 h-56 w-56 object-contain" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-b3aKXmNboBC5A2lhRgyEeUYJMuII0v.png&amp;w=320&amp;q=75" style="transform: translateZ(50px);"></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/ticket-confirmation-card/default
+- Registry URL: https://21st.dev/r/ravikatiyar/ticket-confirmation-card
+- Author: ravikatiyar
+- Component slug: ticket-confirmation-card
+- Demo slug: default
+- Title: ticket-confirmation-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/ticket-confirmation-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__ticket-confirmation-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__ticket-confirmation-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-full w-full items-center justify-center bg-background p-4"><div class="relative w-full max-w-sm bg-card text-card-foreground rounded-2xl shadow-lg font-sans z-10 animate-in fade-in-0 zoom-in-95 duration-500"><div class="absolute -left-4 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-background"></div><div class="absolute -right-4 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-background"></div><div class="p-8 flex flex-col items-center text-center"><div class="p-3 bg-primary/10 rounded-full animate-in zoom-in-50 delay-300 duration-500"><svg class="w-10 h-10 text-primary animate-in zoom-in-75 delay-500 duration-500" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg></div><h1 class="text-2xl font-semibold mt-4">Thank you!</h1><p class="text-muted-foreground mt-1">Your ticket has been issued successfully</p></div><div class="px-8 pb-8 space-y-6"><div class="w-full border-t-2 border-dashed border-border" aria-hidden="true"></div><div class="grid grid-cols-2 gap-4 text-left"><div><p class="text-xs text-muted-foreground uppercase">Ticket ID</p><p class="font-mono font-medium">0120034399434</p></div><div class="text-right"><p class="text-xs text-muted-foreground uppercase">Amount</p><p class="font-semibold text-lg">$305.50</p></div></div><div><p class="text-xs text-muted-foreground uppercase">Date &amp; Time</p><p class="font-medium">19 Jun 2025 • 10:15</p></div><div class="bg-muted/50 p-4 rounded-lg flex items-center space-x-4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="24"><circle cx="8" cy="12" r="7" fill="#EA001B"></circle><circle cx="16" cy="12" r="7" fill="#F79E1B" fill-opacity="0.8"></circle></svg><div><p class="font-semibold">Liana80 Tudakova</p><p class="text-muted-foreground font-mono text-sm tracking-wider">•••• 8237</p></div></div><div class="w-full border-t-2 border-dashed border-border" aria-hidden="true"></div><div class="flex flex-col items-center py-2"><svg xmlns="http://www.w3.org/2000/svg" width="250" height="70" viewBox="0 0 250 70" aria-label="Barcode for value 28937261273650" class="fill-current text-foreground"><rect x="26.75" y="10" width="2.5" height="50"></rect><rect x="30.75" y="10" width="2.5" height="50"></rect><rect x="34.75" y="10" width="1.5" height="50"></rect><rect x="37.75" y="10" width="1.5" height="50"></rect><rect x="40.75" y="10" width="1.5" height="50"></rect><rect x="43.75" y="10" width="1.5" height="50"></rect><rect x="46.75" y="10" width="1.5" height="50"></rect><rect x="49.75" y="10" width="1.5" height="50"></rect><rect x="52.75" y="10" width="2.5" height="50"></rect><rect x="56.75" y="10" width="1.5" height="50"></rect><rect x="59.75" y="10" width="1.5" height="50"></rect><rect x="62.75" y="10" width="1.5" height="50"></rect><rect x="65.75" y="10" width="1.5" height="50"></rect><rect x="68.75" y="10" width="1.5" height="50"></rect><rect x="71.75" y="10" width="2.5" height="50"></rect><rect x="75.75" y="10" width="1.5" height="50"></rect><rect x="78.75" y="10" width="1.5" height="50"></rect><rect x="81.75" y="10" width="1.5" height="50"></rect><rect x="84.75" y="10" width="1.5" height="50"></rect><rect x="87.75" y="10" width="2.5" height="50"></rect><rect x="91.75" y="10" width="1.5" height="50"></rect><rect x="94.75" y="10" width="2.5" height="50"></rect><rect x="98.75" y="10" width="1.5" height="50"></rect><rect x="101.75" y="10" width="1.5" height="50"></rect><rect x="104.75" y="10" width="1.5" height="50"></rect><rect x="107.75" y="10" width="1.5" height="50"></rect><rect x="110.75" y="10" width="1.5" height="50"></rect><rect x="113.75" y="10" width="2.5" height="50"></rect><rect x="117.75" y="10" width="1.5" height="50"></rect><rect x="120.75" y="10" width="2.5" height="50"></rect><rect x="124.75" y="10" width="2.5" height="50"></rect><rect x="128.75" y="10" width="1.5" height="50"></rect><rect x="131.75" y="10" width="2.5" height="50"></rect><rect x="135.75" y="10" width="1.5" height="50"></rect><rect x="138.75" y="10" width="1.5" height="50"></rect><rect x="141.75" y="10" width="2.5" height="50"></rect><rect x="145.75" y="10" width="1.5" height="50"></rect><rect x="148.75" y="10" width="2.5" height="50"></rect><rect x="152.75" y="10" width="1.5" height="50"></rect><rect x="155.75" y="10" width="1.5" height="50"></rect><rect x="158.75" y="10" width="1.5" height="50"></rect><rect x="161.75" y="10" width="2.5" height="50"></rect><rect x="165.75" y="10" width="2.5" height="50"></rect><rect x="169.75" y="10" width="1.5" height="50"></rect><rect x="172.75" y="10" width="2.5" height="50"></rect><rect x="176.75" y="10" width="1.5" height="50"></rect><rect x="179.75" y="10" width="2.5" height="50"></rect><rect x="183.75" y="10" width="2.5" height="50"></rect><rect x="187.75" y="10" width="1.5" height="50"></rect><rect x="190.75" y="10" width="1.5" height="50"></rect><rect x="193.75" y="10" width="1.5" height="50"></rect><rect x="196.75" y="10" width="1.5" height="50"></rect><rect x="199.75" y="10" width="1.5" height="50"></rect><rect x="202.75" y="10" width="1.5" height="50"></rect><rect x="205.75" y="10" width="1.5" height="50"></rect><rect x="208.75" y="10" width="1.5" height="50"></rect><rect x="211.75" y="10" width="2.5" height="50"></rect><rect x="215.75" y="10" width="1.5" height="50"></rect><rect x="218.75" y="10" width="1.5" height="50"></rect><rect x="221.75" y="10" width="1.5" height="50"></rect></svg><p class="text-sm text-muted-foreground tracking-[0.3em] mt-2">28937261273650</p></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

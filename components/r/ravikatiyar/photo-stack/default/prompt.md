@@ -1,0 +1,57 @@
+# Build Photo Stack in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Photo Stack screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `photo-stack`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: photo-stack
+- Demo slug: default
+- Title: photo-stack
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-full min-h-[45rem] w-full items-center justify-center bg-background p-8"><div class="flex flex-col items-center justify-center gap-12"><div class="relative h-96 w-full"><div class="relative left-1/2 top-1/2 h-80 w-64 -translate-x-1/2 -translate-y-1/2"><div class="absolute inset-0 h-80 w-64 cursor-pointer rounded-xl bg-background p-2 shadow-lg transition-all duration-500 ease-in-out" style="transform: translateY(0rem) scale(1); z-index: 5;"><div class="flex h-full w-full flex-col items-center justify-start"><div class="h-64 w-full"><img alt="Alexandre" class="h-full w-full rounded-md object-cover" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?q=80&amp;w=1887&amp;auto=format&amp;fit=crop"></div><div class="flex h-12 flex-grow items-center justify-center"><p class="font-serif text-xl italic text-foreground">Alexandre</p></div></div></div><div class="absolute inset-0 h-80 w-64 cursor-pointer rounded-xl bg-background p-2 shadow-lg transition-all duration-500 ease-in-out -rotate-2" style="transform: translateY(0.5rem) scale(0.95); z-index: 4;"><div class="flex h-full w-full flex-col items-center justify-start"><div class="h-64 w-full"><img alt="Isabella" class="h-full w-full rounded-md object-cover" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&amp;w=1887&amp;auto=format&amp;fit=crop"></div><div class="flex h-12 flex-grow items-center justify-center"><p class="font-serif text-xl italic text-foreground">Isabella</p></div></div></div><div class="absolute inset-0 h-80 w-64 cursor-pointer rounded-xl bg-background p-2 shadow-lg transition-all duration-500 ease-in-out rotate-4" style="transform: translateY(1rem) scale(0.9); z-index: 3;"><div class="flex h-full w-full flex-col items-center justify-start"><div class="h-64 w-full"><img alt="Sophia" class="h-full w-full rounded-md object-cover" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&amp;w=1964&amp;auto=format&amp;fit=crop"></div><div class="flex h-12 flex-grow items-center justify-center"><p class="font-serif text-xl italic text-foreground">Sophia</p></div></div></div><div class="absolute inset-0 h-80 w-64 cursor-pointer rounded-xl bg-background p-2 shadow-lg transition-all duration-500 ease-in-out -rotate-4" style="transform: translateY(1.5rem) scale(0.85); z-index: 2;"><div class="flex h-full w-full flex-col items-center justify-start"><div class="h-64 w-full"><img alt="Mia" class="h-full w-full rounded-md object-cover" src="https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&amp;w=1961&amp;auto=format&amp;fit=crop"></div><div class="flex h-12 flex-grow items-center justify-center"><p class="font-serif text-xl italic text-foreground">Mia</p></div></div></div><div class="absolute inset-0 h-80 w-64 cursor-pointer rounded-xl bg-background p-2 shadow-lg transition-all duration-500 ease-in-out rotate-6" style="transform: translateY(2rem) scale(0.8); z-index: 1;"><div class="flex h-full w-full flex-col items-center justify-start"><div class="h-64 w-full"><img alt="Charlotte" class="h-full w-full rounded-md object-cover" src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?q=80&amp;w=1964&amp;auto=format&amp;fit=crop"></div><div class="flex h-12 flex-grow items-center justify-center"><p class="font-serif text-xl italic text-foreground">Charlotte</p></div></div></div></div></div><h3 class="text-center text-2xl font-bold text-foreground">Our Creative Team</h3></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/interactive-hero-backgrounds/default
+- Registry URL: https://21st.dev/r/ravikatiyar/interactive-hero-backgrounds
+- Author: ravikatiyar
+- Component slug: interactive-hero-backgrounds
+- Demo slug: default
+- Title: interactive-hero-backgrounds
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/interactive-hero-backgrounds with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__interactive-hero-backgrounds__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__interactive-hero-backgrounds__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative w-full h-screen overflow-hidden bg-background"><canvas class="absolute inset-0 w-full h-full z-0" data-engine="three.js r179" width="992" height="944" style="display: block; width: 992px; height: 944px;"></canvas><header class="relative z-10 w-full max-w-7xl mx-auto p-4 sm:p-6 lg:p-8"><div class="flex items-center justify-between gap-4"><a href="#" class="font-bold text-2xl text-foreground tracking-tight">21st</a><nav class="hidden md:flex items-center gap-2 text-sm font-medium text-muted-foreground"><a href="#" class="hover:text-foreground px-3 py-2 transition-colors rounded-md">About</a><a href="#" class="hover:text-foreground px-3 py-2 transition-colors rounded-md">Blog</a><a href="#" class="hover:text-foreground px-3 py-2 transition-colors rounded-md">Contact</a></nav><div class="flex items-center gap-2"><button class="bg-secondary/50 hover:bg-secondary flex-shrink-0 p-2.5 rounded-full transition-colors" aria-label="Toggle theme"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun h-5 w-5 text-foreground dark:hidden" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon h-5 w-5 text-foreground hidden dark:block" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg></button><button class="md:hidden p-2.5" aria-label="Open menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu h-6 w-6 text-foreground" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button></div></div></header><main class="relative z-10 flex h-[calc(100%-100px)] items-center justify-center text-center px-4"><div class="max-w-3xl"><h1 class="text-4xl sm:text-5xl md:text-6xl text-foreground font-bold tracking-tighter">Interactive Hero Backgrounds</h1><p class="mt-6 text-lg text-muted-foreground max-w-2xl mx-auto">Engage users with dynamic, physics-based animations that respond to their every move. Built with React, Three.js, and shadcn/ui.</p><form class="mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 max-w-md mx-auto"><div class="relative w-full"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail absolute left-4 top-1/2 -translate-y-1/2 h-5 w-5 text-muted-foreground" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg><input placeholder="Enter your email" class="w-full bg-secondary/50 border border-transparent hover:border-border/50 focus:border-border text-foreground placeholder-muted-foreground font-medium pl-11 pr-4 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background transition-colors" required="" type="email" value=""></div><button type="submit" class="w-full sm:w-auto bg-primary text-primary-foreground hover:bg-primary/90 px-6 py-3 rounded-full font-semibold transition-colors flex items-center justify-center gap-2 flex-shrink-0">Get Notified <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-4 w-4" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></form></div></main></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

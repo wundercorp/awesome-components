@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/onboarding-form/default
+- Registry URL: https://21st.dev/r/ravikatiyar/onboarding-form
+- Author: ravikatiyar
+- Component slug: onboarding-form
+- Demo slug: default
+- Title: onboarding-form
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/onboarding-form with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__onboarding-form__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__onboarding-form__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-screen w-full items-center justify-center"><div class="w-full max-w-md overflow-hidden rounded-2xl border border-forground/40 bg-background/60 shadow-lg backdrop-blur-lg"><div style="opacity: 1; transform: none;"><img alt="Welcome Banner" class="h-full w-full object-cover" src="https://ik.imagekit.io/fpxbgsota/Image.png?updatedAt=1760432307349q=80&amp;w=2070&amp;auto=format&amp;fit=crop"></div><div class="space-y-6 p-8 text-center"><div class="space-y-2" style="opacity: 1; transform: none;"><h1 class="font-bold text-2xl text-foreground">Welcome, you're starting your first journey here!</h1><p class="text-muted-foreground">Add your avatar and pick a username for a quick start.</p></div><div class="flex items-center justify-between rounded-lg border bg-background/50 p-3" style="opacity: 1; transform: none;"><div class="flex items-center gap-3"><span class="relative flex h-10 w-10 shrink-0 overflow-hidden rounded-full"><img class="aspect-square h-full w-full" alt="User Avatar" src="https://i.pravatar.cc/150?u=a042581f4e29026704d"></span><div class="text-left"><p class="font-medium text-sm text-foreground">Your avatar</p><p class="text-xs text-muted-foreground">PNG or JPG up to 10MB</p></div></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-9 rounded-md px-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-upload mr-2 h-4 w-4" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" x2="12" y1="3" y2="15"></line></svg>Upload</button></div><form class="space-y-4"><div style="opacity: 1; transform: none;"><div class="relative"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-at-sign absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M16 8v5a3 3 0 0 0 6 0v-1a10 10 0 1 0-4 8"></path></svg><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 pl-9" id="username" placeholder="username" required="" value=""></div></div><div style="opacity: 1; transform: none;"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full" type="submit">Create an account</button></div></form></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,57 @@
+# Build Profile Selector in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Profile Selector screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `profile-selector`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: profile-selector
+- Demo slug: default
+- Title: profile-selector
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-screen w-full flex-col items-center justify-center bg-background p-4"><div class="flex flex-col items-center"><h1 class="mb-10 text-3xl font-medium text-foreground md:text-5xl">Who's watching?</h1><div class="grid grid-cols-2 gap-4 sm:grid-cols-3 md:gap-6 lg:grid-cols-4 xl:grid-cols-5"><div class="flex flex-col items-center gap-3 group"><button aria-label="Select profile: Ravi" class="group relative h-28 w-28 rounded-full transition-transform duration-300 ease-in-out hover:-translate-y-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:h-36 md:w-36"><div class="absolute inset-0 rounded-full bg-muted transition-all duration-300 group-hover:shadow-lg group-hover:shadow-primary/20"></div><div class="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full"><img alt="Ravi profile" class="h-full w-full object-cover" src="https://vucvdpamtrjkzmubwlts.supabase.co/storage/v1/object/public/users/user_2zMtrqo9RMaaIn4f8F2z3oeY497/avatar.png"></div></button><p class="text-lg text-muted-foreground transition-colors group-hover:text-foreground">Ravi</p></div><div class="flex flex-col items-center gap-3 group"><button aria-label="Select profile: Vaib" class="group relative h-28 w-28 rounded-full transition-transform duration-300 ease-in-out hover:-translate-y-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:h-36 md:w-36"><div class="absolute inset-0 rounded-full bg-muted transition-all duration-300 group-hover:shadow-lg group-hover:shadow-primary/20"></div><div class="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full"><img alt="Vaib profile" class="h-full w-full object-cover" src="https://plus.unsplash.com/premium_photo-1739163838574-27c663e8a22b?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZmlsZXxlbnwwfDJ8MHx8fDA%3D&amp;auto=format&amp;fit=crop&amp;q=60&amp;w=900"></div></button><p class="text-lg text-muted-foreground transition-colors group-hover:text-foreground">Vaib</p></div><div class="flex flex-col items-center gap-3 group"><button aria-label="Select profile: Kids" class="group relative h-28 w-28 rounded-full transition-transform duration-300 ease-in-out hover:-translate-y-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:h-36 md:w-36"><div class="absolute inset-0 rounded-full bg-muted transition-all duration-300 group-hover:shadow-lg group-hover:shadow-primary/20"></div><div class="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full"><img alt="Kids profile" class="h-full w-full object-cover" src="https://plus.unsplash.com/premium_photo-1739206781762-6b28bac44141?ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fHByb2ZpbGV8ZW58MHwyfDB8fHww&amp;auto=format&amp;fit=crop&amp;q=60&amp;w=900"></div></button><p class="text-lg text-muted-foreground transition-colors group-hover:text-foreground">Kids</p></div><div class="flex flex-col items-center gap-3 group"><button aria-label="Select profile: Add" class="group relative h-28 w-28 rounded-full transition-transform duration-300 ease-in-out hover:-translate-y-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:h-36 md:w-36"><div class="absolute inset-0 rounded-full bg-muted transition-all duration-300 group-hover:shadow-lg group-hover:shadow-primary/20"></div><div class="relative flex h-full w-full items-center justify-center overflow-hidden rounded-full"><div class="flex h-full w-full items-center justify-center text-4xl text-foreground/80 md:text-5xl bg-foreground/5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-12 w-12 text-muted-foreground" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></div></div></button><p class="text-lg text-muted-foreground transition-colors group-hover:text-foreground">Add</p></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
