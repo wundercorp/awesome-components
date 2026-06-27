@@ -1,0 +1,57 @@
+# Build Word Loader in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Word Loader screenshot](screenshot.png)
+
+## Component
+
+- Author group: `chetanverma16`
+- Component: `word-loader`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: chetanverma16
+- Component slug: word-loader
+- Demo slug: default
+- Title: word-loader
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-col gap-y-6 w-full"><div class="relative h-12 flex items-center justify-center"><span class="word-0 absolute text-xl tracking-wider font-bold flex gap-x-1"><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">b</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">r</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">a</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">n</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">d</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">i</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">n</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">g</span></span><span class="word-1 absolute text-xl tracking-wider font-bold flex gap-x-1"><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">d</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">e</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, -5px); opacity: 0;">s</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate3d(0px, -4.4237px, 0px); opacity: 0.1153;">i</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate3d(0px, -3.1803px, 0px); opacity: 0.3639;">g</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate3d(0px, -2.1949px, 0px); opacity: 0.561;">n</span></span><span class="word-2 absolute text-xl tracking-wider font-bold flex gap-x-1"><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">d</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">e</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">v</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">e</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">l</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">o</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">p</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">m</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">e</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">n</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">t</span></span><span class="word-3 absolute text-xl tracking-wider font-bold flex gap-x-1"><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">e</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">c</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">o</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">m</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">m</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">e</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">r</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">c</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">e</span></span><span class="word-4 absolute text-xl tracking-wider font-bold flex gap-x-1"><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">m</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">o</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">b</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">i</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">l</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">e</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;"> </span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">a</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">p</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">p</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">s</span></span><span class="word-5 absolute text-xl tracking-wider font-bold flex gap-x-1"><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">p</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">a</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">c</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">k</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">a</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">g</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">i</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">n</span><span class="char" style="translate: none; rotate: none; scale: none; transform: translate(0px, 10px); opacity: 0;">g</span></span></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

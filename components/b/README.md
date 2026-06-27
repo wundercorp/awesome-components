@@ -1,6 +1,6 @@
 # Bucket b
 
-189 components from 20 author groups.
+202 components from 20 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -23,4 +23,4 @@
 | [brijr](brijr/README.md) | 19 |
 | [bucharitesh](bucharitesh/README.md) | 4 |
 | [builduilabs](builduilabs/README.md) | 5 |
-| [bundui](bundui/README.md) | 4 |
+| [bundui](bundui/README.md) | 17 |
