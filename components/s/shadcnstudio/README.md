@@ -1,6 +1,6 @@
 # Shadcnstudio Components
 
-89 components are available in this author group.
+139 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -95,3 +95,53 @@
 | [![Calendar 1](calendar-1/calendar-disabled-weekend/screenshot.png)](calendar-1/calendar-disabled-weekend/README.md) | [Calendar 1](calendar-1/calendar-disabled-weekend/README.md) | `calendar-disabled-weekend` |
 | [![Calendar 1](calendar-1/calendar-left-side-navigation/screenshot.png)](calendar-1/calendar-left-side-navigation/README.md) | [Calendar 1](calendar-1/calendar-left-side-navigation/README.md) | `calendar-left-side-navigation` |
 | [![Calendar 1](calendar-1/calendar-month-year-navigation/screenshot.png)](calendar-1/calendar-month-year-navigation/README.md) | [Calendar 1](calendar-1/calendar-month-year-navigation/README.md) | `calendar-month-year-navigation` |
+| [![Calendar 1](calendar-1/calendar-multi-month-with-range-selection/screenshot.png)](calendar-1/calendar-multi-month-with-range-selection/README.md) | [Calendar 1](calendar-1/calendar-multi-month-with-range-selection/README.md) | `calendar-multi-month-with-range-selection` |
+| [![Calendar 1](calendar-1/calendar-twenty-three/screenshot.png)](calendar-1/calendar-twenty-three/README.md) | [Calendar 1](calendar-1/calendar-twenty-three/README.md) | `calendar-twenty-three` |
+| [![Calendar 1](calendar-1/calendar-twenty-two/screenshot.png)](calendar-1/calendar-twenty-two/README.md) | [Calendar 1](calendar-1/calendar-twenty-two/README.md) | `calendar-twenty-two` |
+| [![Calendar 1](calendar-1/calendar-two-months/screenshot.png)](calendar-1/calendar-two-months/README.md) | [Calendar 1](calendar-1/calendar-two-months/README.md) | `calendar-two-months` |
+| [![Calendar 1](calendar-1/calendar-with-event-list/screenshot.png)](calendar-1/calendar-with-event-list/README.md) | [Calendar 1](calendar-1/calendar-with-event-list/README.md) | `calendar-with-event-list` |
+| [![Calendar 1](calendar-1/calendar-with-minimum-days-selection/screenshot.png)](calendar-1/calendar-with-minimum-days-selection/README.md) | [Calendar 1](calendar-1/calendar-with-minimum-days-selection/README.md) | `calendar-with-minimum-days-selection` |
+| [![Calendar 1](calendar-1/calendar-with-range/screenshot.png)](calendar-1/calendar-with-range/README.md) | [Calendar 1](calendar-1/calendar-with-range/README.md) | `calendar-with-range` |
+| [![Calendar 1](calendar-1/custom-day-select-calendar/screenshot.png)](calendar-1/custom-day-select-calendar/README.md) | [Calendar 1](calendar-1/custom-day-select-calendar/README.md) | `custom-day-select-calendar` |
+| [![Calendar 1](calendar-1/custom-range-selection-calendar/screenshot.png)](calendar-1/custom-range-selection-calendar/README.md) | [Calendar 1](calendar-1/custom-range-selection-calendar/README.md) | `custom-range-selection-calendar` |
+| [![Calendar 1](calendar-1/default/screenshot.png)](calendar-1/default/README.md) | [Calendar 1](calendar-1/default/README.md) | `default` |
+| [![Calendar 1](calendar-1/disable-day-calendar/screenshot.png)](calendar-1/disable-day-calendar/README.md) | [Calendar 1](calendar-1/disable-day-calendar/README.md) | `disable-day-calendar` |
+| [![Calendar 1](calendar-1/multi-days-select/screenshot.png)](calendar-1/multi-days-select/README.md) | [Calendar 1](calendar-1/multi-days-select/README.md) | `multi-days-select` |
+| [![Calendar 1](calendar-1/variable-size-calendar/screenshot.png)](calendar-1/variable-size-calendar/README.md) | [Calendar 1](calendar-1/variable-size-calendar/README.md) | `variable-size-calendar` |
+| [![Calendar 1](calendar-1/week-number-calendar/screenshot.png)](calendar-1/week-number-calendar/README.md) | [Calendar 1](calendar-1/week-number-calendar/README.md) | `week-number-calendar` |
+| [![Card Studio](card-studio/card-eight/screenshot.png)](card-studio/card-eight/README.md) | [Card Studio](card-studio/card-eight/README.md) | `card-eight` |
+| [![Card Studio](card-studio/card-seven/screenshot.png)](card-studio/card-seven/README.md) | [Card Studio](card-studio/card-seven/README.md) | `card-seven` |
+| [![Card Studio](card-studio/card-six/screenshot.png)](card-studio/card-six/README.md) | [Card Studio](card-studio/card-six/README.md) | `card-six` |
+| [![Card Studio](card-studio/cta-dialog/screenshot.png)](card-studio/cta-dialog/README.md) | [Card Studio](card-studio/cta-dialog/README.md) | `cta-dialog` |
+| [![Card Studio](card-studio/default/screenshot.png)](card-studio/default/README.md) | [Card Studio](card-studio/default/README.md) | `default` |
+| [![Card Studio](card-studio/ethereal-swirl-gradient-card/screenshot.png)](card-studio/ethereal-swirl-gradient-card/README.md) | [Card Studio](card-studio/ethereal-swirl-gradient-card/README.md) | `ethereal-swirl-gradient-card` |
+| [![Card Studio](card-studio/fluid-gradient-flow-card/screenshot.png)](card-studio/fluid-gradient-flow-card/README.md) | [Card Studio](card-studio/fluid-gradient-flow-card/README.md) | `fluid-gradient-flow-card` |
+| [![Card Studio](card-studio/meeting-notes-card/screenshot.png)](card-studio/meeting-notes-card/README.md) | [Card Studio](card-studio/meeting-notes-card/README.md) | `meeting-notes-card` |
+| [![Card Studio](card-studio/meeting-notes-one/screenshot.png)](card-studio/meeting-notes-one/README.md) | [Card Studio](card-studio/meeting-notes-one/README.md) | `meeting-notes-one` |
+| [![Card Studio](card-studio/product-card/screenshot.png)](card-studio/product-card/README.md) | [Card Studio](card-studio/product-card/README.md) | `product-card` |
+| [![Card Studio](card-studio/rating-card/screenshot.png)](card-studio/rating-card/README.md) | [Card Studio](card-studio/rating-card/README.md) | `rating-card` |
+| [![Checkbox 1](checkbox-1/checkbox-eleven/screenshot.png)](checkbox-1/checkbox-eleven/README.md) | [Checkbox 1](checkbox-1/checkbox-eleven/README.md) | `checkbox-eleven` |
+| [![Checkbox 1](checkbox-1/checkbox-fourteen/screenshot.png)](checkbox-1/checkbox-fourteen/README.md) | [Checkbox 1](checkbox-1/checkbox-fourteen/README.md) | `checkbox-fourteen` |
+| [![Checkbox 1](checkbox-1/checkbox-indeterminate/screenshot.png)](checkbox-1/checkbox-indeterminate/README.md) | [Checkbox 1](checkbox-1/checkbox-indeterminate/README.md) | `checkbox-indeterminate` |
+| [![Checkbox 1](checkbox-1/checkbox-parent/screenshot.png)](checkbox-1/checkbox-parent/README.md) | [Checkbox 1](checkbox-1/checkbox-parent/README.md) | `checkbox-parent` |
+| [![Checkbox 1](checkbox-1/checkbox-seven/screenshot.png)](checkbox-1/checkbox-seven/README.md) | [Checkbox 1](checkbox-1/checkbox-seven/README.md) | `checkbox-seven` |
+| [![Checkbox 1](checkbox-1/checkbox-six/screenshot.png)](checkbox-1/checkbox-six/README.md) | [Checkbox 1](checkbox-1/checkbox-six/README.md) | `checkbox-six` |
+| [![Checkbox 1](checkbox-1/checkbox-sixteen/screenshot.png)](checkbox-1/checkbox-sixteen/README.md) | [Checkbox 1](checkbox-1/checkbox-sixteen/README.md) | `checkbox-sixteen` |
+| [![Checkbox 1](checkbox-1/checkbox-sizes/screenshot.png)](checkbox-1/checkbox-sizes/README.md) | [Checkbox 1](checkbox-1/checkbox-sizes/README.md) | `checkbox-sizes` |
+| [![Checkbox 1](checkbox-1/checkbox-tech/screenshot.png)](checkbox-1/checkbox-tech/README.md) | [Checkbox 1](checkbox-1/checkbox-tech/README.md) | `checkbox-tech` |
+| [![Checkbox 1](checkbox-1/checkbox-ten/screenshot.png)](checkbox-1/checkbox-ten/README.md) | [Checkbox 1](checkbox-1/checkbox-ten/README.md) | `checkbox-ten` |
+| [![Checkbox 1](checkbox-1/checkbox-terms/screenshot.png)](checkbox-1/checkbox-terms/README.md) | [Checkbox 1](checkbox-1/checkbox-terms/README.md) | `checkbox-terms` |
+| [![Checkbox 1](checkbox-1/checkbox-terms-and-conditions/screenshot.png)](checkbox-1/checkbox-terms-and-conditions/README.md) | [Checkbox 1](checkbox-1/checkbox-terms-and-conditions/README.md) | `checkbox-terms-and-conditions` |
+| [![Checkbox 1](checkbox-1/checkbox-thirteen/screenshot.png)](checkbox-1/checkbox-thirteen/README.md) | [Checkbox 1](checkbox-1/checkbox-thirteen/README.md) | `checkbox-thirteen` |
+| [![Checkbox 1](checkbox-1/checkbox-todo/screenshot.png)](checkbox-1/checkbox-todo/README.md) | [Checkbox 1](checkbox-1/checkbox-todo/README.md) | `checkbox-todo` |
+| [![Checkbox 1](checkbox-1/default/screenshot.png)](checkbox-1/default/README.md) | [Checkbox 1](checkbox-1/default/README.md) | `default` |
+| [![Collapsible 1](collapsible-1/collapsible-five/screenshot.png)](collapsible-1/collapsible-five/README.md) | [Collapsible 1](collapsible-1/collapsible-five/README.md) | `collapsible-five` |
+| [![Collapsible 1](collapsible-1/collapsible-four/screenshot.png)](collapsible-1/collapsible-four/README.md) | [Collapsible 1](collapsible-1/collapsible-four/README.md) | `collapsible-four` |
+| [![Collapsible 1](collapsible-1/collapsible-six/screenshot.png)](collapsible-1/collapsible-six/README.md) | [Collapsible 1](collapsible-1/collapsible-six/README.md) | `collapsible-six` |
+| [![Collapsible 1](collapsible-1/collapsible-three/screenshot.png)](collapsible-1/collapsible-three/README.md) | [Collapsible 1](collapsible-1/collapsible-three/README.md) | `collapsible-three` |
+| [![Collapsible 1](collapsible-1/collapsible-two/screenshot.png)](collapsible-1/collapsible-two/README.md) | [Collapsible 1](collapsible-1/collapsible-two/README.md) | `collapsible-two` |
+| [![Collapsible 1](collapsible-1/default/screenshot.png)](collapsible-1/default/README.md) | [Collapsible 1](collapsible-1/default/README.md) | `default` |
+| [![Combobox](combobox/combobox-disabled-option/screenshot.png)](combobox/combobox-disabled-option/README.md) | [Combobox](combobox/combobox-disabled-option/README.md) | `combobox-disabled-option` |
+| [![Combobox](combobox/combobox-multiple/screenshot.png)](combobox/combobox-multiple/README.md) | [Combobox](combobox/combobox-multiple/README.md) | `combobox-multiple` |
+| [![Combobox](combobox/combobox-option-with-icon/screenshot.png)](combobox/combobox-option-with-icon/README.md) | [Combobox](combobox/combobox-option-with-icon/README.md) | `combobox-option-with-icon` |
+| [![Combobox](combobox/combobox-options-with-flag-and-search/screenshot.png)](combobox/combobox-options-with-flag-and-search/README.md) | [Combobox](combobox/combobox-options-with-flag-and-search/README.md) | `combobox-options-with-flag-and-search` |
