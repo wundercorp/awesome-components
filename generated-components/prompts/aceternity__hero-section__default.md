@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/aceternity/hero-section/default
+- Registry URL: https://21st.dev/r/aceternity/hero-section
+- Author: aceternity
+- Component slug: hero-section
+- Demo slug: default
+- Title: hero-section
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/aceternity/hero-section with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/aceternity__hero-section__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/aceternity__hero-section__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative mx-auto my-10 flex max-w-7xl flex-col items-center justify-center"><nav class="flex w-full items-center justify-between border-t border-b border-neutral-200 px-4 py-4 dark:border-neutral-800"><div class="flex items-center gap-2"><div class="size-7 rounded-full bg-gradient-to-br from-violet-500 to-pink-500"></div><h1 class="text-base font-bold md:text-2xl">Aceternity UI</h1></div><button class="w-24 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 md:w-32 dark:bg-white dark:text-black dark:hover:bg-gray-200">Login</button></nav><div class="absolute inset-y-0 left-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80"><div class="absolute top-0 h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent"></div></div><div class="absolute inset-y-0 right-0 h-full w-px bg-neutral-200/80 dark:bg-neutral-800/80"><div class="absolute h-40 w-px bg-gradient-to-b from-transparent via-blue-500 to-transparent"></div></div><div class="absolute inset-x-0 bottom-0 h-px w-full bg-neutral-200/80 dark:bg-neutral-800/80"><div class="absolute mx-auto h-px w-40 bg-gradient-to-r from-transparent via-blue-500 to-transparent"></div></div><div class="px-4 py-10 md:py-20"><h1 class="relative z-10 mx-auto max-w-4xl text-center text-2xl font-bold text-slate-700 md:text-4xl lg:text-7xl dark:text-slate-300"><span class="mr-2 inline-block" style="opacity: 1; filter: blur(0px); transform: none;">Launch</span><span class="mr-2 inline-block" style="opacity: 1; filter: blur(0px); transform: none;">your</span><span class="mr-2 inline-block" style="opacity: 1; filter: blur(0px); transform: none;">website</span><span class="mr-2 inline-block" style="opacity: 1; filter: blur(0px); transform: none;">in</span><span class="mr-2 inline-block" style="opacity: 1; filter: blur(0px); transform: none;">hours,</span><span class="mr-2 inline-block" style="opacity: 1; filter: blur(0px); transform: none;">not</span><span class="mr-2 inline-block" style="opacity: 1; filter: blur(0px); transform: none;">days</span></h1><p class="relative z-10 mx-auto max-w-xl py-4 text-center text-lg font-normal text-neutral-600 dark:text-neutral-400" style="opacity: 1;">With AI, you can launch your website in hours, not days. Try our best in class, state of the art, cutting edge AI tools to get your website up.</p><div class="relative z-10 mt-8 flex flex-wrap items-center justify-center gap-4" style="opacity: 1;"><button class="w-60 transform rounded-lg bg-black px-6 py-2 font-medium text-white transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200">Explore Now</button><button class="w-60 transform rounded-lg border border-gray-300 bg-white px-6 py-2 font-medium text-black transition-all duration-300 hover:-translate-y-0.5 hover:bg-gray-100 dark:border-gray-700 dark:bg-black dark:text-white dark:hover:bg-gray-900">Contact Support</button></div><div class="relative z-10 mt-20 rounded-3xl border border-neutral-200 bg-neutral-100 p-4 shadow-md dark:border-neutral-800 dark:bg-neutral-900" style="opacity: 1; transform: none;"><div class="w-full overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700"><img alt="Landing page preview" class="aspect-[16/9] h-auto w-full object-cover" height="1000" width="1000" src="https://assets.aceternity.com/pro/aceternity-landing.webp"></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

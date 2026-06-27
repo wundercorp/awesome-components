@@ -1,0 +1,57 @@
+# Build Category Bar Chart in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Category Bar Chart screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ahmedmayara`
+- Component: `category-bar-chart`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ahmedmayara
+- Component slug: category-bar-chart
+- Demo slug: default
+- Title: category-bar-chart
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground flex h-full w-full flex-col gap-0 p-6 shadow-none max-w-[500px]"><div class="space-y-1.5 flex flex-row items-center justify-between p-0"><div class="flex flex-row items-center gap-1"><h3 class="tracking-tight text-base font-medium text-muted-foreground">Sales Channels</h3><button data-state="closed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="size-5 text-muted-foreground/50"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 16.25a6.25 6.25 0 100-12.5 6.25 6.25 0 000 12.5zm1.116-3.041l.1-.408a1.709 1.709 0 01-.25.083 1.176 1.176 0 01-.308.048c-.193 0-.329-.032-.407-.095-.079-.064-.118-.184-.118-.359a3.514 3.514 0 01.118-.672l.373-1.318c.037-.121.062-.255.075-.4a3.73 3.73 0 00.02-.304.866.866 0 00-.292-.678c-.195-.174-.473-.26-.833-.26-.2 0-.412.035-.636.106-.224.07-.459.156-.704.256l-.1.409c.073-.028.16-.057.262-.087.101-.03.2-.045.297-.045.198 0 .331.034.4.1.07.066.105.185.105.354 0 .093-.01.197-.034.31a6.216 6.216 0 01-.084.36l-.374 1.325c-.033.14-.058.264-.073.374-.015.11-.022.22-.022.325 0 .272.1.496.301.673.201.177.483.265.846.265.236 0 .443-.03.621-.092s.417-.152.717-.27zM11.05 7.85a.772.772 0 00.26-.587.78.78 0 00-.26-.59.885.885 0 00-.628-.244.893.893 0 00-.63.244.778.778 0 00-.264.59c0 .23.088.426.263.587a.897.897 0 00.63.243.888.888 0 00.629-.243z" fill="currentColor"></path></svg></button></div><button type="button" role="combobox" aria-controls="radix-«r1»" aria-expanded="false" aria-autocomplete="none" dir="ltr" data-state="closed" class="flex items-center justify-between rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 [&amp;&gt;span]:line-clamp-1 w-full md:w-auto h-8 gap-2"><span style="pointer-events: none;">Weekly</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4 opacity-50" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div><div class="flex flex-col gap-4 p-0"><div class="flex items-center gap-3"><span class="text-3xl font-medium leading-none tracking-tight tabular-nums">246</span><p class="text-sm text-green-500 dark:text-green-600">+2.1% <span class="text-muted-foreground">from last week</span></p></div><div class="flex flex-col gap-2"><div class="flex items-baseline justify-between"><p class="text-sm font-normal text-muted-foreground">Jun 27, 2026</p><p class="text-sm font-normal text-muted-foreground">Jul 04, 2026</p></div><div class="flex gap-1"><div class="h-[42px] rounded-sm transition-all" data-state="closed" style="width: 29.41%;"><div class="h-full rounded-sm bg-blue-500"></div></div><div class="h-[42px] rounded-sm transition-all" data-state="closed" style="width: 19.61%;"><div class="h-full rounded-sm bg-cyan-500"></div></div><div class="h-[42px] rounded-sm transition-all" data-state="closed" style="width: 16.34%;"><div class="h-full rounded-sm bg-indigo-500"></div></div><div class="h-[42px] rounded-sm transition-all" data-state="closed" style="width: 13.07%;"><div class="h-full rounded-sm bg-orange-500"></div></div><div class="h-[42px] rounded-sm transition-all" data-state="closed" style="width: 9.8%;"><div class="h-full rounded-sm bg-amber-500"></div></div><div class="h-[42px] rounded-sm transition-all" data-state="closed" style="width: 6.53%;"><div class="h-full rounded-sm bg-emerald-500"></div></div><div class="h-[42px] rounded-sm transition-all" data-state="closed" style="width: 5.23%;"><div class="h-full rounded-sm bg-emerald-300"></div></div></div></div><div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full"></div><p class="text-xs text-muted-foreground">This chart shows the distribution of your total sales across different channels. Use this breakdown to understand where most of your revenue is coming from, which channels are underperforming, and where to focus your next campaign.</p></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

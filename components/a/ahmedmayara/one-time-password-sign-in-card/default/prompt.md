@@ -1,0 +1,57 @@
+# Build One Time Password Sign In Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![One Time Password Sign In Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ahmedmayara`
+- Component: `one-time-password-sign-in-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ahmedmayara
+- Component slug: one-time-password-sign-in-card
+- Demo slug: default
+- Title: one-time-password-sign-in-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground flex w-full max-w-[480px] shadow-none flex-col gap-6 p-5 md:p-8"><div class="space-y-1.5 p-6 flex flex-col items-center gap-2"><div class="relative flex size-[68px] shrink-0 items-center justify-center rounded-full backdrop-blur-xl md:size-24 before:absolute before:inset-0 before:rounded-full before:bg-gradient-to-b before:from-neutral-500 before:to-transparent before:opacity-10"><div class="relative z-10 flex size-12 items-center justify-center rounded-full bg-background dark:bg-muted/80 shadow-xs ring-1 ring-inset ring-border md:size-16"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" class="size-6 text-muted-foreground/80 md:size-8"><path fill="currentColor" d="M13 19c0-3.31 2.69-6 6-6c1.1 0 2.12.3 3 .81V6a2 2 0 0 0-2-2H4c-1.11 0-2 .89-2 2v12a2 2 0 0 0 2 2h9.09c-.05-.33-.09-.66-.09-1M4 8V6l8 5l8-5v2l-8 5zm13.75 14.16l-2.75-3L16.16 18l1.59 1.59L21.34 16l1.16 1.41z"></path></svg></div></div><div class="flex flex-col space-y-1.5 text-center"><h3 class="text-2xl leading-none tracking-tight md:text-xl font-medium">Enter your one-time password</h3><p class="text-sm text-muted-foreground tracking-[-0.006em]">We've sent a code to your email. Please enter it below.</p></div></div><div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full"></div><div class="p-0"><form class="flex flex-col"><div class="space-y-6"><div class="space-y-2 gap-4"><label class="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 sr-only" for="«r0»-form-item">Code</label><noscript></noscript><div data-input-otp-container="true" class="flex items-center gap-2 has-[:disabled]:opacity-50" style="position: relative; cursor: text; user-select: none; pointer-events: none; --root-height: 56px;"><div class="flex items-center gap-4"><div class="relative flex items-center justify-center border-input transition-all first:rounded-l-md first:border-l last:rounded-r-md size-[60px] md:size-14 text-lg border rounded-md"></div><div class="relative flex items-center justify-center border-input transition-all first:rounded-l-md first:border-l last:rounded-r-md size-[60px] md:size-14 text-lg border rounded-md"></div><div class="relative flex items-center justify-center border-input transition-all first:rounded-l-md first:border-l last:rounded-r-md size-[60px] md:size-14 text-lg border rounded-md"></div><div class="relative flex items-center justify-center border-input transition-all first:rounded-l-md first:border-l last:rounded-r-md size-[60px] md:size-14 text-lg border rounded-md"></div><div class="relative flex items-center justify-center border-input transition-all first:rounded-l-md first:border-l last:rounded-r-md size-[60px] md:size-14 text-lg border rounded-md"></div><div class="relative flex items-center justify-center border-input transition-all first:rounded-l-md first:border-l last:rounded-r-md size-[60px] md:size-14 text-lg border rounded-md"></div></div><div style="position: absolute; inset: 0px; pointer-events: none;"><input autocomplete="one-time-code" class="disabled:cursor-not-allowed" id="«r0»-form-item" aria-describedby="«r0»-form-item-description" aria-invalid="false" data-input-otp="true" data-input-otp-placeholder-shown="true" inputmode="numeric" maxlength="6" value="" name="code" data-input-otp-mss="0" data-input-otp-mse="0" style="position: absolute; inset: 0px; width: 100%; height: 100%; display: flex; text-align: left; opacity: 1; color: transparent; pointer-events: all; background: transparent; caret-color: transparent; border: 0px solid transparent; outline: transparent solid 0px; box-shadow: none; line-height: 1; letter-spacing: -0.5em; font-size: var(--root-height); font-family: monospace; font-variant-numeric: tabular-nums;"></div></div></div><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full" type="submit">Continue</button></div><div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full mt-6 mb-2.5"></div><div class="text-sm flex items-center gap-1"><p class="text-muted-foreground">Experiencing issues receiving the code?</p><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline h-9 rounded-md p-0 underline">Resend Code</button></div></form></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

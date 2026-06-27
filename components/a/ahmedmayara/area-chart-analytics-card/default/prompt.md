@@ -1,0 +1,66 @@
+# Build Area Chart Analytics Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Area Chart Analytics Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ahmedmayara`
+- Component: `area-chart-analytics-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ahmedmayara
+- Component slug: area-chart-analytics-card
+- Demo slug: default
+- Title: area-chart-analytics-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground flex h-full w-full max-w-[450px] flex-col gap-0 overflow-hidden p-0 shadow-none"><div class="space-y-1.5 p-6 flex flex-row items-center justify-between px-5 pt-4.5 pb-0"><div class="flex flex-row items-center gap-1"><h3 class="tracking-tight text-base font-medium text-muted-foreground">Campaign Data</h3><button data-state="closed"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg" class="size-5 text-muted-foreground/50"><path fill-rule="evenodd" clip-rule="evenodd" d="M10 16.25a6.25 6.25 0 100-12.5 6.25 6.25 0 000 12.5zm1.116-3.041l.1-.408a1.709 1.709 0 01-.25.083 1.176 1.176 0 01-.308.048c-.193 0-.329-.032-.407-.095-.079-.064-.118-.184-.118-.359a3.514 3.514 0 01.118-.672l.373-1.318c.037-.121.062-.255.075-.4a3.73 3.73 0 00.02-.304.866.866 0 00-.292-.678c-.195-.174-.473-.26-.833-.26-.2 0-.412.035-.636.106-.224.07-.459.156-.704.256l-.1.409c.073-.028.16-.057.262-.087.101-.03.2-.045.297-.045.198 0 .331.034.4.1.07.066.105.185.105.354 0 .093-.01.197-.034.31a6.216 6.216 0 01-.084.36l-.374 1.325c-.033.14-.058.264-.073.374-.015.11-.022.22-.022.325 0 .272.1.496.301.673.201.177.483.265.846.265.236 0 .443-.03.621-.092s.417-.152.717-.27zM11.05 7.85a.772.772 0 00.26-.587.78.78 0 00-.26-.59.885.885 0 00-.628-.244.893.893 0 00-.63.244.778.778 0 00-.264.59c0 .23.088.426.263.587a.897.897 0 00.63.243.888.888 0 00.629-.243z" fill="currentColor"></path></svg></button></div><button class="inline-flex items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground rounded-md h-8 px-3 text-sm">Details</button></div><div class="flex flex-col gap-4 p-0"><div class="flex items-center gap-3 px-5"><span class="text-2xl font-medium tracking-tight tabular-nums">$1,750.00</span><div class="inline-flex items-center border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent hover:bg-primary/80 rounded-full bg-green-100 text-xs text-green-800 dark:bg-green-950 dark:text-green-600">Last 28 days</div></div><div class="grid h-[95px] grid-cols-[1fr_150px] border-t border-border"><div data-chart="chart-«r1»" class="flex justify-center text-xs [&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-none [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-sector]:outline-none [&amp;_.recharts-surface]:outline-none aspect-auto h-auto w-full"><style>
+ [data-chart=chart-«r1»] {
+  --color-spend: var(--color-cyan-600);
+}
+
+
+.dark [data-chart=chart-«r1»] {
+  --color-spend: var(--color-cyan-600);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div style="width: 0px; height: 0px; overflow: visible;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 298px; height: 94px;"><div xmlns="http://www.w3.org/1999/xhtml" tabindex="-1" class="recharts-tooltip-wrapper" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;"></div><svg role="application" tabindex="0" class="recharts-surface" width="298" height="94" viewBox="0 0 298 94" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="0" y="0" height="94" width="303"></rect></clipPath></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><path stroke-width="2" fill="var(--color-cyan-600)" fill-opacity="0.2" height="94" stroke="none" width="303" id="recharts-area-«r2»" class="recharts-curve recharts-area-area" d="M0,35.272L11.222,62.292L22.444,31.865L33.667,36.224L44.889,38.289L56.111,24.867L67.333,68.359L78.556,60.967L89.778,39.428L101,34.596L112.222,57.097L123.444,38.592L134.667,47.182L145.889,31.342L157.111,64.638L168.333,36.559L179.556,64.726L190.778,51.689L202,66.559L213.222,50.502L224.444,39.273L235.667,39.699L246.889,69.133L258.111,49.685L269.333,54.026L280.556,60.506L291.778,59.913L303,37.548L303,94L291.778,94L280.556,94L269.333,94L258.111,94L246.889,94L235.667,94L224.444,94L213.222,94L202,94L190.778,94L179.556,94L168.333,94L157.111,94L145.889,94L134.667,94L123.444,94L112.222,94L101,94L89.778,94L78.556,94L67.333,94L56.111,94L44.889,94L33.667,94L22.444,94L11.222,94L0,94Z"></path><path stroke-width="2" fill="none" fill-opacity="0.2" height="94" stroke="var(--color-cyan-600)" width="303" class="recharts-curve recharts-area-curve" d="M0,35.272L11.222,62.292L22.444,31.865L33.667,36.224L44.889,38.289L56.111,24.867L67.333,68.359L78.556,60.967L89.778,39.428L101,34.596L112.222,57.097L123.444,38.592L134.667,47.182L145.889,31.342L157.111,64.638L168.333,36.559L179.556,64.726L190.778,51.689L202,66.559L213.222,50.502L224.444,39.273L235.667,39.699L246.889,69.133L258.111,49.685L269.333,54.026L280.556,60.506L291.778,59.913L303,37.548"></path></g></g></svg></div></div></div></div><div class="flex flex-col items-start justify-end border-l-2 border-cyan-600 px-4 pb-4"><div class="text-sm font-semibold tracking-[-0.006em] text-foreground">45%</div><div class="text-xs font-medium tracking-[-0.006em] text-muted-foreground">$32.9K used</div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

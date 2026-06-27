@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/aceternity/pulse-beams/default
+- Registry URL: https://21st.dev/r/aceternity/pulse-beams
+- Author: aceternity
+- Component slug: pulse-beams
+- Demo slug: default
+- Title: pulse-beams
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/aceternity/pulse-beams with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/aceternity__pulse-beams__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/aceternity__pulse-beams__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="w-full h-screen relative flex items-center justify-center antialiased overflow-hidden bg-slate-950"><div class="relative z-10"><button class="bg-slate-800 w-[320px] z-40 h-[120px] no-underline group cursor-pointer relative shadow-2xl shadow-zinc-900 rounded-full p-px text-xs font-semibold leading-6  text-white inline-block"><span class="absolute inset-0 overflow-hidden rounded-full"><span class="absolute inset-0 rounded-full bg-[image:radial-gradient(75%_100%_at_50%_0%,rgba(56,189,248,0.6)_0%,rgba(56,189,248,0)_75%)] opacity-0 transition-opacity duration-500 group-hover:opacity-100"></span></span><div class="relative flex justify-center w-[320px] text-center space-x-2 h-[120px] items-center z-10 rounded-full bg-zinc-950 py-0.5 px-4 ring-1 ring-white/10 "><span class="md:text-4xl text-base inline-block bg-clip-text text-transparent bg-gradient-to-r from-neutral-300 via-neutral-600 to-neutral-300">Connect</span></div></button></div><div class="absolute inset-0 flex items-center justify-center"><svg width="858" height="434" viewBox="0 0 858 434" fill="none" xmlns="http://www.w3.org/2000/svg" class="flex flex-shrink-0"><path d="M269 220.5H16.5C10.9772 220.5 6.5 224.977 6.5 230.5V398.5" stroke="var(--slate-800)" stroke-width="1"></path><path d="M269 220.5H16.5C10.9772 220.5 6.5 224.977 6.5 230.5V398.5" stroke="url(#grad0)" stroke-width="2" stroke-linecap="round"></path><circle cx="6.5" cy="398.5" r="6" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><circle cx="269" cy="220.5" r="6" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><path d="M568 200H841C846.523 200 851 195.523 851 190V40" stroke="var(--slate-800)" stroke-width="1"></path><path d="M568 200H841C846.523 200 851 195.523 851 190V40" stroke="url(#grad1)" stroke-width="2" stroke-linecap="round"></path><circle cx="851" cy="34" r="6.5" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><circle cx="568" cy="200" r="6" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><path d="M425.5 274V333C425.5 338.523 421.023 343 415.5 343H152C146.477 343 142 347.477 142 353V426.5" stroke="var(--slate-800)" stroke-width="1"></path><path d="M425.5 274V333C425.5 338.523 421.023 343 415.5 343H152C146.477 343 142 347.477 142 353V426.5" stroke="url(#grad2)" stroke-width="2" stroke-linecap="round"></path><circle cx="142" cy="427" r="6.5" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><circle cx="425.5" cy="274" r="6" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><path d="M493 274V333.226C493 338.749 497.477 343.226 503 343.226H760C765.523 343.226 770 347.703 770 353.226V427" stroke="var(--slate-800)" stroke-width="1"></path><path d="M493 274V333.226C493 338.749 497.477 343.226 503 343.226H760C765.523 343.226 770 347.703 770 353.226V427" stroke="url(#grad3)" stroke-width="2" stroke-linecap="round"></path><circle cx="770" cy="427" r="6.5" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><circle cx="493" cy="274" r="6" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><path d="M380 168V17C380 11.4772 384.477 7 390 7H414" stroke="var(--slate-800)" stroke-width="1"></path><path d="M380 168V17C380 11.4772 384.477 7 390 7H414" stroke="url(#grad4)" stroke-width="2" stroke-linecap="round"></path><circle cx="420.5" cy="6.5" r="6" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><circle cx="380" cy="168" r="6" fill="var(--slate-800)" stroke="var(--slate-600)"></circle><defs><linearGradient id="grad0" gradientUnits="userSpaceOnUse" x1="200%" x2="180%" y1="0%" y2="20%"><stop offset="0%" stop-color="#18CCFC" stop-opacity="0"></stop><stop offset="20%" stop-color="#18CCFC" stop-opacity="1"></stop><stop offset="50%" stop-color="#6344F5" stop-opacity="1"></stop><stop offset="100%" stop-color="#AE48FF" stop-opacity="0"></stop></linearGradient><linearGradient id="grad1" gradientUnits="userSpaceOnUse" x1="25.09906%" x2="5.73644%" y1="80%" y2="100%"><stop offset="0%" stop-color="#18CCFC" stop-opacity="0"></stop><stop offset="20%" stop-color="#18CCFC" stop-opacity="1"></stop><stop offset="50%" stop-color="#6344F5" stop-opacity="1"></stop><stop offset="100%" stop-color="#AE48FF" stop-opacity="0"></stop></linearGradient><linearGradient id="grad2" gradientUnits="userSpaceOnUse" x1="100%" x2="90%" y1="-20%" y2="0%"><stop offset="0%" stop-color="#18CCFC" stop-opacity="0"></stop><stop offset="20%" stop-color="#18CCFC" stop-opacity="1"></stop><stop offset="50%" stop-color="#6344F5" stop-opacity="1"></stop><stop offset="100%" stop-color="#AE48FF" stop-opacity="0"></stop></linearGradient><linearGradient id="grad3" gradientUnits="userSpaceOnUse" x1="0%" x2="10%" y1="-40%" y2="-20%"><stop offset="0%" stop-color="#18CCFC" stop-opacity="0"></stop><stop offset="20%" stop-color="#18CCFC" stop-opacity="1"></stop><stop offset="50%" stop-color="#6344F5" stop-opacity="1"></stop><stop offset="100%" stop-color="#AE48FF" stop-opacity="0"></stop></linearGradient><linearGradient id="grad4" gradientUnits="userSpaceOnUse" x1="10.89654%" x2="2.72414%" y1="0%" y2="20%"><stop offset="0%" stop-color="#18CCFC" stop-opacity="0"></stop><stop offset="20%" stop-color="#18CCFC" stop-opacity="1"></stop><stop offset="50%" stop-color="#6344F5" stop-opacity="1"></stop><stop offset="100%" stop-color="#AE48FF" stop-opacity="0"></stop></linearGradient></defs></svg></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

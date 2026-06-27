@@ -1,0 +1,57 @@
+# Build Pointer Highlight in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Pointer Highlight screenshot](screenshot.png)
+
+## Component
+
+- Author group: `aceternity`
+- Component: `pointer-highlight`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: aceternity
+- Component slug: pointer-highlight
+- Demo slug: default
+- Title: pointer-highlight
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="mx-auto max-w-lg py-20 text-2xl font-bold tracking-tight md:text-4xl">The best way to grow is to<div class="relative w-fit"><span>collaborate</span><div class="pointer-events-none absolute inset-0 z-0" style="opacity: 1; transform: none; transform-origin: 0% 0% 0px;"><div class="absolute inset-0 border border-neutral-800 dark:border-neutral-200" style="width: 178.531px; height: 40px;"></div><div class="pointer-events-none absolute" style="opacity: 1; transform: translateX(182.531px) translateY(44px) rotate(-90deg);"><svg stroke="currentColor" fill="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 16 16" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-blue-500"><path d="M14.082 2.182a.5.5 0 0 1 .103.557L8.528 15.467a.5.5 0 0 1-.917-.007L5.57 10.694.803 8.652a.5.5 0 0 1-.006-.916l12.728-5.657a.5.5 0 0 1 .556.103z"></path></svg></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
