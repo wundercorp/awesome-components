@@ -1,6 +1,6 @@
 # Hero Ui Components
 
-124 components are available in this author group.
+229 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -130,3 +130,108 @@
 | [![Heroui Date Field](heroui-date-field/in-surface/screenshot.png)](heroui-date-field/in-surface/README.md) | [Heroui Date Field](heroui-date-field/in-surface/README.md) | `in-surface` |
 | [![Heroui Date Field](heroui-date-field/required-field/screenshot.png)](heroui-date-field/required-field/README.md) | [Heroui Date Field](heroui-date-field/required-field/README.md) | `required-field` |
 | [![Heroui Date Field](heroui-date-field/validation/screenshot.png)](heroui-date-field/validation/README.md) | [Heroui Date Field](heroui-date-field/validation/README.md) | `validation` |
+| [![Heroui Date Field](heroui-date-field/variants/screenshot.png)](heroui-date-field/variants/README.md) | [Heroui Date Field](heroui-date-field/variants/README.md) | `variants` |
+| [![Heroui Date Field](heroui-date-field/with-description/screenshot.png)](heroui-date-field/with-description/README.md) | [Heroui Date Field](heroui-date-field/with-description/README.md) | `with-description` |
+| [![Heroui Date Field](heroui-date-field/with-icons/screenshot.png)](heroui-date-field/with-icons/README.md) | [Heroui Date Field](heroui-date-field/with-icons/README.md) | `with-icons` |
+| [![Heroui Date Field](heroui-date-field/with-validation/screenshot.png)](heroui-date-field/with-validation/README.md) | [Heroui Date Field](heroui-date-field/with-validation/README.md) | `with-validation` |
+| [![Heroui Date Picker](heroui-date-picker/controlled/screenshot.png)](heroui-date-picker/controlled/README.md) | [Heroui Date Picker](heroui-date-picker/controlled/README.md) | `controlled` |
+| [![Heroui Date Picker](heroui-date-picker/custom-indicator/screenshot.png)](heroui-date-picker/custom-indicator/README.md) | [Heroui Date Picker](heroui-date-picker/custom-indicator/README.md) | `custom-indicator` |
+| [![Heroui Date Picker](heroui-date-picker/default/screenshot.png)](heroui-date-picker/default/README.md) | [Heroui Date Picker](heroui-date-picker/default/README.md) | `default` |
+| [![Heroui Date Picker](heroui-date-picker/disabled/screenshot.png)](heroui-date-picker/disabled/README.md) | [Heroui Date Picker](heroui-date-picker/disabled/README.md) | `disabled` |
+| [![Heroui Date Picker](heroui-date-picker/format-options/screenshot.png)](heroui-date-picker/format-options/README.md) | [Heroui Date Picker](heroui-date-picker/format-options/README.md) | `format-options` |
+| [![Heroui Date Picker](heroui-date-picker/international-calendar/screenshot.png)](heroui-date-picker/international-calendar/README.md) | [Heroui Date Picker](heroui-date-picker/international-calendar/README.md) | `international-calendar` |
+| [![Heroui Date Picker](heroui-date-picker/validation/screenshot.png)](heroui-date-picker/validation/README.md) | [Heroui Date Picker](heroui-date-picker/validation/README.md) | `validation` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/controlled/screenshot.png)](heroui-date-range-picker/controlled/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/controlled/README.md) | `controlled` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/custom-indicator/screenshot.png)](heroui-date-range-picker/custom-indicator/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/custom-indicator/README.md) | `custom-indicator` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/default/screenshot.png)](heroui-date-range-picker/default/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/default/README.md) | `default` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/disabled/screenshot.png)](heroui-date-range-picker/disabled/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/disabled/README.md) | `disabled` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/form-example/screenshot.png)](heroui-date-range-picker/form-example/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/form-example/README.md) | `form-example` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/format-options/screenshot.png)](heroui-date-range-picker/format-options/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/format-options/README.md) | `format-options` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/international-calendar/screenshot.png)](heroui-date-range-picker/international-calendar/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/international-calendar/README.md) | `international-calendar` |
+| [![Heroui Date Range Picker](heroui-date-range-picker/validation/screenshot.png)](heroui-date-range-picker/validation/README.md) | [Heroui Date Range Picker](heroui-date-range-picker/validation/README.md) | `validation` |
+| [![Heroui Description](heroui-description/default/screenshot.png)](heroui-description/default/README.md) | [Heroui Description](heroui-description/default/README.md) | `default` |
+| [![Heroui Description](heroui-description/text-field/screenshot.png)](heroui-description/text-field/README.md) | [Heroui Description](heroui-description/text-field/README.md) | `text-field` |
+| [![Heroui Description](heroui-description/with-form-fields/screenshot.png)](heroui-description/with-form-fields/README.md) | [Heroui Description](heroui-description/with-form-fields/README.md) | `with-form-fields` |
+| [![Heroui Disclosure Group](heroui-disclosure-group/controlled/screenshot.png)](heroui-disclosure-group/controlled/README.md) | [Heroui Disclosure Group](heroui-disclosure-group/controlled/README.md) | `controlled` |
+| [![Heroui Disclosure Group](heroui-disclosure-group/default/screenshot.png)](heroui-disclosure-group/default/README.md) | [Heroui Disclosure Group](heroui-disclosure-group/default/README.md) | `default` |
+| [![Heroui Disclosure](heroui-disclosure/default/screenshot.png)](heroui-disclosure/default/README.md) | [Heroui Disclosure](heroui-disclosure/default/README.md) | `default` |
+| [![Heroui Drawer](heroui-drawer/backdrop-variants/screenshot.png)](heroui-drawer/backdrop-variants/README.md) | [Heroui Drawer](heroui-drawer/backdrop-variants/README.md) | `backdrop-variants` |
+| [![Heroui Drawer](heroui-drawer/controlled-state/screenshot.png)](heroui-drawer/controlled-state/README.md) | [Heroui Drawer](heroui-drawer/controlled-state/README.md) | `controlled-state` |
+| [![Heroui Drawer](heroui-drawer/default/screenshot.png)](heroui-drawer/default/README.md) | [Heroui Drawer](heroui-drawer/default/README.md) | `default` |
+| [![Heroui Drawer](heroui-drawer/navigation-drawer/screenshot.png)](heroui-drawer/navigation-drawer/README.md) | [Heroui Drawer](heroui-drawer/navigation-drawer/README.md) | `navigation-drawer` |
+| [![Heroui Drawer](heroui-drawer/non-dismissable/screenshot.png)](heroui-drawer/non-dismissable/README.md) | [Heroui Drawer](heroui-drawer/non-dismissable/README.md) | `non-dismissable` |
+| [![Heroui Drawer](heroui-drawer/placement/screenshot.png)](heroui-drawer/placement/README.md) | [Heroui Drawer](heroui-drawer/placement/README.md) | `placement` |
+| [![Heroui Drawer](heroui-drawer/scrollable-content/screenshot.png)](heroui-drawer/scrollable-content/README.md) | [Heroui Drawer](heroui-drawer/scrollable-content/README.md) | `scrollable-content` |
+| [![Heroui Drawer](heroui-drawer/with-form/screenshot.png)](heroui-drawer/with-form/README.md) | [Heroui Drawer](heroui-drawer/with-form/README.md) | `with-form` |
+| [![Heroui Dropdown](heroui-dropdown/controlled/screenshot.png)](heroui-dropdown/controlled/README.md) | [Heroui Dropdown](heroui-dropdown/controlled/README.md) | `controlled` |
+| [![Heroui Dropdown](heroui-dropdown/custom-trigger/screenshot.png)](heroui-dropdown/custom-trigger/README.md) | [Heroui Dropdown](heroui-dropdown/custom-trigger/README.md) | `custom-trigger` |
+| [![Heroui Dropdown](heroui-dropdown/default/screenshot.png)](heroui-dropdown/default/README.md) | [Heroui Dropdown](heroui-dropdown/default/README.md) | `default` |
+| [![Heroui Dropdown](heroui-dropdown/multiple-selection/screenshot.png)](heroui-dropdown/multiple-selection/README.md) | [Heroui Dropdown](heroui-dropdown/multiple-selection/README.md) | `multiple-selection` |
+| [![Heroui Dropdown](heroui-dropdown/single-selection/screenshot.png)](heroui-dropdown/single-selection/README.md) | [Heroui Dropdown](heroui-dropdown/single-selection/README.md) | `single-selection` |
+| [![Heroui Dropdown](heroui-dropdown/with-descriptions/screenshot.png)](heroui-dropdown/with-descriptions/README.md) | [Heroui Dropdown](heroui-dropdown/with-descriptions/README.md) | `with-descriptions` |
+| [![Heroui Dropdown](heroui-dropdown/with-disabled-items/screenshot.png)](heroui-dropdown/with-disabled-items/README.md) | [Heroui Dropdown](heroui-dropdown/with-disabled-items/README.md) | `with-disabled-items` |
+| [![Heroui Dropdown](heroui-dropdown/with-icons/screenshot.png)](heroui-dropdown/with-icons/README.md) | [Heroui Dropdown](heroui-dropdown/with-icons/README.md) | `with-icons` |
+| [![Heroui Dropdown](heroui-dropdown/with-keyboard-shortcuts/screenshot.png)](heroui-dropdown/with-keyboard-shortcuts/README.md) | [Heroui Dropdown](heroui-dropdown/with-keyboard-shortcuts/README.md) | `with-keyboard-shortcuts` |
+| [![Heroui Dropdown](heroui-dropdown/with-sections/screenshot.png)](heroui-dropdown/with-sections/README.md) | [Heroui Dropdown](heroui-dropdown/with-sections/README.md) | `with-sections` |
+| [![Heroui Form](heroui-form/default/screenshot.png)](heroui-form/default/README.md) | [Heroui Form](heroui-form/default/README.md) | `default` |
+| [![Heroui Input](heroui-input/controlled/screenshot.png)](heroui-input/controlled/README.md) | [Heroui Input](heroui-input/controlled/README.md) | `controlled` |
+| [![Heroui Input](heroui-input/default/screenshot.png)](heroui-input/default/README.md) | [Heroui Input](heroui-input/default/README.md) | `default` |
+| [![Heroui Input](heroui-input/full-width/screenshot.png)](heroui-input/full-width/README.md) | [Heroui Input](heroui-input/full-width/README.md) | `full-width` |
+| [![Heroui Input](heroui-input/input-types/screenshot.png)](heroui-input/input-types/README.md) | [Heroui Input](heroui-input/input-types/README.md) | `input-types` |
+| [![Heroui Input](heroui-input/on-surface/screenshot.png)](heroui-input/on-surface/README.md) | [Heroui Input](heroui-input/on-surface/README.md) | `on-surface` |
+| [![Heroui Input](heroui-input/variants/screenshot.png)](heroui-input/variants/README.md) | [Heroui Input](heroui-input/variants/README.md) | `variants` |
+| [![Heroui Select](heroui-select/controlled/screenshot.png)](heroui-select/controlled/README.md) | [Heroui Select](heroui-select/controlled/README.md) | `controlled` |
+| [![Heroui Select](heroui-select/custom-value/screenshot.png)](heroui-select/custom-value/README.md) | [Heroui Select](heroui-select/custom-value/README.md) | `custom-value` |
+| [![Heroui Select](heroui-select/default/screenshot.png)](heroui-select/default/README.md) | [Heroui Select](heroui-select/default/README.md) | `default` |
+| [![Heroui Select](heroui-select/disabled-options/screenshot.png)](heroui-select/disabled-options/README.md) | [Heroui Select](heroui-select/disabled-options/README.md) | `disabled-options` |
+| [![Heroui Select](heroui-select/multiple/screenshot.png)](heroui-select/multiple/README.md) | [Heroui Select](heroui-select/multiple/README.md) | `multiple` |
+| [![Heroui Select](heroui-select/on-surface/screenshot.png)](heroui-select/on-surface/README.md) | [Heroui Select](heroui-select/on-surface/README.md) | `on-surface` |
+| [![Heroui Select](heroui-select/required/screenshot.png)](heroui-select/required/README.md) | [Heroui Select](heroui-select/required/README.md) | `required` |
+| [![Heroui Select](heroui-select/variants/screenshot.png)](heroui-select/variants/README.md) | [Heroui Select](heroui-select/variants/README.md) | `variants` |
+| [![Heroui Select](heroui-select/with-description/screenshot.png)](heroui-select/with-description/README.md) | [Heroui Select](heroui-select/with-description/README.md) | `with-description` |
+| [![Heroui Select](heroui-select/with-sections/screenshot.png)](heroui-select/with-sections/README.md) | [Heroui Select](heroui-select/with-sections/README.md) | `with-sections` |
+| [![Heroui Slider](heroui-slider/default/screenshot.png)](heroui-slider/default/README.md) | [Heroui Slider](heroui-slider/default/README.md) | `default` |
+| [![Heroui Slider](heroui-slider/disabled/screenshot.png)](heroui-slider/disabled/README.md) | [Heroui Slider](heroui-slider/disabled/README.md) | `disabled` |
+| [![Heroui Slider](heroui-slider/range/screenshot.png)](heroui-slider/range/README.md) | [Heroui Slider](heroui-slider/range/README.md) | `range` |
+| [![Heroui Slider](heroui-slider/vertical/screenshot.png)](heroui-slider/vertical/README.md) | [Heroui Slider](heroui-slider/vertical/README.md) | `vertical` |
+| [![Heroui Text Area](heroui-text-area/controlled/screenshot.png)](heroui-text-area/controlled/README.md) | [Heroui Text Area](heroui-text-area/controlled/README.md) | `controlled` |
+| [![Heroui Text Area](heroui-text-area/default/screenshot.png)](heroui-text-area/default/README.md) | [Heroui Text Area](heroui-text-area/default/README.md) | `default` |
+| [![Heroui Text Area](heroui-text-area/full-width/screenshot.png)](heroui-text-area/full-width/README.md) | [Heroui Text Area](heroui-text-area/full-width/README.md) | `full-width` |
+| [![Heroui Text Area](heroui-text-area/on-surface/screenshot.png)](heroui-text-area/on-surface/README.md) | [Heroui Text Area](heroui-text-area/on-surface/README.md) | `on-surface` |
+| [![Heroui Text Area](heroui-text-area/rows/screenshot.png)](heroui-text-area/rows/README.md) | [Heroui Text Area](heroui-text-area/rows/README.md) | `rows` |
+| [![Heroui Text Area](heroui-text-area/variants/screenshot.png)](heroui-text-area/variants/README.md) | [Heroui Text Area](heroui-text-area/variants/README.md) | `variants` |
+| [![Heroui Time Field](heroui-time-field/controlled/screenshot.png)](heroui-time-field/controlled/README.md) | [Heroui Time Field](heroui-time-field/controlled/README.md) | `controlled` |
+| [![Heroui Time Field](heroui-time-field/default/screenshot.png)](heroui-time-field/default/README.md) | [Heroui Time Field](heroui-time-field/default/README.md) | `default` |
+| [![Heroui Time Field](heroui-time-field/disabled/screenshot.png)](heroui-time-field/disabled/README.md) | [Heroui Time Field](heroui-time-field/disabled/README.md) | `disabled` |
+| [![Heroui Time Field](heroui-time-field/full-width/screenshot.png)](heroui-time-field/full-width/README.md) | [Heroui Time Field](heroui-time-field/full-width/README.md) | `full-width` |
+| [![Heroui Time Field](heroui-time-field/on-surface/screenshot.png)](heroui-time-field/on-surface/README.md) | [Heroui Time Field](heroui-time-field/on-surface/README.md) | `on-surface` |
+| [![Heroui Time Field](heroui-time-field/validation/screenshot.png)](heroui-time-field/validation/README.md) | [Heroui Time Field](heroui-time-field/validation/README.md) | `validation` |
+| [![Heroui Time Field](heroui-time-field/variants/screenshot.png)](heroui-time-field/variants/README.md) | [Heroui Time Field](heroui-time-field/variants/README.md) | `variants` |
+| [![Heroui Time Field](heroui-time-field/with-icons/screenshot.png)](heroui-time-field/with-icons/README.md) | [Heroui Time Field](heroui-time-field/with-icons/README.md) | `with-icons` |
+| [![Heroui Toolbar](heroui-toolbar/attached/screenshot.png)](heroui-toolbar/attached/README.md) | [Heroui Toolbar](heroui-toolbar/attached/README.md) | `attached` |
+| [![Heroui Toolbar](heroui-toolbar/default/screenshot.png)](heroui-toolbar/default/README.md) | [Heroui Toolbar](heroui-toolbar/default/README.md) | `default` |
+| [![Heroui Toolbar](heroui-toolbar/vertical/screenshot.png)](heroui-toolbar/vertical/README.md) | [Heroui Toolbar](heroui-toolbar/vertical/README.md) | `vertical` |
+| [![Heroui Toolbar](heroui-toolbar/with-button-group/screenshot.png)](heroui-toolbar/with-button-group/README.md) | [Heroui Toolbar](heroui-toolbar/with-button-group/README.md) | `with-button-group` |
+| [![Heroui Tooltip](heroui-tooltip/custom-render/screenshot.png)](heroui-tooltip/custom-render/README.md) | [Heroui Tooltip](heroui-tooltip/custom-render/README.md) | `custom-render` |
+| [![Heroui Tooltip](heroui-tooltip/custom-styled/screenshot.png)](heroui-tooltip/custom-styled/README.md) | [Heroui Tooltip](heroui-tooltip/custom-styled/README.md) | `custom-styled` |
+| [![Heroui Tooltip](heroui-tooltip/custom-trigger/screenshot.png)](heroui-tooltip/custom-trigger/README.md) | [Heroui Tooltip](heroui-tooltip/custom-trigger/README.md) | `custom-trigger` |
+| [![Heroui Tooltip](heroui-tooltip/default/screenshot.png)](heroui-tooltip/default/README.md) | [Heroui Tooltip](heroui-tooltip/default/README.md) | `default` |
+| [![Heroui Tooltip](heroui-tooltip/delay/screenshot.png)](heroui-tooltip/delay/README.md) | [Heroui Tooltip](heroui-tooltip/delay/README.md) | `delay` |
+| [![Heroui Tooltip](heroui-tooltip/disabled/screenshot.png)](heroui-tooltip/disabled/README.md) | [Heroui Tooltip](heroui-tooltip/disabled/README.md) | `disabled` |
+| [![Heroui Tooltip](heroui-tooltip/placement/screenshot.png)](heroui-tooltip/placement/README.md) | [Heroui Tooltip](heroui-tooltip/placement/README.md) | `placement` |
+| [![Heroui Tooltip](heroui-tooltip/with-arrow/screenshot.png)](heroui-tooltip/with-arrow/README.md) | [Heroui Tooltip](heroui-tooltip/with-arrow/README.md) | `with-arrow` |
+| [![Skeleton](skeleton/animation-types/screenshot.png)](skeleton/animation-types/README.md) | [Skeleton](skeleton/animation-types/README.md) | `animation-types` |
+| [![Skeleton](skeleton/default/screenshot.png)](skeleton/default/README.md) | [Skeleton](skeleton/default/README.md) | `default` |
+| [![Skeleton](skeleton/grid/screenshot.png)](skeleton/grid/README.md) | [Skeleton](skeleton/grid/README.md) | `grid` |
+| [![Skeleton](skeleton/list-items/screenshot.png)](skeleton/list-items/README.md) | [Skeleton](skeleton/list-items/README.md) | `list-items` |
+| [![Skeleton](skeleton/single-shimmer/screenshot.png)](skeleton/single-shimmer/README.md) | [Skeleton](skeleton/single-shimmer/README.md) | `single-shimmer` |
+| [![Skeleton](skeleton/text-content/screenshot.png)](skeleton/text-content/README.md) | [Skeleton](skeleton/text-content/README.md) | `text-content` |
+| [![Skeleton](skeleton/user-profile/screenshot.png)](skeleton/user-profile/README.md) | [Skeleton](skeleton/user-profile/README.md) | `user-profile` |
+| [![The Pagination](the-pagination/controlled/screenshot.png)](the-pagination/controlled/README.md) | [The Pagination](the-pagination/controlled/README.md) | `controlled` |
+| [![The Pagination](the-pagination/custom-icons/screenshot.png)](the-pagination/custom-icons/README.md) | [The Pagination](the-pagination/custom-icons/README.md) | `custom-icons` |
+| [![The Pagination](the-pagination/default/screenshot.png)](the-pagination/default/README.md) | [The Pagination](the-pagination/default/README.md) | `default` |
+| [![The Pagination](the-pagination/disabled/screenshot.png)](the-pagination/disabled/README.md) | [The Pagination](the-pagination/disabled/README.md) | `disabled` |
+| [![The Pagination](the-pagination/simple/screenshot.png)](the-pagination/simple/README.md) | [The Pagination](the-pagination/simple/README.md) | `simple` |
+| [![The Pagination](the-pagination/sizes/screenshot.png)](the-pagination/sizes/README.md) | [The Pagination](the-pagination/sizes/README.md) | `sizes` |
+| [![The Pagination](the-pagination/with-ellipsis/screenshot.png)](the-pagination/with-ellipsis/README.md) | [The Pagination](the-pagination/with-ellipsis/README.md) | `with-ellipsis` |
+| [![The Pagination](the-pagination/with-summary/screenshot.png)](the-pagination/with-summary/README.md) | [The Pagination](the-pagination/with-summary/README.md) | `with-summary` |

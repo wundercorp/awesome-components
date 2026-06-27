@@ -12,7 +12,7 @@ Browse components by author bucket, then by author, then by component.
 | [e](e/README.md) | 12 | 306 |
 | [f](f/README.md) | 10 | 205 |
 | [g](g/README.md) | 4 | 7 |
-| [h](h/README.md) | 9 | 175 |
+| [h](h/README.md) | 10 | 294 |
 | [j](j/README.md) | 1 | 2 |
 | [k](k/README.md) | 4 | 31 |
 | [m](m/README.md) | 2 | 8 |

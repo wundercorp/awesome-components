@@ -1,0 +1,57 @@
+# Build Alert in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Alert screenshot](screenshot.png)
+
+## Component
+
+- Author group: `hextaui`
+- Component: `alert`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: hextaui
+- Component slug: alert
+- Demo slug: default
+- Title: alert
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="space-y-4"><div class="relative w-full rounded-lg border p-4 text-sm transition-colors shadow-sm/2 border-blue-200 bg-blue-50 text-blue-800 dark:border-blue-700 dark:bg-blue-950/30 dark:text-blue-200 [&amp;&gt;svg]:text-blue-600 dark:[&amp;&gt;svg]:text-blue-400" role="alert" style="opacity: 1; transform: none;"><div class="flex"><div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code h-4 w-4 mt-0.5" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div><div class="flex-1 ml-3"><h3 class="text-sm font-medium mb-1">Code Review Ready</h3><div class="text-sm text-muted-foreground">Your pull request is ready for code review by the team.</div></div></div></div><div class="relative w-full rounded-lg border p-4 text-sm transition-colors shadow-sm/2 border-green-200 bg-green-50 text-green-800 dark:border-green-700 dark:bg-green-950/30 dark:text-green-200 [&amp;&gt;svg]:text-green-600 dark:[&amp;&gt;svg]:text-green-400" role="alert" style="opacity: 1; transform: none;"><div class="flex"><div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles h-4 w-4 mt-0.5" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg></div><div class="flex-1 ml-3"><h3 class="text-sm font-medium mb-1">Feature Unlocked</h3><div class="text-sm text-muted-foreground">Congratulations! You've unlocked premium features.</div></div></div></div><div class="relative w-full rounded-lg border p-4 text-sm transition-colors shadow-sm/2 border-blue-200 bg-blue-50 text-blue-800 dark:border-blue-700 dark:bg-blue-950/30 dark:text-blue-200 [&amp;&gt;svg]:text-blue-600 dark:[&amp;&gt;svg]:text-blue-400" role="alert" style="opacity: 1; transform: none;"><div class="flex"><div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up h-4 w-4 mt-0.5" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg></div><div class="flex-1 ml-3"><h3 class="text-sm font-medium mb-1">Performance Improved</h3><div class="text-sm text-muted-foreground">Your application performance has increased by 40% this month.</div></div></div></div><div class="relative w-full rounded-lg border p-4 text-sm transition-colors shadow-sm/2 border-amber-200 bg-amber-50 text-amber-800 dark:border-amber-700 dark:bg-amber-950/30 dark:text-amber-200 [&amp;&gt;svg]:text-amber-600 dark:[&amp;&gt;svg]:text-amber-400" role="alert" style="opacity: 1; transform: none;"><div class="flex"><div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock h-4 w-4 mt-0.5" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg></div><div class="flex-1 ml-3"><h3 class="text-sm font-medium mb-1">Security Alert</h3><div class="text-sm text-muted-foreground">We detected unusual login activity. Please verify your account.</div></div></div></div><div class="relative w-full rounded-lg border p-4 text-sm transition-colors shadow-sm/2 border-[hsl(var(--hu-border))] bg-[hsl(var(--hu-card))] text-[hsl(var(--hu-card-foreground))]" role="alert" style="opacity: 1; transform: none;"><div class="flex"><div class="flex-shrink-0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar h-4 w-4 mt-0.5" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg></div><div class="flex-1 ml-3"><h3 class="text-sm font-medium mb-1">Meeting Reminder</h3><div class="text-sm text-muted-foreground">Your team standup meeting starts in 15 minutes.</div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

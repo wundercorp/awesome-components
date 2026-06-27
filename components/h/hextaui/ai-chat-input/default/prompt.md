@@ -1,0 +1,57 @@
+# Build Ai Chat Input in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Ai Chat Input screenshot](screenshot.png)
+
+## Component
+
+- Author group: `hextaui`
+- Component: `ai-chat-input`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: hextaui
+- Component slug: ai-chat-input
+- Demo slug: default
+- Title: ai-chat-input
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="w-full min-h-screen flex justify-center items-center text-black"><div class="w-full max-w-3xl" style="overflow: hidden; border-radius: 32px; background: rgb(255, 255, 255); height: 68px; box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 8px 0px;"><div class="flex flex-col items-stretch w-full h-full"><div class="flex items-center gap-2 p-3 rounded-full bg-white max-w-3xl w-full"><button class="p-3 rounded-full hover:bg-gray-100 transition" title="Attach file" type="button" tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-paperclip" aria-hidden="true"><path d="m16 6-8.414 8.586a2 2 0 0 0 2.829 2.829l8.414-8.586a4 4 0 1 0-5.657-5.657l-8.379 8.551a6 6 0 1 0 8.485 8.485l8.379-8.551"></path></svg></button><div class="relative flex-1"><input class="flex-1 border-0 outline-0 rounded-md py-2 text-base bg-transparent w-full font-normal" type="text" value="" style="position: relative; z-index: 1;"><div class="absolute left-0 top-0 w-full h-full pointer-events-none flex items-center px-3 py-2"><span class="absolute left-0 top-1/2 -translate-y-1/2 text-gray-400 select-none pointer-events-none" style="white-space: nowrap; overflow: hidden; text-overflow: ellipsis; z-index: 0;"><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-9.33133px);">G</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-9.38437px);">e</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-9.43322px);">n</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-9.47821px);">e</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">r</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">a</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">t</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">e</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">&nbsp;</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">w</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">e</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">b</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">s</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">i</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">t</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">e</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">&nbsp;</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">w</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">i</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">t</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">h</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">&nbsp;</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">H</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">e</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">x</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">t</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">a</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">U</span><span style="display: inline-block; opacity: 0; filter: blur(12px); transform: translateY(-10px);">I</span></span></div></div><button class="p-3 rounded-full hover:bg-gray-100 transition" title="Voice input" type="button" tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mic" aria-hidden="true"><path d="M12 19v3"></path><path d="M19 10v2a7 7 0 0 1-14 0v-2"></path><rect x="9" y="2" width="6" height="13" rx="3"></rect></svg></button><button class="flex items-center gap-1 bg-black hover:bg-zinc-700 text-white p-3 rounded-full font-medium justify-center" title="Send" type="button" tabindex="-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send" aria-hidden="true"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg></button></div><div class="w-full flex justify-start px-4 items-center text-sm" style="margin-top: 8px; opacity: 0; pointer-events: none; transform: translateY(20px);"><div class="flex gap-3 items-center"><button class="flex items-center gap-1 px-4 py-2 rounded-full transition-all font-medium group bg-gray-100 text-gray-700 hover:bg-gray-200" title="Think" type="button"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb group-hover:fill-yellow-300 transition-all" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg>Think</button><button class="flex items-center px-4 gap-1 py-2 rounded-full transition font-medium whitespace-nowrap overflow-hidden justify-start  bg-gray-100 text-gray-700 hover:bg-gray-200" title="Deep Search" type="button" style="width: 36px; padding-left: 9px;"><div class="flex-1"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path d="M2 12h20"></path></svg></div><span class="pb-[2px]" style="opacity: 0;">Deep Search</span></button></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
