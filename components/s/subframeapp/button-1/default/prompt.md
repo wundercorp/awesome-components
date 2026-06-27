@@ -1,0 +1,57 @@
+# Build Button 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Button 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `subframeapp`
+- Component: `button-1`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: SubframeApp
+- Component slug: button-1
+- Demo slug: default
+- Title: button-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-wrap gap-2"><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-indigo-600 text-white hover:bg-indigo-500 active:bg-indigo-600 focus:ring-indigo-500 h-8 px-3 text-sm"><span class="text-current icon-wrapper-module_root__-l6uP"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Brand primary</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-indigo-50 text-indigo-700 hover:bg-indigo-100 active:bg-indigo-50 focus:ring-indigo-300 h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Brand secondary</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-transparent text-indigo-700 hover:bg-indigo-50 active:bg-indigo-100 focus:ring-indigo-300 h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Brand tertiary</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-zinc-100 text-zinc-700 hover:bg-zinc-200 active:bg-zinc-100 focus:ring-zinc-400 h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Neutral primary</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-zinc-300 bg-white text-zinc-700 hover:bg-zinc-50 active:bg-white focus:ring-zinc-300 h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Neutral secondary</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-transparent text-zinc-700 hover:bg-zinc-100 active:bg-zinc-200 focus:ring-zinc-300 h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Neutral tertiary</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-red-600 text-white hover:bg-red-500 active:bg-red-600 focus:ring-red-500 h-8 px-3 text-sm"><span class="text-current icon-wrapper-module_root__-l6uP"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trash2 lucide-trash-2" aria-hidden="true"><path d="M3 6h18"></path><path d="M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6"></path><path d="M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2"></path><line x1="10" x2="10" y1="11" y2="17"></line><line x1="14" x2="14" y1="11" y2="17"></line></svg></span><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Delete</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-red-50 text-red-700 hover:bg-red-100 active:bg-red-50 focus:ring-red-300 h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Delete (secondary)</span></button><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-transparent text-red-700 hover:bg-red-50 active:bg-red-100 focus:ring-red-300 h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Delete (tertiary)</span></button><div class="bg-zinc-900 p-2 rounded-md"><button type="button" class="inline-flex items-center justify-center gap-2 rounded-md px-3 border transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-60 h-8 border-transparent bg-transparent text-white hover:bg-white/15 active:bg-white/25 focus:ring-white h-8 px-3 text-sm"><span class="hidden items-center justify-center"><div class="text-current loader-module_root__-0Kak"></div></span><span class="text-sm font-medium">Inverse</span></button></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

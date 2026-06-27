@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/SubframeApp/checkbox-card/default
+- Registry URL: https://21st.dev/r/SubframeApp/checkbox-card
+- Author: SubframeApp
+- Component slug: checkbox-card
+- Demo slug: default
+- Title: checkbox-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/SubframeApp/checkbox-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/SubframeApp__checkbox-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/SubframeApp__checkbox-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="max-w-lg space-y-3 rounded-lg p-4 ring-1 bg-white text-gray-900 ring-gray-200 dark:bg-gray-800 dark:text-gray-100 dark:ring-gray-700"><button class="group inline-flex w-full cursor-pointer items-center gap-4 rounded-md border p-4 text-left transition-colors border-zinc-300 bg-white hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:hover:bg-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-zinc-900 aria-[checked=true]:border-indigo-300 aria-[checked=true]:bg-indigo-50 dark:aria-[checked=true]:border-indigo-600/50 dark:aria-[checked=true]:bg-indigo-900/30 disabled:cursor-not-allowed disabled:opacity-60" type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on"><div class="flex h-5 w-5 flex-none items-center justify-center rounded-[3px] border-2 transition-colors border-zinc-300 bg-white dark:border-zinc-600 dark:bg-zinc-900 group-active:border-indigo-600 group-focus-within:border-indigo-600 group-aria-[checked=true]:border-indigo-600 group-aria-[checked=true]:bg-indigo-600 group-disabled:border-zinc-300 group-disabled:bg-zinc-100 dark:group-disabled:bg-zinc-800"><span class="hidden group-aria-[checked=true]:inline-flex text-white text-[14px] leading-[14px] icon-wrapper-module_root__-l6uP"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span></div><div class="flex min-w-0 grow items-center gap-4"><div class="flex min-w-0 items-center gap-3"><img alt="" class="h-10 w-10 flex-none rounded-md object-cover" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&amp;w=160&amp;auto=format&amp;fit=crop"><div class="min-w-0"><div class="truncate text-sm font-semibold">Marketing newsletter</div><div class="truncate text-xs text-zinc-600 dark:text-zinc-400">Tips, insights and case studies curated weekly.</div></div></div></div></button><button class="group inline-flex w-full cursor-pointer items-center gap-4 rounded-md border p-4 text-left transition-colors border-zinc-300 bg-white hover:bg-zinc-50 dark:border-zinc-700 dark:bg-zinc-900 dark:hover:bg-zinc-800 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-500 focus-visible:ring-offset-2 focus-visible:ring-offset-white dark:focus-visible:ring-offset-zinc-900 aria-[checked=true]:border-indigo-300 aria-[checked=true]:bg-indigo-50 dark:aria-[checked=true]:border-indigo-600/50 dark:aria-[checked=true]:bg-indigo-900/30 disabled:cursor-not-allowed disabled:opacity-60" type="button" role="checkbox" aria-checked="true" data-state="checked" data-disabled="" disabled="" value="on"><div class="flex h-5 w-5 flex-none items-center justify-center rounded-[3px] border-2 transition-colors border-zinc-300 bg-white dark:border-zinc-600 dark:bg-zinc-900 group-active:border-indigo-600 group-focus-within:border-indigo-600 group-aria-[checked=true]:border-indigo-600 group-aria-[checked=true]:bg-indigo-600 group-disabled:border-zinc-300 group-disabled:bg-zinc-100 dark:group-disabled:bg-zinc-800"><span class="hidden group-aria-[checked=true]:inline-flex text-white text-[14px] leading-[14px] icon-wrapper-module_root__-l6uP"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg></span></div><div class="flex min-w-0 grow items-center gap-4"><div class="flex min-w-0 items-center gap-3"><img alt="" class="h-10 w-10 flex-none rounded-md object-cover" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?q=80&amp;w=160&amp;auto=format&amp;fit=crop"><div class="min-w-0"><div class="truncate text-sm font-semibold">Early access program</div><div class="truncate text-xs text-zinc-600 dark:text-zinc-400">You’re already enrolled.</div></div></div></div></button></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

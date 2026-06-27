@@ -1,6 +1,6 @@
 # Shadcnstudio Components
 
-182 components are available in this author group.
+204 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -188,3 +188,25 @@
 | [![Switch 1](switch-1/switch-ten/screenshot.png)](switch-1/switch-ten/README.md) | [Switch 1](switch-1/switch-ten/README.md) | `switch-ten` |
 | [![Switch 1](switch-1/switch-thirteen/screenshot.png)](switch-1/switch-thirteen/README.md) | [Switch 1](switch-1/switch-thirteen/README.md) | `switch-thirteen` |
 | [![Switch 1](switch-1/switch-twelve/screenshot.png)](switch-1/switch-twelve/README.md) | [Switch 1](switch-1/switch-twelve/README.md) | `switch-twelve` |
+| [![Switch 1](switch-1/switch-two/screenshot.png)](switch-1/switch-two/README.md) | [Switch 1](switch-1/switch-two/README.md) | `switch-two` |
+| [![Text Area](text-area/auto-growing-textarea/screenshot.png)](text-area/auto-growing-textarea/README.md) | [Text Area](text-area/auto-growing-textarea/README.md) | `auto-growing-textarea` |
+| [![Text Area](text-area/default/screenshot.png)](text-area/default/README.md) | [Text Area](text-area/default/README.md) | `default` |
+| [![Text Area](text-area/disabled-textarea/screenshot.png)](text-area/disabled-textarea/README.md) | [Text Area](text-area/disabled-textarea/README.md) | `disabled-textarea` |
+| [![Text Area](text-area/filled-textarea/screenshot.png)](text-area/filled-textarea/README.md) | [Text Area](text-area/filled-textarea/README.md) | `filled-textarea` |
+| [![Text Area](text-area/input-with-hint-text/screenshot.png)](text-area/input-with-hint-text/README.md) | [Text Area](text-area/input-with-hint-text/README.md) | `input-with-hint-text` |
+| [![Text Area](text-area/invalid-textarea/screenshot.png)](text-area/invalid-textarea/README.md) | [Text Area](text-area/invalid-textarea/README.md) | `invalid-textarea` |
+| [![Text Area](text-area/no-resize-textarea/screenshot.png)](text-area/no-resize-textarea/README.md) | [Text Area](text-area/no-resize-textarea/README.md) | `no-resize-textarea` |
+| [![Text Area](text-area/read-only-textarea/screenshot.png)](text-area/read-only-textarea/README.md) | [Text Area](text-area/read-only-textarea/README.md) | `read-only-textarea` |
+| [![Text Area](text-area/required-textarea/screenshot.png)](text-area/required-textarea/README.md) | [Text Area](text-area/required-textarea/README.md) | `required-textarea` |
+| [![Text Area](text-area/textarea-one/screenshot.png)](text-area/textarea-one/README.md) | [Text Area](text-area/textarea-one/README.md) | `textarea-one` |
+| [![Text Area](text-area/textarea-sizes/screenshot.png)](text-area/textarea-sizes/README.md) | [Text Area](text-area/textarea-sizes/README.md) | `textarea-sizes` |
+| [![Text Area](text-area/textarea-with-button/screenshot.png)](text-area/textarea-with-button/README.md) | [Text Area](text-area/textarea-with-button/README.md) | `textarea-with-button` |
+| [![Text Area](text-area/textarea-with-characters-left/screenshot.png)](text-area/textarea-with-characters-left/README.md) | [Text Area](text-area/textarea-with-characters-left/README.md) | `textarea-with-characters-left` |
+| [![Text Area](text-area/textarea-with-colored-border-and-ring/screenshot.png)](text-area/textarea-with-colored-border-and-ring/README.md) | [Text Area](text-area/textarea-with-colored-border-and-ring/README.md) | `textarea-with-colored-border-and-ring` |
+| [![Text Area](text-area/textarea-with-end-icon/screenshot.png)](text-area/textarea-with-end-icon/README.md) | [Text Area](text-area/textarea-with-end-icon/README.md) | `textarea-with-end-icon` |
+| [![Text Area](text-area/textarea-with-floating-label/screenshot.png)](text-area/textarea-with-floating-label/README.md) | [Text Area](text-area/textarea-with-floating-label/README.md) | `textarea-with-floating-label` |
+| [![Text Area](text-area/textarea-with-helper-text/screenshot.png)](text-area/textarea-with-helper-text/README.md) | [Text Area](text-area/textarea-with-helper-text/README.md) | `textarea-with-helper-text` |
+| [![Text Area](text-area/textarea-with-inset-label/screenshot.png)](text-area/textarea-with-inset-label/README.md) | [Text Area](text-area/textarea-with-inset-label/README.md) | `textarea-with-inset-label` |
+| [![Text Area](text-area/textarea-with-overlaping-label/screenshot.png)](text-area/textarea-with-overlaping-label/README.md) | [Text Area](text-area/textarea-with-overlaping-label/README.md) | `textarea-with-overlaping-label` |
+| [![Text Area](text-area/textarea-with-right-helper-text/screenshot.png)](text-area/textarea-with-right-helper-text/README.md) | [Text Area](text-area/textarea-with-right-helper-text/README.md) | `textarea-with-right-helper-text` |
+| [![Text Area](text-area/textarea-with-start-icon/screenshot.png)](text-area/textarea-with-start-icon/README.md) | [Text Area](text-area/textarea-with-start-icon/README.md) | `textarea-with-start-icon` |
