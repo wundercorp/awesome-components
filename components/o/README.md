@@ -1,6 +1,6 @@
 # Bucket o
 
-125 components from 7 author groups.
+323 components from 11 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -10,4 +10,8 @@
 | [oldkong88](oldkong88/README.md) | 5 |
 | [openstatushq](openstatushq/README.md) | 1 |
 | [orcdev](orcdev/README.md) | 27 |
-| [originui](originui/README.md) | 89 |
+| [originui](originui/README.md) | 275 |
+| [osanabriasb](osanabriasb/README.md) | 1 |
+| [osint619](osint619/README.md) | 6 |
+| [osiris-balonga](osiris-balonga/README.md) | 3 |
+| [osmosupply](osmosupply/README.md) | 2 |
