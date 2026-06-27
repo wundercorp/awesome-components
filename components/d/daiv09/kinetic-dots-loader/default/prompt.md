@@ -1,0 +1,100 @@
+# Build Kinetic Dots Loader in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Kinetic Dots Loader screenshot](screenshot.png)
+
+## Component
+
+- Author group: `daiv09`
+- Component: `kinetic-dots-loader`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: daiv09
+- Component slug: kinetic-dots-loader
+- Demo slug: default
+- Title: kinetic-dots-loader
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center min-h-[250px] p-8 bg-slate-950/0"><div class="flex gap-5"><div class="relative flex flex-col items-center justify-end h-20 w-6"><div class="relative w-5 h-5 z-10" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0s infinite normal none running gravity-bounce; will-change: transform;"><div class="w-full h-full rounded-full bg-gradient-to-b from-cyan-300 to-blue-600 shadow-[0_0_15px_rgba(6,182,212,0.6)]" style="animation: 1.4s linear 0s infinite normal none running rubber-morph; will-change: transform;"></div><div class="absolute top-1 left-1 w-1.5 h-1.5 bg-white/60 rounded-full blur-[0.5px]"></div></div><div class="absolute bottom-0 w-10 h-3 border border-cyan-500/30 rounded-[100%] opacity-0" style="animation: 1.4s linear 0s infinite normal none running ripple-expand;"></div><div class="absolute -bottom-1 w-5 h-1.5 rounded-[100%] bg-cyan-500/40 blur-sm" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0s infinite normal none running shadow-breathe;"></div></div><div class="relative flex flex-col items-center justify-end h-20 w-6"><div class="relative w-5 h-5 z-10" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.15s infinite normal none running gravity-bounce; will-change: transform;"><div class="w-full h-full rounded-full bg-gradient-to-b from-cyan-300 to-blue-600 shadow-[0_0_15px_rgba(6,182,212,0.6)]" style="animation: 1.4s linear 0.15s infinite normal none running rubber-morph; will-change: transform;"></div><div class="absolute top-1 left-1 w-1.5 h-1.5 bg-white/60 rounded-full blur-[0.5px]"></div></div><div class="absolute bottom-0 w-10 h-3 border border-cyan-500/30 rounded-[100%] opacity-0" style="animation: 1.4s linear 0.15s infinite normal none running ripple-expand;"></div><div class="absolute -bottom-1 w-5 h-1.5 rounded-[100%] bg-cyan-500/40 blur-sm" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.15s infinite normal none running shadow-breathe;"></div></div><div class="relative flex flex-col items-center justify-end h-20 w-6"><div class="relative w-5 h-5 z-10" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.3s infinite normal none running gravity-bounce; will-change: transform;"><div class="w-full h-full rounded-full bg-gradient-to-b from-cyan-300 to-blue-600 shadow-[0_0_15px_rgba(6,182,212,0.6)]" style="animation: 1.4s linear 0.3s infinite normal none running rubber-morph; will-change: transform;"></div><div class="absolute top-1 left-1 w-1.5 h-1.5 bg-white/60 rounded-full blur-[0.5px]"></div></div><div class="absolute bottom-0 w-10 h-3 border border-cyan-500/30 rounded-[100%] opacity-0" style="animation: 1.4s linear 0.3s infinite normal none running ripple-expand;"></div><div class="absolute -bottom-1 w-5 h-1.5 rounded-[100%] bg-cyan-500/40 blur-sm" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.3s infinite normal none running shadow-breathe;"></div></div><div class="relative flex flex-col items-center justify-end h-20 w-6"><div class="relative w-5 h-5 z-10" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.45s infinite normal none running gravity-bounce; will-change: transform;"><div class="w-full h-full rounded-full bg-gradient-to-b from-cyan-300 to-blue-600 shadow-[0_0_15px_rgba(6,182,212,0.6)]" style="animation: 1.4s linear 0.45s infinite normal none running rubber-morph; will-change: transform;"></div><div class="absolute top-1 left-1 w-1.5 h-1.5 bg-white/60 rounded-full blur-[0.5px]"></div></div><div class="absolute bottom-0 w-10 h-3 border border-cyan-500/30 rounded-[100%] opacity-0" style="animation: 1.4s linear 0.45s infinite normal none running ripple-expand;"></div><div class="absolute -bottom-1 w-5 h-1.5 rounded-[100%] bg-cyan-500/40 blur-sm" style="animation: 1.4s cubic-bezier(0.45, 0.05, 0.55, 0.95) 0.45s infinite normal none running shadow-breathe;"></div></div></div><style>
+        /* * 1. Gravity Bounce
+         * Simulates the object falling and jumping up.
+         * 0% = Ground (Hit)
+         * 50% = Peak Height (Slowest)
+         * 100% = Ground (Hit)
+         */
+        @keyframes gravity-bounce {
+          0% { transform: translateY(0); animation-timing-function: cubic-bezier(0.33, 1, 0.68, 1); } /* Hit ground, start jump fast */
+          50% { transform: translateY(-40px); animation-timing-function: cubic-bezier(0.32, 0, 0.67, 0); } /* Hover at top, start fall slow */
+          100% { transform: translateY(0); } /* Hit ground */
+        }
+
+        /* * 2. Rubber Morph (Squash & Stretch)
+         * We decouple this from the translation to have finer control over the shape.
+         */
+        @keyframes rubber-morph {
+          0% { transform: scale(1.4, 0.6); } /* Impact: Squashed flat */
+          5% { transform: scale(0.9, 1.1); } /* Rebound: Slight stretch */
+          15% { transform: scale(1, 1); }    /* Normal shape rising */
+          50% { transform: scale(1, 1); }    /* Peak: Perfect sphere */
+          85% { transform: scale(0.9, 1.1); } /* Falling: Stretch */
+          100% { transform: scale(1.4, 0.6); } /* Impact: Squashed flat */
+        }
+
+        /* * 3. Shadow Breathe
+         * Shadow shrinks and fades when object is high.
+         */
+        @keyframes shadow-breathe {
+          0% { transform: scale(1.4); opacity: 0.6; }
+          50% { transform: scale(0.5); opacity: 0.1; }
+          100% { transform: scale(1.4); opacity: 0.6; }
+        }
+
+        /* * 4. Ripple Expand
+         * Only appears briefly at 0% and 100% when the ball hits.
+         */
+        @keyframes ripple-expand {
+          0% { transform: scale(0.5); opacity: 0; border-width: 4px; }
+          5% { opacity: 0.8; }
+          30% { transform: scale(1.5); opacity: 0; border-width: 0px; }
+          100% { transform: scale(1.5); opacity: 0; }
+        }
+      </style></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

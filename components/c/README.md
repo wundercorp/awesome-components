@@ -1,6 +1,6 @@
 # Bucket c
 
-259 components from 14 author groups.
+279 components from 15 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -17,4 +17,5 @@
 | [community](community/README.md) | 63 |
 | [coss.com](coss.com/README.md) | 137 |
 | [critcoder](critcoder/README.md) | 1 |
-| [cult-ui](cult-ui/README.md) | 2 |
+| [cult-ui](cult-ui/README.md) | 18 |
+| [cybergaz](cybergaz/README.md) | 4 |

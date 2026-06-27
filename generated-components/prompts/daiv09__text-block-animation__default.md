@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/daiv09/text-block-animation/default
+- Registry URL: https://21st.dev/r/daiv09/text-block-animation
+- Author: daiv09
+- Component slug: text-block-animation
+- Demo slug: default
+- Title: text-block-animation
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/daiv09/text-block-animation with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/daiv09__text-block-animation__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/daiv09__text-block-animation__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-50 flex flex-col"><div class="flex-1 flex flex-col"><section class="min-h-screen flex flex-col items-center justify-center relative px-6"><div class="max-w-4xl w-full"><div aria-label="Don't just inform.Captivate." style="position: relative;"><div style="position: relative; display: block; overflow: hidden;"><div class="block-line-parent" aria-hidden="true" style="position: relative; display: block; text-align: start; opacity: 1;"><h1 class="text-5xl md:text-7xl lg:text-8xl font-black tracking-tighter leading-tight">Don't just inform.<br><span class="inline-block bg-black text-white dark:bg-white dark:text-black px-3 pb-1 rounded-md mt-2">Captivate.</span></h1></div><div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(99, 102, 241); z-index: 2; transform: scale(0, 1); transform-origin: 100% 50%; translate: none; rotate: none; scale: none;"></div></div></div></div><div class="absolute bottom-12 flex flex-col items-center gap-2 opacity-60"><span class="text-xs uppercase tracking-widest text-zinc-500 dark:text-zinc-400">Scroll to Reveal</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-down w-5 h-5 text-zinc-500 dark:text-zinc-400 animate-bounce" aria-hidden="true"><path d="M12 5v14"></path><path d="m19 12-7 7-7-7"></path></svg></div></section><section class="min-h-[80vh] flex flex-col justify-center items-center px-6 py-24 bg-zinc-100/80 dark:bg-zinc-900/60"><div class="max-w-3xl w-full space-y-16"><div aria-label="This is what I do." style="position: relative;"><div style="position: relative; display: block; overflow: hidden;"><div class="block-line-parent" aria-hidden="true" style="position: relative; display: block; text-align: start; opacity: 0;"><h2 class="text-3xl md:text-4xl lg:text-5xl font-bold">This is what I do.</h2></div><div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(16, 185, 129); z-index: 2; transform: scaleX(0); transform-origin: left center;"></div></div></div><div aria-label="You stopped scrolling because the motion caught your eye. That's the power of GSAP and React properly combined. I build bespoke animations like this for clients who aren't satisfied with &quot;standard.&quot;" style="position: relative;"><div style="position: relative; display: block; overflow: hidden;"><div class="block-line-parent" aria-hidden="true" style="position: relative; display: block; text-align: start; opacity: 0;"><p class="text-lg md:text-2xl leading-relaxed text-zinc-700 dark:text-zinc-300">You stopped scrolling because the motion caught your eye. That's the </p></div><div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(245, 158, 11); z-index: 2; transform: scaleX(0); transform-origin: left center;"></div></div><div style="position: relative; display: block; overflow: hidden;"><div class="block-line-parent" aria-hidden="true" style="position: relative; display: block; text-align: start; opacity: 0;"><p class="text-lg md:text-2xl leading-relaxed text-zinc-700 dark:text-zinc-300">power of <strong>GSAP</strong> and <strong>React</strong> properly combined. I build bespoke animations </p></div><div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(245, 158, 11); z-index: 2; transform: scaleX(0); transform-origin: left center;"></div></div><div style="position: relative; display: block; overflow: hidden;"><div class="block-line-parent" aria-hidden="true" style="position: relative; display: block; text-align: start; opacity: 0;"><p class="text-lg md:text-2xl leading-relaxed text-zinc-700 dark:text-zinc-300">like this for clients who aren't satisfied with "standard."</p></div><div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(245, 158, 11); z-index: 2; transform: scaleX(0); transform-origin: left center;"></div></div></div><div class="pl-6 border-l-2 border-indigo-500 dark:border-indigo-400"><div aria-label="&quot;If you want your website to feel alive, we should talk.&quot;" style="position: relative;"><div style="position: relative; display: block; overflow: hidden;"><div class="block-line-parent" aria-hidden="true" style="position: relative; display: block; text-align: start; opacity: 0;"><p class="text-base md:text-lg italic text-zinc-500 dark:text-zinc-400">"If you want your website to feel alive, we should talk."</p></div><div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(255, 255, 255); z-index: 2; transform: scaleX(0); transform-origin: left center;"></div></div></div></div></div></section><footer class="h-[40vh] md:h-[50vh] flex items-center justify-center border-t border-zinc-200 dark:border-zinc-900 bg-zinc-50 dark:bg-zinc-950"><div aria-label="Let's Build It." style="position: relative;"><div style="position: relative; display: block; overflow: hidden;"><div class="block-line-parent" aria-hidden="true" style="position: relative; display: block; text-align: start; opacity: 0;"><a href="mailto:hello@daiwiik.com" class="text-4xl md:text-6xl lg:text-7xl font-black hover:text-indigo-500 dark:hover:text-indigo-400 transition-colors cursor-pointer">Let's Build It.</a></div><div style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; background-color: rgb(239, 68, 68); z-index: 2; transform: scaleX(0); transform-origin: left center;"></div></div></div></footer></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

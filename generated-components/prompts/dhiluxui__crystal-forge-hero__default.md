@@ -1,0 +1,63 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/dhiluxui/crystal-forge-hero/default
+- Registry URL: https://21st.dev/r/dhiluxui/crystal-forge-hero
+- Author: dhiluxui
+- Component slug: crystal-forge-hero
+- Demo slug: default
+- Title: crystal-forge-hero
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/dhiluxui/crystal-forge-hero with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/dhiluxui__crystal-forge-hero__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/dhiluxui__crystal-forge-hero__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="cursor-dot"></div><style>
+                .cursor-dot {
+                    width: 12px; height: 12px; border: 2px solid #111827;
+                    border-radius: 50%; position: fixed; pointer-events: none;
+                    transform: translate(-50%, -50%); z-index: 10000;
+                    mix-blend-mode: difference;
+                    transition: transform 0.2s ease-out, background-color 0.2s ease;
+                }
+                .dark .cursor-dot {
+                    border-color: white;
+                }
+                .cursor-dot.active {
+                    background-color: #ff00ff;
+                    transform: translate(-50%, -50%) scale(2.5);
+                    border: none;
+                }
+            </style><div class="relative flex h-screen w-full flex-col items-center justify-center overflow-hidden bg-white dark:bg-black" role="region" aria-labelledby="«r0»" aria-describedby="«r1»" style="cursor: none;"><div class="absolute inset-0 z-0"><canvas data-engine="three.js r179" width="992" height="944" style="display: block; width: 992px; height: 944px;"></canvas></div><nav class="absolute top-0 left-0 right-0 z-20 p-6" style="opacity: 1;"><div class="max-w-7xl mx-auto flex justify-between items-center"><div class="flex items-center gap-2"><span class="text-2xl font-black text-slate-800 dark:text-white tracking-wider" style="font-family: Inter, sans-serif;">CoinLight</span></div><button class="bg-slate-900 text-white px-5 py-2 text-sm font-bold rounded-lg hover:bg-slate-700 transition-colors shadow-lg dark:bg-white dark:text-black dark:hover:bg-gray-200" style="font-family: Inter, sans-serif;">Connect</button></div></nav><div class="relative z-10 text-center px-4 pointer-events-none"><h1 id="«r0»" class="text-7xl md:text-8xl lg:text-9xl font-black text-slate-900 dark:text-white leading-none tracking-tighter" style="font-family: &quot;Playfair Display&quot;, serif;"><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">C</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">o</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">n</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">s</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">c</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">i</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">o</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">u</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">s</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">n</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">e</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">s</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">s</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;"> </span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">F</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">o</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">r</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">g</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">e</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">d</span><span style="display: inline-block; white-space: pre; opacity: 1; transform: none;">.</span></h1><p id="«r1»" class="mx-auto mt-6 max-w-xl text-lg text-slate-600 dark:text-slate-300" style="font-family: Inter, sans-serif; opacity: 1; transform: none;">Here, thought becomes light. Click to create your reality.</p></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

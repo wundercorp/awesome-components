@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/deltacomponents/basic-dropdown/profile-dropdown
+- Registry URL: https://21st.dev/r/deltacomponents/basic-dropdown
+- Author: deltacomponents
+- Component slug: basic-dropdown
+- Demo slug: profile-dropdown
+- Title: basic-dropdown
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/deltacomponents/basic-dropdown with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/deltacomponents__basic-dropdown__profile-dropdown.html
+- Local screenshot file: generated-21st-prompts/screenshots/deltacomponents__basic-dropdown__profile-dropdown.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center min-h-[600px] p-8"><div class="relative inline-block text-left "><div class="inline-flex cursor-pointer" aria-expanded="false" aria-haspopup="true"><img alt="User avatar" class="h-10 w-10 rounded-full border-2 border-border hover:border-primary transition-colors" src="https://patrickprunty.com/icon.webp"></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

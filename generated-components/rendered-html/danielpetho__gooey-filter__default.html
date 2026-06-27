@@ -1,0 +1,14 @@
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="relative min-h-[400px] flex items-center justify-center bg-tertiary rounded-xl p-8"><svg class="hidden absolute"><defs><filter id="goo"><feGaussianBlur in="SourceGraphic" stdDeviation="12" result="blur"></feGaussianBlur><feColorMatrix in="blur" type="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo"></feColorMatrix><feComposite in="SourceGraphic" in2="goo" operator="atop"></feComposite></filter></defs></svg><div class="relative flex gap-4" style="filter: url(&quot;#goo&quot;);"><div class="w-20 h-20 rounded-full" style="background: linear-gradient(45deg, rgb(255, 51, 102), rgb(255, 107, 107)); box-shadow: rgba(255, 51, 102, 0.4) 0px 4px 15px; animation: 2s ease-in-out 0s infinite normal none running moveLeft;"></div><div class="w-20 h-20 rounded-full" style="background: linear-gradient(45deg, rgb(76, 175, 80), rgb(139, 195, 74)); box-shadow: rgba(76, 175, 80, 0.4) 0px 4px 15px; animation: 2s ease-in-out 0s infinite normal none running moveCenter;"></div><div class="w-20 h-20 rounded-full" style="background: linear-gradient(45deg, rgb(33, 150, 243), rgb(3, 169, 244)); box-shadow: rgba(33, 150, 243, 0.4) 0px 4px 15px; animation: 2s ease-in-out 0s infinite normal none running moveRight;"></div></div><style>
+        @keyframes moveLeft {
+          0%, 100% { transform: translate(0, 0); }
+          50% { transform: translate(40px, 0); }
+        }
+        @keyframes moveCenter {
+          0%, 100% { transform: translate(0, 0); }
+          50% { transform: translate(0, -20px); }
+        }
+        @keyframes moveRight {
+          0%, 100% { transform: translate(0, 0); }
+          50% { transform: translate(-40px, 0); }
+        }
+      </style></div></div></div></div>

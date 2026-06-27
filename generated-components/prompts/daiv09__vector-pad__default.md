@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/daiv09/vector-pad/default
+- Registry URL: https://21st.dev/r/daiv09/vector-pad
+- Author: daiv09
+- Component slug: vector-pad
+- Demo slug: default
+- Title: vector-pad
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/daiv09/vector-pad with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/daiv09__vector-pad__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/daiv09__vector-pad__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="fixed inset-0 w-full h-full bg-neutral-950 flex flex-col items-center justify-center font-mono overflow-hidden select-none"><div class="absolute inset-0 pointer-events-none"><div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,white_0%,transparent_80%)]"></div><div class="absolute inset-0 bg-[linear-gradient(to_bottom,transparent_50%,rgba(0,0,0,0.5)_50%)] bg-[length:100%_4px] opacity-20"></div></div><div class="relative z-10 flex flex-col items-center gap-8 scale-110"><div class="flex justify-between w-[320px] text-cyan-500/80 text-[10px] tracking-[0.2em] uppercase font-bold"><div class="flex items-center gap-2"><div class="w-2 h-2 rounded-full transition-colors duration-300 bg-cyan-900"></div><span>VECTOR_CONTROLLER</span></div><span class="text-neutral-600">IDLE</span></div><div class="relative group"><div class="absolute -top-2 -left-2 w-4 h-4 border-t border-l transition-colors duration-300 border-cyan-500/50"></div><div class="absolute -top-2 -right-2 w-4 h-4 border-t border-r transition-colors duration-300 border-cyan-500/50"></div><div class="absolute -bottom-2 -left-2 w-4 h-4 border-b border-l transition-colors duration-300 border-cyan-500/50"></div><div class="absolute -bottom-2 -right-2 w-4 h-4 border-b border-r transition-colors duration-300 border-cyan-500/50"></div><div class="relative w-[320px] h-[320px] bg-neutral-900/80 rounded-sm border shadow-[0_0_50px_rgba(0,0,0,0.5)] overflow-hidden cursor-crosshair touch-none transition-colors duration-300 border-neutral-800"><div class="absolute inset-0 opacity-20 pointer-events-none transition-opacity duration-500 group-hover:opacity-40" style="background-image: linear-gradient(rgba(6, 182, 212, 0.3) 1px, transparent 1px), linear-gradient(90deg, rgba(6, 182, 212, 0.3) 1px, transparent 1px); background-size: 40px 40px; background-position: -1px -1px;"></div><div class="absolute inset-0 bg-gradient-to-b from-transparent via-cyan-500/5 to-transparent h-[200%] w-full animate-[scan_4s_linear_infinite] pointer-events-none"></div><div class="absolute top-0 bottom-0 w-[1px] bg-gradient-to-b from-transparent via-cyan-400/50 to-transparent pointer-events-none transition-colors duration-300" style="left: 50%;"></div><div class="absolute left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-cyan-400/50 to-transparent pointer-events-none transition-colors duration-300" style="top: 50%;"></div><div class="absolute w-0 h-0 z-20" style="left: 50%; top: 50%;"><div class="relative -translate-x-1/2 -translate-y-1/2 flex items-center justify-center" style="transform: scale(0);"><div class="w-1 h-1 shadow-[0_0_10px_currentColor] rounded-full transition-colors duration-300 bg-cyan-50 text-cyan-50"></div><div class="absolute border shadow-[0_0_15px_rgba(0,0,0,0.3)] transition-colors duration-300 border-cyan-400/80 shadow-cyan-400/30" style="width: 0px; height: 0px; opacity: 0;"><div class="absolute top-0 left-0 w-1.5 h-1.5 border-t border-l transition-colors duration-300 border-cyan-200"></div><div class="absolute top-0 right-0 w-1.5 h-1.5 border-t border-r transition-colors duration-300 border-cyan-200"></div><div class="absolute bottom-0 left-0 w-1.5 h-1.5 border-b border-l transition-colors duration-300 border-cyan-200"></div><div class="absolute bottom-0 right-0 w-1.5 h-1.5 border-b border-r transition-colors duration-300 border-cyan-200"></div></div></div></div><div class="absolute bottom-3 right-3 text-[9px] pointer-events-none font-mono transition-colors duration-300 text-cyan-500/50" style="opacity: 0.3;">SEEKING...</div></div></div><div class="flex gap-4 w-[320px]"><div class="relative flex-1 bg-neutral-900 border border-neutral-800 p-2 overflow-hidden group"><div class="absolute inset-0 transition-opacity duration-300 opacity-0 bg-cyan-900/20"></div><div class="relative z-10 flex flex-col items-start pl-2 border-l-2 transition-colors duration-300 border-neutral-800"><span class="text-[9px] text-neutral-500 tracking-widest mb-1">COORD_X</span><div class="flex items-baseline gap-1"><span class="text-2xl font-bold tabular-nums leading-none tracking-tighter transition-colors duration-300 text-neutral-400">050</span><span class="text-[9px] text-neutral-600">%</span></div></div></div><div class="relative flex-1 bg-neutral-900 border border-neutral-800 p-2 overflow-hidden group"><div class="absolute inset-0 transition-opacity duration-300 opacity-0 bg-cyan-900/20"></div><div class="relative z-10 flex flex-col items-start pl-2 border-l-2 transition-colors duration-300 border-neutral-800"><span class="text-[9px] text-neutral-500 tracking-widest mb-1">COORD_Y</span><div class="flex items-baseline gap-1"><span class="text-2xl font-bold tabular-nums leading-none tracking-tighter transition-colors duration-300 text-neutral-400">050</span><span class="text-[9px] text-neutral-600">%</span></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

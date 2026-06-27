@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/daiv09/focus-rail/default
+- Registry URL: https://21st.dev/r/daiv09/focus-rail
+- Author: daiv09
+- Component slug: focus-rail
+- Demo slug: default
+- Title: focus-rail
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/daiv09/focus-rail with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/daiv09__focus-rail__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/daiv09__focus-rail__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main class="min-h-screen overflow-x-hidden w-full bg-neutral-950 flex flex-col items-center justify-center py-20"><div class="mb-12 text-center"><h1 class="text-4xl font-bold text-white mb-2">Featured Stories</h1><p class="text-neutral-400">Navigate the rail to explore selected works.</p></div><div class="group relative flex h-[600px] w-full flex-col overflow-hidden bg-neutral-950 text-white outline-none select-none overflow-x-hidden" tabindex="0"><div class="absolute inset-0 z-0 pointer-events-none"><div class="absolute inset-0" style="opacity: 0.4;"><img alt="" class="h-full w-full object-cover blur-3xl saturate-200" src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 bg-gradient-to-t from-neutral-950 via-neutral-950/50 to-transparent"></div></div></div><div class="relative z-10 flex flex-1 flex-col justify-center px-4 md:px-8"><div class="relative mx-auto flex h-[360px] w-full max-w-6xl items-center justify-center perspective-[1200px] cursor-grab active:cursor-grabbing" draggable="false" style="user-select: none; touch-action: pan-y;"><div class="absolute aspect-[3/4] w-[260px] md:w-[300px] rounded-2xl border-t border-white/20 bg-neutral-900 shadow-2xl transition-shadow duration-300 z-10" style="transform-style: preserve-3d; opacity: 0.1; filter: blur(12px) brightness(0.5); transform: translateX(-640px) translateZ(-360px) scale(0.85) rotateY(40deg);"><img alt="Cyber Future" class="h-full w-full rounded-2xl object-cover pointer-events-none" src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 rounded-2xl bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div><div class="absolute inset-0 rounded-2xl bg-black/10 pointer-events-none mix-blend-multiply"></div></div><div class="absolute aspect-[3/4] w-[260px] md:w-[300px] rounded-2xl border-t border-white/20 bg-neutral-900 shadow-2xl transition-shadow duration-300 z-10" style="transform-style: preserve-3d; opacity: 0.5; filter: blur(6px) brightness(0.5); transform: translateX(-320px) translateZ(-180px) scale(0.85) rotateY(20deg);"><img alt="Deep Ocean" class="h-full w-full rounded-2xl object-cover pointer-events-none" src="https://images.unsplash.com/photo-1682687220742-aba13b6e50ba?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 rounded-2xl bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div><div class="absolute inset-0 rounded-2xl bg-black/10 pointer-events-none mix-blend-multiply"></div></div><div class="absolute aspect-[3/4] w-[260px] md:w-[300px] rounded-2xl border-t border-white/20 bg-neutral-900 shadow-2xl transition-shadow duration-300 z-20 shadow-white/10" style="transform-style: preserve-3d; opacity: 1; filter: blur(0px) brightness(1); transform: none;"><img alt="Neon Tokyo" class="h-full w-full rounded-2xl object-cover pointer-events-none" src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 rounded-2xl bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div><div class="absolute inset-0 rounded-2xl bg-black/10 pointer-events-none mix-blend-multiply"></div></div><div class="absolute aspect-[3/4] w-[260px] md:w-[300px] rounded-2xl border-t border-white/20 bg-neutral-900 shadow-2xl transition-shadow duration-300 z-10" style="transform-style: preserve-3d; opacity: 0.5; filter: blur(6px) brightness(0.5); transform: translateX(320px) translateZ(-180px) scale(0.85) rotateY(-20deg);"><img alt="Nordic Silence" class="h-full w-full rounded-2xl object-cover pointer-events-none" src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 rounded-2xl bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div><div class="absolute inset-0 rounded-2xl bg-black/10 pointer-events-none mix-blend-multiply"></div></div><div class="absolute aspect-[3/4] w-[260px] md:w-[300px] rounded-2xl border-t border-white/20 bg-neutral-900 shadow-2xl transition-shadow duration-300 z-10" style="transform-style: preserve-3d; opacity: 0.1; filter: blur(12px) brightness(0.5); transform: translateX(640px) translateZ(-360px) scale(0.85) rotateY(-40deg);"><img alt="Sahara Echoes" class="h-full w-full rounded-2xl object-cover pointer-events-none" src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?q=80&amp;w=1000&amp;auto=format&amp;fit=crop"><div class="absolute inset-0 rounded-2xl bg-gradient-to-b from-white/10 to-transparent pointer-events-none"></div><div class="absolute inset-0 rounded-2xl bg-black/10 pointer-events-none mix-blend-multiply"></div></div></div><div class="mx-auto mt-12 flex w-full max-w-4xl flex-col items-center justify-between gap-6 md:flex-row pointer-events-auto"><div class="flex flex-1 flex-col items-center text-center md:items-start md:text-left h-32 justify-center"><div class="space-y-2" style="opacity: 1; filter: blur(0px); transform: none;"><span class="text-xs font-medium uppercase tracking-wider text-emerald-400">Urban • Travel</span><h2 class="text-3xl font-bold tracking-tight md:text-4xl text-white">Neon Tokyo</h2><p class="max-w-md text-neutral-400">Experience the vibrant nightlife and illuminated streets of Shinjuku.</p></div></div><div class="flex items-center gap-4"><div class="flex items-center gap-1 rounded-full bg-neutral-900/80 p-1 ring-1 ring-white/10 backdrop-blur-md"><button class="rounded-full p-3 text-neutral-400 transition hover:bg-white/10 hover:text-white active:scale-95" aria-label="Previous"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left h-5 w-5" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button><span class="min-w-[40px] text-center text-xs font-mono text-neutral-500">1 / 5</span><button class="rounded-full p-3 text-neutral-400 transition hover:bg-white/10 hover:text-white active:scale-95" aria-label="Next"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button></div><a href="#tokyo" class="group flex items-center gap-2 rounded-full bg-white px-5 py-3 text-sm font-semibold text-black transition-transform hover:scale-105 active:scale-95">Explore<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right h-4 w-4 transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div></div></div></div></main></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

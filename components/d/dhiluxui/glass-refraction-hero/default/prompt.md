@@ -1,0 +1,57 @@
+# Build Glass Refraction Hero in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Glass Refraction Hero screenshot](screenshot.png)
+
+## Component
+
+- Author group: `dhiluxui`
+- Component: `glass-refraction-hero`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: dhiluxui
+- Component slug: glass-refraction-hero
+- Demo slug: default
+- Title: glass-refraction-hero
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-black" role="banner" aria-label="Hero section"><div class="absolute inset-0" aria-hidden="true"><div class="absolute rounded-full" style="width: min(600px, 40vw); height: min(600px, 40vw); left: calc(-91px + 5vw); top: calc(438px - 10vh); background: radial-gradient(circle, rgb(3, 103, 254) 0%, rgb(3, 103, 254) 50%, rgb(2, 86, 204) 100%); filter: blur(150px); transform: translateX(43.4505px) translateY(-69.5209px) scale(1.1738) rotate(78.211deg);"></div><div class="absolute rounded-full" style="width: min(600px, 40vw); height: min(600px, 40vw); left: calc(430px - 5vw); top: calc(609px - 20vh); background: radial-gradient(circle, rgb(10, 29, 203) 0%, rgb(10, 29, 203) 50%, rgb(8, 22, 163) 100%); filter: blur(150px); transform: translateX(-45.0722px) translateY(67.6082px) scale(1.22536) rotate(-67.6082deg);"></div><div class="absolute rounded-full" style="width: min(600px, 40vw); height: min(600px, 40vw); left: calc(900px - 15vw); top: calc(651px - 20vh); background: radial-gradient(circle, rgb(10, 29, 203) 0%, rgb(10, 29, 203) 50%, rgb(8, 22, 163) 100%); filter: blur(150px); transform: translateX(56.7306px) translateY(-81.0438px) scale(1.20261) rotate(97.2525deg);"></div><div class="absolute rounded-full" style="width: min(600px, 40vw); height: min(600px, 40vw); right: calc(-200px + 10vw); top: calc(329px - 10vh); background: radial-gradient(circle, rgb(3, 103, 254) 0%, rgb(3, 103, 254) 50%, rgb(2, 86, 204) 100%); filter: blur(150px); transform: translateX(-73.8388px) translateY(101.528px) scale(1.32304) rotate(-110.758deg);"></div><div class="absolute rounded-full" style="width: min(400px, 30vw); height: min(400px, 30vw); left: 50%; top: 50%; background: radial-gradient(circle, rgba(59, 130, 246, 0.4) 0%, rgba(59, 130, 246, 0.2) 100%); filter: blur(120px); transform: translateX(38.7088px) translateY(-58.0632px) scale(1.29032) rotate(70.4306deg);"></div></div><div class="absolute inset-0 flex flex-row items-center pointer-events-none" aria-hidden="true" style="width: 100%; height: 100%;"><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div><div class="h-full flex-shrink-0" style="width: calc(5.55556vw); min-width: 60px; max-width: 100px; background: linear-gradient(90deg, rgba(217, 217, 217, 0) 0%, rgba(0, 0, 0, 0.7) 76%, rgba(255, 255, 255, 0.3) 100%); mix-blend-mode: overlay; opacity: 0;"></div></div><div class="relative z-10 container mx-auto px-4 md:px-6 text-center"><div class="max-w-5xl mx-auto" style="opacity: 1; transform: none;"><h1 class="text-5xl sm:text-6xl md:text-8xl lg:text-9xl font-bold mb-8 tracking-tight"><span class="inline-block mr-4 last:mr-0 mb-2" style="opacity: 1; transform: none;"><span class="text-transparent bg-clip-text" style="background-image: linear-gradient(135deg, rgb(3, 103, 254) 0%, rgb(59, 130, 246) 50%, rgb(96, 165, 250) 100%); text-shadow: rgba(3, 103, 254, 0.5) 0px 0px 40px;">Glass</span></span><span class="inline-block mr-4 last:mr-0 mb-2" style="opacity: 1; transform: none;"><span class="text-transparent bg-clip-text" style="background-image: linear-gradient(135deg, rgb(3, 103, 254) 0%, rgb(59, 130, 246) 50%, rgb(96, 165, 250) 100%); text-shadow: rgba(3, 103, 254, 0.5) 0px 0px 40px;">Refraction</span></span><span class="inline-block mr-4 last:mr-0 mb-2" style="opacity: 1; transform: none;"><span class="text-transparent bg-clip-text" style="background-image: linear-gradient(135deg, rgb(3, 103, 254) 0%, rgb(59, 130, 246) 50%, rgb(96, 165, 250) 100%); text-shadow: rgba(3, 103, 254, 0.5) 0px 0px 40px;">Design</span></span></h1><p class="text-lg sm:text-xl md:text-2xl text-blue-200 mb-10 max-w-3xl mx-auto leading-relaxed" style="text-shadow: rgba(59, 130, 246, 0.3) 0px 0px 20px; opacity: 1; transform: none;">Experience the beauty of light refraction through glass with animated blue gradient blobs</p><div class="flex flex-col sm:flex-row gap-4 justify-center items-center" style="opacity: 1; transform: none;"><button class="px-8 py-4 text-base sm:text-lg font-semibold rounded-full bg-blue-600 text-white hover:bg-blue-500 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-black" aria-label="Explore Now" style="box-shadow: rgba(3, 103, 254, 0.5) 0px 0px 30px, rgba(0, 0, 0, 0.5) 0px 10px 20px;">Explore Now</button><button class="px-8 py-4 text-base sm:text-lg font-semibold rounded-full bg-transparent text-blue-300 border-2 border-blue-500 hover:bg-blue-500/20 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 focus:ring-offset-black" aria-label="Learn More" style="box-shadow: rgba(59, 130, 246, 0.3) 0px 0px 20px;">Learn More</button></div></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

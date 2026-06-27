@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/dhiluxui/minimal/default
+- Registry URL: https://21st.dev/r/dhiluxui/minimal
+- Author: dhiluxui
+- Component slug: minimal
+- Demo slug: default
+- Title: minimal
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/dhiluxui/minimal with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/dhiluxui__minimal__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/dhiluxui__minimal__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="relative min-h-screen w-full overflow-hidden " style="background: rgb(255, 255, 255);"><div class="absolute inset-0" style="background-image: linear-gradient(rgba(0, 0, 0, 0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(0, 0, 0, 0.03) 1px, transparent 1px); background-size: 100px 100px;"></div><div class="absolute top-0 left-0 h-1" style="background: linear-gradient(90deg, rgb(0, 255, 163), transparent); width: 50%;"></div><div class="absolute rounded-full" style="top: 20%; right: 10%; width: 400px; height: 400px; border: 2px solid rgba(0, 255, 163, 0.125); transform: scale(1.04793) rotate(43.137deg);"></div><div class="absolute rounded-full" style="bottom: 30%; right: 15%; width: 80px; height: 80px; background: rgb(0, 255, 163); opacity: 0.2; transform: translateY(-20.8258px) scale(1.13884);"></div><div class="relative z-10 min-h-screen flex items-center px-6 py-20"><div class="max-w-7xl mx-auto w-full"><div class="mb-16" style="opacity: 1; transform: none;"><div class="flex items-center gap-2"><div class="w-10 h-10" style="background: rgb(0, 255, 163); clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);"></div><span class="text-2xl font-black" style="color: rgb(0, 0, 0); font-family: Inter, sans-serif;">MINIMAL</span></div></div><div class="max-w-4xl"><div class="inline-flex items-center gap-2 mb-8 px-4 py-2 rounded-full" style="background: rgba(0, 255, 163, 0.082); border: 1px solid rgba(0, 255, 163, 0.25); opacity: 1; transform: none;"><div class="w-2 h-2 rounded-full" style="background: rgb(0, 255, 163); transform: scale(1.28014);"></div><span class="text-sm font-bold uppercase tracking-wider" style="color: rgb(0, 0, 0); font-family: Inter, sans-serif;">New Platform</span></div><h1 class="text-6xl md:text-7xl lg:text-8xl font-black leading-tight mb-6" style="font-family: Inter, sans-serif; color: rgb(0, 0, 0); letter-spacing: -0.04em; opacity: 1; transform: none;"><span>Design </span><span>that </span><span style="color: rgb(0, 255, 163);">speaks </span><span>volumes </span></h1><h2 class="text-2xl md:text-3xl font-semibold mb-6" style="font-family: Inter, sans-serif; color: rgb(102, 102, 102); opacity: 1; transform: none;">Less is more, always has been</h2><p class="text-xl md:text-2xl mb-12" style="font-family: Inter, sans-serif; color: rgb(85, 85, 85); line-height: 1.6; max-width: 700px; opacity: 1; transform: none;">We believe in the power of simplicity. Clean lines, bold typography, and purposeful design create experiences that resonate and inspire action.</p><div class="flex flex-col sm:flex-row items-start gap-4 mb-16" style="opacity: 1; transform: none;"><button class="px-10 py-5 rounded-2xl font-bold text-lg" tabindex="0" style="background: rgb(0, 255, 163); color: rgb(0, 0, 0); font-family: Inter, sans-serif;">Get Started Free</button><button class="px-10 py-5 rounded-2xl font-bold text-lg" tabindex="0" style="background: transparent; color: rgb(0, 0, 0); font-family: Inter, sans-serif; border: 2px solid rgb(224, 224, 224);">View Demo</button></div><div class="grid grid-cols-2 md:grid-cols-4 gap-8" style="opacity: 1; transform: none;"><div class="relative"><div class="absolute top-0 left-0 w-8 h-1 mb-2" style="background: rgb(0, 255, 163);"></div><div class="pt-4"><div class="text-4xl md:text-5xl font-black mb-2" style="font-family: Inter, sans-serif; color: rgb(0, 0, 0);">500K+</div><div class="text-sm font-semibold uppercase tracking-wide" style="font-family: Inter, sans-serif; color: rgb(136, 136, 136);">Active Users</div></div></div><div class="relative"><div class="absolute top-0 left-0 w-8 h-1 mb-2" style="background: rgb(0, 255, 163);"></div><div class="pt-4"><div class="text-4xl md:text-5xl font-black mb-2" style="font-family: Inter, sans-serif; color: rgb(0, 0, 0);">99.9%</div><div class="text-sm font-semibold uppercase tracking-wide" style="font-family: Inter, sans-serif; color: rgb(136, 136, 136);">Uptime</div></div></div><div class="relative"><div class="absolute top-0 left-0 w-8 h-1 mb-2" style="background: rgb(0, 255, 163);"></div><div class="pt-4"><div class="text-4xl md:text-5xl font-black mb-2" style="font-family: Inter, sans-serif; color: rgb(0, 0, 0);">50+</div><div class="text-sm font-semibold uppercase tracking-wide" style="font-family: Inter, sans-serif; color: rgb(136, 136, 136);">Countries</div></div></div><div class="relative"><div class="absolute top-0 left-0 w-8 h-1 mb-2" style="background: rgb(0, 255, 163);"></div><div class="pt-4"><div class="text-4xl md:text-5xl font-black mb-2" style="font-family: Inter, sans-serif; color: rgb(0, 0, 0);">4.9★</div><div class="text-sm font-semibold uppercase tracking-wide" style="font-family: Inter, sans-serif; color: rgb(136, 136, 136);">Rating</div></div></div></div></div></div></div><div class="absolute" style="bottom: 10%; right: 5%; width: 200px; height: 200px; border: 1px solid rgba(0, 255, 163, 0.19); transform: rotate(118.832deg);"></div><div class="absolute bottom-0 right-0 h-1" style="background: linear-gradient(270deg, rgb(0, 255, 163), transparent); width: 40%;"></div></section></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

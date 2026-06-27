@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/daiv09/rolling-list/default
+- Registry URL: https://21st.dev/r/daiv09/rolling-list
+- Author: daiv09
+- Component slug: rolling-list
+- Demo slug: default
+- Title: rolling-list
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/daiv09/rolling-list with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/daiv09__rolling-list__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/daiv09__rolling-list__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="mx-auto flex w-full max-w-2xl flex-col items-center justify-center px-4 py-12"><h3 class="mb-8 text-sm font-bold uppercase tracking-widest text-neutral-500">Process</h3><div class="w-full flex flex-col"><div class="group relative w-full cursor-pointer border-b border-neutral-200 dark:border-neutral-800 py-6"><div class="relative overflow-hidden h-[60px] md:h-20"><div class="transition-transform duration-500 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:-translate-y-1/2"><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black text-neutral-900 dark:text-white uppercase tracking-tighter">Discover</h2></div><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter italic text-blue-500">Discover</h2></div></div></div><span class="absolute top-8 right-0 text-xs font-bold uppercase tracking-widest text-neutral-400 transition-opacity duration-300 group-hover:opacity-0 hidden md:block">Research</span><div class="pointer-events-none absolute right-0 top-1/2 z-20 h-32 w-48 -translate-y-1/2 overflow-hidden rounded-lg shadow-2xl transition-all duration-500 ease-out opacity-0 scale-95 rotate-3 translate-x-4 group-hover:opacity-100 group-hover:scale-100 group-hover:rotate-0 group-hover:translate-x-0"><div class="relative h-full w-full"><img alt="Team discovering insights" class="object-cover grayscale transition-all duration-500 ease-out group-hover:grayscale-0" src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&amp;auto=format&amp;fit=crop&amp;q=60"><div class="absolute inset-0 bg-blue-600/15 mix-blend-overlay"></div></div></div></div><div class="group relative w-full cursor-pointer border-b border-neutral-200 dark:border-neutral-800 py-6"><div class="relative overflow-hidden h-[60px] md:h-20"><div class="transition-transform duration-500 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:-translate-y-1/2"><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black text-neutral-900 dark:text-white uppercase tracking-tighter">Design</h2></div><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter italic text-blue-500">Design</h2></div></div></div><span class="absolute top-8 right-0 text-xs font-bold uppercase tracking-widest text-neutral-400 transition-opacity duration-300 group-hover:opacity-0 hidden md:block">Experience</span><div class="pointer-events-none absolute right-0 top-1/2 z-20 h-32 w-48 -translate-y-1/2 overflow-hidden rounded-lg shadow-2xl transition-all duration-500 ease-out opacity-0 scale-95 rotate-3 translate-x-4 group-hover:opacity-100 group-hover:scale-100 group-hover:rotate-0 group-hover:translate-x-0"><div class="relative h-full w-full"><img alt="Design collaboration" class="object-cover grayscale transition-all duration-500 ease-out group-hover:grayscale-0" src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=400&amp;auto=format&amp;fit=crop&amp;q=60"><div class="absolute inset-0 bg-blue-600/15 mix-blend-overlay"></div></div></div></div><div class="group relative w-full cursor-pointer border-b border-neutral-200 dark:border-neutral-800 py-6"><div class="relative overflow-hidden h-[60px] md:h-20"><div class="transition-transform duration-500 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:-translate-y-1/2"><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black text-neutral-900 dark:text-white uppercase tracking-tighter">Develop</h2></div><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter italic text-blue-500">Develop</h2></div></div></div><span class="absolute top-8 right-0 text-xs font-bold uppercase tracking-widest text-neutral-400 transition-opacity duration-300 group-hover:opacity-0 hidden md:block">Engineering</span><div class="pointer-events-none absolute right-0 top-1/2 z-20 h-32 w-48 -translate-y-1/2 overflow-hidden rounded-lg shadow-2xl transition-all duration-500 ease-out opacity-0 scale-95 rotate-3 translate-x-4 group-hover:opacity-100 group-hover:scale-100 group-hover:rotate-0 group-hover:translate-x-0"><div class="relative h-full w-full"><img alt="Developers coding" class="object-cover grayscale transition-all duration-500 ease-out group-hover:grayscale-0" src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=400&amp;auto=format&amp;fit=crop&amp;q=60"><div class="absolute inset-0 bg-blue-600/15 mix-blend-overlay"></div></div></div></div><div class="group relative w-full cursor-pointer border-b border-neutral-200 dark:border-neutral-800 py-6"><div class="relative overflow-hidden h-[60px] md:h-20"><div class="transition-transform duration-500 ease-[cubic-bezier(0.76,0,0.24,1)] group-hover:-translate-y-1/2"><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black text-neutral-900 dark:text-white uppercase tracking-tighter">Deploy</h2></div><div class="h-[60px] md:h-20 flex items-center"><h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter italic text-blue-500">Deploy</h2></div></div></div><span class="absolute top-8 right-0 text-xs font-bold uppercase tracking-widest text-neutral-400 transition-opacity duration-300 group-hover:opacity-0 hidden md:block">Launch</span><div class="pointer-events-none absolute right-0 top-1/2 z-20 h-32 w-48 -translate-y-1/2 overflow-hidden rounded-lg shadow-2xl transition-all duration-500 ease-out opacity-0 scale-95 rotate-3 translate-x-4 group-hover:opacity-100 group-hover:scale-100 group-hover:rotate-0 group-hover:translate-x-0"><div class="relative h-full w-full"><img alt="Product launch" class="object-cover grayscale transition-all duration-500 ease-out group-hover:grayscale-0" src="https://images.unsplash.com/photo-1520607162513-77705c0f0d4a?w=400&amp;auto=format&amp;fit=crop&amp;q=60"><div class="absolute inset-0 bg-blue-600/15 mix-blend-overlay"></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

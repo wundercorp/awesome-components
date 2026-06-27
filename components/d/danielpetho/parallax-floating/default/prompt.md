@@ -1,0 +1,57 @@
+# Build Parallax Floating in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Parallax Floating screenshot](screenshot.png)
+
+## Component
+
+- Author group: `danielpetho`
+- Component: `parallax-floating`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: danielpetho
+- Component slug: parallax-floating
+- Demo slug: default
+- Title: parallax-floating
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="flex w-full h-full min-h-[600px] justify-center items-center bg-black overflow-hidden"><div class="z-50 text-center space-y-4 items-center flex flex-col" style="opacity: 1; transform: none;"><p class="text-5xl md:text-7xl z-50 text-white font-calendas italic">fancy.</p><p class="text-xs z-50 hover:scale-110 transition-transform bg-white text-black rounded-full py-2 w-20 cursor-pointer">Download</p></div><div class="absolute top-0 left-0 w-full h-full overflow-hidden"><div class="absolute will-change-transform top-[8%] left-[11%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-16 h-16 md:w-24 md:h-24 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1727341554370-80e0fe9ad082?q=80&amp;w=2276&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div><div class="absolute will-change-transform top-[10%] left-[32%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-20 h-20 md:w-28 md:h-28 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1640680608781-2e4199dd1579?q=80&amp;w=3087&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div><div class="absolute will-change-transform top-[2%] left-[53%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-28 h-40 md:w-40 md:h-52 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1726083085160-feeb4e1e5b00?q=80&amp;w=3024&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div><div class="absolute will-change-transform top-[0%] left-[83%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-24 h-24 md:w-32 md:h-32 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1562016600-ece13e8ba570?q=80&amp;w=2838&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div><div class="absolute will-change-transform top-[40%] left-[2%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-28 h-28 md:w-36 md:h-36 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1624344965199-ed40391d20f2?q=80&amp;w=2960&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div><div class="absolute will-change-transform top-[70%] left-[77%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-28 h-28 md:w-36 md:h-48 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1677338354108-223e807fb1bd?q=80&amp;w=3087&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div><div class="absolute will-change-transform top-[73%] left-[15%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-40 md:w-52 h-full object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1689553079282-45df1b35741b?q=80&amp;w=3087&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div><div class="absolute will-change-transform top-[80%] left-[50%]" style="transform: translate3d(0px, 0px, 0px);"><img class="w-24 h-24 md:w-32 md:h-32 object-cover hover:scale-105 duration-200 cursor-pointer transition-transform" src="https://images.unsplash.com/photo-1721968317938-cf8c60fccd1a?q=80&amp;w=2728&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="opacity: 1;"></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

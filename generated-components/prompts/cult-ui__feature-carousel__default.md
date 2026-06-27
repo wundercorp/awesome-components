@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/cult-ui/feature-carousel/default
+- Registry URL: https://21st.dev/r/cult-ui/feature-carousel
+- Author: cult-ui
+- Component slug: feature-carousel
+- Demo slug: default
+- Title: feature-carousel
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/cult-ui/feature-carousel with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/cult-ui__feature-carousel__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/cult-ui__feature-carousel__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-5xl mx-auto"><div class="rounded-[34px] bg-neutral-700 p-2"><div class="relative z-10 grid w-full gap-8 rounded-[28px] bg-neutral-950 p-2"><div class="animated-cards relative w-full rounded-[16px]" style="--x: 0px; --y: 0px;"><div class="group relative w-full overflow-hidden rounded-3xl border border-black/10 bg-gradient-to-b from-neutral-900/90 to-stone-800 transition duration-300 dark:from-neutral-950/90 dark:to-neutral-800/90 md:hover:border-transparent bg-gradient-to-tr from-neutral-900/90 to-neutral-800/90"><div class="m-10 min-h-[450px] w-full"><div class="flex w-4/6 flex-col gap-3" style="opacity: 1; transform: none;"><h2 class="text-xl font-bold tracking-tight text-white md:text-2xl" style="opacity: 1; transform: none;">Feature 2</h2><div style="opacity: 1; transform: none;"><p class="text-sm leading-5 text-neutral-300 sm:text-base sm:leading-5 dark:text-zinc-400"><span data-br="«r4»" data-brr="1" style="display: inline-block; vertical-align: top; text-decoration: inherit; text-wrap: balance; max-width: 320px;">Feature 2 description</span><script>self.__wrap_n=self.__wrap_n||(self.CSS&&CSS.supports("text-wrap","balance")?1:2);self.__wrap_b=(a,l,o)=>{o=o||document.querySelector(`[data-br="${a}"]`);let u=o==null?void 0:o.parentElement;if(!u)return;let f=s(v=>o.style.maxWidth=v+"px","l");o.style.maxWidth="";let d=u.clientWidth,y=u.clientHeight,p=d/2-.25,m=d+.5,g;if(d){for(f(p),p=Math.max(o.scrollWidth,p);p+1<m;)g=Math.round((p+m)/2),f(g),u.clientHeight===y?m=g:p=g;f(m*l+d*(1-l))}o.__wrap_o||typeof ResizeObserver<"u"&&(o.__wrap_o=new ResizeObserver(()=>{self.__wrap_b(0,+o.dataset.brr,o)})).observe(u)};self.__wrap_n!=1&&self.__wrap_b("«r4»",1)</script></p></div></div><div class="w-full h-full absolute" style="opacity: 1; transform: none;"><div class="relative w-full h-full"><img alt="Feature demonstration" width="1200" height="630" class="pointer-events-none w-[50%] rounded-t-[24px] overflow-hidden border border-stone-100/10 transition-all duration-500 dark:border-stone-700 max-md:scale-[160%] left-[25%] top-[69%] md:left-[35px] md:top-[30%] md:group-hover:translate-y-2 rounded-2xl" src="https://www.cult-ui.com/_next/image?url=%2Ffeature-3.png&amp;w=3840&amp;q=75" style="position: absolute; user-select: none; max-width: unset; opacity: 1; transform: none;"><img alt="Feature demonstration" width="1200" height="630" class="pointer-events-none w-[40%] border border-stone-100/10 dark:border-stone-700 transition-all duration-500 rounded-2xl overflow-hidden max-md:scale-[140%] left-[70%] top-[53%] md:top-[25%] md:left-[calc(50%+27px+1rem)] md:group-hover:-translate-y-6 rounded-2xl" src="https://www.cult-ui.com/_next/image?url=%2Ffeature-4.png&amp;w=3840&amp;q=75" style="position: absolute; user-select: none; max-width: unset; opacity: 1; transform: none;"></div></div><div class="absolute left-[12rem] top-5 z-50 h-full w-full cursor-pointer md:left-0" style="opacity: 1;"><nav aria-label="Progress" class="flex justify-center px-4"><ol class="flex w-full flex-wrap items-start justify-start gap-2 sm:justify-center md:w-10/12 md:divide-y-0" role="list"><li class="relative z-50 rounded-full px-3 py-1 transition-all duration-300 ease-in-out md:flex bg-neutral-500/20" style="opacity: 0.5; transform: scale(0.8);"><div class="group flex w-full cursor-pointer items-center focus:outline-none focus-visible:ring-2"><span class="flex items-center gap-2 text-sm font-medium"><span class="flex h-4 w-4 shrink-0 items-center justify-center rounded-full duration-300 bg-brand-400 text-white dark:bg-brand-400" style="transform: none;"><div style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="currentColor" class="h-3 w-3 stroke-white stroke-[3] text-white dark:stroke-black"><path d="m229.66 77.66-128 128a8 8 0 0 1-11.32 0l-56-56a8 8 0 0 1 11.32-11.32L96 188.69 218.34 66.34a8 8 0 0 1 11.32 11.32Z"></path></svg></div></span><span class="text-sm font-medium duration-300 text-muted-foreground" style="opacity: 1; transform: none;">Step 1</span></span></div></li><li class="relative z-50 rounded-full px-3 py-1 transition-all duration-300 ease-in-out md:flex bg-neutral-500/10" style="opacity: 1; transform: none;"><div class="group flex w-full cursor-pointer items-center focus:outline-none focus-visible:ring-2 pointer-events-none"><span class="flex items-center gap-2 text-sm font-medium"><span class="flex h-4 w-4 shrink-0 items-center justify-center rounded-full duration-300 bg-brand-300/80 text-neutral-400 dark:bg-neutral-500/50" style="transform: scale(1.2);"><span class="text-xs">2</span></span><span class="text-sm font-medium duration-300 text-lime-300 dark:text-lime-500" style="opacity: 1; transform: none;">Step 2</span></span></div></li><li class="relative z-50 rounded-full px-3 py-1 transition-all duration-300 ease-in-out md:flex bg-neutral-500/10" style="opacity: 0.5; transform: scale(0.8);"><div class="group flex w-full cursor-pointer items-center focus:outline-none focus-visible:ring-2 pointer-events-none"><span class="flex items-center gap-2 text-sm font-medium"><span class="flex h-4 w-4 shrink-0 items-center justify-center rounded-full duration-300 bg-brand-300/10 dark:bg-neutral-500/20" style="transform: none;"><span class="text-xs text-[#C6EA7E]">3</span></span><span class="text-sm font-medium duration-300 text-neutral-500" style="opacity: 1; transform: none;">Step 3</span></span></div></li><li class="relative z-50 rounded-full px-3 py-1 transition-all duration-300 ease-in-out md:flex bg-neutral-500/10" style="opacity: 0.5; transform: scale(0.8);"><div class="group flex w-full cursor-pointer items-center focus:outline-none focus-visible:ring-2 pointer-events-none"><span class="flex items-center gap-2 text-sm font-medium"><span class="flex h-4 w-4 shrink-0 items-center justify-center rounded-full duration-300 bg-brand-300/10 dark:bg-neutral-500/20" style="transform: none;"><span class="text-xs text-[#C6EA7E]">4</span></span><span class="text-sm font-medium duration-300 text-neutral-500" style="opacity: 1; transform: none;">Step 4</span></span></div></li></ol></nav></div><div class="absolute right-0 top-0 z-50 h-full w-full cursor-pointer md:left-0" tabindex="0"></div></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.
