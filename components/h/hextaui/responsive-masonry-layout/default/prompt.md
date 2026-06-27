@@ -1,0 +1,66 @@
+# Build Responsive Masonry Layout in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Responsive Masonry Layout screenshot](screenshot.png)
+
+## Component
+
+- Author group: `hextaui`
+- Component: `responsive-masonry-layout`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: hextaui
+- Component slug: responsive-masonry-layout
+- Demo slug: default
+- Title: responsive-masonry-layout
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class=" min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-16 px-6"><div class="max-w-7xl mx-auto space-y-20"><div class="text-center"><h1 class="text-5xl font-bold bg-gradient-to-r from-gray-900 to-gray-600 bg-clip-text text-transparent mb-6">Responsive Masonry Layout</h1></div><section><div class="
+        columns-1 
+        sm:columns-2 
+        md:columns-3 
+        lg:columns-4 
+        xl:columns-5 
+        gap-4 
+        space-y-4 
+        
+      "><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Nature Photography" class="w-full h-48 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/300?random=1"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Nature Photography</h3><p class="text-gray-600 text-sm leading-relaxed">Beautiful landscapes and wildlife captured in stunning detail</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-green-100 text-green-700 px-2 py-1 rounded-full">Landscapes</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Mountain Views" class="w-full h-64 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/400?random=2"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Mountain Views</h3><p class="text-gray-600 text-sm leading-relaxed">Scenic mountain ranges and majestic peaks reaching for the sky</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-blue-100 text-blue-700 px-2 py-1 rounded-full">Mountains</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="City Life" class="w-full h-32 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/200?random=3"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">City Life</h3><p class="text-gray-600 text-sm leading-relaxed">Urban photography showcasing modern architecture and vibrant street scenes</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-purple-100 text-purple-700 px-2 py-1 rounded-full">Urban</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Sunset Collection" class="w-full h-56 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/350?random=4"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Sunset Collection</h3><p class="text-gray-600 text-sm leading-relaxed">Golden hour moments that paint the sky in warm, ethereal colors</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-orange-100 text-orange-700 px-2 py-1 rounded-full">Sunsets</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Ocean Waves" class="w-full h-44 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/280?random=5"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Ocean Waves</h3><p class="text-gray-600 text-sm leading-relaxed">Peaceful coastal scenes with rhythmic waves and endless horizons</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-cyan-100 text-cyan-700 px-2 py-1 rounded-full">Ocean</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Forest Path" class="w-full h-52 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/320?random=6"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Forest Path</h3><p class="text-gray-600 text-sm leading-relaxed">Mystical woodland trails surrounded by ancient trees and dappled light</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-emerald-100 text-emerald-700 px-2 py-1 rounded-full">Forest</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Abstract Art" class="w-full h-60 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/380?random=7"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Abstract Art</h3><p class="text-gray-600 text-sm leading-relaxed">Creative digital compositions exploring form, color, and imagination</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-pink-100 text-pink-700 px-2 py-1 rounded-full">Abstract</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Desert Landscape" class="w-full h-40 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/250?random=8"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Desert Landscape</h3><p class="text-gray-600 text-sm leading-relaxed">Vast sandy horizons where silence meets infinite space</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded-full">Desert</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Winter Wonderland" class="w-full h-56 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/360?random=9"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Winter Wonderland</h3><p class="text-gray-600 text-sm leading-relaxed">Snow-covered landscapes creating a pristine, magical atmosphere</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-slate-100 text-slate-700 px-2 py-1 rounded-full">Winter</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Street Photography" class="w-full h-48 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/290?random=10"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Street Photography</h3><p class="text-gray-600 text-sm leading-relaxed">Candid moments capturing the authentic rhythm of daily life</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-gray-100 text-gray-700 px-2 py-1 rounded-full">Street</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Architectural Marvels" class="w-full h-68 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/420?random=11"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Architectural Marvels</h3><p class="text-gray-600 text-sm leading-relaxed">Modern building designs that push the boundaries of form and function</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-indigo-100 text-indigo-700 px-2 py-1 rounded-full">Architecture</span></div></div></div></div><div class="break-inside-avoid mb-4"><div class="group bg-white rounded-xl shadow-2xl/10 border-0 overflow-hidden transition-all duration-300 hover:-translate-y-1"><div class="relative overflow-hidden p-4"><img alt="Garden Blooms" class="w-full h-36 object-cover rounded-md transition-transform duration-300 group-hover:scale-105" src="https://picsum.photos/400/240?random=12"></div><div class="p-5"><h3 class="font-semibold text-gray-900 text-lg mb-2 group-hover:text-blue-600 transition-colors">Garden Blooms</h3><p class="text-gray-600 text-sm leading-relaxed">Colorful flower collections celebrating nature's artistic palette</p><div class="mt-3 flex items-center text-xs text-gray-400"><span class="bg-rose-100 text-rose-700 px-2 py-1 rounded-full">Flowers</span></div></div></div></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

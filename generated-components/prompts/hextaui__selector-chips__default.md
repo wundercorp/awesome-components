@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/hextaui/selector-chips/default
+- Registry URL: https://21st.dev/r/hextaui/selector-chips
+- Author: hextaui
+- Component slug: selector-chips
+- Demo slug: default
+- Title: selector-chips
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/hextaui/selector-chips with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/hextaui__selector-chips__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/hextaui__selector-chips__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="min-h-screen flex flex-col items-center justify-center p-4"><h1 class="text-2xl font-bold mb-4">Select Your Interests</h1><div class="flex flex-wrap gap-2 max-w-xl w-full bg-background border border-primary/10 p-4 rounded-3xl shadow-2xl/10"><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">React</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">Vue</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">Angular</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">Svelte</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">Next.js</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">Remix</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">Astro</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button><button class="flex items-center justify-center px-4 py-2 rounded-full text-sm font-medium border transition overflow-hidden grow cursor-pointer" style="min-width: 100px; background-color: rgb(255, 255, 255); border-color: rgb(209, 213, 219); color: rgb(31, 41, 55); width: 100px;"><div class="flex items-center w-full justify-center relative"><span class="mx-auto">Nuxt.js</span><span style="display: flex; align-items: center; overflow: hidden; width: 0px; margin-left: 0px;"></span></div></button></div><button class="cursor-pointer font-medium px-4 py-[0.4rem] bg-gradient-to-b from-blue-500 via-blue-600 to-blue-800 overflow-hidden relative rounded-full before:absolute before:w-[0.4rem] before:h-[20rem] before:top-0  before:translate-x-[-8rem] hover:before:translate-x-[7rem] before:duration-[0.8s] before:-skew-x-[10deg]  before:transition-all before:bg-white before:blur-[8px] hover:brightness-100 flex items-center justify-center gap-2 transition-all brightness-90 group text-white text-sm mt-10">Submit</button></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/hextaui/gradient-tracing/sine-wave
+- Registry URL: https://21st.dev/r/hextaui/gradient-tracing
+- Author: hextaui
+- Component slug: gradient-tracing
+- Demo slug: sine-wave
+- Title: gradient-tracing
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/hextaui/gradient-tracing with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/hextaui__gradient-tracing__sine-wave.html
+- Local screenshot file: generated-21st-prompts/screenshots/hextaui__gradient-tracing__sine-wave.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="relative" style="width: 300px; height: 100px;"><svg width="300" height="100" viewBox="0 0 300 100" fill="none"><path d="M0,50 C75,0 150,100 225,50 S300,0 375,50" stroke="black" stroke-opacity="0.2" stroke-width="2"></path><path d="M0,50 C75,0 150,100 225,50 S300,0 375,50" stroke="url(#pulse-biltk7172)" stroke-linecap="round" stroke-width="2"></path><defs><linearGradient id="pulse-biltk7172" gradientUnits="userSpaceOnUse" x1="537.5999999999999" x2="268.79999999999995"><stop stop-color="#FF6B6B" stop-opacity="0"></stop><stop stop-color="#FF6B6B"></stop><stop offset="1" stop-color="#4ECDC4" stop-opacity="0"></stop></linearGradient></defs></svg></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

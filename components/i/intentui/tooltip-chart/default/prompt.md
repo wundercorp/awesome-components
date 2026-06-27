@@ -1,0 +1,140 @@
+# Build Tooltip Chart in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Tooltip Chart screenshot](screenshot.png)
+
+## Component
+
+- Author group: `intentui`
+- Component: `tooltip-chart`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: intentui
+- Component slug: tooltip-chart
+- Demo slug: default
+- Title: tooltip-chart
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div data-slot="card" class="group/card flex flex-col gap-(--card-spacing) rounded-lg border bg-bg py-(--card-spacing) text-fg shadow-xs [--card-spacing:--spacing(6)] has-[table]:overflow-hidden has-[table]:not-has-data-[slot=card-footer]:pb-0 **:data-[slot=table-header]:bg-muted/50 has-[table]:**:data-[slot=card-footer]:border-t **:[table]:overflow-hidden"><div data-slot="card-header" class="grid auto-rows-min grid-rows-[auto_auto] gap-1.5 px-(--card-spacing) has-data-[slot=card-action]:grid-cols-[1fr_auto] items-center pb-0"><div data-slot="card-title" class="font-semibold text-lg leading-none tracking-tight">Monthly Expense Breakdown</div><div data-slot="card-description" class="row-start-2 text-pretty text-muted-fg text-sm">Analyzing grocery and utility expenses for the last 24 months</div></div><div data-slot="card-content" class="px-(--card-spacing) has-[table]:border-t"><div data-chart="chart-«r0»" class="flex aspect-video justify-center text-xs [&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-fg [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/80 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-surface]:outline-hidden"><style>
+ [data-chart=chart-«r0»] {
+  --color-groceries: var(--chart-1);
+  --color-utilities: var(--chart-2);
+}
+
+
+.dark [data-chart=chart-«r0»] {
+  --color-groceries: var(--chart-1);
+  --color-utilities: var(--chart-2);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 100%; height: 100%; max-height: 222px; max-width: 394px;"><svg tabindex="0" role="application" class="recharts-surface" width="394" height="222" viewBox="0 0 394 222" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="182" width="384"></rect></clipPath></defs><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="384" height="30" stroke="none" x="45" y="203" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="45" dy="0.71em">Mar 2025</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="384" height="30" stroke="none" x="109" y="203" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="109" dy="0.71em">Jul 2025</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="384" height="30" stroke="none" x="173" y="203" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="173" dy="0.71em">Nov 2025</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="384" height="30" stroke="none" x="237" y="203" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="237" dy="0.71em">Mar 2026</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="384" height="30" stroke="none" x="301" y="203" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="301" dy="0.71em">Jul 2026</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text orientation="bottom" width="384" height="30" stroke="none" x="366.3203125" y="203" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="366.3203125" dy="0.71em">Dec 2026</tspan></text></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path x="6.6" y="142.592" width="12" height="44.40799999999999" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M6.6,142.592L 18.6,142.592L 18.6,183A 4,4,0,0,1,
+        14.600000000000001,187L 10.6,187A 4,4,0,0,1,
+        6.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="22.6" y="114.928" width="12" height="72.072" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M22.6,114.928L 34.6,114.928L 34.6,183A 4,4,0,0,1,
+        30.6,187L 26.6,187A 4,4,0,0,1,
+        22.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="38.6" y="148.416" width="12" height="38.584" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M38.6,148.416L 50.6,148.416L 50.6,183A 4,4,0,0,1,
+        46.6,187L 42.6,187A 4,4,0,0,1,
+        38.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="54.6" y="120.20599999999999" width="12" height="66.79400000000001" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M54.6,120.20599999999999L 66.6,120.20599999999999L 66.6,183A 4,4,0,0,1,
+        62.599999999999994,187L 58.6,187A 4,4,0,0,1,
+        54.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="70.6" y="151.51" width="12" height="35.49000000000001" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M70.6,151.51L 82.6,151.51L 82.6,183A 4,4,0,0,1,
+        78.6,187L 74.6,187A 4,4,0,0,1,
+        70.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="86.6" y="141.136" width="12" height="45.864000000000004" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M86.6,141.136L 98.6,141.136L 98.6,183A 4,4,0,0,1,
+        94.6,187L 90.6,187A 4,4,0,0,1,
+        86.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="102.6" y="126.21199999999999" width="12" height="60.78800000000001" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M102.6,126.21199999999999L 114.6,126.21199999999999L 114.6,183A 4,4,0,0,1,
+        110.6,187L 106.6,187A 4,4,0,0,1,
+        102.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="118.6" y="128.942" width="12" height="58.05799999999999" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M118.6,128.942L 130.6,128.942L 130.6,183A 4,4,0,0,1,
+        126.6,187L 122.6,187A 4,4,0,0,1,
+        118.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="134.6" y="119.47800000000001" width="12" height="67.52199999999999" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M134.6,119.47800000000001L 146.6,119.47800000000001L 146.6,183A 4,4,0,0,1,
+        142.6,187L 138.6,187A 4,4,0,0,1,
+        134.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="150.6" y="160.60999999999999" width="12" height="26.390000000000015" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M150.6,160.60999999999999L 162.6,160.60999999999999L 162.6,183A 4,4,0,0,1,
+        158.6,187L 154.6,187A 4,4,0,0,1,
+        150.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="166.6" y="115.838" width="12" height="71.162" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M166.6,115.838L 178.6,115.838L 178.6,183A 4,4,0,0,1,
+        174.6,187L 170.6,187A 4,4,0,0,1,
+        166.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="182.6" y="166.434" width="12" height="20.566000000000003" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M182.6,166.434L 194.6,166.434L 194.6,183A 4,4,0,0,1,
+        190.6,187L 186.6,187A 4,4,0,0,1,
+        182.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="198.6" y="159.518" width="12" height="27.482" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M198.6,159.518L 210.6,159.518L 210.6,183A 4,4,0,0,1,
+        206.6,187L 202.6,187A 4,4,0,0,1,
+        198.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="214.6" y="144.776" width="12" height="42.22399999999999" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M214.6,144.776L 226.6,144.776L 226.6,183A 4,4,0,0,1,
+        222.6,187L 218.6,187A 4,4,0,0,1,
+        214.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="230.6" y="159.7" width="12" height="27.30000000000001" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M230.6,159.7L 242.6,159.7L 242.6,183A 4,4,0,0,1,
+        238.6,187L 234.6,187A 4,4,0,0,1,
+        230.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="246.6" y="164.614" width="12" height="22.385999999999996" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M246.6,164.614L 258.6,164.614L 258.6,183A 4,4,0,0,1,
+        254.60000000000002,187L 250.6,187A 4,4,0,0,1,
+        246.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="262.6" y="156.96999999999997" width="12" height="30.03000000000003" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M262.6,156.96999999999997L 274.6,156.96999999999997L 274.6,183A 4,4,0,0,1,
+        270.6,187L 266.6,187A 4,4,0,0,1,
+        262.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="278.6" y="132.4" width="12" height="54.599999999999994" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M278.6,132.4L 290.6,132.4L 290.6,183A 4,4,0,0,1,
+        286.6,187L 282.6,187A 4,4,0,0,1,
+        278.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="294.6" y="144.594" width="12" height="42.406000000000006" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M294.6,144.594L 306.6,144.594L 306.6,183A 4,4,0,0,1,
+        302.6,187L 298.6,187A 4,4,0,0,1,
+        294.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="310.6" y="146.232" width="12" height="40.768" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M310.6,146.232L 322.6,146.232L 322.6,183A 4,4,0,0,1,
+        318.6,187L 314.6,187A 4,4,0,0,1,
+        310.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="326.6" y="115.292" width="12" height="71.708" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M326.6,115.292L 338.6,115.292L 338.6,183A 4,4,0,0,1,
+        334.6,187L 330.6,187A 4,4,0,0,1,
+        326.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="342.6" y="167.89000000000001" width="12" height="19.109999999999985" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M342.6,167.89000000000001L 354.6,167.89000000000001L 354.6,183A 4,4,0,0,1,
+        350.6,187L 346.6,187A 4,4,0,0,1,
+        342.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="358.6" y="119.296" width="12" height="67.704" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M358.6,119.296L 370.6,119.296L 370.6,183A 4,4,0,0,1,
+        366.6,187L 362.6,187A 4,4,0,0,1,
+        358.6,183Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="374.6" y="125.11999999999999" width="12" height="61.88000000000001" radius="0,0,4,4" fill="var(--color-groceries)" class="recharts-rectangle" d="M374.6,125.11999999999999L 386.6,125.11999999999999L 386.6,183A 4,4,0,0,1,
+        382.6,187L 378.6,187A 4,4,0,0,1,
+        374.6,183Z"></path></g></g></g><g class="recharts-layer"></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path x="6.6" y="36.304" width="12" height="106.28800000000001" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M6.6,40.304A 4,4,0,0,1,10.6,36.304L 14.600000000000001,36.304A 4,4,0,0,1,
+        18.6,40.304L 18.6,142.592L 6.6,142.592Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="22.6" y="32.117999999999995" width="12" height="82.81" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M22.6,36.117999999999995A 4,4,0,0,1,26.6,32.117999999999995L 30.6,32.117999999999995A 4,4,0,0,1,
+        34.6,36.117999999999995L 34.6,114.928L 22.6,114.928Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="38.6" y="79.62" width="12" height="68.79599999999999" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M38.6,83.62A 4,4,0,0,1,42.6,79.62L 46.6,79.62A 4,4,0,0,1,
+        50.6,83.62L 50.6,148.416L 38.6,148.416Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="54.6" y="51.41" width="12" height="68.79599999999999" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M54.6,55.41A 4,4,0,0,1,58.6,51.41L 62.599999999999994,51.41A 4,4,0,0,1,
+        66.6,55.41L 66.6,120.20599999999999L 54.6,120.20599999999999Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="70.6" y="114.746" width="12" height="36.763999999999996" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M70.6,118.746A 4,4,0,0,1,74.6,114.746L 78.6,114.746A 4,4,0,0,1,
+        82.6,118.746L 82.6,151.51L 70.6,151.51Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="86.6" y="71.248" width="12" height="69.88799999999999" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M86.6,75.248A 4,4,0,0,1,90.6,71.248L 94.6,71.248A 4,4,0,0,1,
+        98.6,75.248L 98.6,141.136L 86.6,141.136Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="102.6" y="43.58399999999999" width="12" height="82.628" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M102.6,47.58399999999999A 4,4,0,0,1,106.6,43.58399999999999L 110.6,43.58399999999999A 4,4,0,0,1,
+        114.6,47.58399999999999L 114.6,126.21199999999999L 102.6,126.21199999999999Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="118.6" y="23.382000000000005" width="12" height="105.56" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M118.6,27.382000000000005A 4,4,0,0,1,122.6,23.382000000000005L 126.6,23.382000000000005A 4,4,0,0,1,
+        130.6,27.382000000000005L 130.6,128.942L 118.6,128.942Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="134.6" y="27.567999999999998" width="12" height="91.91000000000001" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M134.6,31.567999999999998A 4,4,0,0,1,138.6,27.567999999999998L 142.6,27.567999999999998A 4,4,0,0,1,
+        146.6,31.567999999999998L 146.6,119.47800000000001L 134.6,119.47800000000001Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="150.6" y="105.464" width="12" height="55.14599999999999" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M150.6,109.464A 4,4,0,0,1,154.6,105.464L 158.6,105.464A 4,4,0,0,1,
+        162.6,109.464L 162.6,160.60999999999999L 150.6,160.60999999999999Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="166.6" y="61.60200000000001" width="12" height="54.23599999999998" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M166.6,65.602A 4,4,0,0,1,170.6,61.60200000000001L 174.6,61.60200000000001A 4,4,0,0,1,
+        178.6,65.602L 178.6,115.838L 166.6,115.838Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="182.6" y="77.98200000000001" width="12" height="88.45199999999998" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M182.6,81.98200000000001A 4,4,0,0,1,186.6,77.98200000000001L 190.6,77.98200000000001A 4,4,0,0,1,
+        194.6,81.98200000000001L 194.6,166.434L 182.6,166.434Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="198.6" y="55.77799999999999" width="12" height="103.74000000000001" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M198.6,59.77799999999999A 4,4,0,0,1,202.6,55.77799999999999L 206.6,55.77799999999999A 4,4,0,0,1,
+        210.6,59.77799999999999L 210.6,159.518L 198.6,159.518Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="214.6" y="93.088" width="12" height="51.68800000000002" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M214.6,97.088A 4,4,0,0,1,218.6,93.088L 222.6,93.088A 4,4,0,0,1,
+        226.6,97.088L 226.6,144.776L 214.6,144.776Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="230.6" y="86.17199999999998" width="12" height="73.528" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M230.6,90.17199999999998A 4,4,0,0,1,234.6,86.17199999999998L 238.6,86.17199999999998A 4,4,0,0,1,
+        242.6,90.17199999999998L 242.6,159.7L 230.6,159.7Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="246.6" y="105.82800000000002" width="12" height="58.78599999999999" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M246.6,109.82800000000002A 4,4,0,0,1,250.6,105.82800000000002L 254.60000000000002,105.82800000000002A 4,4,0,0,1,
+        258.6,109.82800000000002L 258.6,164.614L 246.6,164.614Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="262.6" y="59.96400000000001" width="12" height="97.00599999999996" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M262.6,63.96400000000001A 4,4,0,0,1,266.6,59.96400000000001L 270.6,59.96400000000001A 4,4,0,0,1,
+        274.6,63.96400000000001L 274.6,156.96999999999997L 262.6,156.96999999999997Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="278.6" y="45.585999999999984" width="12" height="86.81400000000002" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M278.6,49.585999999999984A 4,4,0,0,1,282.6,45.585999999999984L 286.6,45.585999999999984A 4,4,0,0,1,
+        290.6,49.585999999999984L 290.6,132.4L 278.6,132.4Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="294.6" y="75.07000000000001" width="12" height="69.52399999999999" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M294.6,79.07000000000001A 4,4,0,0,1,298.6,75.07000000000001L 302.6,75.07000000000001A 4,4,0,0,1,
+        306.6,79.07000000000001L 306.6,144.594L 294.6,144.594Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="310.6" y="65.606" width="12" height="80.626" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M310.6,69.606A 4,4,0,0,1,314.6,65.606L 318.6,65.606A 4,4,0,0,1,
+        322.6,69.606L 322.6,146.232L 310.6,146.232Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="326.6" y="46.13199999999999" width="12" height="69.16000000000001" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M326.6,50.13199999999999A 4,4,0,0,1,330.6,46.13199999999999L 334.6,46.13199999999999A 4,4,0,0,1,
+        338.6,50.13199999999999L 338.6,115.292L 326.6,115.292Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="342.6" y="97.274" width="12" height="70.61600000000001" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M342.6,101.274A 4,4,0,0,1,346.6,97.274L 350.6,97.274A 4,4,0,0,1,
+        354.6,101.274L 354.6,167.89000000000001L 342.6,167.89000000000001Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="358.6" y="43.03799999999998" width="12" height="76.25800000000001" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M358.6,47.03799999999998A 4,4,0,0,1,362.6,43.03799999999998L 366.6,43.03799999999998A 4,4,0,0,1,
+        370.6,47.03799999999998L 370.6,119.29599999999999L 358.6,119.29599999999999Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path x="374.6" y="69.428" width="12" height="55.69199999999999" radius="4,4,0,0" fill="var(--color-utilities)" class="recharts-rectangle" d="M374.6,73.428A 4,4,0,0,1,378.6,69.428L 382.6,69.428A 4,4,0,0,1,
+        386.6,73.428L 386.6,125.11999999999999L 374.6,125.11999999999999Z"></path></g></g></g><g class="recharts-layer"></g></g></svg><div tabindex="-1" class="recharts-tooltip-wrapper recharts-tooltip-wrapper-right recharts-tooltip-wrapper-top" style="visibility: visible; pointer-events: none; position: absolute; top: 0px; left: 0px; transition: transform 400ms; transform: translate(39px, 10.5px);"><div class="grid min-w-[12rem] items-start gap-1.5 rounded-lg border bg-overlay px-3 py-2 text-overlay-fg text-xs shadow-xl w-[180px]"><div class="grid gap-1.5"><div class="flex w-full flex-wrap gap-2 *:data-[slot=icon]:size-2.5 *:data-[slot=icon]:text-muted-fg items-center"><div class="size-2.5 shrink-0 rounded-[2px] bg-[--color-bg]" style="--color-bg: var(--color-groceries);"></div>Groceries<div class="ml-auto flex items-baseline gap-0.5 font-medium font-mono text-foreground tabular-nums">396<span class="font-normal text-muted-fg">USD</span></div></div><div class="flex w-full flex-wrap gap-2 *:data-[slot=icon]:size-2.5 *:data-[slot=icon]:text-muted-fg items-center"><div class="size-2.5 shrink-0 rounded-[2px] bg-[--color-bg]" style="--color-bg: var(--color-utilities);"></div>Utilities<div class="ml-auto flex items-baseline gap-0.5 font-medium font-mono text-foreground tabular-nums">455<span class="font-normal text-muted-fg">USD</span></div><div class="mt-1.5 flex basis-full items-center border-t pt-1.5 font-medium text-foreground text-xs">Total<div class="ml-auto flex items-baseline gap-0.5 font-medium font-mono text-foreground tabular-nums">851<span class="font-normal text-muted-fg">USD</span></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/hextaui/magic-text/default
+- Registry URL: https://21st.dev/r/hextaui/magic-text
+- Author: hextaui
+- Component slug: magic-text
+- Demo slug: default
+- Title: magic-text
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/hextaui/magic-text with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/hextaui__magic-text__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/hextaui__magic-text__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="relative flex items-center justify-center pb-[30rem] mt-[70rem]"><p class="flex flex-wrap leading-[0.5] p-4"><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">Hi</span><span style="opacity: 1;">Hi</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">there!</span><span style="opacity: 1;">there!</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">I'm</span><span style="opacity: 1;">I'm</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">preet,</span><span style="opacity: 1;">preet,</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">creator</span><span style="opacity: 1;">creator</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">of</span><span style="opacity: 1;">of</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">HextaUI.</span><span style="opacity: 1;">HextaUI.</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">Thank</span><span style="opacity: 0.830508;">Thank</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">you</span><span style="opacity: 0;">you</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">so</span><span style="opacity: 0;">so</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">much</span><span style="opacity: 0;">much</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">of</span><span style="opacity: 0;">of</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">all</span><span style="opacity: 0;">all</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">the</span><span style="opacity: 0;">the</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">support</span><span style="opacity: 0;">support</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">and</span><span style="opacity: 0;">and</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">love</span><span style="opacity: 0;">love</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">you've</span><span style="opacity: 0;">you've</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">shown</span><span style="opacity: 0;">shown</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">me.</span><span style="opacity: 0;">me.</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">I</span><span style="opacity: 0;">I</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">hope</span><span style="opacity: 0;">hope</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">you</span><span style="opacity: 0;">you</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">enjoy</span><span style="opacity: 0;">enjoy</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">using</span><span style="opacity: 0;">using</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">HextaUI</span><span style="opacity: 0;">HextaUI</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">as</span><span style="opacity: 0;">as</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">much</span><span style="opacity: 0;">much</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">as</span><span style="opacity: 0;">as</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">I</span><span style="opacity: 0;">I</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">enjoyed</span><span style="opacity: 0;">enjoyed</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">creating</span><span style="opacity: 0;">creating</span></span><span class="relative mt-[12px] mr-1 text-3xl font-semibold"><span class="absolute opacity-20">it.</span><span style="opacity: 0;">it.</span></span></p></div><p class="absolute top-1/2 left-1/2 -translate-x-1/2">Scroll Down 👇</p></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

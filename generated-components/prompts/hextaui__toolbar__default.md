@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/hextaui/toolbar/default
+- Registry URL: https://21st.dev/r/hextaui/toolbar
+- Author: hextaui
+- Component slug: toolbar
+- Demo slug: default
+- Title: toolbar
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/hextaui/toolbar with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/hextaui__toolbar__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/hextaui__toolbar__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative w-full min-h-[300px] flex items-center justify-center rounded-lg p-6"><div class="absolute z-50 bg-secondary rounded-lg shadow-lg border border-primary/10 flex items-center gap-1 p-1" style="opacity: 1; transform: none;"><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Bold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bold h-4 w-4" aria-hidden="true"><path d="M6 12h9a4 4 0 0 1 0 8H7a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1h7a4 4 0 0 1 0 8"></path></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Italic"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-italic h-4 w-4" aria-hidden="true"><line x1="19" x2="10" y1="4" y2="4"></line><line x1="14" x2="5" y1="20" y2="20"></line><line x1="15" x2="9" y1="4" y2="20"></line></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Underline"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-underline h-4 w-4" aria-hidden="true"><path d="M6 4v6a6 6 0 0 0 12 0V4"></path><line x1="4" x2="20" y1="20" y2="20"></line></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Strikethrough"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-strikethrough h-4 w-4" aria-hidden="true"><path d="M16 4H9a3 3 0 0 0-2.83 4"></path><path d="M14 12a4 4 0 0 1 0 8H6"></path><line x1="4" x2="20" y1="12" y2="12"></line></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-link h-4 w-4" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Heading"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heading h-4 w-4" aria-hidden="true"><path d="M6 12h12"></path><path d="M6 20V4"></path><path d="M18 20V4"></path></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Quote"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote h-4 w-4" aria-hidden="true"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"></path></svg></button></div><div class="w-px h-8 bg-gray-300"></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Highlight"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-highlighter h-4 w-4" aria-hidden="true"><path d="m9 11-6 6v3h9l3-3"></path><path d="m22 12-4.6 4.6a2 2 0 0 1-2.8 0l-5.2-5.2a2 2 0 0 1 0-2.8L14 4"></path></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Change Color"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-palette h-4 w-4" aria-hidden="true"><path d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z"></path><circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle><circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle><circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle><circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle></svg></button></div><div class="w-px h-8 bg-gray-300"></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200 bg-primary/10 hover:bg-primary/10 focus:outline-none" aria-label="Align Left"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-left h-4 w-4" aria-hidden="true"><path d="M15 12H3"></path><path d="M17 18H3"></path><path d="M21 6H3"></path></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Align Center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-center h-4 w-4" aria-hidden="true"><path d="M17 12H7"></path><path d="M19 18H5"></path><path d="M21 6H3"></path></svg></button></div><div class="relative"><button class="h-8 w-8 flex items-center justify-center rounded-md transition-colors duration-200  hover:bg-primary/10 focus:outline-none" aria-label="Align Right"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-align-right h-4 w-4" aria-hidden="true"><path d="M21 12H9"></path><path d="M21 18H7"></path><path d="M21 6H3"></path></svg></button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

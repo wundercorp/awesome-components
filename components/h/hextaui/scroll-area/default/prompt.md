@@ -1,0 +1,57 @@
+# Build Scroll Area in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Scroll Area screenshot](screenshot.png)
+
+## Component
+
+- Author group: `hextaui`
+- Component: `scroll-area`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: hextaui
+- Component slug: scroll-area
+- Demo slug: default
+- Title: scroll-area
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="max-w-sm w-full"><div dir="ltr" class="relative overflow-hidden h-72 w-full rounded-md border border-border p-4" style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"><style>[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}</style><div data-radix-scroll-area-viewport="" class="h-full w-full rounded-[inherit]" style="overflow: hidden scroll;"><div style="min-width: 100%; display: table;"><div class="space-y-4"><div class="text-sm text-foreground p-2 rounded bg-accent">Item 1: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 2: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 3: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 4: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 5: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 6: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 7: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 8: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 9: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 10: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 11: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 12: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 13: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 14: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 15: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 16: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 17: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 18: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 19: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 20: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 21: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 22: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 23: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 24: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 25: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 26: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 27: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 28: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 29: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 30: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 31: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 32: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 33: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 34: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 35: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 36: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 37: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 38: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 39: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 40: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 41: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 42: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 43: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 44: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 45: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 46: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 47: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 48: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 49: This is a scrollable item with some content</div><div class="text-sm text-foreground p-2 rounded bg-accent">Item 50: This is a scrollable item with some content</div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

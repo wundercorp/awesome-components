@@ -1,0 +1,57 @@
+# Build File Trigger in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![File Trigger screenshot](screenshot.png)
+
+## Component
+
+- Author group: `intentui`
+- Component: `file-trigger`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: intentui
+- Component slug: file-trigger
+- Demo slug: default
+- Title: file-trigger
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><button type="button" tabindex="0" data-react-aria-pressable="true" class="relative isolate inline-flex items-center justify-center gap-x-2 font-medium outline-0 outline-offset-2 hover:no-underline focus-visible:outline-2 inset-ring inset-ring-fg/20 bg-(--btn-bg) pressed:bg-(--btn-overlay) text-(--btn-fg) shadow-[shadow:inset_0_2px_--theme(--color-white/15%)] hover:bg-(--btn-overlay) dark:inset-ring-fg/15 dark:shadow-none forced-colors:outline-[Highlight] forced-colors:[--btn-icon:ButtonText] forced-colors:hover:[--btn-icon:ButtonText] *:data-[slot=icon]:-mx-0.5 *:data-[slot=icon]:my-1 *:data-[slot=icon]:size-4 *:data-[slot=icon]:shrink-0 *:data-[slot=icon]:text-current/60 pressed:*:data-[slot=icon]:text-current *:data-[slot=icon]:transition hover:*:data-[slot=icon]:text-current/90 *:data-[slot=avatar]:-mx-0.5 *:data-[slot=avatar]:my-1 *:data-[slot=avatar]:*:size-4 *:data-[slot=avatar]:size-4 *:data-[slot=avatar]:shrink-0 shadow-none outline-primary [--btn-fg:var(--color-fg)] [--btn-overlay:var(--color-secondary)]/90 h-10 px-4 text-base sm:text-sm/6 rounded-lg" data-rac="" id="react-aria7900115888-«r0»"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" viewBox="0 0 25 24" class="intentui-icons size-4" data-slot="icon" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-width="1.5" d="M8.843 6.657 5.661 9.839a6 6 0 0 0 0 8.485l.354.354a6 6 0 0 0 8.485 0l5.834-5.834a4.25 4.25 0 1 0-6.01-6.01l-5.57 5.568a2.125 2.125 0 1 0 3.006 3.005l5.038-5.038"></path></svg>Browse a file...</button><input class="react-aria-Input" data-rac="" type="file" style="display: none;"></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,57 @@
+# Build Dashboard Card With Modal in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Dashboard Card With Modal screenshot](screenshot.png)
+
+## Component
+
+- Author group: `isaiahbjork`
+- Component: `dashboard-card-with-modal`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: isaiahbjork
+- Component slug: dashboard-card-with-modal
+- Demo slug: default
+- Title: dashboard-card-with-modal
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-md mx-auto bg-card border border-border rounded-xl overflow-hidden" style="opacity: 1; filter: blur(0px); transform: none;"><div class="relative"><div class="p-6 space-y-4" style="opacity: 1; filter: blur(0px); transform: none;"><div class="flex items-start justify-between" style="opacity: 1; filter: blur(0px); transform: none;"><div class="flex items-center gap-3"><span class="relative flex shrink-0 overflow-hidden rounded-full w-12 h-12 ring-2 ring-primary/20"><span class="flex h-full w-full items-center justify-center rounded-full bg-primary/10 text-primary font-semibold">SJ</span></span><div><div class="inline-flex items-center rounded-full border px-2.5 py-0.5 transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-destructive text-destructive-foreground hover:bg-destructive/80 mb-1 text-xs font-medium">Expires in -178 days</div><p class="text-sm text-muted-foreground">Dec 31, 2025</p></div></div><div class="w-12 h-12 bg-muted/50 border border-border/50 rounded-lg overflow-hidden p-1"><img alt="Policy QR Code" class="w-full h-full object-cover rounded" src="https://api.qrserver.com/v1/create-qr-code/?size=80x80&amp;data=POL-8849271653"></div></div><div class="space-y-3" style="opacity: 1; filter: blur(0px); transform: none;"><div class="grid grid-cols-2 gap-4"><div><div class="flex items-center gap-1 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-3 h-3 text-muted-foreground" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg><span class="text-xs text-muted-foreground uppercase tracking-wide">Client Name</span></div><p class="text-sm font-medium text-foreground">Sarah Johnson</p></div><div><div class="flex items-center gap-1 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar w-3 h-3 text-muted-foreground" aria-hidden="true"><path d="M8 2v4"></path><path d="M16 2v4"></path><rect width="18" height="18" x="3" y="4" rx="2"></rect><path d="M3 10h18"></path></svg><span class="text-xs text-muted-foreground uppercase tracking-wide">Date of Birth</span></div><p class="text-sm font-medium text-foreground">March 15, 1985</p></div></div><div><div class="flex items-center gap-1 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin w-3 h-3 text-muted-foreground" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span class="text-xs text-muted-foreground uppercase tracking-wide">City of Residence</span></div><p class="text-sm font-medium text-foreground">San Francisco, CA</p></div><div class="flex items-center justify-between"><div class="flex-1"><div class="flex items-center gap-1 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card w-3 h-3 text-muted-foreground" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg><span class="text-xs text-muted-foreground uppercase tracking-wide">ID Number</span></div><p class="text-sm font-medium text-foreground">ID-2589637410</p></div><button class="ml-2 w-6 h-6 rounded-md bg-muted/50 hover:bg-muted/80 flex items-center justify-center transition-colors" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy w-3 h-3 text-muted-foreground" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></div><div class="flex items-center justify-between"><div class="flex-1"><div class="flex items-center gap-1 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-3 h-3 text-muted-foreground" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg><span class="text-xs text-muted-foreground uppercase tracking-wide">Policy Number</span></div><p class="text-sm font-medium text-foreground">POL-8849271653</p></div><button class="ml-2 w-6 h-6 rounded-md bg-muted/50 hover:bg-muted/80 flex items-center justify-center transition-colors" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy w-3 h-3 text-muted-foreground" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></div></div><div style="opacity: 1; filter: blur(0px); transform: none;"><div data-orientation="horizontal" role="none" class="shrink-0 bg-border h-[1px] w-full my-4"></div></div><div class="space-y-3" style="opacity: 1; filter: blur(0px); transform: none;"><div><div class="flex items-center gap-1 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-3 h-3 text-muted-foreground" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg><span class="text-xs text-muted-foreground uppercase tracking-wide">Type of Insurance</span></div><p class="text-sm font-medium text-foreground">Comprehensive Auto Insurance</p></div><div><div class="flex items-center gap-1 mb-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-car w-3 h-3 text-muted-foreground" aria-hidden="true"><path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2"></path><circle cx="7" cy="17" r="2"></circle><path d="M9 17h6"></path><circle cx="17" cy="17" r="2"></circle></svg><span class="text-xs text-muted-foreground uppercase tracking-wide">Vehicle Information</span></div><p class="text-sm font-medium text-foreground">2022 Tesla Model 3 • Blue</p></div></div><div class="pt-4" style="opacity: 1; filter: blur(0px); transform: none;"><div tabindex="0"><button class="whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full flex items-center justify-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-4 h-4" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>Update Policy</button></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

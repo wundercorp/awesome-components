@@ -1,6 +1,6 @@
 # Bucket h
 
-294 components from 10 author groups.
+387 components from 16 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -13,4 +13,10 @@
 | [haydenbleasel](haydenbleasel/README.md) | 31 |
 | [hedevelope](hedevelope/README.md) | 2 |
 | [hero_ui](hero_ui/README.md) | 229 |
-| [hextaui](hextaui/README.md) | 14 |
+| [hextaui](hextaui/README.md) | 99 |
+| [heyquincy](heyquincy/README.md) | 1 |
+| [hibatillah](hibatillah/README.md) | 1 |
+| [hihahihahoho](hihahihahoho/README.md) | 3 |
+| [hinedy](hinedy/README.md) | 1 |
+| [hsuanyi-chou](hsuanyi-chou/README.md) | 1 |
+| [hyggemethat](hyggemethat/README.md) | 1 |

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/hextaui/gradient-tracing/spiral
+- Registry URL: https://21st.dev/r/hextaui/gradient-tracing
+- Author: hextaui
+- Component slug: gradient-tracing
+- Demo slug: spiral
+- Title: gradient-tracing
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/hextaui/gradient-tracing with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/hextaui__gradient-tracing__spiral.html
+- Local screenshot file: generated-21st-prompts/screenshots/hextaui__gradient-tracing__spiral.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="relative" style="width: 200px; height: 200px;"><svg width="200" height="200" viewBox="0 0 200 200" fill="none"><path d="M100,100 m0,-75 a75,75 0 1,1 -0.1,0 z" stroke="black" stroke-opacity="0.2" stroke-width="2"></path><path d="M100,100 m0,-75 a75,75 0 1,1 -0.1,0 z" stroke="url(#pulse-joiv82w2k)" stroke-linecap="round" stroke-width="2"></path><defs><linearGradient id="pulse-joiv82w2k" gradientUnits="userSpaceOnUse" x1="16.600000000000037" x2="8.300000000000018"><stop stop-color="#7B68EE" stop-opacity="0"></stop><stop stop-color="#7B68EE"></stop><stop offset="1" stop-color="#3498DB" stop-opacity="0"></stop></linearGradient></defs></svg></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,117 @@
+# Build Portfolio And Image Gallery in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Portfolio And Image Gallery screenshot](screenshot.png)
+
+## Component
+
+- Author group: `iamsatish4564`
+- Component: `portfolio-and-image-gallery`
+- Variant: `image-gallery`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: iamsatish4564
+- Component slug: portfolio-and-image-gallery
+- Demo slug: image-gallery
+- Title: portfolio-and-image-gallery
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative bg-background font-sans text-foreground overflow-hidden rounded-lg border w-full"><div class="h-[300px] flex items-center justify-center px-4 pt-10"><div class="text-center space-y-3"><div class="inline-flex items-center rounded-full border border-border bg-secondary px-2.5 py-0.5 text-xs font-semibold text-secondary-foreground">Workflow</div><h1 class="text-3xl font-bold tracking-tighter sm:text-4xl">The Process</h1><p class="text-muted-foreground text-sm max-w-[300px] mx-auto">Scroll down to see the steps.</p></div></div><div class="pin-spacer" style="order: 0; place-self: auto; grid-area: auto; z-index: auto; float: none; flex-shrink: 1; display: flex; margin: 0px; inset: 0px; position: relative; flex-basis: auto; overflow: visible; box-sizing: border-box; width: 990px; height: 2100px; padding: 0px 0px 1500px;"><div class="min-h-screen w-full relative flex items-center justify-center overflow-hidden !min-h-[600px]" style="translate: none; rotate: none; scale: none; inset: 0px auto auto 0px; margin: 0px; max-width: 990px; width: 990px; max-height: 600px; height: 600px; padding: 0px; transform: translate(0px, 0px);"><div class="relative w-full overflow-hidden" style="height: 550px; mask-image: linear-gradient(to top, transparent 0%, black 40%, black 100%);"><ul class="
+              absolute left-1/2 -translate-x-1/2 will-change-transform m-0 p-0 list-none
+              transition-opacity duration-500 ease-out
+              
+              opacity-100
+            " dir="ltr" style="width: 700px; height: 700px; bottom: -420px; transform: translate(-50%, 0%); translate: none; rotate: none; scale: none;"><li class="absolute top-1/2 left-1/2" style="z-index: 10; transform: translate(0%, -50%) translate(250px, 0px) rotate(90deg); translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit;"><div role="button" tabindex="0" class="
+                      block cursor-pointer outline-none text-left
+                      focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2
+                      rounded-xl transition-all duration-500 ease-out will-change-transform
+                      scale-100
+                      blur-0 opacity-100
+                    "><div class="
+                w-[160px] h-[240px] sm:w-[200px] sm:h-[280px] 
+                rounded-xl border p-5 flex flex-col justify-between items-start 
+                transition-all duration-500 shadow-sm
+                bg-card border-border text-card-foreground scale-90 opacity-60
+              "><div class="w-full flex justify-between items-start"><span class="font-mono text-lg text-muted-foreground">01</span></div><div><h3 class="text-xl font-bold mb-1">Discovery</h3><p class="text-xs text-muted-foreground">Requirements</p></div></div></div></li><li class="absolute top-1/2 left-1/2" style="z-index: 10; transform: translate(8.15594px, 192.87px) rotate(162deg); translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit;"><div role="button" tabindex="0" class="
+                      block cursor-pointer outline-none text-left
+                      focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2
+                      rounded-xl transition-all duration-500 ease-out will-change-transform
+                      scale-100
+                      blur-0 opacity-100
+                    "><div class="
+                w-[160px] h-[240px] sm:w-[200px] sm:h-[280px] 
+                rounded-xl border p-5 flex flex-col justify-between items-start 
+                transition-all duration-500 shadow-sm
+                bg-card border-border text-card-foreground scale-90 opacity-60
+              "><div class="w-full flex justify-between items-start"><span class="font-mono text-lg text-muted-foreground">02</span></div><div><h3 class="text-xl font-bold mb-1">Strategy</h3><p class="text-xs text-muted-foreground">Roadmap</p></div></div></div></li><li class="absolute top-1/2 left-1/2" style="z-index: 10; transform: translate(-383.156px, 65.7248px) rotate(-126deg); translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit;"><div role="button" tabindex="0" class="
+                      block cursor-pointer outline-none text-left
+                      focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2
+                      rounded-xl transition-all duration-500 ease-out will-change-transform
+                      scale-100
+                      blur-0 opacity-100
+                    "><div class="
+                w-[160px] h-[240px] sm:w-[200px] sm:h-[280px] 
+                rounded-xl border p-5 flex flex-col justify-between items-start 
+                transition-all duration-500 shadow-sm
+                bg-card border-border text-card-foreground scale-90 opacity-60
+              "><div class="w-full flex justify-between items-start"><span class="font-mono text-lg text-muted-foreground">03</span></div><div><h3 class="text-xl font-bold mb-1">Design</h3><p class="text-xs text-muted-foreground">Interface</p></div></div></div></li><li class="absolute top-1/2 left-1/2" style="z-index: 10; transform: translate(-383.156px, -345.725px) rotate(-53.9999deg); translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit;"><div role="button" tabindex="0" class="
+                      block cursor-pointer outline-none text-left
+                      focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2
+                      rounded-xl transition-all duration-500 ease-out will-change-transform
+                      scale-100
+                      blur-0 opacity-100
+                    "><div class="
+                w-[160px] h-[240px] sm:w-[200px] sm:h-[280px] 
+                rounded-xl border p-5 flex flex-col justify-between items-start 
+                transition-all duration-500 shadow-sm
+                bg-card border-border text-card-foreground scale-90 opacity-60
+              "><div class="w-full flex justify-between items-start"><span class="font-mono text-lg text-muted-foreground">04</span></div><div><h3 class="text-xl font-bold mb-1">Build</h3><p class="text-xs text-muted-foreground">Development</p></div></div></div></li><li class="absolute top-1/2 left-1/2" style="z-index: 10; transform: translate(8.15594px, -472.87px) rotate(18.0001deg); translate: none; rotate: none; scale: none; opacity: 1; visibility: inherit;"><div role="button" tabindex="0" class="
+                      block cursor-pointer outline-none text-left
+                      focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2
+                      rounded-xl transition-all duration-500 ease-out will-change-transform
+                      scale-100
+                      blur-0 opacity-100
+                    "><div class="
+                w-[160px] h-[240px] sm:w-[200px] sm:h-[280px] 
+                rounded-xl border p-5 flex flex-col justify-between items-start 
+                transition-all duration-500 shadow-sm
+                bg-card border-border text-card-foreground scale-90 opacity-60
+              "><div class="w-full flex justify-between items-start"><span class="font-mono text-lg text-muted-foreground">05</span></div><div><h3 class="text-xl font-bold mb-1">Launch</h3><p class="text-xs text-muted-foreground">Deployment</p></div></div></div></li></ul></div></div></div><div class="h-[300px] flex items-center justify-center bg-muted/20 border-t border-border"><p class="text-muted-foreground text-sm">End of Workflow</p></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
