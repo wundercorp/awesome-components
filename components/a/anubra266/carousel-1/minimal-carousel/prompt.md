@@ -1,0 +1,57 @@
+# Build Carousel 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Carousel 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `anubra266`
+- Component: `carousel-1`
+- Variant: `minimal-carousel`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: anubra266
+- Component slug: carousel-1
+- Demo slug: minimal-carousel
+- Title: carousel-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div data-scope="carousel" data-part="root" id="carousel:«r0»" role="region" aria-roledescription="carousel" data-orientation="horizontal" dir="ltr" class="w-full" style="--slides-per-page: 1; --slide-spacing: 0px; --slide-item-size: calc(100% / var(--slides-per-page) - var(--slide-spacing) * (var(--slides-per-page) - 1) / var(--slides-per-page));"><div class="relative"><div data-scope="carousel" data-part="item-group" id="carousel:«r0»:item-group" data-orientation="horizontal" dir="ltr" aria-live="off" class="overflow-hidden rounded-xl" style="display: grid; gap: var(--slide-spacing); scroll-snap-type: x mandatory; grid-auto-flow: column; scrollbar-width: none; overscroll-behavior-x: contain; grid-auto-columns: var(--slide-item-size); overflow-x: auto;" tabindex="-1"><div data-scope="carousel" data-part="item" id="carousel:«r0»:item:0" dir="ltr" role="group" data-index="0" aria-roledescription="slide" data-orientation="horizontal" aria-label="1 of 3" style="scroll-snap-align: start;" data-inview=""><div class="relative h-96 lg:h-[500px]"><img alt="Discover Amazing Places" class="w-full h-full object-cover" src="https://picsum.photos/seed/hero1/1200/600"><div class="absolute inset-0 bg-black bg-opacity-40"></div><div class="absolute inset-0 flex items-center justify-center text-center text-white"><div class="max-w-2xl px-6"><h1 class="text-4xl lg:text-6xl font-bold mb-4">Discover Amazing Places</h1><p class="text-xl lg:text-2xl mb-8 text-gray-200">Explore the world's most beautiful destinations</p><button class="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors">Start Exploring</button></div></div></div></div><div data-scope="carousel" data-part="item" id="carousel:«r0»:item:1" dir="ltr" role="group" data-index="1" aria-roledescription="slide" data-orientation="horizontal" aria-label="2 of 3" aria-hidden="true" style="scroll-snap-align: start;"><div class="relative h-96 lg:h-[500px]"><img alt="Adventure Awaits" class="w-full h-full object-cover" src="https://picsum.photos/seed/hero2/1200/600"><div class="absolute inset-0 bg-black bg-opacity-40"></div><div class="absolute inset-0 flex items-center justify-center text-center text-white"><div class="max-w-2xl px-6"><h1 class="text-4xl lg:text-6xl font-bold mb-4">Adventure Awaits</h1><p class="text-xl lg:text-2xl mb-8 text-gray-200">Create memories that will last a lifetime</p><button class="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors">Book Now</button></div></div></div></div><div data-scope="carousel" data-part="item" id="carousel:«r0»:item:2" dir="ltr" role="group" data-index="2" aria-roledescription="slide" data-orientation="horizontal" aria-label="3 of 3" aria-hidden="true" style="scroll-snap-align: start;"><div class="relative h-96 lg:h-[500px]"><img alt="Journey Beyond" class="w-full h-full object-cover" src="https://picsum.photos/seed/hero3/1200/600"><div class="absolute inset-0 bg-black bg-opacity-40"></div><div class="absolute inset-0 flex items-center justify-center text-center text-white"><div class="max-w-2xl px-6"><h1 class="text-4xl lg:text-6xl font-bold mb-4">Journey Beyond</h1><p class="text-xl lg:text-2xl mb-8 text-gray-200">Experience luxury travel like never before</p><button class="px-8 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg font-semibold transition-colors">Learn More</button></div></div></div></div></div><div data-scope="carousel" data-part="control" data-orientation="horizontal" class="absolute inset-x-4 top-1/2 -translate-y-1/2 flex justify-between pointer-events-none"><button data-scope="carousel" data-part="prev-trigger" id="carousel:«r0»:prev-trigger" type="button" dir="ltr" aria-label="Previous slide" data-orientation="horizontal" aria-controls="carousel:«r0»:item-group" class="p-3 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-full transition-all pointer-events-auto text-white backdrop-blur-xs">←</button><button data-scope="carousel" data-part="next-trigger" dir="ltr" id="carousel:«r0»:next-trigger" type="button" aria-label="Next slide" data-orientation="horizontal" aria-controls="carousel:«r0»:item-group" class="p-3 bg-white bg-opacity-20 hover:bg-opacity-30 rounded-full transition-all pointer-events-auto text-white backdrop-blur-xs">→</button></div></div><div data-scope="carousel" data-part="indicator-group" dir="ltr" id="carousel:«r0»:indicator-group" data-orientation="horizontal" class="flex justify-center items-center mt-6 gap-3"><button data-scope="carousel" data-part="indicator" dir="ltr" id="carousel:«r0»:indicator:0" type="button" data-orientation="horizontal" data-index="0" data-current="" aria-label="Go to slide 1" class="w-3 h-3 rounded-full bg-gray-400 dark:bg-gray-600 data-current:bg-blue-500 dark:data-current:bg-blue-400 data-current:w-8 transition-all cursor-pointer"></button><button data-scope="carousel" data-part="indicator" dir="ltr" id="carousel:«r0»:indicator:1" type="button" data-orientation="horizontal" data-index="1" aria-label="Go to slide 2" class="w-3 h-3 rounded-full bg-gray-400 dark:bg-gray-600 data-current:bg-blue-500 dark:data-current:bg-blue-400 data-current:w-8 transition-all cursor-pointer"></button><button data-scope="carousel" data-part="indicator" dir="ltr" id="carousel:«r0»:indicator:2" type="button" data-orientation="horizontal" data-index="2" aria-label="Go to slide 3" class="w-3 h-3 rounded-full bg-gray-400 dark:bg-gray-600 data-current:bg-blue-500 dark:data-current:bg-blue-400 data-current:w-8 transition-all cursor-pointer"></button></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,57 @@
+# Build Collapsible 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Collapsible 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `anubra266`
+- Component: `collapsible-1`
+- Variant: `collapsible-w-icon`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: anubra266
+- Component slug: collapsible-1
+- Demo slug: collapsible-w-icon
+- Title: collapsible-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-md space-y-3 h-72"><div data-scope="collapsible" data-part="root" data-state="closed" dir="ltr" id="collapsible:«r0»"><button data-scope="collapsible" data-part="trigger" id="collapsible:«r0»:trigger" dir="ltr" type="button" data-state="closed" aria-controls="collapsible:«r0»:content" aria-expanded="false" class="w-full flex items-center gap-3 px-4 py-3 text-left bg-white dark:bg-gray-900 border border-blue-200 dark:border-blue-800 rounded-lg hover:bg-blue-50 dark:hover:bg-blue-900/20 transition-all duration-200 group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info w-5 h-5 text-blue-500 shrink-0" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg><span class="font-medium text-gray-900 dark:text-gray-100 flex-1">Information</span><div data-scope="collapsible" data-part="indicator" dir="ltr" data-state="closed" class="transition-transform duration-200 data-[state=open]:rotate-180"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-4 h-4 text-gray-500" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></div></button><div data-scope="collapsible" data-part="content" data-collapsible="" data-state="closed" id="collapsible:«r0»:content" hidden="" class="overflow-hidden data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:slide-out-to-top-1 data-[state=open]:slide-in-from-top-1" style="--height: 0px; --width: 0px;"><div class="px-4 py-3 ml-8 border-l-2 border-blue-200 dark:border-blue-800 bg-blue-50/50 dark:bg-blue-900/10"><p class="text-sm text-gray-700 dark:text-gray-300">This is some helpful information that can be toggled to save space in your interface.</p></div></div></div><div data-scope="collapsible" data-part="root" data-state="closed" dir="ltr" id="collapsible:«r1»"><button data-scope="collapsible" data-part="trigger" id="collapsible:«r1»:trigger" dir="ltr" type="button" data-state="closed" aria-controls="collapsible:«r1»:content" aria-expanded="false" class="w-full flex items-center gap-3 px-4 py-3 text-left bg-white dark:bg-gray-900 border border-green-200 dark:border-green-800 rounded-lg hover:bg-green-50 dark:hover:bg-green-900/20 transition-all duration-200 group"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-check-big w-5 h-5 text-green-500 shrink-0" aria-hidden="true"><path d="M21.801 10A10 10 0 1 1 17 3.335"></path><path d="m9 11 3 3L22 4"></path></svg><span class="font-medium text-gray-900 dark:text-gray-100 flex-1">Success Message</span><div data-scope="collapsible" data-part="indicator" dir="ltr" data-state="closed" class="transition-transform duration-200 data-[state=open]:rotate-180"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down w-4 h-4 text-gray-500" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></div></button><div data-scope="collapsible" data-part="content" data-collapsible="" data-state="closed" id="collapsible:«r1»:content" hidden="" class="overflow-hidden data-[state=open]:animate-in data-[state=closed]:animate-out data-[state=closed]:fade-out-0 data-[state=open]:fade-in-0 data-[state=closed]:slide-out-to-top-1 data-[state=open]:slide-in-from-top-1" style="--height: 0px; --width: 0px;"><div class="px-4 py-3 ml-8 border-l-2 border-green-200 dark:border-green-800 bg-green-50/50 dark:bg-green-900/10"><p class="text-sm text-gray-700 dark:text-gray-300">Operation completed successfully! Your changes have been saved.</p></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,57 @@
+# Build Countdown Timer in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Countdown Timer screenshot](screenshot.png)
+
+## Component
+
+- Author group: `anubra266`
+- Component: `countdown-timer`
+- Variant: `timer-card-styles`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: anubra266
+- Component slug: countdown-timer
+- Demo slug: timer-card-styles
+- Title: countdown-timer
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="bg-white dark:bg-gray-800 w-full px-4 py-12 rounded-xl flex flex-col items-center"><div id="timer:«r0»:root" data-scope="timer" data-part="root" class="w-full max-w-sm"><div class="bg-gray-50 dark:bg-gray-900 rounded-lg p-6 border border-gray-200 dark:border-gray-700"><div class="flex items-center gap-2 mb-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock w-5 h-5 text-blue-500" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><h3 class="font-medium text-gray-900 dark:text-gray-100">Meeting Timer</h3></div><div role="timer" id="timer:«r0»:area" aria-label="0 days 00:00:00" aria-atomic="true" data-scope="timer" data-part="area" class="flex items-center justify-center gap-1 mb-6"><div class="bg-white dark:bg-gray-800 rounded-md px-3 py-2 border border-gray-200 dark:border-gray-600"><div data-scope="timer" data-part="item" data-type="hours" class="text-xl font-mono text-gray-900 dark:text-gray-100 min-w-[2ch] text-center" style="--value: 0;">00</div></div><div aria-hidden="true" data-scope="timer" data-part="separator" class="text-gray-400 mx-1">:</div><div class="bg-white dark:bg-gray-800 rounded-md px-3 py-2 border border-gray-200 dark:border-gray-600"><div data-scope="timer" data-part="item" data-type="minutes" class="text-xl font-mono text-gray-900 dark:text-gray-100 min-w-[2ch] text-center" style="--value: 0;">00</div></div><div aria-hidden="true" data-scope="timer" data-part="separator" class="text-gray-400 mx-1">:</div><div class="bg-white dark:bg-gray-800 rounded-md px-3 py-2 border border-gray-200 dark:border-gray-600"><div data-scope="timer" data-part="item" data-type="seconds" class="text-xl font-mono text-gray-900 dark:text-gray-100 min-w-[2ch] text-center" style="--value: 0;">00</div></div></div><div data-scope="timer" data-part="control" class="flex gap-2"><button data-scope="timer" data-part="action-trigger" type="button" class="flex-1 flex items-center justify-center gap-2 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition-colors text-sm font-medium"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-play w-4 h-4" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3"></polygon></svg>Start</button><button data-scope="timer" data-part="action-trigger" hidden="" type="button" class="flex-1 flex items-center justify-center gap-2 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition-colors text-sm font-medium dark:bg-gray-700 dark:text-gray-300 dark:hover:bg-gray-600"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-pause w-4 h-4" aria-hidden="true"><rect x="14" y="4" width="4" height="16" rx="1"></rect><rect x="6" y="4" width="4" height="16" rx="1"></rect></svg>Pause</button></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

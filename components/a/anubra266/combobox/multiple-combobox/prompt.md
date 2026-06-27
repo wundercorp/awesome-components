@@ -1,0 +1,57 @@
+# Build Combobox in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Combobox screenshot](screenshot.png)
+
+## Component
+
+- Author group: `anubra266`
+- Component: `combobox`
+- Variant: `multiple-combobox`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: anubra266
+- Component slug: combobox
+- Demo slug: multiple-combobox
+- Title: combobox
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-sm"><div data-scope="combobox" data-part="root" dir="ltr" id="combobox:«r0»"><label data-scope="combobox" data-part="label" dir="ltr" for="combobox:«r0»:input" id="combobox:«r0»:label" class="block text-sm font-medium text-gray-700 dark:text-gray-300 mb-2">Skills</label><div data-scope="combobox" data-part="control" dir="ltr" id="combobox:«r0»:control" data-state="closed" class="relative"><input data-scope="combobox" data-part="input" dir="ltr" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" placeholder="Add skills..." id="combobox:«r0»:input" role="combobox" aria-autocomplete="list" aria-controls="combobox:«r0»:content" aria-expanded="false" data-state="closed" class="w-full px-3 py-2 pr-20 border border-gray-300 dark:border-gray-600 rounded-md shadow-xs bg-white dark:bg-gray-800 text-gray-900 dark:text-gray-100 placeholder-gray-500 dark:placeholder-gray-400 focus:outline-hidden focus:ring-2 focus:ring-blue-500 dark:focus:ring-blue-400 focus:border-blue-500 dark:focus:border-blue-400" type="text" value=""><div class="absolute inset-y-0 right-0 flex items-center"><button data-scope="combobox" data-part="clear-trigger" dir="ltr" id="combobox:«r0»:clear-btn" type="button" tabindex="-1" aria-label="Clear value" aria-controls="combobox:«r0»:input" hidden="" class="px-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4 w-4" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button><button data-scope="combobox" data-part="trigger" dir="ltr" id="combobox:«r0»:toggle-btn" aria-haspopup="listbox" type="button" tabindex="-1" aria-label="Toggle suggestions" aria-expanded="false" data-state="closed" class="px-2 text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down h-4 w-4" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></button></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
