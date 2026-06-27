@@ -1,0 +1,57 @@
+# Build Coss Avatar in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Coss Avatar screenshot](screenshot.png)
+
+## Component
+
+- Author group: `coss.com`
+- Component: `coss-avatar`
+- Variant: `group`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: coss.com
+- Component slug: coss-avatar
+- Demo slug: group
+- Title: coss-avatar
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="default.tsx_AvatarGroupDemo">default.tsx</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center w-full min-h-screen bg-background p-8"><div class="flex flex-col items-center gap-10"><div class="flex items-center"><span data-slot="avatar" title="Jane Doe" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: 0px; z-index: 5;"><img alt="Jane Doe" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" title="John Newman" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: -10px; z-index: 4;"><img alt="John Newman" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" title="Mark K" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: -10px; z-index: 3;"><img alt="Mark K" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" title="Sara A" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: -10px; z-index: 2;"><img alt="Sara A" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full align-middle font-medium text-xs size-10 ring-2 ring-background bg-muted" style="margin-left: -10px; z-index: 0;"><span data-slot="avatar-fallback" class="flex size-full items-center justify-center rounded-full text-xs font-medium text-muted-foreground bg-muted">+5</span></span></div><div class="flex items-center"><span data-slot="avatar" title="Jane Doe" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-8 ring-2 ring-background" style="margin-left: 0px; z-index: 5;"><img alt="Jane Doe" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" title="John Newman" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-8 ring-2 ring-background" style="margin-left: -8px; z-index: 4;"><img alt="John Newman" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" title="Mark K" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-8 ring-2 ring-background" style="margin-left: -8px; z-index: 3;"><img alt="Mark K" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" title="Sara A" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-8 ring-2 ring-background" style="margin-left: -8px; z-index: 2;"><img alt="Sara A" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span><span data-slot="avatar" title="Tom L" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-8 ring-2 ring-background" style="margin-left: -8px; z-index: 1;"><img alt="Tom L" data-slot="avatar-image" class="size-full object-cover" src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?w=96&amp;h=96&amp;fit=crop&amp;crop=faces"></span></div><div class="flex items-center"><span data-slot="avatar" title="Jane Doe" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: 0px; z-index: 5;"><span data-slot="avatar-fallback" class="flex size-full items-center justify-center rounded-full bg-muted">JD</span></span><span data-slot="avatar" title="John Newman" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: -10px; z-index: 4;"><span data-slot="avatar-fallback" class="flex size-full items-center justify-center rounded-full bg-muted">JN</span></span><span data-slot="avatar" title="Mark K" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: -10px; z-index: 3;"><span data-slot="avatar-fallback" class="flex size-full items-center justify-center rounded-full bg-muted">MK</span></span><span data-slot="avatar" title="Sara A" class="inline-flex shrink-0 select-none items-center justify-center overflow-hidden rounded-full bg-background align-middle font-medium text-xs size-10 ring-2 ring-background" style="margin-left: -10px; z-index: 2;"><span data-slot="avatar-fallback" class="flex size-full items-center justify-center rounded-full bg-muted">SA</span></span></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -7,7 +7,7 @@ Browse components by author bucket, then by author, then by component.
 | [0-9](0-9/README.md) | 2 | 23 |
 | [a](a/README.md) | 39 | 807 |
 | [b](b/README.md) | 20 | 202 |
-| [c](c/README.md) | 10 | 113 |
+| [c](c/README.md) | 14 | 259 |
 | [d](d/README.md) | 4 | 6 |
 | [e](e/README.md) | 4 | 12 |
 | [j](j/README.md) | 1 | 2 |

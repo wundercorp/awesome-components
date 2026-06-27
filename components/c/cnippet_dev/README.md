@@ -1,6 +1,6 @@
 # Cnippet Dev Components
 
-11 components are available in this author group.
+14 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -17,3 +17,6 @@
 | [![Flow Hero 1](flow-hero-1/default/screenshot.png)](flow-hero-1/default/README.md) | [Flow Hero 1](flow-hero-1/default/README.md) | `default` |
 | [![Hero](hero/default/screenshot.png)](hero/default/README.md) | [Hero](hero/default/README.md) | `default` |
 | [![Services With Animated Hover Modal](services-with-animated-hover-modal/default/screenshot.png)](services-with-animated-hover-modal/default/README.md) | [Services With Animated Hover Modal](services-with-animated-hover-modal/default/README.md) | `default` |
+| [![Team](team/default/screenshot.png)](team/default/README.md) | [Team](team/default/README.md) | `default` |
+| [![Terminal Card](terminal-card/default/screenshot.png)](terminal-card/default/README.md) | [Terminal Card](terminal-card/default/README.md) | `default` |
+| [![Vercep Feature 1](vercep-feature-1/default/screenshot.png)](vercep-feature-1/default/README.md) | [Vercep Feature 1](vercep-feature-1/default/README.md) | `default` |
