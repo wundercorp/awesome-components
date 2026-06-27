@@ -1,0 +1,57 @@
+# Build Feature Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Feature Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `feature-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: feature-card
+- Demo slug: default
+- Title: feature-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-4xl p-4 md:p-8"><div class="relative flex w-full flex-col overflow-hidden rounded-2xl border bg-card p-6 shadow-sm transition-shadow hover:shadow-md md:p-8" style="opacity: 1; transform: none;"><div class="flex-grow"><h3 class="text-xl font-semibold text-card-foreground">Multiple Savings Plan</h3><p class="mt-2 text-muted-foreground">Nest offers a variety of savings plans, from Flexible to Target Savings, to make sure you can save for what matters most, your way.</p></div><div class="mt-6"><div class="flex flex-col space-y-4"><div class="mb-4 flex items-center gap-4 last:mb-0"><div class="flex h-12 w-12 items-center justify-center rounded-full bg-muted"><img alt="Birthday" class="h-6 w-6" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-YimA3sxsT00vWqiUyzyLUshxsSZvll.png&amp;w=320&amp;q=75"></div><div class="flex-1"><div class="flex justify-between"><p class="font-medium text-card-foreground">Birthday</p><p class="text-sm font-semibold text-card-foreground">63%</p></div><div class="mt-1 h-2 w-full overflow-hidden rounded-full bg-muted"><div class="h-full bg-primary" style="width: 63%;"></div></div><div class="mt-1 flex justify-between text-xs text-muted-foreground"><span>$25,200 of $40,200</span><span>200 members</span></div></div></div><div class="mb-4 flex items-center gap-4 last:mb-0"><div class="flex h-12 w-12 items-center justify-center rounded-full bg-muted"><img alt="Graduation" class="h-6 w-6" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-iZKfmUSHuQtDn1W2NBIwoLZ0epsnzZ.png&amp;w=320&amp;q=75"></div><div class="flex-1"><div class="flex justify-between"><p class="font-medium text-card-foreground">Graduation</p><p class="text-sm font-semibold text-card-foreground">63%</p></div><div class="mt-1 h-2 w-full overflow-hidden rounded-full bg-muted"><div class="h-full bg-primary" style="width: 63%;"></div></div><div class="mt-1 flex justify-between text-xs text-muted-foreground"><span>$3,500 of $45,000</span><span>200 members</span></div></div></div><div class="mb-4 flex items-center gap-4 last:mb-0"><div class="flex h-12 w-12 items-center justify-center rounded-full bg-muted"><img alt="NYSC" class="h-6 w-6" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-CYiGxD8xsd3dQiAxNDGC5vDunvHJ4P.png&amp;w=320&amp;q=75"></div><div class="flex-1"><div class="flex justify-between"><p class="font-medium text-card-foreground">NYSC</p><p class="text-sm font-semibold text-card-foreground">86%</p></div><div class="mt-1 h-2 w-full overflow-hidden rounded-full bg-muted"><div class="h-full bg-primary" style="width: 86%;"></div></div><div class="mt-1 flex justify-between text-xs text-muted-foreground"><span>$38,000 of $42,000</span><span>28 days left</span><span>200 members</span></div></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

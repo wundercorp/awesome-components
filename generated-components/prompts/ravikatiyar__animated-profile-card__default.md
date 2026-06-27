@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/animated-profile-card/default
+- Registry URL: https://21st.dev/r/ravikatiyar/animated-profile-card
+- Author: ravikatiyar
+- Component slug: animated-profile-card
+- Demo slug: default
+- Title: animated-profile-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/animated-profile-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__animated-profile-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__animated-profile-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-[500px] w-full items-center justify-center bg-background p-4"><div class="relative w-full max-w-sm overflow-hidden rounded-2xl border bg-card text-card-foreground shadow-sm" style="opacity: 1; transform: none;"><div class="h-32 w-full" style="opacity: 1; transform: none;"><img alt="Henrie Ekemezie's cover image" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1554147090-e1221a04a025?q=80&amp;w=2070&amp;auto=format&amp;fit=crop"></div><button aria-label="Bookmark profile" class="absolute top-3 right-3 z-10 rounded-full bg-background/50 p-2 backdrop-blur-sm transition-colors hover:bg-background/75" style="opacity: 1; transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bookmark h-5 w-5 text-foreground" aria-hidden="true"><path d="m19 21-7-4-7 4V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v16z"></path></svg></button><div class="relative p-6 pt-0"><div class="relative -mt-12 flex justify-start" style="opacity: 1; transform: none;"><img alt="Henrie Ekemezie" class="h-20 w-20 rounded-full border-4 border-card object-cover" src="https://i.pravatar.cc/150?u=henrie"></div><div class="mt-4"><h3 class="text-xl font-bold text-foreground" style="opacity: 1; transform: none;">Henrie Ekemezie</h3><p class="text-sm text-muted-foreground" style="opacity: 1; transform: none;">Web &amp; UI/UX Designer</p><div class="mt-4 flex items-center gap-2" style="opacity: 1; transform: none;"><span class="text-sm font-medium">Tools</span><div class="flex items-center gap-2"><div class="rounded-full bg-muted p-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-figma h-4 w-4 text-muted-foreground" aria-hidden="true"><path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path><path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path><path d="M12 12.5a3.5 3.5 0 1 1 7 0 3.5 3.5 0 1 1-7 0z"></path><path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path><path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path></svg></div><div class="rounded-full bg-muted p-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-framer h-4 w-4 text-muted-foreground" aria-hidden="true"><path d="M5 16V9h14V2H5l14 14h-7m-7 0 7 7v-7m-7 0h7"></path></svg></div><div class="rounded-full bg-muted p-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code h-4 w-4 text-muted-foreground" aria-hidden="true"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div></div></div><div class="mt-6 grid grid-cols-3 items-center justify-items-center gap-4 rounded-lg bg-muted/50 p-3" style="opacity: 1; transform: none;"><div class="flex flex-col items-center gap-1 text-center"><div class="flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-muted-foreground" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><span class="font-semibold text-foreground">4.8</span></div><span class="text-xs text-muted-foreground">rating</span></div><div class="h-8 w-px bg-border"></div><div class="flex flex-col items-center gap-1 text-center"><div class="flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock h-4 w-4 text-muted-foreground" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span class="font-semibold text-foreground">8 Days</span></div><span class="text-xs text-muted-foreground">duration</span></div><div class="h-8 w-px bg-border"></div><div class="flex flex-col items-center gap-1 text-center"><div class="flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dollar-sign h-4 w-4 text-muted-foreground" aria-hidden="true"><line x1="12" x2="12" y1="2" y2="22"></line><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg><span class="font-semibold text-foreground">$40/hr</span></div><span class="text-xs text-muted-foreground">rate</span></div></div><button class="mt-6 w-full rounded-full bg-primary py-3 text-center font-semibold text-primary-foreground transition-transform active:scale-95" style="opacity: 1; transform: none;">Get in touch</button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

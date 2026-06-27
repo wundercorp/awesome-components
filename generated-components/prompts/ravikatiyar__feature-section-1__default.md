@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/feature-section-1/default
+- Registry URL: https://21st.dev/r/ravikatiyar/feature-section-1
+- Author: ravikatiyar
+- Component slug: feature-section-1
+- Demo slug: default
+- Title: feature-section-1
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/feature-section-1 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__feature-section-1__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__feature-section-1__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div style="opacity: 1;"><div style="opacity: 1; transform: none;"><section class="container mx-auto max-w-5xl py-12 sm:py-24"><div class="flex flex-col items-center text-center"><div class="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart h-8 w-8" aria-hidden="true"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"></path></svg></div><h1 class="text-3xl font-bold tracking-tight text-foreground sm:text-5xl">Offline Emergency Connect</h1><p class="mt-4 max-w-2xl text-lg text-muted-foreground">Stay connected during emergencies, even when networks are down.</p></div><div class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-8 text-left sm:mt-20 lg:max-w-none lg:grid-cols-2"><div class="flex gap-x-6"><div class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-primary/10 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wifi-off h-6 w-6" aria-hidden="true"><path d="M12 20h.01"></path><path d="M8.5 16.429a5 5 0 0 1 7 0"></path><path d="M5 12.859a10 10 0 0 1 5.17-2.69"></path><path d="M19 12.859a10 10 0 0 0-2.007-1.523"></path><path d="M2 8.82a15 15 0 0 1 4.177-2.643"></path><path d="M22 8.82a15 15 0 0 0-11.288-3.764"></path><path d="m2 2 20 20"></path></svg></div><div><h3 class="text-base font-semibold leading-7 text-foreground">Works Offline</h3><p class="mt-1 text-base leading-7 text-muted-foreground">Send and receive messages even when cellular networks and internet connections are unavailable.</p></div></div><div class="flex gap-x-6"><div class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-primary/10 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check h-6 w-6" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div><div><h3 class="text-base font-semibold leading-7 text-foreground">Emergency-Only</h3><p class="mt-1 text-base leading-7 text-muted-foreground">Connect with only the people you choose, for emergency situations and check-ins.</p></div></div><div class="flex gap-x-6"><div class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-primary/10 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-battery-charging h-6 w-6" aria-hidden="true"><path d="M15 7h1a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2h-2"></path><path d="M6 7H4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h1"></path><path d="m11 7-3 5h4l-3 5"></path><line x1="22" x2="22" y1="11" y2="13"></line></svg></div><div><h3 class="text-base font-semibold leading-7 text-foreground">Battery Efficient</h3><p class="mt-1 text-base leading-7 text-muted-foreground">Designed to conserve battery life while maintaining connectivity with nearby devices.</p></div></div><div class="flex gap-x-6"><div class="flex h-10 w-10 flex-none items-center justify-center rounded-lg bg-primary/10 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-network h-6 w-6" aria-hidden="true"><rect x="16" y="16" width="6" height="6" rx="1"></rect><rect x="2" y="16" width="6" height="6" rx="1"></rect><rect x="9" y="2" width="6" height="6" rx="1"></rect><path d="M5 16v-3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v3"></path><path d="M12 12V8"></path></svg></div><div><h3 class="text-base font-semibold leading-7 text-foreground">Mesh Network</h3><p class="mt-1 text-base leading-7 text-muted-foreground">Messages can hop through nearby devices to reach contacts beyond direct range.</p></div></div></div><div class="mt-16 rounded-2xl border bg-card p-8 text-center sm:mt-20"><h2 class="text-xl font-semibold tracking-tight text-foreground">Be Prepared for Emergencies</h2><p class="mt-2 text-muted-foreground">One-time purchase of $10 with a $5 monthly subscription for ongoing service and maintenance.</p><div class="mt-6 flex flex-col items-center justify-center gap-4 sm:flex-row"><a href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full sm:w-auto"><svg viewBox="0 0 30 30" fill="currentColor" class="mr-2 h-5 w-5"><path d="M15.385.01a4.34 4.34 0 00-2.955 1.056c-.72.63-1.393 1.81-1.393 3.326 0 .078.006.156.008.235a4.39 4.39 0 00-3.002-1.037c-1.564 0-2.992.934-3.834 2.333a5.75 5.75 0 00-1.2 3.655c0 2.223.97 4.293 2.23 5.619.1.106.208.209.32.308-1.56 2.05-1.551 4.542.062 6.223.738.773 1.764 1.22 2.852 1.22 1.01 0 1.95-.39 2.923-1.168a12.6 12.6 0 002.056-1.845 4.36 4.36 0 002.033 1.845c.995.795 2.016 1.168 3.031 1.168 1.088 0 2.114-.447 2.852-1.22.784-.817 1.15-1.859 1.15-2.926 0-1.537-.73-2.932-1.9-3.957.54-.15.934-.352 1.25-.602a4.42 4.42 0 001.44-2.228c.03-.133.05-.268.062-.404a4.44 4.44 0 00-3.32-4.998c-1.442-.317-2.88.24-3.722 1.34-.04-.008-.08-.01-.12-.01-.13 0-.258.01-.385.023a4.2 4.2 0 00-3.13-2.433zm-4.323 2.12c.574 0 1.09.18 1.51.492a4.38 4.38 0 00-1.503 3.125c-.001.04-.001.079-.001.12 0 .15.01.3.027.445a4.38 4.38 0 00-1.583-3.085c.5-.66 1.28-1.1 2.048-1.1zm7.886 0c.767 0 1.548.44 2.048 1.1a4.38 4.38 0 00-1.58 3.085c.017-.145.027-.295.027-.445 0-.04 0-.08-.002-.12a4.38 4.38 0 00-1.503-3.125c.42-.312.936-.492 1.51-.492z"></path></svg>Download on the App Store</a><a href="#" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2 w-full sm:w-auto"><svg viewBox="0 0 30 30" fill="currentColor" class="mr-2 h-5 w-5"><path d="M4.532 28.232l18.31-9.32a1.49 1.49 0 000-2.65L4.531 1.768a1.49 1.49 0 00-2.175 1.325v23.814a1.49 1.49 0 002.176 1.325zM22.18 16.32l-6.046-3.793 6.046-3.793v7.586zM24.84 18.17l-1.92-1.185v-4.14l1.92-1.184a1.51 1.51 0 011.51 2.655 1.49 1.49 0 01-1.51 1.854z"></path></svg>Get it on Google Play</a></div></div></section></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

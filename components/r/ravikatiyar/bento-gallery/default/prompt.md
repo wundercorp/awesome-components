@@ -1,0 +1,57 @@
+# Build Bento Gallery in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Bento Gallery screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `bento-gallery`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: bento-gallery
+- Demo slug: default
+- Title: bento-gallery
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full antialiased"><section class="relative w-full overflow-hidden bg-background py-16 sm:py-24"><div class="container mx-auto px-4 text-center" style="opacity: 1; transform: none;"><h2 class="text-3xl font-bold tracking-tight text-foreground sm:text-4xl">Curated Moments</h2><p class="mx-auto mt-4 max-w-2xl text-lg text-muted-foreground">A collection of stunning landscapes. Drag to explore, click to expand.</p></div><div class="relative mt-12 w-full cursor-grab active:cursor-grabbing"><div class="w-max" draggable="false" style="user-select: none; touch-action: pan-y;"><div class="grid auto-cols-[minmax(15rem,1fr)] grid-flow-col gap-4 px-4 md:px-8"><div class="group relative flex h-full min-h-[15rem] w-full min-w-[15rem] cursor-pointer items-end overflow-hidden rounded-xl border bg-card p-4 shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:col-span-2 md:row-span-2" tabindex="0" aria-label="View Mountain Vista" style="opacity: 1; transform: none;"><img alt="Mountain Vista" class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=800&amp;q=80"><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div><div class="relative z-10 translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"><h3 class="text-lg font-bold text-white">Mountain Vista</h3><p class="mt-1 text-sm text-white/80">Serenity above the clouds.</p></div></div><div class="group relative flex h-full min-h-[15rem] w-full min-w-[15rem] cursor-pointer items-end overflow-hidden rounded-xl border bg-card p-4 shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:row-span-1" tabindex="0" aria-label="View Coastal Arch" style="opacity: 1; transform: none;"><img alt="Coastal Arch" class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&amp;q=80"><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div><div class="relative z-10 translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"><h3 class="text-lg font-bold text-white">Coastal Arch</h3><p class="mt-1 text-sm text-white/80">Where the land meets the sea.</p></div></div><div class="group relative flex h-full min-h-[15rem] w-full min-w-[15rem] cursor-pointer items-end overflow-hidden rounded-xl border bg-card p-4 shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:row-span-1" tabindex="0" aria-label="View Forest Canopy" style="opacity: 1; transform: none;"><img alt="Forest Canopy" class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&amp;q=80"><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div><div class="relative z-10 translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"><h3 class="text-lg font-bold text-white">Forest Canopy</h3><p class="mt-1 text-sm text-white/80">Sunlight filtering through leaves.</p></div></div><div class="group relative flex h-full min-h-[15rem] w-full min-w-[15rem] cursor-pointer items-end overflow-hidden rounded-xl border bg-card p-4 shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:row-span-2" tabindex="0" aria-label="View Desert Dunes" style="opacity: 1; transform: none;"><img alt="Desert Dunes" class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?w=800&amp;q=80"><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div><div class="relative z-10 translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"><h3 class="text-lg font-bold text-white">Desert Dunes</h3><p class="mt-1 text-sm text-white/80">Golden sands under the sun.</p></div></div><div class="group relative flex h-full min-h-[15rem] w-full min-w-[15rem] cursor-pointer items-end overflow-hidden rounded-xl border bg-card p-4 shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:row-span-1" tabindex="0" aria-label="View City at Night" style="opacity: 1; transform: none;"><img alt="City at Night" class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1506606401543-2e73709cebb4?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Q2l0eSUyMGF0JTIwTmlnaHR8ZW58MHx8MHx8fDA%3D?w=800&amp;q=80"><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div><div class="relative z-10 translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"><h3 class="text-lg font-bold text-white">City at Night</h3><p class="mt-1 text-sm text-white/80">A vibrant urban landscape.</p></div></div><div class="group relative flex h-full min-h-[15rem] w-full min-w-[15rem] cursor-pointer items-end overflow-hidden rounded-xl border bg-card p-4 shadow-sm transition-shadow duration-300 ease-in-out hover:shadow-lg focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background md:col-span-2 md:row-span-1" tabindex="0" aria-label="View Misty Lake" style="opacity: 1; transform: none;"><img alt="Misty Lake" class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://images.unsplash.com/photo-1634023233766-0c16b151bfb0?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8TWlzdHklMjBMYWtlfGVufDB8fDB8fHww?w=800&amp;q=80"><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent opacity-0 transition-opacity duration-500 group-hover:opacity-100"></div><div class="relative z-10 translate-y-4 opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"><h3 class="text-lg font-bold text-white">Misty Lake</h3><p class="mt-1 text-sm text-white/80">Morning fog over calm waters.</p></div></div></div></div></div></section></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

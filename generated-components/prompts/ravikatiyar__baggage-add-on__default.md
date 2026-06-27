@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/baggage-add-on/default
+- Registry URL: https://21st.dev/r/ravikatiyar/baggage-add-on
+- Author: ravikatiyar
+- Component slug: baggage-add-on
+- Demo slug: default
+- Title: baggage-add-on
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/baggage-add-on with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__baggage-add-on__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__baggage-add-on__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-col items-center justify-center min-h-[500px] w-full gap-6 p-4"><div class="w-full h-full max-w-sm rounded-2xl border bg-card text-card-foreground shadow-sm p-6" role="radiogroup" aria-labelledby="option-selector-title"><div class="flex items-center justify-between mb-5"><h3 id="option-selector-title" class="text-lg font-semibold text-foreground">Additional Baggage</h3><button class="text-muted-foreground transition-colors hover:text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis" aria-hidden="true"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></div><div class="space-y-2"><label class="relative flex items-center p-3.5 rounded-lg cursor-pointer transition-colors hover:bg-muted/50" for="5kg"><input id="5kg" class="sr-only" type="radio" value="5kg" name="minimalist-option"><div class="relative z-10 flex items-center gap-4 w-full"><div class="text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-bag h-5 w-5" aria-hidden="true"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"></path><path d="M3 6h18"></path><path d="M16 10a4 4 0 0 1-8 0"></path></svg></div><span class="text-sm font-medium text-foreground">5 kg</span><span class="ml-auto text-sm font-medium text-muted-foreground">$20</span></div><div class="relative z-10 ml-4 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border-2 border-muted-foreground transition-colors"></div></label><label class="relative flex items-center p-3.5 rounded-lg cursor-pointer transition-colors hover:bg-muted/50" for="10kg"><div class="absolute inset-0 bg-muted rounded-lg" style="opacity: 1;"></div><input id="10kg" class="sr-only" type="radio" value="10kg" checked="" name="minimalist-option"><div class="relative z-10 flex items-center gap-4 w-full"><div class="text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase h-5 w-5" aria-hidden="true"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg></div><span class="text-sm font-medium text-foreground">10 kg</span><span class="ml-auto text-sm font-medium text-foreground">$25</span></div><div class="relative z-10 ml-4 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border-2 border-muted-foreground transition-colors"><div class="absolute inset-0 rounded-full bg-foreground border-foreground flex items-center justify-center" style="opacity: 1; transform: none;"><div class="h-1.5 w-1.5 rounded-full bg-background"></div></div></div></label><label class="relative flex items-center p-3.5 rounded-lg cursor-pointer transition-colors hover:bg-muted/50" for="15kg"><input id="15kg" class="sr-only" type="radio" value="15kg" name="minimalist-option"><div class="relative z-10 flex items-center gap-4 w-full"><div class="text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-luggage h-5 w-5" aria-hidden="true"><path d="M6 20a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2"></path><path d="M8 18V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v14"></path><path d="M10 20h4"></path><circle cx="16" cy="20" r="2"></circle><circle cx="8" cy="20" r="2"></circle></svg></div><span class="text-sm font-medium text-foreground">15 kg</span><span class="ml-auto text-sm font-medium text-muted-foreground">$30</span></div><div class="relative z-10 ml-4 flex h-5 w-5 flex-shrink-0 items-center justify-center rounded-full border-2 border-muted-foreground transition-colors"></div></label></div></div><div class="text-center"><p class="text-sm text-muted-foreground">Your selection:</p><p class="text-base font-semibold text-foreground">10 kg - $25</p></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

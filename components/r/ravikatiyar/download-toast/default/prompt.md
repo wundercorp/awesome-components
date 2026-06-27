@@ -1,0 +1,65 @@
+# Build Download Toast in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Download Toast screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `download-toast`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: download-toast
+- Demo slug: default
+- Title: download-toast
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative bg-slate-50 dark:bg-slate-900 min-h-screen w-full flex items-center justify-center font-sans transition-colors duration-300 py-8"><div class="absolute inset-0 z-0 overflow-hidden"><div class="absolute inset-[-10%] animate-grid-pan" style="background-image: linear-gradient(to right, rgba(128, 128, 128, 0.07) 1px, transparent 1px), linear-gradient(rgba(128, 128, 128, 0.07) 1px, transparent 1px); background-size: 24px 24px; mask-image: radial-gradient(50% 50%, rgb(0, 0, 0) 60%, transparent 100%);"></div><style>
+            @keyframes grid-pan {
+                0% { transform: translate(0, 0); }
+                100% { transform: translate(24px, 24px); }
+            }
+            .animate-grid-pan {
+                animation: grid-pan 10s linear infinite;
+            }
+        </style></div><button class="absolute top-6 right-6 z-20 p-2 rounded-full text-gray-500 dark:text-gray-400 bg-gray-200/50 dark:bg-gray-700/50 hover:bg-gray-300/70 dark:hover:bg-gray-600/70 transition-all duration-300" aria-label="Toggle theme"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></button><div class="relative w-full max-w-lg mx-4 sm:mx-auto bg-white/70 dark:bg-slate-800/70 backdrop-blur-xl rounded-2xl shadow-lg border border-slate-200 dark:border-slate-700 p-4 sm:p-8"><h1 class="text-2xl font-bold text-slate-900 dark:text-slate-100 mb-4 px-2 sm:px-0">Your Downloads</h1><div><div class="flex flex-wrap items-center py-3"><div class="flex items-center flex-grow min-w-0"><div class="relative flex-shrink-0 w-14 h-14 bg-red-500 rounded-lg flex items-center justify-center mr-4 overflow-hidden"><div class="absolute top-0 right-0 w-4 h-4 bg-slate-50 dark:bg-slate-900 transition-colors duration-300" style="clip-path: polygon(100% 0px, 0px 0px, 100% 100%);"></div><span class="text-white font-bold text-sm">.PDF</span></div><div class="flex-grow min-w-0"><p class="font-semibold text-slate-800 dark:text-slate-200 truncate">ReactJS-for-beginner.pdf</p><div class="w-full bg-slate-200 dark:bg-slate-700 rounded-full h-1.5 mt-1.5"><div class="bg-blue-500 h-1.5 rounded-full transition-all duration-500 ease-out" style="width: 91.9784%;"></div></div></div></div><div class="flex items-center justify-end w-full sm:w-auto mt-2 sm:mt-0 pl-[72px] sm:pl-0"><div class="flex-shrink-0 w-20 text-right text-sm font-medium text-slate-500 dark:text-slate-400">4.5 MB</div><div class="flex-shrink-0 w-24 text-right"><button class="text-slate-500 dark:text-slate-400 font-semibold text-sm hover:text-slate-800 dark:hover:text-slate-200 transition-colors duration-200">Cancel</button></div></div></div><div class="flex flex-wrap items-center py-3"><div class="flex items-center flex-grow min-w-0"><div class="relative flex-shrink-0 w-14 h-14 bg-green-500 rounded-lg flex items-center justify-center mr-4 overflow-hidden"><div class="absolute top-0 right-0 w-4 h-4 bg-slate-50 dark:bg-slate-900 transition-colors duration-300" style="clip-path: polygon(100% 0px, 0px 0px, 100% 100%);"></div><span class="text-white font-bold text-sm">.XLS</span></div><div class="flex-grow min-w-0"><p class="font-semibold text-slate-800 dark:text-slate-200 truncate">Database-MySQL.xls</p><p class="text-sm text-slate-500 dark:text-slate-400">Microsoft Excel</p></div></div><div class="flex items-center justify-end w-full sm:w-auto mt-2 sm:mt-0 pl-[72px] sm:pl-0"><div class="flex-shrink-0 w-20 text-right text-sm font-medium text-slate-500 dark:text-slate-400">25.7 MB</div><div class="flex-shrink-0 w-24 text-right"><button class="text-blue-600 dark:text-blue-500 font-semibold text-sm hover:text-blue-800 dark:hover:text-blue-400 transition-colors duration-200">Download</button></div></div></div><div class="flex flex-wrap items-center py-3"><div class="flex items-center flex-grow min-w-0"><div class="relative flex-shrink-0 w-14 h-14 bg-blue-500 rounded-lg flex items-center justify-center mr-4 overflow-hidden"><div class="absolute top-0 right-0 w-4 h-4 bg-slate-50 dark:bg-slate-900 transition-colors duration-300" style="clip-path: polygon(100% 0px, 0px 0px, 100% 100%);"></div><span class="text-white font-bold text-sm">.DOC</span></div><div class="flex-grow min-w-0"><p class="font-semibold text-slate-800 dark:text-slate-200 truncate">Summary-of-php.docx</p><p class="text-sm text-slate-500 dark:text-slate-400">Microsoft Word</p></div></div><div class="flex items-center justify-end w-full sm:w-auto mt-2 sm:mt-0 pl-[72px] sm:pl-0"><div class="flex-shrink-0 w-20 text-right text-sm font-medium text-slate-500 dark:text-slate-400">350 KB</div><div class="flex-shrink-0 w-24 text-right"><button class="text-blue-600 dark:text-blue-500 font-semibold text-sm hover:text-blue-800 dark:hover:text-blue-400 transition-colors duration-200">Download</button></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

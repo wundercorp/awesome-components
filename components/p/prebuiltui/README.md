@@ -1,6 +1,6 @@
 # Prebuiltui Components
 
-66 components are available in this author group.
+149 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -72,3 +72,86 @@
 | [![Call To Action 1](call-to-action-1/gradient-call-to-action-section/screenshot.png)](call-to-action-1/gradient-call-to-action-section/README.md) | [Call To Action 1](call-to-action-1/gradient-call-to-action-section/README.md) | `gradient-call-to-action-section` |
 | [![Call To Action 1](call-to-action-1/simple-call-to-acton/screenshot.png)](call-to-action-1/simple-call-to-acton/README.md) | [Call To Action 1](call-to-action-1/simple-call-to-acton/README.md) | `simple-call-to-acton` |
 | [![Call To Action 1](call-to-action-1/team-member-card/screenshot.png)](call-to-action-1/team-member-card/README.md) | [Call To Action 1](call-to-action-1/team-member-card/README.md) | `team-member-card` |
+| [![Cards](cards/default/screenshot.png)](cards/default/README.md) | [Cards](cards/default/README.md) | `default` |
+| [![Cards](cards/flip-hover-card/screenshot.png)](cards/flip-hover-card/README.md) | [Cards](cards/flip-hover-card/README.md) | `flip-hover-card` |
+| [![Cards](cards/glowing-border-on-hover-card/screenshot.png)](cards/glowing-border-on-hover-card/README.md) | [Cards](cards/glowing-border-on-hover-card/README.md) | `glowing-border-on-hover-card` |
+| [![Cards](cards/marquee-cards-with-hover-effect/screenshot.png)](cards/marquee-cards-with-hover-effect/README.md) | [Cards](cards/marquee-cards-with-hover-effect/README.md) | `marquee-cards-with-hover-effect` |
+| [![Cards](cards/marquee-testimonial-card-with-hover-effect/screenshot.png)](cards/marquee-testimonial-card-with-hover-effect/README.md) | [Cards](cards/marquee-testimonial-card-with-hover-effect/README.md) | `marquee-testimonial-card-with-hover-effect` |
+| [![Cards](cards/notify-card-with-glass-effect/screenshot.png)](cards/notify-card-with-glass-effect/README.md) | [Cards](cards/notify-card-with-glass-effect/README.md) | `notify-card-with-glass-effect` |
+| [![Cards](cards/on-hover-tilt-effect-card/screenshot.png)](cards/on-hover-tilt-effect-card/README.md) | [Cards](cards/on-hover-tilt-effect-card/README.md) | `on-hover-tilt-effect-card` |
+| [![Cards](cards/product-card/screenshot.png)](cards/product-card/README.md) | [Cards](cards/product-card/README.md) | `product-card` |
+| [![Cards](cards/simple-card/screenshot.png)](cards/simple-card/README.md) | [Cards](cards/simple-card/README.md) | `simple-card` |
+| [![Cards](cards/simple-card-with-button/screenshot.png)](cards/simple-card-with-button/README.md) | [Cards](cards/simple-card-with-button/README.md) | `simple-card-with-button` |
+| [![Cards](cards/user-profile-card/screenshot.png)](cards/user-profile-card/README.md) | [Cards](cards/user-profile-card/README.md) | `user-profile-card` |
+| [![Checkbox 1](checkbox-1/default/screenshot.png)](checkbox-1/default/README.md) | [Checkbox 1](checkbox-1/default/README.md) | `default` |
+| [![Checkbox 1](checkbox-1/dot-checkbox/screenshot.png)](checkbox-1/dot-checkbox/README.md) | [Checkbox 1](checkbox-1/dot-checkbox/README.md) | `dot-checkbox` |
+| [![Checkbox 1](checkbox-1/field-checkbox/screenshot.png)](checkbox-1/field-checkbox/README.md) | [Checkbox 1](checkbox-1/field-checkbox/README.md) | `field-checkbox` |
+| [![Checkbox 1](checkbox-1/radio-button/screenshot.png)](checkbox-1/radio-button/README.md) | [Checkbox 1](checkbox-1/radio-button/README.md) | `radio-button` |
+| [![Checkbox 1](checkbox-1/radio-outlined/screenshot.png)](checkbox-1/radio-outlined/README.md) | [Checkbox 1](checkbox-1/radio-outlined/README.md) | `radio-outlined` |
+| [![Combobox](combobox/creatable-combobox/screenshot.png)](combobox/creatable-combobox/README.md) | [Combobox](combobox/creatable-combobox/README.md) | `creatable-combobox` |
+| [![Combobox](combobox/default/screenshot.png)](combobox/default/README.md) | [Combobox](combobox/default/README.md) | `default` |
+| [![Combobox](combobox/input-inside-popup-combobox/screenshot.png)](combobox/input-inside-popup-combobox/README.md) | [Combobox](combobox/input-inside-popup-combobox/README.md) | `input-inside-popup-combobox` |
+| [![Combobox](combobox/multiple-select-combobox/screenshot.png)](combobox/multiple-select-combobox/README.md) | [Combobox](combobox/multiple-select-combobox/README.md) | `multiple-select-combobox` |
+| [![Combobox](combobox/virtualized/screenshot.png)](combobox/virtualized/README.md) | [Combobox](combobox/virtualized/README.md) | `virtualized` |
+| [![Cookies](cookies/basic-cookie-alert/screenshot.png)](cookies/basic-cookie-alert/README.md) | [Cookies](cookies/basic-cookie-alert/README.md) | `basic-cookie-alert` |
+| [![Cookies](cookies/default/screenshot.png)](cookies/default/README.md) | [Cookies](cookies/default/README.md) | `default` |
+| [![Cookies](cookies/privacy-choices-panel/screenshot.png)](cookies/privacy-choices-panel/README.md) | [Cookies](cookies/privacy-choices-panel/README.md) | `privacy-choices-panel` |
+| [![Cookies](cookies/privacy-first-notice/screenshot.png)](cookies/privacy-first-notice/README.md) | [Cookies](cookies/privacy-first-notice/README.md) | `privacy-first-notice` |
+| [![Dropdown Menu](dropdown-menu/default/screenshot.png)](dropdown-menu/default/README.md) | [Dropdown Menu](dropdown-menu/default/README.md) | `default` |
+| [![Dropdown Menu](dropdown-menu/quick-action-dropdown/screenshot.png)](dropdown-menu/quick-action-dropdown/README.md) | [Dropdown Menu](dropdown-menu/quick-action-dropdown/README.md) | `quick-action-dropdown` |
+| [![Dropdown Menu](dropdown-menu/user-select-dropdown/screenshot.png)](dropdown-menu/user-select-dropdown/README.md) | [Dropdown Menu](dropdown-menu/user-select-dropdown/README.md) | `user-select-dropdown` |
+| [![Faq Sections](faq-sections/clean-faq-section-with-border/screenshot.png)](faq-sections/clean-faq-section-with-border/README.md) | [Faq Sections](faq-sections/clean-faq-section-with-border/README.md) | `clean-faq-section-with-border` |
+| [![Faq Sections](faq-sections/clean-faq-section-with-filled-bg/screenshot.png)](faq-sections/clean-faq-section-with-filled-bg/README.md) | [Faq Sections](faq-sections/clean-faq-section-with-filled-bg/README.md) | `clean-faq-section-with-filled-bg` |
+| [![Faq Sections](faq-sections/clean-faq-section-with-gradient/screenshot.png)](faq-sections/clean-faq-section-with-gradient/README.md) | [Faq Sections](faq-sections/clean-faq-section-with-gradient/README.md) | `clean-faq-section-with-gradient` |
+| [![Faq Sections](faq-sections/default/screenshot.png)](faq-sections/default/README.md) | [Faq Sections](faq-sections/default/README.md) | `default` |
+| [![Faq Sections](faq-sections/faq-section-center-aligned/screenshot.png)](faq-sections/faq-section-center-aligned/README.md) | [Faq Sections](faq-sections/faq-section-center-aligned/README.md) | `faq-section-center-aligned` |
+| [![Feature Sections](feature-sections/card-component-features-section/screenshot.png)](feature-sections/card-component-features-section/README.md) | [Feature Sections](feature-sections/card-component-features-section/README.md) | `card-component-features-section` |
+| [![Feature Sections](feature-sections/default/screenshot.png)](feature-sections/default/README.md) | [Feature Sections](feature-sections/default/README.md) | `default` |
+| [![Feature Sections](feature-sections/features-section-dark-theme/screenshot.png)](feature-sections/features-section-dark-theme/README.md) | [Feature Sections](feature-sections/features-section-dark-theme/README.md) | `features-section-dark-theme` |
+| [![Feature Sections](feature-sections/features-section-with-company-workflow/screenshot.png)](feature-sections/features-section-with-company-workflow/README.md) | [Feature Sections](feature-sections/features-section-with-company-workflow/README.md) | `features-section-with-company-workflow` |
+| [![Feature Sections](feature-sections/features-section-with-credit-card-showcase/screenshot.png)](feature-sections/features-section-with-credit-card-showcase/README.md) | [Feature Sections](feature-sections/features-section-with-credit-card-showcase/README.md) | `features-section-with-credit-card-showcase` |
+| [![Feature Sections](feature-sections/features-section-with-gradient-bg/screenshot.png)](feature-sections/features-section-with-gradient-bg/README.md) | [Feature Sections](feature-sections/features-section-with-gradient-bg/README.md) | `features-section-with-gradient-bg` |
+| [![Feature Sections](feature-sections/features-section-with-team/screenshot.png)](feature-sections/features-section-with-team/README.md) | [Feature Sections](feature-sections/features-section-with-team/README.md) | `features-section-with-team` |
+| [![Feature Sections](feature-sections/features-section-with-trusted-companies/screenshot.png)](feature-sections/features-section-with-trusted-companies/README.md) | [Feature Sections](feature-sections/features-section-with-trusted-companies/README.md) | `features-section-with-trusted-companies` |
+| [![Feature Sections](feature-sections/special-features-section/screenshot.png)](feature-sections/special-features-section/README.md) | [Feature Sections](feature-sections/special-features-section/README.md) | `special-features-section` |
+| [![Footer 1](footer-1/default/screenshot.png)](footer-1/default/README.md) | [Footer 1](footer-1/default/README.md) | `default` |
+| [![Footer 1](footer-1/footer-with-logo-and-links/screenshot.png)](footer-1/footer-with-logo-and-links/README.md) | [Footer 1](footer-1/footer-with-logo-and-links/README.md) | `footer-with-logo-and-links` |
+| [![Footer 1](footer-1/footer-with-logo-and-social-links/screenshot.png)](footer-1/footer-with-logo-and-social-links/README.md) | [Footer 1](footer-1/footer-with-logo-and-social-links/README.md) | `footer-with-logo-and-social-links` |
+| [![Footer 1](footer-1/gradient-footer-with-logo/screenshot.png)](footer-1/gradient-footer-with-logo/README.md) | [Footer 1](footer-1/gradient-footer-with-logo/README.md) | `gradient-footer-with-logo` |
+| [![Footer 1](footer-1/modern-minimal-footer/screenshot.png)](footer-1/modern-minimal-footer/README.md) | [Footer 1](footer-1/modern-minimal-footer/README.md) | `modern-minimal-footer` |
+| [![Form 1](form-1/default/screenshot.png)](form-1/default/README.md) | [Form 1](form-1/default/README.md) | `default` |
+| [![Form 1](form-1/forgot-password-form-dark/screenshot.png)](form-1/forgot-password-form-dark/README.md) | [Form 1](form-1/forgot-password-form-dark/README.md) | `forgot-password-form-dark` |
+| [![Form 1](form-1/sign-up-form-with-social-login/screenshot.png)](form-1/sign-up-form-with-social-login/README.md) | [Form 1](form-1/sign-up-form-with-social-login/README.md) | `sign-up-form-with-social-login` |
+| [![Form 1](form-1/simple-contact-us-form/screenshot.png)](form-1/simple-contact-us-form/README.md) | [Form 1](form-1/simple-contact-us-form/README.md) | `simple-contact-us-form` |
+| [![Hero Section](hero-section/default/screenshot.png)](hero-section/default/README.md) | [Hero Section](hero-section/default/README.md) | `default` |
+| [![Hero Section](hero-section/hero-section-with-animated-navbar/screenshot.png)](hero-section/hero-section-with-animated-navbar/README.md) | [Hero Section](hero-section/hero-section-with-animated-navbar/README.md) | `hero-section-with-animated-navbar` |
+| [![Image Gallery](image-gallery/default/screenshot.png)](image-gallery/default/README.md) | [Image Gallery](image-gallery/default/README.md) | `default` |
+| [![Image Gallery](image-gallery/image-gallery-with-hover-effect/screenshot.png)](image-gallery/image-gallery-with-hover-effect/README.md) | [Image Gallery](image-gallery/image-gallery-with-hover-effect/README.md) | `image-gallery-with-hover-effect` |
+| [![Image Gallery](image-gallery/image-grid-gallery/screenshot.png)](image-gallery/image-grid-gallery/README.md) | [Image Gallery](image-gallery/image-grid-gallery/README.md) | `image-grid-gallery` |
+| [![Login Form](login-form/default/screenshot.png)](login-form/default/README.md) | [Login Form](login-form/default/README.md) | `default` |
+| [![Login Form](login-form/login-form-with-social-auth/screenshot.png)](login-form/login-form-with-social-auth/README.md) | [Login Form](login-form/login-form-with-social-auth/README.md) | `login-form-with-social-auth` |
+| [![Login Form](login-form/modern-login-form-with-icons/screenshot.png)](login-form/modern-login-form-with-icons/README.md) | [Login Form](login-form/modern-login-form-with-icons/README.md) | `modern-login-form-with-icons` |
+| [![Pricing Cards](pricing-cards/default/screenshot.png)](pricing-cards/default/README.md) | [Pricing Cards](pricing-cards/default/README.md) | `default` |
+| [![Pricing Cards](pricing-cards/gradient-pricing-card/screenshot.png)](pricing-cards/gradient-pricing-card/README.md) | [Pricing Cards](pricing-cards/gradient-pricing-card/README.md) | `gradient-pricing-card` |
+| [![Pricing Cards](pricing-cards/highlighted-pricing-card/screenshot.png)](pricing-cards/highlighted-pricing-card/README.md) | [Pricing Cards](pricing-cards/highlighted-pricing-card/README.md) | `highlighted-pricing-card` |
+| [![Pricing Cards](pricing-cards/pricing-card/screenshot.png)](pricing-cards/pricing-card/README.md) | [Pricing Cards](pricing-cards/pricing-card/README.md) | `pricing-card` |
+| [![Pricing Cards](pricing-cards/pricing-card-free-pro-enterprise/screenshot.png)](pricing-cards/pricing-card-free-pro-enterprise/README.md) | [Pricing Cards](pricing-cards/pricing-card-free-pro-enterprise/README.md) | `pricing-card-free-pro-enterprise` |
+| [![Testimonial](testimonial/avatar-group-with-trust-label/screenshot.png)](testimonial/avatar-group-with-trust-label/README.md) | [Testimonial](testimonial/avatar-group-with-trust-label/README.md) | `avatar-group-with-trust-label` |
+| [![Testimonial](testimonial/customer-review-cards/screenshot.png)](testimonial/customer-review-cards/README.md) | [Testimonial](testimonial/customer-review-cards/README.md) | `customer-review-cards` |
+| [![Testimonial](testimonial/customer-testimonials/screenshot.png)](testimonial/customer-testimonials/README.md) | [Testimonial](testimonial/customer-testimonials/README.md) | `customer-testimonials` |
+| [![Testimonial](testimonial/default/screenshot.png)](testimonial/default/README.md) | [Testimonial](testimonial/default/README.md) | `default` |
+| [![Testimonial](testimonial/happy-clients-section/screenshot.png)](testimonial/happy-clients-section/README.md) | [Testimonial](testimonial/happy-clients-section/README.md) | `happy-clients-section` |
+| [![Testimonial](testimonial/modern-customer-testimonial/screenshot.png)](testimonial/modern-customer-testimonial/README.md) | [Testimonial](testimonial/modern-customer-testimonial/README.md) | `modern-customer-testimonial` |
+| [![Testimonial](testimonial/review-card-with-bottom-border/screenshot.png)](testimonial/review-card-with-bottom-border/README.md) | [Testimonial](testimonial/review-card-with-bottom-border/README.md) | `review-card-with-bottom-border` |
+| [![Testimonial](testimonial/review-rating-card/screenshot.png)](testimonial/review-rating-card/README.md) | [Testimonial](testimonial/review-rating-card/README.md) | `review-rating-card` |
+| [![Testimonial](testimonial/star-rating-with-avatar-group/screenshot.png)](testimonial/star-rating-with-avatar-group/README.md) | [Testimonial](testimonial/star-rating-with-avatar-group/README.md) | `star-rating-with-avatar-group` |
+| [![Testimonial](testimonial/testimonial/screenshot.png)](testimonial/testimonial/README.md) | [Testimonial](testimonial/testimonial/README.md) | `testimonial` |
+| [![Testimonial](testimonial/testimonial-horizontal-aligned/screenshot.png)](testimonial/testimonial-horizontal-aligned/README.md) | [Testimonial](testimonial/testimonial-horizontal-aligned/README.md) | `testimonial-horizontal-aligned` |
+| [![Testimonial](testimonial/testimonial-of-students/screenshot.png)](testimonial/testimonial-of-students/README.md) | [Testimonial](testimonial/testimonial-of-students/README.md) | `testimonial-of-students` |
+| [![Testimonial](testimonial/testimonial-section/screenshot.png)](testimonial/testimonial-section/README.md) | [Testimonial](testimonial/testimonial-section/README.md) | `testimonial-section` |
+| [![Testimonial](testimonial/testimonial-with-hover-tooltip/screenshot.png)](testimonial/testimonial-with-hover-tooltip/README.md) | [Testimonial](testimonial/testimonial-with-hover-tooltip/README.md) | `testimonial-with-hover-tooltip` |
+| [![Testimonial](testimonial/testimonial-with-outer-border/screenshot.png)](testimonial/testimonial-with-outer-border/README.md) | [Testimonial](testimonial/testimonial-with-outer-border/README.md) | `testimonial-with-outer-border` |
+| [![Toggle Switch](toggle-switch/default/screenshot.png)](toggle-switch/default/README.md) | [Toggle Switch](toggle-switch/default/README.md) | `default` |
+| [![Toggle Switch](toggle-switch/toggle-switch-big/screenshot.png)](toggle-switch/toggle-switch-big/README.md) | [Toggle Switch](toggle-switch/toggle-switch-big/README.md) | `toggle-switch-big` |
+| [![Toggle Switch](toggle-switch/toggle-switch-dark-theme/screenshot.png)](toggle-switch/toggle-switch-dark-theme/README.md) | [Toggle Switch](toggle-switch/toggle-switch-dark-theme/README.md) | `toggle-switch-dark-theme` |
+| [![Toggle Switch](toggle-switch/toggle-switch-medium/screenshot.png)](toggle-switch/toggle-switch-medium/README.md) | [Toggle Switch](toggle-switch/toggle-switch-medium/README.md) | `toggle-switch-medium` |

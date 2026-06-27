@@ -1,0 +1,57 @@
+# Build App Download Section in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![App Download Section screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `app-download-section`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: app-download-section
+- Demo slug: default
+- Title: app-download-section
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full"><section class="w-full bg-background text-foreground py-12 lg:py-24"><div class="container mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center px-4" style="opacity: 1;"><div class="flex flex-col space-y-8"><div class="space-y-2" style="opacity: 1; transform: none;"><h2 class="text-3xl md:text-4xl font-bold tracking-tight">Download realme Store App</h2><p class="text-muted-foreground text-lg">Explore more fun activities and get surprise benefits</p></div><div class="grid grid-cols-2 md:grid-cols-4 gap-6"><div class="flex flex-col items-center text-center space-y-2" style="opacity: 1; transform: none;"><div class="flex items-center justify-center w-12 h-12 rounded-full bg-muted text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-archive" aria-hidden="true"><rect width="20" height="5" x="2" y="3" rx="1"></rect><path d="M4 8v11a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8"></path><path d="M10 12h4"></path></svg></div><span class="text-sm font-medium">Full Range of Products</span></div><div class="flex flex-col items-center text-center space-y-2" style="opacity: 1; transform: none;"><div class="flex items-center justify-center w-12 h-12 rounded-full bg-muted text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-percent" aria-hidden="true"><line x1="19" x2="5" y1="5" y2="19"></line><circle cx="6.5" cy="6.5" r="2.5"></circle><circle cx="17.5" cy="17.5" r="2.5"></circle></svg></div><span class="text-sm font-medium">Enjoy Exclusive Discount</span></div><div class="flex flex-col items-center text-center space-y-2" style="opacity: 1; transform: none;"><div class="flex items-center justify-center w-12 h-12 rounded-full bg-muted text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gem" aria-hidden="true"><path d="M6 3h12l4 6-10 13L2 9Z"></path><path d="M11 3 8 9l4 13 4-13-3-6"></path><path d="M2 9h20"></path></svg></div><span class="text-sm font-medium">Join Membership Club</span></div><div class="flex flex-col items-center text-center space-y-2" style="opacity: 1; transform: none;"><div class="flex items-center justify-center w-12 h-12 rounded-full bg-muted text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-coins" aria-hidden="true"><circle cx="8" cy="8" r="6"></circle><path d="M18.09 10.37A6 6 0 1 1 10.34 18"></path><path d="M7 6h1v4"></path><path d="m16.71 13.88.7.71-2.82 2.82"></path></svg></div><span class="text-sm font-medium">Redeem in Coins Market</span></div></div><div class="flex flex-col items-center space-y-2" style="opacity: 1; transform: none;"><img alt="QR code to download the realme store app" class="w-36 h-36 rounded-lg border" src="https://ik.imagekit.io/fpxbgsota/Untitled.png"><p class="text-sm text-muted-foreground">Scan QR Code to Download</p></div><div class="grid grid-cols-2 md:grid-cols-3 gap-6 pt-4"><div class="flex items-center space-x-2" style="opacity: 1; transform: none;"><div class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck" aria-hidden="true"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"></path><path d="M15 18H9"></path><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"></path><circle cx="17" cy="18" r="2"></circle><circle cx="7" cy="18" r="2"></circle></svg></div><span class="text-sm font-medium">Free Shipping*</span></div><div class="flex items-center space-x-2" style="opacity: 1; transform: none;"><div class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-hand-coins" aria-hidden="true"><path d="M11 15h2a2 2 0 1 0 0-4h-3c-.6 0-1.1.2-1.4.6L3 17"></path><path d="m7 21 1.6-1.4c.3-.4.8-.6 1.4-.6h4c1.1 0 2.1-.4 2.8-1.2l4.6-4.4a2 2 0 0 0-2.75-2.91l-4.2 3.9"></path><path d="m2 16 6 6"></path><circle cx="16" cy="9" r="2.9"></circle><circle cx="6" cy="5" r="3"></circle></svg></div><span class="text-sm font-medium">Cash on Delivery*</span></div><div class="flex items-center space-x-2" style="opacity: 1; transform: none;"><div class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></div><span class="text-sm font-medium">Secured Payments</span></div></div></div><div class="flex items-center justify-center" style="opacity: 1; transform: none;"><img alt="Promotional image showing app benefits like coupons and gifts" class="max-w-md w-full h-auto object-contain" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-wp0lyIxuyGtDkw1H7AU8Kl8TP0o2t6.png&amp;w=1000&amp;q=75"></div></div></section></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

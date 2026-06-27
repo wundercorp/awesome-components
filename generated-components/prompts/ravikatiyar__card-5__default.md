@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/card-5/default
+- Registry URL: https://21st.dev/r/ravikatiyar/card-5
+- Author: ravikatiyar
+- Component slug: card-5
+- Demo slug: default
+- Title: card-5
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/card-5 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__card-5__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__card-5__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-[500px] w-full items-center justify-center bg-background p-4"><div class="max-w-sm w-full rounded-2xl border bg-card text-card-foreground shadow-sm p-6 flex flex-col gap-6" style="opacity: 1; transform: none;"><div class="flex items-center gap-4" style="opacity: 1; transform: none;"><img alt="Sam Rivers" class="w-16 h-16 rounded-full object-cover" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D"><div class="flex flex-col"><h2 class="text-xl font-bold">Sam Rivers</h2><p class="text-sm text-muted-foreground">Photographer</p></div></div><p class="text-sm text-muted-foreground" style="opacity: 1; transform: none;">Based in Sydney, I capture breathtaking landscapes and cultural moments across the globe.</p><div class="flex items-center justify-between text-center border-t border-b py-4" style="opacity: 1; transform: none;"><div class="flex flex-col items-center"><span class="text-lg font-bold">28</span><span class="text-xs text-muted-foreground tracking-wider">Countries Visited</span></div><div class="flex flex-col items-center"><span class="text-lg font-bold">10</span><span class="text-xs text-muted-foreground tracking-wider">Exhibitions Held</span></div><div class="flex flex-col items-center"><span class="text-lg font-bold">4.9</span><span class="text-xs text-muted-foreground tracking-wider">Today Rating</span></div></div><div class="flex items-center gap-3" style="opacity: 1; transform: none;"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 flex-1">Explore Portfolio</button><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-secondary text-secondary-foreground hover:bg-secondary/80 h-10 px-4 py-2 flex-1">Message</button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

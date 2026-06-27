@@ -1,0 +1,63 @@
+# Build Feature Sections in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Feature Sections screenshot](screenshot.png)
+
+## Component
+
+- Author group: `prebuiltui`
+- Component: `feature-sections`
+- Variant: `features-section-with-company-workflow`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: prebuiltui
+- Component slug: feature-sections
+- Demo slug: features-section-with-company-workflow
+- Title: feature-sections
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        * {
+          font-family: 'Poppins', sans-serif;
+        }
+      </style><div class="px-4 md:px-8"><p class="bg-gradient-to-r from-slate-800 to-[#4D6EA3] text-transparent bg-clip-text text-2xl md:text-3xl text-left font-medium max-w-2xl">Why do 500+ companies choose to integrate our features?</p><div class="flex flex-col-reverse md:flex-row items-center justify-center gap-6 mt-6"><img alt="features showcase" class="w-full md:w-1/2 h-auto" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/features/image-6.svg"><img alt="features showcase" class="w-full md:w-1/2 h-auto" src="https://raw.githubusercontent.com/prebuiltui/prebuiltui/main/assets/features/image-5.svg"></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

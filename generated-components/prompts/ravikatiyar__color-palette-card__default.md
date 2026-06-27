@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/color-palette-card/default
+- Registry URL: https://21st.dev/r/ravikatiyar/color-palette-card
+- Author: ravikatiyar
+- Component slug: color-palette-card
+- Demo slug: default
+- Title: color-palette-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/color-palette-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__color-palette-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__color-palette-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-[350px] w-full items-center justify-center bg-background p-4"><div class="h-[200px] w-[350px] rounded-xl overflow-hidden shadow-lg bg-card font-sans flex flex-col"><div class="flex h-[86%] w-full"><div class="group h-full flex-1 flex items-center justify-center text-white font-semibold tracking-wider transition-[flex] duration-200 ease-in-out hover:flex-[2]" style="background-color: rgb(38, 70, 83);"><span class="opacity-0 transition-opacity duration-200 group-hover:opacity-100">264653</span></div><div class="group h-full flex-1 flex items-center justify-center text-white font-semibold tracking-wider transition-[flex] duration-200 ease-in-out hover:flex-[2]" style="background-color: rgb(42, 157, 143);"><span class="opacity-0 transition-opacity duration-200 group-hover:opacity-100">2A9D8F</span></div><div class="group h-full flex-1 flex items-center justify-center text-white font-semibold tracking-wider transition-[flex] duration-200 ease-in-out hover:flex-[2]" style="background-color: rgb(233, 196, 106);"><span class="opacity-0 transition-opacity duration-200 group-hover:opacity-100">E9C46A</span></div><div class="group h-full flex-1 flex items-center justify-center text-white font-semibold tracking-wider transition-[flex] duration-200 ease-in-out hover:flex-[2]" style="background-color: rgb(244, 162, 97);"><span class="opacity-0 transition-opacity duration-200 group-hover:opacity-100">F4A261</span></div><div class="group h-full flex-1 flex items-center justify-center text-white font-semibold tracking-wider transition-[flex] duration-200 ease-in-out hover:flex-[2]" style="background-color: rgb(231, 111, 81);"><span class="opacity-0 transition-opacity duration-200 group-hover:opacity-100">E76F51</span></div></div><div class="h-[14%] w-full bg-card text-muted-foreground flex items-center justify-between px-6"><span class="text-sm">53,421 saves</span><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" class="fill-current" aria-hidden="true"><path d="M4 7.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5S5.5 9.83 5.5 9 4.83 7.5 4 7.5zm10 0c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5zm-5 0c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5S9.83 7.5 9 7.5z"></path></svg></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

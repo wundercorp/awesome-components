@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/card-15/default
+- Registry URL: https://21st.dev/r/ravikatiyar/card-15
+- Author: ravikatiyar
+- Component slug: card-15
+- Demo slug: default
+- Title: card-15
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/card-15 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__card-15__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__card-15__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-[400px] w-full items-center justify-center bg-background p-4"><div class="border text-card-foreground w-full max-w-md overflow-hidden rounded-2xl border-none bg-card/80 p-2 shadow-lg backdrop-blur-sm animate-in fade-in-0 slide-in-from-bottom-4 duration-500"><div class="flex flex-col space-y-1.5 p-4 pb-2"><h3 class="tracking-tight text-lg font-semibold text-card-foreground">Notifications</h3></div><div class="p-4 pt-0"><div class="flex items-start justify-between space-x-4"><div class="flex-shrink-0"><div class="relative"><span class="relative flex shrink-0 overflow-hidden rounded-full h-12 w-12"><img class="aspect-square h-full w-full" alt="Charlie Herwitz's avatar" src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&amp;w=2960&amp;auto=format&amp;fit=crop"></span><span class="absolute bottom-0 right-0 block h-3 w-3 rounded-full border-2 border-card bg-green-500"></span></div></div><div class="flex-1"><div class="mb-2"><p class="text-sm font-semibold text-card-foreground">Charlie Herwitz</p><p class="text-xs font-medium uppercase tracking-wider text-primary">Product Director </p></div><div class="mb-3 rounded-lg rounded-tl-none bg-muted p-3 text-sm text-muted-foreground"><p>Would you like them formatted for a specific use case, like a project management tool?</p></div><div class="flex items-center space-x-2 text-xs text-muted-foreground"><span>5 mins</span><span>·</span><span>Read</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-3.5 w-3.5" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div></div><div class="flex-shrink-0"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium outline-offset-2 focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 hover:text-accent-foreground h-9 w-9 rounded-full transition-colors hover:bg-primary/10" aria-label="Reply to notification"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send h-4 w-4 text-muted-foreground" aria-hidden="true"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg></button></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

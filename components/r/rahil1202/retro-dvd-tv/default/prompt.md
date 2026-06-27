@@ -1,0 +1,239 @@
+# Build Retro Dvd Tv in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Retro Dvd Tv screenshot](screenshot.png)
+
+## Component
+
+- Author group: `rahil1202`
+- Component: `retro-dvd-tv`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: rahil1202
+- Component slug: retro-dvd-tv
+- Demo slug: default
+- Title: retro-dvd-tv
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="tv-root " style="--tv-width: 40rem; --tv-height: 30rem; --logo-color: #ff00ff; --marquee-speed: 10; --color-animate: running;"><div class="tv"><div class="tv__frame"><div class="tv__screen"><marquee class="tv__screen-inner" direction="down" behavior="alternate" scrollamount="10"><marquee behavior="alternate" scrollamount="10"><span class="logo">DVD</span></marquee></marquee></div></div><div class="tv__bottom"><div class="tv__speaker"></div><div class="tv__controls"><button class="tv__button" aria-label="Power">⏻</button></div><div class="tv__controls"><button class="tv__button">−</button><button class="tv__button">+</button></div><div class="tv__controls"><button class="tv__button">‹</button><button class="tv__button">›</button></div><div class="tv__speaker"></div></div></div><style>
+        .tv-root {
+          --shadow: drop-shadow(0px 2px 0px #ffffff0f)
+            drop-shadow(0px -2px 0px #0000000f);
+          width: var(--tv-width);
+          height: var(--tv-height);
+          display: grid;
+          place-items: center;
+          padding: 2rem;
+          background: #ccc;
+          font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica,
+            Arial, "Apple Color Emoji", "Segoe UI Emoji";
+        }
+
+        .tv {
+          width: 100%;
+          padding: 1.5rem;
+          background: #2f363a;
+          border-radius: 1rem;
+          border: 0.4rem solid #24231f;
+          display: grid;
+          gap: 1.5rem;
+          height: 100%;
+        }
+
+        .tv__frame {
+          position: relative;
+          border-radius: 1rem;
+          background-color: #24231f;
+          padding: 2rem;
+          filter: var(--shadow);
+          flex: 1;
+        }
+        .tv__frame::after {
+          content: "";
+          border-radius: 5% / 100%;
+          position: absolute;
+          inset: 1.4rem 2rem;
+          z-index: 1;
+          animation: scanlines 0.5s linear infinite;
+          background-image: repeating-linear-gradient(
+            transparent,
+            transparent 5px,
+            rgba(0, 0, 0, 0.02) 5px,
+            rgba(0, 0, 0, 0.02) 10px
+          );
+          box-shadow: inset 6px 5px 20px 11px #24231f57;
+          pointer-events: none;
+        }
+
+        .tv__screen {
+          position: relative;
+          border-radius: 100% / 5%;
+          z-index: 1;
+          padding: 0;
+        }
+        .tv__screen::after,
+        .tv__screen::before {
+          content: "";
+          background: #4e5e55;
+          border-radius: 5% / 100%;
+          position: absolute;
+          inset: 0;
+          z-index: -1;
+        }
+        .tv__screen::after {
+          inset: -0.6rem 0.7rem;
+          border-radius: 100% / 5%;
+        }
+
+        .tv__screen-inner {
+          width: 100%;
+          height: 60%;
+          aspect-ratio: 5 / 4;
+          display: block;
+        }
+
+        .tv__bottom {
+          display: flex;
+          justify-content: space-between;
+          align-items: stretch;
+          gap: 0.75rem;
+        }
+
+        .tv__controls {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+        }
+
+        .tv__button {
+          display: block;
+          background: none;
+          color: inherit;
+          border: 1px solid black;
+          border-radius: 50%;
+          line-height: 0;
+          font-weight: 100;
+          aspect-ratio: 1;
+          width: 1.5rem;
+          height: 1.5rem;
+          filter: var(--shadow);
+          cursor: pointer;
+        }
+
+        .tv__speaker {
+          background-image: radial-gradient(black 0.1rem, transparent 0);
+          background-size: 0.5rem 0.5rem;
+          width: 8rem;
+          padding: 2rem;
+          filter: var(--shadow);
+        }
+
+        .logo {
+          display: inline-block;
+          text-align: center;
+          font-size: 2rem;
+          font-weight: bold;
+          line-height: 1;
+          letter-spacing: -0.05em;
+          color: var(--logo-color, #ffffff);
+          animation: colorChange 42s infinite;
+          animation-play-state: var(--color-animate);
+          animation-timing-function: steps(1, end);
+          opacity: 0.5;
+          user-select: none;
+          text-transform: uppercase;
+        }
+        .logo::after {
+          display: block;
+          font-size: 0.3em;
+          font-weight: normal;
+          letter-spacing: 0.2em;
+          background-color: var(--logo-color, #ffffff);
+          color: #4e5e55;
+          padding-block: 0.2em;
+          border-radius: 50%;
+          text-transform: uppercase;
+          content: "Video";
+        }
+
+        @keyframes scanlines {
+          to {
+            background-position-y: 10px;
+          }
+        }
+
+        @keyframes colorChange {
+          0% {
+            --logo-color: #ffffff;
+          }
+          10% {
+            --logo-color: #ff0000;
+          }
+          20% {
+            --logo-color: #00ff00;
+          }
+          30% {
+            --logo-color: #0000ff;
+          }
+          40% {
+            --logo-color: #ffff00;
+          }
+          50% {
+            --logo-color: #00ffff;
+          }
+          60% {
+            --logo-color: #ff00ff;
+          }
+          70% {
+            --logo-color: #ffa500;
+          }
+          80% {
+            --logo-color: #800080;
+          }
+          90% {
+            --logo-color: #1e90ff;
+          }
+          100% {
+            --logo-color: #ffffff;
+          }
+        }
+      </style></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/rafa-porto/command-palette/command-palette
+- Registry URL: https://21st.dev/r/rafa-porto/command-palette
+- Author: rafa-porto
+- Component slug: command-palette
+- Demo slug: command-palette
+- Title: command-palette
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/rafa-porto/command-palette with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/rafa-porto__command-palette__command-palette.html
+- Local screenshot file: generated-21st-prompts/screenshots/rafa-porto__command-palette__command-palette.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="min-h-screen w-full flex flex-col items-center justify-center bg-background"><button class="fixed right-4 top-4 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-[#181818]/80 text-white shadow-lg backdrop-blur-md hover:bg-[#181818]/90 dark:bg-white/20 dark:hover:bg-white/30" aria-label="Open command palette" title="Press Ctrl+K to open command palette" tabindex="0" style="opacity: 1; transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-command h-5 w-5" aria-hidden="true"><path d="M15 6v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3V6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3"></path></svg></button><div class="mt-8 text-center text-muted-foreground text-base">You can open the Command Palette using the icon at the top right or by pressing <kbd class="px-1 py-0.5 rounded bg-muted border border-border text-xs font-mono">CMD + K</kbd> (or <kbd class="px-1 py-0.5 rounded bg-muted border border-border text-xs font-mono">Ctrl + K</kbd> on Windows/Linux).</div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

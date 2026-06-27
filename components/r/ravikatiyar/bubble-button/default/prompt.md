@@ -1,0 +1,68 @@
+# Build Bubble Button in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Bubble Button screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `bubble-button`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: bubble-button
+- Demo slug: default
+- Title: bubble-button
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-[200px] w-full items-center justify-center bg-background p-4"><div class="group relative inline-flex cursor-default items-center gap-3 overflow-hidden rounded-full border bg-secondary px-4 py-2 text-base font-medium text-secondary-foreground shadow-sm transition-all hover:shadow-md" data-state="closed"><style>
+    @keyframes rise {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 0.4;
+      }
+      100% {
+        transform: translateY(-100px) scale(0);
+        opacity: 0;
+      }
+    }
+  </style><div class="absolute inset-0 z-5 overflow-hidden rounded-full"><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 12.5515px; height: 4.911px; left: 19.3755%; animation: 4.57877s linear 0.71478s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 9.41829px; height: 7.79334px; left: 50.8091%; animation: 2.69681s linear 0.751436s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 9.52431px; height: 4.1646px; left: 16.8825%; animation: 3.35038s linear 3.40825s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 6.90394px; height: 7.32137px; left: 78.9641%; animation: 2.45511s linear 2.02164s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 15.7198px; height: 13.6279px; left: 23.8128%; animation: 2.08997s linear 0.955544s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 14.3793px; height: 15.1775px; left: 83.4941%; animation: 4.29555s linear 0.539985s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 15.4149px; height: 8.36213px; left: 94.8374%; animation: 3.61798s linear 2.33276s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 13.1133px; height: 14.8119px; left: 31.5219%; animation: 3.00674s linear 3.17581s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 14.9733px; height: 15.0341px; left: 56.0469%; animation: 4.51736s linear 1.37967s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 14.7285px; height: 4.94851px; left: 71.0661%; animation: 4.19424s linear 2.17139s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 14.6866px; height: 8.43003px; left: 72.6214%; animation: 4.55669s linear 3.06487s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 12.6656px; height: 4.54489px; left: 79.8522%; animation: 3.05578s linear 2.74392s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 4.70774px; height: 11.9699px; left: 4.22232%; animation: 4.82238s linear 2.81916s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 12.7228px; height: 7.37512px; left: 50.2599%; animation: 3.08661s linear 2.62961s infinite normal none running rise;"></span><span class="absolute bottom-[-10px] block rounded-full bg-foreground/20 [animation-play-state:paused] group-hover:[animation-play-state:running]" style="width: 14.8885px; height: 4.41907px; left: 32.1448%; animation: 2.04948s linear 1.17233s infinite normal none running rise;"></span></div><div class="z-10"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-database h-4 w-4" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5V19A9 3 0 0 0 21 19V5"></path><path d="M3 12A9 3 0 0 0 21 12"></path></svg></div><div class="z-10"><span>Free</span><span class="ml-2 opacity-70">20/20 left</span></div><div class="absolute inset-0 z-0 h-full w-full bg-secondary"></div><div class="absolute inset-y-0 left-0 z-0 h-full bg-foreground/10 transition-all duration-300" style="width: 100%;"></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

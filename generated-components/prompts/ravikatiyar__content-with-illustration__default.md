@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/content-with-illustration/default
+- Registry URL: https://21st.dev/r/ravikatiyar/content-with-illustration
+- Author: ravikatiyar
+- Component slug: content-with-illustration
+- Demo slug: default
+- Title: content-with-illustration
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/content-with-illustration with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__content-with-illustration__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__content-with-illustration__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full bg-background"><section class="w-full max-w-6xl mx-auto px-4 py-12 md:py-20 font-sans"><div class="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center"><div class="flex flex-col gap-6 text-left"><h2 class="text-3xl md:text-4xl font-bold tracking-tight text-foreground">At Eternal, it is <span class="relative inline-block whitespace-nowrap"><svg aria-hidden="true" class="absolute top-1/2 left-1/2 w-[115%] h-[160%] -translate-x-1/2 -translate-y-1/2 text-primary/80 dark:text-primary/60 pointer-events-none" viewBox="0 0 200 60" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg"><path d="M10,30 C20,5, 180,5, 190,30 C180,55, 20,55, 10,30 Z" stroke="currentColor" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>always Day 1</span></h2><div class="flex flex-col gap-4 text-base md:text-lg text-muted-foreground"><p>Every day, just like today, has the potential to redefine the rest of our lives as an organization.</p><p>Eternal started as Zomato, on 26th January 2008 (Deepinder's 25th birthday), when one weekend, he went around town, collected all takeaway menus he could find, and put them up on a website, mostly in the spirit of service to his friends, and other people around him.</p><p>At the time, he had no intention of it turning into a business. He did not think there was any money to be made out of this.</p><p>Eternal is a result of tackling challenges day by day. Progress happened incrementally, and sometimes in leaps. That's how we got here. And that's how we move forward - one day at a time. One step after another.</p></div></div><div class="relative flex justify-center items-center h-full"><img alt="Animated sun doodle" class="absolute top-0 right-0 md:right-10 w-16 h-16 animate-subtle-spin" aria-hidden="true" src="https://www.thiings.co/_next/image?url=https%3A%2F%2Flftz25oez4aqbxpq.public.blob.vercel-storage.com%2Fimage-o53JuZpiN3JOy3N3lXQMLmskV0OslK.png&amp;w=320&amp;q=75"><img alt="Illustration of a person with a backpack looking towards the sun" class="w-full max-w-sm h-auto object-contain" src="https://b.zmtcdn.com/data/o2_assets/014994354a98f17fdaad8f12c791653d1743675055.png"></div></div></section></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

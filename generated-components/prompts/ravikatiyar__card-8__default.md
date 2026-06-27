@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/card-8/default
+- Registry URL: https://21st.dev/r/ravikatiyar/card-8
+- Author: ravikatiyar
+- Component slug: card-8
+- Demo slug: default
+- Title: card-8
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/card-8 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__card-8__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__card-8__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-full w-full items-center justify-center bg-background p-4"><div class="group flex max-w-2xl flex-col overflow-hidden rounded-xl bg-card shadow-sm md:flex-row w-full" style="opacity: 1; transform: none;"><div class="md:w-2/5"><img alt="Close-up of code on a screen" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1460472178825-e5240623afd5?q=80&amp;w=2069&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&amp;auto=format&amp;fit=crop"></div><div class="flex flex-1 flex-col justify-between p-6 md:w-3/5"><div class="flex-1"><h2 class="mb-2 text-xl font-semibold leading-tight text-card-foreground">Green plants are going to Extinct about 500 times faster than they should, Study finds</h2><p class="mb-4 text-sm text-muted-foreground">If you are the sort of person who just can not keep a plant alive, you are not alone according to a new study published June 10 in the journal Nature...</p></div><div class="flex items-center justify-between"><div class="flex items-center space-x-3"><img alt="Alexander Parkinson" class="h-9 w-9 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/32.jpg"><div><p class="text-sm font-medium text-foreground">Alexander Parkinson</p><p class="text-xs text-muted-foreground">Jun 20, 2019</p></div></div><button aria-label="Share article" class="rounded-full p-2 text-muted-foreground transition-colors hover:bg-accent hover:text-accent-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2 h-4 w-4" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg></button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

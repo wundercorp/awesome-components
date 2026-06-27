@@ -1,0 +1,79 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ravikatiyar/frame/default
+- Registry URL: https://21st.dev/r/ravikatiyar/frame
+- Author: ravikatiyar
+- Component slug: frame
+- Demo slug: default
+- Title: frame
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ravikatiyar/frame with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ravikatiyar__frame__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ravikatiyar__frame__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex w-full h-[500px] items-center justify-center bg-background p-4"><style>
+    @keyframes blob-path-animation {
+      0% {
+        d: path("M0.81,0.56 C0.84,0.73 0.69,0.88 0.52,0.92 C0.35,0.96 0.17,0.85 0.09,0.68 C0.01,0.51 0.07,0.3 0.23,0.19 C0.39,0.08 0.61,0.11 0.72,0.26 C0.8,0.37 0.78,0.47 0.81,0.56 Z");
+      }
+      25% {
+        d: path("M0.88,0.56 C0.93,0.69 0.8,0.86 0.63,0.9 C0.46,0.94 0.25,0.88 0.16,0.74 C0.07,0.6 0.11,0.41 0.25,0.3 C0.39,0.19 0.61,0.21 0.73,0.33 C0.82,0.42 0.85,0.48 0.88,0.56 Z");
+      }
+      50% {
+        d: path("M0.84,0.62 C0.88,0.73 0.75,0.88 0.58,0.91 C0.41,0.94 0.24,0.86 0.15,0.72 C0.06,0.58 0.12,0.38 0.27,0.27 C0.42,0.16 0.62,0.2 0.73,0.33 C0.81,0.43 0.81,0.53 0.84,0.62 Z");
+      }
+      75% {
+        d: path("M0.8,0.66 C0.84,0.78 0.7,0.91 0.54,0.92 C0.38,0.93 0.21,0.84 0.13,0.7 C0.05,0.56 0.13,0.37 0.28,0.26 C0.43,0.15 0.62,0.2 0.71,0.33 C0.78,0.43 0.77,0.57 0.8,0.66 Z");
+      }
+      100% {
+        d: path("M0.81,0.56 C0.84,0.73 0.69,0.88 0.52,0.92 C0.35,0.96 0.17,0.85 0.09,0.68 C0.01,0.51 0.07,0.3 0.23,0.19 C0.39,0.08 0.61,0.11 0.72,0.26 C0.8,0.37 0.78,0.47 0.81,0.56 Z");
+      }
+    }
+
+    @keyframes blob-spin-animation {
+      0% { transform: rotate(0deg); }
+      50% { transform: rotate(5deg); }
+      100% { transform: rotate(0deg); }
+    }
+
+    .animate-blob-path-component {
+      animation: blob-path-animation 15s ease-in-out infinite;
+    }
+
+    .animate-blob-spin-component {
+      animation: blob-spin-animation 20s ease-in-out infinite;
+    }
+  </style><div class="relative aspect-square animate-blob-spin-component w-full max-w-xs sm:max-w-sm md:max-w-md"><img alt="Woman in a red and white striped swimsuit on a beach" class="absolute inset-0 w-full h-full object-cover" src="https://images.unsplash.com/photo-1640450013037-b0aba6ad5bf4?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fDgwfGVufDB8fDB8fHww" style="clip-path: url(&quot;#blob-shape-component&quot;);"><svg class="absolute w-0 h-0"><defs><clipPath id="blob-shape-component" clipPathUnits="objectBoundingBox"><path d="M0.81,0.56 C0.84,0.73 0.69,0.88 0.52,0.92 C0.35,0.96 0.17,0.85 0.09,0.68 C0.01,0.51 0.07,0.3 0.23,0.19 C0.39,0.08 0.61,0.11 0.72,0.26 C0.8,0.37 0.78,0.47 0.81,0.56 Z" class="animate-blob-path-component"></path></clipPath></defs></svg></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

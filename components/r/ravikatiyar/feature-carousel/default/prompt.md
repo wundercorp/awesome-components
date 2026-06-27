@@ -1,0 +1,57 @@
+# Build Feature Carousel in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Feature Carousel screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ravikatiyar`
+- Component: `feature-carousel`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ravikatiyar
+- Component slug: feature-carousel
+- Demo slug: default
+- Title: feature-carousel
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full"><div class="relative w-full min-h-screen flex flex-col items-center justify-center overflow-x-hidden bg-background text-foreground p-4" appstorelink="#" googleplaylink="#"><div class="absolute inset-0 z-0 opacity-20" aria-hidden="true"><div class="absolute bottom-0 left-[-20%] right-0 top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(128,90,213,0.3),rgba(255,255,255,0))]"></div><div class="absolute bottom-0 right-[-20%] top-[-10%] h-[500px] w-[500px] rounded-full bg-[radial-gradient(circle_farthest-side,rgba(0,123,255,0.3),rgba(255,255,255,0))]"></div></div><div class="z-10 flex w-full flex-col items-center text-center space-y-8 md:space-y-12"><div class="space-y-4"><h1 class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter max-w-4xl">Edit Your <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-500 to-purple-500">Photos </span> on the Go</h1><p class="max-w-2xl mx-auto text-muted-foreground md:text-xl">Use all our AI-powered photo editing tools on your phone, available for all iOS and Android.</p></div><div class="relative w-full h-[350px] md:h-[450px] flex items-center justify-center"><div class="relative w-full h-full flex items-center justify-center [perspective:1000px]"><div class="absolute w-48 h-96 md:w-64 md:h-[450px] transition-all duration-500 ease-in-out flex items-center justify-center" style="transform: translateX(90%) scale(0.7) rotateY(-20deg); z-index: 1; opacity: 0; filter: blur(4px); visibility: hidden;"><img alt="Professional portrait of a woman" class="object-cover w-full h-full rounded-3xl border-2 border-foreground/10 shadow-2xl" src="https://images.unsplash.com/photo-1504051771394-dd2e66b2e08f?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NjJ8fGdpcmx8ZW58MHx8MHx8fDA%3D"></div><div class="absolute w-48 h-96 md:w-64 md:h-[450px] transition-all duration-500 ease-in-out flex items-center justify-center" style="transform: translateX(-90%) scale(0.7) rotateY(20deg); z-index: 1; opacity: 0; filter: blur(4px); visibility: hidden;"><img alt="Scenic landscape with mountains and a lake" class="object-cover w-full h-full rounded-3xl border-2 border-foreground/10 shadow-2xl" src="https://images.unsplash.com/photo-1526510747491-58f928ec870f?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTl8fGdpcmx8ZW58MHx8MHx8fDA%3D"></div><div class="absolute w-48 h-96 md:w-64 md:h-[450px] transition-all duration-500 ease-in-out flex items-center justify-center" style="transform: translateX(-45%) scale(0.85) rotateY(10deg); z-index: 5; opacity: 0.4; filter: blur(4px); visibility: visible;"><img alt="Artistic photo of a girl with flowers" class="object-cover w-full h-full rounded-3xl border-2 border-foreground/10 shadow-2xl" src="https://plus.unsplash.com/premium_photo-1670282392820-e3590c1c5c54?w=900&amp;auto=format&amp;fit=crop&amp;q=60"></div><div class="absolute w-48 h-96 md:w-64 md:h-[450px] transition-all duration-500 ease-in-out flex items-center justify-center" style="transform: translateX(0%) scale(1) rotateY(0deg); z-index: 10; opacity: 1; filter: blur(0px); visibility: visible;"><img alt="A dog wearing sunglasses" class="object-cover w-full h-full rounded-3xl border-2 border-foreground/10 shadow-2xl" src="https://images.unsplash.com/photo-1581403341630-a6e0b9d2d257?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGdpcmx8ZW58MHx8MHx8fDA%3D"></div><div class="absolute w-48 h-96 md:w-64 md:h-[450px] transition-all duration-500 ease-in-out flex items-center justify-center" style="transform: translateX(45%) scale(0.85) rotateY(-10deg); z-index: 5; opacity: 0.4; filter: blur(4px); visibility: visible;"><img alt="Creative shot of a person from behind" class="object-cover w-full h-full rounded-3xl border-2 border-foreground/10 shadow-2xl" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=900&amp;auto=format&amp;fit=crop&amp;q=60&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGdpcmx8ZW58MHx8MHx8fDA%3D"></div></div><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground absolute left-2 sm:left-8 top-1/2 -translate-y-1/2 rounded-full h-10 w-10 z-20 bg-background/50 backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left h-5 w-5" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:bg-accent hover:text-accent-foreground absolute right-2 sm:right-8 top-1/2 -translate-y-1/2 rounded-full h-10 w-10 z-20 bg-background/50 backdrop-blur-sm"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-right h-5 w-5" aria-hidden="true"><path d="m9 18 6-6-6-6"></path></svg></button></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
