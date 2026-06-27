@@ -20,8 +20,6 @@ Start here:
 - [Component directory](components/README.md)
 - [Component metadata JSON](data/components.json)
 
-This starter export currently contains 70 generated component pages from the uploaded bundle. The importer in `scripts/import-generated-components.mjs` can regenerate the directory from a larger `generated-components` folder after the full 6,000+ component run finishes.
-
 ## Repository structure
 
 ```text
@@ -41,19 +39,6 @@ data/
 scripts/
   import-generated-components.mjs
 ```
-
-## Publish to GitHub
-
-```bash
-git init
-git add .
-git commit -m "Initial awesome components directory"
-git branch -M main
-git remote add origin git@github.com:wundercorp/awesome-components.git
-git push -u origin main
-```
-
-You need write access to the `wundercorp` GitHub organization to publish directly there.
 
 ## Contributing
 
