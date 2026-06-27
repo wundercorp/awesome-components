@@ -20,7 +20,7 @@ Browse components by author bucket, then by author, then by component.
 | [m](m/README.md) | 27 | 340 |
 | [n](n/README.md) | 15 | 69 |
 | [o](o/README.md) | 11 | 323 |
-| [p](p/README.md) | 2 | 8 |
+| [p](p/README.md) | 6 | 80 |
 | [r](r/README.md) | 3 | 18 |
 | [s](s/README.md) | 7 | 278 |
 | [t](t/README.md) | 3 | 7 |

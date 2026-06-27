@@ -1,0 +1,21 @@
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><style>
+                @keyframes shine {
+                    0% {
+                        background-position: 0% 50%;
+                    }
+            
+                    50% {
+                        background-position: 100% 50%;
+                    }
+            
+                    100% {
+                        background-position: 0% 50%;
+                    }
+                }
+            
+                .button-bg {
+                    background: conic-gradient(from 0deg, #00F5FF, #FF00C7, #FFD700, #00FF85, #8A2BE2, #00F5FF);
+                    background-size: 300% 300%;
+                    animation: shine 4s ease-out infinite;
+                }
+            </style><div class="button-bg rounded-full p-0.5 hover:scale-105 transition duration-300 active:scale-100"><button class="px-8 text-sm py-2.5 text-white rounded-full font-medium bg-gray-800">Click Me</button></div></div></div></div>
