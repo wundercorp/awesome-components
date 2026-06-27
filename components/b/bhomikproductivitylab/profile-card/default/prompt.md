@@ -1,0 +1,57 @@
+# Build Profile Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Profile Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `bhomikproductivitylab`
+- Component: `profile-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: bhomikproductivitylab
+- Component slug: profile-card
+- Demo slug: default
+- Title: profile-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-sm mx-auto"><div class="bg-card rounded-[2rem] shadow-lg overflow-hidden"><div class="relative h-40 bg-gradient-to-br from-sky-start to-sky-end overflow-hidden"><img alt="Background" class="w-full h-full object-cover opacity-60" src="https://i.ibb.co/nHk8jc8/cloud-image.jpg"><button class="absolute top-4 right-4 rounded-full px-6 py-2 font-medium transition-all duration-300 bg-card text-card-foreground hover:bg-secondary">Follow<span class="ml-2 text-lg">+</span></button></div><div class="px-6 pb-6 -mt-12"><div class="relative w-24 h-24 mb-4"><div class="w-full h-full rounded-full border-4 border-card overflow-hidden bg-card shadow-lg"><img alt="Bhomik Chauhan" class="w-full h-full object-cover" src="https://i.ibb.co/Kc3MTRNm/caarton-character.png"></div></div><div class="mb-6"><div class="flex items-center gap-2 mb-1"><span class="text-sm text-muted-foreground font-light">exp.</span><div class="flex-1 h-2 bg-secondary rounded-full overflow-hidden"><div class="h-full bg-gradient-to-r from-purple-500 via-pink-500 via-orange-500 via-yellow-500 via-green-500 to-blue-500 transition-all duration-300 ease-out" style="width: 65%;"></div></div></div></div><h2 class="text-2xl font-semibold text-card-foreground mb-2 tracking-tight">Bhomik Chauhan</h2><p class="text-muted-foreground text-sm leading-relaxed mb-6 font-light">Product Designer who focuses on simplicity &amp; usability.</p><div class="grid grid-cols-3 gap-4 mb-6 py-4 border-t border-b border-border"><div class="text-center"><div class="text-2xl font-semibold text-card-foreground mb-1">72.9K</div><div class="text-xs text-muted-foreground font-light">Likes</div></div><div class="text-center border-l border-r border-border"><div class="text-2xl font-semibold text-card-foreground mb-1">828</div><div class="text-xs text-muted-foreground font-light">Posts</div></div><div class="text-center"><div class="text-2xl font-semibold text-card-foreground mb-1">342.9K</div><div class="text-xs text-muted-foreground font-light">Views</div></div></div><div class="flex justify-center gap-8"><a href="https://instagram.com/bhomikchauhan" target="_blank" rel="noopener noreferrer" class="p-2 hover:bg-secondary rounded-lg transition-colors" aria-label="Instagram Profile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram w-5 h-5 text-card-foreground" aria-hidden="true"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg></a><a href="https://twitter.com/bhomikchauhan" target="_blank" rel="noopener noreferrer" class="p-2 hover:bg-secondary rounded-lg transition-colors" aria-label="Twitter Profile"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter w-5 h-5 text-card-foreground" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a><a href="https://threads.net/@bhomikchauhan" target="_blank" rel="noopener noreferrer" class="p-2 hover:bg-secondary rounded-lg transition-colors" aria-label="Threads Profile"><svg class="w-5 h-5 text-card-foreground" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg></a></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

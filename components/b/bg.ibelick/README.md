@@ -1,6 +1,6 @@
 # Bg.ibelick Components
 
-15 components are available in this author group.
+20 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -21,3 +21,8 @@
 | [![Background Snippets](background-snippets/background-radial-dark-purple/screenshot.png)](background-snippets/background-radial-dark-purple/README.md) | [Background Snippets](background-snippets/background-radial-dark-purple/README.md) | `background-radial-dark-purple` |
 | [![Background Snippets](background-snippets/background-radial-purple/screenshot.png)](background-snippets/background-radial-purple/README.md) | [Background Snippets](background-snippets/background-radial-purple/README.md) | `background-radial-purple` |
 | [![Background Snippets](background-snippets/background-radial-top/screenshot.png)](background-snippets/background-radial-top/README.md) | [Background Snippets](background-snippets/background-radial-top/README.md) | `background-radial-top` |
+| [![Background Snippets](background-snippets/background-radial-violet/screenshot.png)](background-snippets/background-radial-violet/README.md) | [Background Snippets](background-snippets/background-radial-violet/README.md) | `background-radial-violet` |
+| [![Background Snippets](background-snippets/default/screenshot.png)](background-snippets/default/README.md) | [Background Snippets](background-snippets/default/README.md) | `default` |
+| [![Gradient Background 4](gradient-background-4/default/screenshot.png)](gradient-background-4/default/README.md) | [Gradient Background 4](gradient-background-4/default/README.md) | `default` |
+| [![Light Theme Tailwind Css Background Snippet](light-theme-tailwind-css-background-snippet/default/screenshot.png)](light-theme-tailwind-css-background-snippet/default/README.md) | [Light Theme Tailwind Css Background Snippet](light-theme-tailwind-css-background-snippet/default/README.md) | `default` |
+| [![Tailwind Css Background Snippet](tailwind-css-background-snippet/default/screenshot.png)](tailwind-css-background-snippet/default/README.md) | [Tailwind Css Background Snippet](tailwind-css-background-snippet/default/README.md) | `default` |

@@ -1,6 +1,6 @@
 # Bucket b
 
-146 components from 12 author groups.
+189 components from 20 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -14,5 +14,13 @@
 | [beratberkay](beratberkay/README.md) | 24 |
 | [berkcangumusisik](berkcangumusisik/README.md) | 1 |
 | [berlix](berlix/README.md) | 5 |
-| [bg.ibelick](bg.ibelick/README.md) | 15 |
+| [bg.ibelick](bg.ibelick/README.md) | 20 |
+| [bhomikproductivitylab](bhomikproductivitylab/README.md) | 3 |
+| [bigbogiballer](bigbogiballer/README.md) | 1 |
 | [bklit](bklit/README.md) | 19 |
+| [blacksmith301](blacksmith301/README.md) | 1 |
+| [boudjadjasamira](boudjadjasamira/README.md) | 1 |
+| [brijr](brijr/README.md) | 19 |
+| [bucharitesh](bucharitesh/README.md) | 4 |
+| [builduilabs](builduilabs/README.md) | 5 |
+| [bundui](bundui/README.md) | 4 |
