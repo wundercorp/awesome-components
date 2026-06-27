@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/beratberkay/glassmorphism-profile-card/default
+- Registry URL: https://21st.dev/r/beratberkay/glassmorphism-profile-card
+- Author: beratberkay
+- Component slug: glassmorphism-profile-card
+- Demo slug: default
+- Title: glassmorphism-profile-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/beratberkay/glassmorphism-profile-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/beratberkay__glassmorphism-profile-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/beratberkay__glassmorphism-profile-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative w-sm" style="opacity: 1; transform: none;"><div class="pointer-events-none absolute inset-x-3 -bottom-10 top-[90%] rounded-[28px] bg-lime-400/90 blur-0 shadow-[0_40px_80px_-16px_rgba(163,230,53,0.8)] z-0 "></div><div class="absolute inset-x-0 -bottom-10 mx-auto w-full z-0"><div class="flex items-center justify-center gap-2 bg-transparent py-3 text-center text-sm font-medium text-black"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap h-4 w-4" aria-hidden="true"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg> Currently High on Creativity</div></div><div class="text-card-foreground relative z-10 mx-auto w-full max-w-3xl overflow-visible rounded-[20px] bg-white/10 dark:bg-white/5 backdrop-blur-xl border border-black/20 border-b-none dark:border-white/10 shadow-lg shadow-black/20 light:text-white hover:shadow-black/10"><div class="p-6 sm:p-8"><div class="mb-6 flex items-center justify-between text-sm text-neutral-500"><div class="flex items-center gap-2"><span class="inline-block h-2.5 w-2.5 rounded-full animate-pulse bg-lime-500"></span><span class="select-none">Available for work</span></div><div class="flex items-center gap-2 opacity-80"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-clock h-4 w-4" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg><span class="tabular-nums">3:20PM</span></div></div><div class="flex flex-col justify-center items-center gap-5"><div class="relative h-52 w-52 shrink-0 overflow-hidden rounded-[20px] ring-2 ring-white/10"><img alt="Berat Berkay avatar" sizes="56px" class="object-cover" src="https://img.clerk.com/eyJ0eXBlIjoicHJveHkiLCJzcmMiOiJodHRwczovL2ltYWdlcy5jbGVyay5kZXYvb2F1dGhfZ2l0aHViL2ltZ18yc2pLdFl5STR0MkZMcUNKaVNMQVJXRmNBSXIifQ"></div><div class="min-w-0 text-center"><h3 class="truncate text-xl font-semibold tracking-tight sm:text-3xl">Berat Berkay</h3><p class="mt-0.5 text-sm text-neutral-400">Developer</p></div></div><div class="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2"><button class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:text-accent-foreground px-4 py-2 h-12 justify-start gap-3 rounded-2xl bg-white/50 hover:bg-white/15"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-4 w-4" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg> Hire Me</button><button class="inline-flex items-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input hover:text-accent-foreground px-4 py-2 h-12 justify-start gap-3 rounded-2xl bg-white/50 hover:bg-white/15"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-copy h-4 w-4" aria-hidden="true"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg> Copy Email</button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,11 @@
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative w-full h-screen bg-[#0a0a0c] overflow-hidden cursor-none"><canvas class="absolute inset-0 block w-full h-full" width="992" height="944"></canvas><div class="relative z-10 flex flex-col items-center justify-center h-full pointer-events-none"><div class="px-8 py-4 border border-white/5 bg-white/[0.02] backdrop-blur-sm rounded-sm"><h2 class="text-white/30 font-light tracking-[0.7em] uppercase text-sm md:text-xl">Atmospheric Friction</h2><div class="w-full h-[1px] bg-gradient-to-r from-transparent via-white/10 to-transparent my-4"></div><p class="text-[10px] text-white/10 tracking-widest text-center">INTERACTIVE KINETIC ENVIRONMENT</p></div></div><div class="fixed top-0 left-0 w-4 h-4 rounded-full border border-white/20 pointer-events-none transition-transform duration-75 ease-out z-50" style="transform: translate(calc(var(--mouse-x, -100px) - 50%), calc(var(--mouse-y, -100px) - 50%));"></div><style>
+        :root {
+          --mouse-x: -100px;
+          --mouse-y: -100px;
+        }
+      </style><script>
+        window.addEventListener('mousemove', e => {
+          document.documentElement.style.setProperty('--mouse-x', e.clientX + 'px');
+          document.documentElement.style.setProperty('--mouse-y', e.clientY + 'px');
+        });
+      </script></div></div></div></div>

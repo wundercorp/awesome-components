@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/base-ui/tabs-1/default
+- Registry URL: https://21st.dev/r/base-ui/tabs-1
+- Author: base-ui
+- Component slug: tabs-1
+- Demo slug: default
+- Title: tabs-1
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/base-ui/tabs-1 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/base-ui__tabs-1__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/base-ui__tabs-1__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div data-orientation="horizontal" data-activation-direction="none" class="rounded-md border border-gray-200"><div data-orientation="horizontal" data-activation-direction="none" role="tablist" class="relative z-0 flex gap-1 px-1 shadow-[inset_0_-1px] shadow-gray-200"><button type="button" data-selected="" data-orientation="horizontal" aria-disabled="false" role="tab" aria-selected="true" id="base-ui-«r0»" data-composite-item-active="" tabindex="0" class="flex h-8 items-center justify-center border-0 px-2 text-sm font-medium break-keep whitespace-nowrap text-gray-600 outline-none select-none before:inset-x-0 before:inset-y-1 before:rounded-sm before:-outline-offset-1 before:outline-blue-800 hover:text-gray-900 focus-visible:relative focus-visible:before:absolute focus-visible:before:outline focus-visible:before:outline-2 data-[selected]:text-gray-900" aria-controls="base-ui-«r3»">Overview</button><button type="button" data-orientation="horizontal" aria-disabled="false" role="tab" aria-selected="false" id="base-ui-«r1»" tabindex="-1" class="flex h-8 items-center justify-center border-0 px-2 text-sm font-medium break-keep whitespace-nowrap text-gray-600 outline-none select-none before:inset-x-0 before:inset-y-1 before:rounded-sm before:-outline-offset-1 before:outline-blue-800 hover:text-gray-900 focus-visible:relative focus-visible:before:absolute focus-visible:before:outline focus-visible:before:outline-2 data-[selected]:text-gray-900" aria-controls="base-ui-«r4»">Projects</button><button type="button" data-orientation="horizontal" aria-disabled="false" role="tab" aria-selected="false" id="base-ui-«r2»" tabindex="-1" class="flex h-8 items-center justify-center border-0 px-2 text-sm font-medium break-keep whitespace-nowrap text-gray-600 outline-none select-none before:inset-x-0 before:inset-y-1 before:rounded-sm before:-outline-offset-1 before:outline-blue-800 hover:text-gray-900 focus-visible:relative focus-visible:before:absolute focus-visible:before:outline focus-visible:before:outline-2 data-[selected]:text-gray-900" aria-controls="base-ui-«r5»">Account</button><span data-orientation="horizontal" data-activation-direction="none" role="presentation" data-instance-id="tab-va5n-1" class="absolute top-1/2 left-0 z-[-1] h-6 w-[var(--active-tab-width)] translate-x-[var(--active-tab-left)] -translate-y-1/2 rounded-sm bg-gray-100 transition-all duration-200 ease-in-out" style="--active-tab-left: 4px; --active-tab-right: 153px; --active-tab-top: 0px; --active-tab-bottom: 0px; --active-tab-width: 78px; --active-tab-height: 32px;"></span></div><div data-orientation="horizontal" data-activation-direction="none" id="base-ui-«r3»" role="tabpanel" tabindex="0" data-index="0" class="relative flex h-32 items-center justify-center -outline-offset-1 outline-blue-800 focus-visible:rounded-md focus-visible:outline focus-visible:outline-2" aria-labelledby="base-ui-«r0»"><svg width="40" height="40" viewBox="0 0 30 30" fill="currentcolor" class="size-10 text-gray-300"><path d="M 6 4 C 4.895 4 4 4.895 4 6 L 4 12 C 4 13.105 4.895 14 6 14 L 12 14 C 13.105 14 14 13.105 14 12 L 14 6 C 14 4.895 13.105 4 12 4 L 6 4 z M 18 4 C 16.895 4 16 4.895 16 6 L 16 12 C 16 13.105 16.895 14 18 14 L 24 14 C 25.105 14 26 13.105 26 12 L 26 6 C 26 4.895 25.105 4 24 4 L 18 4 z M 9 6 C 10.657 6 12 7.343 12 9 C 12 10.657 10.657 12 9 12 C 7.343 12 6 10.657 6 9 C 6 7.343 7.343 6 9 6 z M 18 6 L 24 6 L 24 12 L 18 12 L 18 6 z M 6 16 C 4.895 16 4 16.895 4 18 L 4 24 C 4 25.105 4.895 26 6 26 L 12 26 C 13.105 26 14 25.105 14 24 L 14 18 C 14 16.895 13.105 16 12 16 L 6 16 z M 18 16 C 16.895 16 16 16.895 16 18 L 16 24 C 16 25.105 16.895 26 18 26 L 24 26 C 25.105 26 26 25.105 26 24 L 26 18 C 26 16.895 25.105 16 24 16 L 18 16 z M 21 17.5 L 24.5 21 L 21 24.5 L 17.5 21 L 21 17.5 z M 9 18 L 11.886719 23 L 6.1132812 23 L 9 18 z"></path></svg></div><div data-hidden="" data-orientation="horizontal" data-activation-direction="none" hidden="" id="base-ui-«r4»" role="tabpanel" tabindex="-1" data-index="1" class="relative flex h-32 items-center justify-center -outline-offset-1 outline-blue-800 focus-visible:rounded-md focus-visible:outline focus-visible:outline-2" aria-labelledby="base-ui-«r1»"></div><div data-hidden="" data-orientation="horizontal" data-activation-direction="none" hidden="" id="base-ui-«r5»" role="tabpanel" tabindex="-1" data-index="2" class="relative flex h-32 items-center justify-center -outline-offset-1 outline-blue-800 focus-visible:rounded-md focus-visible:outline focus-visible:outline-2" aria-labelledby="base-ui-«r2»"></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

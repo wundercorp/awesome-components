@@ -1,0 +1,57 @@
+# Build Tabs Component in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Tabs Component screenshot](screenshot.png)
+
+## Component
+
+- Author group: `anubra266`
+- Component: `tabs-component`
+- Variant: `tabs-stack-w-icons`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: anubra266
+- Component slug: tabs-component
+- Demo slug: tabs-stack-w-icons
+- Title: tabs-component
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="bg-white dark:bg-gray-800 w-full px-4 py-12 rounded-xl flex flex-col items-center"><div data-scope="tabs" data-part="root" id="tabs:«r0»" data-orientation="horizontal" dir="ltr" class="w-full flex flex-col items-center max-w-md"><div data-scope="tabs" data-part="list" id="tabs:«r0»:list" role="tablist" dir="ltr" aria-orientation="horizontal" data-orientation="horizontal" class="w-full flex justify-center gap-0.5 mb-0 before:bg-gray-200 dark:before:bg-gray-600 relative before:absolute before:inset-x-0 before:bottom-0 before:h-px"><button data-scope="tabs" data-part="trigger" role="tab" type="button" dir="ltr" data-orientation="horizontal" data-value="tab1" aria-selected="true" data-selected="" data-focus="" aria-controls="tabs:«r0»:content-tab1" data-ownedby="tabs:«r0»:list" id="tabs:«r0»:trigger-tab1" tabindex="0" class="flex items-center gap-2 bg-gray-100 rounded-t-lg border border-gray-200 border-b-0 py-2 px-6 text-sm font-medium text-gray-600 hover:text-gray-700 transition-colors data-selected:text-gray-900 data-selected:bg-white data-selected:border-b-0 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 dark:hover:text-gray-200 dark:data-selected:text-gray-100 dark:data-selected:bg-gray-800 data-selected:z-10"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user w-4 h-4" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>Profile</button><button data-scope="tabs" data-part="trigger" role="tab" type="button" dir="ltr" data-orientation="horizontal" data-value="tab2" aria-selected="false" data-ownedby="tabs:«r0»:list" id="tabs:«r0»:trigger-tab2" tabindex="-1" class="flex items-center gap-2 bg-gray-100 rounded-t-lg border border-gray-200 border-b-0 py-2 px-6 text-sm font-medium text-gray-600 hover:text-gray-700 transition-colors data-selected:text-gray-900 data-selected:bg-white data-selected:border-b-0 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 dark:hover:text-gray-200 dark:data-selected:text-gray-100 dark:data-selected:bg-gray-800 data-selected:z-10"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-credit-card w-4 h-4" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"></rect><line x1="2" x2="22" y1="10" y2="10"></line></svg>Billing</button><button data-scope="tabs" data-part="trigger" role="tab" type="button" dir="ltr" data-orientation="horizontal" data-value="tab3" aria-selected="false" data-ownedby="tabs:«r0»:list" id="tabs:«r0»:trigger-tab3" tabindex="-1" class="flex items-center gap-2 bg-gray-100 rounded-t-lg border border-gray-200 border-b-0 py-2 px-6 text-sm font-medium text-gray-600 hover:text-gray-700 transition-colors data-selected:text-gray-900 data-selected:bg-white data-selected:border-b-0 dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300 dark:hover:text-gray-200 dark:data-selected:text-gray-100 dark:data-selected:bg-gray-800 data-selected:z-10"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield w-4 h-4" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg>Privacy</button></div><div class="w-full"><div data-scope="tabs" data-part="content" dir="ltr" id="tabs:«r0»:content-tab1" tabindex="0" aria-labelledby="tabs:«r0»:trigger-tab1" role="tabpanel" data-ownedby="tabs:«r0»:list" data-selected="" data-orientation="horizontal" data-state="open" class="p-4 text-center text-gray-600 dark:text-gray-300 text-sm">Update your personal information and avatar.</div><div data-scope="tabs" data-part="content" dir="ltr" id="tabs:«r0»:content-tab2" tabindex="0" aria-labelledby="tabs:«r0»:trigger-tab2" role="tabpanel" data-ownedby="tabs:«r0»:list" data-orientation="horizontal" hidden="" data-state="closed" class="p-4 text-center text-gray-600 dark:text-gray-300 text-sm">Manage subscriptions and payment methods.</div><div data-scope="tabs" data-part="content" dir="ltr" id="tabs:«r0»:content-tab3" tabindex="0" aria-labelledby="tabs:«r0»:trigger-tab3" role="tabpanel" data-ownedby="tabs:«r0»:list" data-orientation="horizontal" hidden="" data-state="closed" class="p-4 text-center text-gray-600 dark:text-gray-300 text-sm">Configure data protection and security.</div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

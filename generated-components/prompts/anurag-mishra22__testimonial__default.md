@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/anurag-mishra22/testimonial/default
+- Registry URL: https://21st.dev/r/anurag-mishra22/testimonial
+- Author: anurag-mishra22
+- Component slug: testimonial
+- Demo slug: default
+- Title: testimonial
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/anurag-mishra22/testimonial with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/anurag-mishra22__testimonial__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/anurag-mishra22__testimonial__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="h-72 w-full flex items-center justify-center max-w-2xl mx-auto"><div class="relative w-80 h-64"><div class="absolute w-full h-full rounded-2xl cursor-grab active:cursor-grabbing bg-white shadow-xl dark:bg-card dark:shadow-[2px_2px_4px_rgba(0,0,0,0.4),-1px_-1px_3px_rgba(255,255,255,0.1)]" draggable="false" style="z-index: 3; opacity: 1; transform: none; user-select: none; touch-action: pan-y;"><div class="absolute inset-x-0 top-2 flex justify-between px-4"><span class="text-2xl select-none cursor-pointer text-gray-300 hover:text-gray-400 dark:text-muted-foreground dark:hover:text-primary">←</span><span class="text-2xl select-none cursor-pointer text-gray-300 hover:text-gray-400 dark:text-muted-foreground dark:hover:text-primary">→</span></div><div class="p-6 flex flex-col items-center gap-4"><img alt="John Doe" class="w-16 h-16 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/1.jpg"><h3 class="text-lg font-semibold text-gray-800 dark:text-foreground">John Doe</h3><p class="text-center text-sm text-gray-600 dark:text-muted-foreground">Amazing experience working with this team! The results exceeded my expectations.</p></div></div><div class="absolute w-full h-full rounded-2xl cursor-grab active:cursor-grabbing bg-white shadow-xl dark:bg-card dark:shadow-[2px_2px_4px_rgba(0,0,0,0.4),-1px_-1px_3px_rgba(255,255,255,0.1)]" style="z-index: 2; opacity: 0.6; transform: translateY(8px) scale(0.95) rotate(-2deg);"><div class="p-6 flex flex-col items-center gap-4"><img alt="Jane Smith" class="w-16 h-16 rounded-full object-cover" src="https://randomuser.me/api/portraits/women/1.jpg"><h3 class="text-lg font-semibold text-gray-800 dark:text-foreground">Jane Smith</h3><p class="text-center text-sm text-gray-600 dark:text-muted-foreground">Highly recommended! Great service and professional approach.</p></div></div><div class="absolute w-full h-full rounded-2xl cursor-grab active:cursor-grabbing bg-white shadow-xl dark:bg-card dark:shadow-[2px_2px_4px_rgba(0,0,0,0.4),-1px_-1px_3px_rgba(255,255,255,0.1)]" style="z-index: 1; opacity: 0.3; transform: translateY(16px) scale(0.95) rotate(-4deg);"><div class="p-6 flex flex-col items-center gap-4"><img alt="Mike Johnson" class="w-16 h-16 rounded-full object-cover" src="https://randomuser.me/api/portraits/men/2.jpg"><h3 class="text-lg font-semibold text-gray-800 dark:text-foreground">Mike Johnson</h3><p class="text-center text-sm text-gray-600 dark:text-muted-foreground">Exceptional quality and professionalism. Would definitely work with them again.</p></div></div><div class="absolute -bottom-8 left-0 right-0 flex justify-center gap-2"><div class="w-2 h-2 rounded-full transition-colors bg-blue-500 dark:bg-primary"></div><div class="w-2 h-2 rounded-full transition-colors bg-gray-300 dark:bg-muted-foreground/30"></div><div class="w-2 h-2 rounded-full transition-colors bg-gray-300 dark:bg-muted-foreground/30"></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

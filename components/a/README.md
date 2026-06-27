@@ -1,6 +1,6 @@
 # Bucket a
 
-539 components from 24 author groups.
+807 components from 39 author groups.
 
 | Author | Components |
 | --- | ---: |
@@ -27,4 +27,19 @@
 | [ankit-2145](ankit-2145/README.md) | 1 |
 | [anshuman008](anshuman008/README.md) | 1 |
 | [antdesign](antdesign/README.md) | 49 |
-| [anubra266](anubra266/README.md) | 212 |
+| [anubra266](anubra266/README.md) | 296 |
+| [anurag-mishra22](anurag-mishra22/README.md) | 15 |
+| [appvibed01](appvibed01/README.md) | 2 |
+| [arhamkhnz](arhamkhnz/README.md) | 4 |
+| [arihantcodes_1f7b8c4d](arihantcodes_1f7b8c4d/README.md) | 76 |
+| [armandsalle](armandsalle/README.md) | 1 |
+| [arunachalam0606](arunachalam0606/README.md) | 23 |
+| [arunjdass](arunjdass/README.md) | 5 |
+| [ashishrajwaniai01](ashishrajwaniai01/README.md) | 4 |
+| [authenticui](authenticui/README.md) | 3 |
+| [avanishverma4](avanishverma4/README.md) | 33 |
+| [axai-kaizoku](axai-kaizoku/README.md) | 1 |
+| [axelwesselgren](axelwesselgren/README.md) | 1 |
+| [axorax](axorax/README.md) | 2 |
+| [aymanch-03](aymanch-03/README.md) | 2 |
+| [ayushmxxn](ayushmxxn/README.md) | 12 |

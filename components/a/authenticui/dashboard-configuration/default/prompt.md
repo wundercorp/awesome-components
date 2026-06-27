@@ -1,0 +1,57 @@
+# Build Dashboard Configuration in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Dashboard Configuration screenshot](screenshot.png)
+
+## Component
+
+- Author group: `authenticui`
+- Component: `dashboard-configuration`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: authenticui
+- Component slug: dashboard-configuration
+- Demo slug: default
+- Title: dashboard-configuration
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="p-8 bg-background border rounded-lg max-w-2xl mx-auto shadow-md"><h3 class="text-xl font-semibold text-foreground mb-6">Dashboard Layout Control Demo</h3><div class="rounded-lg border bg-card text-card-foreground w-full max-w-lg mx-auto shadow-xl"><div class="flex flex-col space-y-1.5 p-6 border-b"><h3 class="tracking-tight text-2xl font-bold text-foreground flex items-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-grid h-6 w-6 mr-3 text-primary" aria-hidden="true"><rect width="7" height="7" x="3" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="3" rx="1"></rect><rect width="7" height="7" x="14" y="14" rx="1"></rect><rect width="7" height="7" x="3" y="14" rx="1"></rect></svg>Dashboard Configuration</h3><p class="text-sm text-muted-foreground mt-1">Toggle widget visibility and manage your dashboard layout settings.</p></div><div class="p-0"><h3 class="text-lg font-semibold text-foreground px-6 pt-6 pb-2">Widget Visibility</h3><div dir="ltr" class="relative overflow-hidden h-[300px] px-6" style="position: relative; --radix-scroll-area-corner-width: 0px; --radix-scroll-area-corner-height: 0px;"><style>[data-radix-scroll-area-viewport]{scrollbar-width:none;-ms-overflow-style:none;-webkit-overflow-scrolling:touch;}[data-radix-scroll-area-viewport]::-webkit-scrollbar{display:none}</style><div data-radix-scroll-area-viewport="" class="h-full w-full rounded-[inherit]" style="overflow: hidden scroll;"><div style="min-width: 100%; display: table;"><div class="space-y-4 py-2"><div class="flex items-start space-x-3 p-2 rounded-lg transition-colors duration-150 hover:bg-muted/70"><div class="pt-1"><button type="button" role="checkbox" aria-checked="true" data-state="checked" data-disabled="" disabled="" value="on" class="peer h-4 w-4 shrink-0 rounded-sm border ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground bg-primary border-primary opacity-100 cursor-not-allowed" id="widget-metrics"><span data-state="checked" data-disabled="" class="flex items-center justify-center text-current" style="pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span></button></div><label for="widget-metrics" class="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70 text-primary/90"><span class="text-foreground">Key Metrics</span><span class="text-xs text-muted-foreground mt-0.5">Overall performance indicators.</span></label></div><div class="flex items-start space-x-3 p-2 rounded-lg transition-colors duration-150 hover:bg-muted/70"><div class="pt-1"><button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground cursor-pointer" id="widget-activity"><span data-state="checked" class="flex items-center justify-center text-current" style="pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span></button></div><label for="widget-activity" class="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"><span class="text-foreground">Recent Activity</span><span class="text-xs text-muted-foreground mt-0.5">Chronological feed of user actions.</span></label></div><div class="flex items-start space-x-3 p-2 rounded-lg transition-colors duration-150 hover:bg-muted/70"><div class="pt-1"><button type="button" role="checkbox" aria-checked="true" data-state="checked" value="on" class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground cursor-pointer" id="widget-charts"><span data-state="checked" class="flex items-center justify-center text-current" style="pointer-events: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span></button></div><label for="widget-charts" class="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"><span class="text-foreground">Usage Charts</span><span class="text-xs text-muted-foreground mt-0.5">Time-series usage visualization.</span></label></div><div class="flex items-start space-x-3 p-2 rounded-lg transition-colors duration-150 opacity-70 hover:bg-muted/50"><div class="pt-1"><button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground cursor-pointer" id="widget-tasks"></button></div><label for="widget-tasks" class="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"><span class="text-foreground">Pending Tasks</span><span class="text-xs text-muted-foreground mt-0.5">Your assigned open items.</span></label></div><div class="flex items-start space-x-3 p-2 rounded-lg transition-colors duration-150 opacity-70 hover:bg-muted/50"><div class="pt-1"><button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground cursor-pointer" id="widget-config"></button></div><label for="widget-config" class="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"><span class="text-foreground">Server Configuration</span><span class="text-xs text-muted-foreground mt-0.5">Low-level server health data.</span></label></div><div class="flex items-start space-x-3 p-2 rounded-lg transition-colors duration-150 opacity-70 hover:bg-muted/50"><div class="pt-1"><button type="button" role="checkbox" aria-checked="false" data-state="unchecked" value="on" class="peer h-4 w-4 shrink-0 rounded-sm border border-primary ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground cursor-pointer" id="widget-tickets"></button></div><label for="widget-tickets" class="flex flex-col text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70"><span class="text-foreground">Support Tickets</span><span class="text-xs text-muted-foreground mt-0.5">Live count of open support tickets.</span></label></div></div></div></div></div></div><div class="p-6 pt-4 border-t"><div tabindex="0"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background h-10 px-4 py-2 w-full text-red-500 hover:bg-red-500/10 hover:text-red-600 transition-colors duration-150"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rotate-ccw h-4 w-4 mr-2" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"></path><path d="M3 3v5h5"></path></svg>Reset Layout to Default</button></div></div></div><div class="mt-6 p-4 bg-muted/50 rounded-lg text-sm text-muted-foreground"><p>Currently Visible Widgets (3): <strong class="text-foreground">metrics, activity, charts</strong></p><p class="mt-2 text-xs">"Key Metrics" is permanent and cannot be unchecked.</p></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

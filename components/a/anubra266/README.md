@@ -1,6 +1,6 @@
 # Anubra266 Components
 
-212 components are available in this author group.
+296 components are available in this author group.
 
 > Build any component in [BuilderStudio](https://builderstudio.dev), then share improvements with the community on [Discord](https://discord.gg/QdWeSGCqfe) or [Reddit](https://reddit.com/r/builderstudio).
 
@@ -218,3 +218,87 @@
 | [![Radio Group](radio-group/radio-group-cards/screenshot.png)](radio-group/radio-group-cards/README.md) | [Radio Group](radio-group/radio-group-cards/README.md) | `radio-group-cards` |
 | [![Radio Group](radio-group/radio-group-colors/screenshot.png)](radio-group/radio-group-colors/README.md) | [Radio Group](radio-group/radio-group-colors/README.md) | `radio-group-colors` |
 | [![Radio Group](radio-group/radio-group-disabled/screenshot.png)](radio-group/radio-group-disabled/README.md) | [Radio Group](radio-group/radio-group-disabled/README.md) | `radio-group-disabled` |
+| [![Radio Group](radio-group/radio-group-feedback/screenshot.png)](radio-group/radio-group-feedback/README.md) | [Radio Group](radio-group/radio-group-feedback/README.md) | `radio-group-feedback` |
+| [![Radio Group](radio-group/radio-group-grid/screenshot.png)](radio-group/radio-group-grid/README.md) | [Radio Group](radio-group/radio-group-grid/README.md) | `radio-group-grid` |
+| [![Radio Group](radio-group/radio-group-plans/screenshot.png)](radio-group/radio-group-plans/README.md) | [Radio Group](radio-group/radio-group-plans/README.md) | `radio-group-plans` |
+| [![Radio Group](radio-group/with-descriptions-radio-group/screenshot.png)](radio-group/with-descriptions-radio-group/README.md) | [Radio Group](radio-group/with-descriptions-radio-group/README.md) | `with-descriptions-radio-group` |
+| [![Segment Group](segment-group/default/screenshot.png)](segment-group/default/README.md) | [Segment Group](segment-group/default/README.md) | `default` |
+| [![Segment Group](segment-group/filter-selector-group/screenshot.png)](segment-group/filter-selector-group/README.md) | [Segment Group](segment-group/filter-selector-group/README.md) | `filter-selector-group` |
+| [![Segment Group](segment-group/project-status-group/screenshot.png)](segment-group/project-status-group/README.md) | [Segment Group](segment-group/project-status-group/README.md) | `project-status-group` |
+| [![Segment Group](segment-group/theme-selector-group/screenshot.png)](segment-group/theme-selector-group/README.md) | [Segment Group](segment-group/theme-selector-group/README.md) | `theme-selector-group` |
+| [![Segment Group](segment-group/view-mode-group/screenshot.png)](segment-group/view-mode-group/README.md) | [Segment Group](segment-group/view-mode-group/README.md) | `view-mode-group` |
+| [![Select 1](select-1/category-filter/screenshot.png)](select-1/category-filter/README.md) | [Select 1](select-1/category-filter/README.md) | `category-filter` |
+| [![Select 1](select-1/country-selector/screenshot.png)](select-1/country-selector/README.md) | [Select 1](select-1/country-selector/README.md) | `country-selector` |
+| [![Select 1](select-1/default/screenshot.png)](select-1/default/README.md) | [Select 1](select-1/default/README.md) | `default` |
+| [![Select 1](select-1/language-selector/screenshot.png)](select-1/language-selector/README.md) | [Select 1](select-1/language-selector/README.md) | `language-selector` |
+| [![Select 1](select-1/multi-select/screenshot.png)](select-1/multi-select/README.md) | [Select 1](select-1/multi-select/README.md) | `multi-select` |
+| [![Select 1](select-1/overlapping-label-select/screenshot.png)](select-1/overlapping-label-select/README.md) | [Select 1](select-1/overlapping-label-select/README.md) | `overlapping-label-select` |
+| [![Select 1](select-1/profile-selector/screenshot.png)](select-1/profile-selector/README.md) | [Select 1](select-1/profile-selector/README.md) | `profile-selector` |
+| [![Select 1](select-1/theme-selector/screenshot.png)](select-1/theme-selector/README.md) | [Select 1](select-1/theme-selector/README.md) | `theme-selector` |
+| [![Signature Pad](signature-pad/contract-signature/screenshot.png)](signature-pad/contract-signature/README.md) | [Signature Pad](signature-pad/contract-signature/README.md) | `contract-signature` |
+| [![Signature Pad](signature-pad/default/screenshot.png)](signature-pad/default/README.md) | [Signature Pad](signature-pad/default/README.md) | `default` |
+| [![Signature Pad](signature-pad/receipt-signature/screenshot.png)](signature-pad/receipt-signature/README.md) | [Signature Pad](signature-pad/receipt-signature/README.md) | `receipt-signature` |
+| [![Signature Pad](signature-pad/signature-preview/screenshot.png)](signature-pad/signature-preview/README.md) | [Signature Pad](signature-pad/signature-preview/README.md) | `signature-preview` |
+| [![Splitter](splitter/default/screenshot.png)](splitter/default/README.md) | [Splitter](splitter/default/README.md) | `default` |
+| [![Splitter](splitter/nested-splitter/screenshot.png)](splitter/nested-splitter/README.md) | [Splitter](splitter/nested-splitter/README.md) | `nested-splitter` |
+| [![Splitter](splitter/three-panels-splitter/screenshot.png)](splitter/three-panels-splitter/README.md) | [Splitter](splitter/three-panels-splitter/README.md) | `three-panels-splitter` |
+| [![Splitter](splitter/vertical-splitter/screenshot.png)](splitter/vertical-splitter/README.md) | [Splitter](splitter/vertical-splitter/README.md) | `vertical-splitter` |
+| [![Steps](steps/default/screenshot.png)](steps/default/README.md) | [Steps](steps/default/README.md) | `default` |
+| [![Steps](steps/icon-steps/screenshot.png)](steps/icon-steps/README.md) | [Steps](steps/icon-steps/README.md) | `icon-steps` |
+| [![Steps](steps/navigation-steps/screenshot.png)](steps/navigation-steps/README.md) | [Steps](steps/navigation-steps/README.md) | `navigation-steps` |
+| [![Steps](steps/segmented-steps/screenshot.png)](steps/segmented-steps/README.md) | [Steps](steps/segmented-steps/README.md) | `segmented-steps` |
+| [![Steps](steps/spinner-steps/screenshot.png)](steps/spinner-steps/README.md) | [Steps](steps/spinner-steps/README.md) | `spinner-steps` |
+| [![Steps](steps/steps-checkmarks/screenshot.png)](steps/steps-checkmarks/README.md) | [Steps](steps/steps-checkmarks/README.md) | `steps-checkmarks` |
+| [![Steps](steps/steps-content/screenshot.png)](steps/steps-content/README.md) | [Steps](steps/steps-content/README.md) | `steps-content` |
+| [![Steps](steps/steps-descriptions/screenshot.png)](steps/steps-descriptions/README.md) | [Steps](steps/steps-descriptions/README.md) | `steps-descriptions` |
+| [![Steps](steps/steps-lines/screenshot.png)](steps/steps-lines/README.md) | [Steps](steps/steps-lines/README.md) | `steps-lines` |
+| [![Steps](steps/steps-progress/screenshot.png)](steps/steps-progress/README.md) | [Steps](steps/steps-progress/README.md) | `steps-progress` |
+| [![Steps](steps/vertical-navigation/screenshot.png)](steps/vertical-navigation/README.md) | [Steps](steps/vertical-navigation/README.md) | `vertical-navigation` |
+| [![Steps](steps/vertical-steps/screenshot.png)](steps/vertical-steps/README.md) | [Steps](steps/vertical-steps/README.md) | `vertical-steps` |
+| [![Switch 1](switch-1/bordered-switch/screenshot.png)](switch-1/bordered-switch/README.md) | [Switch 1](switch-1/bordered-switch/README.md) | `bordered-switch` |
+| [![Switch 1](switch-1/default/screenshot.png)](switch-1/default/README.md) | [Switch 1](switch-1/default/README.md) | `default` |
+| [![Switch 1](switch-1/large-thumb-switch/screenshot.png)](switch-1/large-thumb-switch/README.md) | [Switch 1](switch-1/large-thumb-switch/README.md) | `large-thumb-switch` |
+| [![Switch 1](switch-1/switch-disabler/screenshot.png)](switch-1/switch-disabler/README.md) | [Switch 1](switch-1/switch-disabler/README.md) | `switch-disabler` |
+| [![Switch 1](switch-1/switch-dual-labels/screenshot.png)](switch-1/switch-dual-labels/README.md) | [Switch 1](switch-1/switch-dual-labels/README.md) | `switch-dual-labels` |
+| [![Switch 1](switch-1/switch-embedded-text/screenshot.png)](switch-1/switch-embedded-text/README.md) | [Switch 1](switch-1/switch-embedded-text/README.md) | `switch-embedded-text` |
+| [![Switch 1](switch-1/switch-icons/screenshot.png)](switch-1/switch-icons/README.md) | [Switch 1](switch-1/switch-icons/README.md) | `switch-icons` |
+| [![Switch 1](switch-1/switch-in-card/screenshot.png)](switch-1/switch-in-card/README.md) | [Switch 1](switch-1/switch-in-card/README.md) | `switch-in-card` |
+| [![Switch 1](switch-1/switch-in-card-icon/screenshot.png)](switch-1/switch-in-card-icon/README.md) | [Switch 1](switch-1/switch-in-card-icon/README.md) | `switch-in-card-icon` |
+| [![Switch 1](switch-1/switch-label/screenshot.png)](switch-1/switch-label/README.md) | [Switch 1](switch-1/switch-label/README.md) | `switch-label` |
+| [![Switch 1](switch-1/switch-revealing-icons/screenshot.png)](switch-1/switch-revealing-icons/README.md) | [Switch 1](switch-1/switch-revealing-icons/README.md) | `switch-revealing-icons` |
+| [![Switch 1](switch-1/switch-square/screenshot.png)](switch-1/switch-square/README.md) | [Switch 1](switch-1/switch-square/README.md) | `switch-square` |
+| [![Tabs Component](tabs-component/default/screenshot.png)](tabs-component/default/README.md) | [Tabs Component](tabs-component/default/README.md) | `default` |
+| [![Tabs Component](tabs-component/tabs-ghost/screenshot.png)](tabs-component/tabs-ghost/README.md) | [Tabs Component](tabs-component/tabs-ghost/README.md) | `tabs-ghost` |
+| [![Tabs Component](tabs-component/tabs-icon-above/screenshot.png)](tabs-component/tabs-icon-above/README.md) | [Tabs Component](tabs-component/tabs-icon-above/README.md) | `tabs-icon-above` |
+| [![Tabs Component](tabs-component/tabs-outline/screenshot.png)](tabs-component/tabs-outline/README.md) | [Tabs Component](tabs-component/tabs-outline/README.md) | `tabs-outline` |
+| [![Tabs Component](tabs-component/tabs-outline-w-icons/screenshot.png)](tabs-component/tabs-outline-w-icons/README.md) | [Tabs Component](tabs-component/tabs-outline-w-icons/README.md) | `tabs-outline-w-icons` |
+| [![Tabs Component](tabs-component/tabs-pills/screenshot.png)](tabs-component/tabs-pills/README.md) | [Tabs Component](tabs-component/tabs-pills/README.md) | `tabs-pills` |
+| [![Tabs Component](tabs-component/tabs-stack-w-icons/screenshot.png)](tabs-component/tabs-stack-w-icons/README.md) | [Tabs Component](tabs-component/tabs-stack-w-icons/README.md) | `tabs-stack-w-icons` |
+| [![Tabs Component](tabs-component/tabs-underline/screenshot.png)](tabs-component/tabs-underline/README.md) | [Tabs Component](tabs-component/tabs-underline/README.md) | `tabs-underline` |
+| [![Tabs Component](tabs-component/tabs-w-badges/screenshot.png)](tabs-component/tabs-w-badges/README.md) | [Tabs Component](tabs-component/tabs-w-badges/README.md) | `tabs-w-badges` |
+| [![Tabs Component](tabs-component/tabs-w-icons/screenshot.png)](tabs-component/tabs-w-icons/README.md) | [Tabs Component](tabs-component/tabs-w-icons/README.md) | `tabs-w-icons` |
+| [![Tabs Component](tabs-component/vertical-tabs-ghost/screenshot.png)](tabs-component/vertical-tabs-ghost/README.md) | [Tabs Component](tabs-component/vertical-tabs-ghost/README.md) | `vertical-tabs-ghost` |
+| [![Tabs Component](tabs-component/vertical-tabs-icons/screenshot.png)](tabs-component/vertical-tabs-icons/README.md) | [Tabs Component](tabs-component/vertical-tabs-icons/README.md) | `vertical-tabs-icons` |
+| [![Tabs Component](tabs-component/vertical-tabs-underline/screenshot.png)](tabs-component/vertical-tabs-underline/README.md) | [Tabs Component](tabs-component/vertical-tabs-underline/README.md) | `vertical-tabs-underline` |
+| [![Tabs Component](tabs-component/vertical-tabs-with-icons/screenshot.png)](tabs-component/vertical-tabs-with-icons/README.md) | [Tabs Component](tabs-component/vertical-tabs-with-icons/README.md) | `vertical-tabs-with-icons` |
+| [![Timeline Animation](timeline-animation/default/screenshot.png)](timeline-animation/default/README.md) | [Timeline Animation](timeline-animation/default/README.md) | `default` |
+| [![Toggle Basic](toggle-basic/default/screenshot.png)](toggle-basic/default/README.md) | [Toggle Basic](toggle-basic/default/README.md) | `default` |
+| [![Toggle Basic](toggle-basic/toggle-controlled/screenshot.png)](toggle-basic/toggle-controlled/README.md) | [Toggle Basic](toggle-basic/toggle-controlled/README.md) | `toggle-controlled` |
+| [![Toggle Basic](toggle-basic/toggle-disabled/screenshot.png)](toggle-basic/toggle-disabled/README.md) | [Toggle Basic](toggle-basic/toggle-disabled/README.md) | `toggle-disabled` |
+| [![Toggle Basic](toggle-basic/toggle-ghost/screenshot.png)](toggle-basic/toggle-ghost/README.md) | [Toggle Basic](toggle-basic/toggle-ghost/README.md) | `toggle-ghost` |
+| [![Toggle Basic](toggle-basic/toggle-with-indicator/screenshot.png)](toggle-basic/toggle-with-indicator/README.md) | [Toggle Basic](toggle-basic/toggle-with-indicator/README.md) | `toggle-with-indicator` |
+| [![Toggle Basic](toggle-basic/toggle-with-text/screenshot.png)](toggle-basic/toggle-with-text/README.md) | [Toggle Basic](toggle-basic/toggle-with-text/README.md) | `toggle-with-text` |
+| [![Toggle Group](toggle-group/default/screenshot.png)](toggle-group/default/README.md) | [Toggle Group](toggle-group/default/README.md) | `default` |
+| [![Toggle Group](toggle-group/ghost-toggle-group/screenshot.png)](toggle-group/ghost-toggle-group/README.md) | [Toggle Group](toggle-group/ghost-toggle-group/README.md) | `ghost-toggle-group` |
+| [![Toggle Group](toggle-group/multiple-toggle-group/screenshot.png)](toggle-group/multiple-toggle-group/README.md) | [Toggle Group](toggle-group/multiple-toggle-group/README.md) | `multiple-toggle-group` |
+| [![Toggle Group](toggle-group/outline-toggle-group/screenshot.png)](toggle-group/outline-toggle-group/README.md) | [Toggle Group](toggle-group/outline-toggle-group/README.md) | `outline-toggle-group` |
+| [![Toggle Group](toggle-group/toggle-group-with-icons/screenshot.png)](toggle-group/toggle-group-with-icons/README.md) | [Toggle Group](toggle-group/toggle-group-with-icons/README.md) | `toggle-group-with-icons` |
+| [![Toggle Group](toggle-group/toolbar-toggle-group/screenshot.png)](toggle-group/toolbar-toggle-group/README.md) | [Toggle Group](toggle-group/toolbar-toggle-group/README.md) | `toolbar-toggle-group` |
+| [![Tooltip 1](tooltip-1/default/screenshot.png)](tooltip-1/default/README.md) | [Tooltip 1](tooltip-1/default/README.md) | `default` |
+| [![Tooltip 1](tooltip-1/tooltip-metrics-card/screenshot.png)](tooltip-1/tooltip-metrics-card/README.md) | [Tooltip 1](tooltip-1/tooltip-metrics-card/README.md) | `tooltip-metrics-card` |
+| [![Tooltip 1](tooltip-1/tooltip-positioning/screenshot.png)](tooltip-1/tooltip-positioning/README.md) | [Tooltip 1](tooltip-1/tooltip-positioning/README.md) | `tooltip-positioning` |
+| [![Tooltip 1](tooltip-1/tooltip-status-card/screenshot.png)](tooltip-1/tooltip-status-card/README.md) | [Tooltip 1](tooltip-1/tooltip-status-card/README.md) | `tooltip-status-card` |
+| [![Tooltip 1](tooltip-1/tooltip-video-thumbnail/screenshot.png)](tooltip-1/tooltip-video-thumbnail/README.md) | [Tooltip 1](tooltip-1/tooltip-video-thumbnail/README.md) | `tooltip-video-thumbnail` |
+| [![Tooltip 1](tooltip-1/tooltip-with-arrow/screenshot.png)](tooltip-1/tooltip-with-arrow/README.md) | [Tooltip 1](tooltip-1/tooltip-with-arrow/README.md) | `tooltip-with-arrow` |
+| [![Tree View](tree-view/async-loading-tree/screenshot.png)](tree-view/async-loading-tree/README.md) | [Tree View](tree-view/async-loading-tree/README.md) | `async-loading-tree` |
+| [![Tree View](tree-view/default/screenshot.png)](tree-view/default/README.md) | [Tree View](tree-view/default/README.md) | `default` |

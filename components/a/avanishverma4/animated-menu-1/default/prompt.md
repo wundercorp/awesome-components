@@ -1,0 +1,57 @@
+# Build Animated Menu 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Animated Menu 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `avanishverma4`
+- Component: `animated-menu-1`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: avanishverma4
+- Component slug: animated-menu-1
+- Demo slug: default
+- Title: animated-menu-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full min-h-screen transition-colors duration-300 bg-gray-50"><div class="fixed inset-0 pointer-events-none"><svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(0,0,0,0.05)" stroke-width="1"></path></pattern></defs><rect width="100%" height="100%" fill="url(#grid)"></rect></svg></div><header class="relative z-20 px-6 py-4 flex items-center justify-between"><button class="p-2 rounded-lg transition-colors bg-white text-gray-900 hover:bg-gray-100 shadow-lg" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-menu" aria-hidden="true"><line x1="4" x2="20" y1="12" y2="12"></line><line x1="4" x2="20" y1="6" y2="6"></line><line x1="4" x2="20" y1="18" y2="18"></line></svg></button><h1 class="text-2xl font-bold text-gray-900" style="opacity: 1; transform: none;">Menu Demo</h1><button class="p-2 rounded-lg transition-colors bg-white text-gray-900 hover:bg-gray-100 shadow-lg" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg></button></header><nav class="fixed top-0 left-0 h-full w-80 z-40 shadow-2xl bg-white" draggable="false" style="transform: translateX(-100%); user-select: none; touch-action: pan-y;"><button class="absolute top-6 right-6 p-2 rounded-full transition-colors bg-gray-100 text-gray-900 hover:bg-gray-200" tabindex="0" style="opacity: 1; transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button><div class="absolute top-1/2 right-4 -translate-y-1/2 pointer-events-none" style="opacity: 1;"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left text-gray-400" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></div><div class="p-8 pt-20"><div class="mb-12" style="opacity: 1; transform: none;"><h2 class="text-3xl font-bold text-gray-900">Navigation</h2><div class="h-1 mt-2 rounded bg-blue-600" style="width: 80px;"></div></div><ul class="space-y-4"><li style="opacity: 0; transform: translateX(-50px);"><a href="#home" class="flex items-center space-x-4 p-4 rounded-lg transition-all hover:bg-gray-100 text-gray-800 group"><div class="p-2 rounded-lg bg-gray-200 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house" aria-hidden="true"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg></div><span class="text-lg font-medium">Home</span></a></li><li style="opacity: 0; transform: translateX(-50px);"><a href="#about" class="flex items-center space-x-4 p-4 rounded-lg transition-all hover:bg-gray-100 text-gray-800 group"><div class="p-2 rounded-lg bg-gray-200 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div><span class="text-lg font-medium">About</span></a></li><li style="opacity: 0; transform: translateX(-50px);"><a href="#services" class="flex items-center space-x-4 p-4 rounded-lg transition-all hover:bg-gray-100 text-gray-800 group"><div class="p-2 rounded-lg bg-gray-200 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase" aria-hidden="true"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg></div><span class="text-lg font-medium">Services</span></a></li><li style="opacity: 0; transform: translateX(-50px);"><a href="#contact" class="flex items-center space-x-4 p-4 rounded-lg transition-all hover:bg-gray-100 text-gray-800 group"><div class="p-2 rounded-lg bg-gray-200 group-hover:bg-blue-500 group-hover:text-white transition-all duration-300" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail" aria-hidden="true"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></div><span class="text-lg font-medium">Contact</span></a></li></ul><div class="absolute bottom-8 left-8 right-8 p-4 rounded-lg bg-gray-100" style="opacity: 1; transform: none;"><p class="text-sm text-gray-600">💡 Drag left to close</p></div></div></nav><main class="relative z-10 px-6 py-12 max-w-4xl mx-auto"><div class="p-8 rounded-2xl shadow-xl bg-white text-gray-900" style="opacity: 1; transform: none;"><h2 class="text-3xl font-bold mb-4">Welcome to the Animated Menu</h2><p class="text-lg mb-4 text-gray-600">Click the menu button in the top-left corner to open the animated navigation menu. Toggle between light and dark modes using the theme button in the top-right corner.</p><p class="text-lg text-gray-600">The background features an orthogonal grid pattern that adapts to the current theme. You can also drag the menu left to close it!</p></div><div class="mt-8 p-8 rounded-2xl shadow-xl bg-white text-gray-900" style="opacity: 1; transform: none;"><h3 class="text-2xl font-bold mb-4">Features</h3><ul class="space-y-2 text-gray-600"><li>• Cinematic spring-based animations</li><li>• Drag to close functionality</li><li>• Staggered menu item animations</li><li>• Close button with rotating animation</li><li>• Responsive design for all screen sizes</li><li>• Light and dark mode support</li><li>• Orthogonal grid background</li><li>• Interactive hover effects</li></ul></div></main></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

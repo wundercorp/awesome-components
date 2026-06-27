@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/arunachalam0606/animated-table-rows/default
+- Registry URL: https://21st.dev/r/arunachalam0606/animated-table-rows
+- Author: arunachalam0606
+- Component slug: animated-table-rows
+- Demo slug: default
+- Title: animated-table-rows
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/arunachalam0606/animated-table-rows with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/arunachalam0606__animated-table-rows__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/arunachalam0606__animated-table-rows__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full px-10"><div class="relative w-full overflow-auto"><table class="w-full caption-bottom text-sm"><caption class="mt-4 text-sm text-muted-foreground">A list of products in inventory.</caption><thead class="[&amp;_tr]:border-b"><tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"><th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 w-[100px]">ID</th><th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">Name</th><th class="h-12 px-4 text-left align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0">Category</th><th class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-right">Price</th><th class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 text-right">Stock</th><th class="h-12 px-4 align-middle font-medium text-muted-foreground [&amp;:has([role=checkbox])]:pr-0 w-[60px] text-center">Action</th></tr></thead><tbody class="[&amp;_tr:last-child]:border-0"><tr class="border-b transition-colors hover:bg-muted/50" style="opacity: 1; transform: none;"><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">PROD001</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Wireless Mouse</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Electronics</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">$29.99</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">150</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center"><button aria-label="Delete Wireless Mouse" class="p-1 rounded hover:bg-red-100 text-red-600"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg></button></td></tr><tr class="border-b transition-colors hover:bg-muted/50" style="opacity: 1; transform: none;"><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">PROD002</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Mechanical Keyboard</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Electronics</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">$89.99</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">75</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center"><button aria-label="Delete Mechanical Keyboard" class="p-1 rounded hover:bg-red-100 text-red-600"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg></button></td></tr><tr class="border-b transition-colors hover:bg-muted/50" style="opacity: 1; transform: none;"><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">PROD003</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Noise-Cancelling Headphones</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Audio</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">$199.99</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">45</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center"><button aria-label="Delete Noise-Cancelling Headphones" class="p-1 rounded hover:bg-red-100 text-red-600"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg></button></td></tr><tr class="border-b transition-colors hover:bg-muted/50" style="opacity: 1; transform: none;"><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">PROD004</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Ergonomic Chair</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Furniture</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">$249.99</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">30</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center"><button aria-label="Delete Ergonomic Chair" class="p-1 rounded hover:bg-red-100 text-red-600"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg></button></td></tr><tr class="border-b transition-colors hover:bg-muted/50" style="opacity: 1; transform: none;"><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 font-medium">PROD005</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Standing Desk</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0">Furniture</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">$399.99</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">20</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-center"><button aria-label="Delete Standing Desk" class="p-1 rounded hover:bg-red-100 text-red-600"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" height="18" width="18" xmlns="http://www.w3.org/2000/svg"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg></button></td></tr></tbody><tfoot class="border-t bg-muted/50 font-medium [&amp;&gt;tr]:last:border-b-0"><tr class="border-b transition-colors hover:bg-muted/50 data-[state=selected]:bg-muted"><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0" colspan="5">Total Stock</td><td class="p-4 align-middle [&amp;:has([role=checkbox])]:pr-0 text-right">320</td></tr></tfoot></table></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

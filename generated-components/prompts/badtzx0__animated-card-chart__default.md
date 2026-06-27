@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/badtzx0/animated-card-chart/default
+- Registry URL: https://21st.dev/r/badtzx0/animated-card-chart
+- Author: badtzx0
+- Component slug: animated-card-chart
+- Demo slug: default
+- Title: animated-card-chart
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/badtzx0/animated-card-chart with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/badtzx0__animated-card-chart__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/badtzx0__animated-card-chart__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div role="region" aria-labelledby="card-title" aria-describedby="card-description" class="group/animated-card relative w-[356px] overflow-hidden rounded-xl border border-zinc-200 bg-white shadow-sm dark:border-zinc-900 dark:bg-black"><div class="h-[180px] w-[356px] overflow-hidden"><div class="absolute inset-0 z-20" style="--color: #ff6900; --secondary-color: #f54900;"></div><div class="relative h-[180px] w-[356px] overflow-hidden rounded-t-lg"><div class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[8] flex h-[180px] w-[356px] items-center justify-center text-neutral-800/10 transition-transform duration-500 group-hover/animated-card:scale-150 dark:text-white/15"><svg width="356" height="180" xmlns="http://www.w3.org/2000/svg"><rect width="15" height="20" x="40" y="110" fill="currentColor" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="20" x="60" y="90" fill="#ff6900" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="40" x="80" y="70" fill="#ff6900" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="30" x="100" y="80" fill="#ff6900" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="30" x="120" y="110" fill="currentColor" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="50" x="140" y="110" fill="currentColor" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="50" x="160" y="60" fill="#ff6900" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="30" x="180" y="80" fill="#ff6900" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="20" x="200" y="110" fill="currentColor" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="40" x="220" y="70" fill="#ff6900" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="30" x="240" y="110" fill="currentColor" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="50" x="260" y="110" fill="currentColor" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="20" x="280" y="110" fill="currentColor" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect><rect width="15" height="30" x="300" y="80" fill="#ff6900" rx="2" ry="2" class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] transition-all duration-500"></rect></svg></div><div class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[6] flex translate-y-full items-center justify-center opacity-0 transition-all duration-500 group-hover/animated-card:translate-y-0 group-hover/animated-card:opacity-100"><svg width="356" height="180" viewBox="0 0 356 180" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="356" height="180" fill="url(#paint0_linear_29_3)"></rect><defs><linearGradient id="paint0_linear_29_3" x1="178" y1="0" x2="178" y2="180" gradientUnits="userSpaceOnUse"><stop offset="0.35" stop-color="#ff6900" stop-opacity="0"></stop><stop offset="1" stop-color="#ff6900" stop-opacity="0.3"></stop></linearGradient></defs></svg></div><div class="group relative h-full w-[356px]" style="--color: #ff6900;"><div class="ease-[cubic-bezier(0.6, 0.6, 0, 1)] absolute inset-0 z-[7] flex w-[356px] translate-y-full items-start justify-center bg-transparent p-4 transition-transform duration-500 group-hover/animated-card:translate-y-0"><div class="ease-[cubic-bezier(0.6, 0, 1)] rounded-md border border-zinc-200 bg-white/25 p-1.5 opacity-0 backdrop-blur-sm transition-opacity duration-500 group-hover/animated-card:opacity-100 dark:border-zinc-800 dark:bg-black/25"><div class="flex items-center gap-2"><div class="h-2 w-2 shrink-0 rounded-full bg-[var(--color)]"></div><p class="text-xs text-black dark:text-white">Random Data Visualization</p></div><p class="text-xs text-neutral-500 dark:text-neutral-400">Displaying some interesting stats.</p></div></div></div><div class="absolute top-4 left-4 z-[8] flex items-center gap-1" style="--color: #ff6900; --secondary-color: #f54900;"><div class="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0 dark:border-zinc-800 dark:bg-black/25"><div class="h-1.5 w-1.5 rounded-full bg-[var(--color)]"></div><span class="ml-1 text-[10px] text-black dark:text-white">+15,2%</span></div><div class="flex shrink-0 items-center rounded-full border border-zinc-200 bg-white/25 px-1.5 py-0.5 backdrop-blur-sm transition-opacity duration-300 ease-in-out group-hover/animated-card:opacity-0 dark:border-zinc-800 dark:bg-black/25"><div class="h-1.5 w-1.5 rounded-full bg-[var(--secondary-color)]"></div><span class="ml-1 text-[10px] text-black dark:text-white">+18,7%</span></div></div><div class="absolute inset-0 z-[5] flex h-full w-full items-center justify-center"><svg width="356" height="196" viewBox="0 0 356 180" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="356" height="180" fill="url(#paint0_radial_12_207)"></rect><defs><radialGradient id="paint0_radial_12_207" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(178 98) rotate(90) scale(98 178)"><stop stop-color="#ff6900" stop-opacity="0.25"></stop><stop offset="0.34" stop-color="#ff6900" stop-opacity="0.15"></stop><stop offset="1" stop-opacity="0"></stop></radialGradient></defs></svg></div><div class="pointer-events-none absolute inset-0 z-[4] h-full w-full bg-transparent bg-[linear-gradient(to_right,var(--grid-color)_1px,transparent_1px),linear-gradient(to_bottom,var(--grid-color)_1px,transparent_1px)] bg-[size:20px_20px] bg-center opacity-70 [mask-image:radial-gradient(ellipse_50%_50%_at_50%_50%,#000_60%,transparent_100%)]" style="--grid-color: #80808015;"></div></div></div><div role="group" class="flex flex-col space-y-1.5 border-t border-zinc-200 p-4 dark:border-zinc-900"><h3 class="text-lg font-semibold leading-none tracking-tight text-black dark:text-white">Just find the right caption</h3><p class="text-sm text-neutral-500 dark:text-neutral-400">This card will tell everything you want</p></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

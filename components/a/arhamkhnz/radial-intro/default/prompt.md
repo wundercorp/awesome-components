@@ -1,0 +1,57 @@
+# Build Radial Intro in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Radial Intro screenshot](screenshot.png)
+
+## Component
+
+- Author group: `arhamkhnz`
+- Component: `radial-intro`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: arhamkhnz
+- Component slug: radial-intro
+- Demo slug: default
+- Title: radial-intro
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative overflow-visible" style="width: 320px; height: 320px;"><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="0" style="z-index: 9; opacity: 1; transform: rotate(41.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="Framer University" draggable="false" src="https://pbs.twimg.com/profile_images/1602734731728142336/9Bppcs67_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-41.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="40" style="z-index: 8; opacity: 1; transform: rotate(81.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="arhamkhnz" draggable="false" src="https://pbs.twimg.com/profile_images/1897311929028255744/otxpL-ke_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-81.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="80" style="z-index: 7; opacity: 1; transform: rotate(121.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="Skyleen" draggable="false" src="https://pbs.twimg.com/profile_images/1948770261848756224/oPwqXMD6_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-121.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="120" style="z-index: 6; opacity: 1; transform: rotate(161.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="Shadcn" draggable="false" src="https://pbs.twimg.com/profile_images/1593304942210478080/TUYae5z7_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-161.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="160" style="z-index: 5; opacity: 1; transform: rotate(201.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="Adam Wathan" draggable="false" src="https://pbs.twimg.com/profile_images/1677042510839857154/Kq4tpySA_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-201.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="200" style="z-index: 4; opacity: 1; transform: rotate(241.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="Guillermo Rauch" draggable="false" src="https://pbs.twimg.com/profile_images/1783856060249595904/8TfcCN0r_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-241.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="240" style="z-index: 3; opacity: 1; transform: rotate(281.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="Jhey" draggable="false" src="https://pbs.twimg.com/profile_images/1534700564810018816/anAuSfkp_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-281.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="280" style="z-index: 2; opacity: 1; transform: rotate(321.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="David Haz" draggable="false" src="https://pbs.twimg.com/profile_images/1927474594102784000/Al0g-I6o_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-321.664deg);"></div><div data-arm="true" class="will-change-transform absolute inset-0" data-angle="320" style="z-index: 1; opacity: 1; transform: rotate(361.664deg);"><img data-arm-image="true" class="rounded-full object-fill absolute left-1/2 top-1/2 aspect-square translate -translate-x-1/2" alt="Matt Perry" draggable="false" src="https://pbs.twimg.com/profile_images/1690345911149375488/wfD0Ai9j_400x400.jpg" style="width: 60px; height: 60px; opacity: 1; top: 0px; transform: rotate(-361.664deg);"></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

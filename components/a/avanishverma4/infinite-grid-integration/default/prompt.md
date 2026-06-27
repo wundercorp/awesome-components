@@ -1,0 +1,57 @@
+# Build Infinite Grid Integration in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Infinite Grid Integration screenshot](screenshot.png)
+
+## Component
+
+- Author group: `avanishverma4`
+- Component: `infinite-grid-integration`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: avanishverma4
+- Component slug: infinite-grid-integration
+- Demo slug: default
+- Title: infinite-grid-integration
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full relative min-h-screen"><button class="fixed top-4 right-4 z-50 p-3 rounded-full bg-background/50 backdrop-blur-sm border border-border shadow-lg hover:scale-110 active:scale-95 transition-all flex items-center justify-center group" aria-label="Toggle Theme"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-moon w-5 h-5 text-indigo-500 group-hover:-rotate-12 transition-transform" aria-hidden="true"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path></svg></button><main><div class="relative w-full h-screen flex flex-col items-center justify-center overflow-hidden bg-background"><div class="absolute inset-0 z-0 opacity-[0.05]"><svg class="w-full h-full"><defs><pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse" x="22" y="22"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1" class="text-muted-foreground"></path></pattern></defs><rect width="100%" height="100%" fill="url(#grid-pattern)"></rect></svg></div><div class="absolute inset-0 z-0 opacity-40" style="mask-image: radial-gradient(300px at 0px 0px, black, transparent);"><svg class="w-full h-full"><defs><pattern id="grid-pattern" width="40" height="40" patternUnits="userSpaceOnUse" x="22" y="22"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="currentColor" stroke-width="1" class="text-muted-foreground"></path></pattern></defs><rect width="100%" height="100%" fill="url(#grid-pattern)"></rect></svg></div><div class="absolute inset-0 pointer-events-none z-0"><div class="absolute right-[-20%] top-[-20%] w-[40%] h-[40%] rounded-full bg-orange-500/40 dark:bg-orange-600/20 blur-[120px]"></div><div class="absolute right-[10%] top-[-10%] w-[20%] h-[20%] rounded-full bg-primary/30 blur-[100px]"></div><div class="absolute left-[-10%] bottom-[-20%] w-[40%] h-[40%] rounded-full bg-blue-500/40 dark:bg-blue-600/20 blur-[120px]"></div></div><div class="absolute bottom-10 right-10 z-30 pointer-events-auto"><div class="bg-background/80 backdrop-blur-md border border-border p-4 rounded-xl shadow-2xl space-y-3 min-w-[200px]"><div class="flex items-center gap-2 text-sm font-medium text-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings2 lucide-settings-2 w-4 h-4" aria-hidden="true"><path d="M20 7h-9"></path><path d="M14 17H5"></path><circle cx="17" cy="17" r="3"></circle><circle cx="7" cy="7" r="3"></circle></svg>Grid Density</div><input min="20" max="100" class="w-full h-1.5 bg-secondary rounded-lg appearance-none cursor-pointer accent-primary" type="range" value="40"><div class="flex justify-between text-[10px] text-muted-foreground uppercase tracking-widest font-mono"><span>Dense</span><span>Sparse (40px)</span></div></div></div><div class="relative z-10 flex flex-col items-center text-center px-4 max-w-3xl mx-auto space-y-6 pointer-events-none"><div class="space-y-2"><h1 class="text-4xl md:text-6xl font-semibold tracking-tight text-foreground drop-shadow-sm">The Infinite Grid</h1><p class="text-lg md:text-xl font-semibold text-muted-foreground">Move your cursor to reveal the active grid layer. <br>The pattern scrolls infinitely in the background.</p></div><div class="flex gap-4 pointer-events-auto"><button class="flex items-center gap-2 px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-md shadow-md border-2 border-transparent transition-colors" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mouse-pointer-click w-4 h-4" aria-hidden="true"><path d="M14 4.1 12 6"></path><path d="m5.1 8-2.9-.8"></path><path d="m6 12-1.9 2"></path><path d="M7.2 2.2 8 5.1"></path><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"></path></svg>Interact (0)</button><button class="flex items-center gap-2 px-8 py-3 bg-secondary text-secondary-foreground font-semibold rounded-md border-2 border-transparent transition-colors" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-info w-4 h-4" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 16v-4"></path><path d="M12 8h.01"></path></svg>Learn More</button></div></div></div></main><footer class="fixed bottom-4 left-4 z-50 text-[10px] uppercase tracking-widest text-muted-foreground opacity-50 font-mono">Shadcn Infinite Grid v1.1</footer></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

@@ -1,0 +1,137 @@
+# Build Ai Agent Processing States in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Ai Agent Processing States screenshot](screenshot.png)
+
+## Component
+
+- Author group: `arunjdass`
+- Component: `ai-agent-processing-states`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: arunjdass
+- Component slug: ai-agent-processing-states
+- Demo slug: default
+- Title: ai-agent-processing-states
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-col gap-8 p-8 bg-background text-foreground rounded-xl border border-border max-w-2xl mx-auto mt-10"><div class="mb-4"><h2 class="text-xl font-semibold tracking-tight mb-2">AI Processing Animations</h2></div><div class="grid grid-cols-2 gap-8 items-center"><div class="transition-all duration-700 ease-out opacity-100 translate-y-0 flex flex-col items-center p-6 border border-border/50 rounded-xl bg-card/50 h-40"><span class="text-xs text-muted-foreground font-semibold uppercase tracking-wider">Shimmer Text</span><div class="flex-1 w-full flex items-center justify-center"><div class="flex items-center gap-2 "><style>
+@keyframes shimmer-loader {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+@keyframes ai-dots-think {
+  0%, 100% { transform: translateY(0) scale(0.85); opacity: 0.3; filter: blur(0.5px); }
+  50% { transform: translateY(-3px) scale(1.2); opacity: 1; filter: blur(0px); box-shadow: 0 4px 10px color-mix(in oklch, var(--primary) 30%, transparent); }
+}
+@keyframes ai-loading-line-sweep {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(200%); }
+}
+@keyframes ai-loading-ring {
+  0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 90, 200; stroke-dashoffset: -35px; }
+  100% { stroke-dasharray: 90, 200; stroke-dashoffset: -124px; }
+}
+
+.animate-shimmer-loader { background-size: 200% auto; animation: shimmer-loader 3s linear infinite; }
+</style><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles w-4 h-4 text-primary animate-pulse" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg><span class="animate-shimmer-loader bg-gradient-to-r from-muted-foreground via-foreground to-muted-foreground bg-clip-text text-transparent font-medium tracking-wide">Generating response...</span></div></div></div><div class="transition-all duration-700 ease-out opacity-100 translate-y-0 flex flex-col items-center p-6 border border-border/50 rounded-xl bg-card/50 h-40"><span class="text-xs text-muted-foreground font-semibold uppercase tracking-wider">Bouncing Dots</span><div class="flex-1 w-full flex items-center justify-center"><div class="flex items-center justify-center gap-1.5 px-4 py-2.5 rounded-full bg-black/5 dark:bg-white/5 border border-black/10 dark:border-white/10 backdrop-blur-md shadow-xs w-fit "><style>
+@keyframes shimmer-loader {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+@keyframes ai-dots-think {
+  0%, 100% { transform: translateY(0) scale(0.85); opacity: 0.3; filter: blur(0.5px); }
+  50% { transform: translateY(-3px) scale(1.2); opacity: 1; filter: blur(0px); box-shadow: 0 4px 10px color-mix(in oklch, var(--primary) 30%, transparent); }
+}
+@keyframes ai-loading-line-sweep {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(200%); }
+}
+@keyframes ai-loading-ring {
+  0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 90, 200; stroke-dashoffset: -35px; }
+  100% { stroke-dasharray: 90, 200; stroke-dashoffset: -124px; }
+}
+
+.animate-shimmer-loader { background-size: 200% auto; animation: shimmer-loader 3s linear infinite; }
+</style><div class="w-2 h-2 rounded-full bg-primary animate-[ai-dots-think_1.4s_ease-in-out_infinite]" style="animation-delay: 0ms;"></div><div class="w-2 h-2 rounded-full bg-primary animate-[ai-dots-think_1.4s_ease-in-out_infinite]" style="animation-delay: 160ms;"></div><div class="w-2 h-2 rounded-full bg-primary animate-[ai-dots-think_1.4s_ease-in-out_infinite]" style="animation-delay: 320ms;"></div></div></div></div><div class="transition-all duration-700 ease-out opacity-100 translate-y-0 flex flex-col items-center p-6 border border-border/50 rounded-xl bg-card/50 h-40"><span class="text-xs text-muted-foreground font-semibold uppercase tracking-wider">Loading Line</span><div class="flex-1 w-full flex items-center justify-center max-w-[200px]"><div class="w-full h-[3px] bg-black/5 dark:bg-white/10 rounded-full overflow-hidden relative backdrop-blur-sm shadow-inner "><style>
+@keyframes shimmer-loader {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+@keyframes ai-dots-think {
+  0%, 100% { transform: translateY(0) scale(0.85); opacity: 0.3; filter: blur(0.5px); }
+  50% { transform: translateY(-3px) scale(1.2); opacity: 1; filter: blur(0px); box-shadow: 0 4px 10px color-mix(in oklch, var(--primary) 30%, transparent); }
+}
+@keyframes ai-loading-line-sweep {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(200%); }
+}
+@keyframes ai-loading-ring {
+  0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 90, 200; stroke-dashoffset: -35px; }
+  100% { stroke-dasharray: 90, 200; stroke-dashoffset: -124px; }
+}
+
+.animate-shimmer-loader { background-size: 200% auto; animation: shimmer-loader 3s linear infinite; }
+</style><div class="absolute top-0 bottom-0 -left-full w-full animate-[ai-loading-line-sweep_2s_cubic-bezier(0.4,0,0.2,1)_infinite]"><div class="absolute inset-0 bg-gradient-to-r from-transparent via-primary to-transparent opacity-80"></div><div class="absolute top-0 bottom-0 left-1/2 -translate-x-1/2 w-12 bg-black/40 dark:bg-white/90 blur-[1px] rounded-full"></div></div></div></div></div><div class="transition-all duration-700 ease-out opacity-100 translate-y-0 flex flex-col items-center p-6 border border-border/50 rounded-xl bg-card/50 h-40"><span class="text-xs text-muted-foreground font-semibold uppercase tracking-wider">Pulse Ring</span><div class="flex-1 w-full flex items-center justify-center"><div class="relative flex items-center justify-center w-8 h-8 "><style>
+@keyframes shimmer-loader {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+@keyframes ai-dots-think {
+  0%, 100% { transform: translateY(0) scale(0.85); opacity: 0.3; filter: blur(0.5px); }
+  50% { transform: translateY(-3px) scale(1.2); opacity: 1; filter: blur(0px); box-shadow: 0 4px 10px color-mix(in oklch, var(--primary) 30%, transparent); }
+}
+@keyframes ai-loading-line-sweep {
+  0% { transform: translateX(0%); }
+  100% { transform: translateX(200%); }
+}
+@keyframes ai-loading-ring {
+  0% { stroke-dasharray: 1, 200; stroke-dashoffset: 0; }
+  50% { stroke-dasharray: 90, 200; stroke-dashoffset: -35px; }
+  100% { stroke-dasharray: 90, 200; stroke-dashoffset: -124px; }
+}
+
+.animate-shimmer-loader { background-size: 200% auto; animation: shimmer-loader 3s linear infinite; }
+</style><div class="absolute inset-0 rounded-full border-[3px] border-black/5 dark:border-white/10"></div><svg class="w-full h-full animate-[spin_2s_linear_infinite]" viewBox="0 0 50 50"><circle class="stroke-primary fill-none stroke-[4] animate-[ai-loading-ring_1.5s_ease-in-out_infinite] drop-shadow-sm dark:drop-shadow-[0_0_4px_rgba(255,255,255,0.3)]" stroke-linecap="round" cx="25" cy="25" r="20"></circle></svg></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

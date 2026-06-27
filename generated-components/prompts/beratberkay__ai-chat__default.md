@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/beratberkay/ai-chat/default
+- Registry URL: https://21st.dev/r/beratberkay/ai-chat
+- Author: beratberkay
+- Component slug: ai-chat
+- Demo slug: default
+- Title: ai-chat
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/beratberkay/ai-chat with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/beratberkay__ai-chat__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/beratberkay__ai-chat__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative w-[360px] h-[460px] rounded-2xl overflow-hidden p-[2px]"><div class="absolute inset-0 rounded-2xl border-2 border-white/20" style="transform: rotate(56.6352deg);"></div><div class="relative flex flex-col w-full h-full rounded-xl border border-white/10 overflow-hidden bg-black/90 backdrop-blur-xl"><div class="absolute inset-0 bg-gradient-to-br from-gray-800 via-black to-gray-900" style="background-size: 200% 200%; background-position: 39.33% 39.33%;"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 32.3208%; bottom: -10%; transform: translateX(-58.5455px) translateY(-78.3393%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 63.1575%; bottom: -10%; transform: translateX(16.4769px) translateY(-95.4626%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 5.52755%; bottom: -10%; transform: translateX(13.8899px) translateY(-85.2207%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 0.421484%; bottom: -10%; transform: translateX(27.7935px) translateY(-38.7655%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 81.2777%; bottom: -10%; transform: translateX(-17.6797px) translateY(-20.5447%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 74.0117%; bottom: -10%; transform: translateX(29.3186px) translateY(-18.4826%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 79.3803%; bottom: -10%; transform: translateX(36.9694px) translateY(-7.06264%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 83.9027%; bottom: -10%; transform: translateX(56.8059px) translateY(-0.79598%);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 53.1412%; bottom: -10%; transform: translateX(27.8763px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 49.1753%; bottom: -10%; transform: translateX(-21.4952px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 60.5319%; bottom: -10%; transform: translateX(-44.492px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 32.6781%; bottom: -10%; transform: translateX(77.2357px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 67.3717%; bottom: -10%; transform: translateX(88.9977px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 55.8049%; bottom: -10%; transform: translateX(64.3706px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 40.3315%; bottom: -10%; transform: translateX(-49.5185px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 27.0641%; bottom: -10%; transform: translateX(23.3849px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 91.2617%; bottom: -10%; transform: translateX(-33.1444px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 76.8252%; bottom: -10%; transform: translateX(-3.93848px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 9.03668%; bottom: -10%; transform: translateX(47.3632px);"></div><div class="absolute w-1 h-1 rounded-full bg-white/10" style="left: 87.6264%; bottom: -10%; transform: translateX(-36.3638px);"></div><div class="px-4 py-3 border-b border-white/10 relative z-10"><h2 class="text-lg font-semibold text-white">🤖 AI Assistant</h2></div><div class="flex-1 px-4 py-3 overflow-y-auto space-y-3 text-sm flex flex-col relative z-10"><div class="px-3 py-2 rounded-xl max-w-[80%] shadow-md backdrop-blur-md bg-white/10 text-white self-start" style="opacity: 1; transform: none;">👋 Hello! I’m your AI assistant.</div></div><div class="flex items-center gap-2 p-3 border-t border-white/10 relative z-10"><input class="flex-1 px-3 py-2 text-sm bg-black/50 rounded-lg border border-white/10 text-white focus:outline-none focus:ring-1 focus:ring-white/50" placeholder="Type a message..." value=""><button class="p-2 rounded-lg bg-white/10 hover:bg-white/20 transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send w-4 h-4 text-white" aria-hidden="true"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg></button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

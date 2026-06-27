@@ -1,0 +1,57 @@
+# Build Steps in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Steps screenshot](screenshot.png)
+
+## Component
+
+- Author group: `anubra266`
+- Component: `steps`
+- Variant: `steps-content`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: anubra266
+- Component slug: steps
+- Demo slug: steps-content
+- Title: steps
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="bg-white dark:bg-gray-800 w-full px-4 py-12 rounded-xl flex items-center justify-center"><div data-scope="steps" data-part="root" id="steps:«r0»" dir="ltr" data-orientation="horizontal" class="w-full max-w-2xl" style="--percent: 33.33333333333333%;"><div data-scope="steps" data-part="list" dir="ltr" id="steps:«r0»:list" role="tablist" aria-owns="steps:«r0»:trigger:0 steps:«r0»:trigger:1 steps:«r0»:trigger:2" aria-orientation="horizontal" data-orientation="horizontal" class="flex justify-between items-start"><div data-scope="steps" data-part="item" dir="ltr" data-orientation="horizontal" class="relative flex not-last:flex-1 items-center"><button data-scope="steps" data-part="trigger" id="steps:«r0»:trigger:0" role="tab" dir="ltr" tabindex="0" aria-selected="false" aria-controls="steps:«r0»:content:0" data-state="closed" data-orientation="horizontal" data-complete="" class="flex items-center gap-3 text-left rounded-md group"><div data-scope="steps" data-part="indicator" dir="ltr" aria-hidden="true" data-complete="" class="flex justify-center items-center shrink-0 rounded-full font-semibold w-8 h-8 text-sm border-2 data-complete:bg-blue-600 data-complete:text-white data-complete:border-blue-600 data-current:bg-blue-600 data-current:text-white data-current:border-blue-600 data-incomplete:bg-gray-100 data-incomplete:text-gray-500 data-incomplete:border-gray-200 dark:data-incomplete:bg-gray-700 dark:data-incomplete:text-gray-300 dark:data-incomplete:border-gray-600 relative"><span class="group-data-complete:hidden group-data-current:block">1</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 group-data-complete:block hidden" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm font-medium text-gray-900 dark:text-gray-100">Account Setup</span></button><div data-scope="steps" data-part="separator" dir="ltr" data-orientation="horizontal" data-complete="" class="flex-1 bg-gray-200 dark:bg-gray-700 h-0.5 mx-3 data-complete:bg-blue-600"></div></div><div data-scope="steps" data-part="item" dir="ltr" aria-current="step" data-orientation="horizontal" class="relative flex not-last:flex-1 items-center"><button data-scope="steps" data-part="trigger" id="steps:«r0»:trigger:1" role="tab" dir="ltr" tabindex="0" aria-selected="true" aria-controls="steps:«r0»:content:1" data-state="open" data-orientation="horizontal" data-current="" class="flex items-center gap-3 text-left rounded-md group"><div data-scope="steps" data-part="indicator" dir="ltr" aria-hidden="true" data-current="" class="flex justify-center items-center shrink-0 rounded-full font-semibold w-8 h-8 text-sm border-2 data-complete:bg-blue-600 data-complete:text-white data-complete:border-blue-600 data-current:bg-blue-600 data-current:text-white data-current:border-blue-600 data-incomplete:bg-gray-100 data-incomplete:text-gray-500 data-incomplete:border-gray-200 dark:data-incomplete:bg-gray-700 dark:data-incomplete:text-gray-300 dark:data-incomplete:border-gray-600 relative"><span class="group-data-complete:hidden group-data-current:block">2</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 group-data-complete:block hidden" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm font-medium text-gray-900 dark:text-gray-100">Profile Information</span></button><div data-scope="steps" data-part="separator" dir="ltr" data-orientation="horizontal" data-current="" class="flex-1 bg-gray-200 dark:bg-gray-700 h-0.5 mx-3 data-complete:bg-blue-600"></div></div><div data-scope="steps" data-part="item" dir="ltr" data-orientation="horizontal" class="relative flex not-last:flex-1 items-center"><button data-scope="steps" data-part="trigger" id="steps:«r0»:trigger:2" role="tab" dir="ltr" tabindex="0" aria-selected="false" aria-controls="steps:«r0»:content:2" data-state="closed" data-orientation="horizontal" data-incomplete="" class="flex items-center gap-3 text-left rounded-md group"><div data-scope="steps" data-part="indicator" dir="ltr" aria-hidden="true" data-incomplete="" class="flex justify-center items-center shrink-0 rounded-full font-semibold w-8 h-8 text-sm border-2 data-complete:bg-blue-600 data-complete:text-white data-complete:border-blue-600 data-current:bg-blue-600 data-current:text-white data-current:border-blue-600 data-incomplete:bg-gray-100 data-incomplete:text-gray-500 data-incomplete:border-gray-200 dark:data-incomplete:bg-gray-700 dark:data-incomplete:text-gray-300 dark:data-incomplete:border-gray-600 relative"><span class="group-data-complete:hidden group-data-current:block">3</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 group-data-complete:block hidden" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm font-medium text-gray-900 dark:text-gray-100">Verification</span></button><div data-scope="steps" data-part="separator" dir="ltr" data-orientation="horizontal" data-incomplete="" hidden="" class="flex-1 bg-gray-200 dark:bg-gray-700 h-0.5 mx-3 data-complete:bg-blue-600"></div></div></div><div class="mt-8 p-6 bg-gray-50 dark:bg-gray-900 rounded-lg"><div data-scope="steps" data-part="item" dir="ltr" data-orientation="horizontal"><div data-scope="steps" data-part="content" dir="ltr" id="steps:«r0»:content:0" role="tabpanel" tabindex="0" hidden="" data-state="closed" data-orientation="horizontal" aria-labelledby="steps:«r0»:trigger:0" class="text-gray-700 dark:text-gray-300">Create your account by providing your email address and choosing a secure password. This will be your primary login method.</div></div><div data-scope="steps" data-part="item" dir="ltr" aria-current="step" data-orientation="horizontal"><div data-scope="steps" data-part="content" dir="ltr" id="steps:«r0»:content:1" role="tabpanel" tabindex="0" data-state="open" data-orientation="horizontal" aria-labelledby="steps:«r0»:trigger:1" class="text-gray-700 dark:text-gray-300">Add your personal details including your name, phone number, and profile picture to help others identify you.</div></div><div data-scope="steps" data-part="item" dir="ltr" data-orientation="horizontal"><div data-scope="steps" data-part="content" dir="ltr" id="steps:«r0»:content:2" role="tabpanel" tabindex="0" hidden="" data-state="closed" data-orientation="horizontal" aria-labelledby="steps:«r0»:trigger:2" class="text-gray-700 dark:text-gray-300">Verify your email address and phone number to secure your account and enable all features.</div></div><div data-scope="steps" data-part="content" dir="ltr" id="steps:«r0»:content:3" role="tabpanel" tabindex="0" hidden="" data-state="closed" data-orientation="horizontal" aria-labelledby="steps:«r0»:trigger:3" class="text-center p-6 text-green-700 dark:text-green-300"><div class="flex flex-col items-center gap-3"><div class="w-12 h-12 bg-green-100 dark:bg-green-900/20 rounded-full flex items-center justify-center"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-6 h-6 text-green-600 dark:text-green-400" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Setup Complete!</h3><p class="text-sm text-gray-600 dark:text-gray-400">Your account has been successfully created and verified. You can now start using all features.</p></div></div></div><div class="flex justify-between items-center mt-6"><button dir="ltr" data-scope="steps" data-part="prev-trigger" type="button" class="px-4 py-2 text-sm font-medium text-gray-600 bg-white border border-gray-300 rounded-md hover:bg-gray-50 disabled:opacity-50 disabled:cursor-not-allowed dark:text-gray-400 dark:bg-gray-800 dark:border-gray-600 dark:hover:bg-gray-700">Previous</button><button data-scope="steps" data-part="next-trigger" dir="ltr" type="button" class="px-4 py-2 text-sm font-medium text-white bg-blue-600 border border-blue-600 rounded-md hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed dark:bg-blue-600 dark:border-blue-600 dark:hover:bg-blue-700">Continue</button></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

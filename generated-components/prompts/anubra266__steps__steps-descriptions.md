@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/anubra266/steps/steps-descriptions
+- Registry URL: https://21st.dev/r/anubra266/steps
+- Author: anubra266
+- Component slug: steps
+- Demo slug: steps-descriptions
+- Title: steps
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/anubra266/steps with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/anubra266__steps__steps-descriptions.html
+- Local screenshot file: generated-21st-prompts/screenshots/anubra266__steps__steps-descriptions.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="bg-white dark:bg-gray-800 w-full px-4 py-12 rounded-xl flex items-center justify-center"><div data-scope="steps" data-part="root" id="steps:«r0»" dir="ltr" data-orientation="horizontal" class="w-full max-w-2xl" style="--percent: 33.33333333333333%;"><div data-scope="steps" data-part="list" dir="ltr" id="steps:«r0»:list" role="tablist" aria-owns="steps:«r0»:trigger:0 steps:«r0»:trigger:1 steps:«r0»:trigger:2" aria-orientation="horizontal" data-orientation="horizontal" class="inline-flex w-full data-[orientation=vertical]:flex-col"><div data-scope="steps" data-part="item" dir="ltr" data-orientation="horizontal" class="flex items-center relative flex-1 flex-col"><button data-scope="steps" data-part="trigger" id="steps:«r0»:trigger:0" role="tab" dir="ltr" tabindex="0" aria-selected="false" aria-controls="steps:«r0»:content:0" data-state="closed" data-orientation="horizontal" data-complete="" class="flex flex-col items-center gap-3 text-center rounded-md group"><div data-scope="steps" data-part="indicator" dir="ltr" aria-hidden="true" data-complete="" class="flex justify-center items-center shrink-0 rounded-full font-semibold w-8 h-8 text-sm border-2 data-complete:bg-blue-600 data-complete:text-white data-complete:border-blue-600 data-current:bg-blue-600 data-current:text-white data-current:border-blue-600 data-incomplete:bg-gray-100 data-incomplete:text-gray-500 data-incomplete:border-gray-200 dark:data-incomplete:bg-gray-700 dark:data-incomplete:text-gray-300 dark:data-incomplete:border-gray-600 relative"><span class="group-data-complete:hidden group-data-current:block">1</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 group-data-complete:block hidden" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><div class="flex flex-col items-center"><span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Step One</span><span class="text-xs text-gray-500 dark:text-gray-400">Desc for step one</span></div></button><div data-scope="steps" data-part="separator" dir="ltr" data-orientation="horizontal" data-complete="" class="bg-gray-200 dark:bg-gray-700 data-complete:bg-blue-600 h-0.5 absolute inset-x-0 top-4 left-[calc(50%+0.95rem+0.125rem)] -order-1 m-0 -translate-y-1/2 w-[calc(100%-1.5rem-0.65rem)] flex-none"></div></div><div data-scope="steps" data-part="item" dir="ltr" aria-current="step" data-orientation="horizontal" class="flex items-center relative flex-1 flex-col"><button data-scope="steps" data-part="trigger" id="steps:«r0»:trigger:1" role="tab" dir="ltr" tabindex="0" aria-selected="true" aria-controls="steps:«r0»:content:1" data-state="open" data-orientation="horizontal" data-current="" class="flex flex-col items-center gap-3 text-center rounded-md group"><div data-scope="steps" data-part="indicator" dir="ltr" aria-hidden="true" data-current="" class="flex justify-center items-center shrink-0 rounded-full font-semibold w-8 h-8 text-sm border-2 data-complete:bg-blue-600 data-complete:text-white data-complete:border-blue-600 data-current:bg-blue-600 data-current:text-white data-current:border-blue-600 data-incomplete:bg-gray-100 data-incomplete:text-gray-500 data-incomplete:border-gray-200 dark:data-incomplete:bg-gray-700 dark:data-incomplete:text-gray-300 dark:data-incomplete:border-gray-600 relative"><span class="group-data-complete:hidden group-data-current:block">2</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 group-data-complete:block hidden" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><div class="flex flex-col items-center"><span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Step Two</span><span class="text-xs text-gray-500 dark:text-gray-400">Desc for step two</span></div></button><div data-scope="steps" data-part="separator" dir="ltr" data-orientation="horizontal" data-current="" class="bg-gray-200 dark:bg-gray-700 data-complete:bg-blue-600 h-0.5 absolute inset-x-0 top-4 left-[calc(50%+0.95rem+0.125rem)] -order-1 m-0 -translate-y-1/2 w-[calc(100%-1.5rem-0.65rem)] flex-none"></div></div><div data-scope="steps" data-part="item" dir="ltr" data-orientation="horizontal" class="flex items-center relative flex-1 flex-col"><button data-scope="steps" data-part="trigger" id="steps:«r0»:trigger:2" role="tab" dir="ltr" tabindex="0" aria-selected="false" aria-controls="steps:«r0»:content:2" data-state="closed" data-orientation="horizontal" data-incomplete="" class="flex flex-col items-center gap-3 text-center rounded-md group"><div data-scope="steps" data-part="indicator" dir="ltr" aria-hidden="true" data-incomplete="" class="flex justify-center items-center shrink-0 rounded-full font-semibold w-8 h-8 text-sm border-2 data-complete:bg-blue-600 data-complete:text-white data-complete:border-blue-600 data-current:bg-blue-600 data-current:text-white data-current:border-blue-600 data-incomplete:bg-gray-100 data-incomplete:text-gray-500 data-incomplete:border-gray-200 dark:data-incomplete:bg-gray-700 dark:data-incomplete:text-gray-300 dark:data-incomplete:border-gray-600 relative"><span class="group-data-complete:hidden group-data-current:block">3</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-4 h-4 group-data-complete:block hidden" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><div class="flex flex-col items-center"><span class="text-sm font-semibold text-gray-900 dark:text-gray-100">Step Three</span><span class="text-xs text-gray-500 dark:text-gray-400">Desc for step three</span></div></button><div data-scope="steps" data-part="separator" dir="ltr" data-orientation="horizontal" data-incomplete="" hidden="" class="bg-gray-200 dark:bg-gray-700 data-complete:bg-blue-600 h-0.5 absolute inset-x-0 top-4 left-[calc(50%+0.95rem+0.125rem)] -order-1 m-0 -translate-y-1/2 w-[calc(100%-1.5rem-0.65rem)] flex-none"></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.
