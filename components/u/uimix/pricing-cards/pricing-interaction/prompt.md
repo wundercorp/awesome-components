@@ -1,0 +1,61 @@
+# Build Pricing Cards in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Pricing Cards screenshot](screenshot.png)
+
+## Component
+
+- Author group: `uimix`
+- Component: `pricing-cards`
+- Variant: `pricing-interaction`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: uimix
+- Component slug: pricing-cards
+- Demo slug: pricing-interaction
+- Title: pricing-cards
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="relative min-h-screen w-full overflow-hidden bg-zinc-950 text-zinc-50 grid place-items-center px-4 py-16"><style>
+        @keyframes drawX { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+        @keyframes drawY { from { transform: scaleY(0); } to { transform: scaleY(1); } }
+        @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+      </style><div class="pointer-events-none absolute inset-0 [background:radial-gradient(80%_60%_at_50%_12%,rgba(255,255,255,.06),transparent_60%)]"></div><div aria-hidden="true" class="absolute inset-0 pointer-events-none opacity-70"><div class="absolute left-0 right-0 bg-[#27272a]" style="top: 18%; height: 1px; transform: scaleX(0); transform-origin: 50% 50%; animation: 0.6s ease 0.08s 1 normal forwards running drawX;"></div><div class="absolute left-0 right-0 bg-[#27272a]" style="top: 50%; height: 1px; transform: scaleX(0); transform-origin: 50% 50%; animation: 0.6s ease 0.16s 1 normal forwards running drawX;"></div><div class="absolute left-0 right-0 bg-[#27272a]" style="top: 82%; height: 1px; transform: scaleX(0); transform-origin: 50% 50%; animation: 0.6s ease 0.24s 1 normal forwards running drawX;"></div><div class="absolute top-0 bottom-0 bg-[#27272a]" style="left: 22%; width: 1px; transform: scaleY(0); transform-origin: 50% 0%; animation: 0.7s ease 0.2s 1 normal forwards running drawY;"></div><div class="absolute top-0 bottom-0 bg-[#27272a]" style="left: 50%; width: 1px; transform: scaleY(0); transform-origin: 50% 0%; animation: 0.7s ease 0.28s 1 normal forwards running drawY;"></div><div class="absolute top-0 bottom-0 bg-[#27272a]" style="left: 78%; width: 1px; transform: scaleY(0); transform-origin: 50% 0%; animation: 0.7s ease 0.36s 1 normal forwards running drawY;"></div></div><canvas class="absolute inset-0 h-full w-full opacity-50 mix-blend-screen pointer-events-none" width="992" height="944"></canvas><div class="relative w-full max-w-md rounded-[28px] border border-zinc-800 bg-zinc-900/70 backdrop-blur supports-[backdrop-filter]:bg-zinc-900/60 shadow-xl p-4" style="opacity: 0; transform: translateY(12px); animation: 0.6s ease 0.32s 1 normal forwards running fadeUp;"><div class="rounded-full relative w-full bg-zinc-800/50 p-1.5 flex items-center"><button class="font-medium rounded-full w-full p-1.5 text-zinc-200 z-20" aria-pressed="true">Monthly</button><button class="font-medium rounded-full w-full p-1.5 text-zinc-200 z-20" aria-pressed="false">Yearly</button><div class="p-1.5 flex items-center justify-center absolute inset-0 w-1/2 z-10" style="transform: translateX(0%); transition: transform 0.3s;"><div class="bg-zinc-900 rounded-full w-full h-full border border-zinc-700 shadow-sm"></div></div></div><div class="w-full relative mt-3 flex flex-col items-center justify-center gap-3"><div class="w-full flex justify-between cursor-pointer border border-zinc-800/80 hover:border-zinc-700 transition-colors p-4 rounded-2xl bg-zinc-900/50"><div class="flex flex-col items-start"><p class="font-semibold text-xl text-zinc-50">Free</p><p class="text-zinc-400 text-sm"><span class="text-zinc-100 font-medium">$0.00</span>/month</p></div><div class="border-2 size-6 rounded-full mt-0.5 p-1 flex items-center justify-center" style="border-color: rgb(255, 255, 255); transition: border-color 0.3s;"><div class="size-3 bg-zinc-100 rounded-full" style="opacity: 1; transition: opacity 0.3s;"></div></div></div><div class="w-full flex justify-between cursor-pointer border border-zinc-800/80 hover:border-zinc-700 transition-colors p-4 rounded-2xl bg-zinc-900/50"><div class="flex flex-col items-start"><p class="font-semibold text-xl flex items-center gap-2 text-zinc-50">Starter<span class="py-1 px-2 rounded-lg bg-yellow-100/20 text-yellow-200 text-xs border border-yellow-200/30">Popular</span></p><p class="text-zinc-400 text-sm flex items-baseline gap-1"><span class="text-zinc-100 font-medium">$</span><number-flow-react class="text-zinc-100 font-medium"></number-flow-react><span>/month</span></p></div><div class="border-2 size-6 rounded-full mt-0.5 p-1 flex items-center justify-center" style="border-color: rgb(63, 63, 70); transition: border-color 0.3s;"><div class="size-3 bg-zinc-100 rounded-full" style="opacity: 0; transition: opacity 0.3s;"></div></div></div><div class="w-full flex justify-between cursor-pointer border border-zinc-800/80 hover:border-zinc-700 transition-colors p-4 rounded-2xl bg-zinc-900/50"><div class="flex flex-col items-start"><p class="font-semibold text-xl text-zinc-50">Pro</p><p class="text-zinc-400 text-sm flex items-baseline gap-1"><span class="text-zinc-100 font-medium">$</span><number-flow-react class="text-zinc-100 font-medium"></number-flow-react><span>/month</span></p></div><div class="border-2 size-6 rounded-full mt-0.5 p-1 flex items-center justify-center" style="border-color: rgb(63, 63, 70); transition: border-color 0.3s;"><div class="size-3 bg-zinc-100 rounded-full" style="opacity: 0; transition: opacity 0.3s;"></div></div></div><div class="pointer-events-none w-full h-[88px] absolute top-0 rounded-2xl border-2 border-zinc-100/80" style="transform: translateY(0px); transition: transform 0.3s;"></div></div><button class="mt-4 rounded-full bg-zinc-100 text-lg text-zinc-900 w-full p-3 active:scale-95 transition-transform duration-300 hover:bg-zinc-200">Get Started</button></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

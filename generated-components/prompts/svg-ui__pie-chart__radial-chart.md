@@ -1,0 +1,134 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/svg-ui/pie-chart/radial-chart
+- Registry URL: https://21st.dev/r/svg-ui/pie-chart
+- Author: svg-ui
+- Component slug: pie-chart
+- Demo slug: radial-chart
+- Title: pie-chart
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/svg-ui/pie-chart with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/svg-ui__pie-chart__radial-chart.html
+- Local screenshot file: generated-21st-prompts/screenshots/svg-ui__pie-chart__radial-chart.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col w-[300px]"><div class="flex flex-col space-y-1.5 p-6 items-center pb-0"><h3 class="text-2xl font-semibold leading-none tracking-tight">Radial Chart</h3><p class="text-sm text-muted-foreground">January - June 2024</p></div><div class="p-6 pt-0 flex-1 pb-0 flex justify-center items-center"><div data-slot="chart" data-chart="chart-«r0»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden w-[200px] h-[200px] rounded-full"><style>
+ [data-chart=chart-«r0»] {
+  --color-chrome: var(--chart-1);
+  --color-safari: var(--chart-2);
+  --color-firefox: var(--chart-3);
+  --color-edge: var(--chart-4);
+  --color-other: var(--chart-5);
+}
+
+
+.dark [data-chart=chart-«r0»] {
+  --color-chrome: var(--chart-1);
+  --color-safari: var(--chart-2);
+  --color-firefox: var(--chart-3);
+  --color-edge: var(--chart-4);
+  --color-other: var(--chart-5);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div style="width: 0px; height: 0px; overflow: visible;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 200px; height: 200px;"><div xmlns="http://www.w3.org/1999/xhtml" tabindex="-1" class="recharts-tooltip-wrapper" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;"></div><svg cx="50%" cy="50%" role="application" tabindex="0" class="recharts-surface" width="200" height="200" viewBox="0 0 200 200" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="190" width="190"></rect></clipPath></defs><g class="recharts-layer recharts-area drop-shadow-lg"><g class="recharts-layer recharts-radial-bar-background"><path fill="#eee" cx="100" cy="100" class="recharts-sector recharts-radial-bar-background-sector" d="M 139,100
+    A 39,39,0,
+    1,0,
+    138.99999999405998,100.00068067840824
+  L 130.99999999527842,100.00054105206809
+            A 31,31,0,
+            1,1,
+            131,100 Z"></path><path fill="#eee" cx="100" cy="100" class="recharts-sector recharts-radial-bar-background-sector" d="M 149,100
+    A 49,49,0,
+    1,0,
+    148.99999999253686,100.00085521133343
+  L 140.99999999375535,100.00071558499329
+            A 41,41,0,
+            1,1,
+            141,100 Z"></path><path fill="#eee" cx="100" cy="100" class="recharts-sector recharts-radial-bar-background-sector" d="M 159,100
+    A 59,59,0,
+    1,0,
+    158.9999999910138,100.00102974425862
+  L 150.99999999223226,100.00089011791847
+            A 51,51,0,
+            1,1,
+            151,100 Z"></path><path fill="#eee" cx="100" cy="100" class="recharts-sector recharts-radial-bar-background-sector" d="M 169,100
+    A 69,69,0,
+    1,0,
+    168.9999999894907,100.00120427718382
+  L 160.99999999070917,100.00106465084366
+            A 61,61,0,
+            1,1,
+            161,100 Z"></path><path fill="#eee" cx="100" cy="100" class="recharts-sector recharts-radial-bar-background-sector" d="M 179,100
+    A 79,79,0,
+    1,0,
+    178.9999999879676,100.001378810109
+  L 170.99999998918608,100.00123918376885
+            A 71,71,0,
+            1,1,
+            171,100 Z"></path></g><g class="recharts-layer recharts-radial-bar-sectors"><g class="recharts-layer"><path class="recharts-sector recharts-radial-bar-sector undefined" fill="var(--color-chrome)" cx="100" cy="100" d="M 139,100
+    A 39,39,0,
+    1,0,
+    138.99999999405998,100.00068067840824
+  L 130.99999999527842,100.00054105206809
+            A 31,31,0,
+            1,1,
+            131,100 Z"></path><path class="recharts-sector recharts-radial-bar-sector undefined" fill="var(--color-safari)" cx="100" cy="100" d="M 144.82186966202994,100
+    A4,4,0,0,0,148.8060358542104,95.64444444444445
+    A49,49,0,1,0,88.74295462045538,147.6894005972278
+    A4,4,0,0,0,93.62118286794194,144.3656476566697
+  L93.62118286794194,144.3656476566697
+      A4,4,0,0,0,90.58083958038104,139.90337600992532
+      A41,41,0,1,1,140.8377034698495,96.35555555555555
+      A4,4,0,0,0,144.82186966202994,100Z"></path><path class="recharts-sector recharts-radial-bar-sector undefined" fill="var(--color-firefox)" cx="100" cy="100" d="M 154.8543526076099,100
+    A4,4,0,0,0,158.84376006998156,95.7090909090909
+    A59,59,0,1,0,71.06301489925124,151.41644574724165
+    A4,4,0,0,0,76.64415260747118,149.6337021848754
+  L76.64415260747118,149.6337021848754
+      A4,4,0,0,0,74.98667389596295,144.44472428998856
+      A51,51,0,1,1,150.86494514523827,96.2909090909091
+      A4,4,0,0,0,154.8543526076099,100Z"></path><path class="recharts-sector recharts-radial-bar-sector undefined" fill="var(--color-edge)" cx="100" cy="100" d="M 164.87680633323436,100
+    A4,4,0,0,0,168.86922518451036,95.75384615384615
+    A69,69,0,1,0,49.491120556008354,147.00907462727082
+    A4,4,0,0,0,55.319358069616754,147.0387099811302
+  L55.319358069616754,147.0387099811302
+      A4,4,0,0,0,55.34722252052912,141.5587471342539
+      A61,61,0,1,1,160.8843874819584,96.24615384615385
+      A4,4,0,0,0,164.87680633323436,100Z"></path><path class="recharts-sector recharts-radial-bar-sector undefined" fill="var(--color-other)" cx="100" cy="100" d="M 174.89325737341113,100
+    A4,4,0,0,0,178.8875644333264,95.78666666666666
+    A79,79,0,0,0,66.9121622193775,28.26301518043003
+    A4,4,0,0,0,65.04976405389878,33.76193686926034
+  L65.04976405389878,33.76193686926034
+      A4,4,0,0,0,70.26282933640258,35.52751997228522
+      A71,71,0,0,1,170.89895031349585,96.21333333333334
+      A4,4,0,0,0,174.89325737341113,100Z"></path></g></g></g></svg></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

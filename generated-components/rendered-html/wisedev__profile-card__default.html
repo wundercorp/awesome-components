@@ -1,0 +1,43 @@
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_DemoOne">DemoOne</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><style>
+          html, body {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+            font-family: system-ui, sans-serif;
+          }
+          
+          .hover-scale {
+            transition: transform 700ms ease-out;
+          }
+          
+          .hover-scale:hover {
+            transform: scale(1.02);
+          }
+          
+          .image-scale {
+            transition: transform 700ms ease-out;
+          }
+          
+          .image-container:hover .image-scale {
+            transform: scale(1.03);
+          }
+          
+          .hover-translate {
+            transition: transform 500ms ease-out;
+          }
+          
+          .hover-translate:hover {
+            transform: translateX(4px);
+          }
+          
+          .hover-scale-sm {
+            transition: transform 500ms ease-out;
+          }
+          
+          .hover-scale-sm:hover {
+            transform: scale(1.1);
+          }
+        </style><div class="w-full h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-black dark:to-zinc-950 flex items-center justify-center"><div class="w-full max-w-md"><div class="bg-white dark:bg-zinc-900 rounded-3xl shadow-lg dark:shadow-2xl dark:shadow-black/80 overflow-hidden hover-scale mx-4"><div class="relative overflow-hidden image-container"><img alt="Profile" class="w-full aspect-square object-cover image-scale" src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"><div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/30 dark:from-black/60 to-transparent pointer-events-none"></div><div class="absolute top-6 left-6"><h2 class="text-2xl font-medium text-white drop-shadow-lg">John Doe</h2></div></div><div class="p-4 flex items-center justify-between"><div class="flex items-center gap-3"><div class="w-8 h-8 rounded-full overflow-hidden hover-scale-sm ring-2 ring-gray-200 dark:ring-zinc-700"><img alt="Avatar" class="w-full h-full object-cover" src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"></div><div class="hover-translate"><div class="text-sm text-gray-700 dark:text-zinc-200">@johndoe</div><div class="text-xs text-gray-500 dark:text-zinc-500">12m ago</div></div></div><button class="bg-gray-900 dark:bg-zinc-800 text-white dark:text-zinc-100 rounded-lg px-4 py-2 text-sm font-medium
+                         transition-all duration-500 ease-out transform hover:scale-105 
+                         hover:bg-gray-800 dark:hover:bg-zinc-700
+                         active:scale-95 hover:shadow-md dark:hover:shadow-lg dark:hover:shadow-black/50">+ Add member</button></div></div></div></div></div></div>

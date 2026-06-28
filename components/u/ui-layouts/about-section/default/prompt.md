@@ -1,0 +1,57 @@
+# Build About Section in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![About Section screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ui-layouts`
+- Component: `about-section`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ui-layouts
+- Component slug: about-section
+- Demo slug: default
+- Title: about-section
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="py-8 px-4 bg-[#f9f9f9]"><div class="max-w-6xl mx-auto"><div class="relative"><div class="flex justify-between items-center mb-8 w-[85%] absolute lg:top-4 md:top-0 sm:-top-2 -top-3 z-10"><div class="flex items-center gap-2  text-xl"><span class="text-red-500 animate-spin">✱</span><span class="text-sm font-medium text-gray-600" style="filter: blur(0px); opacity: 1; transform: none;">WHO I AM</span></div><div class="flex gap-4"><a class="md:w-8 md:h-8 sm:w-6 w-5 sm:h-6 h-5 border border-gray-200 bg-gray-100  rounded-lg flex items-center justify-center  cursor-pointer" href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" style="filter: blur(0px); opacity: 1; transform: none;"><img alt="fb" width="24" height="24" src="https://pro-section.ui-layouts.com/facebook.svg"></a><a class="md:w-8 md:h-8 sm:w-6 w-5 sm:h-6 h-5 border border-gray-200 bg-gray-100 rounded-lg flex items-center justify-center  cursor-pointer" href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" style="filter: blur(0px); opacity: 1; transform: none;"><img alt="insta" width="24" height="24" src="https://pro-section.ui-layouts.com/instagram.svg"></a><a class="md:w-8 md:h-8 sm:w-6 w-5 sm:h-6 h-5 border border-gray-200 bg-gray-100 rounded-lg flex items-center justify-center  cursor-pointer" href="https://www.linkedin.com/naymur-rahman" target="_blank" rel="noopener noreferrer" style="filter: blur(0px); opacity: 1; transform: none;"><img alt="linkedin" width="24" height="24" src="https://pro-section.ui-layouts.com/linkedin.svg"></a><a class="md:w-8 md:h-8 sm:w-6 w-5 sm:h-6 h-5 border border-gray-200 bg-gray-100 rounded-lg flex items-center justify-center  cursor-pointer" href="https://www.youtube.com/naymurweb" target="_blank" rel="noopener noreferrer" style="filter: blur(0px); opacity: 1; transform: none;"><img alt="youtube" width="24" height="24" src="https://pro-section.ui-layouts.com/youtube.svg"></a></div></div><figure class="relative group" style="filter: blur(0px); opacity: 1;"><svg class="w-full" width="100%" height="100%" viewBox="0 0 100 40"><defs><clipPath id="clip-inverted" clipPathUnits="objectBoundingBox"><path d="M0.0998072 1H0.422076H0.749756C0.767072 1 0.774207 0.961783 0.77561 0.942675V0.807325C0.777053 0.743631 0.791844 0.731953 0.799059 0.734076H0.969813C0.996268 0.730255 1.00088 0.693206 0.999875 0.675159V0.0700637C0.999875 0.0254777 0.985045 0.00477707 0.977629 0H0.902473C0.854975 0 0.890448 0.138535 0.850165 0.138535H0.0204424C0.00408849 0.142357 0 0.180467 0 0.199045V0.410828C0 0.449045 0.0136283 0.46603 0.0204424 0.469745H0.0523086C0.0696245 0.471019 0.0735527 0.497877 0.0733523 0.511146V0.915605C0.0723903 0.983121 0.090588 1 0.0998072 1Z" fill="#D9D9D9"></path></clipPath></defs><image clip-path="url(#clip-inverted)" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" xlink:href="https://images.unsplash.com/photo-1718601980986-0ce75101d52d?w=1200&amp;auto=format&amp;fit=crop"></image></svg></figure><div class="flex flex-wrap lg:justify-start justify-between items-center py-3 text-sm"><div class="flex gap-4" style="filter: blur(0px); opacity: 1; transform: none;"><div class="flex items-center gap-2 mb-2 sm:text-base text-xs"><span class="text-red-500 font-bold">10+</span><span class="text-gray-600">years of experience</span><span class="text-gray-300">|</span></div><div class="flex items-center gap-2 mb-2 sm:text-base text-xs"><span class="text-red-500 font-bold">3 million</span><span class="text-gray-600">words</span></div></div><div class="lg:absolute right-0 bottom-16 flex lg:flex-col flex-row-reverse lg:gap-0 gap-4"><div class="flex lg:text-4xl sm:text-3xl text-2xl items-center gap-2 mb-2" style="filter: blur(0px); opacity: 1; transform: none;"><span class="text-red-500 font-semibold">100+</span><span class="text-gray-600 uppercase">brands</span></div><div class="flex items-center gap-2 mb-2 sm:text-base text-xs" style="filter: blur(0px); opacity: 1; transform: none;"><span class="text-red-500 font-bold">30%</span><span class="text-gray-600">higher engagement</span><span class="text-gray-300 lg:hidden block">|</span></div></div></div></div><div class="grid md:grid-cols-3 gap-8"><div class="md:col-span-2"><h1 class="sm:text-4xl md:text-5xl text-2xl !leading-[110%] font-semibold text-gray-900 mb-8"><span class="flex flex-wrap whitespace-pre-wrap"><span class="sr-only">Crafting Words That Make a Difference.</span><span aria-hidden="true" class="inline-flex overflow-hidden"><span class="whitespace-pre-wrap relative"><span class="inline-block" style="transform: none;">Crafting</span></span><span> </span></span><span aria-hidden="true" class="inline-flex overflow-hidden"><span class="whitespace-pre-wrap relative"><span class="inline-block" style="transform: none;">Words</span></span><span> </span></span><span aria-hidden="true" class="inline-flex overflow-hidden"><span class="whitespace-pre-wrap relative"><span class="inline-block" style="transform: none;">That</span></span><span> </span></span><span aria-hidden="true" class="inline-flex overflow-hidden"><span class="whitespace-pre-wrap relative"><span class="inline-block" style="transform: none;">Make</span></span><span> </span></span><span aria-hidden="true" class="inline-flex overflow-hidden"><span class="whitespace-pre-wrap relative"><span class="inline-block" style="transform: none;">a</span></span><span> </span></span><span aria-hidden="true" class="inline-flex overflow-hidden"><span class="whitespace-pre-wrap relative"><span class="inline-block" style="transform: none;">Difference.</span></span></span></span></h1><div class="grid md:grid-cols-2 gap-8 text-gray-600" style="filter: blur(0px); opacity: 1; transform: none;"><div class="sm:text-base text-xs" style="filter: blur(0px); opacity: 1; transform: none;"><p class="leading-relaxed text-justify">My journey began as a passionate writer and evolved into a strategic copywriting career. I specialize in transforming ideas into compelling content that helps brands grow.</p></div><div class="sm:text-base text-xs" style="filter: blur(10px); opacity: 0; transform: translateY(-5.2613px);"><p class="leading-relaxed text-justify">Every brand has a story, and I specialize in telling yours with clarity and impact. By blending creativity with strategy, I write content that resonates with audiences.</p></div></div></div><div class="md:col-span-1"><div class="text-right"><div class="text-red-500 text-2xl font-bold mb-2" style="filter: blur(10px); opacity: 0; transform: translateY(-20px);">SANGVI</div><div class="text-gray-600 text-sm mb-8" style="filter: blur(10px); opacity: 0; transform: translateY(-20px);">Copywriter | Content Strategist</div><div class="mb-6" style="filter: blur(10px); opacity: 0; transform: translateY(-20px);"><p class="text-gray-900 font-medium mb-4">Ready to transform your brand's message into results?</p></div><button class="bg-neutral-900 hover:bg-neutral-950 shadow-lg shadow-neutral-900 border border-neutral-700 flex w-fit ml-auto gap-2 hover:gap-4 transition-all duration-300 ease-in-out text-white px-5 py-3 rounded-lg cursor-pointer font-semibold" style="filter: blur(10px); opacity: 0; transform: translateY(-20px);">LET'S COLLABORATE <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

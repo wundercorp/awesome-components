@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ruixenui/newsletter/default
+- Registry URL: https://21st.dev/r/ruixenui/newsletter
+- Author: ruixenui
+- Component slug: newsletter
+- Demo slug: default
+- Title: newsletter
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ruixenui/newsletter with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ruixenui__newsletter__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ruixenui__newsletter__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="border bg-card text-card-foreground w-full max-w-md mx-auto rounded-xl shadow-md"><div class="flex flex-col space-y-1.5 p-6"><h3 class="tracking-tight text-2xl font-bold text-gray-900 dark:text-gray-100">Subscribe to our newsletter.</h3></div><div class="p-6 pt-0"><p class="text-gray-600 dark:text-gray-400 mb-4">Nostrud amet eu ullamco nisi aute in ad minim nostrud adipisicing velit quis. Duis tempor incididunt dolore.</p><div class="flex gap-2"><input class="flex h-9 w-full rounded-lg border border-input bg-background px-3 py-2 text-sm text-foreground shadow-sm shadow-black/5 transition-shadow placeholder:text-muted-foreground/70 focus-visible:border-ring focus-visible:outline-none focus-visible:ring-[3px] focus-visible:ring-ring/20 disabled:cursor-not-allowed disabled:opacity-50 flex-1 dark:bg-slate-800 dark:text-gray-100" placeholder="Enter your email" type="email" value=""><button class="inline-flex items-center justify-center whitespace-nowrap rounded-lg text-sm font-medium transition-colors outline-offset-2 focus-visible:outline-2 focus-visible:outline-ring/70 disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:shrink-0 shadow-sm shadow-black/5 h-9 px-4 py-2 bg-indigo-600 hover:bg-indigo-700 text-white">Subscribe</button></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

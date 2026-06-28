@@ -1,0 +1,142 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/svg-ui/bar-chart/multiple-bar-chart
+- Registry URL: https://21st.dev/r/svg-ui/bar-chart
+- Author: svg-ui
+- Component slug: bar-chart
+- Demo slug: multiple-bar-chart
+- Title: bar-chart
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/svg-ui/bar-chart with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/svg-ui__bar-chart__multiple-bar-chart.html
+- Local screenshot file: generated-21st-prompts/screenshots/svg-ui__bar-chart__multiple-bar-chart.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground shadow-sm"><div class="flex flex-col space-y-1.5 p-6"><h3 class="text-2xl font-semibold leading-none tracking-tight">Bar Chart - Multiple <div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-red-500 bg-red-500/10 border-none ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-down h-4 w-4" aria-hidden="true"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline><polyline points="16 17 22 17 22 11"></polyline></svg><span>-5.2%</span></div></h3><p class="text-sm text-muted-foreground">January - June 2025</p></div><div class="p-6 pt-0"><div data-slot="chart" data-chart="chart-«r0»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden"><style>
+ [data-chart=chart-«r0»] {
+  --color-desktop: var(--chart-1);
+  --color-mobile: var(--chart-2);
+}
+
+
+.dark [data-chart=chart-«r0»] {
+  --color-desktop: var(--chart-1);
+  --color-mobile: var(--chart-2);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div style="width: 0px; height: 0px; overflow: visible;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 283px; height: 159px;"><div xmlns="http://www.w3.org/1999/xhtml" tabindex="-1" class="recharts-tooltip-wrapper" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;"></div><svg role="application" tabindex="0" class="recharts-surface" width="283" height="159" viewBox="0 0 283 159" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="119" width="273"></rect></clipPath></defs><rect x="0" y="0" width="100%" height="85%" fill="url(#default-multiple-pattern-dots)"></rect><defs><pattern id="default-multiple-pattern-dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse"><circle class="dark:text-muted/40 text-muted" cx="2" cy="2" r="1" fill="currentColor"></circle></pattern></defs><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="273" stroke="none" x="27.75" y="140" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="27.75" dy="0.71em">Jan</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="273" stroke="none" x="73.25" y="140" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="73.25" dy="0.71em">Feb</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="273" stroke="none" x="118.75" y="140" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="118.75" dy="0.71em">Mar</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="273" stroke="none" x="164.25" y="140" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="164.25" dy="0.71em">Apr</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="273" stroke="none" x="209.75" y="140" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="209.75" dy="0.71em">May</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="273" stroke="none" x="255.25" y="140" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="255.25" dy="0.71em">Jun</tspan></text></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-desktop)" radius="4" x="9.55" y="54.83125" width="16" height="69.16875" class="recharts-rectangle" d="M 9.55,58.83125
+            A 4,4,0,0,1,13.55,54.83125
+            L 21.55,54.83125
+            A 4,4,0,0,1,25.55,58.83125
+            L 25.55,120
+            A 4,4,0,0,1,21.55,124
+            L 13.55,124
+            A 4,4,0,0,1,9.55,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-desktop)" radius="4" x="55.05" y="10.578125" width="16" height="113.421875" class="recharts-rectangle" d="M 55.05,14.578125
+            A 4,4,0,0,1,59.05,10.578125
+            L 67.05,10.578125
+            A 4,4,0,0,1,71.05,14.578125
+            L 71.05,120
+            A 4,4,0,0,1,67.05,124
+            L 59.05,124
+            A 4,4,0,0,1,55.05,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-desktop)" radius="4" x="100.55" y="35.865625" width="16" height="88.134375" class="recharts-rectangle" d="M 100.55,39.865625
+            A 4,4,0,0,1,104.55,35.865625
+            L 112.55,35.865625
+            A 4,4,0,0,1,116.55,39.865625
+            L 116.55,120
+            A 4,4,0,0,1,112.55,124
+            L 104.55,124
+            A 4,4,0,0,1,100.55,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-desktop)" radius="4" x="146.05" y="96.85312499999999" width="16" height="27.14687500000001" class="recharts-rectangle" d="M 146.05,100.85312499999999
+            A 4,4,0,0,1,150.05,96.85312499999999
+            L 158.05,96.85312499999999
+            A 4,4,0,0,1,162.05,100.85312499999999
+            L 162.05,120
+            A 4,4,0,0,1,158.05,124
+            L 150.05,124
+            A 4,4,0,0,1,146.05,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-desktop)" radius="4" x="191.55" y="46.278125" width="16" height="77.721875" class="recharts-rectangle" d="M 191.55,50.278125
+            A 4,4,0,0,1,195.55,46.278125
+            L 203.55,46.278125
+            A 4,4,0,0,1,207.55,50.278125
+            L 207.55,120
+            A 4,4,0,0,1,203.55,124
+            L 195.55,124
+            A 4,4,0,0,1,191.55,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-desktop)" radius="4" x="237.05" y="44.41875" width="16" height="79.58125" class="recharts-rectangle" d="M 237.05,48.41875
+            A 4,4,0,0,1,241.05,44.41875
+            L 249.05,44.41875
+            A 4,4,0,0,1,253.05,48.41875
+            L 253.05,120
+            A 4,4,0,0,1,249.05,124
+            L 241.05,124
+            A 4,4,0,0,1,237.05,120 Z"></path></g></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-mobile)" radius="4" x="29.55" y="94.25" width="16" height="29.75" class="recharts-rectangle" d="M 29.55,98.25
+            A 4,4,0,0,1,33.55,94.25
+            L 41.55,94.25
+            A 4,4,0,0,1,45.55,98.25
+            L 45.55,120
+            A 4,4,0,0,1,41.55,124
+            L 33.55,124
+            A 4,4,0,0,1,29.55,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-mobile)" radius="4" x="75.05" y="49.625" width="16" height="74.375" class="recharts-rectangle" d="M 75.05,53.625
+            A 4,4,0,0,1,79.05,49.625
+            L 87.05,49.625
+            A 4,4,0,0,1,91.05,53.625
+            L 91.05,120
+            A 4,4,0,0,1,87.05,124
+            L 79.05,124
+            A 4,4,0,0,1,75.05,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-mobile)" radius="4" x="120.55" y="79.375" width="16" height="44.625" class="recharts-rectangle" d="M 120.55,83.375
+            A 4,4,0,0,1,124.55,79.375
+            L 132.55,79.375
+            A 4,4,0,0,1,136.55,83.375
+            L 136.55,120
+            A 4,4,0,0,1,132.55,124
+            L 124.55,124
+            A 4,4,0,0,1,120.55,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-mobile)" radius="4" x="166.05" y="53.34375" width="16" height="70.65625" class="recharts-rectangle" d="M 166.05,57.34375
+            A 4,4,0,0,1,170.05,53.34375
+            L 178.05,53.34375
+            A 4,4,0,0,1,182.05,57.34375
+            L 182.05,120
+            A 4,4,0,0,1,178.05,124
+            L 170.05,124
+            A 4,4,0,0,1,166.05,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-mobile)" radius="4" x="211.55" y="75.65625" width="16" height="48.34375" class="recharts-rectangle" d="M 211.55,79.65625
+            A 4,4,0,0,1,215.55,75.65625
+            L 223.55,75.65625
+            A 4,4,0,0,1,227.55,79.65625
+            L 227.55,120
+            A 4,4,0,0,1,223.55,124
+            L 215.55,124
+            A 4,4,0,0,1,211.55,120 Z"></path></g><g class="recharts-layer recharts-bar-rectangle"><path fill="var(--color-mobile)" radius="4" x="257.05" y="71.9375" width="16" height="52.0625" class="recharts-rectangle" d="M 257.05,75.9375
+            A 4,4,0,0,1,261.05,71.9375
+            L 269.05,71.9375
+            A 4,4,0,0,1,273.05,75.9375
+            L 273.05,120
+            A 4,4,0,0,1,269.05,124
+            L 261.05,124
+            A 4,4,0,0,1,257.05,120 Z"></path></g></g></g></g></svg></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

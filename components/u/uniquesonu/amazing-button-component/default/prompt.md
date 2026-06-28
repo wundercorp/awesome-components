@@ -1,0 +1,57 @@
+# Build Amazing Button Component in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Amazing Button Component screenshot](screenshot.png)
+
+## Component
+
+- Author group: `uniquesonu`
+- Component: `amazing-button-component`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: uniquesonu
+- Component slug: amazing-button-component
+- Demo slug: default
+- Title: amazing-button-component
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-8"><div class="space-y-8"><div class="relative"><div class="absolute inset-0 rounded-2xl blur-xl opacity-75" style="background: linear-gradient(45deg, rgb(55, 65, 81), rgb(75, 85, 99), rgb(107, 114, 128), rgb(55, 65, 81));"></div><button class="relative group overflow-hidden rounded-2xl bg-slate-800/90 backdrop-blur-sm border border-slate-600/50 px-8 py-4 shadow-2xl transition-all duration-300" tabindex="0" style="box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 30px, rgba(255, 255, 255, 0.1) 0px 1px 0px inset;"><div class="absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" style="background: linear-gradient(45deg, rgb(139, 92, 246), rgb(6, 182, 212), rgb(16, 185, 129), rgb(245, 158, 11)) 55.6654% 55.6654% / 300% 300%; padding: 1px;"><div class="w-full h-full bg-slate-800/90 rounded-2xl"></div></div><div class="relative z-10 flex items-center justify-center gap-3"><div class="relative" style="transform: none;"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="transition-colors duration-300 text-slate-300"><path d="M6 10V8C6 5.79 7.79 4 10 4H14C16.21 4 18 5.79 18 8V10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><path d="M5 10H19C20.1 10 21 10.9 21 12V18C21 19.1 20.1 20 19 20H5C3.9 20 3 19.1 3 12V12C3 10.9 3.9 10 5 10Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><circle cx="12" cy="15" r="2" fill="currentColor" class="transition-all duration-300 opacity-60"></circle></svg></div><span class="font-mono text-lg font-bold tracking-wider transition-all duration-300 text-slate-200" style="font-family: &quot;JetBrains Mono&quot;, Consolas, monospace;">SECURED DATA</span></div><div class="absolute inset-0 pointer-events-none" style="background: transparent;"></div><div class="absolute inset-0 overflow-hidden rounded-2xl" style="opacity: 0;"><div class="absolute top-0 left-0 w-full h-0.5 bg-gradient-to-r from-transparent via-cyan-400 to-transparent" style="opacity: 1; transform: none;"></div></div></button><div class="absolute w-1 h-1 bg-cyan-400 rounded-full opacity-0" style="left: 20%; top: 30%; opacity: 0; transform: scale(0.443346);"></div><div class="absolute w-1 h-1 bg-cyan-400 rounded-full opacity-0" style="left: 30%; top: 50%; opacity: 0; transform: scale(0.569743);"></div><div class="absolute w-1 h-1 bg-cyan-400 rounded-full opacity-0" style="left: 40%; top: 70%; opacity: 0; transform: scale(0.707734);"></div><div class="absolute w-1 h-1 bg-cyan-400 rounded-full opacity-0" style="left: 50%; top: 30%; opacity: 0; transform: scale(0.85699);"></div><div class="absolute w-1 h-1 bg-cyan-400 rounded-full opacity-0" style="left: 60%; top: 50%; opacity: 0; transform: scale(0.000243322);"></div><div class="absolute w-1 h-1 bg-cyan-400 rounded-full opacity-0" style="left: 70%; top: 70%; opacity: 0; transform: scale(0.0210016);"></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

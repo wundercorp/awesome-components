@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/rubenerik/hover-text-glow/default
+- Registry URL: https://21st.dev/r/rubenerik/hover-text-glow
+- Author: rubenerik
+- Component slug: hover-text-glow
+- Demo slug: default
+- Title: hover-text-glow
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/rubenerik/hover-text-glow with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/rubenerik__hover-text-glow__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/rubenerik__hover-text-glow__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-[300px] w-full items-center justify-center bg-background"><div class="relative flex w-full items-center justify-center overflow-hidden p-6"><svg class="select-none" width="100%" height="100%" viewBox="0 0 300 100" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="textGradient" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="hsl(var(--foreground))"></stop></linearGradient><radialGradient id="revealMask" gradientUnits="userSpaceOnUse" r="20%" cx="-2.5423728813559325%" cy="-100.00496573641871%"><stop offset="0%" stop-color="white"></stop><stop offset="100%" stop-color="black"></stop></radialGradient><mask id="textMask"><rect width="100%" height="100%" fill="url(#revealMask)"></rect></mask></defs><text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" stroke-width="0.4" class="font-bold font-[helvetica] fill-transparent text-[4rem] stroke-neutral-800 dark:stroke-neutral-300" stroke-dashoffset="0" stroke-dasharray="1000">Hover Me</text><text x="50%" y="50%" text-anchor="middle" dominant-baseline="middle" stroke="url(#textGradient)" stroke-width="0.4" mask="url(#textMask)" class="font-bold font-[helvetica] fill-transparent text-[4rem]" style="opacity: 0.5; transition: opacity 0.3s;">Hover Me</text></svg></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

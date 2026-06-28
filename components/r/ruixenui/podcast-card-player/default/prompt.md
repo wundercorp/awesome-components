@@ -1,0 +1,57 @@
+# Build Podcast Card Player in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Podcast Card Player screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ruixenui`
+- Component: `podcast-card-player`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ruixenui
+- Component slug: podcast-card-player
+- Demo slug: default
+- Title: podcast-card-player
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="p-6 flex flex-wrap gap-6 justify-center"><div class="flex flex-col items-center bg-white dark:bg-gray-800 shadow-md rounded-xl p-4 gap-3" style="width: 320px;"><img alt="Health &amp; Wellness" class="w-full h-40 object-cover rounded-lg" src="https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?fit=crop&amp;w=400&amp;h=200"><div class="flex flex-col w-full"><h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Health &amp; Wellness</h3><p class="text-sm text-gray-500 dark:text-gray-300"></p></div><div class="relative w-full h-2 rounded-full bg-gray-200 dark:bg-gray-700 cursor-pointer"><div class="absolute top-0 left-0 h-full rounded-full bg-black dark:bg-white" style="width: 0%;"></div></div><div class="flex justify-between items-center w-full"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 text-sm px-3 py-1">Play</button><span class="text-xs text-gray-500 dark:text-gray-300">0:00 / 0:00</span></div></div><div class="flex flex-col items-center bg-white dark:bg-gray-800 shadow-md rounded-xl p-4 gap-3" style="width: 320px;"><img alt="Startup Stories" class="w-full h-40 object-cover rounded-lg" src="https://images.unsplash.com/photo-1497493292307-31c376b6e479?fit=crop&amp;w=400&amp;h=200"><div class="flex flex-col w-full"><h3 class="text-lg font-semibold text-gray-900 dark:text-gray-100">Startup Stories</h3><p class="text-sm text-gray-500 dark:text-gray-300"></p></div><div class="relative w-full h-2 rounded-full bg-gray-200 dark:bg-gray-700 cursor-pointer"><div class="absolute top-0 left-0 h-full rounded-full bg-black dark:bg-white" style="width: 0%;"></div></div><div class="flex justify-between items-center w-full"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 text-sm px-3 py-1">Play</button><span class="text-xs text-gray-500 dark:text-gray-300">0:00 / 0:00</span></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

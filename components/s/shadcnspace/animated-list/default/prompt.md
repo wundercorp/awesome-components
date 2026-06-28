@@ -1,0 +1,57 @@
+# Build Animated List in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Animated List screenshot](screenshot.png)
+
+## Component
+
+- Author group: `shadcnspace`
+- Component: `animated-list`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: shadcnspace
+- Component slug: animated-list
+- Demo slug: default
+- Title: animated-list
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative h-96 flex items-center w-full flex-col overflow-hidden p-2"><div class="flex flex-col items-center gap-4"><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-7.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">John received payment</h5><p class="text-xs font-normal text-muted-foreground truncate">$230 deducted from account</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-3.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">Jolly completed tasks</h5><p class="text-xs font-normal text-muted-foreground truncate">Assign her new tasks</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-4.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">Bianca sent payment</h5><p class="text-xs font-normal text-muted-foreground truncate">Check your earnings</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-2.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">New message</h5><p class="text-xs font-normal text-muted-foreground truncate">Salma sent you new message</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-1.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">Roman Joined the Team!</h5><p class="text-xs font-normal text-muted-foreground truncate">Congratulate him</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-7.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">John received payment</h5><p class="text-xs font-normal text-muted-foreground truncate">$230 deducted from account</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-3.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">Jolly completed tasks</h5><p class="text-xs font-normal text-muted-foreground truncate">Assign her new tasks</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-4.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">Bianca sent payment</h5><p class="text-xs font-normal text-muted-foreground truncate">Check your earnings</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-2.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">New message</h5><p class="text-xs font-normal text-muted-foreground truncate">Salma sent you new message</p></div></div></div></div><div class="mx-auto w-full" style="opacity: 1; transform: none; transform-origin: 50% 0% 0px;"><div class="relative mx-auto min-h-fit w-full cursor-pointer overflow-hidden rounded-2xl p-4 transition-all duration-200 ease-in-out hover:scale-105 bg-background border border-border"><div class="flex items-center"><span class="flex-shrink-0 relative"><img width="45" height="45" alt="shadcnspace" class="rounded-full" src="https://images.shadcnspace.com/assets/profiles/user-1.jpg"></span><div class="ps-4"><h5 class="text-sm font-semibold text-foreground mb-1">Roman Joined the Team!</h5><p class="text-xs font-normal text-muted-foreground truncate">Congratulate him</p></div></div></div></div></div><div class="from-background pointer-events-none absolute inset-x-0 bottom-0 h-1/4 bg-gradient-to-t"></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

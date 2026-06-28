@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/reui/statistics-card-15/default
+- Registry URL: https://21st.dev/r/reui/statistics-card-15
+- Author: reui
+- Component slug: statistics-card-15
+- Demo slug: default
+- Title: statistics-card-15
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/reui/statistics-card-15 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/reui__statistics-card-15__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/reui__statistics-card-15__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-5xl min-h-screen flex items-center justify-center p-6 lg:p-8"><div class="@container grow w-full"><div class="grid grid-cols-1 @3xl:grid-cols-3 gap-8 w-full"><div data-slot="card" class="flex flex-col items-stretch text-card-foreground border-border black/5 rounded-2xl overflow-hidden shadow-lg p-0 border-0 bg-blue-600"><div data-slot="card-content" class="grow p-5 relative overflow-hidden flex flex-col justify-end py-6 px-0 pb-0"><div class="px-6 mb-3.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-combined size-8 text-white/60" aria-hidden="true"><path d="M12 16v5"></path><path d="M16 14v7"></path><path d="M20 10v11"></path><path d="m22 3-8.646 8.646a.5.5 0 0 1-.708 0L9.354 8.354a.5.5 0 0 0-.707 0L2 15"></path><path d="M4 18v3"></path><path d="M8 14v7"></path></svg></div><div class="flex-1 flex flex-col justify-center items-start px-6"><div class="text-white text-4xl font-bold mb-6">27.3%</div><div class="text-white text-lg font-semibold mb-1">NPS Improvement</div><div class="text-white/80 text-sm mb-2">Our new onboarding flow increased Net Promoter Score by 27.3% in Q2.</div></div><a href="#" class="group/card w-full bg-black/90 dark:bg-zinc-800 px-6 py-4 flex items-center justify-between mt-6"><span class="text-white text-sm font-medium">Read full story</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right group-hover/card:translate-x-1 transition-transform duration-300 w-5 h-5 text-white" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div></div><div data-slot="card" class="flex flex-col items-stretch text-card-foreground border-border black/5 rounded-2xl overflow-hidden shadow-lg p-0 border-0 bg-emerald-600"><div data-slot="card-content" class="grow p-5 relative overflow-hidden flex flex-col justify-end py-6 px-0 pb-0"><div class="px-6 mb-3.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users size-8 text-white/60" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg></div><div class="flex-1 flex flex-col justify-center items-start px-6"><div class="text-white text-4xl font-bold mb-6">8,200</div><div class="text-white text-lg font-semibold mb-1">Active Users</div><div class="text-white/80 text-sm mb-2">Highest monthly active users since launch. Engagement up 12% MoM.</div></div><a href="#" class="group/card w-full bg-black/90 dark:bg-zinc-800 px-6 py-4 flex items-center justify-between mt-6"><span class="text-white text-sm font-medium">See user insights</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right group-hover/card:translate-x-1 transition-transform duration-300 w-5 h-5 text-white" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div></div><div data-slot="card" class="flex flex-col items-stretch text-card-foreground border-border black/5 rounded-2xl overflow-hidden shadow-lg p-0 border-0 bg-fuchsia-700"><div data-slot="card-content" class="grow p-5 relative overflow-hidden flex flex-col justify-end py-6 px-0 pb-0"><div class="px-6 mb-3.5"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up size-8 text-white/60" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg></div><div class="flex-1 flex flex-col justify-center items-start px-6"><div class="text-white text-4xl font-bold mb-6">$1.4M</div><div class="text-white text-lg font-semibold mb-1">ARR Growth</div><div class="text-white/80 text-sm mb-2">Annual recurring revenue grew by $1.4M in the last quarter.</div></div><a href="#" class="group/card w-full bg-black/90 dark:bg-zinc-800 px-6 py-4 flex items-center justify-between mt-6"><span class="text-white text-sm font-medium">View ARR breakdown</span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right group-hover/card:translate-x-1 transition-transform duration-300 w-5 h-5 text-white" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></a></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

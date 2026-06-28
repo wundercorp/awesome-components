@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/thanh/hero-landing-page/default
+- Registry URL: https://21st.dev/r/thanh/hero-landing-page
+- Author: thanh
+- Component slug: hero-landing-page
+- Demo slug: default
+- Title: hero-landing-page
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/thanh/hero-landing-page with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/thanh__hero-landing-page__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/thanh__hero-landing-page__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full"><div class="min-h-screen bg-[#0a0a0a] text-white overflow-x-hidden relative"><div class="absolute inset-0 pointer-events-none"><div class="absolute inset-0 bg-gradient-to-r from-[rgba(0,132,255,0.15)] via-transparent to-transparent opacity-50"></div><div class="absolute inset-0 bg-gradient-to-bl from-[rgba(0,132,255,0.1)] via-transparent to-transparent opacity-50"></div></div><main class="main min-h-screen pt-[300px] pb-20 relative"><video class="hero-video absolute -top-[20%] left-0 w-full h-[120%] object-cover z-0 bg-[#111]" autoplay="" loop="" playsinline=""><source src="https://mybycketvercelprojecttest.s3.sa-east-1.amazonaws.com/animation-bg.mp4" type="video/mp4"></video><div class="content-wrapper max-w-[1400px] mx-auto px-[60px] flex justify-between items-end relative z-[2]"><div class="max-w-[800px]"><h1 class="text-[80px] font-light leading-[1.1] mb-8 tracking-[-2px]">Accelerate your<br>AGI deployment</h1><p class="text-lg leading-relaxed text-[#b8b8b8] mb-12 font-normal">Trusted by global enterprises, we solve business challenges and<br>boost productivity through intelligent systems.</p><div class="flex gap-5 items-center"><button class="flex items-center gap-2.5 bg-[#0084ff] text-white py-3.5 px-7 rounded-md text-base font-medium hover:bg-[#0066cc] hover:translate-x-0.5 transition-all duration-200">Get Started<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button><button class="bg-transparent text-[#b8b8b8] py-3.5 px-7 text-base font-medium hover:text-white transition-colors duration-200">Learn more</button></div></div><div class="flex gap-20 items-end"><div class="text-center"><div class="text-[64px] font-light leading-none mb-3">40+</div><div class="text-base text-[#b8b8b8] font-normal">Industries innovated</div></div><div class="text-center"><div class="text-[64px] font-light leading-none mb-3">3M+</div><div class="text-base text-[#b8b8b8] font-normal">Professionals available</div></div></div></div></main></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

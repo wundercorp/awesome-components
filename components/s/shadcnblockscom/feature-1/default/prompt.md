@@ -1,0 +1,57 @@
+# Build Feature 1 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Feature 1 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `shadcnblockscom`
+- Component: `feature-1`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: shadcnblockscom
+- Component slug: feature-1
+- Demo slug: default
+- Title: feature-1
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><section class="py-32"><div class="container"><div class="grid items-center gap-8 lg:grid-cols-2"><div class="flex flex-col items-center text-center lg:items-start lg:text-left"><h1 class="my-6 mt-0 text-4xl font-semibold text-balance lg:text-5xl">Blocks built with Shadcn &amp; Tailwind</h1><p class="mb-8 max-w-xl text-muted-foreground lg:text-lg">Hundreds of finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.</p><div class="flex w-full flex-col justify-center gap-2 sm:flex-row lg:justify-start"><a href="https://shadcnblocks.com" target="_blank" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2">Get Started</a><a href="https://shadcnblocks.com" target="_blank" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 px-4 py-2">Learn More</a></div></div><img alt="placeholder hero" class="max-h-96 w-full rounded-md object-cover" src="https://shadcnblocks.com/images/block/placeholder-1.svg"></div></div></section></div>
+```
+
+## Reference source files
+
+No reference source files were available.

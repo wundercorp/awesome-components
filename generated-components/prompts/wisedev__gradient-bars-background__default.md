@@ -1,0 +1,181 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/wisedev/gradient-bars-background/default
+- Registry URL: https://21st.dev/r/wisedev/gradient-bars-background
+- Author: wisedev
+- Component slug: gradient-bars-background
+- Demo slug: default
+- Title: gradient-bars-background
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/wisedev/gradient-bars-background with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/wisedev__gradient-bars-background__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/wisedev__gradient-bars-background__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&amp;display=swap"><style>
+        .font-modern {
+          font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+        }
+        
+        .control-panel {
+          backdrop-filter: blur(12px);
+          background: rgba(0, 0, 0, 0.85);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+        
+        .control-panel.hidden {
+          transform: translateX(320px);
+          opacity: 0;
+          pointer-events: none;
+        }
+        
+        .toggle-btn {
+          backdrop-filter: blur(12px);
+          background: rgba(0, 0, 0, 0.85);
+          border: 1px solid rgba(255, 255, 255, 0.2);
+          transition: all 0.2s;
+        }
+        
+        .toggle-btn:hover {
+          background: rgba(0, 0, 0, 0.95);
+          border-color: rgba(255, 255, 255, 0.4);
+        }
+        
+        .control-label {
+          color: rgba(255, 255, 255, 0.9);
+          font-size: 0.75rem;
+          font-weight: 600;
+          margin-bottom: 0.5rem;
+          display: block;
+          text-transform: uppercase;
+          letter-spacing: 0.5px;
+        }
+        
+        .slider {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 100%;
+          height: 6px;
+          border-radius: 3px;
+          background: rgba(255, 255, 255, 0.2);
+          outline: none;
+        }
+        
+        .slider::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background: white;
+          cursor: pointer;
+          transition: transform 0.2s;
+        }
+        
+        .slider::-webkit-slider-thumb:hover {
+          transform: scale(1.2);
+        }
+        
+        .slider::-moz-range-thumb {
+          width: 16px;
+          height: 16px;
+          border-radius: 50%;
+          background: white;
+          cursor: pointer;
+          border: none;
+          transition: transform 0.2s;
+        }
+        
+        .slider::-moz-range-thumb:hover {
+          transform: scale(1.2);
+        }
+        
+        .color-picker-wrapper {
+          position: relative;
+          width: 100%;
+          height: 40px;
+          border-radius: 6px;
+          overflow: hidden;
+          border: 2px solid rgba(255, 255, 255, 0.3);
+          cursor: pointer;
+          transition: border-color 0.2s;
+        }
+        
+        .color-picker-wrapper:hover {
+          border-color: rgba(255, 255, 255, 0.5);
+        }
+        
+        .color-picker {
+          position: absolute;
+          inset: 0;
+          width: 100%;
+          height: 100%;
+          border: none;
+          cursor: pointer;
+          opacity: 0;
+        }
+        
+        .color-display {
+          position: absolute;
+          inset: 0;
+          pointer-events: none;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          font-weight: 600;
+          text-shadow: 0 2px 4px rgba(0, 0, 0, 0.8);
+          font-size: 0.75rem;
+        }
+        
+        .preset-btn {
+          height: 36px;
+          border-radius: 6px;
+          border: 2px solid rgba(255, 255, 255, 0.2);
+          transition: all 0.2s;
+          cursor: pointer;
+        }
+        
+        .preset-btn:hover {
+          border-color: rgba(255, 255, 255, 0.6);
+          transform: scale(1.05);
+        }
+      </style><section class="relative min-h-screen w-full flex flex-col items-center justify-center overflow-hidden" style="background-color: rgb(10, 10, 10);"><style>
+        @keyframes pulseBar {
+          0% { transform: scaleY(var(--initial-scale)); }
+          100% { transform: scaleY(calc(var(--initial-scale) * 0.7)); }
+        }
+      </style><div class="absolute inset-0 z-0 overflow-hidden "><div class="flex h-full" style="width: 100%; transform: translateZ(0px); backface-visibility: hidden; -webkit-font-smoothing: antialiased;"><div style="flex: 1 0 calc(14.2857%); max-width: calc(14.2857%); height: 100%; background: linear-gradient(to top, rgb(255, 60, 0), transparent); transform: scaleY(1); transform-origin: center bottom; transition: transform 0.5s ease-in-out; animation: 2s ease-in-out 0s infinite alternate none running pulseBar; outline: rgba(0, 0, 0, 0) solid 1px; box-sizing: border-box; --initial-scale: 1;"></div><div style="flex: 1 0 calc(14.2857%); max-width: calc(14.2857%); height: 100%; background: linear-gradient(to top, rgb(255, 60, 0), transparent); transform: scaleY(0.730317); transform-origin: center bottom; transition: transform 0.5s ease-in-out; animation: 2s ease-in-out 0.1s infinite alternate none running pulseBar; outline: rgba(0, 0, 0, 0) solid 1px; box-sizing: border-box; --initial-scale: 0.7303170253581396;"></div><div style="flex: 1 0 calc(14.2857%); max-width: calc(14.2857%); height: 100%; background: linear-gradient(to top, rgb(255, 60, 0), transparent); transform: scaleY(0.487306); transform-origin: center bottom; transition: transform 0.5s ease-in-out; animation: 2s ease-in-out 0.2s infinite alternate none running pulseBar; outline: rgba(0, 0, 0, 0) solid 1px; box-sizing: border-box; --initial-scale: 0.4873063644107205;"></div><div style="flex: 1 0 calc(14.2857%); max-width: calc(14.2857%); height: 100%; background: linear-gradient(to top, rgb(255, 60, 0), transparent); transform: scaleY(0.3); transform-origin: center bottom; transition: transform 0.5s ease-in-out; animation: 2s ease-in-out 0.3s infinite alternate none running pulseBar; outline: rgba(0, 0, 0, 0) solid 1px; box-sizing: border-box; --initial-scale: 0.3;"></div><div style="flex: 1 0 calc(14.2857%); max-width: calc(14.2857%); height: 100%; background: linear-gradient(to top, rgb(255, 60, 0), transparent); transform: scaleY(0.487306); transform-origin: center bottom; transition: transform 0.5s ease-in-out; animation: 2s ease-in-out 0.4s infinite alternate none running pulseBar; outline: rgba(0, 0, 0, 0) solid 1px; box-sizing: border-box; --initial-scale: 0.48730636441072045;"></div><div style="flex: 1 0 calc(14.2857%); max-width: calc(14.2857%); height: 100%; background: linear-gradient(to top, rgb(255, 60, 0), transparent); transform: scaleY(0.730317); transform-origin: center bottom; transition: transform 0.5s ease-in-out; animation: 2s ease-in-out 0.5s infinite alternate none running pulseBar; outline: rgba(0, 0, 0, 0) solid 1px; box-sizing: border-box; --initial-scale: 0.7303170253581396;"></div><div style="flex: 1 0 calc(14.2857%); max-width: calc(14.2857%); height: 100%; background: linear-gradient(to top, rgb(255, 60, 0), transparent); transform: scaleY(1); transform-origin: center bottom; transition: transform 0.5s ease-in-out; animation: 2s ease-in-out 0.6s infinite alternate none running pulseBar; outline: rgba(0, 0, 0, 0) solid 1px; box-sizing: border-box; --initial-scale: 1;"></div></div></div><div class="relative z-10 w-full h-full flex items-center justify-center px-4"><button class="fixed top-4 right-4 z-50 toggle-btn rounded-lg p-3 shadow-2xl" aria-label="Open controls"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings w-5 h-5 text-white" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg></button><div class="fixed top-16 right-4 z-40 control-panel rounded-xl p-4 w-[260px] shadow-2xl hidden"><h3 class="text-white font-bold text-base mb-4">Customize</h3><div class="mb-4"><div class="flex justify-between items-center mb-2"><label class="control-label">Bars</label><span class="text-white text-xs font-bold bg-white/20 px-2 py-0.5 rounded-full">7</span></div><input min="3" max="20" class="slider" type="range" value="7"></div><div class="mb-4"><label class="control-label">Color</label><div class="color-picker-wrapper" style="background: rgb(255, 60, 0);"><input class="color-picker" type="color" value="#ff3c00"><div class="color-display">#FF3C00</div></div></div><div><label class="control-label mb-2">Presets</label><div class="grid grid-cols-3 gap-2"><button class="preset-btn" aria-label="Set color to #ff3c00" style="background: rgb(255, 60, 0);"></button><button class="preset-btn" aria-label="Set color to #ff006e" style="background: rgb(255, 0, 110);"></button><button class="preset-btn" aria-label="Set color to #8338ec" style="background: rgb(131, 56, 236);"></button><button class="preset-btn" aria-label="Set color to #3a86ff" style="background: rgb(58, 134, 255);"></button><button class="preset-btn" aria-label="Set color to #06ffa5" style="background: rgb(6, 255, 165);"></button><button class="preset-btn" aria-label="Set color to #ffbe0b" style="background: rgb(255, 190, 11);"></button></div></div></div><div class="text-center font-modern"><h1 class="text-white text-5xl md:text-7xl font-bold mb-4 tracking-tight">Gradient Bars</h1><p class="text-gray-400 text-lg md:text-xl font-medium">Click the settings icon to customize</p></div></div></section></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

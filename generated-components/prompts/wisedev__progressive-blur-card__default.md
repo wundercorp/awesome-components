@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/wisedev/progressive-blur-card/default
+- Registry URL: https://21st.dev/r/wisedev/progressive-blur-card
+- Author: wisedev
+- Component slug: progressive-blur-card
+- Demo slug: default
+- Title: progressive-blur-card
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/wisedev/progressive-blur-card with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/wisedev__progressive-blur-card__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/wisedev__progressive-blur-card__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full bg-white flex items-center justify-center p-8"><div class="relative my-4 aspect-square w-[380px] rounded-3xl shadow-[0_4px_24px_rgba(0,0,0,0.2)] border-8 border-white transition-all duration-500 hover:shadow-[0_8px_40px_rgba(0,0,0,0.3)] hover:scale-[1.02] animate-pulse-subtle overflow-hidden"><img alt="Golden Gate Bridge, San Francisco" class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105" src="https://images.pexels.com/photos/208745/pexels-photo-208745.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1260&amp;h=750&amp;dpr=2"><div class="pointer-events-none absolute bottom-0 left-0 h-[40%] w-full rounded-b-[20px]" style="backdrop-filter: blur(8px); mask: linear-gradient(to top, black 0%, black 60%, rgba(0, 0, 0, 0.95) 65%, rgba(0, 0, 0, 0.9) 70%, rgba(0, 0, 0, 0.8) 75%, rgba(0, 0, 0, 0.6) 80%, rgba(0, 0, 0, 0.4) 85%, rgba(0, 0, 0, 0.2) 90%, rgba(0, 0, 0, 0.1) 95%, transparent 100%);"></div><div class="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black/50 to-transparent transition-all duration-300 hover:from-black/60"><div class="flex items-end justify-between px-6 py-6 group"><div class="flex flex-col transform transition-all duration-300 group-hover:translate-y-[-2px]"><h2 class="text-lg font-semibold text-white transition-all duration-300 group-hover:text-xl">San Francisco,</h2><p class="text-sm text-white/90 transition-all duration-300 group-hover:text-white">United States of America</p></div><button class="h-10 w-10 rounded-full bg-white shadow-lg ring-1 ring-black/5 flex items-center justify-center hover:bg-gray-100 transition-all duration-300 hover:shadow-xl hover:scale-110 hover:rotate-12 active:scale-95 group/button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right w-5 h-5 text-gray-800 transition-all duration-300 group-hover/button:text-blue-600 group-hover/button:translate-x-0.5" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

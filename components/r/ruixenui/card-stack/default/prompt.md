@@ -1,0 +1,57 @@
+# Build Card Stack in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Card Stack screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ruixenui`
+- Component: `card-stack`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ruixenui
+- Component slug: card-stack
+- Demo slug: default
+- Title: card-stack
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full"><div class="mx-auto w-full max-w-5xl p-8"><div class="w-full"><div class="relative w-full" tabindex="0" style="height: 400px;"><div class="pointer-events-none absolute inset-x-0 top-6 mx-auto h-48 w-[70%] rounded-full bg-black/5 blur-3xl dark:bg-white/5" aria-hidden="true"></div><div class="pointer-events-none absolute inset-x-0 bottom-0 mx-auto h-40 w-[76%] rounded-full bg-black/10 blur-3xl dark:bg-black/30" aria-hidden="true"></div><div class="absolute inset-0 flex items-end justify-center" style="perspective: 1100px;"><div class="absolute bottom-0 rounded-2xl border-4 border-black/10 dark:border-white/10 overflow-hidden shadow-xl will-change-transform select-none cursor-pointer" style="width: 520px; height: 320px; z-index: 98; transform-style: preserve-3d; opacity: 1; transform: translateX(-540px) translateY(20px) scale(0.94) rotateX(12deg) rotateZ(-32deg);"><div class="h-full w-full" style="transform: translateZ(-280px); transform-style: preserve-3d;"><div class="relative h-full w-full"><div class="absolute inset-0"><img alt="Luxury Performance" class="h-full w-full object-cover" draggable="false" loading="eager" src="https://i.pinimg.com/736x/e7/cf/cb/e7cfcbd7a8af10b8839c8d9a3d8eb4ce.jpg"></div><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div><div class="relative z-10 flex h-full flex-col justify-end p-5"><div class="truncate text-lg font-semibold text-white">Luxury Performance</div><div class="mt-1 line-clamp-2 text-sm text-white/80">Experience the thrill of precision engineering</div></div></div></div></div><div class="absolute bottom-0 rounded-2xl border-4 border-black/10 dark:border-white/10 overflow-hidden shadow-xl will-change-transform select-none cursor-pointer" style="width: 520px; height: 320px; z-index: 99; transform-style: preserve-3d; opacity: 1; transform: translateX(-270px) translateY(10px) scale(0.94) rotateX(12deg) rotateZ(-16deg);"><div class="h-full w-full" style="transform: translateZ(-140px); transform-style: preserve-3d;"><div class="relative h-full w-full"><div class="absolute inset-0"><img alt="Elegant Design" class="h-full w-full object-cover" draggable="false" loading="eager" src="https://i.pinimg.com/736x/f4/b0/00/f4b000a6880f7e8d0c677812d789e001.jpg"></div><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div><div class="relative z-10 flex h-full flex-col justify-end p-5"><div class="truncate text-lg font-semibold text-white">Elegant Design</div><div class="mt-1 line-clamp-2 text-sm text-white/80">Where beauty meets functionality</div></div></div></div></div><div class="absolute bottom-0 rounded-2xl border-4 border-black/10 dark:border-white/10 overflow-hidden shadow-xl will-change-transform select-none cursor-grab active:cursor-grabbing" draggable="false" style="width: 520px; height: 320px; z-index: 100; transform-style: preserve-3d; opacity: 1; transform: translateY(-22px) scale(1.03); user-select: none; touch-action: pan-y;"><div class="h-full w-full" style="transform: translateZ(0px); transform-style: preserve-3d;"><div class="relative h-full w-full"><div class="absolute inset-0"><img alt="Power &amp; Speed" class="h-full w-full object-cover" draggable="false" loading="eager" src="https://i.pinimg.com/1200x/ae/cf/d7/aecfd72b2439914647ec06d19cb182b5.jpg"></div><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div><div class="relative z-10 flex h-full flex-col justify-end p-5"><div class="truncate text-lg font-semibold text-white">Power &amp; Speed</div><div class="mt-1 line-clamp-2 text-sm text-white/80">Unleash the true potential of the road</div></div></div></div></div><div class="absolute bottom-0 rounded-2xl border-4 border-black/10 dark:border-white/10 overflow-hidden shadow-xl will-change-transform select-none cursor-pointer" style="width: 520px; height: 320px; z-index: 99; transform-style: preserve-3d; opacity: 1; transform: translateX(270px) translateY(10px) scale(0.94) rotateX(12deg) rotateZ(16deg);"><div class="h-full w-full" style="transform: translateZ(-140px); transform-style: preserve-3d;"><div class="relative h-full w-full"><div class="absolute inset-0"><img alt="Timeless Craftsmanship" class="h-full w-full object-cover" draggable="false" loading="eager" src="https://i.pinimg.com/736x/5d/f7/69/5df7696c4f24b7961c8c72748a355ff8.jpg"></div><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div><div class="relative z-10 flex h-full flex-col justify-end p-5"><div class="truncate text-lg font-semibold text-white">Timeless Craftsmanship</div><div class="mt-1 line-clamp-2 text-sm text-white/80">Built with passion, driven by excellence</div></div></div></div></div><div class="absolute bottom-0 rounded-2xl border-4 border-black/10 dark:border-white/10 overflow-hidden shadow-xl will-change-transform select-none cursor-pointer" style="width: 520px; height: 320px; z-index: 98; transform-style: preserve-3d; opacity: 1; transform: translateX(540px) translateY(20px) scale(0.94) rotateX(12deg) rotateZ(32deg);"><div class="h-full w-full" style="transform: translateZ(-280px); transform-style: preserve-3d;"><div class="relative h-full w-full"><div class="absolute inset-0"><img alt="Future of Mobility" class="h-full w-full object-cover" draggable="false" loading="eager" src="https://i.pinimg.com/736x/9c/f2/8b/9cf28b4df4e06e0ca34fbe87f25734b6.jpg"></div><div class="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div><div class="relative z-10 flex h-full flex-col justify-end p-5"><div class="truncate text-lg font-semibold text-white">Future of Mobility</div><div class="mt-1 line-clamp-2 text-sm text-white/80">Innovation that moves you forward</div></div></div></div></div></div></div><div class="mt-6 flex items-center justify-center gap-3"><div class="flex items-center gap-2"><button class="h-2 w-2 rounded-full transition bg-foreground/30 hover:bg-foreground/50" aria-label="Go to Luxury Performance"></button><button class="h-2 w-2 rounded-full transition bg-foreground/30 hover:bg-foreground/50" aria-label="Go to Elegant Design"></button><button class="h-2 w-2 rounded-full transition bg-foreground" aria-label="Go to Power &amp; Speed"></button><button class="h-2 w-2 rounded-full transition bg-foreground/30 hover:bg-foreground/50" aria-label="Go to Timeless Craftsmanship"></button><button class="h-2 w-2 rounded-full transition bg-foreground/30 hover:bg-foreground/50" aria-label="Go to Future of Mobility"></button></div><a href="https://www.ruixen.com/" target="_blank" rel="noreferrer" class="text-muted-foreground hover:text-foreground transition" aria-label="Open link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-square-arrow-out-up-right h-4 w-4" aria-hidden="true"><path d="M21 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h6"></path><path d="m21 3-9 9"></path><path d="M15 3h6v6"></path></svg></a></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

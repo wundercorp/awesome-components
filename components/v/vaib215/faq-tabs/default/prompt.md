@@ -1,0 +1,57 @@
+# Build Faq Tabs in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Faq Tabs screenshot](screenshot.png)
+
+## Component
+
+- Author group: `vaib215`
+- Component: `faq-tabs`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: vaib215
+- Component slug: faq-tabs
+- Demo slug: default
+- Title: faq-tabs
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen"><section class="relative overflow-hidden bg-background px-4 py-12 text-foreground"><div class="relative z-10 flex flex-col items-center justify-center"><span class="mb-8 bg-gradient-to-r from-primary to-primary/60 bg-clip-text font-medium text-transparent">Let's answer some questions</span><h2 class="mb-8 text-5xl font-bold">Frequently Asked Questions</h2><span class="absolute -top-[350px] left-[50%] z-0 h-[500px] w-[600px] -translate-x-[50%] rounded-full bg-gradient-to-r from-primary/10 to-primary/5 blur-3xl"></span></div><div class="relative z-10 flex flex-wrap items-center justify-center gap-4"><button class="relative overflow-hidden whitespace-nowrap rounded-md border px-3 py-1.5 text-sm font-medium transition-colors duration-500 border-primary text-background"><span class="relative z-10">Web Development</span><span class="absolute inset-0 z-0 bg-gradient-to-r from-primary to-primary/80" style="transform: none;"></span></button><button class="relative overflow-hidden whitespace-nowrap rounded-md border px-3 py-1.5 text-sm font-medium transition-colors duration-500 border-border bg-transparent text-muted-foreground hover:text-foreground"><span class="relative z-10">Mobile Development</span></button><button class="relative overflow-hidden whitespace-nowrap rounded-md border px-3 py-1.5 text-sm font-medium transition-colors duration-500 border-border bg-transparent text-muted-foreground hover:text-foreground"><span class="relative z-10">UI/UX Design</span></button><button class="relative overflow-hidden whitespace-nowrap rounded-md border px-3 py-1.5 text-sm font-medium transition-colors duration-500 border-border bg-transparent text-muted-foreground hover:text-foreground"><span class="relative z-10">Copywriting</span></button></div><div class="mx-auto mt-12 max-w-3xl"><div class="space-y-4" style="opacity: 1; transform: none;"><div class="rounded-xl border transition-colors bg-card"><button class="flex w-full items-center justify-between gap-4 p-4 text-left"><span class="text-lg font-medium transition-colors text-muted-foreground">What is web development?</span><span style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-5 w-5 transition-colors text-muted-foreground" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span></button><div class="overflow-hidden px-4" style="height: 0px; margin-bottom: 0px;"><p class="text-muted-foreground">Web development is the process of building and maintaining websites. It involves a combination of client-side and server-side programming, database management, and other web-related technologies.</p></div></div><div class="rounded-xl border transition-colors bg-card"><button class="flex w-full items-center justify-between gap-4 p-4 text-left"><span class="text-lg font-medium transition-colors text-muted-foreground">What programming languages are essential for web development?</span><span style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-5 w-5 transition-colors text-muted-foreground" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span></button><div class="overflow-hidden px-4" style="height: 0px; margin-bottom: 0px;"><p class="text-muted-foreground">Essential languages for web development include HTML, CSS, and JavaScript for front-end development. For back-end development, popular languages include Python, Ruby, PHP, Java, and Node.js.</p></div></div><div class="rounded-xl border transition-colors bg-card"><button class="flex w-full items-center justify-between gap-4 p-4 text-left"><span class="text-lg font-medium transition-colors text-muted-foreground">What's the difference between front-end and back-end development?</span><span style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-5 w-5 transition-colors text-muted-foreground" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span></button><div class="overflow-hidden px-4" style="height: 0px; margin-bottom: 0px;"><p class="text-muted-foreground">Front-end development focuses on the user interface and user experience of a website, while back-end development deals with server-side logic, databases, and application integration.</p></div></div><div class="rounded-xl border transition-colors bg-card"><button class="flex w-full items-center justify-between gap-4 p-4 text-left"><span class="text-lg font-medium transition-colors text-muted-foreground">How long does it typically take to develop a website?</span><span style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-5 w-5 transition-colors text-muted-foreground" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span></button><div class="overflow-hidden px-4" style="height: 0px; margin-bottom: 0px;"><p class="text-muted-foreground">The time to develop a website can vary greatly depending on its complexity. A simple static website might take a few days, while a complex web application could take several months or even years.</p></div></div><div class="rounded-xl border transition-colors bg-card"><button class="flex w-full items-center justify-between gap-4 p-4 text-left"><span class="text-lg font-medium transition-colors text-muted-foreground">What is responsive web design?</span><span style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus h-5 w-5 transition-colors text-muted-foreground" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></span></button><div class="overflow-hidden px-4" style="height: 0px; margin-bottom: 0px;"><p class="text-muted-foreground">Responsive web design is an approach to web design that makes web pages render well on a variety of devices and window or screen sizes. It ensures that websites are accessible and visually appealing across different platforms.</p></div></div></div></div></section></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

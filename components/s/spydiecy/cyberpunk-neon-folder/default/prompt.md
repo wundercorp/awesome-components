@@ -1,0 +1,253 @@
+# Build Cyberpunk Neon Folder in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Cyberpunk Neon Folder screenshot](screenshot.png)
+
+## Component
+
+- Author group: `spydiecy`
+- Component: `cyberpunk-neon-folder`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: spydiecy
+- Component slug: cyberpunk-neon-folder
+- Demo slug: default
+- Title: cyberpunk-neon-folder
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="flex w-full h-screen justify-center items-center"><div class="cyberpunk-container w-full h-screen flex items-center justify-center"><div class="folder-container-neon"><div class="doc-sheet sheet-1"></div><div class="doc-sheet sheet-2"></div><div class="doc-sheet sheet-3"></div><div class="folder-card-neon"><div class="flex justify-center items-center h-full"><div class="flex items-center space-x-4"><svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 folder-icon-neon" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M5 19a2 2 0 01-2-2V7a2 2 0 012-2h4l2 2h4a2 2 0 012 2v1M5 19h14a2 2 0 002-2v-5a2 2 0 00-2-2H9a2 2 0 00-2 2v5a2 2 0 01-2 2z"></path></svg><h2 class="text-xl font-semibold folder-title-neon">DATA_FILES</h2></div></div></div></div><style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Poppins:wght@400;600&display=swap');
+
+        body, html {
+          margin: 0;
+          padding: 0;
+          width: 100%;
+          height: 100%;
+          overflow: hidden;
+        }
+        
+        .cyberpunk-container {
+          width: 100%;
+          height: 100vh;
+          background-color: #0e0a2a;
+          background-image: linear-gradient(to bottom, #1e0a5a, #0e0a2a);
+          position: relative;
+          overflow: hidden;
+          margin: 0;
+          padding: 0;
+        }
+
+        .cyberpunk-container::before {
+          content: '';
+          position: absolute;
+          inset: 0;
+          background-image: 
+            linear-gradient(to right, rgba(126, 87, 194, 0.1) 1px, transparent 1px),
+            linear-gradient(to bottom, rgba(126, 87, 194, 0.1) 1px, transparent 1px);
+          background-size: 20px 20px;
+          z-index: 0;
+        }
+
+        @keyframes line-pulse-extend-1 {
+          0% { height: 30px; opacity: 0.6; box-shadow: 0 0 10px currentColor, 0 0 15px currentColor; }
+          50% { height: 95px; opacity: 1; box-shadow: 0 0 20px currentColor, 0 0 30px currentColor, 0 0 50px currentColor; }
+          100% { height: 90px; opacity: 0.9; box-shadow: 0 0 15px currentColor, 0 0 25px currentColor; }
+        }
+        @keyframes line-pulse-extend-2 {
+          0% { height: 35px; opacity: 0.7; box-shadow: 0 0 10px currentColor, 0 0 15px currentColor; }
+          50% { height: 105px; opacity: 1; box-shadow: 0 0 20px currentColor, 0 0 30px currentColor, 0 0 50px currentColor; }
+          100% { height: 100px; opacity: 0.9; box-shadow: 0 0 15px currentColor, 0 0 25px currentColor; }
+        }
+        @keyframes line-pulse-extend-3 {
+          0% { height: 28px; opacity: 0.5; box-shadow: 0 0 10px currentColor, 0 0 15px currentColor; }
+          50% { height: 90px; opacity: 0.9; box-shadow: 0 0 20px currentColor, 0 0 30px currentColor, 0 0 45px currentColor; }
+          100% { height: 85px; opacity: 0.8; box-shadow: 0 0 15px currentColor, 0 0 25px currentColor; }
+        }
+        @keyframes folder-glow {
+          0%, 100% {
+            box-shadow:
+              0 0 10px rgba(0, 255, 255, 0.5),
+              0 0 15px rgba(255, 0, 255, 0.4),
+              0 0 20px rgba(0, 255, 0, 0.3),
+              inset 0 0 8px rgba(0,0,0,0.4);
+          }
+          50% {
+            box-shadow:
+              0 0 15px rgba(0, 255, 255, 0.7),
+              0 0 25px rgba(255, 0, 255, 0.6),
+              0 0 35px rgba(0, 255, 0, 0.5),
+              inset 0 0 12px rgba(0,0,0,0.5);
+          }
+        }
+
+        .folder-container-neon {
+          position: relative;
+          width: 280px;
+          height: 300px;
+          transition: transform 0.6s ease-out;
+          perspective: 1500px;
+          transform-style: preserve-3d;
+          z-index: 1;
+        }
+
+        .doc-sheet {
+          position: absolute;
+          bottom: 115px;
+          left: 50%;
+          width: 80px;
+          background-color: rgba(10, 10, 30, 0.6);
+          border-radius: 4px 4px 0 0;
+          transform-origin: bottom center;
+          opacity: 0.7;
+          transition: height 0.5s ease-out, opacity 0.5s ease-out, box-shadow 0.5s ease-out, transform 0.6s ease-out;
+          border: 1px solid currentColor;
+          border-bottom: none;
+          box-shadow: 0 0 10px currentColor, 0 0 15px currentColor;
+          color: white;
+        }
+        .sheet-1 {
+          color: #00ffff;
+          height: 30px;
+          transform: translateX(calc(-50% - 55px)) rotate(-12deg);
+          z-index: 1; 
+          opacity: 0.6;
+        }
+        .sheet-2 {
+          color: #ff00ff;
+          height: 35px;
+          transform: translateX(-50%) rotate(0deg);
+          z-index: 2; 
+          opacity: 0.7;
+          width: 90px;
+        }
+        .sheet-3 {
+          color: #00ff00;
+          height: 28px;
+          transform: translateX(calc(-50% + 55px)) rotate(12deg);
+          z-index: 1; 
+          opacity: 0.5;
+        }
+
+        .folder-container-neon:hover {
+          transform: rotateY(5deg) rotateX(3deg);
+        }
+        .folder-container-neon:hover .sheet-1 { 
+          animation: line-pulse-extend-1 0.7s ease-in-out forwards; 
+          transform: translateX(calc(-50% - 60px)) rotate(-15deg) translateZ(10px); 
+        }
+        .folder-container-neon:hover .sheet-2 { 
+          animation: line-pulse-extend-2 0.7s 0.1s ease-in-out forwards; 
+          transform: translateX(-50%) rotate(0deg) translateZ(15px); 
+        }
+        .folder-container-neon:hover .sheet-3 { 
+          animation: line-pulse-extend-3 0.7s 0.05s ease-in-out forwards; 
+          transform: translateX(calc(-50% + 60px)) rotate(15deg) translateZ(10px); 
+        }
+
+        .folder-container-neon:hover .folder-card-neon {
+          transform: translateY(-10px) scale(1.03) translateZ(20px);
+          animation: folder-glow 2s infinite alternate ease-in-out;
+        }
+
+        .folder-card-neon {
+          position: absolute;
+          bottom: 40px;
+          left: 0;
+          width: 100%;
+          height: 120px;
+          background-color: rgba(20, 20, 50, 0.9);
+          backdrop-filter: blur(8px);
+          -webkit-backdrop-filter: blur(8px);
+          border: 1px solid rgba(0, 255, 255, 0.4);
+          border-radius: 0 8px 16px 16px;
+          box-shadow:
+            0 0 10px rgba(0, 255, 255, 0.4),
+            0 0 15px rgba(255, 0, 255, 0.3),
+            inset 0 0 6px rgba(0,0,0,0.4);
+          padding: 1.5rem 2rem;
+          z-index: 5;
+          transition: transform 0.6s ease-out, box-shadow 0.6s ease-out;
+          font-family: 'Orbitron', sans-serif;
+          border-top: none;
+          transform-style: preserve-3d;
+        }
+        .folder-card-neon::before {
+          content: '';
+          position: absolute;
+          top: -20px;
+          left: -1px;
+          height: 20px;
+          width: 120px;
+          background-color: rgba(20, 20, 50, 0.95);
+          border: 1px solid rgba(0, 255, 255, 0.4);
+          border-bottom: none;
+          border-radius: 8px 8px 0 0;
+          box-shadow: 0 -3px 8px rgba(0, 255, 255, 0.3);
+          z-index: 4;
+        }
+
+        .folder-icon-neon {
+          color: #00ffff;
+          filter: drop-shadow(0 0 8px #00ffff) drop-shadow(0 0 12px #00ffff);
+          transition: transform 0.4s ease-in-out;
+        }
+        
+        .folder-title-neon {
+          color: #e0e0e0;
+          font-weight: 600;
+          letter-spacing: 1.5px;
+          text-shadow:
+            0 0 4px #00ffff,
+            0 0 8px #ff00ff,
+            0 0 12px #00ff00;
+        }
+        
+        .folder-container-neon:hover .folder-icon-neon {
+          transform: scale(1.2) translateZ(5px);
+        }
+
+        .folder-card-neon > * {
+          position: relative;
+          z-index: 6;
+          transform-style: preserve-3d;
+        }
+      </style></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

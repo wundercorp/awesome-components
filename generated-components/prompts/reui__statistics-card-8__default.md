@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/reui/statistics-card-8/default
+- Registry URL: https://21st.dev/r/reui/statistics-card-8
+- Author: reui
+- Component slug: statistics-card-8
+- Demo slug: default
+- Title: statistics-card-8
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/reui/statistics-card-8 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/reui__statistics-card-8__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/reui__statistics-card-8__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-5xl min-h-screen flex items-center justify-center p-6 lg:p-12"><div class="@container grow w-full"><div class="grid grid-cols-1 @3xl:grid-cols-3 gap-6"><div data-slot="card" class="flex flex-col items-stretch text-card-foreground rounded-xl bg-card border border-border shadow-xs black/5"><div data-slot="card-content" class="grow p-5 flex flex-col h-full"><div class="flex items-center justify-between mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-briefcase size-6 text-green-600" aria-hidden="true"><path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path><rect width="20" height="14" x="2" y="6" rx="2"></rect></svg><span data-slot="badge" class="inline-flex items-center justify-center border border-transparent font-medium focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 [&amp;_svg]:-ms-px [&amp;_svg]:shrink-0 h-6 min-w-6 gap-1.5 text-xs [&amp;_svg]:size-3.5 px-2 py-1 rounded-full bg-green-100 text-green-600 dark:bg-green-950 dark:text-green-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up w-3 h-3 text-green-500" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>+12.8%</span></div><div class="flex-1 flex flex-col justify-between grow"><div><div class="text-base font-medium text-muted-foreground mb-1">Active Projects</div><div class="text-3xl font-bold text-foreground mb-6">17</div></div><div class="pt-3 border-t border-muted text-xs text-muted-foreground font-medium">From Jan 01 - Jul 30, 2024</div></div></div></div><div data-slot="card" class="flex flex-col items-stretch text-card-foreground rounded-xl bg-card border border-border shadow-xs black/5"><div data-slot="card-content" class="grow p-5 flex flex-col h-full"><div class="flex items-center justify-between mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shopping-cart size-6 text-blue-600" aria-hidden="true"><circle cx="8" cy="21" r="1"></circle><circle cx="19" cy="21" r="1"></circle><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"></path></svg><span data-slot="badge" class="inline-flex items-center justify-center border border-transparent font-medium focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 [&amp;_svg]:-ms-px [&amp;_svg]:shrink-0 h-6 min-w-6 gap-1.5 text-xs [&amp;_svg]:size-3.5 px-2 py-1 rounded-full bg-blue-100 text-blue-600 dark:bg-blue-950 dark:text-blue-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up w-3 h-3 text-blue-500" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg>+3.7%</span></div><div class="flex-1 flex flex-col justify-between grow"><div><div class="text-base font-medium text-muted-foreground mb-1">Orders Processed</div><div class="text-3xl font-bold text-foreground mb-6">3,421</div></div><div class="pt-3 border-t border-muted text-xs text-muted-foreground font-medium">From Jan 01 - Jul 30, 2024</div></div></div></div><div data-slot="card" class="flex flex-col items-stretch text-card-foreground rounded-xl bg-card border border-border shadow-xs black/5"><div data-slot="card-content" class="grow p-5 flex flex-col h-full"><div class="flex items-center justify-between mb-8"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users size-6 text-pink-600" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><span data-slot="badge" class="inline-flex items-center justify-center border border-transparent font-medium focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 [&amp;_svg]:-ms-px [&amp;_svg]:shrink-0 h-6 min-w-6 gap-1.5 text-xs [&amp;_svg]:size-3.5 px-2 py-1 rounded-full bg-pink-100 text-pink-600 dark:bg-pink-950 dark:text-pink-400"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-down w-3 h-3 text-pink-500" aria-hidden="true"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline><polyline points="16 17 22 17 22 11"></polyline></svg>-2.1%</span></div><div class="flex-1 flex flex-col justify-between grow"><div><div class="text-base font-medium text-muted-foreground mb-1">Churned Users</div><div class="text-3xl font-bold text-foreground mb-6">89</div></div><div class="pt-3 border-t border-muted text-xs text-muted-foreground font-medium">From Jan 01 - Jul 30, 2024</div></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

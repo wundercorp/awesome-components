@@ -1,0 +1,57 @@
+# Build Forgot Password in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Forgot Password screenshot](screenshot.png)
+
+## Component
+
+- Author group: `tailark`
+- Component: `forgot-password`
+- Variant: `forgot-password`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: tailark
+- Component slug: forgot-password
+- Demo slug: forgot-password
+- Title: forgot-password
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="flex min-h-screen bg-zinc-50 px-4 py-16 md:py-32 dark:bg-transparent"><form action="" class="bg-muted m-auto h-fit w-full max-w-sm overflow-hidden rounded-[calc(var(--radius)+.125rem)] border shadow-md shadow-zinc-950/5 dark:[--color-muted:var(--color-zinc-900)]"><div class="bg-card -m-px rounded-[calc(var(--radius)+.125rem)] border p-8 pb-6"><div class="text-center"><a href="/" aria-label="go home" class="mx-auto block w-fit"></a><h1 class="mb-1 mt-4 text-xl font-semibold">Recover Password</h1><p class="text-sm">Enter your email to receive a reset link</p></div><div class="mt-6 space-y-6"><div class="space-y-2"><label class="font-medium peer-disabled:cursor-not-allowed peer-disabled:opacity-70 block text-sm" for="email">Email</label><input class="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background file:border-0 file:bg-transparent file:text-sm file:font-medium file:text-foreground placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50" required="" id="email" placeholder="name@example.com" type="email" name="email"></div><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full">Send Reset Link</button></div><div class="mt-6 text-center"><p class="text-muted-foreground text-sm">We'll send you a link to reset your password.</p></div></div><div class="p-3"><p class="text-accent-foreground text-center text-sm">Remembered your password?<a href="/preview/login/two" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 text-primary underline-offset-4 hover:underline h-10 py-2 px-2">Log in</a></p></div></form></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

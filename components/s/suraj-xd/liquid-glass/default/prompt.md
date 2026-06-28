@@ -1,0 +1,57 @@
+# Build Liquid Glass in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Liquid Glass screenshot](screenshot.png)
+
+## Component
+
+- Author group: `suraj-xd`
+- Component: `liquid-glass`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: suraj-xd
+- Component slug: liquid-glass
+- Demo slug: default
+- Title: liquid-glass
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_DemoOne">DemoOne</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen h-full flex items-center justify-center font-light relative overflow-hidden w-full" style="background: url(&quot;https://images.unsplash.com/photo-1432251407527-504a6b4174a2?q=80&amp;w=1480&amp;auto=format&amp;fit=crop&amp;ixlib=rb-4.1.0&amp;ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&quot;) center center; animation: 60s linear 0s infinite normal none running moveBackground;"><svg style="display: none;"><filter id="glass-distortion" x="0%" y="0%" width="100%" height="100%" filterUnits="objectBoundingBox"><feTurbulence type="fractalNoise" baseFrequency="0.001 0.005" numOctaves="1" seed="17" result="turbulence"></feTurbulence><feComponentTransfer in="turbulence" result="mapped"><feFuncR type="gamma" amplitude="1" exponent="10" offset="0.5"></feFuncR><feFuncG type="gamma" amplitude="0" exponent="1" offset="0"></feFuncG><feFuncB type="gamma" amplitude="0" exponent="1" offset="0.5"></feFuncB></feComponentTransfer><feGaussianBlur in="turbulence" stdDeviation="3" result="softMap"></feGaussianBlur><feSpecularLighting in="softMap" surfaceScale="5" specularConstant="1" specularExponent="100" lighting-color="white" result="specLight"><fePointLight x="-200" y="-200" z="300"></fePointLight></feSpecularLighting><feComposite in="specLight" operator="arithmetic" k1="0" k2="1" k3="1" k4="0" result="litImage"></feComposite><feDisplacementMap in="SourceGraphic" in2="softMap" scale="200" xChannelSelector="R" yChannelSelector="G"></feDisplacementMap></filter></svg><div class="flex flex-col gap-6 items-center justify-center w-full"><a href="https://x.com/notsurajgaud" target="_blank" rel="noopener noreferrer" class="block"><div class="relative flex font-semibold overflow-hidden text-black cursor-pointer transition-all duration-700 rounded-3xl p-3 hover:p-4 hover:rounded-4xl" style="box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 6px, rgba(0, 0, 0, 0.1) 0px 0px 20px; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><div class="absolute inset-0 z-0 overflow-hidden rounded-inherit rounded-3xl" style="backdrop-filter: blur(3px); filter: url(&quot;#glass-distortion&quot;); isolation: isolate;"></div><div class="absolute inset-0 z-10 rounded-inherit" style="background: rgba(255, 255, 255, 0.25);"></div><div class="absolute inset-0 z-20 rounded-inherit rounded-3xl overflow-hidden" style="box-shadow: rgba(255, 255, 255, 0.5) 2px 2px 1px 0px inset, rgba(255, 255, 255, 0.5) -1px -1px 1px 1px inset;"></div><div class="relative z-30"><div class="flex items-center justify-center gap-2 rounded-3xl p-3 py-0 px-0.5 overflow-hidden"><img alt="Claude" class="w-16 h-16 transition-all duration-700 hover:scale-110 cursor-pointer" src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/a13d1acfd046f503f987c1c95af582c8_low_res_Claude.png" style="transform-origin: center center; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><img alt="Finder" class="w-16 h-16 transition-all duration-700 hover:scale-110 cursor-pointer" src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/9e80c50a5802d3b0a7ec66f3fe4ce348_low_res_Finder.png" style="transform-origin: center center; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><img alt="Chatgpt" class="w-16 h-16 transition-all duration-700 hover:scale-110 cursor-pointer" src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/c2c4a538c2d42a8dc0927d7d6530d125_low_res_ChatGPT___Liquid_Glass__Default_.png" style="transform-origin: center center; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><img alt="Maps" class="w-16 h-16 transition-all duration-700 hover:scale-110 cursor-pointer" src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/6d26d432bd65c522b0708185c0768ec3_low_res_Maps.png" style="transform-origin: center center; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><img alt="Safari" class="w-16 h-16 transition-all duration-700 hover:scale-110 cursor-pointer" src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/7c59c945731aecf4f91eb8c2c5f867ce_low_res_Safari.png" style="transform-origin: center center; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><img alt="Steam" class="w-16 h-16 transition-all duration-700 hover:scale-110 cursor-pointer" src="https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/b7f24edc7183f63dbe34c1943bef2967_low_res_Steam___Liquid_Glass__Default_.png" style="transform-origin: center center; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"></div></div></div></a><a href="https://x.com/notsurajgaud" target="_blank" rel="noopener noreferrer" class="block"><div class="relative flex font-semibold overflow-hidden text-black cursor-pointer transition-all duration-700 rounded-3xl px-10 py-6 hover:px-11 hover:py-7 hover:rounded-4xl overflow-hidden" style="box-shadow: rgba(0, 0, 0, 0.2) 0px 6px 6px, rgba(0, 0, 0, 0.1) 0px 0px 20px; transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><div class="absolute inset-0 z-0 overflow-hidden rounded-inherit rounded-3xl" style="backdrop-filter: blur(3px); filter: url(&quot;#glass-distortion&quot;); isolation: isolate;"></div><div class="absolute inset-0 z-10 rounded-inherit" style="background: rgba(255, 255, 255, 0.25);"></div><div class="absolute inset-0 z-20 rounded-inherit rounded-3xl overflow-hidden" style="box-shadow: rgba(255, 255, 255, 0.5) 2px 2px 1px 0px inset, rgba(255, 255, 255, 0.5) -1px -1px 1px 1px inset;"></div><div class="relative z-30"><div class="transition-all duration-700 hover:scale-95" style="transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 2.2);"><div class="text-xl text-white"><p>How can i help you today?</p></div></div></div></div></a></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

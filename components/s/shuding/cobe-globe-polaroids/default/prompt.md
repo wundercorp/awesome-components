@@ -1,0 +1,57 @@
+# Build Cobe Globe Polaroids in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Cobe Globe Polaroids screenshot](screenshot.png)
+
+## Component
+
+- Author group: `shuding`
+- Component: `cobe-globe-polaroids`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: shuding
+- Component slug: cobe-globe-polaroids
+- Demo slug: default
+- Title: cobe-globe-polaroids
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="default.tsx_GlobePolaoridsDemo">default.tsx</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center w-full min-h-screen bg-white p-8 overflow-hidden"><div class="w-full max-w-lg"><div class="relative aspect-square select-none "><div style="position: relative; width: 100%; height: 100%;"><canvas width="512" height="512" style="width: 100%; height: 100%; cursor: grab; opacity: 1; transition: opacity 1.2s; border-radius: 50%; touch-action: none;"></canvas><div style="position: absolute; width: 1px; height: 1px; pointer-events: none; anchor-name: --cobe-polaroid-sf; left: 79.0074%; top: 28.481%;"></div><div style="position: absolute; width: 1px; height: 1px; pointer-events: none; anchor-name: --cobe-polaroid-nyc; left: 77.4806%; top: 21.8853%;"></div><div style="position: absolute; width: 1px; height: 1px; pointer-events: none; anchor-name: --cobe-polaroid-tokyo; left: 33.0993%; top: 32.6478%;"></div><div style="position: absolute; width: 1px; height: 1px; pointer-events: none; anchor-name: --cobe-polaroid-sydney; left: 38.7591%; top: 78.0569%;"></div><div style="position: absolute; width: 1px; height: 1px; pointer-events: none; anchor-name: --cobe-polaroid-paris; left: 44.8178%; top: 15.3505%;"></div><div style="position: absolute; width: 1px; height: 1px; pointer-events: none; anchor-name: --cobe-polaroid-london; left: 46.1583%; top: 14.4288%;"></div></div><div style="position: absolute; position-anchor: --cobe-polaroid-sf; bottom: anchor(top); left: anchor(center); translate: -50%; margin-bottom: 8px; background: rgb(255, 255, 255); padding: 6px 6px 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 1px 2px; transform: rotate(-5deg); pointer-events: none; opacity: var(--cobe-visible-polaroid-sf, 0); filter: blur(calc((1 - var(--cobe-visible-polaroid-sf, 0)) * 8px)); transition: opacity 0.3s, filter 0.3s;"><img alt="San Francisco" src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=120&amp;h=120&amp;fit=crop" style="display: block; width: 60px; height: 60px; object-fit: cover;"><span style="position: absolute; bottom: 5px; left: 0px; right: 0px; text-align: center; font-family: system-ui, sans-serif; font-size: 0.5rem; color: rgb(51, 51, 51); letter-spacing: 0.02em;">San Francisco</span></div><div style="position: absolute; position-anchor: --cobe-polaroid-nyc; bottom: anchor(top); left: anchor(center); translate: -50%; margin-bottom: 8px; background: rgb(255, 255, 255); padding: 6px 6px 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 1px 2px; transform: rotate(4deg); pointer-events: none; opacity: var(--cobe-visible-polaroid-nyc, 0); filter: blur(calc((1 - var(--cobe-visible-polaroid-nyc, 0)) * 8px)); transition: opacity 0.3s, filter 0.3s;"><img alt="New York" src="https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=120&amp;h=120&amp;fit=crop" style="display: block; width: 60px; height: 60px; object-fit: cover;"><span style="position: absolute; bottom: 5px; left: 0px; right: 0px; text-align: center; font-family: system-ui, sans-serif; font-size: 0.5rem; color: rgb(51, 51, 51); letter-spacing: 0.02em;">New York</span></div><div style="position: absolute; position-anchor: --cobe-polaroid-tokyo; bottom: anchor(top); left: anchor(center); translate: -50%; margin-bottom: 8px; background: rgb(255, 255, 255); padding: 6px 6px 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 1px 2px; transform: rotate(-3deg); pointer-events: none; opacity: var(--cobe-visible-polaroid-tokyo, 0); filter: blur(calc((1 - var(--cobe-visible-polaroid-tokyo, 0)) * 8px)); transition: opacity 0.3s, filter 0.3s;"><img alt="Tokyo" src="https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=120&amp;h=120&amp;fit=crop" style="display: block; width: 60px; height: 60px; object-fit: cover;"><span style="position: absolute; bottom: 5px; left: 0px; right: 0px; text-align: center; font-family: system-ui, sans-serif; font-size: 0.5rem; color: rgb(51, 51, 51); letter-spacing: 0.02em;">Tokyo</span></div><div style="position: absolute; position-anchor: --cobe-polaroid-sydney; bottom: anchor(top); left: anchor(center); translate: -50%; margin-bottom: 8px; background: rgb(255, 255, 255); padding: 6px 6px 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 1px 2px; transform: rotate(6deg); pointer-events: none; opacity: var(--cobe-visible-polaroid-sydney, 0); filter: blur(calc((1 - var(--cobe-visible-polaroid-sydney, 0)) * 8px)); transition: opacity 0.3s, filter 0.3s;"><img alt="Sydney" src="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=120&amp;h=120&amp;fit=crop" style="display: block; width: 60px; height: 60px; object-fit: cover;"><span style="position: absolute; bottom: 5px; left: 0px; right: 0px; text-align: center; font-family: system-ui, sans-serif; font-size: 0.5rem; color: rgb(51, 51, 51); letter-spacing: 0.02em;">Sydney</span></div><div style="position: absolute; position-anchor: --cobe-polaroid-paris; bottom: anchor(top); left: anchor(center); translate: -50%; margin-bottom: 8px; background: rgb(255, 255, 255); padding: 6px 6px 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 1px 2px; transform: rotate(-4deg); pointer-events: none; opacity: var(--cobe-visible-polaroid-paris, 0); filter: blur(calc((1 - var(--cobe-visible-polaroid-paris, 0)) * 8px)); transition: opacity 0.3s, filter 0.3s;"><img alt="Paris" src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=120&amp;h=120&amp;fit=crop" style="display: block; width: 60px; height: 60px; object-fit: cover;"><span style="position: absolute; bottom: 5px; left: 0px; right: 0px; text-align: center; font-family: system-ui, sans-serif; font-size: 0.5rem; color: rgb(51, 51, 51); letter-spacing: 0.02em;">Paris</span></div><div style="position: absolute; position-anchor: --cobe-polaroid-london; bottom: anchor(top); left: anchor(center); translate: -50%; margin-bottom: 8px; background: rgb(255, 255, 255); padding: 6px 6px 24px; box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px, rgba(0, 0, 0, 0.1) 0px 1px 2px; transform: rotate(3deg); pointer-events: none; opacity: var(--cobe-visible-polaroid-london, 0); filter: blur(calc((1 - var(--cobe-visible-polaroid-london, 0)) * 8px)); transition: opacity 0.3s, filter 0.3s;"><img alt="London" src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=120&amp;h=120&amp;fit=crop" style="display: block; width: 60px; height: 60px; object-fit: cover;"><span style="position: absolute; bottom: 5px; left: 0px; right: 0px; text-align: center; font-family: system-ui, sans-serif; font-size: 0.5rem; color: rgb(51, 51, 51); letter-spacing: 0.02em;">London</span></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

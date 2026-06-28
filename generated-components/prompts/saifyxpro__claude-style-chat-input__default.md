@@ -1,0 +1,58 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/saifyxpro/claude-style-chat-input/default
+- Registry URL: https://21st.dev/r/saifyxpro/claude-style-chat-input
+- Author: saifyxpro
+- Component slug: claude-style-chat-input
+- Demo slug: default
+- Title: claude-style-chat-input
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/saifyxpro/claude-style-chat-input with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/saifyxpro__claude-style-chat-input__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/saifyxpro__claude-style-chat-input__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full bg-[#fcfcf9] dark:bg-[#202123] flex flex-col items-center justify-center p-4 font-sans text-text-100 transition-colors duration-200"><div class="w-full max-w-3xl mb-8 sm:mb-12 text-center animate-fade-in"><div class="w-24 h-24 mx-auto mb-6 flex items-center justify-center"><img alt="Logo" class="w-full h-full object-contain" src="https://4say.site/claude.png"></div><h1 class="text-3xl sm:text-4xl font-serif font-light text-text-200 mb-3 tracking-tight">Good morning, <span class="relative inline-block pb-2">Saify<svg class="absolute w-[140%] h-[20px] -bottom-1 -left-[5%] text-[#D97757]" viewBox="0 0 140 24" fill="none" preserveAspectRatio="none" aria-hidden="true"><path d="M6 16 Q 70 24, 134 14" stroke="currentColor" stroke-width="3" stroke-linecap="round" fill="none"></path></svg></span></h1></div><div class="relative w-full max-w-2xl mx-auto transition-all duration-300 font-sans"><div class="
+                !box-content flex flex-col mx-2 md:mx-0 items-stretch transition-all duration-200 relative z-10 rounded-2xl cursor-text border border-bg-300 dark:border-transparent 
+                shadow-[0_0_15px_rgba(0,0,0,0.08)] hover:shadow-[0_0_20px_rgba(0,0,0,0.12)]
+                focus-within:shadow-[0_0_25px_rgba(0,0,0,0.15)]
+                bg-white dark:bg-[#30302E] font-sans antialiased
+            "><div class="flex flex-col px-3 pt-3 pb-2 gap-2"><div class="relative mb-1"><div class="max-h-96 w-full overflow-y-auto custom-scrollbar font-sans break-words transition-opacity duration-200 min-h-[2.5rem] pl-1"><textarea placeholder="How can I help you today?" class="w-full bg-transparent border-0 outline-none text-text-100 text-[16px] placeholder:text-text-400 resize-none overflow-hidden py-0 leading-relaxed block font-normal antialiased" rows="1" style="min-height: 1.5em; height: 26px;"></textarea></div></div><div class="flex gap-2 w-full items-center"><div class="relative flex-1 flex items-center shrink min-w-0 gap-1"><button class="inline-flex items-center justify-center relative shrink-0 transition-colors duration-200 h-8 w-8 rounded-lg active:scale-95 text-text-400 hover:text-text-200 hover:bg-bg-200" type="button" aria-label="Toggle menu"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-plus w-5 h-5" aria-hidden="true"><path d="M5 12h14"></path><path d="M12 5v14"></path></svg></button><div class="flex shrink min-w-8 !shrink-0"><button class="transition-all duration-200 h-8 w-8 flex items-center justify-center rounded-lg active:scale-95
+                                        text-text-400 hover:text-text-200 hover:bg-bg-200
+                                    " aria-pressed="false" aria-label="Extended thinking"><svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg" class="w-5 h-5"><path d="M10.3857 2.50977C14.3486 2.71054 17.5 5.98724 17.5 10C17.5 14.1421 14.1421 17.5 10 17.5C5.85786 17.5 2.5 14.1421 2.5 10C2.5 9.72386 2.72386 9.5 3 9.5C3.27614 9.5 3.5 9.72386 3.5 10C3.5 13.5899 6.41015 16.5 10 16.5C13.5899 16.5 16.5 13.5899 16.5 10C16.5 6.5225 13.7691 3.68312 10.335 3.50879L10 3.5L9.89941 3.49023C9.67145 3.44371 9.5 3.24171 9.5 3C9.5 2.72386 9.72386 2.5 10 2.5L10.3857 2.50977ZM10 5.5C10.2761 5.5 10.5 5.72386 10.5 6V9.69043L13.2236 11.0527C13.4706 11.1762 13.5708 11.4766 13.4473 11.7236C13.3392 11.9397 13.0957 12.0435 12.8711 11.9834L12.7764 11.9473L9.77637 10.4473C9.60698 10.3626 9.5 10.1894 9.5 10V6C9.5 5.72386 9.72386 5.5 10 5.5ZM3.66211 6.94141C4.0273 6.94159 4.32303 7.23735 4.32324 7.60254C4.32324 7.96791 4.02743 8.26446 3.66211 8.26465C3.29663 8.26465 3 7.96802 3 7.60254C3.00021 7.23723 3.29676 6.94141 3.66211 6.94141ZM4.95605 4.29395C5.32146 4.29404 5.61719 4.59063 5.61719 4.95605C5.6171 5.3214 5.3214 5.61709 4.95605 5.61719C4.59063 5.61719 4.29403 5.32146 4.29395 4.95605C4.29395 4.59057 4.59057 4.29395 4.95605 4.29395ZM7.60254 3C7.96802 3 8.26465 3.29663 8.26465 3.66211C8.26446 4.02743 7.96791 4.32324 7.60254 4.32324C7.23736 4.32302 6.94159 4.0273 6.94141 3.66211C6.94141 3.29676 7.23724 3.00022 7.60254 3Z"></path></svg><div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 px-2 py-1 bg-[#1F1E1D] dark:bg-[#EEEEEC] text-bg-0 dark:text-bg-100 text-[11px] font-medium rounded-[6px] opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none z-50 flex items-center gap-1 shadow-sm tracking-wide"><span class="text-[#ECECEC] dark:text-[#1F1E1D]">Extended thinking</span><span class="text-[#999999] dark:text-[#73726C] opacity-80" style="font-size: 10px;">⇧+Ctrl+E</span></div></button></div></div><div class="flex flex-row items-center min-w-0 gap-1"><div class="shrink-0 p-1 -m-1"><div class="relative"><button class="inline-flex items-center justify-center relative shrink-0 transition font-base duration-300 ease-[cubic-bezier(0.165,0.85,0.45,1)] h-8 rounded-xl px-3 min-w-[4rem] active:scale-[0.98] whitespace-nowrap !text-xs pl-2.5 pr-2 gap-1 
+                text-text-300 hover:text-text-200 hover:bg-bg-200 dark:text-[#B4B4B4] dark:hover:text-[#ECECEC] dark:hover:bg-[#454540]"><div class="font-ui inline-flex gap-[3px] text-[14px] h-[14px] leading-none items-baseline"><div class="flex items-center gap-[4px]"><div class="whitespace-nowrap select-none font-medium">Sonnet 4.5</div></div></div><div class="flex items-center justify-center opacity-75" style="width: 20px; height: 20px;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down shrink-0 opacity-75 transition-transform duration-200" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg></div></button></div></div><div><button disabled="" class="
+                                        inline-flex items-center justify-center relative shrink-0 transition-colors h-8 w-8 rounded-md active:scale-95 !rounded-xl !h-8 !w-8
+                                        bg-accent/30 text-bg-0/60 cursor-default
+                                    " type="button" aria-label="Send message"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up w-4 h-4" aria-hidden="true"><path d="m5 12 7-7 7 7"></path><path d="M12 19V5"></path></svg></button></div></div></div></div></div><input multiple="" type="file"><div class="text-center mt-4"><p class="text-xs text-text-500">AI can make mistakes. Please check important information.</p></div></div><div class="flex flex-wrap justify-center gap-2 mt-4 max-w-2xl mx-auto px-4"><button class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-text-300 bg-transparent border border-bg-300 dark:border-bg-300/50 rounded-full hover:bg-bg-200 hover:text-text-200 transition-colors duration-150"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>Write</button><button class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-text-300 bg-transparent border border-bg-300 dark:border-bg-300/50 rounded-full hover:bg-bg-200 hover:text-text-200 transition-colors duration-150"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2.5 6 2.5 6 2.5s6 0 6-2.5v-5"></path></svg>Learn</button><button class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-text-300 bg-transparent border border-bg-300 dark:border-bg-300/50 rounded-full hover:bg-bg-200 hover:text-text-200 transition-colors duration-150"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>Code</button><button class="inline-flex items-center gap-1.5 px-3 py-1.5 text-sm text-text-300 bg-transparent border border-bg-300 dark:border-bg-300/50 rounded-full hover:bg-bg-200 hover:text-text-200 transition-colors duration-150"><svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>Life stuff</button></div><div class="absolute bottom-4 text-xs text-text-400 font-sans opacity-60 hover:opacity-100 transition-opacity"></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

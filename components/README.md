@@ -22,8 +22,11 @@ Browse components by author bucket, then by author, then by component.
 | [o](o/README.md) | 11 | 323 |
 | [p](p/README.md) | 6 | 163 |
 | [q](q/README.md) | 2 | 5 |
-| [r](r/README.md) | 12 | 446 |
-| [s](s/README.md) | 7 | 278 |
-| [t](t/README.md) | 3 | 7 |
-| [u](u/README.md) | 1 | 14 |
-| [y](y/README.md) | 2 | 37 |
+| [r](r/README.md) | 25 | 1137 |
+| [s](s/README.md) | 39 | 937 |
+| [t](t/README.md) | 15 | 291 |
+| [u](u/README.md) | 11 | 204 |
+| [v](v/README.md) | 4 | 49 |
+| [w](w/README.md) | 3 | 20 |
+| [x](x/README.md) | 1 | 16 |
+| [y](y/README.md) | 4 | 41 |

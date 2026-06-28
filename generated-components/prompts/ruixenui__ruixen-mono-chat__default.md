@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ruixenui/ruixen-mono-chat/default
+- Registry URL: https://21st.dev/r/ruixenui/ruixen-mono-chat
+- Author: ruixenui
+- Component slug: ruixen-mono-chat
+- Demo slug: default
+- Title: ruixen-mono-chat
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ruixenui/ruixen-mono-chat with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ruixenui__ruixen-mono-chat__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ruixenui__ruixen-mono-chat__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_DemoOne">DemoOne</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full max-w-5xl mx-auto p-6 bg-white dark:bg-black rounded-3xl shadow-lg flex flex-col h-[550px] border border-gray-300 dark:border-gray-700"><header class="flex justify-between items-center border-b border-gray-300 dark:border-gray-700 pb-3 mb-6"><div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-users w-8 h-8 text-black dark:text-white" aria-hidden="true"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M22 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg><div><h2 class="text-2xl font-semibold text-black dark:text-white">Software Team</h2><p class="italic text-sm text-gray-600 dark:text-gray-400">Collaborate creatively, deliver clearly.</p></div></div><button aria-label="More options" class="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-900 transition"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis w-6 h-6 text-gray-600 dark:text-gray-400" aria-hidden="true"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></header><main class="flex flex-1 overflow-hidden rounded-xl border border-gray-300 dark:border-gray-700"><aside class="w-56 bg-gray-50 dark:bg-gray-900 border-r border-gray-300 dark:border-gray-700 p-4 overflow-y-auto"><button class="flex items-center gap-3 w-full p-3 mb-3 rounded-lg transition-colors hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-900 dark:text-gray-300"><div class="relative"><img alt="Alex Chen" width="40" height="40" class="rounded-full ring-1 ring-gray-400 dark:ring-gray-600" src="https://github.com/shadcn.png"><span class="absolute bottom-0 right-0 w-3 h-3 rounded-full ring-2 ring-white dark:ring-black bg-green-500"></span></div><span class="text-left font-medium truncate">Alex Chen</span></button><button class="flex items-center gap-3 w-full p-3 mb-3 rounded-lg transition-colors hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-900 dark:text-gray-300"><div class="relative"><img alt="Sarah Kim" width="40" height="40" class="rounded-full ring-1 ring-gray-400 dark:ring-gray-600" src="https://github.com/evilrabbit.png"><span class="absolute bottom-0 right-0 w-3 h-3 rounded-full ring-2 ring-white dark:ring-black bg-green-500"></span></div><span class="text-left font-medium truncate">Sarah Kim</span></button></aside><section class="flex-1 p-6 overflow-y-auto bg-white dark:bg-black"><div class="mb-6 last:mb-0 group border-b border-gray-200 dark:border-gray-800 pb-4"><div class="flex items-center gap-4 mb-2"><img alt="Alex Chen" width="40" height="40" class="rounded-full ring-1 ring-gray-400 dark:ring-gray-600" src="https://github.com/shadcn.png"><div><p class="font-semibold text-black dark:text-white">Alex Chen</p><span class="text-xs text-gray-500 dark:text-gray-400">10:24 AM</span></div></div><p class="text-gray-800 dark:text-gray-200 text-lg mb-1">Just pushed the latest design system updates ✨</p><div class="flex items-center justify-between text-sm text-gray-600 dark:text-gray-400"><div class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check-check w-5 h-5 text-green-500" aria-hidden="true"><path d="M18 6 7 17l-5-5"></path><path d="m22 10-7.5 7.5L13 16"></path></svg><span>10:24 AM</span></div><div class="flex gap-2"><button class="px-2 py-1 rounded-md text-sm transition-colors bg-gray-300 dark:bg-gray-700 text-black dark:text-white hover:bg-gray-200 dark:hover:bg-gray-600">🙌 2</button><button class="px-2 py-1 rounded-md text-sm transition-colors bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-400 hover:bg-gray-200 dark:hover:bg-gray-600">✨ 1</button></div></div></div><div class="mb-6 last:mb-0 group border-b border-gray-200 dark:border-gray-800 pb-4"><div class="flex items-center gap-4 mb-2"><img alt="Sarah Kim" width="40" height="40" class="rounded-full ring-1 ring-gray-400 dark:ring-gray-600" src="https://github.com/evilrabbit.png"><div><p class="font-semibold text-black dark:text-white">Sarah Kim</p><span class="text-xs text-gray-500 dark:text-gray-400">10:26 AM</span></div></div><p class="text-gray-800 dark:text-gray-200 text-lg mb-1">The new components look amazing! Great work on the animations.</p><div class="flex items-center justify-between text-sm text-gray-600 dark:text-gray-400"><div class="flex items-center gap-1"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg><span>10:26 AM</span></div><div class="flex gap-2"></div></div></div></section></main><footer class="mt-6 flex items-center gap-4 border-t border-gray-300 dark:border-gray-700 pt-4"><button aria-label="Add emoji" class="p-3 rounded-full bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 transition"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smile-plus w-6 h-6 text-gray-600 dark:text-gray-300" aria-hidden="true"><path d="M22 11v1a10 10 0 1 1-9-10"></path><path d="M8 14s1.5 2 4 2 4-2 4-2"></path><line x1="9" x2="9.01" y1="9" y2="9"></line><line x1="15" x2="15.01" y1="9" y2="9"></line><path d="M16 5h6"></path><path d="M19 2v6"></path></svg></button><input placeholder="Write your message..." class="flex-1 px-5 py-3 rounded-full border border-gray-300 dark:border-gray-700 bg-white dark:bg-black text-black dark:text-white placeholder-gray-500 dark:placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white transition" type="text"><button aria-label="Send message" class="p-3 rounded-full bg-black dark:bg-white text-white dark:text-black hover:brightness-90 transition"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-send w-6 h-6" aria-hidden="true"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"></path><path d="m21.854 2.147-10.94 10.939"></path></svg></button></footer></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

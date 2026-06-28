@@ -1,0 +1,57 @@
+# Build 8bit Chart Area Step in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![8bit Chart Area Step screenshot](screenshot.png)
+
+## Component
+
+- Author group: `theorcdev`
+- Component: `8bit-chart-area-step`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: theorcdev
+- Component slug: 8bit-chart-area-step
+- Demo slug: default
+- Title: 8bit-chart-area-step
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex min-h-screen w-full items-center justify-center bg-background p-8 retro"><div class="w-full max-w-3xl rounded-lg border-4 border-foreground bg-card p-6 shadow-xl"><div class="retro w-full rounded-none border-[6px] border-foreground bg-background p-4 text-foreground shadow-[8px_8px_0_0_var(--foreground)]"><div class="mb-4 flex items-center justify-between gap-4"><div><p class="text-xs uppercase tracking-widest text-muted-foreground">Desktop</p><h3 class="mt-2 text-sm">Step Area Chart</h3></div><div class="border-[4px] border-foreground bg-card px-3 py-2 text-right text-[10px] leading-relaxed"><span class="block text-muted-foreground">February</span><span class="text-foreground">204</span></div></div><svg viewBox="0 0 720 360" class="h-auto w-full overflow-visible" role="img" aria-label="Step area chart for desktop traffic"><defs><pattern id="pixel-grid" width="16" height="16" patternUnits="userSpaceOnUse"><path d="M 16 0 L 0 0 0 16" fill="none" stroke="currentColor" stroke-opacity="0.12" stroke-width="2"></path></pattern></defs><rect x="46" y="28" width="646" height="284" fill="url(#pixel-grid)"></rect><g class="text-muted-foreground"><line x1="46" x2="692" y1="312" y2="312" stroke="currentColor" stroke-opacity="0.32" stroke-dasharray="8 8"></line><text x="32" y="316" text-anchor="end" font-size="10" fill="currentColor">0</text></g><g class="text-muted-foreground"><line x1="46" x2="692" y1="241" y2="241" stroke="currentColor" stroke-opacity="0.32" stroke-dasharray="8 8"></line><text x="32" y="245" text-anchor="end" font-size="10" fill="currentColor">60</text></g><g class="text-muted-foreground"><line x1="46" x2="692" y1="170" y2="170" stroke="currentColor" stroke-opacity="0.32" stroke-dasharray="8 8"></line><text x="32" y="174" text-anchor="end" font-size="10" fill="currentColor">120</text></g><g class="text-muted-foreground"><line x1="46" x2="692" y1="99" y2="99" stroke="currentColor" stroke-opacity="0.32" stroke-dasharray="8 8"></line><text x="32" y="103" text-anchor="end" font-size="10" fill="currentColor">180</text></g><g class="text-muted-foreground"><line x1="46" x2="692" y1="28" y2="28" stroke="currentColor" stroke-opacity="0.32" stroke-dasharray="8 8"></line><text x="32" y="32" text-anchor="end" font-size="10" fill="currentColor">240</text></g><path d="M 46 194.85000000000002 H 175.2 V 70.6 H 304.4 V 99 H 433.59999999999997 V 170 H 562.8 V 99 H 692 V 262.3 L 692 312 H 46 Z" fill="var(--chart-1)" opacity="0.38"></path><path d="M 46 194.85000000000002 H 175.2 V 70.6 H 304.4 V 99 H 433.59999999999997 V 170 H 562.8 V 99 H 692 V 262.3" fill="none" stroke="var(--chart-1)" stroke-width="6" stroke-linejoin="miter" stroke-linecap="square"></path><g tabindex="0" class="cursor-pointer outline-none"><line x1="46" x2="46" y1="28" y2="312" stroke="transparent" stroke-width="46"></line><rect x="39" y="187.85000000000002" width="14" height="14" fill="var(--chart-1)" stroke="var(--background)" stroke-width="3"></rect></g><g tabindex="0" class="cursor-pointer outline-none"><line x1="175.2" x2="175.2" y1="28" y2="312" stroke="transparent" stroke-width="46"></line><rect x="168.2" y="63.599999999999994" width="14" height="14" fill="var(--foreground)" stroke="var(--background)" stroke-width="3"></rect></g><g tabindex="0" class="cursor-pointer outline-none"><line x1="304.4" x2="304.4" y1="28" y2="312" stroke="transparent" stroke-width="46"></line><rect x="297.4" y="92" width="14" height="14" fill="var(--chart-1)" stroke="var(--background)" stroke-width="3"></rect></g><g tabindex="0" class="cursor-pointer outline-none"><line x1="433.59999999999997" x2="433.59999999999997" y1="28" y2="312" stroke="transparent" stroke-width="46"></line><rect x="426.59999999999997" y="163" width="14" height="14" fill="var(--chart-1)" stroke="var(--background)" stroke-width="3"></rect></g><g tabindex="0" class="cursor-pointer outline-none"><line x1="562.8" x2="562.8" y1="28" y2="312" stroke="transparent" stroke-width="46"></line><rect x="555.8" y="92" width="14" height="14" fill="var(--chart-1)" stroke="var(--background)" stroke-width="3"></rect></g><g tabindex="0" class="cursor-pointer outline-none"><line x1="692" x2="692" y1="28" y2="312" stroke="transparent" stroke-width="46"></line><rect x="685" y="255.3" width="14" height="14" fill="var(--chart-1)" stroke="var(--background)" stroke-width="3"></rect></g><text x="46" y="342" text-anchor="middle" font-size="10" fill="currentColor" class="text-muted-foreground">Jan</text><text x="175.2" y="342" text-anchor="middle" font-size="10" fill="currentColor" class="text-muted-foreground">Feb</text><text x="304.4" y="342" text-anchor="middle" font-size="10" fill="currentColor" class="text-muted-foreground">Mar</text><text x="433.59999999999997" y="342" text-anchor="middle" font-size="10" fill="currentColor" class="text-muted-foreground">Apr</text><text x="562.8" y="342" text-anchor="middle" font-size="10" fill="currentColor" class="text-muted-foreground">May</text><text x="692" y="342" text-anchor="middle" font-size="10" fill="currentColor" class="text-muted-foreground">Jun</text><g transform="translate(189.2 18)"><rect width="152" height="46" fill="var(--background)" stroke="var(--foreground)" stroke-width="4"></rect><text x="12" y="18" font-size="10" fill="currentColor">February</text><text x="12" y="34" font-size="10" fill="currentColor">Desktop: 204</text></g></svg></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

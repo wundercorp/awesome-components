@@ -1,0 +1,57 @@
+# Build Icon Label Subtext Button in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Icon Label Subtext Button screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ruixenui`
+- Component: `icon-label-subtext-button`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ruixenui
+- Component slug: icon-label-subtext-button
+- Demo slug: default
+- Title: icon-label-subtext-button
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex flex-col gap-4 mx-auto"><div class="flex gap-4 items-center"><button type="button" class="relative inline-flex items-center gap-3 rounded-2xl transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring px-4 py-2.5 bg-primary text-primary-foreground hover:bg-primary/90"><span class="flex items-center justify-center rounded-md w-5 h-5" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-download" aria-hidden="true"><path d="M12 13v8l-4-4"></path><path d="m12 21 4-4"></path><path d="M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284"></path></svg></span><span class="flex flex-col items-start leading-none"><span class="text-sm font-medium">Download</span><span class="text-muted-foreground text-xs">File size: 12MB</span></span></button><button type="button" class="relative inline-flex items-center gap-3 rounded-2xl transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring px-5 py-3 bg-transparent border border-border hover:bg-muted"><span class="flex items-center justify-center rounded-md w-6 h-6" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-download" aria-hidden="true"><path d="M12 13v8l-4-4"></path><path d="m12 21 4-4"></path><path d="M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284"></path></svg></span><span class="flex flex-col items-start leading-none"><span class="text-base">Export CSV</span><span class="text-muted-foreground text-sm">Rows: 12,341</span></span><span class="absolute -top-2 -right-2"><div class="inline-flex items-center justify-center rounded-full border font-medium transition-colors outline-offset-2 focus-visible:outline-2 focus-visible:outline-ring/70 border-transparent bg-primary text-primary-foreground p-1 min-w-[1.25rem] h-5 text-[0.65rem]">NEW</div></span></button><button type="button" class="relative inline-flex items-center gap-3 rounded-2xl transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring px-3 py-2 bg-transparent hover:bg-muted/50 border-transparent" data-state="closed"><span class="flex items-center justify-center rounded-md w-4 h-4" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cloud-download" aria-hidden="true"><path d="M12 13v8l-4-4"></path><path d="m12 21 4-4"></path><path d="M4.393 15.269A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.436 8.284"></path></svg></span><span class="flex flex-col items-start leading-none"><span class="text-sm">Save</span><span class="text-muted-foreground text-xs">Auto-save enabled</span></span></button></div><div class="flex gap-4 items-center"><button type="button" class="relative inline-flex items-center gap-3 rounded-2xl transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring px-4 py-2.5 bg-primary text-primary-foreground hover:bg-primary/90" disabled=""><span class="flex items-center justify-center rounded-md w-5 h-5" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-loader-circle w-5 h-5 animate-spin" aria-hidden="true"><path d="M21 12a9 9 0 1 1-6.219-8.56"></path></svg></span><span class="flex flex-col items-start leading-none"><span class="text-sm font-medium">Upload</span><span class="text-muted-foreground text-xs">.png, .jpg only</span></span></button><button type="button" class="relative inline-flex items-center gap-3 rounded-2xl transition-colors duration-150 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-ring px-4 py-2.5 bg-primary text-primary-foreground hover:bg-primary/90"><span class="flex items-center justify-center rounded-md w-5 h-5" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check w-5 h-5" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></span><span class="flex flex-col items-start leading-none"><span class="text-sm font-medium">Sent</span><span class="text-muted-foreground text-xs">Delivered</span></span></button></div><p class="text-sm text-muted-foreground">Use cases: downloads, uploads, attachments, contextual actions (e.g., "Add — 3 items"), or any place where a short caption helps reduce ambiguity.</p></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

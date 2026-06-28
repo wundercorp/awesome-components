@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/reui/statistics-card-10/default
+- Registry URL: https://21st.dev/r/reui/statistics-card-10
+- Author: reui
+- Component slug: statistics-card-10
+- Demo slug: default
+- Title: statistics-card-10
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/reui/statistics-card-10 with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/reui__statistics-card-10__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/reui__statistics-card-10__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen w-full flex items-center justify-center p-6 lg:p-8"><div data-slot="card" class="flex flex-col items-stretch text-card-foreground rounded-xl bg-card border border-border shadow-xs black/5 w-full max-w-md"><div data-slot="card-header" class="flex items-center justify-between flex-wrap px-5 gap-2.5 border-border border-0 py-6 min-h-auto"><h3 data-slot="card-title" class="text-base font-semibold leading-none tracking-tight inline-flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-no-axes-column size-8 text-primary" aria-hidden="true"><line x1="18" x2="18" y1="20" y2="10"></line><line x1="12" x2="12" y1="20" y2="4"></line><line x1="6" x2="6" y1="20" y2="14"></line></svg>Total Revenue</h3><div data-slot="card-toolbar" class="flex items-center gap-2.5"><button data-slot="dropdown-menu-trigger" class="cursor-pointer group focus-visible:outline-hidden inline-flex items-center justify-center has-data-[arrow=true]:justify-between whitespace-nowrap font-medium ring-offset-background transition-[color,box-shadow] disabled:pointer-events-none disabled:opacity-60 [&amp;_svg]:shrink-0 text-muted-foreground hover:text-foreground data-[state=open]:text-foreground rounded-md gap-1.25 text-xs [&amp;_svg:not([class*=size-])]:size-3.5 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 w-7 h-7 p-0 [[&amp;_svg:not([class*=size-])]:size-3.5 select-none" type="button" id="radix-«r0»" aria-haspopup="menu" aria-expanded="false" data-state="closed"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ellipsis size-4" aria-hidden="true"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg></button></div></div><div data-slot="card-content" class="grow p-5 flex flex-col justify-between gap-3.5"><div class="space-y-3.5"><div class="flex items-center gap-2.5 mb-2.5"><span class="text-3xl font-bold text-foreground tracking-tight">$ 1,120,500</span><span class="text-xs text-muted-foreground font-medium leading-none">USD</span></div><div class="flex items-center gap-2 mb-4"><span data-slot="badge" class="inline-flex items-center justify-center border border-transparent font-medium focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 [&amp;_svg]:-ms-px [&amp;_svg]:shrink-0 rounded-md px-[0.45rem] h-6 min-w-6 gap-1.5 text-xs [&amp;_svg]:size-3.5 text-[var(--color-success-accent,var(--color-green-800))] bg-[var(--color-success-soft,var(--color-green-100))] dark:bg-[var(--color-success-soft,var(--color-green-950))] dark:text-[var(--color-success-soft,var(--color-green-600))]"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" class="inline-block"><path d="M3 5.5L7 9.5L11 5.5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg>-12.7%</span><span class="text-sm text-muted-foreground">decreased from last quarter</span></div></div><div class="space-y-1"><div class="p-2.5 bg-muted/60 flex items-center justify-between rounded-lg"><span class="text-sm text-accent-foreground">Avg. Subscription Value:</span><span class="text-base font-semibold text-foreground">$320</span></div><div class="p-2.5 bg-muted/60 flex items-center justify-between rounded-lg"><span class="text-sm text-accent-foreground">Enterprise Clients:</span><span class="text-base font-semibold text-foreground">42</span></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

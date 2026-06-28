@@ -1,0 +1,83 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/sehajbindra/features/default
+- Registry URL: https://21st.dev/r/sehajbindra/features
+- Author: sehajbindra
+- Component slug: features
+- Demo slug: default
+- Title: features
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/sehajbindra/features with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/sehajbindra__features__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/sehajbindra__features__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_DemoOne">DemoOne</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen py-16 px-4"><div class="max-w-7xl mx-auto"><div class="text-center mb-16"><span class="text-sky-500 font-semibold text-sm uppercase tracking-wider">AI Mentors. Real Results.</span><h2 class="text-4xl md:text-5xl font-bold text-black dark:text-white mt-4 mb-6">AI That Actually Teaches</h2></div><div class="grid lg:grid-cols-2 lg:gap-16 gap-8   items-center"><div class="lg:space-y-8 md:space-x-6 lg:space-x-0 overflow-x-auto overflow-hidden no-scrollbar lg:overflow-visible flex lg:flex lg:flex-col flex-row order-1 pb-4 scroll-smooth"><div class="relative cursor-pointer flex-shrink-0"><div class="
+                    flex lg:flex-row flex-col items-start space-x-4 p-3 max-w-sm md:max-w-sm lg:max-w-2xl transition-all duration-300
+                     bg-white dark:bg-black/80 md:shadow-xl dark:drop-shadow-lg  rounded-xl md:border dark:border-none border-gray-200 
+                  "><div class="
+                      p-3  hidden md:block rounded-full transition-all duration-300
+                      bg-sky-500 text-white
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain-cog" aria-hidden="true"><path d="m10.852 14.772-.383.923"></path><path d="m10.852 9.228-.383-.923"></path><path d="m13.148 14.772.382.924"></path><path d="m13.531 8.305-.383.923"></path><path d="m14.772 10.852.923-.383"></path><path d="m14.772 13.148.923.383"></path><path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 0 0-5.63-1.446 3 3 0 0 0-.368 1.571 4 4 0 0 0-2.525 5.771"></path><path d="M17.998 5.125a4 4 0 0 1 2.525 5.771"></path><path d="M19.505 10.294a4 4 0 0 1-1.5 7.706"></path><path d="M4.032 17.483A4 4 0 0 0 11.464 20c.18-.311.892-.311 1.072 0a4 4 0 0 0 7.432-2.516"></path><path d="M4.5 10.291A4 4 0 0 0 6 18"></path><path d="M6.002 5.125a3 3 0 0 0 .4 1.375"></path><path d="m9.228 10.852-.923-.383"></path><path d="m9.228 13.148-.923.383"></path><circle cx="12" cy="12" r="3"></circle></svg></div><div class="flex-1"><h3 class="
+                        text-lg md:mt-4 lg:mt-0 font-semibold mb-2 transition-colors duration-300
+                        text-gray-900 dark:text-white
+                      ">Who Are AI Experts?</h3><p class="
+                        transition-colors duration-300 text-sm
+                        text-gray-600 dark:text-white/60
+                      ">AI Experts at BCA Labs are domain-specific mentors trained to guide you in tech, coding, and academics.</p><div class="mt-4 bg-white dark:bg-black/80 rounded-sm   h-1 overflow-hidden"><div class="h-full bg-gradient-to-r from-sky-400 to-sky-500 dark:bg-gradient-to-r from-sky-300 to-sky-400" style="width: 68.9388%;"></div></div></div></div></div><div class="relative cursor-pointer flex-shrink-0"><div class="
+                    flex lg:flex-row flex-col items-start space-x-4 p-3 max-w-sm md:max-w-sm lg:max-w-2xl transition-all duration-300
+                     
+                  "><div class="
+                      p-3  hidden md:block rounded-full transition-all duration-300
+                      bg-sky-500/10 dark:bg-black/80 text-sky-500
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain-cog" aria-hidden="true"><path d="m10.852 14.772-.383.923"></path><path d="m10.852 9.228-.383-.923"></path><path d="m13.148 14.772.382.924"></path><path d="m13.531 8.305-.383.923"></path><path d="m14.772 10.852.923-.383"></path><path d="m14.772 13.148.923.383"></path><path d="M17.598 6.5A3 3 0 1 0 12 5a3 3 0 0 0-5.63-1.446 3 3 0 0 0-.368 1.571 4 4 0 0 0-2.525 5.771"></path><path d="M17.998 5.125a4 4 0 0 1 2.525 5.771"></path><path d="M19.505 10.294a4 4 0 0 1-1.5 7.706"></path><path d="M4.032 17.483A4 4 0 0 0 11.464 20c.18-.311.892-.311 1.072 0a4 4 0 0 0 7.432-2.516"></path><path d="M4.5 10.291A4 4 0 0 0 6 18"></path><path d="M6.002 5.125a3 3 0 0 0 .4 1.375"></path><path d="m9.228 10.852-.923-.383"></path><path d="m9.228 13.148-.923.383"></path><circle cx="12" cy="12" r="3"></circle></svg></div><div class="flex-1"><h3 class="
+                        text-lg md:mt-4 lg:mt-0 font-semibold mb-2 transition-colors duration-300
+                        text-gray-700 dark:text-white/80
+                      ">Why AI Experts?</h3><p class="
+                        transition-colors duration-300 text-sm
+                        text-gray-500 dark:text-white/40
+                      ">Get instant, accurate help from experts—whether it's for coding or understanding tough concepts. They are trained on their expertise.</p><div class="mt-4 bg-white dark:bg-black/80 rounded-sm   h-1 overflow-hidden"></div></div></div></div><div class="relative cursor-pointer flex-shrink-0"><div class="
+                    flex lg:flex-row flex-col items-start space-x-4 p-3 max-w-sm md:max-w-sm lg:max-w-2xl transition-all duration-300
+                     
+                  "><div class="
+                      p-3  hidden md:block rounded-full transition-all duration-300
+                      bg-sky-500/10 dark:bg-black/80 text-sky-500
+                    "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-brain" aria-hidden="true"><path d="M12 5a3 3 0 1 0-5.997.125 4 4 0 0 0-2.526 5.77 4 4 0 0 0 .556 6.588A4 4 0 1 0 12 18Z"></path><path d="M12 5a3 3 0 1 1 5.997.125 4 4 0 0 1 2.526 5.77 4 4 0 0 1-.556 6.588A4 4 0 1 1 12 18Z"></path><path d="M15 13a4.5 4.5 0 0 1-3-4 4.5 4.5 0 0 1-3 4"></path><path d="M17.599 6.5a3 3 0 0 0 .399-1.375"></path><path d="M6.003 5.125A3 3 0 0 0 6.401 6.5"></path><path d="M3.477 10.896a4 4 0 0 1 .585-.396"></path><path d="M19.938 10.5a4 4 0 0 1 .585.396"></path><path d="M6 18a4 4 0 0 1-1.967-.516"></path><path d="M19.967 17.484A4 4 0 0 1 18 18"></path></svg></div><div class="flex-1"><h3 class="
+                        text-lg md:mt-4 lg:mt-0 font-semibold mb-2 transition-colors duration-300
+                        text-gray-700 dark:text-white/80
+                      ">AI-Powered Learning</h3><p class="
+                        transition-colors duration-300 text-sm
+                        text-gray-500 dark:text-white/40
+                      ">Experience personalized, AI-driven learning tailored for BCA, BBA, and other students.</p><div class="mt-4 bg-white dark:bg-black/80 rounded-sm   h-1 overflow-hidden"></div></div></div></div></div><div class="relative order-1 max-w-lg mx-auto lg:order-2"><div class="relative" style="opacity: 1; transform: none;"><img alt="Who Are AI Experts?" width="600" height="400" class="rounded-2xl border dark:border-none border-gray-50 shadow-lg dark:drop-shadow-lg" src="https://bcalabs.org/companions.jpg"></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

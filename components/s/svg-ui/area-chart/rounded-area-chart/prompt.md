@@ -1,0 +1,68 @@
+# Build Area Chart in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Area Chart screenshot](screenshot.png)
+
+## Component
+
+- Author group: `svg-ui`
+- Component: `area-chart`
+- Variant: `rounded-area-chart`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: svg-ui
+- Component slug: area-chart
+- Demo slug: rounded-area-chart
+- Title: area-chart
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground shadow-sm"><div class="flex flex-col space-y-1.5 p-6"><h3 class="text-2xl font-semibold leading-none tracking-tight">Rounded Area Chart<div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-red-500 bg-red-500/10 border-none ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-down h-4 w-4" aria-hidden="true"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline><polyline points="16 17 22 17 22 11"></polyline></svg><span>-5.2%</span></div></h3><p class="text-sm text-muted-foreground">Showing total visitors for the last 6 months</p></div><div class="p-6 pt-0"><div data-slot="chart" data-chart="chart-«r0»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden"><style>
+ [data-chart=chart-«r0»] {
+  --color-desktop: var(--chart-1);
+  --color-mobile: var(--chart-2);
+}
+
+
+.dark [data-chart=chart-«r0»] {
+  --color-desktop: var(--chart-1);
+  --color-mobile: var(--chart-2);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div style="width: 0px; height: 0px; overflow: visible;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 288px; height: 162px;"><div xmlns="http://www.w3.org/1999/xhtml" tabindex="-1" class="recharts-tooltip-wrapper" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;"></div><svg role="application" tabindex="0" class="recharts-surface" width="288" height="162" viewBox="0 0 288 162" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="122" width="278"></rect></clipPath></defs><g class="recharts-cartesian-grid"><g class="recharts-cartesian-grid-horizontal"><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="5" y="5" width="278" height="122" x1="5" y1="127" x2="283" y2="127"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="5" y="5" width="278" height="122" x1="5" y1="96.5" x2="283" y2="96.5"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="5" y="5" width="278" height="122" x1="5" y1="66" x2="283" y2="66"></line><line stroke-dasharray="3 3" stroke="#ccc" fill="none" x="5" y="5" width="278" height="122" x1="5" y1="5" x2="283" y2="5"></line></g></g><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="278" stroke="none" x="30.272727272727273" y="141" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="30.272727272727273" dy="0.71em">Feb</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="278" stroke="none" x="80.81818181818181" y="141" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="80.81818181818181" dy="0.71em">Apr</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="278" stroke="none" x="131.36363636363637" y="141" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="131.36363636363637" dy="0.71em">Jun</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="278" stroke="none" x="156.63636363636363" y="141" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="156.63636363636363" dy="0.71em">Jul</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="278" stroke="none" x="181.9090909090909" y="141" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="181.9090909090909" dy="0.71em">Aug</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="278" stroke="none" x="232.45454545454547" y="141" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="232.45454545454547" dy="0.71em">Oct</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="278" stroke="none" x="276.8515625" y="141" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="276.8515625" dy="0.71em">Dec</tspan></text></g></g></g><defs><linearGradient id="gradient-rounded-chart-desktop" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="95%" stop-color="var(--color-desktop)" stop-opacity="0.1"></stop></linearGradient><linearGradient id="gradient-rounded-chart-mobile" x1="0" y1="0" x2="0" y2="1"><stop offset="5%" stop-color="var(--color-mobile)" stop-opacity="0.5"></stop><stop offset="95%" stop-color="var(--color-mobile)" stop-opacity="0.1"></stop></linearGradient></defs><g class="recharts-layer recharts-area"><g class="recharts-layer"><path stroke-width="0.8" stroke-dasharray="3 3" fill="url(#gradient-rounded-chart-mobile)" fill-opacity="0.4" height="122" width="278" stroke="none" class="recharts-curve recharts-area-area" d="M5,110.394C13.424,96.249,21.848,82.104,30.273,82.673C38.697,83.243,47.121,98.528,55.545,100.77C63.97,103.012,72.394,92.211,80.818,91.688C89.242,91.164,97.667,100.917,106.091,99.076C114.515,97.234,122.939,83.797,131.364,86.469C139.788,89.14,148.212,107.92,156.636,105.853C165.061,103.787,173.485,80.874,181.909,76.641C190.333,72.409,198.758,86.856,207.182,93.857C215.606,100.857,224.03,100.41,232.455,94.738C240.879,89.065,249.303,78.167,257.727,80.437C266.152,82.706,274.576,98.143,283,113.58L283,127C274.576,127,266.152,127,257.727,127C249.303,127,240.879,127,232.455,127C224.03,127,215.606,127,207.182,127C198.758,127,190.333,127,181.909,127C173.485,127,165.061,127,156.636,127C148.212,127,139.788,127,131.364,127C122.939,127,114.515,127,106.091,127C97.667,127,89.242,127,80.818,127C72.394,127,63.97,127,55.545,127C47.121,127,38.697,127,30.273,127C21.848,127,13.424,127,5,127Z"></path><path stroke-width="0.8" stroke-dasharray="3 3" fill="none" fill-opacity="0.4" height="122" stroke="var(--color-mobile)" width="278" class="recharts-curve recharts-area-curve" d="M5,110.394C13.424,96.249,21.848,82.104,30.273,82.673C38.697,83.243,47.121,98.528,55.545,100.77C63.97,103.012,72.394,92.211,80.818,91.688C89.242,91.164,97.667,100.917,106.091,99.076C114.515,97.234,122.939,83.797,131.364,86.469C139.788,89.14,148.212,107.92,156.636,105.853C165.061,103.787,173.485,80.874,181.909,76.641C190.333,72.409,198.758,86.856,207.182,93.857C215.606,100.857,224.03,100.41,232.455,94.738C240.879,89.065,249.303,78.167,257.727,80.437C266.152,82.706,274.576,98.143,283,113.58"></path></g></g><g class="recharts-layer recharts-area"><g class="recharts-layer"><path stroke-width="0.8" stroke-dasharray="3 3" fill="url(#gradient-rounded-chart-desktop)" fill-opacity="0.4" height="122" width="278" stroke="none" class="recharts-curve recharts-area-area" d="M5,87.214C13.424,54.574,21.848,21.933,30.273,23.3C38.697,24.667,47.121,60.041,55.545,66.068C63.97,72.095,72.394,48.774,80.818,49.056C89.242,49.337,97.667,73.221,106.091,68.033C114.515,62.845,122.939,28.585,131.364,33.534C139.788,38.484,148.212,82.643,156.636,79.149C165.061,75.655,173.485,24.507,181.909,13.947C190.333,3.386,198.758,33.412,207.182,50.004C215.606,66.597,224.03,69.756,232.455,58.68C240.879,47.604,249.303,22.295,257.727,26.011C266.152,29.727,274.576,62.47,283,95.212L283,113.58C274.576,98.143,266.152,82.706,257.727,80.437C249.303,78.167,240.879,89.065,232.455,94.738C224.03,100.41,215.606,100.857,207.182,93.857C198.758,86.856,190.333,72.409,181.909,76.641C173.485,80.874,165.061,103.787,156.636,105.853C148.212,107.92,139.788,89.14,131.364,86.469C122.939,83.797,114.515,97.234,106.091,99.076C97.667,100.917,89.242,91.164,80.818,91.688C72.394,92.211,63.97,103.012,55.545,100.77C47.121,98.528,38.697,83.243,30.273,82.673C21.848,82.104,13.424,96.249,5,110.394Z"></path><path stroke-width="0.8" stroke-dasharray="3 3" fill="none" fill-opacity="0.4" height="122" stroke="var(--color-desktop)" width="278" class="recharts-curve recharts-area-curve" d="M5,87.214C13.424,54.574,21.848,21.933,30.273,23.3C38.697,24.667,47.121,60.041,55.545,66.068C63.97,72.095,72.394,48.774,80.818,49.056C89.242,49.337,97.667,73.221,106.091,68.033C114.515,62.845,122.939,28.585,131.364,33.534C139.788,38.484,148.212,82.643,156.636,79.149C165.061,75.655,173.485,24.507,181.909,13.947C190.333,3.386,198.758,33.412,207.182,50.004C215.606,66.597,224.03,69.756,232.455,58.68C240.879,47.604,249.303,22.295,257.727,26.011C266.152,29.727,274.576,62.47,283,95.212"></path></g></g></svg></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

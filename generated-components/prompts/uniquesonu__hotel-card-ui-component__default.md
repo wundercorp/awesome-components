@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/uniquesonu/hotel-card-ui-component/default
+- Registry URL: https://21st.dev/r/uniquesonu/hotel-card-ui-component
+- Author: uniquesonu
+- Component slug: hotel-card-ui-component
+- Demo slug: default
+- Title: hotel-card-ui-component
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/uniquesonu/hotel-card-ui-component with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/uniquesonu__hotel-card-ui-component__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/uniquesonu__hotel-card-ui-component__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="relative flex min-h-screen w-full items-center justify-center p-4 font-sans bg-background"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 absolute top-4 right-4 rounded-full shadow-md" aria-label="Toggle theme"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sun h-5 w-5" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2"></path><path d="M12 20v2"></path><path d="m4.93 4.93 1.41 1.41"></path><path d="m17.66 17.66 1.41 1.41"></path><path d="M2 12h2"></path><path d="M20 12h2"></path><path d="m6.34 17.66-1.41 1.41"></path><path d="m19.07 4.93-1.41 1.41"></path></svg></button><div class="w-full max-w-4xl space-y-6"><a href="#" class="block transition-transform duration-300 ease-in-out hover:-translate-y-1"><div class="rounded-lg border bg-card text-card-foreground shadow-sm group flex flex-col overflow-hidden md:flex-row"><div class="w-full overflow-hidden md:w-2/5 md:h-auto h-56"><img alt="Luxury hotel room with a pool view" class="h-full w-full object-cover transition-transform duration-300 ease-in-out group-hover:scale-105" src="https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&amp;w=1925&amp;auto=format&amp;fit=crop"></div><div class="flex flex-col justify-center p-6 md:w-3/5 space-y-3"><span class="text-sm font-medium text-muted-foreground tracking-wide uppercase">Deluxe Room</span><h3 class="text-2xl font-bold tracking-tight">Sao Paulo Hotel</h3><div class="flex items-center text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin h-4 w-4" aria-hidden="true"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path><circle cx="12" cy="10" r="3"></circle></svg><span class="ml-2 text-sm">Ubud, Bali, Indonesia</span></div><div class="flex items-center pt-2"><div class="flex items-center text-sm font-semibold"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star h-4 w-4 text-yellow-400 fill-yellow-400" aria-hidden="true"><path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z"></path></svg><span class="ml-1.5 text-primary">4.9</span></div><span class="ml-2 text-sm text-muted-foreground">(1,092 Reviews)</span></div></div></div></a></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

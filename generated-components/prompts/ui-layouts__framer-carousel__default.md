@@ -1,0 +1,49 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ui-layouts/framer-carousel/default
+- Registry URL: https://21st.dev/r/ui-layouts/framer-carousel
+- Author: ui-layouts
+- Component slug: framer-carousel
+- Demo slug: default
+- Title: framer-carousel
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ui-layouts/framer-carousel with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ui-layouts__framer-carousel__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ui-layouts__framer-carousel__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="lg:p-10 sm:p-4 p-2 max-w-4xl mx-auto"><div class="flex flex-col gap-3"><div class="relative overflow-hidden rounded-lg"><div class="flex" style="transform: none;"><div class="shrink-0 w-full h-[500px]"><img alt="Misty Mountain Majesty" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1471899236350-e3016bf1e69e?q=80&amp;w=880&amp;auto=format&amp;fit=crop"></div><div class="shrink-0 w-full h-[500px]"><img alt="Winter Wonderland" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1539552678512-4005a33c64db?q=80&amp;w=880&amp;auto=format&amp;fit=crop"></div><div class="shrink-0 w-full h-[500px]"><img alt="Autumn Mountain Retreat" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1709983966747-58c311fa6976?q=80&amp;w=880&amp;auto=format&amp;fit=crop"></div><div class="shrink-0 w-full h-[500px]"><img alt="Tranquil Lake Reflection" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1683722319473-f851deb3fdf2?q=80&amp;w=880&amp;auto=format&amp;fit=crop"></div><div class="shrink-0 w-full h-[500px]"><img alt="Misty Mountain Peaks" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1560790671-b76ca4de55ef?q=80&amp;w=734&amp;auto=format&amp;fit=crop"></div><div class="shrink-0 w-full h-[500px]"><img alt="Golden Hour Glow" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1698774303292-7af9410c3a57?q=80&amp;w=436&amp;auto=format&amp;fit=cropv"></div><div class="shrink-0 w-full h-[500px]"><img alt="Snowy Mountain Highway" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1643994542584-1247b5266429?q=80&amp;w=869&amp;auto=format&amp;fit=crop"></div><div class="shrink-0 w-full h-[500px]"><img alt="Foggy Mountain Forest" class="w-full h-full object-cover rounded-lg select-none pointer-events-none" draggable="false" src="https://images.unsplash.com/photo-1613681230409-6423a38c43e1?q=80&amp;w=871&amp;auto=format&amp;fit=crop"></div></div><button disabled="" class="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full flex items-center justify-center shadow-lg transition-transform z-10
+              opacity-40 cursor-not-allowed"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path></svg></button><button class="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 rounded-full flex items-center justify-center shadow-lg transition-transform z-10
+              bg-white hover:scale-110 hover:opacity-100 opacity-70"><svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg></button><div class="absolute bottom-4 left-1/2 -translate-x-1/2 flex gap-2 p-2 bg-white/20 rounded-xl border border-white/30"><button class="h-2 rounded-full transition-all w-8 bg-white"></button><button class="h-2 rounded-full transition-all w-2 bg-white/50"></button><button class="h-2 rounded-full transition-all w-2 bg-white/50"></button><button class="h-2 rounded-full transition-all w-2 bg-white/50"></button><button class="h-2 rounded-full transition-all w-2 bg-white/50"></button><button class="h-2 rounded-full transition-all w-2 bg-white/50"></button><button class="h-2 rounded-full transition-all w-2 bg-white/50"></button><button class="h-2 rounded-full transition-all w-2 bg-white/50"></button></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

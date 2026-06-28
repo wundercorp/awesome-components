@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/ruixenui/hero-preview-walls/default
+- Registry URL: https://21st.dev/r/ruixenui/hero-preview-walls
+- Author: ruixenui
+- Component slug: hero-preview-walls
+- Demo slug: default
+- Title: hero-preview-walls
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/ruixenui/hero-preview-walls with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/ruixenui__hero-preview-walls__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/ruixenui__hero-preview-walls__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><main><section class="relative w-full overflow-hidden bg-white dark:bg-black text-black dark:text-white py-16 sm:py-20 md:py-24"><div class="max-w-5xl mx-auto text-left px-4 sm:px-6"><div class="inline-block mb-4 border border-neutral-300 dark:border-neutral-700 rounded-full px-3 py-1 text-xs sm:text-sm text-neutral-500 dark:text-neutral-400">Your building and design partner</div><h1 class="text-3xl sm:text-5xl md:text-6xl font-bold leading-tight mb-4">We build technology that moves your vision forward</h1><p class="text-base sm:text-lg text-neutral-600 dark:text-neutral-400 max-w-2xl mb-8">Empowering startups and teams to turn ambitious ideas into stunning products — fast, scalable, and beautifully engineered.</p><div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-10 sm:mb-20"><button class="rounded-full bg-black dark:bg-white text-white dark:text-black px-6 py-3 text-sm font-medium hover:opacity-80 transition">Explore Components</button><button class="rounded-full border border-neutral-400 dark:border-neutral-600 px-6 py-3 text-sm font-medium hover:bg-neutral-100 dark:hover:bg-neutral-800 transition">Get Started</button></div></div><div class="relative flex justify-center max-w-5xl mx-auto px-4 sm:px-6"><img alt="Background" class="rounded-2xl shadow-xl w-full object-cover border-8 border-neutral-200 dark:border-neutral-800" src="https://pub-940ccf6255b54fa799a9b01050e6c227.r2.dev/abstract-glass-walls.jpg"><div class="absolute -bottom-36 sm:-bottom-16 md:-bottom-9 flex justify-center w-full"><div class="relative flex justify-center" style="height: calc(42px + 30rem); width: 28rem;"><div class="absolute bg-white dark:bg-neutral-900 rounded-2xl p-5 sm:p-6 md:p-8 shadow-xl border border-neutral-200 dark:border-white/[0.08] flex flex-col justify-between text-left overflow-hidden" style="transform-origin: center top; height: 30rem; width: 28rem; top: 0px; z-index: 3; transform: none;"><div class="space-y-3 sm:space-y-4"><div class="font-semibold text-lg sm:text-xl md:text-2xl text-neutral-800 dark:text-neutral-100">Cloud &amp; Edge Deployment</div><div class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base leading-relaxed"><p>Our deployments leverage the latest in container orchestration and edge computing. Whether you’re hosting on <span class="font-semibold text-emerald-600 dark:text-emerald-400">AWS, GCP, or on-prem</span>, our pipelines ensure performance, monitoring, and fault tolerance.</p></div><div class="mt-3"><img alt="Cloud &amp; Edge Deployment" class="w-full h-40 sm:h-48 md:h-56 rounded-lg border border-neutral-200 dark:border-neutral-800 object-cover shadow-md" src="https://pub-940ccf6255b54fa799a9b01050e6c227.r2.dev/featured-06.png"></div></div><div class="pt-3 border-t border-neutral-200 dark:border-neutral-800 mt-4"><p class="text-neutral-700 dark:text-white font-medium text-sm sm:text-base">Reliable Infrastructure at Scale</p></div></div><div class="absolute bg-white dark:bg-neutral-900 rounded-2xl p-5 sm:p-6 md:p-8 shadow-xl border border-neutral-200 dark:border-white/[0.08] flex flex-col justify-between text-left overflow-hidden" style="transform-origin: center top; height: 30rem; width: 28rem; top: -14px; z-index: 2; transform: scale(0.95);"><div class="space-y-3 sm:space-y-4"><div class="font-semibold text-lg sm:text-xl md:text-2xl text-neutral-800 dark:text-neutral-100">AI-Powered Automation</div><div class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base leading-relaxed"><p>We design intelligent systems that streamline workflows, reduce overhead, and enable you to scale without friction. Our automation modules integrate seamlessly across <span class="font-semibold text-emerald-600 dark:text-emerald-400">multiple platforms and APIs</span>, ensuring precision and reliability.</p></div><div class="mt-3"><img alt="AI-Powered Automation" class="w-full h-40 sm:h-48 md:h-56 rounded-lg border border-neutral-200 dark:border-neutral-800 object-cover shadow-md" src="https://pub-940ccf6255b54fa799a9b01050e6c227.r2.dev/dashboard-gradient.png"></div></div><div class="pt-3 border-t border-neutral-200 dark:border-neutral-800 mt-4"><p class="text-neutral-700 dark:text-white font-medium text-sm sm:text-base">Efficiency through Intelligence</p></div></div><div class="absolute bg-white dark:bg-neutral-900 rounded-2xl p-5 sm:p-6 md:p-8 shadow-xl border border-neutral-200 dark:border-white/[0.08] flex flex-col justify-between text-left overflow-hidden" style="transform-origin: center top; height: 30rem; width: 28rem; top: -28px; z-index: 1; transform: scale(0.9);"><div class="space-y-3 sm:space-y-4"><div class="font-semibold text-lg sm:text-xl md:text-2xl text-neutral-800 dark:text-neutral-100">Modern Design Systems</div><div class="text-neutral-600 dark:text-neutral-300 text-sm sm:text-base leading-relaxed"><p>From concept to code, our design systems empower product teams to move faster. We build reusable components, maintain visual consistency, and support <span class="font-semibold text-emerald-600 dark:text-emerald-400">theme-aware UI kits</span> that adapt dynamically to dark and light modes.</p></div><div class="mt-3"><img alt="Modern Design Systems" class="w-full h-40 sm:h-48 md:h-56 rounded-lg border border-neutral-200 dark:border-neutral-800 object-cover shadow-md" src="https://pub-940ccf6255b54fa799a9b01050e6c227.r2.dev/crm-featured.png"></div></div><div class="pt-3 border-t border-neutral-200 dark:border-neutral-800 mt-4"><p class="text-neutral-700 dark:text-white font-medium text-sm sm:text-base">Built for Flexibility and Speed</p></div></div></div></div></div></section></main></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

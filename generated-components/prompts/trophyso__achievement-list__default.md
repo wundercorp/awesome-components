@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/trophyso/achievement-list/default
+- Registry URL: https://21st.dev/r/trophyso/achievement-list
+- Author: trophyso
+- Component slug: achievement-list
+- Demo slug: default
+- Title: achievement-list
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/trophyso/achievement-list with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/trophyso__achievement-list__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/trophyso__achievement-list__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class=""><div role="list" aria-label="Achievements" class="flex flex-col gap-3"><div role="listitem" class="bg-background flex items-center gap-4 rounded-2xl border px-4 py-3"><div aria-hidden="true" class="h-12 w-12 flex shrink-0 items-center justify-center rounded-xl bg-muted text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy h-6 w-6" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg></div><div class="min-w-0 flex-1"><p class="truncate text-base font-semibold">10 Day Streak</p><p class="text-muted-foreground truncate text-sm">Open app for 10 days</p></div><div class="relative shrink-0" style="width: 48px; height: 48px;"><svg aria-hidden="true" class="absolute inset-0 h-full w-full" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22.5" fill="none" stroke="hsl(var(--muted))" stroke-width="3"></circle><circle cx="24" cy="24" r="22.5" fill="none" stroke="var(--primary)" stroke-linecap="round" stroke-width="3" stroke-dasharray="141.3716694115407" stroke-dashoffset="56.54866776461628" transform="rotate(-90 24 24)"></circle></svg><div class="text-foreground absolute inset-0 grid place-items-center text-sm font-semibold">60%</div></div></div><div role="listitem" class="bg-background flex items-center gap-4 rounded-2xl border px-4 py-3"><div aria-hidden="true" class="h-12 w-12 flex shrink-0 items-center justify-center rounded-xl bg-muted text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy h-6 w-6" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg></div><div class="min-w-0 flex-1"><p class="truncate text-base font-semibold">5,000 Calorie Burn</p><p class="text-muted-foreground truncate text-sm">Burn 5K calories total</p></div><div class="relative shrink-0" style="width: 48px; height: 48px;"><svg aria-hidden="true" class="absolute inset-0 h-full w-full" viewBox="0 0 48 48"><circle cx="24" cy="24" r="22.5" fill="none" stroke="hsl(var(--muted))" stroke-width="3"></circle><circle cx="24" cy="24" r="22.5" fill="none" stroke="var(--primary)" stroke-linecap="round" stroke-width="3" stroke-dasharray="141.3716694115407" stroke-dashoffset="96.13273519984767" transform="rotate(-90 24 24)"></circle></svg><div class="text-foreground absolute inset-0 grid place-items-center text-sm font-semibold">32%</div></div></div><div role="listitem" class="bg-background flex items-center gap-4 rounded-2xl border px-4 py-3"><div aria-hidden="true" class="h-12 w-12 flex shrink-0 items-center justify-center rounded-xl bg-primary text-primary-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy h-6 w-6" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg></div><div class="min-w-0 flex-1"><p class="truncate text-base font-semibold text-muted-foreground">Weekend Warrior</p><p class="text-muted-foreground truncate text-sm">Complete challenges on weekends</p></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

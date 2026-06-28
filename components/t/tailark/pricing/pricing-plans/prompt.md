@@ -1,0 +1,57 @@
+# Build Pricing in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Pricing screenshot](screenshot.png)
+
+## Component
+
+- Author group: `tailark`
+- Component: `pricing`
+- Variant: `pricing-plans`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: tailark
+- Component slug: pricing
+- Demo slug: pricing-plans
+- Title: pricing
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="bg-muted relative py-16 md:py-32"><div class="mx-auto max-w-5xl px-6"><div class="mx-auto max-w-2xl text-center"><h2 class="text-balance text-3xl font-bold md:text-4xl lg:text-5xl">Pricing that scales with your business</h2><p class="text-muted-foreground mx-auto mt-4 max-w-xl text-balance text-lg">Choose the perfect plan for your needs and start optimizing your workflow today</p></div><div class="mt-12 md:mt-20 grid gap-6 md:grid-cols-3"><div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col"><div class="flex flex-col space-y-1.5 p-8"><h3 class="text-2xl leading-none tracking-tight font-medium">Free</h3><span class="mb-0.5 mt-2 block text-2xl font-semibold">$0 / mo</span><p class="text-muted-foreground text-sm">Per editor</p></div><div class="border-y px-8 py-4"><a href="#" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 w-full">Get Started</a></div><ul role="list" class="space-y-3 p-8"><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Basic Analytics Dashboard</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>5GB Cloud Storage</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Email and Chat Support</li></ul></div><div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col"><div class="flex flex-col space-y-1.5 p-8"><h3 class="text-2xl leading-none tracking-tight font-medium">Pro</h3><span class="mb-0.5 mt-2 block text-2xl font-semibold">$19 / mo</span><p class="text-muted-foreground text-sm">Per editor</p></div><div class="border-y px-8 py-4"><a href="#" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-10 px-4 py-2 w-full">Get Started</a></div><ul role="list" class="space-y-3 p-8"><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Everything in Free Plan</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>5GB Cloud Storage</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Email and Chat Support</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Access to Community Forum</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Single User Access</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Access to Basic Templates</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Mobile App Access</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>1 Custom Report Per Month</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Monthly Product Updates</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Standard Security Features</li></ul></div><div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col"><div class="flex flex-col space-y-1.5 p-8"><h3 class="text-2xl leading-none tracking-tight font-medium">Pro Plus</h3><span class="mb-0.5 mt-2 block text-2xl font-semibold">$49 / mo</span><p class="text-muted-foreground text-sm">Per editor</p></div><div class="border-y px-8 py-4"><a href="#" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 px-4 py-2 w-full">Get Started</a></div><ul role="list" class="space-y-3 p-8"><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Everything in Pro Plan</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>5GB Cloud Storage</li><li class="flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check text-primary size-3" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>Email and Chat Support</li></ul></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

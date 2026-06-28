@@ -1,0 +1,57 @@
+# Build Gallery6 in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Gallery6 screenshot](screenshot.png)
+
+## Component
+
+- Author group: `shadcnblockscom`
+- Component: `gallery6`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: shadcnblockscom
+- Component slug: gallery6
+- Demo slug: default
+- Title: gallery6
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="bg-background text-foreground"><div class="w-full"><section class="py-32"><div class="container"><div class="mb-8 flex flex-col justify-between md:mb-14 md:flex-row md:items-end lg:mb-16"><div><h2 class="mb-3 text-3xl font-semibold md:mb-4 md:text-4xl lg:mb-6">Featured Projects</h2><a href="https://www.shadcnblocks.com" class="group flex items-center gap-1 text-sm font-medium md:text-base lg:text-lg">Book a demo<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up-right size-4 transition-transform group-hover:translate-x-1" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></a></div><div class="mt-8 flex shrink-0 items-center justify-start gap-2"><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 disabled:pointer-events-auto" disabled=""><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left size-5" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg></button><button class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 disabled:pointer-events-auto"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right size-5" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></button></div></div></div><div class="w-full"><div class="relative left-[-1rem]" role="region" aria-roledescription="carousel"><div class="overflow-hidden"><div class="flex -mr-4 ml-8 2xl:ml-[max(8rem,calc(50vw-700px+1rem))] 2xl:mr-[max(0rem,calc(50vw-700px-1rem))]" style="transform: translate3d(0px, 0px, 0px);"><div role="group" aria-roledescription="slide" class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:max-w-[452px]"><a href="#" class="group flex flex-col justify-between"><div><div class="flex aspect-[3/2] overflow-clip rounded-xl"><div class="flex-1"><div class="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105"><img alt="Build Modern UIs" class="h-full w-full object-cover object-center" src="https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg"></div></div></div></div><div class="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">Build Modern UIs</div><div class="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">Create stunning user interfaces with our comprehensive design system.</div><div class="flex items-center text-sm">Read more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 size-5 transition-transform group-hover:translate-x-1" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></a></div><div role="group" aria-roledescription="slide" class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:max-w-[452px]"><a href="#" class="group flex flex-col justify-between"><div><div class="flex aspect-[3/2] overflow-clip rounded-xl"><div class="flex-1"><div class="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105"><img alt="Design System Components" class="h-full w-full object-cover object-center" src="https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg"></div></div></div></div><div class="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">Design System Components</div><div class="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">Explore our library of customizable components built with shadcn/ui and Tailwind CSS.</div><div class="flex items-center text-sm">Read more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 size-5 transition-transform group-hover:translate-x-1" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></a></div><div role="group" aria-roledescription="slide" class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:max-w-[452px]"><a href="#" class="group flex flex-col justify-between"><div><div class="flex aspect-[3/2] overflow-clip rounded-xl"><div class="flex-1"><div class="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105"><img alt="Responsive Layouts" class="h-full w-full object-cover object-center" src="https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg"></div></div></div></div><div class="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">Responsive Layouts</div><div class="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">Build websites that look great on any device with our responsive design patterns.</div><div class="flex items-center text-sm">Read more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 size-5 transition-transform group-hover:translate-x-1" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></a></div><div role="group" aria-roledescription="slide" class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:max-w-[452px]"><a href="#" class="group flex flex-col justify-between"><div><div class="flex aspect-[3/2] overflow-clip rounded-xl"><div class="flex-1"><div class="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105"><img alt="Developer Experience" class="h-full w-full object-cover object-center" src="https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg"></div></div></div></div><div class="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">Developer Experience</div><div class="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">Streamline your workflow with our developer-friendly tools and documentation.</div><div class="flex items-center text-sm">Read more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 size-5 transition-transform group-hover:translate-x-1" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></a></div><div role="group" aria-roledescription="slide" class="min-w-0 shrink-0 grow-0 basis-full pl-4 md:max-w-[452px]"><a href="#" class="group flex flex-col justify-between"><div><div class="flex aspect-[3/2] overflow-clip rounded-xl"><div class="flex-1"><div class="relative h-full w-full origin-bottom transition duration-300 group-hover:scale-105"><img alt="Performance First" class="h-full w-full object-cover object-center" src="https://www.shadcnblocks.com/images/block/placeholder-dark-1.svg"></div></div></div></div><div class="mb-2 line-clamp-3 break-words pt-4 text-lg font-medium md:mb-3 md:pt-4 md:text-xl lg:pt-4 lg:text-2xl">Performance First</div><div class="mb-8 line-clamp-2 text-sm text-muted-foreground md:mb-12 md:text-base lg:mb-9">Create fast, optimized websites using our performance-focused components.</div><div class="flex items-center text-sm">Read more <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right ml-2 size-5 transition-transform group-hover:translate-x-1" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></div></a></div></div></div></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

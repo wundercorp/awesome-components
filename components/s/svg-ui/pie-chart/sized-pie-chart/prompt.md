@@ -1,0 +1,109 @@
+# Build Pie Chart in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Pie Chart screenshot](screenshot.png)
+
+## Component
+
+- Author group: `svg-ui`
+- Component: `pie-chart`
+- Variant: `sized-pie-chart`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: svg-ui
+- Component slug: pie-chart
+- Demo slug: sized-pie-chart
+- Title: pie-chart
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground shadow-sm flex flex-col"><div class="flex flex-col space-y-1.5 p-6 items-center pb-0"><h3 class="text-2xl font-semibold leading-none tracking-tight">Sized Pie Chart<div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-red-500 bg-red-500/10 border-none ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-down h-4 w-4" aria-hidden="true"><polyline points="22 17 13.5 8.5 8.5 13.5 2 7"></polyline><polyline points="16 17 22 17 22 11"></polyline></svg><span>5.2%</span></div></h3><p class="text-sm text-muted-foreground">January - June 2024</p></div><div class="p-6 pt-0 flex-1 pb-0"><div data-slot="chart" data-chart="chart-«r0»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden [&amp;_.recharts-text]:fill-background mx-auto aspect-square max-h-[250px]"><style>
+ [data-chart=chart-«r0»] {
+  --color-chrome: var(--chart-1);
+  --color-safari: var(--chart-2);
+  --color-firefox: var(--chart-3);
+  --color-edge: var(--chart-4);
+  --color-other: var(--chart-5);
+}
+
+
+.dark [data-chart=chart-«r0»] {
+  --color-chrome: var(--chart-1);
+  --color-safari: var(--chart-2);
+  --color-firefox: var(--chart-3);
+  --color-edge: var(--chart-4);
+  --color-other: var(--chart-5);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div style="width: 0px; height: 0px; overflow: visible;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 229px; height: 229px;"><div xmlns="http://www.w3.org/1999/xhtml" tabindex="-1" class="recharts-tooltip-wrapper" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;"></div><svg cx="50%" cy="50%" role="application" tabindex="0" class="recharts-surface" width="229" height="229" viewBox="0 0 229 229" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="219" width="219"></rect></clipPath></defs><g class="recharts-layer recharts-pie" tabindex="0"><g class="recharts-layer"><g class="recharts-layer recharts-pie-sector" tabindex="-1"><path cx="114.5" cy="114.5" fill="var(--color-other)" stroke="#fff" name="0" tabindex="-1" data-recharts-item-index="0" data-recharts-item-data-key="visitors" class="recharts-sector" d="M 160.3257569495584,114.5
+    A4,4,0,0,0,164.31060537995478,110.15217391304348
+    A50,50,0,0,0,157.7844681508738,89.47092057434008
+    A4,4,0,0,0,152.02585959787348,88.19772136409688
+  L142.1486179621679,95.1207862702821
+      A4,4,0,0,0,140.9215903497926,100.29086338345127
+      A30,30,0,0,1,144.29166414611905,110.97058823529412
+      A4,4,0,0,0,148.26388603226826,114.5Z"></path></g></g></g><g class="recharts-layer recharts-pie" tabindex="0"><g class="recharts-layer"><g class="recharts-layer recharts-pie-sector" tabindex="-1"><path cx="114.5" cy="114.5" fill="var(--color-edge)" stroke="#fff" name="0" tabindex="-1" data-recharts-item-index="0" data-recharts-item-data-key="visitors" class="recharts-sector" d="M 160.24022524933116,82.44018412185672
+    A4,4,0,0,0,161.0475437304294,76.64070559738647
+    A60,60,0,0,0,105.87934030240625,55.12252761881588
+    A4,4,0,0,0,102.54671467355287,59.9370183191521
+  L107.27459134531576,81.51828582725248
+      A4,4,0,0,0,111.57228907706651,84.64319995793696
+      A30,30,0,0,1,136.87008840697428,94.51052415234068
+      A4,4,0,0,0,142.1486179621679,95.1207862702821Z"></path></g></g></g><g class="recharts-layer recharts-pie" tabindex="0"><g class="recharts-layer"><g class="recharts-layer recharts-pie-sector" tabindex="-1"><path cx="114.5" cy="114.5" fill="var(--color-firefox)" stroke="#fff" name="0" tabindex="-1" data-recharts-item-index="0" data-recharts-item-data-key="visitors" class="recharts-sector" d="M 100.4020860947821,50.14746451365677
+    A4,4,0,0,0,95.40352253575111,47.15518172526238
+    A70,70,0,0,0,45.240171532459044,104.34735696250458
+    A4,4,0,0,0,48.8586523184165,108.91309794738868
+  L80.85774875401181,111.63662243114776
+      A4,4,0,0,0,85.11497569286516,108.45679336203911
+      A30,30,0,0,1,104.67698976760835,86.15377503133215
+      A4,4,0,0,0,107.27459134531576,81.51828582725248Z"></path></g></g></g><g class="recharts-layer recharts-pie" tabindex="0"><g class="recharts-layer"><g class="recharts-layer recharts-pie-sector" tabindex="-1"><path cx="114.5" cy="114.5" fill="var(--color-safari)" stroke="#fff" name="0" tabindex="-1" data-recharts-item-index="0" data-recharts-item-data-key="visitors" class="recharts-sector" d="M 38.878747552018154,108.0636828699481
+    A4,4,0,0,0,34.54160405696433,111.92028718328234
+    A80,80,0,0,0,87.08068133592494,189.6543808702986
+    A4,4,0,0,0,92.27631420808568,187.06795291188988
+  L104.6131653229656,146.78390465958216
+      A4,4,0,0,0,102.40161622118406,141.95230609512583
+      A30,30,0,0,1,84.51634563774392,115.4901873988099
+      A4,4,0,0,0,80.85774875401181,111.63662243114776Z"></path></g></g></g><g class="recharts-layer recharts-pie" tabindex="0"><g class="recharts-layer"><g class="recharts-layer recharts-pie-sector" tabindex="-1"><path cx="114.5" cy="114.5" fill="var(--color-chrome)" stroke="#fff" name="0" tabindex="-1" data-recharts-item-index="0" data-recharts-item-data-key="visitors" class="recharts-sector" d="M 89.34449574565792,196.64134528792292
+    A4,4,0,0,0,92.1770307164575,201.68764271596072
+    A90,90,0,0,0,204.40259737406083,118.68604651162786
+    A4,4,0,0,0,200.4069263796581,114.50000000000001
+  L148.26388603226826,114.50000000000001
+      A4,4,0,0,0,144.29166414611905,118.02941176470588
+      A30,30,0,0,1,109.1510284664023,144.0192903629603
+      A4,4,0,0,0,104.6131653229656,146.78390465958216Z"></path></g></g></g></svg></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

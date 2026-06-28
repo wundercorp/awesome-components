@@ -1,0 +1,57 @@
+# Build Beui Radio Group in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Beui Radio Group screenshot](screenshot.png)
+
+## Component
+
+- Author group: `starc007`
+- Component: `beui-radio-group`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: starc007
+- Component slug: beui-radio-group
+- Demo slug: default
+- Title: beui-radio-group
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div role="radiogroup" class="flex gap-3 flex-col min-w-48"><span class="inline-flex items-center gap-3"><button id="«r1»" type="button" role="radio" aria-checked="false" data-state="unchecked" class="relative inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 outline-none transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-60 border-muted-foreground/50 hover:border-muted-foreground" tabindex="0"></button><label for="«r1»" class="text-sm text-foreground cursor-pointer">Starter — free</label></span><span class="inline-flex items-center gap-3"><button id="«r2»" type="button" role="radio" aria-checked="true" data-state="checked" class="relative inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 outline-none transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-60 border-primary" tabindex="0"><span class="absolute inset-1 rounded-full bg-primary" style="opacity: 1;"></span></button><label for="«r2»" class="text-sm text-foreground cursor-pointer">Pro — $12/mo</label></span><span class="inline-flex items-center gap-3"><button id="«r3»" type="button" role="radio" aria-checked="false" data-state="unchecked" class="relative inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 outline-none transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-60 border-muted-foreground/50 hover:border-muted-foreground" tabindex="0"></button><label for="«r3»" class="text-sm text-foreground cursor-pointer">Team — $29/mo</label></span><span class="inline-flex items-center gap-3"><button id="«r4»" type="button" role="radio" aria-checked="false" disabled="" data-state="unchecked" class="relative inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 outline-none transition-colors duration-200 focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-60 border-muted-foreground/50 hover:border-muted-foreground"></button><label for="«r4»" class="text-sm text-foreground cursor-not-allowed opacity-60">Legacy plan</label></span></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

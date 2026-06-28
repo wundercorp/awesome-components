@@ -1,0 +1,57 @@
+# Build Background Shader in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Background Shader screenshot](screenshot.png)
+
+## Component
+
+- Author group: `shadway`
+- Component: `background-shader`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: shadway
+- Component slug: background-shader
+- Demo slug: default
+- Title: background-shader
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen relative overflow-hidden"><div class="fixed inset-0 z-0"><div data-paper-shader="" style="height: 100vh; width: 100vw;"><canvas width="2880" height="2741"></canvas></div></div><div class="relative z-10"><main class="flex items-center justify-center min-h-screen p-4 my-0"><div class="w-full max-w-2xl mx-auto text-center space-y-8"><div class="text-4xl md:text-6xl font-bold tracking-tight text-white drop-shadow-2xl font-sans"><h1 class="text-4xl md:text-6xl tracking-tight text-white drop-shadow-2xl py-[23px] font-semibold">We are launching SickUI soon!<span class="text-4xl md:text-6xl font-bold tracking-tight text-white drop-shadow-2xl font-sansking-tight text-white drop-shadow-2xl font-sans"> </span></h1></div></div></main></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

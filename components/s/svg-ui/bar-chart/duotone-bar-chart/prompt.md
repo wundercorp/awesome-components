@@ -1,0 +1,66 @@
+# Build Bar Chart in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Bar Chart screenshot](screenshot.png)
+
+## Component
+
+- Author group: `svg-ui`
+- Component: `bar-chart`
+- Variant: `duotone-bar-chart`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: svg-ui
+- Component slug: bar-chart
+- Demo slug: duotone-bar-chart
+- Title: bar-chart
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="rounded-lg border bg-card text-card-foreground shadow-sm"><div class="flex flex-col space-y-1.5 p-6"><h3 class="text-2xl font-semibold leading-none tracking-tight">Bar Chart<div class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-green-500 bg-green-500/10 border-none ml-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up h-4 w-4" aria-hidden="true"><polyline points="22 7 13.5 15.5 8.5 10.5 2 17"></polyline><polyline points="16 7 22 7 22 13"></polyline></svg><span>5.2%</span></div></h3><p class="text-sm text-muted-foreground">January - June 2025</p></div><div class="p-6 pt-0"><div data-slot="chart" data-chart="chart-«r0»" class="[&amp;_.recharts-cartesian-axis-tick_text]:fill-muted-foreground [&amp;_.recharts-cartesian-grid_line[stroke='#ccc']]:stroke-border/50 [&amp;_.recharts-curve.recharts-tooltip-cursor]:stroke-border [&amp;_.recharts-polar-grid_[stroke='#ccc']]:stroke-border [&amp;_.recharts-radial-bar-background-sector]:fill-muted [&amp;_.recharts-rectangle.recharts-tooltip-cursor]:fill-muted [&amp;_.recharts-reference-line_[stroke='#ccc']]:stroke-border flex aspect-video justify-center text-xs [&amp;_.recharts-dot[stroke='#fff']]:stroke-transparent [&amp;_.recharts-layer]:outline-hidden [&amp;_.recharts-sector]:outline-hidden [&amp;_.recharts-sector[stroke='#fff']]:stroke-transparent [&amp;_.recharts-surface]:outline-hidden"><style>
+ [data-chart=chart-«r0»] {
+  --color-desktop: var(--chart-1);
+}
+
+
+.dark [data-chart=chart-«r0»] {
+  --color-desktop: var(--chart-1);
+}
+</style><div class="recharts-responsive-container" style="width: 100%; height: 100%; min-width: 0px;"><div style="width: 0px; height: 0px; overflow: visible;"><div class="recharts-wrapper" style="position: relative; cursor: default; width: 171px; height: 96px;"><div xmlns="http://www.w3.org/1999/xhtml" tabindex="-1" class="recharts-tooltip-wrapper" style="visibility: hidden; pointer-events: none; position: absolute; top: 0px; left: 0px;"></div><svg role="application" tabindex="0" class="recharts-surface" width="171" height="96" viewBox="0 0 171 96" style="width: 100%; height: 100%;"><title></title><desc></desc><defs><clipPath id="recharts1-clip"><rect x="5" y="5" height="56" width="161"></rect></clipPath></defs><rect x="0" y="0" width="100%" height="85%" fill="url(#default-pattern-dots)"></rect><defs><pattern id="default-pattern-dots" x="0" y="0" width="10" height="10" patternUnits="userSpaceOnUse"><circle class="dark:text-muted/40 text-muted" cx="2" cy="2" r="1" fill="currentColor"></circle></pattern></defs><g class="recharts-layer recharts-cartesian-axis recharts-xAxis xAxis"><g class="recharts-cartesian-axis-ticks"><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="161" stroke="none" x="25.124999999999996" y="77" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="25.124999999999996" dy="0.71em">Feb</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="161" stroke="none" x="51.958333333333336" y="77" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="51.958333333333336" dy="0.71em">Apr</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="161" stroke="none" x="78.79166666666666" y="77" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="78.79166666666666" dy="0.71em">Jun</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="161" stroke="none" x="105.62499999999999" y="77" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="105.62499999999999" dy="0.71em">Aug</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="161" stroke="none" x="132.45833333333334" y="77" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="132.45833333333334" dy="0.71em">Oct</tspan></text></g><g class="recharts-layer recharts-cartesian-axis-tick"><text height="30" orientation="bottom" width="161" stroke="none" x="159.29166666666666" y="77" class="recharts-text recharts-cartesian-axis-tick-value" text-anchor="middle" fill="#666"><tspan x="159.29166666666666" dy="0.71em">Dec</tspan></text></g></g></g><g class="recharts-layer recharts-bar"><g class="recharts-layer recharts-bar-rectangles"><g class="recharts-layer"><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="6.341666666666667" y="41.848" width="10" height="19.152" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="19.75833333333333" y="11.943999999999999" width="10" height="49.056" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="33.175" y="32.328" width="10" height="28.671999999999997" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="46.59166666666667" y="25.776" width="10" height="35.224000000000004" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="60.00833333333333" y="35.352000000000004" width="10" height="25.647999999999996" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="73.425" y="17.264" width="10" height="43.736000000000004" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="86.84166666666667" y="38.936" width="10" height="22.064" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="100.25833333333333" y="9.199999999999998" width="10" height="51.800000000000004" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="113.675" y="24.767999999999997" width="10" height="36.232" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="127.09166666666667" y="31.208" width="10" height="29.792" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="140.50833333333333" y="16.031999999999996" width="10" height="44.968" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g><g class="recharts-layer recharts-bar-rectangle"><rect rx="4" x="153.92499999999998" y="45.824" width="10" height="15.176000000000002" stroke="none" fill="url(#duotone-bar-pattern-desktop)"></rect><defs><linearGradient id="duotone-bar-pattern-desktop" x1="0" y1="0" x2="1" y2="0"><stop offset="50%" stop-color="var(--color-desktop)" stop-opacity="0.5"></stop><stop offset="50%" stop-color="var(--color-desktop)"></stop></linearGradient></defs></g></g></g></g></svg></div></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

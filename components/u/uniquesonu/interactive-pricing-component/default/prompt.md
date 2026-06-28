@@ -1,0 +1,57 @@
+# Build Interactive Pricing Component in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Interactive Pricing Component screenshot](screenshot.png)
+
+## Component
+
+- Author group: `uniquesonu`
+- Component: `interactive-pricing-component`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: uniquesonu
+- Component slug: interactive-pricing-component
+- Demo slug: default
+- Title: interactive-pricing-component
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen bg-background"><div class="w-full py-12 px-4 sm:px-6 lg:px-8 my-8"><div class="max-w-7xl mx-auto"><div class="text-center mb-12"><h2 class="text-3xl font-bold tracking-tight sm:text-4xl mb-4">Choose Your Plan</h2><p class="text-lg text-muted-foreground max-w-2xl mx-auto mb-8">Select the perfect plan for your needs. All plans include our core features with varying limits and support levels.</p><div class="flex items-center justify-center gap-4 mb-8"><span class="text-sm font-medium transition-colors text-muted-foreground">Monthly</span><button type="button" role="switch" aria-checked="true" data-state="checked" value="on" class="peer inline-flex h-6 w-11 shrink-0 cursor-pointer items-center rounded-full border-2 border-transparent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=unchecked]:bg-input" aria-label="Toggle billing cycle"><span data-state="checked" class="pointer-events-none block h-5 w-5 rounded-full bg-background shadow-lg ring-0 transition-transform data-[state=checked]:translate-x-5 data-[state=unchecked]:translate-x-0"></span></button><span class="text-sm font-medium transition-colors text-foreground">Annual</span><div class="inline-flex items-center rounded-full border px-2.5 py-0.5 font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80 ml-2 text-xs">Save up to 25%</div></div><div class="flex justify-center mb-8"><div class="inline-flex items-center bg-muted p-1 rounded-lg"><button class="px-4 py-2 text-sm font-medium rounded-md transition-all bg-background text-foreground shadow-sm">Pricing</button><button class="px-4 py-2 text-sm font-medium rounded-md transition-all text-muted-foreground hover:text-foreground">Compare Features</button></div></div></div><div class="grid gap-6 lg:gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 max-w-7xl mx-auto"><div class="rounded-lg border bg-card text-card-foreground shadow-sm relative transition-all duration-200 hover:shadow-lg hover:border-muted-foreground/20 my-8"><div class="flex flex-col space-y-1.5 p-6 pb-4"><h3 class="tracking-tight text-xl font-semibold">Basic</h3><p class="text-sm text-muted-foreground">For personal use</p></div><div class="p-6 pt-0 pb-6"><div class="mb-6"><div class="flex items-baseline gap-1"><span class="text-3xl font-bold tracking-tight">$4</span><span class="text-muted-foreground">/mo</span></div><div class="text-sm text-muted-foreground mt-1">Billed annually • Save 20%</div></div><ul class="space-y-3"><li class="flex items-start gap-3"><div class="mt-0.5 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm text-foreground">5 projects</span></li><li class="flex items-start gap-3"><div class="mt-0.5 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm text-foreground">1GB storage</span></li><li class="flex items-start gap-3"><div class="mt-0.5 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm text-foreground">Email support</span></li><li class="flex items-start gap-3"><div class="mt-0.5 text-muted-foreground"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-4 w-4" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></div><span class="text-sm text-muted-foreground">API access</span></li></ul></div><div class="flex items-center p-6 pt-0"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border border-input bg-background hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8 w-full transition-all duration-200">Get Started</button></div></div><div class="rounded-lg border bg-card text-card-foreground relative transition-all duration-200 hover:shadow-lg border-primary shadow-md scale-105 lg:scale-110 my-8"><div class="absolute -top-3 left-1/2 -translate-x-1/2"><div class="inline-flex items-center rounded-full border transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-primary text-primary-foreground hover:bg-primary/80 px-3 py-1 text-xs font-medium">Most Popular</div></div><div class="flex flex-col space-y-1.5 p-6 pb-4"><h3 class="tracking-tight text-xl font-semibold">Pro</h3><p class="text-sm text-muted-foreground">For professionals</p></div><div class="p-6 pt-0 pb-6"><div class="mb-6"><div class="flex items-baseline gap-1"><span class="text-3xl font-bold tracking-tight">$15</span><span class="text-muted-foreground">/mo</span></div><div class="text-sm text-muted-foreground mt-1">Billed annually • Save 21%</div></div><ul class="space-y-3"><li class="flex items-start gap-3"><div class="mt-0.5 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm text-foreground">Unlimited projects</span></li><li class="flex items-start gap-3"><div class="mt-0.5 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm text-foreground">50GB storage</span></li><li class="flex items-start gap-3"><div class="mt-0.5 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm text-foreground">Priority support</span></li><li class="flex items-start gap-3"><div class="mt-0.5 text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check h-4 w-4" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg></div><span class="text-sm text-foreground">API access</span></li></ul></div><div class="flex items-center p-6 pt-0"><button class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 bg-primary text-primary-foreground hover:bg-primary/90 h-11 rounded-md px-8 w-full transition-all duration-200">Get Started</button></div></div></div><div class="text-center mt-12 pt-8 border-t border-border"><p class="text-sm text-muted-foreground">All plans include 14-day free trial. No credit card required. Cancel anytime.</p></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

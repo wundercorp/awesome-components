@@ -1,0 +1,110 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/wisedev/underline-hero-section/default
+- Registry URL: https://21st.dev/r/wisedev/underline-hero-section
+- Author: wisedev
+- Component slug: underline-hero-section
+- Demo slug: default
+- Title: underline-hero-section
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/wisedev/underline-hero-section with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/wisedev__underline-hero-section__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/wisedev__underline-hero-section__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&amp;display=swap"><style>
+        .font-lobster { 
+          font-family: 'Lobster', cursive; 
+        }
+        
+        .demo-message {
+          position: fixed;
+          top: 80px;
+          right: 20px;
+          background: hsl(var(--primary));
+          color: hsl(var(--primary-foreground));
+          padding: 12px 20px;
+          border-radius: 8px;
+          box-shadow: 0 4px 12px hsl(var(--foreground) / 0.1);
+          z-index: 100;
+          animation: slideIn 0.3s ease-out;
+        }
+        
+        @keyframes slideIn {
+          from {
+            transform: translateX(400px);
+            opacity: 0;
+          }
+          to {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+      </style><div class="min-h-screen bg-background text-foreground"><style>
+    /* small decorative underline used in hero (keeps things self-contained) */
+    .hero-underline { position: absolute; left: 0; width: 100%; top: 100%; margin-top: -5px; pointer-events: none; }
+
+    /* fade-up animation */
+    @keyframes fade-in-up {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .animate-fade-in-up { animation: fade-in-up 0.6s ease-out both; }
+    .animate-fade-in-up-delay-1 { animation-delay: 0.2s; }
+    .animate-fade-in-up-delay-2 { animation-delay: 0.4s; }
+
+    /* Button baseline - NO hover effects */
+    .btn-base {
+      transition: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Keyboard-style bounce animation */
+    @keyframes btn-bounce {
+      0% { transform: scale(1); }
+      50% { transform: scale(0.95); }
+      100% { transform: scale(1); }
+    }
+    .btn-bounce-anim {
+      animation: btn-bounce 0.3s cubic-bezier(0.36, 0, 0.66, -0.56);
+    }
+
+    .btn-focus-ring:focus-visible { outline: 2px solid hsl(var(--foreground)); outline-offset: 3px; }
+
+    /* fallback focus outline */
+    .focus-outline:focus-visible { outline: 2px solid hsl(var(--foreground)); outline-offset: 2px; }
+  </style><nav class="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border" aria-label="Main navigation"><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center justify-between h-16"><div class="flex-shrink-0"><a href="/" class="text-xl font-bold tracking-tight transition-opacity">SaaS</a></div><div class="hidden md:flex items-center space-x-8"><a href="#features" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors focus-outline">Features</a><a href="#pricing" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors focus-outline">Pricing</a><a href="#about" class="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors focus-outline">About</a><button class="btn-base inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 bg-foreground text-background h-9 rounded-md px-3 focus-outline">Sign In</button></div><div class="md:hidden relative"><button class="btn-base inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 bg-transparent text-foreground h-9 rounded-md px-3 font-medium focus-outline" aria-expanded="false" aria-controls="mobile-menu" aria-haspopup="menu">Menu</button></div></div></div></nav><section class="min-h-screen flex items-center justify-center px-4 pt-32 pb-24 md:pt-40 md:pb-32" aria-labelledby="hero-heading"><div class="max-w-4xl mx-auto text-center flex flex-col items-center"><h1 id="hero-heading" class="text-4xl sm:text-5xl md:text-6xl font-bold tracking-tighter leading-tight animate-fade-in-up mb-6">A Simple Hero For Your<br><span class="relative inline-block"><span class="font-lobster font-normal text-5xl sm:text-6xl md:text-7xl">SaaS</span><svg class="hero-underline" viewBox="0 0 170 30" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true"><path d="M2 9C32.8203 5.34032 108.769 -0.881146 166 3.51047" stroke="currentColor" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.9"></path></svg></span> Success</h1><div class="max-w-2xl mx-auto mb-9 animate-fade-in-up animate-fade-in-up-delay-1"><p class="text-base sm:text-lg text-muted-foreground leading-snug">Level up your SaaS design with a hero built for clarity and trust. Scale your product, without the extra design work.</p></div><div class="animate-fade-in-up animate-fade-in-up-delay-2"><button class="btn-base inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background focus-visible:outline-none disabled:pointer-events-none disabled:opacity-50 bg-foreground text-background h-11 rounded-md px-8 px-8 py-6 text-base rounded-lg focus-outline">Try for Free</button></div></div></section></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

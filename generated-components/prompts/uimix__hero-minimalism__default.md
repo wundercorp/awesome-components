@@ -1,0 +1,241 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/uimix/hero-minimalism/default
+- Registry URL: https://21st.dev/r/uimix/hero-minimalism
+- Author: uimix
+- Component slug: hero-minimalism
+- Demo slug: default
+- Title: hero-minimalism
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/uimix/hero-minimalism with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/uimix__hero-minimalism__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/uimix__hero-minimalism__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="minimal-root"><style>
+@import url('https://fonts.cdnfonts.com/css/hubot-sans');
+
+.minimal-root, .minimal-root * {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.minimal-root {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+
+  --bg: #0a0a0a;
+  --fg: #fafafa;
+  --muted: #a1a1aa;
+  --border: #27272a;
+  --accent: #e5e7eb;
+
+  background: var(--bg);
+  color: var(--fg);
+  font-family: 'Hubot Sans', ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Inter, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji";
+}
+
+/* header */
+.header {
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  padding: 20px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--border);
+}
+.brand {
+  font-size: 14px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  text-decoration: none;
+}
+.cta {
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 10px;
+  background: #111;
+  color: var(--fg);
+  border: 1px solid var(--border);
+  font-size: 13px;
+  line-height: 36px;
+}
+.cta:hover { background: #0d0d0d; }
+
+/* hero center */
+.hero {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  pointer-events: none;
+}
+.kicker {
+  font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 14px;
+}
+.title {
+  font-weight: 600;
+  font-size: clamp(32px, 8vw, 88px);
+  line-height: 0.95;
+  margin: 0;
+  color: var(--fg);
+  text-shadow: none;
+}
+.subtitle {
+  margin-top: 18px;
+  font-size: clamp(14px, 2.2vw, 18px);
+  color: var(--muted);
+}
+
+/* accent lines container */
+.accent-lines {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+/* base line visuals */
+.hline, .vline {
+  position: absolute;
+  background: var(--border);
+  opacity: .75;
+  will-change: transform, opacity;
+}
+
+/* horizontal lines */
+.hline {
+  height: 1px; left: 0; right: 0;
+  transform: scaleX(0);
+  transform-origin: 50% 50%;
+  animation: drawX 800ms cubic-bezier(.22,.61,.36,1) forwards;
+}
+.hline:nth-child(1){ top: 20%; animation-delay: 150ms; }
+.hline:nth-child(2){ top: 50%; animation-delay: 280ms; }
+.hline:nth-child(3){ top: 80%; animation-delay: 410ms; }
+
+/* vertical lines */
+.vline {
+  width: 1px; top: 0; bottom: 0;
+  transform: scaleY(0);
+  transform-origin: 50% 0%;
+  animation: drawY 900ms cubic-bezier(.22,.61,.36,1) forwards;
+}
+.vline:nth-child(4){ left: 20%; animation-delay: 520ms; }
+.vline:nth-child(5){ left: 50%; animation-delay: 640ms; }
+.vline:nth-child(6){ left: 80%; animation-delay: 760ms; }
+
+/* subtle gradient shimmer while drawing */
+.hline::after, .vline::after{
+  content:"";
+  position:absolute;
+  inset:0;
+  background: linear-gradient(90deg, transparent, rgba(250,250,250,.25), transparent);
+  opacity:0;
+  animation: shimmer 900ms ease-out forwards;
+}
+.hline:nth-child(1)::after{ animation-delay: 150ms; }
+.hline:nth-child(2)::after{ animation-delay: 280ms; }
+.hline:nth-child(3)::after{ animation-delay: 410ms; }
+.vline:nth-child(4)::after{ animation-delay: 520ms; }
+.vline:nth-child(5)::after{ animation-delay: 640ms; }
+.vline:nth-child(6)::after{ animation-delay: 760ms; }
+
+/* keyframes */
+@keyframes drawX {
+  0% { transform: scaleX(0); opacity: 0; }
+  60% { opacity: .9; }
+  100% { transform: scaleX(1); opacity: .75; }
+}
+@keyframes drawY {
+  0% { transform: scaleY(0); opacity: 0; }
+  60% { opacity: .9; }
+  100% { transform: scaleY(1); opacity: .75; }
+}
+@keyframes shimmer {
+  0% { opacity: .0; }
+  30% { opacity: .25; }
+  100% { opacity: 0; }
+}
+
+/* canvas */
+.particleCanvas {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  mix-blend-mode: screen;
+  opacity: .6;
+}
+
+/* footer section (copy) */
+.content {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  padding: 32px 24px;
+  border-top: 1px solid var(--border);
+  display: grid;
+  place-items: center;
+  text-align: center;
+  gap: 6px;
+}
+.content .tag {
+  font-size: 12px;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.content .heading {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--fg);
+}
+.content .desc {
+  font-size: 14px;
+  color: var(--muted);
+  max-width: 680px;
+}
+      </style><header class="header"><a class="brand" href="https://codepen.io/RAFA3L" target="_blank" rel="noopener noreferrer">NOVA</a><button class="cta" type="button">Contact</button></header><canvas class="particleCanvas" width="992" height="944"></canvas><div class="accent-lines"><div class="hline"></div><div class="hline"></div><div class="hline"></div><div class="vline"></div><div class="vline"></div><div class="vline"></div></div><main class="hero"><div><div class="kicker">Introducing</div><h1 class="title">Build fast.<br>Ship clean.</h1><p class="subtitle">A minimal React starter focused on clarity, speed, and maintainability.</p></div></main><section class="content"><div class="tag">Designed for focus</div><div class="heading">Composable. Accessible. Production-ready.</div><p class="desc">Start with sensible defaults, ship without the noise, and scale your UI with confidence. Works across any app architecture.</p></section></section></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

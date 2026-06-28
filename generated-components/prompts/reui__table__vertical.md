@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/reui/table/vertical
+- Registry URL: https://21st.dev/r/reui/table
+- Author: reui
+- Component slug: table
+- Demo slug: vertical
+- Title: table
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/reui/table with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/reui__table__vertical.html
+- Local screenshot file: generated-21st-prompts/screenshots/reui__table__vertical.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="border border-border rounded-lg overflow-hidden"><div data-slot="table-wrapper" class="relative w-full overflow-auto"><table data-slot="table" class="caption-bottom text-foreground text-sm w-full md:w-[350px]"><tbody data-slot="table-body" class="[&amp;_tr:last-child]:border-0"><tr data-slot="table-row" class="border-b transition-colors [&amp;:has(td):hover]:bg-muted/50 data-[state=selected]:bg-muted *:border-border hover:bg-transparent [&amp;&gt;:not(:last-child)]:border-r"><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 bg-muted/50 py-2 font-medium">Name</td><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 py-2">Sophia Johnson</td></tr><tr data-slot="table-row" class="border-b transition-colors [&amp;:has(td):hover]:bg-muted/50 data-[state=selected]:bg-muted *:border-border hover:bg-transparent [&amp;&gt;:not(:last-child)]:border-r"><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 bg-muted/50 py-2 font-medium">Email</td><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 py-2">s.johnson@company.com</td></tr><tr data-slot="table-row" class="border-b transition-colors [&amp;:has(td):hover]:bg-muted/50 data-[state=selected]:bg-muted *:border-border hover:bg-transparent [&amp;&gt;:not(:last-child)]:border-r"><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 bg-muted/50 py-2 font-medium">Location</td><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 py-2">New York, USA</td></tr><tr data-slot="table-row" class="border-b transition-colors [&amp;:has(td):hover]:bg-muted/50 data-[state=selected]:bg-muted *:border-border hover:bg-transparent [&amp;&gt;:not(:last-child)]:border-r"><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 bg-muted/50 py-2 font-medium">Role</td><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 py-2"><span data-slot="badge" class="inline-flex items-center justify-center border border-transparent font-medium focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 [&amp;_svg]:-ms-px [&amp;_svg]:shrink-0 bg-secondary text-secondary-foreground rounded-md px-[0.45rem] h-6 min-w-6 gap-1.5 text-xs [&amp;_svg]:size-3.5">Admin</span></td></tr><tr data-slot="table-row" class="border-b transition-colors [&amp;:has(td):hover]:bg-muted/50 data-[state=selected]:bg-muted *:border-border hover:bg-transparent [&amp;&gt;:not(:last-child)]:border-r"><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 bg-muted/50 py-2 font-medium">Status</td><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 py-2"><span data-slot="badge" class="inline-flex items-center justify-center border border-transparent font-medium focus:outline-hidden focus:ring-2 focus:ring-ring focus:ring-offset-2 [&amp;_svg]:-ms-px [&amp;_svg]:shrink-0 bg-primary text-primary-foreground rounded-md px-[0.45rem] h-6 min-w-6 gap-1.5 text-xs [&amp;_svg]:size-3.5">Active</span></td></tr><tr data-slot="table-row" class="border-b transition-colors [&amp;:has(td):hover]:bg-muted/50 data-[state=selected]:bg-muted *:border-border hover:bg-transparent [&amp;&gt;:not(:last-child)]:border-r"><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 bg-muted/50 py-2 font-medium">Last Login</td><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 py-2">Jan 25, 2025</td></tr><tr data-slot="table-row" class="border-b transition-colors [&amp;:has(td):hover]:bg-muted/50 data-[state=selected]:bg-muted *:border-border hover:bg-transparent [&amp;&gt;:not(:last-child)]:border-r"><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 bg-muted/50 py-2 font-medium">Balance</td><td data-slot="table-cell" class="p-4 align-middle [&amp;:has([role=checkbox])]:pe-0 py-2">$1,250.00</td></tr></tbody></table></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

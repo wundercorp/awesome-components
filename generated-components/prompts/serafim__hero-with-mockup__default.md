@@ -1,0 +1,48 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/serafim/hero-with-mockup/default
+- Registry URL: https://21st.dev/r/serafim/hero-with-mockup
+- Author: serafim
+- Component slug: hero-with-mockup
+- Demo slug: default
+- Title: hero-with-mockup
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/serafim/hero-with-mockup with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/serafim__hero-with-mockup__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/serafim__hero-with-mockup__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="bg-background text-foreground"><div class="w-full"><section class="relative bg-background text-foreground py-12 px-4 md:py-24 lg:py-32 overflow-hidden"><div class="relative mx-auto max-w-[1280px] flex flex-col gap-12 lg:gap-24"><div class="relative z-10 flex flex-col items-center gap-6 pt-8 md:pt-16 text-center lg:gap-12"><h1 class="inline-block animate-appear bg-gradient-to-b from-foreground via-foreground/90 to-muted-foreground bg-clip-text text-transparent text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl leading-[1.1] sm:leading-[1.1] drop-shadow-sm dark:drop-shadow-[0_0_15px_rgba(255,255,255,0.1)]">Build AI-powered apps in minutes, not months</h1><p class="max-w-[550px] animate-appear opacity-0 [animation-delay:150ms] text-base sm:text-lg md:text-xl text-muted-foreground font-medium">Create sophisticated AI applications with our intuitive platform. No ML expertise required.</p><div class="relative z-10 flex flex-wrap justify-center gap-4 
+            animate-appear opacity-0 [animation-delay:300ms]"><a href="/signup" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-primary/90 h-11 rounded-md px-8 bg-gradient-to-b from-brand to-brand/90 dark:from-brand/90 dark:to-brand/80 hover:from-brand/95 hover:to-brand/85 dark:hover:from-brand/80 dark:hover:to-brand/70 text-white shadow-lg transition-all duration-300">Start Building</a><a href="https://github.com/your-ai-platform" class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-11 rounded-md px-8 text-foreground/80 dark:text-foreground/70 transition-all duration-300">View on GitHub</a></div><div class="relative w-full pt-12 px-4 sm:px-6 lg:px-8"><div class="flex relative z-10 overflow-hidden border rounded-md animate-appear opacity-0 [animation-delay:700ms] shadow-[0_0_50px_-12px_rgba(0,0,0,0.3)] dark:shadow-[0_0_50px_-12px_rgba(255,255,255,0.1)] border-brand/10 dark:border-brand/5"><img alt="AI Platform Dashboard" width="1248" height="765" class="w-full h-auto" loading="lazy" decoding="async" src="https://www.launchuicomponents.com/app-light.png"></div></div></div></div><div class="absolute inset-0 overflow-hidden pointer-events-none"><div class="absolute w-full -top-[128px] animate-appear-zoom opacity-0 [animation-delay:1000ms]"><div class="absolute left-1/2 h-[256px] w-[60%] -translate-x-1/2 scale-[2.5] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_hsla(var(--brand-foreground)/.5)_10%,_hsla(var(--brand-foreground)/0)_60%)] sm:h-[512px]"></div><div class="absolute left-1/2 h-[128px] w-[40%] -translate-x-1/2 scale-[2] rounded-[50%] bg-[radial-gradient(ellipse_at_center,_hsla(var(--brand)/.3)_10%,_hsla(var(--brand-foreground)/0)_60%)] sm:h-[256px]"></div></div></div></section></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

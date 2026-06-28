@@ -1,0 +1,46 @@
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center min-h-[400px] w-full"><style>
+        @keyframes scroll {
+          from {
+            transform: translateX(0);
+          }
+          to {
+            transform: translateX(-50%);
+          }
+        }
+
+        @keyframes scroll-reverse {
+          from {
+            transform: translateX(-50%);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
+
+        @keyframes scroll-y {
+          from {
+            transform: translateY(0);
+          }
+          to {
+            transform: translateY(-50%);
+          }
+        }
+
+        @keyframes scroll-y-reverse {
+          from {
+            transform: translateY(-50%);
+          }
+          to {
+            transform: translateY(0);
+          }
+        }
+
+        .marquee-scroller {
+          display: flex;
+          animation: scroll 20s linear infinite;
+        }
+
+        .marquee-scroller.paused {
+          animation-play-state: paused;
+        }
+      </style><div class="flex w-full overflow-hidden" style="mask-image: linear-gradient(to right, transparent 0%, black 10%, black 90%, transparent 100%);"><div class="marquee-scroller flex shrink-0"><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">React</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">Next.js</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">Tailwind</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">TypeScript</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">Supabase</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">React</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">Next.js</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">Tailwind</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">TypeScript</span></div><div class="flex shrink-0"><span class="mx-8 text-2xl font-medium">Supabase</span></div></div></div></div></div></div></div>

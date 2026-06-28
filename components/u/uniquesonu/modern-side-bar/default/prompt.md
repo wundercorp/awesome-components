@@ -1,0 +1,118 @@
+# Build Modern Side Bar in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Modern Side Bar screenshot](screenshot.png)
+
+## Component
+
+- Author group: `uniquesonu`
+- Component: `modern-side-bar`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: uniquesonu
+- Component slug: modern-side-bar
+- Demo slug: default
+- Title: modern-side-bar
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_DemoOne">DemoOne</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex h-screen w-screen"><button class="fixed top-6 left-6 z-50 p-3 rounded-lg bg-white shadow-md border border-slate-100 md:hidden hover:bg-slate-50 transition-all duration-200" aria-label="Toggle sidebar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x h-5 w-5 text-slate-600" aria-hidden="true"><path d="M18 6 6 18"></path><path d="m6 6 12 12"></path></svg></button><div class="fixed inset-0 bg-black/40 backdrop-blur-sm z-30 md:hidden transition-opacity duration-300"></div><div class="
+          fixed top-0 left-0 h-full bg-white border-r border-slate-200 z-40 transition-all duration-300 ease-in-out flex flex-col
+          translate-x-0
+          w-78
+          md:translate-x-0 md:static md:z-auto
+          
+        "><div class="flex items-center justify-between p-5 border-b border-slate-200 bg-slate-50/60"><div class="flex items-center space-x-2.5"><div class="w-9 h-9 bg-blue-600 rounded-lg flex items-center justify-center shadow-sm"><span class="text-white font-bold text-base">A</span></div><div class="flex flex-col"><span class="font-semibold text-slate-800 text-base">Acme Corp</span><span class="text-xs text-slate-500">Enterprise Dashboard</span></div></div><button class="hidden md:flex p-1.5 rounded-md hover:bg-slate-100 transition-all duration-200" aria-label="Collapse sidebar"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-left h-4 w-4 text-slate-500" aria-hidden="true"><path d="m15 18-6-6 6-6"></path></svg></button></div><div class="px-4 py-3"><div class="relative"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-search absolute left-3 top-1/2 transform -translate-y-1/2 h-3.5 w-3.5 text-slate-400" aria-hidden="true"><circle cx="11" cy="11" r="8"></circle><path d="m21 21-4.3-4.3"></path></svg><input placeholder="Search..." class="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-md text-sm placeholder-slate-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200" type="text"></div></div><nav class="flex-1 px-3 py-2 overflow-y-auto"><ul class="space-y-0.5"><li><button class="
+                      w-full flex items-center space-x-2.5 px-3 py-2.5 rounded-md text-left transition-all duration-200 group
+                      bg-blue-50 text-blue-700
+                      
+                    "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-house 
+                          h-4.5 w-4.5 flex-shrink-0
+                          text-blue-600" aria-hidden="true"><path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path><path d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path></svg></div><div class="flex items-center justify-between w-full"><span class="text-sm font-medium">Dashboard</span></div></button></li><li><button class="
+                      w-full flex items-center space-x-2.5 px-3 py-2.5 rounded-md text-left transition-all duration-200 group
+                      text-slate-600 hover:bg-slate-50 hover:text-slate-900
+                      
+                    "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-column 
+                          h-4.5 w-4.5 flex-shrink-0
+                          text-slate-500 group-hover:text-slate-700" aria-hidden="true"><path d="M3 3v16a2 2 0 0 0 2 2h16"></path><path d="M18 17V9"></path><path d="M13 17V5"></path><path d="M8 17v-3"></path></svg></div><div class="flex items-center justify-between w-full"><span class="text-sm font-normal">Analytics</span></div></button></li><li><button class="
+                      w-full flex items-center space-x-2.5 px-3 py-2.5 rounded-md text-left transition-all duration-200 group
+                      text-slate-600 hover:bg-slate-50 hover:text-slate-900
+                      
+                    "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text 
+                          h-4.5 w-4.5 flex-shrink-0
+                          text-slate-500 group-hover:text-slate-700" aria-hidden="true"><path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"></path><path d="M14 2v4a2 2 0 0 0 2 2h4"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg></div><div class="flex items-center justify-between w-full"><span class="text-sm font-normal">Documents</span><span class="
+                            px-1.5 py-0.5 text-xs font-medium rounded-full
+                            bg-slate-100 text-slate-600
+                          ">3</span></div></button></li><li><button class="
+                      w-full flex items-center space-x-2.5 px-3 py-2.5 rounded-md text-left transition-all duration-200 group
+                      text-slate-600 hover:bg-slate-50 hover:text-slate-900
+                      
+                    "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-bell 
+                          h-4.5 w-4.5 flex-shrink-0
+                          text-slate-500 group-hover:text-slate-700" aria-hidden="true"><path d="M10.268 21a2 2 0 0 0 3.464 0"></path><path d="M3.262 15.326A1 1 0 0 0 4 17h16a1 1 0 0 0 .74-1.673C19.41 13.956 18 12.499 18 8A6 6 0 0 0 6 8c0 4.499-1.411 5.956-2.738 7.326"></path></svg></div><div class="flex items-center justify-between w-full"><span class="text-sm font-normal">Notifications</span><span class="
+                            px-1.5 py-0.5 text-xs font-medium rounded-full
+                            bg-slate-100 text-slate-600
+                          ">12</span></div></button></li><li><button class="
+                      w-full flex items-center space-x-2.5 px-3 py-2.5 rounded-md text-left transition-all duration-200 group
+                      text-slate-600 hover:bg-slate-50 hover:text-slate-900
+                      
+                    "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-user 
+                          h-4.5 w-4.5 flex-shrink-0
+                          text-slate-500 group-hover:text-slate-700" aria-hidden="true"><path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg></div><div class="flex items-center justify-between w-full"><span class="text-sm font-normal">Profile</span></div></button></li><li><button class="
+                      w-full flex items-center space-x-2.5 px-3 py-2.5 rounded-md text-left transition-all duration-200 group
+                      text-slate-600 hover:bg-slate-50 hover:text-slate-900
+                      
+                    "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings 
+                          h-4.5 w-4.5 flex-shrink-0
+                          text-slate-500 group-hover:text-slate-700" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"></path><circle cx="12" cy="12" r="3"></circle></svg></div><div class="flex items-center justify-between w-full"><span class="text-sm font-normal">Settings</span></div></button></li><li><button class="
+                      w-full flex items-center space-x-2.5 px-3 py-2.5 rounded-md text-left transition-all duration-200 group
+                      text-slate-600 hover:bg-slate-50 hover:text-slate-900
+                      
+                    "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-circle-help 
+                          h-4.5 w-4.5 flex-shrink-0
+                          text-slate-500 group-hover:text-slate-700" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></div><div class="flex items-center justify-between w-full"><span class="text-sm font-normal">Help &amp; Support</span></div></button></li></ul></nav><div class="mt-auto border-t border-slate-200"><div class="border-b border-slate-200 bg-slate-50/30 p-3"><div class="flex items-center px-3 py-2 rounded-md bg-white hover:bg-slate-50 transition-colors duration-200"><div class="w-8 h-8 bg-slate-200 rounded-full flex items-center justify-center"><span class="text-slate-700 font-medium text-sm">JD</span></div><div class="flex-1 min-w-0 ml-2.5"><p class="text-sm font-medium text-slate-800 truncate">John Doe</p><p class="text-xs text-slate-500 truncate">Senior Administrator</p></div><div class="w-2 h-2 bg-green-500 rounded-full ml-2" title="Online"></div></div></div><div class="p-3"><button class="
+                w-full flex items-center rounded-md text-left transition-all duration-200 group
+                text-red-600 hover:bg-red-50 hover:text-red-700
+                space-x-2.5 px-3 py-2.5
+              "><div class="flex items-center justify-center min-w-[24px]"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-log-out h-4.5 w-4.5 flex-shrink-0 text-red-500 group-hover:text-red-600" aria-hidden="true"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" x2="9" y1="12" y2="12"></line></svg></div><span class="text-sm">Logout</span></button></div></div></div><div class="
+          transition-all duration-300 ease-in-out w-full
+          md:ml-72
+        "></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

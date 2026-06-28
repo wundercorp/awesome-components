@@ -1,0 +1,81 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/singla2125ji/futuristic-file-uploader/futuristic-file-uploader
+- Registry URL: https://21st.dev/r/singla2125ji/futuristic-file-uploader
+- Author: singla2125ji
+- Component slug: futuristic-file-uploader
+- Demo slug: futuristic-file-uploader
+- Title: futuristic-file-uploader
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/singla2125ji/futuristic-file-uploader with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/singla2125ji__futuristic-file-uploader__futuristic-file-uploader.html
+- Local screenshot file: generated-21st-prompts/screenshots/singla2125ji__futuristic-file-uploader__futuristic-file-uploader.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="relative flex items-center justify-center h-screen w-full m-auto p-16 bg-background text-foreground"><div class="absolute lab-bg inset-0 size-full"><div class="absolute inset-0 bg-[radial-gradient(#00000021_1px,transparent_1px)] dark:bg-[radial-gradient(#ffffff22_1px,transparent_1px)]"></div></div><div class="flex w-full justify-center relative"><div class="w-full max-w-md mx-auto bg-black border border-cyan-800/30 rounded-xl overflow-hidden shadow-xl shadow-cyan-900/10"><div class="bg-gradient-to-r from-gray-900 to-black border-b border-cyan-900/30 p-3 flex justify-between items-center"><div class="flex items-center"><div class="h-7 w-7 rounded-full bg-gradient-to-br from-cyan-400 to-blue-600 flex items-center justify-center mr-3"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-upload h-4 w-4 text-white" aria-hidden="true"><path d="M12 3v12"></path><path d="m17 8-5-5-5 5"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path></svg></div><h2 class="text-white font-bold tracking-wide">QUANTUM UPLOADER</h2></div><div class="flex gap-2"><button class="h-7 w-7 rounded-full bg-gray-800 hover:bg-gray-700 flex items-center justify-center transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-minimize h-4 w-4 text-gray-300" aria-hidden="true"><path d="M8 3v3a2 2 0 0 1-2 2H3"></path><path d="M21 8h-3a2 2 0 0 1-2-2V3"></path><path d="M3 16h3a2 2 0 0 1 2 2v3"></path><path d="M16 21v-3a2 2 0 0 1 2-2h3"></path></svg></button></div></div><div class="transition-all duration-300 overflow-hidden scale-100"><input class="hidden" multiple="" type="file"><div class="p-6 m-3 border border-dashed rounded-lg transition-colors cursor-pointer bg-gradient-to-b from-gray-900 to-black border-gray-700 hover:border-gray-500"><div class="flex flex-col items-center justify-center text-center"><div class="h-16 w-16 rounded-full flex items-center justify-center mb-4 bg-gray-800"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-upload h-8 w-8 transition-all text-gray-400" aria-hidden="true"><path d="M12 3v12"></path><path d="m17 8-5-5-5 5"></path><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path></svg></div><h3 class="font-medium mb-2 transition-colors text-white">Drop files here</h3><p class="text-sm text-gray-500 mb-4">or click to browse</p><div class="px-4 py-1.5 rounded-full bg-gradient-to-r from-cyan-600 to-blue-600 text-white text-sm font-medium">SELECT FILES</div></div></div></div><style>
+        .scrollbar-thin::-webkit-scrollbar {
+          width: 4px;
+        }
+        
+        .scrollbar-thin::-webkit-scrollbar-track {
+          background: rgba(0, 0, 0, 0.1);
+          border-radius: 4px;
+        }
+        
+        .scrollbar-thin::-webkit-scrollbar-thumb {
+          background: rgba(6, 182, 212, 0.3);
+          border-radius: 4px;
+        }
+        
+        .scrollbar-thin::-webkit-scrollbar-thumb:hover {
+          background: rgba(6, 182, 212, 0.5);
+        }
+        
+        .pulse-animation {
+          animation: pulse 0.8s ease-out;
+        }
+        
+        @keyframes pulse {
+          0% {
+            box-shadow: 0 0 0 0 rgba(6, 182, 212, 0.5);
+          }
+          70% {
+            box-shadow: 0 0 0 20px rgba(6, 182, 212, 0);
+          }
+          100% {
+            box-shadow: 0 0 0 0 rgba(6, 182, 212, 0);
+          }
+        }
+      </style></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

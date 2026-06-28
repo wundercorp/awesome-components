@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/reui/progress/circle
+- Registry URL: https://21st.dev/r/reui/progress
+- Author: reui
+- Component slug: progress
+- Demo slug: circle
+- Title: progress
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/reui/progress with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/reui__progress__circle.html
+- Local screenshot file: generated-21st-prompts/screenshots/reui__progress__circle.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center"><div class="flex flex-col items-center gap-3"><div data-slot="progress-circle" class="relative inline-flex items-center justify-center text-fuchsia-500" style="width: 80px; height: 80px;"><svg class="absolute inset-0 -rotate-90" width="80" height="80" viewBox="0 0 80 80"><circle data-slot="progress-circle-track" cx="40" cy="40" r="37" stroke="currentColor" stroke-width="6" fill="none" class="text-secondary"></circle><circle data-slot="progress-circle-indicator" cx="40" cy="40" r="37" stroke="currentColor" stroke-width="6" fill="none" stroke-dasharray="232.4778563656447" stroke-dashoffset="121.81209861760291" stroke-linecap="round" class="transition-all duration-300 ease-in-out text-fuchsia-500"></circle></svg><div data-slot="progress-circle-content" class="relative z-10 flex items-center justify-center text-sm font-medium"><div class="text-center"><div class="text-base font-bold">48%</div><div class="text-xs text-muted-foreground">CPU</div></div></div></div><span class="text-xs text-muted-foreground">Processor Usage</span></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

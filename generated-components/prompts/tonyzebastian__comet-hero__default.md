@@ -1,0 +1,92 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/tonyzebastian/comet-hero/default
+- Registry URL: https://21st.dev/r/tonyzebastian/comet-hero
+- Author: tonyzebastian
+- Component slug: comet-hero
+- Demo slug: default
+- Title: comet-hero
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/tonyzebastian/comet-hero with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/tonyzebastian__comet-hero__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/tonyzebastian__comet-hero__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex items-center justify-center w-full min-h-screen relative"><div class="text-center"><h1 class="font-serif text-4xl dark:text-slate-200 text-slate-800 pb-2 tracking-wide">Welcome to Comet</h1><p class="dark:text-slate-500 text-slate-600 text-sm font-sans tracking-wider">Your download is starting automatically. Click below to retry manually.</p><div class="pt-8"><button class="inline-flex items-center justify-center gap-2 px-6 py-3 text-lg rounded-md font-medium bg-slate-100 text-slate-900 hover:bg-slate-200 transition-colors dark:bg-slate-800 dark:text-slate-100 dark:hover:bg-slate-700 font-sans tracking-wide cursor-pointer"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-download w-4 h-4" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" x2="12" y1="15" y2="3"></line></svg>Download Comet</button><p class="text-slate-500 text-xs pt-2 font-sans tracking-wider">For macOS 14 or later</p></div></div><div class="w-full max-w-[900px] absolute"><style>
+.circle-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1;
+  perspective: 1500px;
+}
+
+.circle-wrapper {
+  position: absolute;
+  transform-style: preserve-3d;
+  pointer-events: none;
+}
+
+.circle1 {
+  transform: rotateX(60deg) rotateY(20deg) rotateZ(5deg);
+  top: 0;
+  left: -15%;
+  width: 75%;
+  height: 75%;
+}
+
+.circle2 {
+  transform: rotateX(-60deg) rotateY(20deg) rotateZ(5deg);
+  top: -10%;
+  left: 25%;
+  width: 100%;
+  height: 100%;
+}
+
+.circle3 {
+  transform: rotateX(60deg) rotateY(-20deg) rotateZ(5deg);
+  top: 20%;
+  left: -5%;
+  width: 80%;
+  height: 80%;
+}
+
+.circle4 {
+  transform: rotateX(-60deg) rotateY(-20deg) rotateZ(5deg);
+  top: 15%;
+  left: 20%;
+  width: 100%;
+  height: 100%;
+}
+</style><div class="circle-container"><div class="circle-wrapper circle1"><svg viewBox="0 0 600 600" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"><defs><linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="rgb(45 212 191)" stop-opacity="1"></stop> <stop offset="100%" stop-color="rgb(17 94 89)" stop-opacity="0.1"></stop> </linearGradient></defs><circle cx="300" cy="300" r="250" fill="none" stroke="url(#grad1)" stroke-width="0.75" stroke-dasharray="520 1050" stroke-dashoffset="20"><animate attributeName="stroke-dashoffset" from="20" to="1590" dur="3s" repeatCount="indefinite"></animate></circle></svg></div><div class="circle-wrapper circle2"><svg viewBox="0 0 800 800" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"><defs><linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="-20%" stop-color="rgb(251 146 60)" stop-opacity="0.05"></stop> <stop offset="80%" stop-color="rgb(249 115 22)" stop-opacity="1"></stop> </linearGradient></defs><circle cx="400" cy="400" r="300" fill="none" stroke="url(#grad2)" stroke-width="0.75" stroke-dasharray="900 985" stroke-dashoffset="0"><animate attributeName="stroke-dashoffset" from="0" to="-1885" dur="3s" repeatCount="indefinite"></animate></circle></svg></div><div class="circle-wrapper circle3"><svg viewBox="0 0 600 600" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"><defs><linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="rgb(251 113 133)" stop-opacity="1"></stop> <stop offset="100%" stop-color="rgb(225 29 72)" stop-opacity="0.1"></stop> </linearGradient></defs><circle cx="300" cy="300" r="150" fill="none" stroke="url(#grad3)" stroke-width="0.75" stroke-dasharray="400 542" stroke-dashoffset="60"><animate attributeName="stroke-dashoffset" from="60" to="1002" dur="3s" repeatCount="indefinite"></animate></circle></svg></div><div class="circle-wrapper circle4"><svg viewBox="0 0 800 800" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" shape-rendering="geometricPrecision"><defs><linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="-20%" stop-color="rgb(252 211 77)" stop-opacity="0.05"></stop> <stop offset="80%" stop-color="rgb(251 191 36)" stop-opacity="1"></stop> </linearGradient></defs><circle cx="400" cy="400" r="200" fill="none" stroke="url(#grad4)" stroke-width="0.75" stroke-dasharray="500 756" stroke-dashoffset="300"><animate attributeName="stroke-dashoffset" from="300" to="-956" dur="2s" repeatCount="indefinite"></animate></circle></svg></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

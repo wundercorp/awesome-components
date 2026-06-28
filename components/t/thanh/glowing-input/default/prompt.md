@@ -1,0 +1,57 @@
+# Build Glowing Input in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Glowing Input screenshot](screenshot.png)
+
+## Component
+
+- Author group: `thanh`
+- Component: `glowing-input`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: thanh
+- Component slug: glowing-input
+- Demo slug: default
+- Title: glowing-input
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full"><div class="min-h-screen grid place-items-center bg-black text-white"><div class="relative"><div aria-hidden="true" class="absolute -left-80 top-1/2 -translate-y-1/2 w-80 h-16 blur-2xl" style="background: linear-gradient(90deg, rgba(251, 146, 60, 0.7), rgba(251, 146, 60, 0.18), rgba(0, 0, 0, 0)); opacity: 0.45;"></div><div aria-hidden="true" class="absolute -right-80 top-1/2 -translate-y-1/2 w-80 h-16 blur-2xl" style="background: linear-gradient(270deg, rgba(251, 146, 60, 0.7), rgba(251, 146, 60, 0.18), rgba(0, 0, 0, 0)); opacity: 0.45;"></div><div class="group relative flex items-center w-[760px] max-w-[92vw] px-5 py-3 md:px-6 md:py-4 rounded-full bg-gradient-to-r from-slate-950 to-slate-900 ring-1 ring-white/10 shadow-[0_0_100px_-25px_rgba(251,146,60,0.65)] transition-shadow" style="box-shadow: rgba(251, 146, 60, 0.6) 0px 0px 90px -30px;"><div aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full ring-1 ring-white/5"></div><div aria-hidden="true" class="pointer-events-none absolute left-4 right-4 top-1 h-px bg-gradient-to-r from-transparent via-amber-300/60 to-transparent opacity-80"></div><div class="mr-3 grid h-10 w-10 place-items-center rounded-full bg-white/5 ring-1 ring-white/10" style="filter: none; transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles h-5 w-5 text-amber-300" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg></div><label for="ai-prompt" class="sr-only">Prompt</label><input id="ai-prompt" placeholder="Make a country song about ...." class="flex-1 bg-transparent placeholder-slate-300/70 text-slate-100 outline-none text-lg md:text-xl caret-amber-300/90" autocomplete="off" spellcheck="false" type="text" value=""><button type="button" aria-label="Generate" disabled="" class="relative cursor-pointer grid h-12 w-12 place-items-center rounded-full bg-gradient-to-br from-amber-400 to-rose-400 text-black shadow-lg ring-4 ring-amber-400/20 focus:outline-none focus:ring-4 disabled:opacity-60 disabled:cursor-not-allowed" tabindex="0" style="box-shadow: rgba(251, 146, 60, 0.15) 0px 0px 12px;"><span class="grid" style="transform: none;"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right h-6 w-6" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg></span><span aria-hidden="true" class="pointer-events-none absolute inset-0 rounded-full ring-1 ring-white/30"></span></button><div aria-hidden="true" class="pointer-events-none absolute -left-2 top-1/2 -translate-y-1/2 h-12 w-12 rounded-full bg-amber-400/90 blur-xl" style="opacity: 0.7;"></div><div aria-hidden="true" class="pointer-events-none absolute -right-2 top-1/2 -translate-y-1/2 h-12 w-12 rounded-full bg-amber-400/90 blur-xl" style="opacity: 0.7;"></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

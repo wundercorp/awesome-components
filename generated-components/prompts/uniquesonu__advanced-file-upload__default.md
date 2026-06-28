@@ -1,0 +1,127 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/uniquesonu/advanced-file-upload/default
+- Registry URL: https://21st.dev/r/uniquesonu/advanced-file-upload
+- Author: uniquesonu
+- Component slug: advanced-file-upload
+- Demo slug: default
+- Title: advanced-file-upload
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/uniquesonu/advanced-file-upload with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/uniquesonu__advanced-file-upload__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/uniquesonu__advanced-file-upload__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="min-h-screen bg-background text-foreground transition-colors duration-300"><style>
+        :root {
+          --background: 0 0% 100%;
+          --foreground: 222.2 84% 4.9%;
+          --card: 0 0% 100%;
+          --card-foreground: 222.2 84% 4.9%;
+          --popover: 0 0% 100%;
+          --popover-foreground: 222.2 84% 4.9%;
+          --primary: 222.2 47.4% 11.2%;
+          --primary-foreground: 210 40% 98%;
+          --secondary: 210 40% 96%;
+          --secondary-foreground: 222.2 47.4% 11.2%;
+          --muted: 210 40% 96%;
+          --muted-foreground: 215.4 16.3% 46.9%;
+          --accent: 210 40% 96%;
+          --accent-foreground: 222.2 47.4% 11.2%;
+          --destructive: 0 84.2% 60.2%;
+          --destructive-foreground: 210 40% 98%;
+          --border: 214.3 31.8% 91.4%;
+          --input: 214.3 31.8% 91.4%;
+          --ring: 222.2 47.4% 11.2%;
+          --radius: 0.5rem;
+        }
+        
+        .dark {
+          --background: 222.2 84% 4.9%;
+          --foreground: 210 40% 98%;
+          --card: 222.2 84% 4.9%;
+          --card-foreground: 210 40% 98%;
+          --popover: 222.2 84% 4.9%;
+          --popover-foreground: 210 40% 98%;
+          --primary: 210 40% 98%;
+          --primary-foreground: 222.2 47.4% 11.2%;
+          --secondary: 217.2 32.6% 17.5%;
+          --secondary-foreground: 210 40% 98%;
+          --muted: 217.2 32.6% 17.5%;
+          --muted-foreground: 215 20.2% 65.1%;
+          --accent: 217.2 32.6% 17.5%;
+          --accent-foreground: 210 40% 98%;
+          --destructive: 0 62.8% 30.6%;
+          --destructive-foreground: 210 40% 98%;
+          --border: 217.2 32.6% 17.5%;
+          --input: 217.2 32.6% 17.5%;
+          --ring: 212.7 26.8% 83.9%;
+        }
+        
+        * {
+          border-color: hsl(var(--border));
+        }
+        
+        body {
+          background-color: hsl(var(--background));
+          color: hsl(var(--foreground));
+        }
+        
+        .bg-background { background-color: hsl(var(--background)); }
+        .text-foreground { color: hsl(var(--foreground)); }
+        .bg-card { background-color: hsl(var(--card)); }
+        .text-card-foreground { color: hsl(var(--card-foreground)); }
+        .bg-muted { background-color: hsl(var(--muted)); }
+        .text-muted-foreground { color: hsl(var(--muted-foreground)); }
+        .bg-secondary { background-color: hsl(var(--secondary)); }
+        .text-secondary-foreground { color: hsl(var(--secondary-foreground)); }
+        .border-input { border-color: hsl(var(--input)); }
+        .border-border { border-color: hsl(var(--border)); }
+        .border-ring { border-color: hsl(var(--ring)); }
+        .border-destructive { border-color: hsl(var(--destructive)); }
+        .text-destructive { color: hsl(var(--destructive)); }
+        .bg-muted\/20 { background-color: hsl(var(--muted) / 0.2); }
+        .bg-muted\/50 { background-color: hsl(var(--muted) / 0.5); }
+        .hover\:bg-muted\/20:hover { background-color: hsl(var(--muted) / 0.2); }
+        .hover\:text-destructive:hover { color: hsl(var(--destructive)); }
+        .hover\:border-border:hover { border-color: hsl(var(--border)); }
+        .hover\:bg-accent:hover { background-color: hsl(var(--accent)); }
+        .hover\:text-accent-foreground:hover { color: hsl(var(--accent-foreground)); }
+        .hover\:bg-secondary\/80:hover { background-color: hsl(var(--secondary) / 0.8); }
+      </style><div class="flex items-center justify-center min-h-screen p-4"><div class="w-full max-w-2xl"><div class="bg-card rounded-lg border p-6 shadow-sm"><div class="space-y-2 mb-6"><h1 class="text-2xl font-semibold tracking-tight">File Upload</h1><p class="text-sm text-muted-foreground">Upload your files with drag and drop support</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6"><div class="space-y-2"><label class="text-sm font-medium text-foreground">File Type</label><select class="w-full rounded-md border border-input bg-background px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background"><option value="any">Any file</option><option value="images">Images only</option><option value="documents">Documents</option><option value="media">Media files</option></select></div><div class="space-y-2"><label class="text-sm font-medium text-foreground">Multiple Files</label><button class="w-full rounded-md border px-3 py-2 text-sm transition-colors bg-secondary text-secondary-foreground border-input">Enabled</button></div><div class="space-y-2"><label class="text-sm font-medium text-foreground">State</label><button class="w-full rounded-md border px-3 py-2 text-sm transition-colors bg-background border-input hover:bg-accent">Enabled</button></div></div><div class="space-y-4 "><div class="
+          border-2 border-dashed rounded-lg p-8 text-center cursor-pointer transition-colors duration-200
+          
+          border-input hover:border-border hover:bg-muted/20
+        "><input accept="*/*" multiple="" class="hidden" type="file"><div class="space-y-3"><div class="text-4xl">📁</div><div class="space-y-1"><p class="text-sm font-medium text-foreground">Click to upload or drag and drop</p><p class="text-xs text-muted-foreground">Any file type • Max 10.0MB • Multiple files allowed</p></div></div></div></div></div></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

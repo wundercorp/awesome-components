@@ -1,0 +1,57 @@
+# Build Ruixen Featured Image Section in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Ruixen Featured Image Section screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ruixenui`
+- Component: `ruixen-featured-image-section`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ruixenui
+- Component slug: ruixen-featured-image-section
+- Demo slug: default
+- Title: ruixen-featured-image-section
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section class="py-20 md:py-28"><div class="container"><h2 class="text-5xl lg:text-7xl font-medium text-center tracking-tighter">Supercharge your content with Ruixen UI.</h2><p class="text-gray-500 text-lg md:text-xl text-center tracking-tight mt-5 max-w-3xl mx-auto">Ruixen UI helps you craft, plan, and publish content effortlessly—powered by AI and built for scale.</p><div class="relative mt-10 flex justify-center"><div class="flex flex-col lg:flex-row gap-5"><div class="border border-gray-200 dark:border-gray-800 rounded-lg flex items-center gap-1 pr-4 py-1 relative border"><div class="absolute inset-0 -m-px border border-[#A369FF] rounded-lg" style="mask-image: radial-gradient(100px 50px at 51.2472% 0%, black, transparent);"></div><div class="h-8 w-8 px-2 py-1 rounded-lg ml-3 inline-flex items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layout-dashboard" aria-hidden="true"><rect width="7" height="9" x="3" y="3" rx="1"></rect><rect width="7" height="5" x="14" y="3" rx="1"></rect><rect width="7" height="9" x="14" y="12" rx="1"></rect><rect width="7" height="5" x="3" y="16" rx="1"></rect></svg></div><div class="text-sm font-normal">Dashboard Overview</div></div><div class="border border-gray-200 dark:border-gray-800 rounded-lg flex items-center gap-1 pr-4 py-1 relative border"><div class="h-8 w-8 px-2 py-1 rounded-lg ml-3 inline-flex items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-rocket" aria-hidden="true"><path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z"></path><path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z"></path><path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0"></path><path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5"></path></svg></div><div class="text-sm font-normal">Boost with One Click</div></div><div class="border border-gray-200 dark:border-gray-800 rounded-lg flex items-center gap-1 pr-4 py-1 relative border"><div class="h-8 w-8 px-2 py-1 rounded-lg ml-3 inline-flex items-center justify-center "><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lightbulb" aria-hidden="true"><path d="M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"></path><path d="M9 18h6"></path><path d="M10 22h4"></path></svg></div><div class="text-sm font-normal">AI Keyword Suggestions</div></div></div></div><div class="border-2 border-gray-200 dark:border-gray-800 rounded-2xl p-2.5 mt-10"><div class="aspect-video bg-cover border border-gray-200 dark:border-gray-800 rounded-lg" style="background-image: url(&quot;https://raw.githubusercontent.com/ruixenui/ruixen.com/refs/heads/main/public/dashboard-01-dark.png&quot;); background-position: 0% 0%; background-size: 150%;"></div></div></div></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

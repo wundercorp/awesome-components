@@ -1,0 +1,76 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/thanh/animated-background-lines/default
+- Registry URL: https://21st.dev/r/thanh/animated-background-lines
+- Author: thanh
+- Component slug: animated-background-lines
+- Demo slug: default
+- Title: animated-background-lines
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/thanh/animated-background-lines with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/thanh__animated-background-lines__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/thanh__animated-background-lines__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="fixed top-4 left-4 z-10"><select class="appearance-none h-8 max-w-[200px] text-sm leading-tight rounded-lg pl-3 pr-7 py-0 border bg-background focus:outline-none focus:ring-0"><option value="named_DemoOne_DemoOne">DemoOne</option></select><div class="absolute top-1/2 transform -translate-y-1/2 right-2 pointer-events-none"><svg class="w-4 h-4 fill-current" viewBox="0 0 20 20"><path d="M5.516 7.548c.436-.446 1.043-.48 1.576 0L10 10.405l2.908-2.857c.533-.48 1.14-.446 1.576 0 .436.445.408 1.197 0 1.615l-3.734 3.705c-.533.534-1.39.534-1.923 0l-3.734-3.705c-.408-.418-.436-1.17 0-1.615z"></path></svg></div></div><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-full h-screen"><div class="bg-black"> <style>
+    @keyframes gradientShift {
+      0% { filter: hue-rotate(0deg); }
+      100% { filter: hue-rotate(30deg); }
+    }
+    @keyframes lineMove {
+      0% { transform: translateX(-100%); }
+      100% { transform: translateX(100%); }
+    }
+    @keyframes cornerLineAnimation {
+      0% { stroke-dashoffset: 0; }
+      25% { stroke-dashoffset: 100; }
+      50% { stroke-dashoffset: 200; }
+      75% { stroke-dashoffset: 300; }
+      100% { stroke-dashoffset: 400; }
+    }
+    @keyframes gridMove {
+      0% { background-position: 0 0; }
+      100% { background-position: 50px 50px; }
+    }
+    /* Apply body-level styles to a root wrapper if this component is the whole page */
+    /* For example, if you have a div with id="root" where the React app mounts:
+    #root {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; // Or rely on Tailwind's font-sans
+      background: #000;
+      color: white;
+      overflow-x: hidden;
+    }
+    */
+  </style><section class="relative min-h-screen flex items-center justify-center bg-black text-white font-sans overflow-hidden p-8 sm:p-16"><div class="absolute inset-0 w-full h-full bg-[linear-gradient(rgba(255,149,0,0.07)_1px,transparent_1px),linear-gradient(90deg,rgba(255,149,0,0.07)_1px,transparent_1px)] bg-[length:50px_50px] animate-[gridMove_20s_linear_infinite] z-0"></div><div class="absolute inset-0 w-full h-full overflow-hidden z-[1]"><div class="absolute w-full h-[100px] top-[10%]"><div class="w-full h-0.5 relative overflow-hidden"><div class="absolute top-0 w-full h-full animate-[lineMove_4s_linear_infinite] " style="background: linear-gradient(90deg, transparent 0%, rgb(255, 149, 0) 20%, rgb(255, 215, 0) 50%, rgb(255, 149, 0) 80%, transparent 100%);"></div></div></div><div class="absolute w-full h-[100px] top-[30%]"><div class="w-full h-0.5 relative overflow-hidden"><div class="absolute top-0 w-full h-full animate-[lineMove_4s_linear_infinite] [animation-direction:reverse] [animation-delay:2s]" style="background: linear-gradient(90deg, transparent 0%, rgb(255, 149, 0) 20%, rgb(255, 215, 0) 50%, rgb(255, 149, 0) 80%, transparent 100%);"></div></div></div><div class="absolute w-full h-[100px] top-[50%]"><div class="w-full h-0.5 relative overflow-hidden"><div class="absolute top-0 w-full h-full animate-[lineMove_4s_linear_infinite] " style="background: linear-gradient(90deg, transparent 0%, rgb(255, 149, 0) 20%, rgb(255, 215, 0) 50%, rgb(255, 149, 0) 80%, transparent 100%);"></div></div></div><div class="absolute w-full h-[100px] top-[70%]"><div class="w-full h-0.5 relative overflow-hidden"><div class="absolute top-0 w-full h-full animate-[lineMove_4s_linear_infinite] [animation-direction:reverse] [animation-delay:2s]" style="background: linear-gradient(90deg, transparent 0%, rgb(255, 149, 0) 20%, rgb(255, 215, 0) 50%, rgb(255, 149, 0) 80%, transparent 100%);"></div></div></div><div class="absolute w-full h-[100px] top-[90%]"><div class="w-full h-0.5 relative overflow-hidden"><div class="absolute top-0 w-full h-full animate-[lineMove_4s_linear_infinite] " style="background: linear-gradient(90deg, transparent 0%, rgb(255, 149, 0) 20%, rgb(255, 215, 0) 50%, rgb(255, 149, 0) 80%, transparent 100%);"></div></div></div></div><div class="hidden md:block absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] h-[100px] z-[5]"><svg class="absolute top-1/2 -translate-y-1/2 left-[-150px] w-[120px] h-[60px] animate-[cornerLineAnimation_6s_linear_infinite]" viewBox="0 0 120 60" stroke="#ff9500" stroke-width="2" fill="none" stroke-dasharray="50"><path d="M120 0 L20 0 Q0 0 0 20 L0 60"></path></svg><svg class="absolute top-1/2 -translate-y-1/2 right-[-150px] w-[120px] h-[60px] transform scale-x-[-1] animate-[cornerLineAnimation_6s_linear_infinite] [animation-delay:3s]" viewBox="0 0 120 60" stroke="#ff9500" stroke-width="2" fill="none" stroke-dasharray="50"><path d="M120 0 L20 0 Q0 0 0 20 L0 60"></path></svg></div><div class="text-center max-w-3xl z-[10] relative"><h1 class="text-[clamp(2.5rem,5vw,4rem)] font-bold leading-tight mb-8">Ready to build<br><span class="inline-block animate-[gradientShift_3s_ease-in-out_infinite_alternate]" style="background-image: linear-gradient(45deg, rgb(255, 149, 0), rgb(255, 179, 71), rgb(255, 215, 0)); background-clip: text; -webkit-text-fill-color: transparent;">the software of the future?</span></h1><a href="#" class="inline-block py-3 px-8 sm:py-4 sm:px-10 bg-white text-black no-underline rounded-lg font-semibold text-base sm:text-lg mt-8 transition-all duration-300 ease-in-out hover:-translate-y-0.5 hover:shadow-[0_10px_30px_rgba(255,255,255,0.15)] active:translate-y-0 active:shadow-[0_5px_15px_rgba(255,255,255,0.1)]">Start building</a></div></section></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

@@ -1,0 +1,57 @@
+# Build Points Levels List in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Points Levels List screenshot](screenshot.png)
+
+## Component
+
+- Author group: `trophyso`
+- Component: `points-levels-list`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: trophyso
+- Component slug: points-levels-list
+- Demo slug: default
+- Title: points-levels-list
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div style="padding: 16px;"><div class="bg-card w-full rounded-xl border"><div role="list" aria-label="Points levels" class="divide-border divide-y"><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield h-3.5 w-3.5" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path></svg></span><span class="text-foreground text-sm tabular-nums">0-499</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Beginner</span><span class="text-muted-foreground text-sm"></span></div><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-half h-3.5 w-3.5" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="M12 22V2"></path></svg></span><span class="text-foreground text-sm tabular-nums">500-2,499</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Novice</span><span class="text-muted-foreground text-sm"></span></div><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check h-3.5 w-3.5" aria-hidden="true"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"></path><path d="m9 12 2 2 4-4"></path></svg></span><span class="text-foreground text-sm tabular-nums">2,500-4,999</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Intermediate</span><span class="text-muted-foreground text-sm"></span></div><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shield-check h-3.5 w-3.5" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"></path><path d="m9 12 2 2 4-4"></path></svg></span><span class="text-foreground text-sm tabular-nums">5,000-7,499</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Professional</span><span class="text-muted-foreground text-sm"></span></div><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-medal h-3.5 w-3.5" aria-hidden="true"><path d="M7.21 15 2.66 7.14a2 2 0 0 1 .13-2.2L4.4 2.8A2 2 0 0 1 6 2h12a2 2 0 0 1 1.6.8l1.6 2.14a2 2 0 0 1 .14 2.2L16.79 15"></path><path d="M11 12 5.12 2.2"></path><path d="m13 12 5.88-9.8"></path><path d="M8 7h8"></path><circle cx="12" cy="17" r="5"></circle><path d="M12 18v-2h-.5"></path></svg></span><span class="text-foreground text-sm tabular-nums">7,500-9,999</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Expert</span><span class="text-muted-foreground text-sm"></span></div><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy h-3.5 w-3.5" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg></span><span class="text-foreground text-sm tabular-nums">10,000-19,999</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Master</span><span class="text-muted-foreground text-sm"></span></div><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trophy h-3.5 w-3.5" aria-hidden="true"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path><path d="M4 22h16"></path><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path></svg></span><span class="text-foreground text-sm tabular-nums">20,000-49,999</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Grand Master</span><span class="text-muted-foreground text-sm"></span></div><div role="listitem" class="grid grid-cols-[14rem_1fr_12rem] items-center gap-4 px-4 py-3"><div class="flex items-center gap-3"><span aria-hidden="true" class="inline-flex h-6 w-6 items-center justify-center rounded-full bg-primary text-background"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles h-3.5 w-3.5" aria-hidden="true"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"></path><path d="M20 3v4"></path><path d="M22 5h-4"></path><path d="M4 17v2"></path><path d="M5 18H3"></path></svg></span><span class="text-foreground text-sm tabular-nums">50,000+</span></div><span class="text-foreground truncate text-sm font-semibold whitespace-nowrap">Enlightened</span><span class="text-muted-foreground text-sm"></span></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

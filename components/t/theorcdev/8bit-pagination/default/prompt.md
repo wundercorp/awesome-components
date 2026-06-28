@@ -1,0 +1,57 @@
+# Build 8bit Pagination in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![8bit Pagination screenshot](screenshot.png)
+
+## Component
+
+- Author group: `theorcdev`
+- Component: `8bit-pagination`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: theorcdev
+- Component slug: 8bit-pagination
+- Demo slug: default
+- Title: 8bit-pagination
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex w-full min-h-screen items-center justify-center bg-background p-8 overflow-hidden"><nav role="navigation" aria-label="pagination" data-slot="pagination" class="mx-auto flex w-full justify-center text-card-foreground retro"><ul data-slot="pagination-content" class="flex flex-row items-center gap-2 retro"><li data-slot="pagination-item" class="retro"><a data-slot="pagination-link" class="items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 relative group flex flex-row w-full text-sm bg-transparent hover:bg-transparent active:bg-transparent focus:bg-transparent rounded-none border-dashed border-y-4 border-transparent hover:border-foreground focus:border-foreground active:border-transparent dark:hover:border-ring dark:focus:border-ring data-[active=true]:border-none aria-[current=page]:border-none retro" href="#"><svg width="50" height="50" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="0.25" color="" class="size-7" aria-label="chevron-left"><rect width="14" height="14" rx="1" transform="matrix(-1 0 0 1 128 136)"></rect><rect width="14" height="14" rx="1" transform="matrix(-1 0 0 1 144 152)"></rect><rect width="14" height="14" rx="1" transform="matrix(-1 0 0 1 160 72)"></rect><rect width="14" height="14" rx="1" transform="matrix(-1 0 0 1 160 168)"></rect><rect width="14" height="14" rx="1" transform="matrix(-1 0 0 1 112 120)"></rect><rect width="14" height="14" rx="1" transform="matrix(-1 0 0 1 128 104)"></rect><rect width="14" height="14" rx="1" transform="matrix(-1 0 0 1 144 88)"></rect></svg><span class="hidden sm:block">Previous</span></a></li><li data-slot="pagination-item" class="retro"><a data-slot="pagination-link" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10 font-pixel" href="#">1</a></li><li data-slot="pagination-item" class="retro"><a aria-current="page" data-slot="pagination-link" data-active="true" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 border bg-background hover:bg-accent hover:text-accent-foreground h-10 w-10 font-pixel" href="#">2<div class="absolute inset-0 w-full h-full pointer-events-none" style="z-index: 10;"><div class="absolute top-0 left-0 w-full h-1.5 bg-foreground dark:bg-ring pointer-events-none" aria-hidden="true"></div><div class="absolute left-0 bottom-0 w-full h-1.5 bg-foreground dark:bg-ring pointer-events-none" aria-hidden="true"></div><div class="absolute top-1 -left-1 w-1.5 h-1/2 bg-foreground dark:bg-ring pointer-events-none" aria-hidden="true"></div><div class="absolute bottom-1 -left-1 w-1.5 h-1/2 bg-foreground dark:bg-ring pointer-events-none" aria-hidden="true"></div><div class="absolute top-1 -right-1 w-1.5 h-1/2 bg-foreground dark:bg-ring pointer-events-none" aria-hidden="true"></div><div class="absolute bottom-1 -right-1 w-1.5 h-1/2 bg-foreground dark:bg-ring pointer-events-none" aria-hidden="true"></div></div></a></li><li data-slot="pagination-item" class="retro"><a data-slot="pagination-link" class="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-10 w-10 font-pixel" href="#">3</a></li><li data-slot="pagination-item" class="retro"><span aria-hidden="true" data-slot="pagination-ellipsis" class="flex h-9 w-9 items-center justify-center retro"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" aria-hidden="true"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg><span class="sr-only">More pages</span></span></li><li data-slot="pagination-item" class="retro"><a data-slot="pagination-link" class="items-center justify-center whitespace-nowrap font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:text-accent-foreground h-10 relative group bg-transparent hover:bg-transparent active:bg-transparent focus:bg-transparent rounded-none border-dashed border-y-4 border-transparent hover:border-foreground focus:border-foreground active:border-transparent dark:hover:border-ring dark:focus:border-ring data-[active=true]:border-none aria-[current=page]:border-none flex flex-row text-sm w-full retro" href="#"><span class="hidden sm:block">Next</span><svg width="50" height="50" viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="0.25" color="" class="raster-icon size-7" aria-label="chevron-right"><rect x="128" y="136" width="14" height="14" rx="1"></rect><rect x="112" y="152" width="14" height="14" rx="1"></rect><rect x="96" y="72" width="14" height="14" rx="1"></rect><rect x="96" y="168" width="14" height="14" rx="1"></rect><rect x="144" y="120" width="14" height="14" rx="1"></rect><rect x="128" y="104" width="14" height="14" rx="1"></rect><rect x="112" y="88" width="14" height="14" rx="1"></rect></svg></a></li></ul></nav></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

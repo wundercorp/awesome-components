@@ -1,0 +1,57 @@
+# Build Health Stat Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Health Stat Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `ruixenui`
+- Component: `health-stat-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: ruixenui
+- Component slug: health-stat-card
+- Demo slug: default
+- Title: health-stat-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex justify-center py-10"><div class="w-full max-w-md rounded-2xl border bg-card p-6 text-card-foreground shadow-sm"><div class="mb-5 flex items-center gap-3"><div class="text-primary"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-dumbbell h-6 w-6" aria-hidden="true"><path d="M14.4 14.4 9.6 9.6"></path><path d="M18.657 21.485a2 2 0 1 1-2.829-2.828l-1.767 1.768a2 2 0 1 1-2.829-2.829l6.364-6.364a2 2 0 1 1 2.829 2.829l-1.768 1.767a2 2 0 1 1 2.828 2.829z"></path><path d="m21.5 21.5-1.4-1.4"></path><path d="M3.9 3.9 2.5 2.5"></path><path d="M6.404 12.768a2 2 0 1 1-2.829-2.829l1.768-1.767a2 2 0 1 1-2.828-2.829l2.828-2.828a2 2 0 1 1 2.829 2.828l1.767-1.768a2 2 0 1 1 2.829 2.829z"></path></svg></div><h2 class="text-lg font-semibold tracking-tight">Daily Health Overview</h2></div><div class="mb-6 grid grid-cols-3 gap-4 text-center"><div><div class="flex items-center justify-center gap-1"><p class="text-2xl font-bold">7.5</p><span class="text-sm text-muted-foreground">h</span></div><p class="text-xs text-muted-foreground">Sleep</p><div class="mt-1 text-xs font-medium text-green-500">▲ 5%</div></div><div><div class="flex items-center justify-center gap-1"><p class="text-2xl font-bold">2.3</p><span class="text-sm text-muted-foreground">L</span></div><p class="text-xs text-muted-foreground">Hydration</p><div class="mt-1 text-xs font-medium text-red-500">▼ -3%</div></div><div><div class="flex items-center justify-center gap-1"><p class="text-2xl font-bold">10400</p></div><p class="text-xs text-muted-foreground">Steps</p><div class="mt-1 text-xs font-medium text-green-500">▲ 8%</div></div></div><div class="rounded-lg bg-muted/50 p-4"><div class="flex w-full items-end justify-between gap-2" style="height: 120px; opacity: 1;"><div class="flex-1 rounded-full cursor-pointer" data-state="closed" tabindex="0" style="height: 80%; background: linear-gradient(rgb(59, 130, 246) 0%, rgba(59, 130, 246, 0.8) 100%); transform: none;"></div><div class="flex-1 rounded-full cursor-pointer" data-state="closed" tabindex="0" style="height: 65%; background: linear-gradient(rgb(34, 197, 94) 0%, rgba(34, 197, 94, 0.8) 100%); transform: none;"></div><div class="flex-1 rounded-full cursor-pointer" data-state="closed" tabindex="0" style="height: 55%; background: linear-gradient(rgb(245, 158, 11) 0%, rgba(245, 158, 11, 0.8) 100%); transform: none;"></div><div class="flex-1 rounded-full cursor-pointer" data-state="closed" tabindex="0" style="height: 90%; background: linear-gradient(rgb(239, 68, 68) 0%, rgba(239, 68, 68, 0.8) 100%); transform: none;"></div></div></div><div class="mt-6"><h4 class="mb-2 text-sm font-medium text-muted-foreground">Data Breakdown</h4><div class="grid grid-cols-2 gap-2 sm:grid-cols-4"><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full" style="background-color: rgb(59, 130, 246);"></span><span class="text-xs text-muted-foreground">Deep Sleep (80%)</span></div><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full" style="background-color: rgb(34, 197, 94);"></span><span class="text-xs text-muted-foreground">Hydration (65%)</span></div><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full" style="background-color: rgb(245, 158, 11);"></span><span class="text-xs text-muted-foreground">Exercise (55%)</span></div><div class="flex items-center gap-2"><span class="h-2 w-2 rounded-full" style="background-color: rgb(239, 68, 68);"></span><span class="text-xs text-muted-foreground">Nutrition (90%)</span></div></div></div></div></div></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.

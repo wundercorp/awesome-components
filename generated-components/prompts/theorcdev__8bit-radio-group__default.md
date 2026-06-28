@@ -1,0 +1,47 @@
+# Recreate this 21st.dev component
+
+You are implementing a React component based on a public 21st.dev community component.
+
+## Component identity
+
+- Source page: https://21st.dev/community/components/theorcdev/8bit-radio-group/default
+- Registry URL: https://21st.dev/r/theorcdev/8bit-radio-group
+- Author: theorcdev
+- Component slug: 8bit-radio-group
+- Demo slug: default
+- Title: 8bit-radio-group
+- Description: 
+- Registry status: Registry fetch failed from https://21st.dev/r/theorcdev/8bit-radio-group with status 403. Error: {"error":"Authentication required"}
+- Local rendered HTML file: generated-21st-prompts/rendered-html/theorcdev__8bit-radio-group__default.html
+- Local screenshot file: generated-21st-prompts/screenshots/theorcdev__8bit-radio-group__default.png
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No registry metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><div class="flex w-full min-h-screen items-center justify-center bg-background p-8 overflow-hidden"><div role="radiogroup" data-slot="radio-group" class="grid gap-2 space-y-3"><div class="flex items-center gap-3"><div class="relative"><button type="button" role="radio" aria-checked="true" data-state="checked" data-slot="radio-group-item" class="flex items-center justify-center rounded-none border-none py-3 peer border-input dark:bg-input/30 focus-visible:border-ring focus-visible:ring-ring/50 size-4 shrink-0 outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary" id="r1"><svg viewBox="0 0 256 256" fill="currentColor" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" stroke-width="0" class="w-2.5" aria-label="square"><rect x="30" y="35" width="200" height="200" rx="0"></rect><rect x="80" y="5" width="100" height="200" rx="0"></rect><rect x="0" y="85" width="100" height="100" rx="0"></rect><rect x="80" y="65" width="100" height="200" rx="0"></rect><rect x="200" y="85" width="100" height="100" rx="0"></rect></svg></button><div class="absolute top-[0px] w-2.5 left-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[0px] w-2.5 right-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[0px] w-2.5 left-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[0px] w-2.5 right-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[4px] -left-1 w-1 h-[15px] bg-foreground dark:bg-ring"></div><div class="absolute top-[4px] -right-1 w-1 h-[15px] bg-foreground dark:bg-ring"></div><div class="absolute top-[2px] -right-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[2px] -left-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[2px] -right-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[2px] -left-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div></div><label for="r1" class="text-sm font-pixel cursor-pointer">Warrior</label></div><div class="flex items-center gap-3"><div class="relative"><button type="button" role="radio" aria-checked="false" data-state="unchecked" data-slot="radio-group-item" class="flex items-center justify-center rounded-none border-none py-3 peer border-input dark:bg-input/30 focus-visible:border-ring focus-visible:ring-ring/50 size-4 shrink-0 outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary" id="r2"></button><div class="absolute top-[0px] w-2.5 left-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[0px] w-2.5 right-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[0px] w-2.5 left-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[0px] w-2.5 right-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[4px] -left-1 w-1 h-[15px] bg-foreground dark:bg-ring"></div><div class="absolute top-[4px] -right-1 w-1 h-[15px] bg-foreground dark:bg-ring"></div><div class="absolute top-[2px] -right-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[2px] -left-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[2px] -right-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[2px] -left-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div></div><label for="r2" class="text-sm font-pixel cursor-pointer">Mage</label></div><div class="flex items-center gap-3"><div class="relative"><button type="button" role="radio" aria-checked="false" data-state="unchecked" data-slot="radio-group-item" class="flex items-center justify-center rounded-none border-none py-3 peer border-input dark:bg-input/30 focus-visible:border-ring focus-visible:ring-ring/50 size-4 shrink-0 outline-none focus-visible:ring-[3px] disabled:cursor-not-allowed disabled:opacity-50 data-[state=checked]:bg-primary data-[state=checked]:text-primary-foreground dark:data-[state=checked]:bg-primary data-[state=checked]:border-primary" id="r3"></button><div class="absolute top-[0px] w-2.5 left-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[0px] w-2.5 right-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[0px] w-2.5 left-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[0px] w-2.5 right-1.5 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[4px] -left-1 w-1 h-[15px] bg-foreground dark:bg-ring"></div><div class="absolute top-[4px] -right-1 w-1 h-[15px] bg-foreground dark:bg-ring"></div><div class="absolute top-[2px] -right-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute top-[2px] -left-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[2px] -right-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div><div class="absolute bottom-[2px] -left-0.5 w-1 h-1 bg-foreground dark:bg-ring"></div></div><label for="r3" class="text-sm font-pixel cursor-pointer">Rogue</label></div></div></div></div></div></div>
+```
+
+## Public registry source files
+
+No public registry source files were available.

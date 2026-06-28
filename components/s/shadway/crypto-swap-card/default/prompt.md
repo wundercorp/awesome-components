@@ -1,0 +1,57 @@
+# Build Crypto Swap Card in BuilderStudio
+
+> Build this component in our Agentic IDE: [BuilderStudio](https://builderstudio.dev).
+>
+> Join the BuilderStudio community on [Discord](https://discord.gg/QdWeSGCqfe) and [Reddit](https://reddit.com/r/builderstudio).
+
+![Crypto Swap Card screenshot](screenshot.png)
+
+## Component
+
+- Author group: `shadway`
+- Component: `crypto-swap-card`
+- Variant: `default`
+- Rendered HTML snapshot: [`rendered.html`](rendered.html)
+
+## BuilderStudio prompt
+
+You are implementing a React component based on a component reference.
+
+## Component identity
+
+- Author: shadway
+- Component slug: crypto-swap-card
+- Demo slug: default
+- Title: crypto-swap-card
+- Description: 
+
+## Goal
+
+Recreate this component in a React + TypeScript + Tailwind CSS project. Preserve the visual layout, spacing, colors, border radius, shadows, interaction behavior, animation behavior, responsive behavior, and dark mode behavior shown in the rendered demo.
+
+## Implementation requirements
+
+- Use React and TypeScript.
+- Use Tailwind CSS classes whenever possible.
+- Keep the component self-contained unless the source files require helper components.
+- If the source uses CSS variables, custom CSS, animations, or keyframes, include them.
+- If the source uses external packages, list and use the required packages.
+- Preserve accessibility attributes, button semantics, links, keyboard behavior, and ARIA attributes when visible in the source.
+- Do not replace the component with a simplified placeholder.
+- Return complete production-ready code.
+
+## Dependencies
+
+No reference metadata available.
+
+## Rendered DOM snapshot
+
+This is the rendered demo HTML extracted from the live preview. Use it to verify structure, class names, visible content, and layout.
+
+```html
+<div id="root"><div class="w-screen min-h-screen flex justify-center items-center"><div class="w-screen min-h-screen flex justify-center items-center"><section role="region" aria-label="Crypto swap" class="w-full max-w-md sm:max-w-lg rounded-lg border border-border bg-card text-card-foreground shadow-sm p-4 sm:p-6 md:p-8 flex flex-col gap-4 sm:gap-6 "><header class="flex items-center justify-between"><div class="space-y-1"><h2 class="text-pretty text-lg sm:text-xl font-semibold">Swap</h2><p class="text-sm text-muted-foreground">Real‑time prices and logos from CoinGecko</p></div><button type="button" class="inline-flex items-center gap-2 rounded-md px-3 py-2 text-sm border border-border bg-secondary hover:bg-accent transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background" aria-label="Refresh prices"><span class="sr-only sm:not-sr-only">Refresh</span>⟳</button></header><div class="grid grid-cols-1 gap-3 sm:gap-4 items-end"><div class="flex flex-col gap-2"><label for="from-amount" class="text-sm">You pay</label><div class="flex items-center gap-3 rounded-md border border-border bg-background px-3 py-2.5 focus-within:ring-2 focus-within:ring-ring focus-within:ring-offset-2 focus-within:ring-offset-background"><div class="relative"><button type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="token-popover-from" class="inline-flex items-center gap-2 rounded-md border border-border bg-secondary hover:bg-accent px-2.5 py-1.5 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background" title="Choose token"><img alt="Bitcoin logo" width="20" height="20" class="size-5 rounded-full border border-border object-cover" crossorigin="anonymous" src="https://coin-images.coingecko.com/coins/images/1/large/bitcoin.png?1696501400"><span class="font-medium">BTC</span><span class="text-muted-foreground hidden sm:inline-block text-xs">Bitcoin</span><span aria-hidden="true" class="ml-1 text-xs">▼</span></button></div><input id="from-amount" inputmode="decimal" pattern="^[0-9]*[.,]?[0-9]*$" placeholder="0.00" class="flex-1 bg-transparent outline-none text-right text-lg sm:text-xl placeholder:text-muted-foreground" aria-label="Amount you pay" value="1"></div><div class="flex items-center justify-between text-xs text-muted-foreground"><span class="flex items-center gap-1">Bitcoin price</span><div class="min-w-[80px] text-right"><span class="tabular-nums" style="opacity: 1; transform: none;">$59,898.00</span></div></div></div></div><div class="flex items-center justify-center"><button type="button" class="rounded-full border border-border bg-secondary hover:bg-accent px-4 py-2 text-sm focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background" aria-label="Swap tokens" title="Swap tokens" tabindex="0">⇅ Swap</button></div><div class="grid grid-cols-1 gap-3 sm:gap-4 items-end"><div class="flex flex-col gap-2"><label for="to-amount" class="text-sm">You receive</label><div class="flex items-center gap-3 rounded-md border border-border bg-background px-3 py-2.5 focus-within:ring-2 focus-within:ring-ring focus-within:ring-offset-2 focus-within:ring-offset-background"><div class="relative"><button type="button" aria-haspopup="listbox" aria-expanded="false" aria-controls="token-popover-to" class="inline-flex items-center gap-2 rounded-md border border-border bg-secondary hover:bg-accent px-2.5 py-1.5 text-sm transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background" title="Choose token"><img alt="Ethereum logo" width="20" height="20" class="size-5 rounded-full border border-border object-cover" crossorigin="anonymous" src="https://coin-images.coingecko.com/coins/images/279/large/ethereum.png?1696501628"><span class="font-medium">ETH</span><span class="text-muted-foreground hidden sm:inline-block text-xs">Ethereum</span><span aria-hidden="true" class="ml-1 text-xs">▼</span></button></div><output id="to-amount" class="flex-1 text-right text-lg sm:text-xl" aria-live="polite">38.139203</output></div><div class="flex items-center justify-between text-xs text-muted-foreground"><span class="flex items-center gap-1">Ethereum price</span><div class="min-w-[80px] text-right"><span class="tabular-nums" style="opacity: 1; transform: none;">$1,570.51</span></div></div></div></div><div class="rounded-md border border-border bg-muted px-3 py-2 text-sm" style="opacity: 1;">1 BTC ≈ 38.139203 ETH • 24h: <span class="text-red-500">-0.07%</span></div><button type="button" class="w-full rounded-md px-4 py-3 text-sm font-medium transition-colors bg-primary text-primary-foreground hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 focus-visible:ring-offset-background" tabindex="0">Swap Now</button><footer class="flex items-center justify-between text-xs text-muted-foreground"><a href="https://www.coingecko.com/en/api" target="_blank" rel="noreferrer" class="underline underline-offset-2 hover:no-underline">Powered by CoinGecko</a><span aria-label="Auto-refresh interval">Updates every 15s</span></footer></section></div></div></div>
+```
+
+## Reference source files
+
+No reference source files were available.
